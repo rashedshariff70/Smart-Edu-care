@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Student Login — SmartEduCare</title>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg:       #04090f;
+    --card:     #080f1a;
+    --card2:    #0c1523;
+    --border:   rgba(255,255,255,0.07);
+    --border2:  rgba(0,229,160,0.25);
+    --accent:   #00e5a0;
+    --accent2:  #00b87c;
+    --blue:     #4facfe;
+    --text:     #dde8f5;
+    --text2:    #7a8fa8;
+    --err:      #ff5b72;
+    --glow:     rgba(0,229,160,0.18);
+  }
+
+  *, *::before, *::after { margin:0; padding:0; box-sizing:border-box; }
+
+  html, body {
+    height:100%;
+    font-family:'Plus Jakarta Sans', sans-serif;
+    background:var(--bg);
+    color:var(--text);
+    overflow:hidden;
+  }
+
+  /* ── ANIMATED BACKGROUND ── */
+  .bg-canvas {
+    position:fixed; inset:0; z-index:0; overflow:hidden;
+  }
+  .bg-canvas::before {
+    content:"";
+    position:absolute; inset:0;
+    background:
+      radial-gradient(ellipse 70% 60% at 15% 20%, rgba(0,229,160,0.08) 0%, transparent 60%),
+      radial-gradient(ellipse 50% 50% at 85% 80%, rgba(79,172,254,0.06) 0%, transparent 55%),
+      radial-gradient(ellipse 40% 40% at 50% 50%, rgba(0,184,124,0.04) 0%, transparent 60%);
+  }
+  .grid-lines {
+    position:absolute; inset:0;
+    background-image:
+      linear-gradient(rgba(0,229,160,0.04) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(0,229,160,0.04) 1px, transparent 1px);
+    background-size: 52px 52px;
+    mask-image: radial-gradient(ellipse 80% 80% at 50% 50%, black 30%, transparent 100%);
+  }
+  .orb {
+    position:absolute; border-radius:50%; filter:blur(90px); animation:drift 12s ease-in-out infinite;
+  }
+  .orb1 { width:500px; height:500px; top:-180px; left:-160px; background:rgba(0,229,160,0.07); animation-delay:0s; }
+  .orb2 { width:380px; height:380px; bottom:-140px; right:-120px; background:rgba(79,172,254,0.06); animation-delay:-6s; }
+  @keyframes drift {
+    0%,100% { transform:translate(0,0) scale(1); }
+    50%      { transform:translate(24px,18px) scale(1.06); }
+  }
+
+  /* ── LAYOUT ── */
+  .page {
+    position:relative; z-index:1;
+    min-height:100vh;
+    display:flex; align-items:center; justify-content:center;
+    padding:24px 16px;
+  }
+
+  /* ── CARD ── */
+  .card {
+    width:100%; max-width:480px;
+    background:var(--card);
+    border:1px solid var(--border);
+    border-radius:24px;
+    overflow:hidden;
+    box-shadow:
+      0 0 0 1px rgba(0,229,160,0.06),
+      0 32px 80px rgba(0,0,0,0.55),
+      0 0 60px rgba(0,229,160,0.04);
+    animation:cardIn .5s cubic-bezier(.16,1,.3,1) both;
+  }
+  @keyframes cardIn {
+    from { opacity:0; transform:translateY(22px) scale(.97); }
+    to   { opacity:1; transform:translateY(0)    scale(1);   }
+  }
+
+  /* ── CARD TOP ACCENT ── */
+  .card-accent {
+    height:3px;
+    background:linear-gradient(90deg, var(--accent), var(--blue), var(--accent2));
+  }
+
+  /* ── HEADER ── */
+  .card-header {
+    padding:32px 36px 24px;
+    border-bottom:1px solid var(--border);
+    display:flex; align-items:center; gap:16px;
+  }
+  .logo-box {
+    width:52px; height:52px;
+    border-radius:14px;
+    background:linear-gradient(135deg, rgba(0,229,160,0.15), rgba(79,172,254,0.1));
+    border:1px solid rgba(0,229,160,0.2);
+    display:flex; align-items:center; justify-content:center;
+    font-size:24px; flex-shrink:0;
+    box-shadow:0 0 20px rgba(0,229,160,0.12);
+  }
+  .header-text {}
+  .header-text h1 {
+    font-family:'Syne', sans-serif;
+    font-size:1.35rem; font-weight:800;
+    letter-spacing:-.3px;
+    line-height:1.2;
+  }
+  .header-text h1 span { color:var(--accent); }
+  .header-text p { font-size:12px; color:var(--text2); margin-top:4px; }
+
+  /* ── STATUS BADGE ── */
+  .status-badge {
+    display:inline-flex; align-items:center; gap:6px;
+    background:rgba(0,229,160,0.08); border:1px solid rgba(0,229,160,0.18);
+    border-radius:20px; padding:4px 12px;
+    font-size:11px; font-weight:600; color:var(--accent);
+    margin-left:auto; flex-shrink:0; white-space:nowrap;
+  }
+  .status-dot {
+    width:6px; height:6px; border-radius:50%;
+    background:var(--accent); animation:blink 2s infinite;
+  }
+  @keyframes blink { 0%,100%{opacity:1} 50%{opacity:.3} }
+
+  /* ── BODY ── */
+  .card-body { padding:28px 36px 32px; }
+
+  /* ── ERROR / SUCCESS ALERTS ── */
+  .alert {
+    display:flex; align-items:flex-start; gap:10px;
+    border-radius:12px; padding:12px 15px;
+    font-size:13px; font-weight:500;
+    margin-bottom:20px; line-height:1.5;
+    animation:alertIn .3s ease both;
+  }
+  @keyframes alertIn { from{opacity:0;transform:translateY(-6px)} to{opacity:1;transform:none} }
+  .alert-err {
+    background:rgba(255,91,114,0.08); border:1px solid rgba(255,91,114,0.22);
+    color:var(--err);
+  }
+  .alert-ok {
+    background:rgba(0,229,160,0.07); border:1px solid rgba(0,229,160,0.22);
+    color:var(--accent);
+  }
+  .alert i { font-size:15px; flex-shrink:0; margin-top:1px; }
+
+  /* Django messages */
+  {% for m in messages %}
+  {% endfor %}
+
+  /* ── FORM ── */
+  .form-group { margin-bottom:18px; }
+  .form-group label {
+    display:block;
+    font-size:10.5px; font-weight:700;
+    letter-spacing:.7px; text-transform:uppercase;
+    color:var(--text2); margin-bottom:7px;
+    display:flex; align-items:center; gap:6px;
+  }
+  .form-group label .lico { font-size:12px; }
+
+  .form-control {
+    width:100%;
+    background:var(--card2); border:1px solid var(--border);
+    border-radius:12px; color:var(--text);
+    font-family:'Plus Jakarta Sans', sans-serif;
+    font-size:13.5px; font-weight:500;
+    padding:12px 15px; outline:none;
+    transition:border-color .2s, box-shadow .2s;
+    -webkit-appearance:none;
+  }
+  .form-control::placeholder { color:var(--text2); opacity:.6; }
+  .form-control:focus {
+    border-color:rgba(0,229,160,0.5);
+    box-shadow:0 0 0 3px rgba(0,229,160,0.1);
+  }
+  select.form-control { cursor:pointer; }
+  select.form-control option { background:var(--card2); }
+
+  /* ── PASSWORD FIELD ── */
+  .pw-wrap { position:relative; }
+  .pw-wrap .form-control { padding-right:44px; }
+  .pw-toggle {
+    position:absolute; right:13px; top:50%;
+    transform:translateY(-50%);
+    background:none; border:none;
+    color:var(--text2); cursor:pointer;
+    font-size:14px; padding:4px;
+    transition:color .15s;
+  }
+  .pw-toggle:hover { color:var(--accent); }
+
+  /* ── DIVIDER ── */
+  .divider {
+    display:flex; align-items:center; gap:12px;
+    margin:20px 0;
+  }
+  .divider::before, .divider::after {
+    content:""; flex:1; height:1px; background:var(--border);
+  }
+  .divider span { font-size:11px; color:var(--text2); white-space:nowrap; }
+
+  /* ── SUBMIT BUTTON ── */
+  .btn-submit {
+    width:100%; padding:14px;
+    background:linear-gradient(135deg, var(--accent), var(--accent2));
+    color:#04090f; border:none; border-radius:14px;
+    font-family:'Syne', sans-serif;
+    font-size:14px; font-weight:800;
+    letter-spacing:.2px;
+    cursor:pointer;
+    transition:all .22s cubic-bezier(.16,1,.3,1);
+    display:flex; align-items:center; justify-content:center; gap:8px;
+    box-shadow:0 8px 24px rgba(0,229,160,0.25);
+    position:relative; overflow:hidden;
+  }
+  .btn-submit::after {
+    content:"";
+    position:absolute; inset:0;
+    background:linear-gradient(135deg, rgba(255,255,255,0.15), transparent);
+    opacity:0; transition:opacity .2s;
+  }
+  .btn-submit:hover {
+    transform:translateY(-2px);
+    box-shadow:0 14px 36px rgba(0,229,160,0.4);
+  }
+  .btn-submit:hover::after { opacity:1; }
+  .btn-submit:active { transform:translateY(0); }
+  .btn-submit:disabled {
+    opacity:.5; cursor:not-allowed; transform:none;
+  }
+  .btn-icon { font-size:16px; }
+  .btn-spin {
+    display:none; width:16px; height:16px;
+    border:2px solid rgba(4,9,15,0.2);
+    border-top-color:#04090f;
+    border-radius:50%; animation:spin .6s linear infinite;
+  }
+  @keyframes spin { to{transform:rotate(360deg)} }
+
+  /* ── FOOTER LINKS ── */
+  .card-footer {
+    padding:16px 36px 24px;
+    display:flex; align-items:center; justify-content:space-between;
+    flex-wrap:wrap; gap:10px;
+    border-top:1px solid var(--border);
+  }
+  .footer-link {
+    font-size:12px; color:var(--text2);
+    text-decoration:none; transition:color .15s;
+    display:flex; align-items:center; gap:5px;
+  }
+  .footer-link:hover { color:var(--accent); }
+  .footer-brand {
+    font-family:'Syne', sans-serif;
+    font-size:11px; font-weight:700;
+    color:var(--text2); opacity:.5;
+  }
+  .footer-brand span { color:var(--accent); opacity:1; }
+
+  /* ── FEATURE PILLS ── */
+  .feature-pills {
+    display:flex; flex-wrap:wrap; gap:7px;
+    margin-bottom:22px;
+  }
+  .fpill {
+    display:inline-flex; align-items:center; gap:5px;
+    background:rgba(255,255,255,0.03);
+    border:1px solid var(--border);
+    border-radius:20px; padding:4px 12px;
+    font-size:11px; color:var(--text2);
+  }
+  .fpill .fi { font-size:11px; }
+
+  /* ── RESPONSIVE ── */
+  @media(max-width:500px) {
+    .card-header, .card-body, .card-footer { padding-left:22px; padding-right:22px; }
+    html, body { overflow:auto; }
+    .page { min-height:100%; align-items:flex-start; padding-top:32px; }
+  }
+</style>
+</head>
+<body>
+
+<div class="bg-canvas">
+  <div class="grid-lines"></div>
+  <div class="orb orb1"></div>
+  <div class="orb orb2"></div>
+</div>
+
+<div class="page">
+  <div class="card">
+
+    <div class="card-accent"></div>
+
+    <!-- HEADER -->
+    <div class="card-header">
+      <div class="logo-box">🎓</div>
+      <div class="header-text">
+        <h1>Student <span>Portal</span></h1>
+        <p>Sign in to access your academic assistant</p>
+      </div>
+      <div class="status-badge">
+        <span class="status-dot"></span>
+        AI Ready
+      </div>
+    </div>
+
+    <!-- BODY -->
+    <div class="card-body">
+
+
+
+      <!-- Feature pills -->
+      <div class="feature-pills">
+        <span class="fpill"><span class="fi">🦙</span> LLaMA 4 Scout</span>
+        <span class="fpill"><span class="fi">✨</span> GPT-OSS 120B</span>
+        <span class="fpill"><span class="fi">🎤</span> Whisper Voice</span>
+        <span class="fpill"><span class="fi">📊</span> Live Data</span>
+      </div>
+
+      <form method="POST" id="loginForm" onsubmit="handleSubmit(event)">
+        {% csrf_token %}
+
+        <!-- College File -->
+        <div class="form-group">
+          <label>
+            <span class="lico">🏫</span> College / Institution File
+          </label>
+          <select name="college_file" id="collegeFile" class="form-control" required
+                  onchange="updatePlaceholders()">
+            <option value="">— Select your college file —</option>
+            {% for cf in college_files %}
+              <option value="{{ cf.file }}">{{ cf.name }}</option>
+            {% endfor %}
+          </select>
+        </div>
+
+        <!-- AISHE Code -->
+        <div class="form-group">
+          <label>
+            <span class="lico">🏛️</span> AISHE Code
+          </label>
+          <input type="text" name="aishe_code" id="aisheCode"
+                 class="form-control"
+                 placeholder="e.g. AISHE995321"
+                 value="{{ request.POST.aishe_code|default:'' }}"
+                 required autocomplete="off" spellcheck="false" />
+        </div>
+
+        <!-- Student ID -->
+        <div class="form-group">
+          <label>
+            <span class="lico">🪪</span> Student ID / Roll Number
+          </label>
+          <input type="text" name="student_id" id="studentId"
+                 class="form-control"
+                 placeholder="e.g. IITME3YR20240001"
+                 value="{{ request.POST.student_id|default:'' }}"
+                 required autocomplete="off" spellcheck="false" />
+        </div>
+
+        <!-- Password -->
+        <div class="form-group">
+          <label>
+            <span class="lico">🔑</span> Password
+          </label>
+          <div class="pw-wrap">
+            <input type="password" name="password" id="passwordField"
+                   class="form-control"
+                   placeholder="Your student password"
+                   required autocomplete="current-password" />
+            <button type="button" class="pw-toggle" onclick="togglePwd()" id="pwToggle"
+                    title="Show / hide password">👁</button>
+          </div>
+        </div>
+
+        <div class="divider"><span>Secure Academic Login</span></div>
+
+        <!-- Submit -->
+        <button type="submit" class="btn-submit" id="submitBtn">
+          <span class="btn-icon">🚀</span>
+          <span id="btnText">Sign In to My Portal</span>
+          <span class="btn-spin" id="btnSpin"></span>
+        </button>
+
+      </form>
+    </div>
+
+    <!-- FOOTER -->
+    <div class="card-footer">
+      <a href="{% url 'indexs' %}" class="footer-link">← Back to Home</a>
+      <span class="footer-brand">Smart<span>Edu</span>Care · AI</span>
+    </div>
+
+  </div>
+</div>
+
+<script>
+  /* ── Toggle password visibility ── */
+  function togglePwd() {
+    var f = document.getElementById('passwordField');
+    var b = document.getElementById('pwToggle');
+    if (f.type === 'password') {
+      f.type = 'text'; b.textContent = '🙈';
+    } else {
+      f.type = 'password'; b.textContent = '👁';
+    }
+  }
+
+  /* ── Submit with loading state ── */
+  function handleSubmit(e) {
+    var btn  = document.getElementById('submitBtn');
+    var txt  = document.getElementById('btnText');
+    var spin = document.getElementById('btnSpin');
+
+    btn.disabled       = true;
+    txt.textContent    = 'Signing in…';
+    spin.style.display = 'inline-block';
+  }
+
+  /* ── Update field placeholder hint when college changes ── */
+  function updatePlaceholders() {
+    var sel = document.getElementById('collegeFile');
+    if (sel.value) {
+      document.getElementById('aisheCode').focus();
+    }
+  }
+
+  /* ── Auto-focus first empty field on load ── */
+  window.addEventListener('DOMContentLoaded', function () {
+    var cf = document.getElementById('collegeFile');
+    var ac = document.getElementById('aisheCode');
+    var si = document.getElementById('studentId');
+
+    if (!cf.value)          { cf.focus(); return; }
+    if (!ac.value.trim())   { ac.focus(); return; }
+    if (!si.value.trim())   { si.focus(); return; }
+    document.getElementById('passwordField').focus();
+  });
+</script>
+
+</body>
+</html>

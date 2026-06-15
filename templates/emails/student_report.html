@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Performance Report</title>
+    <style>
+        /* ── RESET ── */
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+            background-color: #eef2f7;
+            color: #1a202c;
+            line-height: 1.6;
+        }
+
+        /* ── OUTER WRAPPER ── */
+        .wrapper {
+            max-width: 660px;
+            margin: 32px auto;
+            background: #ffffff;
+            border-radius: 16px;
+            overflow: hidden;
+            box-shadow: 0 4px 32px rgba(15,37,71,0.13);
+        }
+
+        /* ── HEADER ── */
+        .header {
+            background: linear-gradient(135deg, #0f2547 0%, #1e4d8c 55%, #2563eb 100%);
+            padding: 44px 40px 36px;
+            text-align: center;
+            position: relative;
+        }
+
+        .header-badge {
+            display: inline-block;
+            background: rgba(255,255,255,0.12);
+            border: 1px solid rgba(255,255,255,0.22);
+            color: rgba(255,255,255,0.88);
+            font-size: 11px;
+            font-weight: 700;
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
+            padding: 5px 14px;
+            border-radius: 99px;
+            margin-bottom: 18px;
+        }
+
+        .header h1 {
+            font-size: 28px;
+            font-weight: 700;
+            color: #ffffff;
+            letter-spacing: -0.5px;
+            margin-bottom: 8px;
+        }
+
+        .header p {
+            font-size: 13.5px;
+            color: rgba(255,255,255,0.65);
+        }
+
+        /* ── CONTENT PADDING ── */
+        .content {
+            padding: 36px 40px;
+        }
+
+        /* ── STUDENT INFO CARD ── */
+        .student-card {
+            background: #f0f5ff;
+            border: 1px solid #c7d8f5;
+            border-radius: 12px;
+            padding: 22px 24px;
+            margin-bottom: 32px;
+        }
+
+        .student-card-header {
+            font-size: 10px;
+            font-weight: 800;
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
+            color: #1e4d8c;
+            margin-bottom: 14px;
+        }
+
+        .info-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px 20px;
+        }
+
+        .info-cell { font-size: 13px; }
+
+        .info-cell .lbl {
+            font-weight: 700;
+            color: #1e4d8c;
+            display: block;
+            font-size: 11px;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            margin-bottom: 2px;
+        }
+
+        .info-cell .val {
+            color: #374151;
+            font-size: 13.5px;
+        }
+
+        /* ── RISK BANNER ── */
+        .risk-banner {
+            border-radius: 10px;
+            padding: 16px 20px;
+            margin-bottom: 30px;
+            display: flex;
+            align-items: center;
+            gap: 16px;
+        }
+
+        .risk-banner.risk-low    { background: #d1fae5; border: 1px solid #6ee7b7; }
+        .risk-banner.risk-medium { background: #fef3c7; border: 1px solid #fcd34d; }
+        .risk-banner.risk-high   { background: #fee2e2; border: 1px solid #fca5a5; }
+
+        .risk-emoji { font-size: 26px; flex-shrink: 0; }
+
+        .risk-text .risk-label {
+            font-size: 11px;
+            font-weight: 700;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+        }
+
+        .risk-text .risk-value {
+            font-size: 18px;
+            font-weight: 800;
+            line-height: 1.1;
+        }
+
+        .risk-low    .risk-label,
+        .risk-low    .risk-value { color: #065f46; }
+        .risk-medium .risk-label,
+        .risk-medium .risk-value { color: #78350f; }
+        .risk-high   .risk-label,
+        .risk-high   .risk-value { color: #7f1d1d; }
+
+        /* ── SUMMARY BOX ── */
+        .summary-box {
+            background: #f8fafc;
+            border-left: 4px solid #2563eb;
+            border-radius: 0 10px 10px 0;
+            padding: 18px 20px;
+            margin-bottom: 30px;
+            font-size: 14px;
+            color: #374151;
+            line-height: 1.75;
+        }
+
+        /* ── SECTION ── */
+        .section { margin-bottom: 28px; }
+
+        .section-heading {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 14px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #e5e7eb;
+        }
+
+        .section-icon {
+            width: 32px;
+            height: 32px;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 15px;
+            flex-shrink: 0;
+        }
+
+        .icon-green  { background: #d1fae5; }
+        .icon-amber  { background: #fef3c7; }
+        .icon-blue   { background: #dbeafe; }
+        .icon-purple { background: #ede9fe; }
+        .icon-navy   { background: #e0e7ff; }
+
+        .section-heading h2 {
+            font-size: 15px;
+            font-weight: 700;
+            color: #0f2547;
+        }
+
+        /* ── LIST ITEMS ── */
+        .item-list {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            gap: 9px;
+        }
+
+        .item-list li {
+            display: flex;
+            align-items: flex-start;
+            gap: 11px;
+            font-size: 13.5px;
+            color: #374151;
+            line-height: 1.55;
+        }
+
+        .bullet {
+            width: 22px;
+            height: 22px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 11px;
+            font-weight: 800;
+            flex-shrink: 0;
+            margin-top: 1px;
+        }
+
+        .bullet-green  { background: #d1fae5; color: #065f46; }
+        .bullet-amber  { background: #fef3c7; color: #78350f; }
+        .bullet-blue   { background: #dbeafe; color: #1e40af; }
+        .bullet-purple { background: #ede9fe; color: #5b21b6; }
+
+        /* ── PARENT MESSAGE ── */
+        .parent-message {
+            background: linear-gradient(135deg, #f0f5ff 0%, #fef9ec 100%);
+            border: 1px solid #c7d8f5;
+            border-radius: 12px;
+            padding: 22px 24px;
+            margin-bottom: 28px;
+        }
+
+        .parent-message .pm-header {
+            font-size: 10px;
+            font-weight: 800;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: #1e4d8c;
+            margin-bottom: 10px;
+        }
+
+        .parent-message p {
+            font-size: 14px;
+            color: #374151;
+            line-height: 1.7;
+            font-style: italic;
+        }
+
+        /* ── STAT CHIPS ── */
+        .stat-row {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+            margin-bottom: 28px;
+        }
+
+        .stat-chip {
+            flex: 1;
+            min-width: 120px;
+            background: #f8fafc;
+            border: 1px solid #e2e8f0;
+            border-radius: 10px;
+            padding: 14px 16px;
+            text-align: center;
+        }
+
+        .stat-chip .sc-label {
+            font-size: 10px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            color: #94a3b8;
+            margin-bottom: 4px;
+        }
+
+        .stat-chip .sc-value {
+            font-size: 20px;
+            font-weight: 800;
+            color: #0f2547;
+            line-height: 1;
+        }
+
+        .stat-chip .sc-sub {
+            font-size: 11px;
+            color: #94a3b8;
+            margin-top: 2px;
+        }
+
+        /* ── SUBJECT SCORES TABLE ── */
+        .scores-table-wrap {
+            border-radius: 10px;
+            overflow: hidden;
+            border: 1px solid #dde6f5;
+            margin-top: 4px;
+        }
+
+        .scores-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 13px;
+        }
+
+        .scores-table thead tr {
+            background: #1e3a5f;
+            color: #ffffff;
+        }
+
+        .scores-table thead th {
+            padding: 11px 14px;
+            text-align: left;
+            font-size: 11px;
+            font-weight: 700;
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+        }
+
+        .scores-table thead th:not(:first-child) {
+            text-align: center;
+        }
+
+        .scores-table tbody tr:nth-child(even) {
+            background: #f5f9ff;
+        }
+
+        .scores-table tbody tr:nth-child(odd) {
+            background: #ffffff;
+        }
+
+        .scores-table tbody tr:hover {
+            background: #edf3fd;
+        }
+
+        .scores-table tbody td {
+            padding: 10px 14px;
+            border-bottom: 1px solid #e8eef7;
+            color: #374151;
+            font-size: 13px;
+        }
+
+        .scores-table tbody td:not(:first-child) {
+            text-align: center;
+            font-weight: 600;
+            color: #1e3a5f;
+        }
+
+        .scores-table tbody td.dash {
+            color: #94a3b8;
+            font-weight: 400;
+        }
+
+        /* score colour coding */
+        .score-high  { color: #065f46 !important; }
+        .score-mid   { color: #78350f !important; }
+        .score-low   { color: #991b1b !important; }
+
+        /* ── DIVIDER ── */
+        .divider {
+            height: 1px;
+            background: #e5e7eb;
+            margin: 24px 0;
+        }
+
+        /* ── FOOTER ── */
+        .footer {
+            background: #f8fafc;
+            border-top: 1px solid #e5e7eb;
+            padding: 24px 40px;
+            text-align: center;
+        }
+
+        .footer p {
+            font-size: 12px;
+            color: #94a3b8;
+            line-height: 1.6;
+        }
+
+        .footer .disclaimer {
+            font-size: 11px;
+            color: #b0b8c8;
+            margin-top: 8px;
+            font-style: italic;
+        }
+
+        /* ── RESPONSIVE ── */
+        @media (max-width: 600px) {
+            .wrapper  { margin: 0; border-radius: 0; }
+            .content  { padding: 24px 20px; }
+            .header   { padding: 32px 20px 28px; }
+            .footer   { padding: 20px; }
+            .info-grid{ grid-template-columns: 1fr; }
+            .stat-row { flex-direction: column; }
+            .header h1{ font-size: 22px; }
+            .scores-table thead th,
+            .scores-table tbody td { padding: 8px 10px; font-size: 12px; }
+        }
+    </style>
+</head>
+<body>
+<div class="wrapper">
+
+    <!-- ═══════════ HEADER ═══════════ -->
+    <div class="header">
+        <div class="header-badge">📊 Academic Performance Report</div>
+        <h1>Student Performance Report</h1>
+        <p>AI-Powered Analysis &nbsp;·&nbsp; Confidential</p>
+    </div>
+
+    <!-- ═══════════ CONTENT ═══════════ -->
+    <div class="content">
+
+        <!-- STUDENT INFO -->
+        <div class="student-card">
+            <div class="student-card-header">👤 Student Details</div>
+            <div class="info-grid">
+                <div class="info-cell">
+                    <span class="lbl">Name</span>
+                    <span class="val">{{ student_name }}</span>
+                </div>
+                <div class="info-cell">
+                    <span class="lbl">Student ID</span>
+                    <span class="val">{{ student_id }}</span>
+                </div>
+                <div class="info-cell">
+                    <span class="lbl">Department</span>
+                    <span class="val">{{ department }}</span>
+                </div>
+                <div class="info-cell">
+                    <span class="lbl">Grade</span>
+                    <span class="val">{{ grade }}</span>
+                </div>
+                <div class="info-cell">
+                    <span class="lbl">Attendance</span>
+                    <span class="val">{{ attendance }}</span>
+                </div>
+                <div class="info-cell">
+                    <span class="lbl">Overall Average</span>
+                    <span class="val">{{ overall_average }}</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- RISK BANNER -->
+        <div class="risk-banner risk-{{ risk_level|lower }}">
+            <div class="risk-emoji">
+                {% if risk_level == "Low" %}🟢{% elif risk_level == "High" %}🔴{% else %}🟡{% endif %}
+            </div>
+            <div class="risk-text">
+                <div class="risk-label">Academic Risk Level</div>
+                <div class="risk-value">{{ risk_level }} Risk</div>
+            </div>
+        </div>
+
+        <!-- SUMMARY -->
+        {% if overall_summary %}
+        <div class="summary-box">
+            {{ overall_summary }}
+        </div>
+        {% endif %}
+
+        <!-- STAT CHIPS -->
+        <div class="stat-row">
+            <div class="stat-chip">
+                <div class="sc-label">Overall Avg</div>
+                <div class="sc-value">{{ overall_average }}</div>
+                <div class="sc-sub">out of 100</div>
+            </div>
+            <div class="stat-chip">
+                <div class="sc-label">Attendance</div>
+                <div class="sc-value">{{ attendance }}</div>
+                <div class="sc-sub">class presence</div>
+            </div>
+            <div class="stat-chip">
+                <div class="sc-label">Grade</div>
+                <div class="sc-value">{{ grade }}</div>
+                <div class="sc-sub">awarded</div>
+            </div>
+        </div>
+
+        <div class="divider"></div>
+
+        <!-- STRENGTHS -->
+        <div class="section">
+            <div class="section-heading">
+                <div class="section-icon icon-green">✅</div>
+                <h2>Key Strengths</h2>
+            </div>
+            <ul class="item-list">
+                {% for strength in strengths %}
+                <li>
+                    <span class="bullet bullet-green">✓</span>
+                    {{ strength }}
+                </li>
+                {% empty %}
+                <li>
+                    <span class="bullet bullet-green">✓</span>
+                    Demonstrates consistent academic engagement and commitment.
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+
+        <!-- WEAKNESSES -->
+        <div class="section">
+            <div class="section-heading">
+                <div class="section-icon icon-amber">⚠️</div>
+                <h2>Areas for Improvement</h2>
+            </div>
+            <ul class="item-list">
+                {% for weakness in weaknesses %}
+                <li>
+                    <span class="bullet bullet-amber">!</span>
+                    {{ weakness }}
+                </li>
+                {% empty %}
+                <li>
+                    <span class="bullet bullet-amber">!</span>
+                    Continued focus on advanced concepts would strengthen overall performance.
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+
+        <!-- IMPROVEMENT PLAN -->
+        <div class="section">
+            <div class="section-heading">
+                <div class="section-icon icon-blue">📈</div>
+                <h2>Recommended Action Plan</h2>
+            </div>
+            <ul class="item-list">
+                {% for action in improvement_plan %}
+                <li>
+                    <span class="bullet bullet-blue">→</span>
+                    {{ action }}
+                </li>
+                {% empty %}
+                <li>
+                    <span class="bullet bullet-blue">→</span>
+                    Schedule regular reviews with subject faculty.
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+
+        <!-- SUBJECT INSIGHTS -->
+        {% if subject_insights %}
+        <div class="section">
+            <div class="section-heading">
+                <div class="section-icon icon-purple">📚</div>
+                <h2>Subject-Level Insights</h2>
+            </div>
+            <ul class="item-list">
+                {% for insight in subject_insights %}
+                <li>
+                    <span class="bullet bullet-purple">◆</span>
+                    {{ insight }}
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+        {% endif %}
+
+        <div class="divider"></div>
+
+        <!-- ✅ DETAILED SUBJECT SCORES — DYNAMIC -->
+        {% if subject_scores %}
+        <div class="section">
+            <div class="section-heading">
+                <div class="section-icon icon-navy">📋</div>
+                <h2>Detailed Subject Scores</h2>
+            </div>
+            <div class="scores-table-wrap">
+                <table class="scores-table">
+                    <thead>
+                        <tr>
+                            <th>Subject</th>
+                            <th>Mid 1</th>
+                            <th>Mid 2</th>
+                            <th>Final</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for row in subject_scores %}
+                        <tr>
+                            <td>{{ row.subject }}</td>
+
+                            <!-- Mid 1 -->
+                            {% if row.mid1 == "—" %}
+                                <td class="dash">—</td>
+                            {% else %}
+                                <td class="{% if row.mid1|floatformat:0 >= '75' %}score-high{% elif row.mid1|floatformat:0 >= '50' %}score-mid{% else %}score-low{% endif %}">
+                                    {{ row.mid1 }}
+                                </td>
+                            {% endif %}
+
+                            <!-- Mid 2 -->
+                            {% if row.mid2 == "—" %}
+                                <td class="dash">—</td>
+                            {% else %}
+                                <td class="{% if row.mid2|floatformat:0 >= '75' %}score-high{% elif row.mid2|floatformat:0 >= '50' %}score-mid{% else %}score-low{% endif %}">
+                                    {{ row.mid2 }}
+                                </td>
+                            {% endif %}
+
+                            <!-- Final -->
+                            {% if row.final == "—" %}
+                                <td class="dash">—</td>
+                            {% else %}
+                                <td class="{% if row.final|floatformat:0 >= '75' %}score-high{% elif row.final|floatformat:0 >= '50' %}score-mid{% else %}score-low{% endif %}">
+                                    {{ row.final }}
+                                </td>
+                            {% endif %}
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        {% endif %}
+
+        <div class="divider"></div>
+
+        <!-- PARENT MESSAGE -->
+        {% if parent_message %}
+        <div class="parent-message">
+            <div class="pm-header">💌 Message to Parent / Guardian</div>
+            <p>{{ parent_message }}</p>
+        </div>
+        {% endif %}
+
+        <p style="font-size: 13px; color: #6b7280; text-align: center;">
+            A detailed PDF report is attached to this email for your records.
+        </p>
+
+    </div><!-- /content -->
+
+    <!-- ═══════════ FOOTER ═══════════ -->
+    <div class="footer">
+        <p>
+            <strong>Need help?</strong> Contact your school's academic office or student support team.
+        </p>
+        <div class="disclaimer">
+            This report is AI-assisted and generated for guidance purposes only.
+            Always consult with certified teachers and academic advisors for comprehensive academic planning.
+        </div>
+    </div>
+
+</div><!-- /wrapper -->
+</body>
+</html>

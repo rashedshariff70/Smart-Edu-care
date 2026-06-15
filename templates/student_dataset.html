@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>KL University - Student Dataset Viewer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            background: #f2f2f2;
+        }
+
+        h2 {
+            text-align: center;
+            color: #333;
+        }
+
+        .filters {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        select {
+            padding: 10px;
+            margin: 5px;
+            width: 200px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background: white;
+            margin-top: 20px;
+        }
+
+        th, td {
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: left;
+        }
+
+        th {
+            background: #007BFF;
+            color: white;
+        }
+
+        tr:hover {
+            background-color: #f1f1f1;
+        }
+
+        .no-data {
+            text-align: center;
+            color: red;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+<h2>KL University - Student Dataset Viewer</h2>
+
+<div class="filters">
+    <label for="department">Department:</label>
+    <select id="department">
+        <option value="">-- Select --</option>
+        {% for dept in departments %}
+            <option value="{{ dept }}">{{ dept }}</option>
+        {% endfor %}
+    </select>
+
+    <label for="program">Program:</label>
+    <select id="program">
+        <option value="">-- Select --</option>
+        {% for prog in programs %}
+            <option value="{{ prog }}">{{ prog }}</option>
+        {% endfor %}
+    </select>
+
+    <label for="roll">Roll No:</label>
+    <select id="roll">
+        <option value="">-- Select --</option>
+        {% for roll in roll_numbers %}
+            <option value="{{ roll }}">{{ roll }}</option>
+        {% endfor %}
+    </select>
+</div>
+
+<table id="studentTable">
+    <thead>
+        <tr>
+            {% for key in data.0.keys %}
+                <th>{{ key }}</th>
+            {% endfor %}
+        </tr>
+    </thead>
+    <tbody>
+        {% for row in data %}
+            <tr>
+                {% for value in row.values %}
+                    <td>{{ value }}</td>
+                {% endfor %}
+            </tr>
+        {% endfor %}
+    </tbody>
+</table>
+
+<p class="no-data" id="noDataMessage" style="display: none;">No matching records found.</p>
+
+<script>
+    const departmentSelect = document.getElementById('department');
+    const programSelect = document.getElementById('program');
+    const rollSelect = document.getElementById('roll');
+    const tableRows = document.querySelectorAll('#studentTable tbody tr');
+    const noDataMessage = document.getElementById('noDataMessage');
+
+    function filterTable() {
+        const selectedDept = departmentSelect.value.toLowerCase();
+        const selectedProg = programSelect.value.toLowerCase();
+        const selectedRoll = rollSelect.value.toLowerCase();
+
+        let anyVisible = false;
+
+        tableRows.forEach(row => {
+            const cells = row.querySelectorAll('td');
+            const rowRoll = cells[0].innerText.toLowerCase();    // StudentID
+            const rowDept = cells[3].innerText.toLowerCase();    // Department
+            const rowProg = cells[4].innerText.toLowerCase();    // Program
+
+            const show = (!selectedDept || rowDept === selectedDept) &&
+                         (!selectedProg || rowProg === selectedProg) &&
+                         (!selectedRoll || rowRoll === selectedRoll);
+
+            row.style.display = show ? '' : 'none';
+
+            if (show) anyVisible = true;
+        });
+
+        noDataMessage.style.display = anyVisible ? 'none' : 'block';
+    }
+
+    departmentSelect.addEventListener('change', filterTable);
+    programSelect.addEventListener('change', filterTable);
+    rollSelect.addEventListener('change', filterTable);
+</script>
+
+</body>
+</html>

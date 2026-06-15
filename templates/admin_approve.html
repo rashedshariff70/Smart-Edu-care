@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Approved University Credentials — SmartEduCare</title>
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@600;700;800&family=Outfit:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        :root {
+            --g1:#00E5A0; --g2:#00B87C; --blue:#4facfe; --blue2:#1A6BFF;
+            --orange:#FF6B35; --yellow:#F59E0B; --red:#FF4D6A; --purple:#A855F7;
+            --ink:#07111F; --ink2:#0C1828; --ink3:#111F30; --ink4:#162438;
+            --surface:rgba(255,255,255,0.035); --border:rgba(255,255,255,0.07);
+            --border2:rgba(255,255,255,0.11); --muted:#6B7A94;
+            --text:#D8E2F0; --text2:#9AACC2; --sw:270px;
+            --ease:cubic-bezier(.4,0,.2,1);
+        }
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+        html { height: 100%; scroll-behavior: smooth; }
+        body { font-family: 'Outfit', sans-serif; background: var(--ink); color: var(--text); min-height: 100vh; display: flex; }
+        body::after {
+            content: ''; position: fixed; inset: 0; pointer-events: none; z-index: 9998;
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.75' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='1'/%3E%3C/svg%3E");
+            opacity: 0.023;
+        }
+
+        /* ── SIDEBAR ── */
+        .sidebar { width: var(--sw); min-height: 100vh; background: var(--ink2); border-right: 1px solid var(--border); display: flex; flex-direction: column; padding: 26px 18px; position: fixed; top: 0; left: 0; bottom: 0; z-index: 200; overflow-y: auto; }
+        .sidebar::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 3px; background: linear-gradient(90deg,var(--g1),var(--blue),var(--purple)); }
+        .sb-logo { display: flex; align-items: center; gap: 10px; text-decoration: none; margin-bottom: 26px; }
+        .sb-logo-box { width: 34px; height: 34px; border-radius: 9px; background: linear-gradient(135deg,var(--g1),var(--blue2)); display: grid; place-items: center; font-size: 16px; flex-shrink: 0; }
+        .sb-logo-name { font-family: 'Syne', sans-serif; font-weight: 800; font-size: 16px; color: var(--text); letter-spacing: -.2px; }
+        .sb-logo-name em { font-style: normal; color: var(--g1); }
+        .sb-profile { background: var(--ink3); border: 1px solid var(--border); border-radius: 14px; padding: 18px 14px; text-align: center; margin-bottom: 22px; }
+        .sb-avatar { width: 68px; height: 68px; border-radius: 50%; object-fit: cover; border: 2px solid var(--g1); display: block; margin: 0 auto 10px; }
+        .sb-name { font-family: 'Syne', sans-serif; font-size: .92em; font-weight: 700; margin-bottom: 2px; }
+        .sb-email { font-size: .75em; color: var(--muted); word-break: break-all; margin-bottom: 8px; }
+        .sb-badge { display: inline-flex; align-items: center; gap: 5px; background: rgba(0,229,160,.1); border: 1px solid rgba(0,229,160,.2); color: var(--g1); font-size: .68em; font-weight: 700; padding: 3px 10px; border-radius: 20px; text-transform: uppercase; letter-spacing: .5px; }
+        .sb-nav { display: flex; flex-direction: column; gap: 4px; flex: 1; }
+        .sb-section-label { font-size: 10px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; color: var(--muted); padding: 0 10px; margin: 14px 0 5px; }
+        .sb-link { display: flex; align-items: center; gap: 10px; text-decoration: none; color: var(--text2); font-size: 13px; font-weight: 500; padding: 10px 12px; border-radius: 10px; border: 1px solid transparent; transition: all .2s var(--ease); }
+        .sb-link i { width: 16px; text-align: center; font-size: 13px; flex-shrink: 0; }
+        .sb-link .sb-badge-num { margin-left: auto; background: rgba(79,172,254,.15); color: var(--blue); font-size: 10px; font-weight: 700; padding: 2px 7px; border-radius: 20px; }
+        .sb-link:hover { color: var(--text); background: var(--surface); border-color: var(--border); }
+        .sb-link.active { color: var(--g1); background: rgba(0,229,160,.07); border-color: rgba(0,229,160,.18); }
+        .sb-link.s-blue:hover  { color: var(--blue);   background: rgba(79,172,254,.07);  border-color: rgba(79,172,254,.18); }
+        .sb-link.s-green:hover { color: var(--g1);     background: rgba(0,229,160,.07);   border-color: rgba(0,229,160,.18); }
+        .sb-link.s-yellow:hover{ color: var(--yellow); background: rgba(245,158,11,.07);  border-color: rgba(245,158,11,.18); }
+        .sb-link.s-red { color: var(--muted); border-color: rgba(255,77,106,.12); margin-top: auto; }
+        .sb-link.s-red:hover { color: var(--red); background: rgba(255,77,106,.07); border-color: rgba(255,77,106,.3); }
+
+        /* ── MAIN ── */
+        .main { margin-left: var(--sw); flex: 1; padding: 36px 38px; min-height: 100vh; }
+        .page-top { display: flex; align-items: center; justify-content: space-between; margin-bottom: 30px; flex-wrap: wrap; gap: 12px; }
+        .page-title { font-family: 'Syne', sans-serif; font-size: clamp(1.5em,2.5vw,2em); font-weight: 800; letter-spacing: -.4px; }
+        .page-title span { color: var(--g1); }
+        .page-clock { font-size: 12px; color: var(--muted); display: flex; align-items: center; gap: 6px; }
+        .page-clock .dot { width: 7px; height: 7px; border-radius: 50%; background: var(--g1); animation: pulse 1.5s infinite; }
+        @keyframes pulse { 0%,100%{opacity:1;transform:scale(1)} 50%{opacity:.4;transform:scale(.8)} }
+
+        /* ── WIZARD TRACK ── */
+        .wizard-track {
+            display: flex; align-items: stretch; gap: 0;
+            background: var(--ink2); border: 1px solid var(--border);
+            border-radius: 18px; overflow: hidden;
+            margin-bottom: 24px;
+        }
+        .wz-step {
+            flex: 1; display: flex; flex-direction: column;
+            padding: 0; position: relative;
+            border-right: 1px solid var(--border);
+            transition: background .2s;
+        }
+        .wz-step:last-child { border-right: none; }
+        .wz-step::before {
+            content: ''; position: absolute; top: 0; left: 0; right: 0; height: 3px;
+            transition: background .3s;
+        }
+        .wz-step.s1::before { background: var(--blue); }
+        .wz-step.s2::before { background: var(--yellow); }
+        .wz-step.s3::before { background: var(--g1); }
+        .wz-step.done::before { background: var(--g1) !important; }
+
+        .wz-hdr {
+            display: flex; align-items: center; gap: 10px;
+            padding: 16px 20px 12px; border-bottom: 1px solid var(--border);
+            background: var(--ink3);
+        }
+        .wz-num {
+            width: 28px; height: 28px; border-radius: 50%;
+            display: grid; place-items: center;
+            font-family: 'Syne', sans-serif; font-size: .8em; font-weight: 800;
+            flex-shrink: 0; transition: all .2s;
+        }
+        .wz-step.s1 .wz-num { background: rgba(79,172,254,.15); color: var(--blue); border: 1px solid rgba(79,172,254,.3); }
+        .wz-step.s2 .wz-num { background: rgba(245,158,11,.15); color: var(--yellow); border: 1px solid rgba(245,158,11,.3); }
+        .wz-step.s3 .wz-num { background: rgba(0,229,160,.15); color: var(--g1); border: 1px solid rgba(0,229,160,.3); }
+        .wz-step.done .wz-num { background: rgba(0,229,160,.2); color: var(--g1); border-color: rgba(0,229,160,.5); }
+        .wz-title { font-family: 'Syne', sans-serif; font-weight: 800; font-size: .9em; }
+        .wz-sub { font-size: .74em; color: var(--muted); font-weight: 400; font-family: 'Outfit', sans-serif; margin-top: 2px; }
+        .wz-status {
+            margin-left: auto; font-size: .68em; font-weight: 700;
+            padding: 3px 10px; border-radius: 20px; white-space: nowrap; flex-shrink: 0;
+        }
+        .wz-status.pending { background: rgba(107,122,148,.1); color: var(--muted); border: 1px solid rgba(107,122,148,.2); }
+        .wz-status.done    { background: rgba(0,229,160,.1);   color: var(--g1);   border: 1px solid rgba(0,229,160,.2); }
+        .wz-status.locked  { background: rgba(255,77,106,.07); color: var(--red);   border: 1px solid rgba(255,77,106,.18); }
+
+        .wz-body { padding: 18px 20px; flex: 1; display: flex; flex-direction: column; gap: 12px; }
+
+        /* ── FORM ELEMENTS ── */
+        .field { display: flex; flex-direction: column; gap: 6px; }
+        .field label { font-size: 10.5px; font-weight: 700; letter-spacing: .6px; text-transform: uppercase; color: var(--muted); display: flex; align-items: center; gap: 5px; }
+        select, input[type="text"] {
+            background: var(--ink4); border: 1px solid var(--border);
+            border-radius: 9px; color: var(--text);
+            font-family: 'Outfit', sans-serif; font-size: 13px; font-weight: 500;
+            padding: 10px 12px; outline: none; width: 100%;
+            transition: border-color .2s, box-shadow .2s; -webkit-appearance: none;
+        }
+        select:focus, input[type="text"]:focus { border-color: rgba(0,229,160,.45); box-shadow: 0 0 0 3px rgba(0,229,160,.08); }
+        select option { background: var(--ink3); }
+        select:disabled { opacity: .4; cursor: not-allowed; }
+
+        .file-label {
+            display: flex; align-items: center; gap: 9px;
+            padding: 11px 14px; border: 1.5px dashed rgba(255,255,255,.12);
+            border-radius: 9px; cursor: pointer; font-size: .82rem; color: var(--text2);
+            transition: border-color .2s, background .2s, color .2s;
+        }
+        .file-label:hover { border-color: var(--g1); background: rgba(0,229,160,.04); color: var(--g1); }
+        .file-label.blue:hover { border-color: var(--blue); background: rgba(79,172,254,.04); color: var(--blue); }
+        .file-label.yellow:hover { border-color: var(--yellow); background: rgba(245,158,11,.04); color: var(--yellow); }
+        .file-label i { font-size: 13px; flex-shrink: 0; }
+        input[type="file"] { display: none; }
+
+        /* file chips */
+        .file-chips { display: flex; flex-wrap: wrap; gap: 6px; min-height: 0; }
+        .file-chip {
+            display: inline-flex; align-items: center; gap: 5px;
+            background: rgba(79,172,254,.08); border: 1px solid rgba(79,172,254,.2);
+            color: var(--blue); font-size: 11px; font-weight: 600;
+            padding: 3px 9px; border-radius: 20px; max-width: 200px;
+            white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+        }
+        .file-chip.pdf { background: rgba(245,158,11,.08); border-color: rgba(245,158,11,.2); color: var(--yellow); }
+
+        /* ── BUTTONS ── */
+        .btn {
+            display: inline-flex; align-items: center; justify-content: center; gap: 7px;
+            font-family: 'Outfit', sans-serif; font-size: 13px; font-weight: 700;
+            padding: 10px 20px; border-radius: 50px; border: none; cursor: pointer;
+            transition: transform .2s var(--ease), box-shadow .2s, opacity .2s;
+            text-decoration: none; white-space: nowrap; width: 100%;
+        }
+        .btn:hover:not(:disabled) { transform: translateY(-1px); }
+        .btn:active:not(:disabled) { transform: translateY(0); }
+        .btn:disabled { opacity: .35; cursor: not-allowed; pointer-events: none; }
+        .btn-blue  { background: linear-gradient(135deg,#4facfe,#1A6BFF); color: #fff; box-shadow: 0 6px 18px rgba(79,172,254,.22); }
+        .btn-blue:hover:not(:disabled)  { box-shadow: 0 10px 28px rgba(79,172,254,.4); }
+        .btn-yellow{ background: linear-gradient(135deg,#F59E0B,#d97706); color: var(--ink); box-shadow: 0 6px 18px rgba(245,158,11,.2); }
+        .btn-yellow:hover:not(:disabled){ box-shadow: 0 10px 28px rgba(245,158,11,.4); }
+        .btn-green { background: linear-gradient(135deg,var(--g1),var(--g2)); color: var(--ink); box-shadow: 0 6px 18px rgba(0,229,160,.22); }
+        .btn-green:hover:not(:disabled) { box-shadow: 0 10px 28px rgba(0,229,160,.4); }
+        .btn-lock  { background: var(--ink4); color: var(--muted); border: 1px solid var(--border); box-shadow: none; cursor: not-allowed; }
+
+        /* ── PATH LABELS ── */
+        .path-label {
+            display: flex; align-items: center; gap: 7px;
+            font-size: 11px; color: var(--muted);
+            background: var(--ink4); border: 1px solid var(--border);
+            border-radius: 8px; padding: 7px 11px;
+            font-family: 'JetBrains Mono', monospace;
+        }
+        .path-label i { color: var(--g1); font-size: 10px; flex-shrink: 0; }
+
+        /* ── ALERTS ── */
+        .alert {
+            display: flex; align-items: flex-start; gap: 9px;
+            border-radius: 9px; padding: 11px 14px;
+            font-size: 12.5px; font-weight: 500;
+            animation: fadeIn .3s ease;
+        }
+        @keyframes fadeIn { from{opacity:0;transform:translateY(-4px)} to{opacity:1;transform:translateY(0)} }
+        .alert i { flex-shrink: 0; margin-top: 1px; }
+        .alert-ok   { background: rgba(0,229,160,.07);  border: 1px solid rgba(0,229,160,.22);  color: var(--g1); }
+        .alert-err  { background: rgba(255,77,106,.07); border: 1px solid rgba(255,77,106,.22); color: var(--red); }
+        .alert-warn { background: rgba(245,158,11,.07); border: 1px solid rgba(245,158,11,.22); color: var(--yellow); }
+
+        /* ── FOLDER STATUS PANEL ── */
+        .folder-panel { background: var(--ink3); border: 1px solid var(--border); border-radius: 16px; overflow: hidden; margin-bottom: 24px; }
+        .fp-hdr { display: flex; align-items: center; gap: 10px; padding: 16px 22px; border-bottom: 1px solid var(--border); background: var(--ink2); font-family: 'Syne', sans-serif; font-weight: 700; font-size: .92em; }
+        .fp-hdr i { color: var(--g1); font-size: 13px; }
+        .fp-hdr-sub { margin-left: auto; font-size: 11px; color: var(--muted); font-family: 'Outfit', sans-serif; font-weight: 400; }
+        .fp-body { padding: 16px 20px; display: flex; flex-direction: column; gap: 10px; }
+        .uni-row { display: flex; align-items: center; gap: 12px; background: var(--ink4); border: 1px solid var(--border); border-radius: 10px; padding: 12px 16px; flex-wrap: wrap; transition: border-color .2s; }
+        .uni-row:hover { border-color: var(--border2); }
+        .uni-row.ready { border-color: rgba(0,229,160,.3); }
+        .uni-name { font-weight: 600; font-size: 13px; flex: 1; min-width: 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+        .uni-badges { display: flex; gap: 6px; flex-wrap: wrap; }
+        .badge { display: inline-flex; align-items: center; gap: 4px; font-size: 10.5px; font-weight: 700; padding: 2px 9px; border-radius: 20px; white-space: nowrap; }
+        .badge-g { background: rgba(0,229,160,.1); color: var(--g1); border: 1px solid rgba(0,229,160,.2); }
+        .badge-b { background: rgba(79,172,254,.1); color: var(--blue); border: 1px solid rgba(79,172,254,.2); }
+        .badge-y { background: rgba(245,158,11,.1); color: var(--yellow); border: 1px solid rgba(245,158,11,.2); }
+        .badge-m { background: rgba(107,122,148,.1); color: var(--muted); border: 1px solid rgba(107,122,148,.2); }
+        .badge-r { background: rgba(255,77,106,.1); color: var(--red); border: 1px solid rgba(255,77,106,.2); }
+        .fp-empty { text-align: center; padding: 28px; color: var(--muted); font-size: 13px; }
+        .fp-empty i { font-size: 24px; display: block; margin-bottom: 8px; opacity: .4; }
+
+        /* ── GENERATE RESULTS ── */
+        .gen-results { background: var(--ink3); border: 1px solid var(--border); border-radius: 14px; overflow: hidden; margin-bottom: 24px; }
+        .gen-hdr { display: flex; align-items: center; gap: 9px; padding: 14px 20px; border-bottom: 1px solid var(--border); background: var(--ink2); font-family: 'Syne', sans-serif; font-weight: 700; font-size: .9em; }
+        .gen-hdr i { color: var(--g1); }
+        .gen-body { padding: 14px 18px; display: flex; flex-direction: column; gap: 8px; }
+        .gen-row { display: flex; align-items: flex-start; gap: 10px; background: var(--ink4); border: 1px solid var(--border); border-radius: 9px; padding: 11px 14px; }
+        .gen-row.ok  { border-color: rgba(0,229,160,.25); }
+        .gen-row.err { border-color: rgba(255,77,106,.25); }
+        .gen-ico { width: 28px; height: 28px; border-radius: 7px; display: grid; place-items: center; font-size: 12px; flex-shrink: 0; }
+        .gen-ico.ok  { background: rgba(0,229,160,.1); color: var(--g1); }
+        .gen-ico.err { background: rgba(255,77,106,.1); color: var(--red); }
+        .gen-info { flex: 1; min-width: 0; }
+        .gen-fname { font-size: 12.5px; font-weight: 600; color: var(--text); word-break: break-all; margin-bottom: 3px; }
+        .gen-detail { font-size: 11.5px; color: var(--text2); }
+        .gen-detail.err { color: var(--red); }
+
+        /* ── SECTION + TABLE ── */
+        .section-label { display: flex; align-items: center; gap: 10px; margin-bottom: 14px; }
+        .section-label h2 { font-family: 'Syne', sans-serif; font-size: 1em; font-weight: 700; }
+        .count-badge { font-size: .7em; font-weight: 700; padding: 2px 10px; border-radius: 20px; background: rgba(0,229,160,.1); color: var(--g1); border: 1px solid rgba(0,229,160,.2); font-family: 'JetBrains Mono', monospace; }
+        .tbl-card { background: var(--ink3); border: 1px solid var(--border); border-radius: 16px; overflow: hidden; }
+        .tbl-wrap { overflow-x: auto; }
+        table { width: 100%; border-collapse: collapse; font-size: 12.5px; }
+        thead tr { background: var(--ink4); border-bottom: 1px solid var(--border); }
+        thead th { padding: 12px 14px; text-align: left; font-size: 10.5px; font-weight: 700; letter-spacing: .5px; text-transform: uppercase; color: var(--muted); white-space: nowrap; }
+        thead th.th-approved { color: var(--g1); }
+        tbody tr { border-bottom: 1px solid var(--border); transition: background .12s; }
+        tbody tr:last-child { border-bottom: none; }
+        tbody tr:hover { background: rgba(0,229,160,.03); }
+        tbody td { padding: 11px 14px; color: var(--text2); vertical-align: middle; }
+        tbody td:first-child { color: var(--muted); font-family: 'JetBrains Mono', monospace; font-size: 11px; }
+        .td-id { font-family: 'JetBrains Mono', monospace; font-size: 11.5px; color: var(--blue) !important; }
+        .td-name { color: var(--text) !important; font-weight: 600; }
+        .td-pass { font-family: 'JetBrains Mono', monospace; font-size: 11.5px; background: rgba(255,255,255,.04); padding: 4px 9px; border-radius: 5px; display: inline-block; border: 1px solid var(--border); }
+        .td-date { white-space: nowrap; }
+        .date-dot { display: inline-block; width: 6px; height: 6px; border-radius: 50%; background: var(--g1); margin-right: 6px; vertical-align: middle; }
+        .empty-cell { text-align: center; padding: 40px !important; color: var(--muted) !important; }
+        .empty-ico { font-size: 28px; display: block; margin-bottom: 8px; opacity: .5; }
+
+        /* ── DJANGO MESSAGES ── */
+        .dj-msgs { display: flex; flex-direction: column; gap: 8px; margin-bottom: 20px; }
+
+        @media(max-width:1100px){ .wizard-track { flex-direction: column; } .wz-step { border-right: none; border-bottom: 1px solid var(--border); } .wz-step:last-child { border-bottom: none; } }
+        @media(max-width:900px){ .sidebar { transform: translateX(-100%); transition: transform .3s var(--ease); } .sidebar.open { transform: translateX(0); } .main { margin-left: 0; padding: 24px 18px; } }
+    </style>
+</head>
+<body>
+
+<!-- ── SIDEBAR ── -->
+<aside class="sidebar" id="sidebar">
+    <a href="/" class="sb-logo">
+        <div class="sb-logo-box">🎓</div>
+        <span class="sb-logo-name">Smart<em>Edu</em>Care</span>
+    </a>
+    <div class="sb-profile">
+        <img src="https://i.pravatar.cc/120?img=12" alt="Admin" class="sb-avatar">
+        <div class="sb-name">Administrator</div>
+        <div class="sb-email">admin@smarteducare.ai</div>
+        <span class="sb-badge"><i class="fas fa-shield-alt"></i> Super Admin</span>
+    </div>
+    <nav class="sb-nav">
+        <div class="sb-section-label">Management</div>
+        <a href="/admin_dash"        class="sb-link s-blue"><i class="fas fa-tachometer-alt"></i> Dashboard</a>
+        <a href="/admin_new_request" class="sb-link s-blue"><i class="fas fa-bell"></i> New Requests<span class="sb-badge-num">—</span></a>
+        <a href="/approved_show"     class="sb-link active s-green"><i class="fas fa-check-circle"></i> Approved Requests</a>
+        <a href="/student_data-send" class="sb-link s-yellow"><i class="fas fa-paper-plane"></i> Send Student Data</a>
+        <a href="/admin_correct_data" class="sb-link s-yellow"><i class="fas fa-pen-to-square"></i> Correct Data</a>
+        <div class="sb-section-label" style="margin-top:14px">Account</div>
+        <a href="{% url 'home' %}" class="sb-link s-red"><i class="fas fa-sign-out-alt"></i> Logout</a>
+    </nav>
+</aside>
+
+<!-- ── MAIN ── -->
+<main class="main">
+
+    <div class="page-top">
+        <h1 class="page-title">Approved <span>Credentials</span></h1>
+        <div class="page-clock"><span class="dot"></span><span id="liveClock"></span></div>
+    </div>
+
+    <!-- Django messages -->
+    {% if messages %}
+    <div class="dj-msgs">
+        {% for msg in messages %}
+        <div class="alert {% if 'error' in msg.tags %}alert-err{% elif 'warning' in msg.tags %}alert-warn{% else %}alert-ok{% endif %}">
+            <i class="fas {% if 'error' in msg.tags %}fa-times-circle{% elif 'warning' in msg.tags %}fa-exclamation-triangle{% else %}fa-check-circle{% endif %}"></i>
+            <span>{{ msg }}</span>
+        </div>
+        {% endfor %}
+    </div>
+    {% endif %}
+
+    <!-- ══════════════════════════════════════════════════════════
+         THREE-STEP WIZARD
+    ══════════════════════════════════════════════════════════════ -->
+    <div class="wizard-track">
+
+        <!-- ── STEP 1: Upload Excel / CSV ── -->
+        <div class="wz-step s1 {% if step_message and 'step1_ok' in step_message %}done{% endif %}">
+            <div class="wz-hdr">
+                <div class="wz-num">{% if step_message and 'step1_ok' in step_message %}<i class="fas fa-check"></i>{% else %}1{% endif %}</div>
+                <div>
+                    <div class="wz-title">Upload Student Data</div>
+                    <div class="wz-sub">Excel / CSV files from university</div>
+                </div>
+                <span class="wz-status {% if step_message and 'step1_ok' in step_message %}done{% else %}pending{% endif %}">
+                    {% if step_message and 'step1_ok' in step_message %}✔ Done{% else %}Pending{% endif %}
+                </span>
+            </div>
+            <div class="wz-body">
+                <div class="path-label"><i class="fas fa-folder-open"></i>static/data/uploads/university_data/{uni_folder}/</div>
+
+                <form method="POST" enctype="multipart/form-data" id="form1">
+                    {% csrf_token %}
+                    <input type="hidden" name="action" value="upload_excel">
+                    <div class="field" style="margin-bottom:10px">
+                        <label><i class="fas fa-university" style="color:var(--blue)"></i> Select University</label>
+                        <select name="upload_aishe_code" id="uniSelect1" required onchange="syncSelects(this)">
+                            <option value="">— Choose university —</option>
+                            {% for item in approved_list %}
+                            <option value="{{ item.college_id }}">{{ item.name }} ({{ item.college_id }})</option>
+                            {% endfor %}
+                        </select>
+                    </div>
+                    <div class="field" style="margin-bottom:10px">
+                        <label><i class="fas fa-file-excel" style="color:var(--blue)"></i> Choose Excel / CSV files</label>
+                        <label class="file-label blue" id="excelLabel">
+                            <i class="fas fa-file-excel"></i>
+                            <span id="excelName">Choose .xlsx / .xls / .csv (multiple allowed)</span>
+                            <input type="file" name="excel_files[]" id="excelInput" accept=".csv,.xlsx,.xls" multiple required
+                                   onchange="showFileChips(this,'excelChips','excelName')">
+                        </label>
+                        <div class="file-chips" id="excelChips"></div>
+                    </div>
+                    <button type="submit" class="btn btn-blue">
+                        <i class="fas fa-cloud-upload-alt"></i> Save Data Files (Step 1)
+                    </button>
+                </form>
+
+                <!-- Step 1 result feedback -->
+                {% if step_message %}
+                    {% if 'step1_ok' in step_message %}
+                    <div class="alert alert-ok"><i class="fas fa-check-circle"></i>
+                        <span>✅ {{ step_message|slice:"9:" }}</span>
+                    </div>
+                    {% endif %}
+                {% endif %}
+
+                {% if upload_results %}
+                <div style="display:flex;flex-direction:column;gap:6px;margin-top:4px">
+                    {% for r in upload_results %}
+                    <div class="alert {% if r.error %}alert-err{% else %}alert-ok{% endif %}" style="padding:8px 12px;font-size:12px">
+                        <i class="fas {% if r.error %}fa-times-circle{% else %}fa-check-circle{% endif %}"></i>
+                        <span><strong>{{ r.filename }}</strong>{% if r.error %} — {{ r.error }}{% else %} — saved{% endif %}</span>
+                    </div>
+                    {% endfor %}
+                </div>
+                {% endif %}
+            </div>
+        </div>
+
+        <!-- ── STEP 2: Upload Rules ── -->
+        <div class="wz-step s2 {% if rules_message and rules_message|slice:':2' == 'ok' %}done{% endif %}">
+            <div class="wz-hdr">
+                <div class="wz-num">{% if rules_message and rules_message|slice:':2' == 'ok' %}<i class="fas fa-check"></i>{% else %}2{% endif %}</div>
+                <div>
+                    <div class="wz-title">Upload College Rules</div>
+                    <div class="wz-sub">PDF / DOC / DOCX document</div>
+                </div>
+                <span class="wz-status {% if rules_message and rules_message|slice:':2' == 'ok' %}done{% else %}pending{% endif %}">
+                    {% if rules_message and rules_message|slice:':2' == 'ok' %}✔ Done{% else %}Pending{% endif %}
+                </span>
+            </div>
+            <div class="wz-body">
+                <div class="path-label"><i class="fas fa-folder-open"></i>static/data/uploads/university_data/{uni_folder}/</div>
+
+                <form method="POST" enctype="multipart/form-data" id="form2">
+                    {% csrf_token %}
+                    <input type="hidden" name="action" value="upload_rules">
+                    <div class="field" style="margin-bottom:10px">
+                        <label><i class="fas fa-university" style="color:var(--yellow)"></i> Select University</label>
+                        <select name="rules_aishe_code" id="uniSelect2" required onchange="syncSelects(this)">
+                            <option value="">— Choose university —</option>
+                            {% for item in approved_list %}
+                            <option value="{{ item.college_id }}">{{ item.name }} ({{ item.college_id }})</option>
+                            {% endfor %}
+                        </select>
+                    </div>
+                    <div class="field" style="margin-bottom:10px">
+                        <label><i class="fas fa-file-contract" style="color:var(--yellow)"></i> Choose Rules File</label>
+                        <label class="file-label yellow" id="rulesLabel">
+                            <i class="fas fa-file-pdf"></i>
+                            <span id="rulesName">Choose .pdf / .doc / .docx</span>
+                            <input type="file" name="rules_file" id="rulesInput" accept=".pdf,.doc,.docx" required
+                                   onchange="showFileChips(this,'rulesChips','rulesName')">
+                        </label>
+                        <div class="file-chips" id="rulesChips"></div>
+                    </div>
+                    <button type="submit" class="btn btn-yellow">
+                        <i class="fas fa-save"></i> Save Rules File (Step 2)
+                    </button>
+                </form>
+
+                {% if rules_message %}
+                    {% if rules_message|slice:':2' == 'ok' %}
+                    <div class="alert alert-ok"><i class="fas fa-check-circle"></i>
+                        <span>✅ {{ rules_message|slice:"3:" }}</span>
+                    </div>
+                    {% elif rules_message|slice:':5' == 'error' %}
+                    <div class="alert alert-err"><i class="fas fa-times-circle"></i>
+                        <span>{{ rules_message|slice:"6:" }}</span>
+                    </div>
+                    {% endif %}
+                {% endif %}
+            </div>
+        </div>
+
+        <!-- ── STEP 3: Generate Passwords ── -->
+        <div class="wz-step s3 {% if generate_results %}done{% endif %}">
+            <div class="wz-hdr">
+                <div class="wz-num">{% if generate_results %}<i class="fas fa-check"></i>{% else %}3{% endif %}</div>
+                <div>
+                    <div class="wz-title">Generate Passwords</div>
+                    <div class="wz-sub">Unlocked after Steps 1 &amp; 2</div>
+                </div>
+                <span class="wz-status {% if generate_results %}done{% else %}locked{% endif %}">
+                    {% if generate_results %}✔ Done{% else %}🔒 Locked{% endif %}
+                </span>
+            </div>
+            <div class="wz-body">
+                <div class="path-label"><i class="fas fa-folder-open"></i>static/data/uploads/password_generated_files/{uni_folder}/</div>
+
+                <form method="POST" id="form3">
+                    {% csrf_token %}
+                    <input type="hidden" name="action" value="generate_passwords">
+                    <div class="field" style="margin-bottom:10px">
+                        <label><i class="fas fa-university" style="color:var(--g1)"></i> Select University</label>
+                        <select name="gen_aishe_code" id="uniSelect3" required onchange="updateGenerateBtn(this)">
+                            <option value="">— Choose university —</option>
+                            {% for item in approved_list %}
+                            <option value="{{ item.college_id }}">{{ item.name }} ({{ item.college_id }})</option>
+                            {% endfor %}
+                        </select>
+                    </div>
+
+                    <!-- Folder status: shows live state of selected university folder -->
+                    <div id="folderStatus" style="display:none;flex-direction:column;gap:6px;margin-bottom:10px">
+                        <div id="fsExcel" class="alert" style="padding:8px 12px;font-size:12px;margin:0">
+                            <i class="fas fa-spinner fa-spin"></i><span>Checking…</span>
+                        </div>
+                        <div id="fsRules" class="alert" style="padding:8px 12px;font-size:12px;margin:0">
+                            <i class="fas fa-spinner fa-spin"></i><span>Checking…</span>
+                        </div>
+                    </div>
+
+                    <button type="submit" class="btn btn-lock" id="genBtn" disabled>
+                        <i class="fas fa-lock"></i> Complete Steps 1 &amp; 2 First
+                    </button>
+                </form>
+
+                <!-- Generate results -->
+                {% if generate_results %}
+                <div style="display:flex;flex-direction:column;gap:6px;margin-top:4px">
+                    {% for r in generate_results %}
+                    <div class="gen-row {% if r.error %}err{% else %}ok{% endif %}">
+                        <div class="gen-ico {% if r.error %}err{% else %}ok{% endif %}">
+                            <i class="fas {% if r.error %}fa-times{% else %}fa-check{% endif %}"></i>
+                        </div>
+                        <div class="gen-info">
+                            <div class="gen-fname">{{ r.filename }}</div>
+                            {% if r.error %}
+                            <div class="gen-detail err">{{ r.error }}</div>
+                            {% else %}
+                            <div class="gen-detail">
+                                {{ r.row_count }} rows · → {{ r.output_name }}
+                                {% if r.aishe_files %}· AISHE: {{ r.aishe_files|join:", " }}{% endif %}
+                            </div>
+                            {% endif %}
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+                {% endif %}
+            </div>
+        </div>
+
+    </div><!-- /wizard-track -->
+
+    <!-- ── FOLDER STATUS PANEL ── -->
+    {% if uni_folders %}
+    <div class="folder-panel" style="margin-bottom:24px">
+        <div class="fp-hdr">
+            <i class="fas fa-folder-tree"></i>
+            University Data Folders
+            <span class="fp-hdr-sub">static/data/uploads/university_data/</span>
+        </div>
+        <div class="fp-body">
+            {% for uf in uni_folders %}
+            <div class="uni-row {% if uf.ready %}ready{% endif %}">
+                <div class="uni-name">📁 {{ uf.folder_name }}</div>
+                <div class="uni-badges">
+                    {% if uf.has_excel %}
+                    <span class="badge badge-b"><i class="fas fa-file-excel"></i> {{ uf.excel_files|length }} Excel/CSV</span>
+                    {% else %}
+                    <span class="badge badge-r"><i class="fas fa-times"></i> No Data Files</span>
+                    {% endif %}
+                    {% if uf.has_rules %}
+                    <span class="badge badge-y"><i class="fas fa-file-pdf"></i> {{ uf.rules_files|length }} Rules</span>
+                    {% else %}
+                    <span class="badge badge-m"><i class="fas fa-times"></i> No Rules</span>
+                    {% endif %}
+                    {% if uf.ready %}
+                    <span class="badge badge-g"><i class="fas fa-check-circle"></i> Ready to Generate</span>
+                    {% else %}
+                    <span class="badge badge-r"><i class="fas fa-lock"></i> Incomplete</span>
+                    {% endif %}
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+    {% endif %}
+
+    <!-- ── APPROVED RECORDS TABLE ── -->
+    <div class="section-label">
+        <h2>Approved Records</h2>
+        <span class="count-badge">{{ approved_list|length }} total</span>
+    </div>
+    <div class="tbl-card">
+        <div class="tbl-wrap">
+            <table>
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>College ID</th>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Password</th>
+                        <th class="th-approved">Approved Date</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for item in approved_list %}
+                    <tr>
+                        <td>{{ forloop.counter }}</td>
+                        <td class="td-id">{{ item.college_id }}</td>
+                        <td class="td-name">{{ item.name }}</td>
+                        <td>{{ item.email }}</td>
+                        <td><span class="td-pass">{{ item.password }}</span></td>
+                        <td class="td-date"><span class="date-dot"></span>{{ item.approved_at|date:"d M Y, h:i A" }}</td>
+                    </tr>
+                    {% empty %}
+                    <tr>
+                        <td class="empty-cell" colspan="6">
+                            <span class="empty-ico">🎓</span>No approved records found.
+                        </td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+</main>
+
+<script>
+/* ── Live clock ── */
+(function tick(){
+    const n = new Date(), el = document.getElementById('liveClock');
+    if(el) el.textContent =
+        n.toLocaleDateString('en-IN',{weekday:'short',day:'numeric',month:'short'})
+        +'  '+n.toLocaleTimeString('en-IN',{hour:'2-digit',minute:'2-digit',second:'2-digit'});
+    setTimeout(tick, 1000);
+})();
+
+/* ── Sync university selects across all three steps ── */
+function syncSelects(src) {
+    ['uniSelect1','uniSelect2','uniSelect3'].forEach(function(id){
+        const el = document.getElementById(id);
+        if(el && el !== src) el.value = src.value;
+    });
+    if(src.id === 'uniSelect3') updateGenerateBtn(src);
+}
+document.getElementById('uniSelect1').addEventListener('change', function(){ syncSelects(this); });
+document.getElementById('uniSelect2').addEventListener('change', function(){ syncSelects(this); });
+
+/* ── Folder data from server (injected as JSON) ── */
+const UNI_FOLDERS = [
+    {% for uf in uni_folders %}
+    { name: "{{ uf.folder_name|escapejs }}", hasExcel: {{ uf.has_excel|yesno:"true,false" }}, hasRules: {{ uf.has_rules|yesno:"true,false" }}, ready: {{ uf.ready|yesno:"true,false" }}, excelCount: {{ uf.excel_files|length }}, rulesCount: {{ uf.rules_files|length }} },
+    {% endfor %}
+];
+
+/* ── Approved list for folder matching ── */
+const APPROVED = [
+    {% for item in approved_list %}
+    { college_id: "{{ item.college_id|escapejs }}", name: "{{ item.name|escapejs }}" },
+    {% endfor %}
+];
+
+/* ── Show file name chips after file input change ── */
+function showFileChips(input, chipsId, nameId) {
+    const chips = document.getElementById(chipsId);
+    const nameEl = document.getElementById(nameId);
+    chips.innerHTML = '';
+    if(!input.files || !input.files.length) return;
+    const files = Array.from(input.files);
+    if(nameEl) nameEl.textContent = files.length === 1 ? files[0].name : `${files.length} files selected`;
+    files.forEach(function(f){
+        const isPdf = f.name.match(/\.(pdf|doc|docx)$/i);
+        const chip = document.createElement('span');
+        chip.className = 'file-chip' + (isPdf ? ' pdf' : '');
+        chip.innerHTML = `<i class="fas ${isPdf ? 'fa-file-pdf' : 'fa-file-excel'}"></i> ${esc(f.name)}`;
+        chips.appendChild(chip);
+    });
+}
+
+/* ── Update generate button based on selected university folder status ── */
+function updateGenerateBtn(sel) {
+    const aishe = sel.value;
+    const fsEl  = document.getElementById('folderStatus');
+    const exEl  = document.getElementById('fsExcel');
+    const ruEl  = document.getElementById('fsRules');
+    const genBtn = document.getElementById('genBtn');
+
+    if(!aishe) {
+        fsEl.style.display = 'none';
+        genBtn.disabled = true;
+        genBtn.className = 'btn btn-lock';
+        genBtn.innerHTML = '<i class="fas fa-lock"></i> Complete Steps 1 &amp; 2 First';
+        return;
+    }
+
+    // Find matching folder for this AISHE code
+    const uni = APPROVED.find(a => a.college_id === aishe);
+    let folder = null;
+    if(uni) {
+        const safeName = (uni.name + '_' + aishe).replace(/[\\/:*?"<>|,\s]+/g,'_').replace(/_+/g,'_').replace(/^_|_$/g,'');
+        folder = UNI_FOLDERS.find(f => f.name === safeName || f.name.endsWith('_'+aishe));
+    }
+
+    fsEl.style.display = 'flex';
+    fsEl.style.flexDirection = 'column';
+
+    if(folder) {
+        exEl.className = 'alert ' + (folder.hasExcel ? 'alert-ok' : 'alert-err');
+        exEl.innerHTML = `<i class="fas ${folder.hasExcel ? 'fa-check-circle' : 'fa-times-circle'}"></i>
+            <span>Step 1 — ${folder.hasExcel ? folder.excelCount+' Excel/CSV file(s) found ✔' : 'No Excel/CSV files — upload first'}</span>`;
+
+        ruEl.className = 'alert ' + (folder.hasRules ? 'alert-ok' : 'alert-err');
+        ruEl.innerHTML = `<i class="fas ${folder.hasRules ? 'fa-check-circle' : 'fa-times-circle'}"></i>
+            <span>Step 2 — ${folder.hasRules ? folder.rulesCount+' Rules file(s) found ✔' : 'No rules file — upload first'}</span>`;
+
+        if(folder.ready) {
+            genBtn.disabled = false;
+            genBtn.className = 'btn btn-green';
+            genBtn.innerHTML = '<i class="fas fa-key"></i> Generate Passwords Now';
+        } else {
+            genBtn.disabled = true;
+            genBtn.className = 'btn btn-lock';
+            genBtn.innerHTML = '<i class="fas fa-lock"></i> Complete Steps 1 &amp; 2 First';
+        }
+    } else {
+        exEl.className = 'alert alert-warn';
+        exEl.innerHTML = '<i class="fas fa-exclamation-triangle"></i><span>Step 1 — Folder not yet created. Upload Excel/CSV files first.</span>';
+        ruEl.className = 'alert alert-warn';
+        ruEl.innerHTML = '<i class="fas fa-exclamation-triangle"></i><span>Step 2 — Folder not yet created. Upload rules file first.</span>';
+        genBtn.disabled = true;
+        genBtn.className = 'btn btn-lock';
+        genBtn.innerHTML = '<i class="fas fa-lock"></i> Complete Steps 1 &amp; 2 First';
+    }
+}
+
+function esc(s){
+    return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+}
+
+/* ── Auto-scroll to generate results if present ── */
+{% if generate_results %}
+document.addEventListener('DOMContentLoaded', function(){
+    const el = document.getElementById('form3');
+    if(el) el.scrollIntoView({behavior:'smooth',block:'start'});
+});
+{% endif %}
+</script>
+</body>
+</html>

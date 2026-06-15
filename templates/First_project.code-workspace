@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../templatemo_569_edu_meeting"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "First_project"
+	}
+}

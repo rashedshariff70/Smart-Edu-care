@@ -1,0 +1,29 @@
+frist the university will register
+
+those credintails will go to admin ..he decides approve/reject--->through mail
+
+if approve-->send in this format in email
+
+if reject --> reason to resend in email
+
+after that university will have username,password to login after approval they can provide student data in reffered format
+
+After taking reffernce format in excel it is stored inside project ...then passwords are created for each student and sended to every registred universities by the admin.
+
+Now university and student has acess to website
+
+student can see the ml model performances , and chatbot...audio/text to know their performances
+parents can know about their kids performances
+
+also dff ml models can used ...to integrate...
+
+so far project is developed like this if needed make changes and make sure it will be developed with in 22/03/2026.
+
+Three files are used at different stages:
+Step 1 — AISHE_CODE/U-1284.xlsx (4 columns only: StudentID, AISHE_Code, student_password, College_name)
+Used purely to verify the student exists for that university. It's lightweight and fast.
+Step 2 — password_generated_files/password_generated_*.xlsx (all 44 columns — full student data)
+Once identity is confirmed, the code scans this folder to pull the full row: scores, attendance, department, rank, feedback, sports, activities — everything.
+Step 3 — student_chat_contexts/U-1284_S0009.txt (generated once per login)
+The full student row is written to this text file. Every chat message reads from this .txt and sends it to the LLM as context. This avoids re-reading Excel on every question.
+So the chatbot answers are based on the 44-column password_generated_*.xlsx data — not the AISHE file. The AISHE file is only a gatekeeper.

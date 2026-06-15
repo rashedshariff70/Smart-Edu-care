@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>ML Student Zone • SmartEduCare</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+    <style>
+        :root {
+            --primary: #10b981;
+            --primary-dark: #059669;
+            --accent: #8b5cf6;
+            --dark: #0f172a;
+            --dark-2: #1e293b;
+            --text: #f1f5f9;
+            --text-muted: #94a3b8;
+            --card-bg: rgba(30, 41, 59, 0.78);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', system-ui, sans-serif;
+            background: var(--dark);
+            color: var(--text);
+            min-height: 100vh;
+            overflow-x: hidden;
+            line-height: 1.6;
+        }
+
+        /* ── Fullscreen Video ──────────────────────────────── */
+        .video-bg {
+            position: fixed;
+            inset: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center;
+            z-index: -2;
+        }
+
+        .overlay {
+            position: fixed;
+            inset: 0;
+            background: rgba(15, 23, 42, 0.42);    /* ← much lighter → video much more visible */
+            backdrop-filter: blur(1px);           /* very gentle blur */
+            z-index: -1;
+        }
+
+        /* Navbar */
+        .navbar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            background: rgba(15, 23, 42, 0.84);
+            backdrop-filter: blur(16px);
+            padding: 1.2rem 6%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            z-index: 1000;
+            border-bottom: 1px solid rgba(16, 185, 129, 0.2);
+        }
+
+        .logo {
+            font-size: 1.75rem;
+            font-weight: 800;
+            background: linear-gradient(90deg, var(--primary), #34d399);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .nav-links a {
+            color: #e2e8f0;
+            text-decoration: none;
+            font-weight: 500;
+            padding: 0.7rem 1.4rem;
+            border-radius: 9999px;
+            transition: all 0.3s ease;
+        }
+
+        .nav-links a:hover,
+        .nav-links a.active {
+            background: rgba(16, 185, 129, 0.26);
+            color: white;
+        }
+
+        /* Hero */
+        .hero {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 0 5%;
+        }
+
+        .hero-title {
+            font-size: clamp(3.2rem, 8vw, 6.2rem);
+            font-weight: 800;
+            margin-bottom: 1.2rem;
+            line-height: 1.05;
+            background: linear-gradient(90deg, #10b981, #34d399, #8b5cf6, #10b981);
+            background-size: 300% auto;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            animation: gradientFlow 8s linear infinite;
+        }
+
+        @keyframes gradientFlow {
+            0% { background-position: 0% 50%; }
+            100% { background-position: 300% 50%; }
+        }
+
+        .hero-subtitle {
+            font-size: 1.42rem;
+            max-width: 780px;
+            color: #cbd5e1;
+            margin-bottom: 3.5rem;
+            font-weight: 400;
+        }
+
+        .cta-buttons {
+            display: flex;
+            gap: 1.5rem;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .btn {
+            padding: 1rem 2.4rem;
+            font-size: 1.1rem;
+            font-weight: 600;
+            border-radius: 9999px;
+            text-decoration: none;
+            transition: all 0.35s ease;
+        }
+
+        .btn-primary {
+            background: var(--primary);
+            color: white;
+        }
+
+        .btn-primary:hover {
+            background: var(--primary-dark);
+            transform: translateY(-3px);
+            box-shadow: 0 12px 32px rgba(16, 185, 129, 0.35);
+        }
+
+        .btn-outline {
+            border: 2px solid var(--primary);
+            color: var(--primary);
+        }
+
+        .btn-outline:hover {
+            background: var(--primary);
+            color: white;
+        }
+
+        /* Features */
+        .features {
+            padding: 6rem 6% 8rem;
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: 2.8rem;
+            font-weight: 700;
+            margin-bottom: 4rem;
+            background: linear-gradient(90deg, #fff, #e2e8f0);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .cards-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 2.2rem;
+            max-width: 1280px;
+            margin: 0 auto;
+        }
+
+        .card {
+            background: var(--card-bg);
+            border: 1px solid rgba(16, 185, 129, 0.22);
+            border-radius: 20px;
+            padding: 2.4rem 2rem;
+            backdrop-filter: blur(12px);
+            transition: all 0.4s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-14px);
+            border-color: var(--primary);
+            box-shadow: 0 30px 70px -15px rgba(16,185,129,0.35);
+        }
+
+        .card-icon {
+            font-size: 3.2rem;
+            color: var(--primary);
+            margin-bottom: 1.4rem;
+        }
+
+        .card-title {
+            font-size: 1.55rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+        }
+
+        .card-text {
+            color: #cbd5e1;
+            font-size: 1.02rem;
+        }
+
+        /* Footer */
+        .footer {
+            padding: 4rem 6% 3rem;
+            text-align: center;
+            color: #64748b;
+            font-size: 0.95rem;
+            border-top: 1px solid rgba(16,185,129,0.15);
+            background: rgba(15,23,42,0.65);
+            backdrop-filter: blur(10px);
+        }
+
+        @media (max-width: 768px) {
+            .hero-title { font-size: 3.8rem; }
+            .hero-subtitle { font-size: 1.2rem; }
+            .navbar { padding: 1rem 5%; flex-direction: column; gap: 1rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <video class="video-bg" autoplay muted loop playsinline>
+        <source src="/static/video/5198159-uhd_3840_2160_25fps.mp4" type="video/mp4">
+        <source src="/static/video/ai-circuit-dark.webm" type="video/webm">
+        Your browser does not support the video tag.
+    </video>
+
+    <div class="overlay"></div>
+
+    <nav class="navbar">
+        <div class="logo">ML Student Zone</div>
+
+        <div class="nav-links">
+            <a href="/student_ml_home" class="active">Home</a>
+            <a href="/student_ml_upload_data">Upload Data</a>
+            <a href="/student_ml_view_models">My Models</a>
+            <a href="/student_ml_prediction">Predict</a>
+            <a href="/student_data_chat">Chatbot Login</a>
+            <a href="/indexs">logout</a>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <h3 class="hero-title" style="font-size: 70px;">
+            Welcome to Your<br>Machine Learning Journey
+        </h3>
+        <p class="hero-subtitle">
+            Build • Train • Experiment • Deploy — all in one beautiful, student-first workspace
+        </p>
+
+        <div class="cta-buttons">
+            <a href="/student_ml_upload_data" class="btn btn-primary">Get Started — Upload Data</a>
+            <a href="/student_ml_view_models" class="btn btn-outline">Models results</a>
+        </div>
+    </section>
+
+    <section class="features">
+        <h2 class="section-title">Everything You Need to Master ML</h2>
+
+        <div class="cards-container">
+            <div class="card">
+                <div class="card-icon"><i class="fas fa-cloud-upload-alt"></i></div>
+                <h3 class="card-title">Easy Data Upload</h3>
+                <p class="card-text">
+                    CSV, Excel, JSON — drag & drop or classic upload. Automatic data preview & cleaning suggestions.
+                </p>
+            </div>
+
+            <div class="card">
+                <div class="card-icon"><i class="fas fa-brain"></i></div>
+                <h3 class="card-title">Your Model Collection</h3>
+                <p class="card-text">
+                    Keep track of every experiment. Compare metrics, versions, hyperparameters side by side.
+                </p>
+            </div>
+
+            <div class="card">
+                <div class="card-icon"><i class="fas fa-magic"></i></div>
+                <h3 class="card-title">Instant Predictions</h3>
+                <p class="card-text">
+                    Deploy your best model with one click. Get predictions on new data in seconds — right in browser.
+                </p>
+            </div>
+
+            <div class="card">
+                <div class="card-icon"><i class="fas fa-robot"></i></div>
+                <h3 class="card-title">AutoML Assistant</h3>
+                <p class="card-text">
+                    Not sure where to start? Let the system recommend best algorithms & hyperparameters for your data.
+                </p>
+            </div>
+
+            <div class="card">
+                <div class="card-icon"><i class="fas fa-chart-line"></i></div>
+                <h3 class="card-title">Beautiful Visualizations</h3>
+                <p class="card-text">
+                    Interactive confusion matrix, feature importance, learning curves, SHAP explanations — all included.
+                </p>
+            </div>
+
+            <div class="card">
+                <div class="card-icon"><i class="fas fa-shield-alt"></i></div>
+                <h3 class="card-title">Student Privacy First</h3>
+                <p class="card-text">
+                    Your data never leaves your session. No training on student data. Full control over every model.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p style="color: white;" >© 2026 SmartEduCare • Made with passion for the next generation of ML practitioners</p>
+    </footer>
+
+</body>
+</html>

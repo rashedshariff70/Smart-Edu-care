@@ -1,0 +1,1801 @@
+StudentID,Name,Gender,Department,Program,Year,Email,Phone,Attendance,PAN_CARD,AISHE_Code
+LPU.1001,Harika Das,Female,M.Sc Data Science,PG,1,harika.das1001@lpu.edu.in,9880516031,68.21,FYVPD0001K,U-0379
+LPU.1002,Vinay Gupta,Male,M.Sc Data Science,PG,1,vinay.gupta1002@lpu.edu.in,9884898522,92.85,PRLPG0002O,U-0379
+LPU.1003,Vikram Verma,Female,M.Sc Data Science,PG,1,vikram.verma1003@lpu.edu.in,9858402591,86.58,XLCPV0003I,U-0379
+LPU.1004,Rahul Bose,Female,M.Sc Data Science,PG,1,rahul.bose1004@lpu.edu.in,9865063492,69.73,ERVPB0004U,U-0379
+LPU.1005,Vinay Sharma,Female,M.Sc Data Science,PG,1,vinay.sharma1005@lpu.edu.in,9877312184,63.67,VQKPS0005W,U-0379
+LPU.1006,Neha Iyer,Male,M.Sc Data Science,PG,1,neha.iyer1006@lpu.edu.in,9848603601,91.89,JRZPI0006C,U-0379
+LPU.1007,Harika Mishra,Female,M.Sc Data Science,PG,1,harika.mishra1007@lpu.edu.in,9861444429,92.12,CCEPM0007Q,U-0379
+LPU.1008,Sanjay Das,Female,M.Sc Data Science,PG,1,sanjay.das1008@lpu.edu.in,9856019566,73.54,QHXPD0008V,U-0379
+LPU.1009,Divya Jain,Male,M.Sc Data Science,PG,1,divya.jain1009@lpu.edu.in,9812418883,87.47,REPPJ0009T,U-0379
+LPU.1010,Sameer Reddy,Male,M.Sc Data Science,PG,1,sameer.reddy1010@lpu.edu.in,9861519012,81.86,BSOPR0010V,U-0379
+LPU.1011,Sneha Mishra,Male,M.Sc Data Science,PG,1,sneha.mishra1011@lpu.edu.in,9870876988,62.66,UAXPM0011J,U-0379
+LPU.1012,Neha Bose,Male,M.Sc Data Science,PG,1,neha.bose1012@lpu.edu.in,9816285043,79.88,RLMPB0012M,U-0379
+LPU.1013,Ritika Gupta,Male,M.Sc Data Science,PG,1,ritika.gupta1013@lpu.edu.in,9894311229,78.23,GCGPG0013N,U-0379
+LPU.1014,Sanjay Malhotra,Male,M.Sc Data Science,PG,1,sanjay.malhotra1014@lpu.edu.in,9844437309,93.01,GSHPM0014Q,U-0379
+LPU.1015,Divya Kumar,Male,M.Sc Data Science,PG,1,divya.kumar1015@lpu.edu.in,9891832076,78.89,BZZPK0015D,U-0379
+LPU.1016,Ananya Yadav,Male,M.Sc Data Science,PG,1,ananya.yadav1016@lpu.edu.in,9810433603,89.17,YZZPY0016T,U-0379
+LPU.1017,Pooja Malhotra,Male,M.Sc Data Science,PG,1,pooja.malhotra1017@lpu.edu.in,9869598157,70.9,RUPPM0017D,U-0379
+LPU.1018,Divya Das,Female,M.Sc Data Science,PG,1,divya.das1018@lpu.edu.in,9862810336,71.76,BKRPD0018H,U-0379
+LPU.1019,Ravi Rao,Male,M.Sc Data Science,PG,1,ravi.rao1019@lpu.edu.in,9831764048,89.39,BWTPR0019F,U-0379
+LPU.1020,Rahul Patel,Male,M.Sc Data Science,PG,1,rahul.patel1020@lpu.edu.in,9870514631,68.87,XEUPP0020L,U-0379
+LPU.1021,Yash Das,Female,M.Sc Data Science,PG,1,yash.das1021@lpu.edu.in,9812279609,84.87,TPXPD0021A,U-0379
+LPU.1022,Vikram Iyer,Female,M.Sc Data Science,PG,1,vikram.iyer1022@lpu.edu.in,9883047741,96.23,SKNPI0022O,U-0379
+LPU.1023,Rahul Rao,Female,M.Sc Data Science,PG,1,rahul.rao1023@lpu.edu.in,9874475336,74.6,UPRPR0023R,U-0379
+LPU.1024,Rahul Shetty,Female,M.Sc Data Science,PG,1,rahul.shetty1024@lpu.edu.in,9820591218,63.17,KAUPS0024J,U-0379
+LPU.1025,Divya Bose,Male,M.Sc Data Science,PG,1,divya.bose1025@lpu.edu.in,9853066465,79.15,TNTPB0025X,U-0379
+LPU.1026,Meghana Bose,Female,M.Sc Data Science,PG,1,meghana.bose1026@lpu.edu.in,9899444537,97.51,IKSPB0026X,U-0379
+LPU.1027,Arjun Kumar,Female,M.Sc Data Science,PG,1,arjun.kumar1027@lpu.edu.in,9818949202,84.39,XNIPK0027Q,U-0379
+LPU.1028,Sneha Iyer,Male,M.Sc Data Science,PG,1,sneha.iyer1028@lpu.edu.in,9823276091,97.97,PJGPI0028Y,U-0379
+LPU.1029,Divya Rao,Female,M.Sc Data Science,PG,1,divya.rao1029@lpu.edu.in,9843682151,89.87,RUYPR0029Q,U-0379
+LPU.1030,Sameer Jain,Female,M.Sc Data Science,PG,1,sameer.jain1030@lpu.edu.in,9813418059,70.05,AQCPJ0030Y,U-0379
+LPU.1031,Ritika Bhat,Male,M.Sc Data Science,PG,1,ritika.bhat1031@lpu.edu.in,9832021203,75.82,GPDPB0031C,U-0379
+LPU.1032,Yash Kumar,Female,M.Sc Data Science,PG,1,yash.kumar1032@lpu.edu.in,9892172647,64.09,NZLPK0032X,U-0379
+LPU.1033,Nikhil Malhotra,Male,M.Sc Data Science,PG,1,nikhil.malhotra1033@lpu.edu.in,9892509994,61.83,DPVPM0033Q,U-0379
+LPU.1034,Yash Nair,Female,M.Sc Data Science,PG,1,yash.nair1034@lpu.edu.in,9858038373,71.88,KPJPN0034V,U-0379
+LPU.1035,Yash Reddy,Male,M.Sc Data Science,PG,1,yash.reddy1035@lpu.edu.in,9843328819,94.76,KPDPR0035T,U-0379
+LPU.1036,Kiran Kumar,Female,M.Sc Data Science,PG,1,kiran.kumar1036@lpu.edu.in,9836312700,65.58,DIQPK0036V,U-0379
+LPU.1037,Ravi Mishra,Female,M.Sc Data Science,PG,1,ravi.mishra1037@lpu.edu.in,9840191171,64.89,WUZPM0037Q,U-0379
+LPU.1038,Harika Das,Female,M.Sc Data Science,PG,1,harika.das1038@lpu.edu.in,9845199125,72.55,AUDPD0038C,U-0379
+LPU.1039,Divya Patel,Male,M.Sc Data Science,PG,1,divya.patel1039@lpu.edu.in,9891902021,88.03,NHHPP0039H,U-0379
+LPU.1040,Kiran Rao,Male,M.Sc Data Science,PG,1,kiran.rao1040@lpu.edu.in,9830474127,75.83,TPOPR0040S,U-0379
+LPU.1041,Nikhil Malhotra,Female,M.Sc Data Science,PG,1,nikhil.malhotra1041@lpu.edu.in,9868509943,80.84,DHYPM0041I,U-0379
+LPU.1042,Vikram Yadav,Male,M.Sc Data Science,PG,1,vikram.yadav1042@lpu.edu.in,9864296155,62.85,USUPY0042M,U-0379
+LPU.1043,Divya Jain,Male,M.Sc Data Science,PG,1,divya.jain1043@lpu.edu.in,9856163637,86.59,NZRPJ0043D,U-0379
+LPU.1044,Nikhil Mishra,Female,M.Sc Data Science,PG,1,nikhil.mishra1044@lpu.edu.in,9861981861,85.12,CZVPM0044W,U-0379
+LPU.1045,Kavya Rao,Female,M.Sc Data Science,PG,1,kavya.rao1045@lpu.edu.in,9824668848,96.42,NCCPR0045O,U-0379
+LPU.1046,Ritika Bhat,Male,M.Sc Data Science,PG,1,ritika.bhat1046@lpu.edu.in,9863200822,85.63,LGNPB0046A,U-0379
+LPU.1047,Vinay Shetty,Male,M.Sc Data Science,PG,1,vinay.shetty1047@lpu.edu.in,9812409060,69.99,NNCPS0047N,U-0379
+LPU.1048,Vinay Gupta,Female,M.Sc Data Science,PG,1,vinay.gupta1048@lpu.edu.in,9874240749,88.78,HNKPG0048Z,U-0379
+LPU.1049,Ritika Jain,Male,M.Sc Data Science,PG,1,ritika.jain1049@lpu.edu.in,9884000585,66.43,FDKPJ0049N,U-0379
+LPU.1050,Pooja Bose,Female,M.Sc Data Science,PG,1,pooja.bose1050@lpu.edu.in,9857305779,80.32,UOAPB0050W,U-0379
+LPU.1051,Rahul Chopra,Female,M.Sc Data Science,PG,1,rahul.chopra1051@lpu.edu.in,9879131266,81.88,LJYPC0051F,U-0379
+LPU.1052,Kiran Sharma,Male,M.Sc Data Science,PG,1,kiran.sharma1052@lpu.edu.in,9853794662,89.05,EQQPS0052T,U-0379
+LPU.1053,Vikram Iyer,Female,M.Sc Data Science,PG,1,vikram.iyer1053@lpu.edu.in,9856703007,89.93,LEEPI0053T,U-0379
+LPU.1054,Aman Singh,Male,M.Sc Data Science,PG,1,aman.singh1054@lpu.edu.in,9890606835,72.54,MCWPS0054J,U-0379
+LPU.1055,Harika Verma,Male,M.Sc Data Science,PG,1,harika.verma1055@lpu.edu.in,9853184749,68.91,WPPPV0055B,U-0379
+LPU.1056,Kiran Bose,Female,M.Sc Data Science,PG,1,kiran.bose1056@lpu.edu.in,9875235726,93.29,GBIPB0056O,U-0379
+LPU.1057,Sameer Gupta,Male,M.Sc Data Science,PG,1,sameer.gupta1057@lpu.edu.in,9878869280,84.83,AZRPG0057I,U-0379
+LPU.1058,Ananya Mishra,Female,M.Sc Data Science,PG,1,ananya.mishra1058@lpu.edu.in,9836499650,80.49,JBRPM0058L,U-0379
+LPU.1059,Arjun Bose,Female,M.Sc Data Science,PG,1,arjun.bose1059@lpu.edu.in,9880666486,88.5,QFRPB0059V,U-0379
+LPU.1060,Rahul Bhat,Female,M.Sc Data Science,PG,1,rahul.bhat1060@lpu.edu.in,9874410984,64.11,YLFPB0060U,U-0379
+LPU.1061,Ritika Das,Female,M.Sc Data Science,PG,2,ritika.das1061@lpu.edu.in,9835541526,80.98,ONZPD0061P,U-0379
+LPU.1062,Harika Malhotra,Female,M.Sc Data Science,PG,2,harika.malhotra1062@lpu.edu.in,9872997859,65.07,QNKPM0062L,U-0379
+LPU.1063,Divya Malhotra,Male,M.Sc Data Science,PG,2,divya.malhotra1063@lpu.edu.in,9870227096,72.81,NKIPM0063B,U-0379
+LPU.1064,Arjun Rao,Male,M.Sc Data Science,PG,2,arjun.rao1064@lpu.edu.in,9821332510,99.41,EYFPR0064K,U-0379
+LPU.1065,Meghana Kumar,Female,M.Sc Data Science,PG,2,meghana.kumar1065@lpu.edu.in,9872294741,98.86,KXTPK0065M,U-0379
+LPU.1066,Aman Das,Female,M.Sc Data Science,PG,2,aman.das1066@lpu.edu.in,9827286187,81.4,DYNPD0066X,U-0379
+LPU.1067,Nikhil Iyer,Male,M.Sc Data Science,PG,2,nikhil.iyer1067@lpu.edu.in,9893238382,78.33,MDCPI0067S,U-0379
+LPU.1068,Sameer Gupta,Female,M.Sc Data Science,PG,2,sameer.gupta1068@lpu.edu.in,9855777402,97.33,QHZPG0068J,U-0379
+LPU.1069,Yash Bose,Female,M.Sc Data Science,PG,2,yash.bose1069@lpu.edu.in,9858892398,98.17,SNDPB0069P,U-0379
+LPU.1070,Sameer Malhotra,Female,M.Sc Data Science,PG,2,sameer.malhotra1070@lpu.edu.in,9889804189,85.39,GWZPM0070Y,U-0379
+LPU.1071,Vinay Bose,Male,M.Sc Data Science,PG,2,vinay.bose1071@lpu.edu.in,9848989310,88.99,NMUPB0071G,U-0379
+LPU.1072,Kiran Rao,Female,M.Sc Data Science,PG,2,kiran.rao1072@lpu.edu.in,9834739735,99.02,FVMPR0072S,U-0379
+LPU.1073,Divya Chopra,Male,M.Sc Data Science,PG,2,divya.chopra1073@lpu.edu.in,9871386256,92.83,BWXPC0073U,U-0379
+LPU.1074,Kiran Jain,Male,M.Sc Data Science,PG,2,kiran.jain1074@lpu.edu.in,9856777199,81.69,ESIPJ0074V,U-0379
+LPU.1075,Ananya Gupta,Male,M.Sc Data Science,PG,2,ananya.gupta1075@lpu.edu.in,9853283915,76.36,FKQPG0075I,U-0379
+LPU.1076,Ananya Singh,Male,M.Sc Data Science,PG,2,ananya.singh1076@lpu.edu.in,9884986045,69.3,TQKPS0076K,U-0379
+LPU.1077,Ananya Kumar,Male,M.Sc Data Science,PG,2,ananya.kumar1077@lpu.edu.in,9841490555,80.16,MQFPK0077J,U-0379
+LPU.1078,Nikhil Singh,Female,M.Sc Data Science,PG,2,nikhil.singh1078@lpu.edu.in,9894115710,92.84,PCZPS0078R,U-0379
+LPU.1079,Sneha Iyer,Female,M.Sc Data Science,PG,2,sneha.iyer1079@lpu.edu.in,9837984558,65.63,HOUPI0079N,U-0379
+LPU.1080,Pooja Singh,Male,M.Sc Data Science,PG,2,pooja.singh1080@lpu.edu.in,9889329662,75.63,JXLPS0080B,U-0379
+LPU.1081,Sanjay Mishra,Female,M.Sc Data Science,PG,2,sanjay.mishra1081@lpu.edu.in,9840799963,89.02,LFFPM0081Y,U-0379
+LPU.1082,Rahul Malhotra,Male,M.Sc Data Science,PG,2,rahul.malhotra1082@lpu.edu.in,9820462147,77.88,GWZPM0082G,U-0379
+LPU.1083,Ritika Bose,Male,M.Sc Data Science,PG,2,ritika.bose1083@lpu.edu.in,9824675320,75.34,DKEPB0083T,U-0379
+LPU.1084,Ritika Iyer,Female,M.Sc Data Science,PG,2,ritika.iyer1084@lpu.edu.in,9845827088,80.54,MQYPI0084K,U-0379
+LPU.1085,Ritika Reddy,Female,M.Sc Data Science,PG,2,ritika.reddy1085@lpu.edu.in,9860300074,96.64,LHWPR0085H,U-0379
+LPU.1086,Aman Sharma,Male,M.Sc Data Science,PG,2,aman.sharma1086@lpu.edu.in,9814538317,84.57,BNRPS0086T,U-0379
+LPU.1087,Kiran Sharma,Male,M.Sc Data Science,PG,2,kiran.sharma1087@lpu.edu.in,9851535441,81.78,IIRPS0087E,U-0379
+LPU.1088,Sameer Verma,Male,M.Sc Data Science,PG,2,sameer.verma1088@lpu.edu.in,9841243307,74.32,GMXPV0088Z,U-0379
+LPU.1089,Nikhil Iyer,Female,M.Sc Data Science,PG,2,nikhil.iyer1089@lpu.edu.in,9811429261,85.3,LMWPI0089I,U-0379
+LPU.1090,Vinay Reddy,Male,M.Sc Data Science,PG,2,vinay.reddy1090@lpu.edu.in,9842468771,70.1,QKLPR0090X,U-0379
+LPU.1091,Ritika Das,Female,M.Sc Data Science,PG,2,ritika.das1091@lpu.edu.in,9832999080,77.89,HWYPD0091C,U-0379
+LPU.1092,Sameer Bose,Male,M.Sc Data Science,PG,2,sameer.bose1092@lpu.edu.in,9883852000,63.16,QEPPB0092W,U-0379
+LPU.1093,Arjun Malhotra,Female,M.Sc Data Science,PG,2,arjun.malhotra1093@lpu.edu.in,9877942234,91.32,FAWPM0093N,U-0379
+LPU.1094,Harika Reddy,Male,M.Sc Data Science,PG,2,harika.reddy1094@lpu.edu.in,9892431721,80.09,QVPPR0094N,U-0379
+LPU.1095,Yash Rao,Female,M.Sc Data Science,PG,2,yash.rao1095@lpu.edu.in,9879689593,70.66,NYDPR0095C,U-0379
+LPU.1096,Sameer Naidu,Male,M.Sc Data Science,PG,2,sameer.naidu1096@lpu.edu.in,9812438422,89.58,DBMPN0096Q,U-0379
+LPU.1097,Rahul Mishra,Male,M.Sc Data Science,PG,2,rahul.mishra1097@lpu.edu.in,9835020081,78.47,TRUPM0097Q,U-0379
+LPU.1098,Arjun Sharma,Female,M.Sc Data Science,PG,2,arjun.sharma1098@lpu.edu.in,9834997910,68.4,YNUPS0098M,U-0379
+LPU.1099,Meghana Singh,Male,M.Sc Data Science,PG,2,meghana.singh1099@lpu.edu.in,9850424480,66.17,VPEPS0099K,U-0379
+LPU.1100,Vikram Iyer,Female,M.Sc Data Science,PG,2,vikram.iyer1100@lpu.edu.in,9894962283,75.09,YSAPI0100D,U-0379
+LPU.1101,Sanjay Jain,Female,M.Sc Data Science,PG,2,sanjay.jain1101@lpu.edu.in,9873712610,65.58,JWWPJ0101X,U-0379
+LPU.1102,Sameer Malhotra,Male,M.Sc Data Science,PG,2,sameer.malhotra1102@lpu.edu.in,9867428479,62.15,RYDPM0102O,U-0379
+LPU.1103,Sameer Nair,Female,M.Sc Data Science,PG,2,sameer.nair1103@lpu.edu.in,9866721183,80.79,AKCPN0103G,U-0379
+LPU.1104,Divya Bose,Male,M.Sc Data Science,PG,2,divya.bose1104@lpu.edu.in,9870764087,65.39,OAMPB0104B,U-0379
+LPU.1105,Nikhil Kumar,Female,M.Sc Data Science,PG,2,nikhil.kumar1105@lpu.edu.in,9843149868,75.9,EZRPK0105Q,U-0379
+LPU.1106,Vikram Chopra,Male,M.Sc Data Science,PG,2,vikram.chopra1106@lpu.edu.in,9837504839,90.12,DHPPC0106X,U-0379
+LPU.1107,Sameer Gupta,Female,M.Sc Data Science,PG,2,sameer.gupta1107@lpu.edu.in,9851794497,94.48,MBEPG0107F,U-0379
+LPU.1108,Yash Iyer,Male,M.Sc Data Science,PG,2,yash.iyer1108@lpu.edu.in,9885032108,78.26,FPNPI0108Y,U-0379
+LPU.1109,Aman Naidu,Female,M.Sc Data Science,PG,2,aman.naidu1109@lpu.edu.in,9835189040,66.2,AIWPN0109I,U-0379
+LPU.1110,Aman Bhat,Male,M.Sc Data Science,PG,2,aman.bhat1110@lpu.edu.in,9827254358,95.53,MOBPB0110V,U-0379
+LPU.1111,Meghana Naidu,Female,M.Sc Data Science,PG,2,meghana.naidu1111@lpu.edu.in,9873625731,82.83,GCNPN0111G,U-0379
+LPU.1112,Vikram Jain,Male,M.Sc Data Science,PG,2,vikram.jain1112@lpu.edu.in,9869057017,68.1,YEZPJ0112P,U-0379
+LPU.1113,Harika Sharma,Female,M.Sc Data Science,PG,2,harika.sharma1113@lpu.edu.in,9849638275,79.67,KVZPS0113B,U-0379
+LPU.1114,Neha Gupta,Male,M.Sc Data Science,PG,2,neha.gupta1114@lpu.edu.in,9844121120,69.72,MYRPG0114K,U-0379
+LPU.1115,Harika Rao,Female,M.Sc Data Science,PG,2,harika.rao1115@lpu.edu.in,9813472670,84.01,KERPR0115R,U-0379
+LPU.1116,Pooja Nair,Male,M.Sc Data Science,PG,2,pooja.nair1116@lpu.edu.in,9854803831,98.96,XWSPN0116W,U-0379
+LPU.1117,Ravi Sharma,Male,M.Sc Data Science,PG,2,ravi.sharma1117@lpu.edu.in,9880123013,70.61,QFVPS0117X,U-0379
+LPU.1118,Kavya Sharma,Female,M.Sc Data Science,PG,2,kavya.sharma1118@lpu.edu.in,9862439107,99.74,IEUPS0118R,U-0379
+LPU.1119,Pooja Mishra,Female,M.Sc Data Science,PG,2,pooja.mishra1119@lpu.edu.in,9817918544,68.33,XEFPM0119N,U-0379
+LPU.1120,Rahul Jain,Male,M.Sc Data Science,PG,2,rahul.jain1120@lpu.edu.in,9821150344,72.64,NQTPJ0120S,U-0379
+LPU.1121,Kiran Reddy,Male,M.Tech CSE,PG,1,kiran.reddy1121@lpu.edu.in,9842732960,89.79,AFDPR0121J,U-0379
+LPU.1122,Rahul Mishra,Male,M.Tech CSE,PG,1,rahul.mishra1122@lpu.edu.in,9848350854,60.95,INTPM0122O,U-0379
+LPU.1123,Kiran Shetty,Female,M.Tech CSE,PG,1,kiran.shetty1123@lpu.edu.in,9895765761,96.69,TFHPS0123X,U-0379
+LPU.1124,Ananya Iyer,Female,M.Tech CSE,PG,1,ananya.iyer1124@lpu.edu.in,9866727183,87.51,EPTPI0124W,U-0379
+LPU.1125,Aman Jain,Female,M.Tech CSE,PG,1,aman.jain1125@lpu.edu.in,9814523266,96.84,KVIPJ0125D,U-0379
+LPU.1126,Ananya Naidu,Female,M.Tech CSE,PG,1,ananya.naidu1126@lpu.edu.in,9873457237,96.02,IFBPN0126O,U-0379
+LPU.1127,Arjun Jain,Female,M.Tech CSE,PG,1,arjun.jain1127@lpu.edu.in,9858844549,97.79,EGKPJ0127C,U-0379
+LPU.1128,Vikram Malhotra,Male,M.Tech CSE,PG,1,vikram.malhotra1128@lpu.edu.in,9844399847,66.18,IVFPM0128B,U-0379
+LPU.1129,Arjun Das,Female,M.Tech CSE,PG,1,arjun.das1129@lpu.edu.in,9857996668,64.01,MTJPD0129B,U-0379
+LPU.1130,Harika Reddy,Male,M.Tech CSE,PG,1,harika.reddy1130@lpu.edu.in,9841677881,88.66,UVXPR0130R,U-0379
+LPU.1131,Harika Verma,Male,M.Tech CSE,PG,1,harika.verma1131@lpu.edu.in,9839547456,86.64,KNPPV0131W,U-0379
+LPU.1132,Sneha Kumar,Male,M.Tech CSE,PG,1,sneha.kumar1132@lpu.edu.in,9855436395,61.34,RLGPK0132S,U-0379
+LPU.1133,Rahul Shetty,Female,M.Tech CSE,PG,1,rahul.shetty1133@lpu.edu.in,9879072047,99.22,ARZPS0133P,U-0379
+LPU.1134,Ananya Rao,Male,M.Tech CSE,PG,1,ananya.rao1134@lpu.edu.in,9884143205,80.22,ZCDPR0134J,U-0379
+LPU.1135,Neha Reddy,Female,M.Tech CSE,PG,1,neha.reddy1135@lpu.edu.in,9894341488,65.86,ZQUPR0135T,U-0379
+LPU.1136,Ravi Reddy,Male,M.Tech CSE,PG,1,ravi.reddy1136@lpu.edu.in,9874760486,88.4,YYXPR0136G,U-0379
+LPU.1137,Arjun Das,Female,M.Tech CSE,PG,1,arjun.das1137@lpu.edu.in,9867915735,98.99,QGNPD0137N,U-0379
+LPU.1138,Harika Bose,Female,M.Tech CSE,PG,1,harika.bose1138@lpu.edu.in,9825789838,95.26,MQMPB0138E,U-0379
+LPU.1139,Sneha Sharma,Male,M.Tech CSE,PG,1,sneha.sharma1139@lpu.edu.in,9835716681,97.67,BCHPS0139T,U-0379
+LPU.1140,Sneha Patel,Male,M.Tech CSE,PG,1,sneha.patel1140@lpu.edu.in,9836024662,71.82,WTEPP0140F,U-0379
+LPU.1141,Nikhil Nair,Female,M.Tech CSE,PG,1,nikhil.nair1141@lpu.edu.in,9868014181,60.78,QOWPN0141V,U-0379
+LPU.1142,Sameer Das,Male,M.Tech CSE,PG,1,sameer.das1142@lpu.edu.in,9887143286,82.64,IBBPD0142I,U-0379
+LPU.1143,Rahul Yadav,Male,M.Tech CSE,PG,1,rahul.yadav1143@lpu.edu.in,9837402376,73.39,YPPPY0143Z,U-0379
+LPU.1144,Kavya Mishra,Female,M.Tech CSE,PG,1,kavya.mishra1144@lpu.edu.in,9871493003,71.2,ZXDPM0144X,U-0379
+LPU.1145,Harika Sharma,Female,M.Tech CSE,PG,1,harika.sharma1145@lpu.edu.in,9869390192,87.23,GDQPS0145M,U-0379
+LPU.1146,Rahul Bose,Male,M.Tech CSE,PG,1,rahul.bose1146@lpu.edu.in,9831154305,60.54,KNHPB0146F,U-0379
+LPU.1147,Ritika Naidu,Male,M.Tech CSE,PG,1,ritika.naidu1147@lpu.edu.in,9827906306,71.1,LFEPN0147F,U-0379
+LPU.1148,Kiran Mishra,Male,M.Tech CSE,PG,1,kiran.mishra1148@lpu.edu.in,9889731122,75.27,KUKPM0148G,U-0379
+LPU.1149,Yash Yadav,Male,M.Tech CSE,PG,1,yash.yadav1149@lpu.edu.in,9815110398,84.4,CZNPY0149X,U-0379
+LPU.1150,Divya Rao,Female,M.Tech CSE,PG,1,divya.rao1150@lpu.edu.in,9833399199,60.08,FBCPR0150J,U-0379
+LPU.1151,Arjun Verma,Male,M.Tech CSE,PG,1,arjun.verma1151@lpu.edu.in,9861708440,67.56,EPDPV0151B,U-0379
+LPU.1152,Sanjay Malhotra,Male,M.Tech CSE,PG,1,sanjay.malhotra1152@lpu.edu.in,9854507056,95.43,TPHPM0152J,U-0379
+LPU.1153,Yash Shetty,Female,M.Tech CSE,PG,1,yash.shetty1153@lpu.edu.in,9830480787,60.49,UJYPS0153O,U-0379
+LPU.1154,Divya Das,Female,M.Tech CSE,PG,1,divya.das1154@lpu.edu.in,9887082158,93.05,YFIPD0154H,U-0379
+LPU.1155,Sameer Iyer,Female,M.Tech CSE,PG,1,sameer.iyer1155@lpu.edu.in,9899504621,92.04,LPHPI0155L,U-0379
+LPU.1156,Vikram Rao,Female,M.Tech CSE,PG,1,vikram.rao1156@lpu.edu.in,9894659993,75.91,TIUPR0156L,U-0379
+LPU.1157,Meghana Das,Female,M.Tech CSE,PG,1,meghana.das1157@lpu.edu.in,9896923940,73.21,LRXPD0157T,U-0379
+LPU.1158,Ananya Iyer,Male,M.Tech CSE,PG,1,ananya.iyer1158@lpu.edu.in,9866485028,90.28,MUCPI0158H,U-0379
+LPU.1159,Pooja Mishra,Female,M.Tech CSE,PG,1,pooja.mishra1159@lpu.edu.in,9830495262,67.76,UVPPM0159B,U-0379
+LPU.1160,Sanjay Gupta,Female,M.Tech CSE,PG,1,sanjay.gupta1160@lpu.edu.in,9861029930,71.27,ZARPG0160W,U-0379
+LPU.1161,Rahul Shetty,Female,M.Tech CSE,PG,1,rahul.shetty1161@lpu.edu.in,9848054098,84.63,KNIPS0161S,U-0379
+LPU.1162,Ritika Bhat,Male,M.Tech CSE,PG,1,ritika.bhat1162@lpu.edu.in,9895995761,97.81,EWQPB0162V,U-0379
+LPU.1163,Ritika Reddy,Male,M.Tech CSE,PG,1,ritika.reddy1163@lpu.edu.in,9893777129,65.69,JTKPR0163P,U-0379
+LPU.1164,Arjun Gupta,Male,M.Tech CSE,PG,1,arjun.gupta1164@lpu.edu.in,9894194021,93.32,ZJNPG0164E,U-0379
+LPU.1165,Vinay Kumar,Female,M.Tech CSE,PG,1,vinay.kumar1165@lpu.edu.in,9815900448,99.98,WEHPK0165T,U-0379
+LPU.1166,Pooja Bose,Female,M.Tech CSE,PG,1,pooja.bose1166@lpu.edu.in,9822041788,97.59,TXFPB0166B,U-0379
+LPU.1167,Arjun Bose,Female,M.Tech CSE,PG,1,arjun.bose1167@lpu.edu.in,9855149839,60.18,TPAPB0167N,U-0379
+LPU.1168,Meghana Rao,Female,M.Tech CSE,PG,1,meghana.rao1168@lpu.edu.in,9844254251,79.95,QMIPR0168M,U-0379
+LPU.1169,Vikram Nair,Female,M.Tech CSE,PG,1,vikram.nair1169@lpu.edu.in,9852165952,69.74,IUYPN0169L,U-0379
+LPU.1170,Kavya Das,Male,M.Tech CSE,PG,1,kavya.das1170@lpu.edu.in,9839593972,84.31,FXGPD0170P,U-0379
+LPU.1171,Ritika Kumar,Female,M.Tech CSE,PG,1,ritika.kumar1171@lpu.edu.in,9834072078,78.02,NRHPK0171Z,U-0379
+LPU.1172,Aman Verma,Male,M.Tech CSE,PG,1,aman.verma1172@lpu.edu.in,9821793744,97.98,FIIPV0172L,U-0379
+LPU.1173,Meghana Patel,Female,M.Tech CSE,PG,1,meghana.patel1173@lpu.edu.in,9823893249,79.27,MYBPP0173V,U-0379
+LPU.1174,Pooja Gupta,Male,M.Tech CSE,PG,1,pooja.gupta1174@lpu.edu.in,9833127844,74.33,WQUPG0174J,U-0379
+LPU.1175,Kavya Patel,Female,M.Tech CSE,PG,1,kavya.patel1175@lpu.edu.in,9886538810,73.91,UCEPP0175M,U-0379
+LPU.1176,Ananya Shetty,Female,M.Tech CSE,PG,1,ananya.shetty1176@lpu.edu.in,9840250435,83.56,AQGPS0176V,U-0379
+LPU.1177,Kavya Gupta,Male,M.Tech CSE,PG,1,kavya.gupta1177@lpu.edu.in,9819668643,98.43,ADAPG0177I,U-0379
+LPU.1178,Kiran Reddy,Male,M.Tech CSE,PG,1,kiran.reddy1178@lpu.edu.in,9852694935,83.38,VHFPR0178T,U-0379
+LPU.1179,Ravi Sharma,Male,M.Tech CSE,PG,1,ravi.sharma1179@lpu.edu.in,9886981161,69.12,VNZPS0179X,U-0379
+LPU.1180,Harika Rao,Female,M.Tech CSE,PG,1,harika.rao1180@lpu.edu.in,9883657960,72.6,GNGPR0180C,U-0379
+LPU.1181,Pooja Yadav,Female,M.Tech CSE,PG,2,pooja.yadav1181@lpu.edu.in,9817914200,63.99,GEBPY0181H,U-0379
+LPU.1182,Pooja Shetty,Male,M.Tech CSE,PG,2,pooja.shetty1182@lpu.edu.in,9892168884,91.26,EINPS0182E,U-0379
+LPU.1183,Vinay Naidu,Female,M.Tech CSE,PG,2,vinay.naidu1183@lpu.edu.in,9827629386,71.39,RSMPN0183W,U-0379
+LPU.1184,Pooja Patel,Female,M.Tech CSE,PG,2,pooja.patel1184@lpu.edu.in,9858680663,99.45,CPQPP0184Z,U-0379
+LPU.1185,Vinay Verma,Male,M.Tech CSE,PG,2,vinay.verma1185@lpu.edu.in,9862611568,63.13,LXRPV0185S,U-0379
+LPU.1186,Ritika Gupta,Male,M.Tech CSE,PG,2,ritika.gupta1186@lpu.edu.in,9840938416,89.35,CQOPG0186R,U-0379
+LPU.1187,Meghana Sharma,Male,M.Tech CSE,PG,2,meghana.sharma1187@lpu.edu.in,9844433218,86.93,ERQPS0187H,U-0379
+LPU.1188,Sneha Shetty,Female,M.Tech CSE,PG,2,sneha.shetty1188@lpu.edu.in,9832408786,66.73,RWPPS0188R,U-0379
+LPU.1189,Sneha Iyer,Female,M.Tech CSE,PG,2,sneha.iyer1189@lpu.edu.in,9851234353,86.31,ITTPI0189U,U-0379
+LPU.1190,Sameer Chopra,Female,M.Tech CSE,PG,2,sameer.chopra1190@lpu.edu.in,9891832232,82.07,ZIMPC0190Z,U-0379
+LPU.1191,Arjun Mishra,Male,M.Tech CSE,PG,2,arjun.mishra1191@lpu.edu.in,9899462484,97.09,BZFPM0191I,U-0379
+LPU.1192,Sanjay Chopra,Female,M.Tech CSE,PG,2,sanjay.chopra1192@lpu.edu.in,9846644936,77.47,IBGPC0192K,U-0379
+LPU.1193,Ananya Jain,Male,M.Tech CSE,PG,2,ananya.jain1193@lpu.edu.in,9814725125,83.2,TULPJ0193P,U-0379
+LPU.1194,Sneha Jain,Female,M.Tech CSE,PG,2,sneha.jain1194@lpu.edu.in,9881761826,98.34,OPKPJ0194Q,U-0379
+LPU.1195,Ritika Naidu,Male,M.Tech CSE,PG,2,ritika.naidu1195@lpu.edu.in,9888512441,89.83,AJIPN0195F,U-0379
+LPU.1196,Sneha Kumar,Female,M.Tech CSE,PG,2,sneha.kumar1196@lpu.edu.in,9868380638,62.37,BYHPK0196D,U-0379
+LPU.1197,Pooja Naidu,Female,M.Tech CSE,PG,2,pooja.naidu1197@lpu.edu.in,9887634958,77.38,FLVPN0197N,U-0379
+LPU.1198,Kavya Verma,Male,M.Tech CSE,PG,2,kavya.verma1198@lpu.edu.in,9889675188,78.3,FTYPV0198J,U-0379
+LPU.1199,Nikhil Yadav,Male,M.Tech CSE,PG,2,nikhil.yadav1199@lpu.edu.in,9817735008,71.2,BSWPY0199G,U-0379
+LPU.1200,Nikhil Naidu,Female,M.Tech CSE,PG,2,nikhil.naidu1200@lpu.edu.in,9810833295,66.72,JPMPN0200F,U-0379
+LPU.1201,Arjun Chopra,Male,M.Tech CSE,PG,2,arjun.chopra1201@lpu.edu.in,9867142964,65.77,NKRPC0201H,U-0379
+LPU.1202,Vikram Kumar,Male,M.Tech CSE,PG,2,vikram.kumar1202@lpu.edu.in,9881911802,91.42,NRFPK0202M,U-0379
+LPU.1203,Harika Naidu,Female,M.Tech CSE,PG,2,harika.naidu1203@lpu.edu.in,9850334894,96.38,FMKPN0203R,U-0379
+LPU.1204,Ananya Verma,Female,M.Tech CSE,PG,2,ananya.verma1204@lpu.edu.in,9814574992,68.07,TCLPV0204R,U-0379
+LPU.1205,Sneha Patel,Male,M.Tech CSE,PG,2,sneha.patel1205@lpu.edu.in,9849077684,89.33,WYGPP0205K,U-0379
+LPU.1206,Kavya Iyer,Female,M.Tech CSE,PG,2,kavya.iyer1206@lpu.edu.in,9864638093,86.89,NOKPI0206F,U-0379
+LPU.1207,Nikhil Gupta,Male,M.Tech CSE,PG,2,nikhil.gupta1207@lpu.edu.in,9845682447,89.73,TFWPG0207W,U-0379
+LPU.1208,Pooja Yadav,Female,M.Tech CSE,PG,2,pooja.yadav1208@lpu.edu.in,9833133924,95.2,JARPY0208L,U-0379
+LPU.1209,Ravi Bhat,Male,M.Tech CSE,PG,2,ravi.bhat1209@lpu.edu.in,9851714731,93.95,LATPB0209L,U-0379
+LPU.1210,Sameer Bose,Female,M.Tech CSE,PG,2,sameer.bose1210@lpu.edu.in,9888686597,77.15,VVSPB0210A,U-0379
+LPU.1211,Vikram Yadav,Male,M.Tech CSE,PG,2,vikram.yadav1211@lpu.edu.in,9831307848,87.26,UKRPY0211J,U-0379
+LPU.1212,Divya Gupta,Male,M.Tech CSE,PG,2,divya.gupta1212@lpu.edu.in,9841411889,80.05,LDMPG0212X,U-0379
+LPU.1213,Yash Mishra,Male,M.Tech CSE,PG,2,yash.mishra1213@lpu.edu.in,9858304142,60.79,EHVPM0213L,U-0379
+LPU.1214,Vinay Das,Female,M.Tech CSE,PG,2,vinay.das1214@lpu.edu.in,9865968029,72.76,AKFPD0214L,U-0379
+LPU.1215,Yash Chopra,Male,M.Tech CSE,PG,2,yash.chopra1215@lpu.edu.in,9838933896,67.24,CHWPC0215B,U-0379
+LPU.1216,Aman Iyer,Male,M.Tech CSE,PG,2,aman.iyer1216@lpu.edu.in,9826081056,66.4,WGXPI0216O,U-0379
+LPU.1217,Aman Yadav,Male,M.Tech CSE,PG,2,aman.yadav1217@lpu.edu.in,9889149540,66.23,OKHPY0217X,U-0379
+LPU.1218,Meghana Rao,Male,M.Tech CSE,PG,2,meghana.rao1218@lpu.edu.in,9879648978,60.41,HYXPR0218P,U-0379
+LPU.1219,Kiran Malhotra,Male,M.Tech CSE,PG,2,kiran.malhotra1219@lpu.edu.in,9817750972,61.56,ZYKPM0219L,U-0379
+LPU.1220,Meghana Rao,Female,M.Tech CSE,PG,2,meghana.rao1220@lpu.edu.in,9892798784,88.72,PPZPR0220L,U-0379
+LPU.1221,Sameer Naidu,Male,M.Tech CSE,PG,2,sameer.naidu1221@lpu.edu.in,9865623882,66.86,IRWPN0221W,U-0379
+LPU.1222,Meghana Bhat,Male,M.Tech CSE,PG,2,meghana.bhat1222@lpu.edu.in,9820821849,72.41,ZMOPB0222H,U-0379
+LPU.1223,Yash Malhotra,Female,M.Tech CSE,PG,2,yash.malhotra1223@lpu.edu.in,9891825333,64.59,CWIPM0223N,U-0379
+LPU.1224,Vinay Verma,Female,M.Tech CSE,PG,2,vinay.verma1224@lpu.edu.in,9894845701,71.42,ASAPV0224D,U-0379
+LPU.1225,Ananya Malhotra,Male,M.Tech CSE,PG,2,ananya.malhotra1225@lpu.edu.in,9820195795,79.3,HEWPM0225L,U-0379
+LPU.1226,Ravi Kumar,Female,M.Tech CSE,PG,2,ravi.kumar1226@lpu.edu.in,9818439786,61.83,VRVPK0226R,U-0379
+LPU.1227,Kavya Rao,Male,M.Tech CSE,PG,2,kavya.rao1227@lpu.edu.in,9895836697,68.73,QTUPR0227O,U-0379
+LPU.1228,Neha Kumar,Female,M.Tech CSE,PG,2,neha.kumar1228@lpu.edu.in,9881372051,95.7,QEIPK0228O,U-0379
+LPU.1229,Neha Chopra,Female,M.Tech CSE,PG,2,neha.chopra1229@lpu.edu.in,9896215351,66.44,NIFPC0229Z,U-0379
+LPU.1230,Vikram Jain,Male,M.Tech CSE,PG,2,vikram.jain1230@lpu.edu.in,9893529311,86.74,XNTPJ0230R,U-0379
+LPU.1231,Harika Singh,Male,M.Tech CSE,PG,2,harika.singh1231@lpu.edu.in,9851873809,84.18,JSHPS0231V,U-0379
+LPU.1232,Ritika Naidu,Male,M.Tech CSE,PG,2,ritika.naidu1232@lpu.edu.in,9835895332,92.59,HFGPN0232H,U-0379
+LPU.1233,Vikram Sharma,Female,M.Tech CSE,PG,2,vikram.sharma1233@lpu.edu.in,9881701808,60.95,ZNJPS0233W,U-0379
+LPU.1234,Vinay Sharma,Male,M.Tech CSE,PG,2,vinay.sharma1234@lpu.edu.in,9890857736,93.4,YERPS0234B,U-0379
+LPU.1235,Ananya Malhotra,Female,M.Tech CSE,PG,2,ananya.malhotra1235@lpu.edu.in,9899330004,93.15,RWIPM0235L,U-0379
+LPU.1236,Kiran Gupta,Female,M.Tech CSE,PG,2,kiran.gupta1236@lpu.edu.in,9896688033,80.21,ZFYPG0236J,U-0379
+LPU.1237,Nikhil Yadav,Female,M.Tech CSE,PG,2,nikhil.yadav1237@lpu.edu.in,9877426064,74.66,QGZPY0237S,U-0379
+LPU.1238,Sanjay Kumar,Male,M.Tech CSE,PG,2,sanjay.kumar1238@lpu.edu.in,9856905199,94.11,TNYPK0238L,U-0379
+LPU.1239,Yash Das,Male,M.Tech CSE,PG,2,yash.das1239@lpu.edu.in,9870544774,71.28,ZOBPD0239Y,U-0379
+LPU.1240,Kavya Iyer,Female,M.Tech CSE,PG,2,kavya.iyer1240@lpu.edu.in,9852017365,68.3,ZAIPI0240D,U-0379
+LPU.1241,Kavya Naidu,Female,M.Tech ECE,PG,1,kavya.naidu1241@lpu.edu.in,9845088364,71.84,ZMUPN0241K,U-0379
+LPU.1242,Sameer Naidu,Female,M.Tech ECE,PG,1,sameer.naidu1242@lpu.edu.in,9839080092,87.12,KTFPN0242C,U-0379
+LPU.1243,Kavya Iyer,Female,M.Tech ECE,PG,1,kavya.iyer1243@lpu.edu.in,9826635165,61.38,PLLPI0243X,U-0379
+LPU.1244,Kiran Nair,Male,M.Tech ECE,PG,1,kiran.nair1244@lpu.edu.in,9890775852,76.75,QASPN0244L,U-0379
+LPU.1245,Vinay Sharma,Female,M.Tech ECE,PG,1,vinay.sharma1245@lpu.edu.in,9841291452,75.15,NGOPS0245X,U-0379
+LPU.1246,Kavya Nair,Female,M.Tech ECE,PG,1,kavya.nair1246@lpu.edu.in,9881291833,63.75,CZFPN0246U,U-0379
+LPU.1247,Vikram Jain,Male,M.Tech ECE,PG,1,vikram.jain1247@lpu.edu.in,9865168501,64.63,URKPJ0247K,U-0379
+LPU.1248,Meghana Malhotra,Male,M.Tech ECE,PG,1,meghana.malhotra1248@lpu.edu.in,9842280285,90.58,OIGPM0248D,U-0379
+LPU.1249,Vikram Iyer,Female,M.Tech ECE,PG,1,vikram.iyer1249@lpu.edu.in,9897968858,65.65,LDIPI0249K,U-0379
+LPU.1250,Divya Nair,Male,M.Tech ECE,PG,1,divya.nair1250@lpu.edu.in,9893226891,63.59,NHVPN0250R,U-0379
+LPU.1251,Harika Iyer,Female,M.Tech ECE,PG,1,harika.iyer1251@lpu.edu.in,9876535306,91.82,UIVPI0251J,U-0379
+LPU.1252,Kiran Naidu,Female,M.Tech ECE,PG,1,kiran.naidu1252@lpu.edu.in,9864144404,76.23,SXXPN0252H,U-0379
+LPU.1253,Meghana Nair,Male,M.Tech ECE,PG,1,meghana.nair1253@lpu.edu.in,9872571402,81.75,JQKPN0253M,U-0379
+LPU.1254,Meghana Verma,Female,M.Tech ECE,PG,1,meghana.verma1254@lpu.edu.in,9867536407,75.27,XJOPV0254H,U-0379
+LPU.1255,Pooja Sharma,Female,M.Tech ECE,PG,1,pooja.sharma1255@lpu.edu.in,9845374572,88.9,PLBPS0255B,U-0379
+LPU.1256,Sneha Malhotra,Male,M.Tech ECE,PG,1,sneha.malhotra1256@lpu.edu.in,9831625701,76.42,HJEPM0256E,U-0379
+LPU.1257,Harika Kumar,Male,M.Tech ECE,PG,1,harika.kumar1257@lpu.edu.in,9875396149,63.14,GOOPK0257U,U-0379
+LPU.1258,Sneha Nair,Male,M.Tech ECE,PG,1,sneha.nair1258@lpu.edu.in,9849076883,64.36,SUIPN0258U,U-0379
+LPU.1259,Kiran Bhat,Female,M.Tech ECE,PG,1,kiran.bhat1259@lpu.edu.in,9897466046,82.23,MKCPB0259R,U-0379
+LPU.1260,Neha Bose,Female,M.Tech ECE,PG,1,neha.bose1260@lpu.edu.in,9879799028,70.03,FMFPB0260W,U-0379
+LPU.1261,Ananya Bose,Female,M.Tech ECE,PG,1,ananya.bose1261@lpu.edu.in,9856381514,91.75,COVPB0261J,U-0379
+LPU.1262,Meghana Reddy,Male,M.Tech ECE,PG,1,meghana.reddy1262@lpu.edu.in,9868150544,96.29,KCHPR0262R,U-0379
+LPU.1263,Arjun Reddy,Female,M.Tech ECE,PG,1,arjun.reddy1263@lpu.edu.in,9838351773,69.93,KQRPR0263J,U-0379
+LPU.1264,Ravi Kumar,Female,M.Tech ECE,PG,1,ravi.kumar1264@lpu.edu.in,9876531324,92.75,OHYPK0264I,U-0379
+LPU.1265,Nikhil Verma,Male,M.Tech ECE,PG,1,nikhil.verma1265@lpu.edu.in,9895988624,71.12,IAKPV0265Q,U-0379
+LPU.1266,Pooja Malhotra,Female,M.Tech ECE,PG,1,pooja.malhotra1266@lpu.edu.in,9888777599,97.71,ZLTPM0266R,U-0379
+LPU.1267,Sanjay Mishra,Male,M.Tech ECE,PG,1,sanjay.mishra1267@lpu.edu.in,9887744701,83.24,OPCPM0267N,U-0379
+LPU.1268,Kavya Kumar,Female,M.Tech ECE,PG,1,kavya.kumar1268@lpu.edu.in,9877840601,69.61,EHDPK0268T,U-0379
+LPU.1269,Arjun Gupta,Female,M.Tech ECE,PG,1,arjun.gupta1269@lpu.edu.in,9832778242,86.34,UWFPG0269M,U-0379
+LPU.1270,Pooja Rao,Male,M.Tech ECE,PG,1,pooja.rao1270@lpu.edu.in,9822364133,66.81,ABDPR0270R,U-0379
+LPU.1271,Kavya Yadav,Female,M.Tech ECE,PG,1,kavya.yadav1271@lpu.edu.in,9881402632,81.03,QUUPY0271O,U-0379
+LPU.1272,Kiran Malhotra,Male,M.Tech ECE,PG,1,kiran.malhotra1272@lpu.edu.in,9820703819,77.96,WZSPM0272A,U-0379
+LPU.1273,Ritika Nair,Female,M.Tech ECE,PG,1,ritika.nair1273@lpu.edu.in,9823071774,92.73,THLPN0273E,U-0379
+LPU.1274,Kavya Das,Female,M.Tech ECE,PG,1,kavya.das1274@lpu.edu.in,9889227207,96.88,MSPPD0274Z,U-0379
+LPU.1275,Nikhil Singh,Male,M.Tech ECE,PG,1,nikhil.singh1275@lpu.edu.in,9840527410,63.31,CHQPS0275Z,U-0379
+LPU.1276,Sneha Das,Male,M.Tech ECE,PG,1,sneha.das1276@lpu.edu.in,9857600416,79.44,MUDPD0276V,U-0379
+LPU.1277,Sneha Sharma,Female,M.Tech ECE,PG,1,sneha.sharma1277@lpu.edu.in,9826802536,82.64,HEYPS0277N,U-0379
+LPU.1278,Harika Das,Male,M.Tech ECE,PG,1,harika.das1278@lpu.edu.in,9889688723,70.27,BLZPD0278P,U-0379
+LPU.1279,Sneha Reddy,Male,M.Tech ECE,PG,1,sneha.reddy1279@lpu.edu.in,9859120664,96.67,DPXPR0279V,U-0379
+LPU.1280,Harika Kumar,Male,M.Tech ECE,PG,1,harika.kumar1280@lpu.edu.in,9865050049,62.79,SVJPK0280E,U-0379
+LPU.1281,Aman Shetty,Male,M.Tech ECE,PG,1,aman.shetty1281@lpu.edu.in,9829553919,73.81,KVLPS0281H,U-0379
+LPU.1282,Sameer Patel,Female,M.Tech ECE,PG,1,sameer.patel1282@lpu.edu.in,9829301049,86.06,NZVPP0282E,U-0379
+LPU.1283,Neha Patel,Male,M.Tech ECE,PG,1,neha.patel1283@lpu.edu.in,9855601677,81.66,RMDPP0283H,U-0379
+LPU.1284,Kavya Shetty,Female,M.Tech ECE,PG,1,kavya.shetty1284@lpu.edu.in,9855720950,84.04,XGCPS0284A,U-0379
+LPU.1285,Harika Nair,Male,M.Tech ECE,PG,1,harika.nair1285@lpu.edu.in,9837753907,92.65,YDPPN0285L,U-0379
+LPU.1286,Aman Malhotra,Male,M.Tech ECE,PG,1,aman.malhotra1286@lpu.edu.in,9854164302,75.95,NDTPM0286K,U-0379
+LPU.1287,Meghana Sharma,Female,M.Tech ECE,PG,1,meghana.sharma1287@lpu.edu.in,9823100996,93.58,SKVPS0287M,U-0379
+LPU.1288,Ananya Malhotra,Female,M.Tech ECE,PG,1,ananya.malhotra1288@lpu.edu.in,9885015409,86.48,WNFPM0288P,U-0379
+LPU.1289,Nikhil Jain,Female,M.Tech ECE,PG,1,nikhil.jain1289@lpu.edu.in,9850570142,81.84,KZSPJ0289L,U-0379
+LPU.1290,Kiran Chopra,Female,M.Tech ECE,PG,1,kiran.chopra1290@lpu.edu.in,9834549749,94.06,UXUPC0290K,U-0379
+LPU.1291,Ritika Naidu,Female,M.Tech ECE,PG,1,ritika.naidu1291@lpu.edu.in,9870557401,85.28,AGSPN0291I,U-0379
+LPU.1292,Meghana Singh,Male,M.Tech ECE,PG,1,meghana.singh1292@lpu.edu.in,9830977086,62.02,JYSPS0292N,U-0379
+LPU.1293,Sneha Iyer,Male,M.Tech ECE,PG,1,sneha.iyer1293@lpu.edu.in,9854632323,79.72,LWKPI0293U,U-0379
+LPU.1294,Ravi Mishra,Female,M.Tech ECE,PG,1,ravi.mishra1294@lpu.edu.in,9878201693,74.61,YEMPM0294P,U-0379
+LPU.1295,Yash Naidu,Male,M.Tech ECE,PG,1,yash.naidu1295@lpu.edu.in,9891884733,88.01,MNFPN0295P,U-0379
+LPU.1296,Nikhil Singh,Female,M.Tech ECE,PG,1,nikhil.singh1296@lpu.edu.in,9816130299,98.87,DHJPS0296Y,U-0379
+LPU.1297,Kavya Bhat,Male,M.Tech ECE,PG,1,kavya.bhat1297@lpu.edu.in,9896118012,71.42,TPMPB0297Z,U-0379
+LPU.1298,Arjun Shetty,Male,M.Tech ECE,PG,1,arjun.shetty1298@lpu.edu.in,9853259446,66.03,AMHPS0298O,U-0379
+LPU.1299,Meghana Jain,Male,M.Tech ECE,PG,1,meghana.jain1299@lpu.edu.in,9894187914,78.27,LNRPJ0299O,U-0379
+LPU.1300,Kavya Gupta,Male,M.Tech ECE,PG,1,kavya.gupta1300@lpu.edu.in,9853386315,74.25,FCRPG0300D,U-0379
+LPU.1301,Sneha Kumar,Male,M.Tech ECE,PG,2,sneha.kumar1301@lpu.edu.in,9863373980,83.86,PZAPK0301P,U-0379
+LPU.1302,Vinay Nair,Male,M.Tech ECE,PG,2,vinay.nair1302@lpu.edu.in,9876170868,62.01,FFPPN0302B,U-0379
+LPU.1303,Ravi Nair,Female,M.Tech ECE,PG,2,ravi.nair1303@lpu.edu.in,9831737724,88.11,YTSPN0303U,U-0379
+LPU.1304,Ananya Malhotra,Male,M.Tech ECE,PG,2,ananya.malhotra1304@lpu.edu.in,9841147282,60.65,UZPPM0304N,U-0379
+LPU.1305,Kavya Gupta,Male,M.Tech ECE,PG,2,kavya.gupta1305@lpu.edu.in,9852986101,61.18,YBDPG0305U,U-0379
+LPU.1306,Ananya Jain,Female,M.Tech ECE,PG,2,ananya.jain1306@lpu.edu.in,9895051940,81.46,MZCPJ0306K,U-0379
+LPU.1307,Ravi Chopra,Male,M.Tech ECE,PG,2,ravi.chopra1307@lpu.edu.in,9863160470,60.02,QBDPC0307G,U-0379
+LPU.1308,Sameer Reddy,Female,M.Tech ECE,PG,2,sameer.reddy1308@lpu.edu.in,9889275717,66.95,CANPR0308D,U-0379
+LPU.1309,Kavya Iyer,Male,M.Tech ECE,PG,2,kavya.iyer1309@lpu.edu.in,9835204000,78.06,XAAPI0309Y,U-0379
+LPU.1310,Kavya Chopra,Male,M.Tech ECE,PG,2,kavya.chopra1310@lpu.edu.in,9891073452,93.34,SURPC0310A,U-0379
+LPU.1311,Arjun Sharma,Male,M.Tech ECE,PG,2,arjun.sharma1311@lpu.edu.in,9852979541,95.51,KAWPS0311Z,U-0379
+LPU.1312,Ananya Kumar,Male,M.Tech ECE,PG,2,ananya.kumar1312@lpu.edu.in,9856369250,88.2,LJSPK0312Q,U-0379
+LPU.1313,Vikram Jain,Female,M.Tech ECE,PG,2,vikram.jain1313@lpu.edu.in,9837903019,90.29,BRGPJ0313B,U-0379
+LPU.1314,Kiran Sharma,Male,M.Tech ECE,PG,2,kiran.sharma1314@lpu.edu.in,9864832199,92.01,WQBPS0314B,U-0379
+LPU.1315,Neha Reddy,Male,M.Tech ECE,PG,2,neha.reddy1315@lpu.edu.in,9870444252,64.63,HYYPR0315C,U-0379
+LPU.1316,Meghana Jain,Female,M.Tech ECE,PG,2,meghana.jain1316@lpu.edu.in,9896032757,93.6,ATZPJ0316U,U-0379
+LPU.1317,Sanjay Malhotra,Female,M.Tech ECE,PG,2,sanjay.malhotra1317@lpu.edu.in,9868148861,94.38,WILPM0317A,U-0379
+LPU.1318,Kiran Bhat,Female,M.Tech ECE,PG,2,kiran.bhat1318@lpu.edu.in,9850222007,60.57,UCGPB0318U,U-0379
+LPU.1319,Harika Mishra,Female,M.Tech ECE,PG,2,harika.mishra1319@lpu.edu.in,9870628650,83.71,VZQPM0319L,U-0379
+LPU.1320,Arjun Jain,Female,M.Tech ECE,PG,2,arjun.jain1320@lpu.edu.in,9831745889,80.91,PFIPJ0320F,U-0379
+LPU.1321,Pooja Singh,Female,M.Tech ECE,PG,2,pooja.singh1321@lpu.edu.in,9858170283,71.95,HNZPS0321K,U-0379
+LPU.1322,Yash Bhat,Male,M.Tech ECE,PG,2,yash.bhat1322@lpu.edu.in,9828368289,82.93,OTXPB0322H,U-0379
+LPU.1323,Aman Singh,Male,M.Tech ECE,PG,2,aman.singh1323@lpu.edu.in,9887148048,89.74,LNZPS0323J,U-0379
+LPU.1324,Meghana Naidu,Female,M.Tech ECE,PG,2,meghana.naidu1324@lpu.edu.in,9850127590,98.25,FRIPN0324X,U-0379
+LPU.1325,Vikram Shetty,Female,M.Tech ECE,PG,2,vikram.shetty1325@lpu.edu.in,9812060860,68.33,CPNPS0325A,U-0379
+LPU.1326,Arjun Iyer,Male,M.Tech ECE,PG,2,arjun.iyer1326@lpu.edu.in,9850110823,84.65,PDDPI0326B,U-0379
+LPU.1327,Neha Shetty,Male,M.Tech ECE,PG,2,neha.shetty1327@lpu.edu.in,9874382761,84.45,MFLPS0327A,U-0379
+LPU.1328,Yash Singh,Female,M.Tech ECE,PG,2,yash.singh1328@lpu.edu.in,9830931404,62.46,SRSPS0328F,U-0379
+LPU.1329,Meghana Shetty,Female,M.Tech ECE,PG,2,meghana.shetty1329@lpu.edu.in,9853696737,76.73,HGPPS0329V,U-0379
+LPU.1330,Ananya Gupta,Male,M.Tech ECE,PG,2,ananya.gupta1330@lpu.edu.in,9882551797,90.24,LQHPG0330Z,U-0379
+LPU.1331,Yash Bhat,Male,M.Tech ECE,PG,2,yash.bhat1331@lpu.edu.in,9882980913,89.53,BEUPB0331G,U-0379
+LPU.1332,Kavya Das,Female,M.Tech ECE,PG,2,kavya.das1332@lpu.edu.in,9868602799,72.64,ZMTPD0332B,U-0379
+LPU.1333,Ravi Das,Female,M.Tech ECE,PG,2,ravi.das1333@lpu.edu.in,9814683947,92.69,LSGPD0333G,U-0379
+LPU.1334,Neha Jain,Male,M.Tech ECE,PG,2,neha.jain1334@lpu.edu.in,9833136806,84.36,XDOPJ0334X,U-0379
+LPU.1335,Vikram Bose,Male,M.Tech ECE,PG,2,vikram.bose1335@lpu.edu.in,9866128542,88.4,AHEPB0335C,U-0379
+LPU.1336,Kavya Das,Female,M.Tech ECE,PG,2,kavya.das1336@lpu.edu.in,9897547704,71.54,NMEPD0336C,U-0379
+LPU.1337,Ritika Gupta,Female,M.Tech ECE,PG,2,ritika.gupta1337@lpu.edu.in,9867028614,70.79,GZMPG0337I,U-0379
+LPU.1338,Ravi Bose,Female,M.Tech ECE,PG,2,ravi.bose1338@lpu.edu.in,9840748880,67.99,VPXPB0338X,U-0379
+LPU.1339,Ananya Kumar,Male,M.Tech ECE,PG,2,ananya.kumar1339@lpu.edu.in,9873789081,66.52,RLZPK0339V,U-0379
+LPU.1340,Ravi Gupta,Female,M.Tech ECE,PG,2,ravi.gupta1340@lpu.edu.in,9851097887,97.49,FFTPG0340Z,U-0379
+LPU.1341,Harika Bhat,Female,M.Tech ECE,PG,2,harika.bhat1341@lpu.edu.in,9840767052,75.8,RMLPB0341E,U-0379
+LPU.1342,Vikram Naidu,Female,M.Tech ECE,PG,2,vikram.naidu1342@lpu.edu.in,9884260792,77.98,MUAPN0342Q,U-0379
+LPU.1343,Neha Verma,Female,M.Tech ECE,PG,2,neha.verma1343@lpu.edu.in,9844477947,94.49,FUFPV0343I,U-0379
+LPU.1344,Kiran Singh,Male,M.Tech ECE,PG,2,kiran.singh1344@lpu.edu.in,9881806837,75.61,THXPS0344W,U-0379
+LPU.1345,Rahul Bhat,Male,M.Tech ECE,PG,2,rahul.bhat1345@lpu.edu.in,9899805466,73.29,WHJPB0345F,U-0379
+LPU.1346,Pooja Rao,Female,M.Tech ECE,PG,2,pooja.rao1346@lpu.edu.in,9848249206,62.71,NZAPR0346Q,U-0379
+LPU.1347,Vikram Malhotra,Male,M.Tech ECE,PG,2,vikram.malhotra1347@lpu.edu.in,9813404328,60.48,VNLPM0347O,U-0379
+LPU.1348,Sneha Rao,Female,M.Tech ECE,PG,2,sneha.rao1348@lpu.edu.in,9844905749,78.77,UBRPR0348F,U-0379
+LPU.1349,Ananya Nair,Female,M.Tech ECE,PG,2,ananya.nair1349@lpu.edu.in,9852791621,72.17,QTVPN0349A,U-0379
+LPU.1350,Sneha Rao,Male,M.Tech ECE,PG,2,sneha.rao1350@lpu.edu.in,9899360997,80.06,VIDPR0350N,U-0379
+LPU.1351,Aman Bhat,Male,M.Tech ECE,PG,2,aman.bhat1351@lpu.edu.in,9854692829,68.81,RPCPB0351L,U-0379
+LPU.1352,Harika Rao,Female,M.Tech ECE,PG,2,harika.rao1352@lpu.edu.in,9876979118,68.92,DRNPR0352D,U-0379
+LPU.1353,Rahul Malhotra,Male,M.Tech ECE,PG,2,rahul.malhotra1353@lpu.edu.in,9896569901,95.38,LCBPM0353O,U-0379
+LPU.1354,Sneha Singh,Female,M.Tech ECE,PG,2,sneha.singh1354@lpu.edu.in,9887794981,78.29,USMPS0354H,U-0379
+LPU.1355,Meghana Iyer,Female,M.Tech ECE,PG,2,meghana.iyer1355@lpu.edu.in,9869529560,75.2,LLJPI0355N,U-0379
+LPU.1356,Pooja Reddy,Male,M.Tech ECE,PG,2,pooja.reddy1356@lpu.edu.in,9891672125,64.83,FWHPR0356Q,U-0379
+LPU.1357,Sanjay Kumar,Male,M.Tech ECE,PG,2,sanjay.kumar1357@lpu.edu.in,9848112333,94.66,UEIPK0357H,U-0379
+LPU.1358,Nikhil Reddy,Female,M.Tech ECE,PG,2,nikhil.reddy1358@lpu.edu.in,9824312613,86.04,NFJPR0358P,U-0379
+LPU.1359,Arjun Chopra,Female,M.Tech ECE,PG,2,arjun.chopra1359@lpu.edu.in,9811812791,74.37,CPGPC0359A,U-0379
+LPU.1360,Pooja Patel,Male,M.Tech ECE,PG,2,pooja.patel1360@lpu.edu.in,9828479056,83.71,CBSPP0360K,U-0379
+LPU.1361,Pooja Chopra,Female,MBA,PG,1,pooja.chopra1361@lpu.edu.in,9824524612,97.41,VOWPC0361L,U-0379
+LPU.1362,Harika Nair,Male,MBA,PG,1,harika.nair1362@lpu.edu.in,9814516528,85.4,OHLPN0362Q,U-0379
+LPU.1363,Vikram Patel,Male,MBA,PG,1,vikram.patel1363@lpu.edu.in,9846417539,76.17,NRNPP0363A,U-0379
+LPU.1364,Harika Bhat,Male,MBA,PG,1,harika.bhat1364@lpu.edu.in,9897365507,96.63,NEVPB0364Z,U-0379
+LPU.1365,Harika Reddy,Female,MBA,PG,1,harika.reddy1365@lpu.edu.in,9866468665,88.4,NACPR0365Y,U-0379
+LPU.1366,Pooja Patel,Female,MBA,PG,1,pooja.patel1366@lpu.edu.in,9825158604,66.23,QEFPP0366Z,U-0379
+LPU.1367,Vinay Naidu,Male,MBA,PG,1,vinay.naidu1367@lpu.edu.in,9842099463,77.64,ECHPN0367F,U-0379
+LPU.1368,Divya Verma,Female,MBA,PG,1,divya.verma1368@lpu.edu.in,9869865712,80.27,LZIPV0368W,U-0379
+LPU.1369,Ananya Shetty,Male,MBA,PG,1,ananya.shetty1369@lpu.edu.in,9886376620,81.24,ATWPS0369V,U-0379
+LPU.1370,Sanjay Das,Female,MBA,PG,1,sanjay.das1370@lpu.edu.in,9811706505,82.65,VYOPD0370P,U-0379
+LPU.1371,Harika Sharma,Female,MBA,PG,1,harika.sharma1371@lpu.edu.in,9825511533,75.45,LMWPS0371A,U-0379
+LPU.1372,Meghana Rao,Male,MBA,PG,1,meghana.rao1372@lpu.edu.in,9835818470,94.69,PHEPR0372Q,U-0379
+LPU.1373,Sanjay Patel,Female,MBA,PG,1,sanjay.patel1373@lpu.edu.in,9841071811,61.92,BIVPP0373E,U-0379
+LPU.1374,Ravi Rao,Male,MBA,PG,1,ravi.rao1374@lpu.edu.in,9894179649,87.65,EHIPR0374Z,U-0379
+LPU.1375,Divya Reddy,Male,MBA,PG,1,divya.reddy1375@lpu.edu.in,9861336526,69.95,QSOPR0375K,U-0379
+LPU.1376,Kiran Patel,Male,MBA,PG,1,kiran.patel1376@lpu.edu.in,9841984675,72.92,ZYHPP0376W,U-0379
+LPU.1377,Ritika Rao,Male,MBA,PG,1,ritika.rao1377@lpu.edu.in,9873220153,60.64,ATGPR0377S,U-0379
+LPU.1378,Meghana Patel,Male,MBA,PG,1,meghana.patel1378@lpu.edu.in,9842279098,87.7,APCPP0378S,U-0379
+LPU.1379,Kavya Naidu,Male,MBA,PG,1,kavya.naidu1379@lpu.edu.in,9843853001,60.94,IKXPN0379R,U-0379
+LPU.1380,Aman Gupta,Female,MBA,PG,1,aman.gupta1380@lpu.edu.in,9898425573,79.2,XOUPG0380N,U-0379
+LPU.1381,Divya Verma,Female,MBA,PG,1,divya.verma1381@lpu.edu.in,9844134832,64.43,ZRGPV0381T,U-0379
+LPU.1382,Harika Naidu,Female,MBA,PG,1,harika.naidu1382@lpu.edu.in,9838731557,61.86,JDRPN0382C,U-0379
+LPU.1383,Ananya Bhat,Male,MBA,PG,1,ananya.bhat1383@lpu.edu.in,9834580279,68.01,GTSPB0383S,U-0379
+LPU.1384,Rahul Patel,Male,MBA,PG,1,rahul.patel1384@lpu.edu.in,9859484446,61.54,DECPP0384N,U-0379
+LPU.1385,Harika Bose,Female,MBA,PG,1,harika.bose1385@lpu.edu.in,9897975629,74.25,GORPB0385V,U-0379
+LPU.1386,Nikhil Patel,Male,MBA,PG,1,nikhil.patel1386@lpu.edu.in,9838907931,86.18,RDWPP0386J,U-0379
+LPU.1387,Harika Verma,Male,MBA,PG,1,harika.verma1387@lpu.edu.in,9832489561,84.07,XJZPV0387Q,U-0379
+LPU.1388,Vinay Bhat,Female,MBA,PG,1,vinay.bhat1388@lpu.edu.in,9828972652,71.79,OKOPB0388E,U-0379
+LPU.1389,Kavya Reddy,Female,MBA,PG,1,kavya.reddy1389@lpu.edu.in,9866574447,64.38,BTJPR0389L,U-0379
+LPU.1390,Nikhil Shetty,Male,MBA,PG,1,nikhil.shetty1390@lpu.edu.in,9867885946,89.45,UVOPS0390J,U-0379
+LPU.1391,Sameer Sharma,Male,MBA,PG,1,sameer.sharma1391@lpu.edu.in,9858392199,80.3,HFGPS0391Z,U-0379
+LPU.1392,Sanjay Das,Female,MBA,PG,1,sanjay.das1392@lpu.edu.in,9816972898,98.8,KCUPD0392L,U-0379
+LPU.1393,Neha Sharma,Female,MBA,PG,1,neha.sharma1393@lpu.edu.in,9864588832,95.96,BCWPS0393D,U-0379
+LPU.1394,Pooja Shetty,Male,MBA,PG,1,pooja.shetty1394@lpu.edu.in,9886075446,96.46,FTAPS0394O,U-0379
+LPU.1395,Kavya Reddy,Male,MBA,PG,1,kavya.reddy1395@lpu.edu.in,9827633637,78.44,MKLPR0395W,U-0379
+LPU.1396,Sameer Bhat,Female,MBA,PG,1,sameer.bhat1396@lpu.edu.in,9879252494,74.75,NTDPB0396C,U-0379
+LPU.1397,Divya Singh,Female,MBA,PG,1,divya.singh1397@lpu.edu.in,9894064031,96.41,PVHPS0397G,U-0379
+LPU.1398,Yash Gupta,Female,MBA,PG,1,yash.gupta1398@lpu.edu.in,9882223724,81.16,BZNPG0398I,U-0379
+LPU.1399,Sanjay Rao,Female,MBA,PG,1,sanjay.rao1399@lpu.edu.in,9851937519,69.63,JOUPR0399Y,U-0379
+LPU.1400,Neha Malhotra,Female,MBA,PG,1,neha.malhotra1400@lpu.edu.in,9820255657,76.55,UVBPM0400Z,U-0379
+LPU.1401,Vikram Jain,Male,MBA,PG,1,vikram.jain1401@lpu.edu.in,9883832716,91.42,XVWPJ0401R,U-0379
+LPU.1402,Sanjay Bose,Male,MBA,PG,1,sanjay.bose1402@lpu.edu.in,9896581873,63.42,RYIPB0402P,U-0379
+LPU.1403,Divya Bhat,Female,MBA,PG,1,divya.bhat1403@lpu.edu.in,9894032693,93.47,KAEPB0403Z,U-0379
+LPU.1404,Yash Sharma,Male,MBA,PG,1,yash.sharma1404@lpu.edu.in,9864425022,94.77,HELPS0404K,U-0379
+LPU.1405,Sanjay Bhat,Male,MBA,PG,1,sanjay.bhat1405@lpu.edu.in,9843325071,68.89,FUTPB0405C,U-0379
+LPU.1406,Pooja Mishra,Male,MBA,PG,1,pooja.mishra1406@lpu.edu.in,9812165024,66.9,TJBPM0406D,U-0379
+LPU.1407,Aman Chopra,Female,MBA,PG,1,aman.chopra1407@lpu.edu.in,9887997078,99.55,MGNPC0407G,U-0379
+LPU.1408,Nikhil Sharma,Male,MBA,PG,1,nikhil.sharma1408@lpu.edu.in,9879213850,86.96,PNMPS0408K,U-0379
+LPU.1409,Pooja Iyer,Female,MBA,PG,1,pooja.iyer1409@lpu.edu.in,9886506817,97.34,WQBPI0409A,U-0379
+LPU.1410,Arjun Mishra,Female,MBA,PG,1,arjun.mishra1410@lpu.edu.in,9890559083,94.25,WALPM0410O,U-0379
+LPU.1411,Meghana Reddy,Female,MBA,PG,1,meghana.reddy1411@lpu.edu.in,9884437871,81.91,VSFPR0411F,U-0379
+LPU.1412,Kavya Naidu,Male,MBA,PG,1,kavya.naidu1412@lpu.edu.in,9899552876,79.09,RHTPN0412X,U-0379
+LPU.1413,Ananya Chopra,Female,MBA,PG,1,ananya.chopra1413@lpu.edu.in,9818368749,86.87,CJSPC0413T,U-0379
+LPU.1414,Pooja Das,Male,MBA,PG,1,pooja.das1414@lpu.edu.in,9825859424,60.56,LFRPD0414Q,U-0379
+LPU.1415,Sneha Singh,Male,MBA,PG,1,sneha.singh1415@lpu.edu.in,9821770892,67.05,MRZPS0415L,U-0379
+LPU.1416,Meghana Bose,Male,MBA,PG,1,meghana.bose1416@lpu.edu.in,9815968987,95.76,MJFPB0416P,U-0379
+LPU.1417,Pooja Verma,Female,MBA,PG,1,pooja.verma1417@lpu.edu.in,9862900087,63.99,BFQPV0417G,U-0379
+LPU.1418,Vikram Nair,Male,MBA,PG,1,vikram.nair1418@lpu.edu.in,9895688941,98.06,GSHPN0418M,U-0379
+LPU.1419,Neha Verma,Female,MBA,PG,1,neha.verma1419@lpu.edu.in,9868094991,81.7,YUFPV0419Y,U-0379
+LPU.1420,Divya Bose,Male,MBA,PG,1,divya.bose1420@lpu.edu.in,9890922298,63.59,EIVPB0420Z,U-0379
+LPU.1421,Ritika Shetty,Female,MBA,PG,2,ritika.shetty1421@lpu.edu.in,9878998220,73.81,CZDPS0421B,U-0379
+LPU.1422,Divya Verma,Female,MBA,PG,2,divya.verma1422@lpu.edu.in,9884010341,66.92,ESXPV0422H,U-0379
+LPU.1423,Kiran Bhat,Male,MBA,PG,2,kiran.bhat1423@lpu.edu.in,9820461093,67.74,JUKPB0423M,U-0379
+LPU.1424,Divya Nair,Male,MBA,PG,2,divya.nair1424@lpu.edu.in,9850206944,70.71,SLHPN0424J,U-0379
+LPU.1425,Kiran Jain,Female,MBA,PG,2,kiran.jain1425@lpu.edu.in,9810905964,63.86,SYYPJ0425U,U-0379
+LPU.1426,Nikhil Bhat,Male,MBA,PG,2,nikhil.bhat1426@lpu.edu.in,9853221681,77.89,WXWPB0426Z,U-0379
+LPU.1427,Kiran Shetty,Male,MBA,PG,2,kiran.shetty1427@lpu.edu.in,9888287368,84.77,PMJPS0427P,U-0379
+LPU.1428,Neha Naidu,Female,MBA,PG,2,neha.naidu1428@lpu.edu.in,9867586309,87.43,ONDPN0428V,U-0379
+LPU.1429,Divya Reddy,Female,MBA,PG,2,divya.reddy1429@lpu.edu.in,9824816352,71.35,VDBPR0429F,U-0379
+LPU.1430,Neha Jain,Male,MBA,PG,2,neha.jain1430@lpu.edu.in,9860907734,68.3,HPJPJ0430T,U-0379
+LPU.1431,Pooja Nair,Female,MBA,PG,2,pooja.nair1431@lpu.edu.in,9833478362,95.1,MVZPN0431U,U-0379
+LPU.1432,Yash Nair,Male,MBA,PG,2,yash.nair1432@lpu.edu.in,9873970664,92.93,ZMJPN0432C,U-0379
+LPU.1433,Neha Rao,Female,MBA,PG,2,neha.rao1433@lpu.edu.in,9868480159,71.69,XWGPR0433H,U-0379
+LPU.1434,Ritika Patel,Male,MBA,PG,2,ritika.patel1434@lpu.edu.in,9872651602,68.07,KYSPP0434V,U-0379
+LPU.1435,Harika Das,Female,MBA,PG,2,harika.das1435@lpu.edu.in,9845470382,69.08,LJLPD0435O,U-0379
+LPU.1436,Ravi Singh,Male,MBA,PG,2,ravi.singh1436@lpu.edu.in,9854732394,70.16,FDMPS0436H,U-0379
+LPU.1437,Kiran Shetty,Male,MBA,PG,2,kiran.shetty1437@lpu.edu.in,9877527065,92.73,HVNPS0437Y,U-0379
+LPU.1438,Aman Sharma,Female,MBA,PG,2,aman.sharma1438@lpu.edu.in,9871038008,68.53,ORZPS0438Q,U-0379
+LPU.1439,Rahul Yadav,Female,MBA,PG,2,rahul.yadav1439@lpu.edu.in,9874168921,73.87,EANPY0439G,U-0379
+LPU.1440,Ravi Gupta,Male,MBA,PG,2,ravi.gupta1440@lpu.edu.in,9823032682,79.9,CZJPG0440N,U-0379
+LPU.1441,Yash Singh,Male,MBA,PG,2,yash.singh1441@lpu.edu.in,9820590670,78.72,FTZPS0441T,U-0379
+LPU.1442,Pooja Iyer,Female,MBA,PG,2,pooja.iyer1442@lpu.edu.in,9876655795,85.29,WPIPI0442W,U-0379
+LPU.1443,Nikhil Jain,Female,MBA,PG,2,nikhil.jain1443@lpu.edu.in,9888279753,69.32,ZUCPJ0443O,U-0379
+LPU.1444,Arjun Mishra,Male,MBA,PG,2,arjun.mishra1444@lpu.edu.in,9896458117,64.27,ZELPM0444W,U-0379
+LPU.1445,Aman Iyer,Male,MBA,PG,2,aman.iyer1445@lpu.edu.in,9865027700,67.32,AUQPI0445T,U-0379
+LPU.1446,Sanjay Singh,Male,MBA,PG,2,sanjay.singh1446@lpu.edu.in,9870736179,83.53,JZAPS0446X,U-0379
+LPU.1447,Rahul Gupta,Male,MBA,PG,2,rahul.gupta1447@lpu.edu.in,9873652276,68.07,GUSPG0447W,U-0379
+LPU.1448,Arjun Bose,Male,MBA,PG,2,arjun.bose1448@lpu.edu.in,9857421797,75.91,ZVMPB0448U,U-0379
+LPU.1449,Ananya Iyer,Female,MBA,PG,2,ananya.iyer1449@lpu.edu.in,9864051143,88.86,CWUPI0449X,U-0379
+LPU.1450,Sneha Reddy,Female,MBA,PG,2,sneha.reddy1450@lpu.edu.in,9876625580,98.84,ALQPR0450Y,U-0379
+LPU.1451,Sameer Rao,Female,MBA,PG,2,sameer.rao1451@lpu.edu.in,9836129778,92.74,FYLPR0451G,U-0379
+LPU.1452,Kiran Yadav,Male,MBA,PG,2,kiran.yadav1452@lpu.edu.in,9835116903,95.54,RKIPY0452A,U-0379
+LPU.1453,Ananya Bose,Male,MBA,PG,2,ananya.bose1453@lpu.edu.in,9866954009,82.89,STCPB0453B,U-0379
+LPU.1454,Divya Verma,Female,MBA,PG,2,divya.verma1454@lpu.edu.in,9881116589,92.56,TPJPV0454T,U-0379
+LPU.1455,Neha Yadav,Male,MBA,PG,2,neha.yadav1455@lpu.edu.in,9847958089,80.42,DABPY0455N,U-0379
+LPU.1456,Yash Rao,Male,MBA,PG,2,yash.rao1456@lpu.edu.in,9888804038,80.37,MDRPR0456I,U-0379
+LPU.1457,Aman Das,Male,MBA,PG,2,aman.das1457@lpu.edu.in,9868102222,98.09,VYTPD0457Y,U-0379
+LPU.1458,Meghana Jain,Female,MBA,PG,2,meghana.jain1458@lpu.edu.in,9842046843,93.17,COUPJ0458Y,U-0379
+LPU.1459,Pooja Nair,Male,MBA,PG,2,pooja.nair1459@lpu.edu.in,9821393943,94.59,IPDPN0459U,U-0379
+LPU.1460,Meghana Mishra,Male,MBA,PG,2,meghana.mishra1460@lpu.edu.in,9818446965,93.87,YXEPM0460J,U-0379
+LPU.1461,Meghana Iyer,Male,MBA,PG,2,meghana.iyer1461@lpu.edu.in,9866010577,61.89,RBLPI0461B,U-0379
+LPU.1462,Arjun Jain,Female,MBA,PG,2,arjun.jain1462@lpu.edu.in,9881981514,88.19,GRAPJ0462T,U-0379
+LPU.1463,Harika Malhotra,Female,MBA,PG,2,harika.malhotra1463@lpu.edu.in,9823956034,67.67,JZTPM0463Z,U-0379
+LPU.1464,Pooja Naidu,Female,MBA,PG,2,pooja.naidu1464@lpu.edu.in,9816294855,63.3,ZLNPN0464Y,U-0379
+LPU.1465,Vikram Iyer,Male,MBA,PG,2,vikram.iyer1465@lpu.edu.in,9882738507,72.92,VWVPI0465G,U-0379
+LPU.1466,Neha Yadav,Male,MBA,PG,2,neha.yadav1466@lpu.edu.in,9891464934,75.19,CHIPY0466T,U-0379
+LPU.1467,Kiran Reddy,Male,MBA,PG,2,kiran.reddy1467@lpu.edu.in,9842673553,79.53,NZKPR0467E,U-0379
+LPU.1468,Nikhil Malhotra,Male,MBA,PG,2,nikhil.malhotra1468@lpu.edu.in,9814516227,66.65,XQZPM0468Q,U-0379
+LPU.1469,Nikhil Malhotra,Female,MBA,PG,2,nikhil.malhotra1469@lpu.edu.in,9813529346,94.64,YRXPM0469A,U-0379
+LPU.1470,Arjun Kumar,Male,MBA,PG,2,arjun.kumar1470@lpu.edu.in,9891165799,87.22,EOWPK0470Q,U-0379
+LPU.1471,Ravi Bhat,Female,MBA,PG,2,ravi.bhat1471@lpu.edu.in,9889895866,92.75,GCCPB0471U,U-0379
+LPU.1472,Kavya Shetty,Female,MBA,PG,2,kavya.shetty1472@lpu.edu.in,9872961840,97.97,KDUPS0472S,U-0379
+LPU.1473,Divya Kumar,Female,MBA,PG,2,divya.kumar1473@lpu.edu.in,9824145200,62.51,AFEPK0473R,U-0379
+LPU.1474,Aman Jain,Female,MBA,PG,2,aman.jain1474@lpu.edu.in,9849802242,68.73,INZPJ0474W,U-0379
+LPU.1475,Meghana Reddy,Male,MBA,PG,2,meghana.reddy1475@lpu.edu.in,9827670042,66.12,RWNPR0475F,U-0379
+LPU.1476,Rahul Iyer,Male,MBA,PG,2,rahul.iyer1476@lpu.edu.in,9881109760,60.94,DEMPI0476D,U-0379
+LPU.1477,Aman Bose,Male,MBA,PG,2,aman.bose1477@lpu.edu.in,9818258815,83.76,KVHPB0477J,U-0379
+LPU.1478,Meghana Reddy,Male,MBA,PG,2,meghana.reddy1478@lpu.edu.in,9889786581,85.06,HZVPR0478P,U-0379
+LPU.1479,Neha Verma,Male,MBA,PG,2,neha.verma1479@lpu.edu.in,9870705367,69.03,VBMPV0479L,U-0379
+LPU.1480,Vinay Chopra,Male,MBA,PG,2,vinay.chopra1480@lpu.edu.in,9876286105,69.47,UCEPC0480V,U-0379
+LPU.1481,Yash Naidu,Female,MCA,PG,1,yash.naidu1481@lpu.edu.in,9875104543,93.09,OUVPN0481D,U-0379
+LPU.1482,Sameer Patel,Female,MCA,PG,1,sameer.patel1482@lpu.edu.in,9829276676,65.53,AQLPP0482D,U-0379
+LPU.1483,Pooja Iyer,Female,MCA,PG,1,pooja.iyer1483@lpu.edu.in,9889361832,88.98,YMNPI0483E,U-0379
+LPU.1484,Harika Mishra,Male,MCA,PG,1,harika.mishra1484@lpu.edu.in,9899674667,99.71,WKJPM0484N,U-0379
+LPU.1485,Pooja Naidu,Male,MCA,PG,1,pooja.naidu1485@lpu.edu.in,9873727536,61.89,WZMPN0485F,U-0379
+LPU.1486,Pooja Reddy,Male,MCA,PG,1,pooja.reddy1486@lpu.edu.in,9846774578,63.71,QNGPR0486A,U-0379
+LPU.1487,Divya Yadav,Male,MCA,PG,1,divya.yadav1487@lpu.edu.in,9812586354,96.26,RWZPY0487D,U-0379
+LPU.1488,Yash Verma,Female,MCA,PG,1,yash.verma1488@lpu.edu.in,9897456490,60.96,ULOPV0488H,U-0379
+LPU.1489,Vikram Bose,Female,MCA,PG,1,vikram.bose1489@lpu.edu.in,9838146438,61.56,YHPPB0489V,U-0379
+LPU.1490,Sanjay Reddy,Female,MCA,PG,1,sanjay.reddy1490@lpu.edu.in,9879729753,60.16,SAFPR0490K,U-0379
+LPU.1491,Aman Das,Male,MCA,PG,1,aman.das1491@lpu.edu.in,9882740789,63.5,PSBPD0491A,U-0379
+LPU.1492,Vikram Iyer,Female,MCA,PG,1,vikram.iyer1492@lpu.edu.in,9893270969,80.83,LQIPI0492Q,U-0379
+LPU.1493,Kavya Chopra,Female,MCA,PG,1,kavya.chopra1493@lpu.edu.in,9876137611,98.15,HRZPC0493B,U-0379
+LPU.1494,Meghana Rao,Female,MCA,PG,1,meghana.rao1494@lpu.edu.in,9849351133,99.92,LPDPR0494Q,U-0379
+LPU.1495,Rahul Das,Female,MCA,PG,1,rahul.das1495@lpu.edu.in,9877153301,63.97,TCBPD0495B,U-0379
+LPU.1496,Ritika Mishra,Female,MCA,PG,1,ritika.mishra1496@lpu.edu.in,9887746797,81.75,EQZPM0496P,U-0379
+LPU.1497,Meghana Jain,Female,MCA,PG,1,meghana.jain1497@lpu.edu.in,9880099893,68.41,FAAPJ0497X,U-0379
+LPU.1498,Divya Kumar,Female,MCA,PG,1,divya.kumar1498@lpu.edu.in,9814123715,72.1,QSOPK0498G,U-0379
+LPU.1499,Sameer Reddy,Male,MCA,PG,1,sameer.reddy1499@lpu.edu.in,9886650539,97.48,LXMPR0499O,U-0379
+LPU.1500,Meghana Mishra,Male,MCA,PG,1,meghana.mishra1500@lpu.edu.in,9824652006,80.8,FCBPM0500E,U-0379
+LPU.1501,Sanjay Patel,Male,MCA,PG,1,sanjay.patel1501@lpu.edu.in,9871962199,97.49,VCFPP0501D,U-0379
+LPU.1502,Divya Bose,Male,MCA,PG,1,divya.bose1502@lpu.edu.in,9895173315,96.89,HREPB0502U,U-0379
+LPU.1503,Pooja Shetty,Male,MCA,PG,1,pooja.shetty1503@lpu.edu.in,9856213922,86.05,LVEPS0503A,U-0379
+LPU.1504,Harika Bose,Female,MCA,PG,1,harika.bose1504@lpu.edu.in,9831821976,81.51,WMUPB0504H,U-0379
+LPU.1505,Yash Naidu,Male,MCA,PG,1,yash.naidu1505@lpu.edu.in,9828162624,65.11,QXKPN0505I,U-0379
+LPU.1506,Pooja Das,Female,MCA,PG,1,pooja.das1506@lpu.edu.in,9819457720,89.52,YTGPD0506P,U-0379
+LPU.1507,Arjun Patel,Female,MCA,PG,1,arjun.patel1507@lpu.edu.in,9815926139,74.46,AYPPP0507Z,U-0379
+LPU.1508,Kiran Das,Female,MCA,PG,1,kiran.das1508@lpu.edu.in,9899117089,89.42,ARHPD0508Q,U-0379
+LPU.1509,Ananya Mishra,Female,MCA,PG,1,ananya.mishra1509@lpu.edu.in,9834950589,83.13,TUNPM0509Y,U-0379
+LPU.1510,Kiran Iyer,Male,MCA,PG,1,kiran.iyer1510@lpu.edu.in,9833724025,65.12,UPPPI0510T,U-0379
+LPU.1511,Yash Shetty,Female,MCA,PG,1,yash.shetty1511@lpu.edu.in,9855729486,94.21,PZQPS0511B,U-0379
+LPU.1512,Pooja Mishra,Female,MCA,PG,1,pooja.mishra1512@lpu.edu.in,9839701237,71.86,GYPPM0512W,U-0379
+LPU.1513,Harika Gupta,Female,MCA,PG,1,harika.gupta1513@lpu.edu.in,9852305364,93.07,CNQPG0513V,U-0379
+LPU.1514,Divya Sharma,Male,MCA,PG,1,divya.sharma1514@lpu.edu.in,9864145172,75.79,MWXPS0514N,U-0379
+LPU.1515,Kavya Das,Female,MCA,PG,1,kavya.das1515@lpu.edu.in,9882589165,75.13,XBFPD0515H,U-0379
+LPU.1516,Sneha Singh,Female,MCA,PG,1,sneha.singh1516@lpu.edu.in,9871640192,68.45,LMEPS0516D,U-0379
+LPU.1517,Yash Kumar,Male,MCA,PG,1,yash.kumar1517@lpu.edu.in,9839410449,69.21,MOYPK0517T,U-0379
+LPU.1518,Sameer Singh,Female,MCA,PG,1,sameer.singh1518@lpu.edu.in,9882646364,76.87,RLQPS0518B,U-0379
+LPU.1519,Aman Malhotra,Female,MCA,PG,1,aman.malhotra1519@lpu.edu.in,9833289556,72.96,HLCPM0519Z,U-0379
+LPU.1520,Nikhil Bose,Male,MCA,PG,1,nikhil.bose1520@lpu.edu.in,9830100017,70.49,XURPB0520F,U-0379
+LPU.1521,Meghana Bose,Male,MCA,PG,1,meghana.bose1521@lpu.edu.in,9883238138,83.97,ZBTPB0521F,U-0379
+LPU.1522,Rahul Naidu,Female,MCA,PG,1,rahul.naidu1522@lpu.edu.in,9883912844,65.95,GLXPN0522N,U-0379
+LPU.1523,Yash Yadav,Male,MCA,PG,1,yash.yadav1523@lpu.edu.in,9833717194,74.18,ZJZPY0523D,U-0379
+LPU.1524,Sneha Nair,Male,MCA,PG,1,sneha.nair1524@lpu.edu.in,9812633940,70.51,YJUPN0524Y,U-0379
+LPU.1525,Aman Reddy,Female,MCA,PG,1,aman.reddy1525@lpu.edu.in,9895785373,60.25,GNSPR0525A,U-0379
+LPU.1526,Neha Malhotra,Male,MCA,PG,1,neha.malhotra1526@lpu.edu.in,9827160520,81.01,GEIPM0526W,U-0379
+LPU.1527,Kiran Mishra,Female,MCA,PG,1,kiran.mishra1527@lpu.edu.in,9838810446,80.58,BEZPM0527D,U-0379
+LPU.1528,Yash Verma,Female,MCA,PG,1,yash.verma1528@lpu.edu.in,9875093945,66.56,JEMPV0528C,U-0379
+LPU.1529,Sanjay Bose,Female,MCA,PG,1,sanjay.bose1529@lpu.edu.in,9815296071,74.35,ZXJPB0529R,U-0379
+LPU.1530,Nikhil Das,Male,MCA,PG,1,nikhil.das1530@lpu.edu.in,9875790267,78.93,KTEPD0530E,U-0379
+LPU.1531,Arjun Malhotra,Male,MCA,PG,1,arjun.malhotra1531@lpu.edu.in,9810168214,60.42,SLMPM0531C,U-0379
+LPU.1532,Ritika Bose,Male,MCA,PG,1,ritika.bose1532@lpu.edu.in,9894660957,86.51,OXIPB0532M,U-0379
+LPU.1533,Vinay Kumar,Female,MCA,PG,1,vinay.kumar1533@lpu.edu.in,9832151846,81.29,KCJPK0533N,U-0379
+LPU.1534,Sameer Yadav,Male,MCA,PG,1,sameer.yadav1534@lpu.edu.in,9873788211,74.62,NBNPY0534D,U-0379
+LPU.1535,Kavya Verma,Female,MCA,PG,1,kavya.verma1535@lpu.edu.in,9823951908,66.8,WYMPV0535J,U-0379
+LPU.1536,Vinay Nair,Female,MCA,PG,1,vinay.nair1536@lpu.edu.in,9866070343,88.56,QGLPN0536F,U-0379
+LPU.1537,Ritika Chopra,Female,MCA,PG,1,ritika.chopra1537@lpu.edu.in,9851379280,67.2,RQAPC0537H,U-0379
+LPU.1538,Sneha Das,Male,MCA,PG,1,sneha.das1538@lpu.edu.in,9813212237,69.21,KDFPD0538H,U-0379
+LPU.1539,Ananya Shetty,Male,MCA,PG,1,ananya.shetty1539@lpu.edu.in,9818243375,69.49,XKZPS0539A,U-0379
+LPU.1540,Harika Patel,Female,MCA,PG,1,harika.patel1540@lpu.edu.in,9876963205,99.64,XXDPP0540Q,U-0379
+LPU.1541,Kavya Mishra,Female,MCA,PG,2,kavya.mishra1541@lpu.edu.in,9891150858,63.19,NJYPM0541J,U-0379
+LPU.1542,Kavya Mishra,Female,MCA,PG,2,kavya.mishra1542@lpu.edu.in,9832256528,64.97,PKNPM0542U,U-0379
+LPU.1543,Kavya Rao,Male,MCA,PG,2,kavya.rao1543@lpu.edu.in,9815973936,75.56,GRUPR0543L,U-0379
+LPU.1544,Yash Chopra,Male,MCA,PG,2,yash.chopra1544@lpu.edu.in,9867437461,72.24,MMNPC0544U,U-0379
+LPU.1545,Ritika Das,Female,MCA,PG,2,ritika.das1545@lpu.edu.in,9877758870,61.22,VDDPD0545L,U-0379
+LPU.1546,Kavya Yadav,Male,MCA,PG,2,kavya.yadav1546@lpu.edu.in,9833803202,80.49,LQZPY0546D,U-0379
+LPU.1547,Ravi Verma,Female,MCA,PG,2,ravi.verma1547@lpu.edu.in,9884679278,98.94,PZMPV0547P,U-0379
+LPU.1548,Pooja Patel,Male,MCA,PG,2,pooja.patel1548@lpu.edu.in,9865309025,89.17,YLGPP0548P,U-0379
+LPU.1549,Sameer Singh,Female,MCA,PG,2,sameer.singh1549@lpu.edu.in,9877632590,67.45,AITPS0549Z,U-0379
+LPU.1550,Ananya Jain,Female,MCA,PG,2,ananya.jain1550@lpu.edu.in,9819818355,64.49,QXZPJ0550D,U-0379
+LPU.1551,Rahul Iyer,Male,MCA,PG,2,rahul.iyer1551@lpu.edu.in,9834397710,89.59,WNXPI0551K,U-0379
+LPU.1552,Ravi Naidu,Female,MCA,PG,2,ravi.naidu1552@lpu.edu.in,9815946333,92.35,SMUPN0552X,U-0379
+LPU.1553,Pooja Yadav,Male,MCA,PG,2,pooja.yadav1553@lpu.edu.in,9841356004,96.75,TJIPY0553C,U-0379
+LPU.1554,Arjun Gupta,Female,MCA,PG,2,arjun.gupta1554@lpu.edu.in,9855112726,76.46,ODBPG0554W,U-0379
+LPU.1555,Arjun Mishra,Male,MCA,PG,2,arjun.mishra1555@lpu.edu.in,9830666395,82.98,ZYDPM0555V,U-0379
+LPU.1556,Sanjay Verma,Male,MCA,PG,2,sanjay.verma1556@lpu.edu.in,9834563642,79.68,IIWPV0556E,U-0379
+LPU.1557,Divya Gupta,Female,MCA,PG,2,divya.gupta1557@lpu.edu.in,9812989708,72.7,IGTPG0557J,U-0379
+LPU.1558,Neha Chopra,Female,MCA,PG,2,neha.chopra1558@lpu.edu.in,9878641354,96.48,BHIPC0558D,U-0379
+LPU.1559,Neha Mishra,Male,MCA,PG,2,neha.mishra1559@lpu.edu.in,9877203979,88.22,ZPMPM0559X,U-0379
+LPU.1560,Ravi Yadav,Female,MCA,PG,2,ravi.yadav1560@lpu.edu.in,9843390431,66.75,WFBPY0560Z,U-0379
+LPU.1561,Vikram Naidu,Male,MCA,PG,2,vikram.naidu1561@lpu.edu.in,9816067903,60.68,XQOPN0561Q,U-0379
+LPU.1562,Pooja Singh,Female,MCA,PG,2,pooja.singh1562@lpu.edu.in,9860731323,82.24,GYBPS0562Q,U-0379
+LPU.1563,Kavya Mishra,Female,MCA,PG,2,kavya.mishra1563@lpu.edu.in,9867158088,79.57,CATPM0563M,U-0379
+LPU.1564,Kavya Malhotra,Male,MCA,PG,2,kavya.malhotra1564@lpu.edu.in,9875552080,61.74,ZARPM0564U,U-0379
+LPU.1565,Rahul Mishra,Male,MCA,PG,2,rahul.mishra1565@lpu.edu.in,9810599410,64.34,AXTPM0565G,U-0379
+LPU.1566,Nikhil Sharma,Female,MCA,PG,2,nikhil.sharma1566@lpu.edu.in,9854326539,99.88,JBDPS0566Y,U-0379
+LPU.1567,Yash Bose,Male,MCA,PG,2,yash.bose1567@lpu.edu.in,9853894089,94.79,CYOPB0567A,U-0379
+LPU.1568,Kavya Gupta,Female,MCA,PG,2,kavya.gupta1568@lpu.edu.in,9833711721,83.68,LNVPG0568J,U-0379
+LPU.1569,Harika Nair,Male,MCA,PG,2,harika.nair1569@lpu.edu.in,9855256808,92.37,EFYPN0569C,U-0379
+LPU.1570,Kiran Jain,Female,MCA,PG,2,kiran.jain1570@lpu.edu.in,9884456707,78.02,OICPJ0570J,U-0379
+LPU.1571,Meghana Bose,Female,MCA,PG,2,meghana.bose1571@lpu.edu.in,9864450131,74.95,LZDPB0571A,U-0379
+LPU.1572,Pooja Kumar,Female,MCA,PG,2,pooja.kumar1572@lpu.edu.in,9889604559,95.32,EXOPK0572I,U-0379
+LPU.1573,Arjun Malhotra,Male,MCA,PG,2,arjun.malhotra1573@lpu.edu.in,9884730599,89.03,SXTPM0573G,U-0379
+LPU.1574,Pooja Verma,Male,MCA,PG,2,pooja.verma1574@lpu.edu.in,9838054111,85.56,BXXPV0574X,U-0379
+LPU.1575,Vikram Singh,Male,MCA,PG,2,vikram.singh1575@lpu.edu.in,9831640208,71.99,OOZPS0575X,U-0379
+LPU.1576,Yash Bhat,Male,MCA,PG,2,yash.bhat1576@lpu.edu.in,9876532590,62.02,GNAPB0576J,U-0379
+LPU.1577,Ritika Mishra,Female,MCA,PG,2,ritika.mishra1577@lpu.edu.in,9817075546,97.36,FFMPM0577P,U-0379
+LPU.1578,Ananya Verma,Male,MCA,PG,2,ananya.verma1578@lpu.edu.in,9879802852,81.81,JAUPV0578N,U-0379
+LPU.1579,Vikram Bhat,Male,MCA,PG,2,vikram.bhat1579@lpu.edu.in,9897533872,84.16,UNNPB0579Q,U-0379
+LPU.1580,Meghana Malhotra,Male,MCA,PG,2,meghana.malhotra1580@lpu.edu.in,9887160434,92.22,PSRPM0580B,U-0379
+LPU.1581,Ravi Jain,Female,MCA,PG,2,ravi.jain1581@lpu.edu.in,9829113909,65.7,ZAMPJ0581T,U-0379
+LPU.1582,Yash Naidu,Male,MCA,PG,2,yash.naidu1582@lpu.edu.in,9834741654,62.35,MRZPN0582L,U-0379
+LPU.1583,Vikram Iyer,Male,MCA,PG,2,vikram.iyer1583@lpu.edu.in,9896801191,94.85,JCEPI0583D,U-0379
+LPU.1584,Kiran Singh,Male,MCA,PG,2,kiran.singh1584@lpu.edu.in,9854299212,65.02,YEIPS0584P,U-0379
+LPU.1585,Ananya Iyer,Male,MCA,PG,2,ananya.iyer1585@lpu.edu.in,9826293259,92.69,WLXPI0585C,U-0379
+LPU.1586,Ananya Yadav,Female,MCA,PG,2,ananya.yadav1586@lpu.edu.in,9873103436,77.34,PSTPY0586I,U-0379
+LPU.1587,Rahul Malhotra,Male,MCA,PG,2,rahul.malhotra1587@lpu.edu.in,9819208775,67.61,QCEPM0587H,U-0379
+LPU.1588,Ritika Chopra,Male,MCA,PG,2,ritika.chopra1588@lpu.edu.in,9861266388,85.51,EEUPC0588T,U-0379
+LPU.1589,Vinay Shetty,Male,MCA,PG,2,vinay.shetty1589@lpu.edu.in,9842891176,92.86,OOYPS0589K,U-0379
+LPU.1590,Divya Chopra,Female,MCA,PG,2,divya.chopra1590@lpu.edu.in,9856518778,68.98,VHWPC0590J,U-0379
+LPU.1591,Aman Kumar,Male,MCA,PG,2,aman.kumar1591@lpu.edu.in,9819602057,73.65,SNRPK0591S,U-0379
+LPU.1592,Ananya Mishra,Female,MCA,PG,2,ananya.mishra1592@lpu.edu.in,9852558728,66.5,JGMPM0592E,U-0379
+LPU.1593,Yash Shetty,Male,MCA,PG,2,yash.shetty1593@lpu.edu.in,9846788292,69.43,JUDPS0593C,U-0379
+LPU.1594,Kavya Gupta,Male,MCA,PG,2,kavya.gupta1594@lpu.edu.in,9877588932,98.54,NTTPG0594K,U-0379
+LPU.1595,Aman Nair,Female,MCA,PG,2,aman.nair1595@lpu.edu.in,9840683942,70.73,QMWPN0595V,U-0379
+LPU.1596,Sanjay Shetty,Male,MCA,PG,2,sanjay.shetty1596@lpu.edu.in,9838392485,76.49,XZLPS0596W,U-0379
+LPU.1597,Kavya Verma,Male,MCA,PG,2,kavya.verma1597@lpu.edu.in,9843517587,91.26,SXYPV0597U,U-0379
+LPU.1598,Aman Rao,Female,MCA,PG,2,aman.rao1598@lpu.edu.in,9859148373,77.65,CVIPR0598J,U-0379
+LPU.1599,Ananya Malhotra,Male,MCA,PG,2,ananya.malhotra1599@lpu.edu.in,9899649075,83.35,EPVPM0599P,U-0379
+LPU.1600,Sameer Rao,Female,MCA,PG,2,sameer.rao1600@lpu.edu.in,9863871687,87.56,WFZPR0600R,U-0379
+LPU.1601,Sneha Yadav,Male,BBA,UG,1,sneha.yadav1601@lpu.edu.in,9882234394,82.34,NOYPY0601T,U-0379
+LPU.1602,Nikhil Sharma,Female,BBA,UG,1,nikhil.sharma1602@lpu.edu.in,9865067673,76.98,XMWPS0602Q,U-0379
+LPU.1603,Aman Reddy,Male,BBA,UG,1,aman.reddy1603@lpu.edu.in,9841668001,63.68,TFRPR0603U,U-0379
+LPU.1604,Arjun Das,Female,BBA,UG,1,arjun.das1604@lpu.edu.in,9895493753,78.18,DPYPD0604K,U-0379
+LPU.1605,Nikhil Gupta,Male,BBA,UG,1,nikhil.gupta1605@lpu.edu.in,9811984002,77.29,FVOPG0605P,U-0379
+LPU.1606,Ritika Reddy,Male,BBA,UG,1,ritika.reddy1606@lpu.edu.in,9887763501,86.66,KBIPR0606F,U-0379
+LPU.1607,Divya Malhotra,Male,BBA,UG,1,divya.malhotra1607@lpu.edu.in,9852161227,75.42,OYMPM0607C,U-0379
+LPU.1608,Neha Gupta,Male,BBA,UG,1,neha.gupta1608@lpu.edu.in,9891371452,73.17,QZJPG0608L,U-0379
+LPU.1609,Divya Jain,Male,BBA,UG,1,divya.jain1609@lpu.edu.in,9818486424,70.83,MBMPJ0609P,U-0379
+LPU.1610,Nikhil Das,Female,BBA,UG,1,nikhil.das1610@lpu.edu.in,9865182279,74.96,LKXPD0610W,U-0379
+LPU.1611,Harika Singh,Female,BBA,UG,1,harika.singh1611@lpu.edu.in,9826412946,81.9,JFVPS0611K,U-0379
+LPU.1612,Neha Iyer,Female,BBA,UG,1,neha.iyer1612@lpu.edu.in,9824020410,69.54,HYKPI0612B,U-0379
+LPU.1613,Meghana Rao,Male,BBA,UG,1,meghana.rao1613@lpu.edu.in,9855968968,80.99,STGPR0613O,U-0379
+LPU.1614,Divya Kumar,Female,BBA,UG,1,divya.kumar1614@lpu.edu.in,9825230014,66.84,LJKPK0614F,U-0379
+LPU.1615,Pooja Patel,Female,BBA,UG,1,pooja.patel1615@lpu.edu.in,9865575390,85.42,ZDFPP0615I,U-0379
+LPU.1616,Kiran Yadav,Male,BBA,UG,1,kiran.yadav1616@lpu.edu.in,9864408650,73.3,RMUPY0616V,U-0379
+LPU.1617,Nikhil Sharma,Male,BBA,UG,1,nikhil.sharma1617@lpu.edu.in,9860918673,79.22,DQWPS0617R,U-0379
+LPU.1618,Ananya Kumar,Female,BBA,UG,1,ananya.kumar1618@lpu.edu.in,9848060941,92.1,XFSPK0618I,U-0379
+LPU.1619,Sameer Nair,Male,BBA,UG,1,sameer.nair1619@lpu.edu.in,9842361539,87.74,CXYPN0619Z,U-0379
+LPU.1620,Aman Iyer,Female,BBA,UG,1,aman.iyer1620@lpu.edu.in,9842459873,82.82,URZPI0620U,U-0379
+LPU.1621,Vikram Malhotra,Male,BBA,UG,1,vikram.malhotra1621@lpu.edu.in,9886785366,98.27,IMAPM0621P,U-0379
+LPU.1622,Pooja Sharma,Female,BBA,UG,1,pooja.sharma1622@lpu.edu.in,9843040876,70.11,EQPPS0622U,U-0379
+LPU.1623,Harika Yadav,Female,BBA,UG,1,harika.yadav1623@lpu.edu.in,9871525486,71.22,BQPPY0623K,U-0379
+LPU.1624,Rahul Bose,Male,BBA,UG,1,rahul.bose1624@lpu.edu.in,9888056619,96.02,RNPPB0624V,U-0379
+LPU.1625,Ananya Singh,Male,BBA,UG,1,ananya.singh1625@lpu.edu.in,9838877148,75.77,CIGPS0625F,U-0379
+LPU.1626,Arjun Nair,Male,BBA,UG,1,arjun.nair1626@lpu.edu.in,9835066137,80.16,RXQPN0626B,U-0379
+LPU.1627,Divya Nair,Male,BBA,UG,1,divya.nair1627@lpu.edu.in,9857054827,74.15,QSXPN0627B,U-0379
+LPU.1628,Kiran Verma,Male,BBA,UG,1,kiran.verma1628@lpu.edu.in,9890769226,81.77,QGFPV0628D,U-0379
+LPU.1629,Vikram Yadav,Male,BBA,UG,1,vikram.yadav1629@lpu.edu.in,9840490343,82.81,MOBPY0629N,U-0379
+LPU.1630,Yash Yadav,Female,BBA,UG,1,yash.yadav1630@lpu.edu.in,9812703780,71.41,UCPPY0630W,U-0379
+LPU.1631,Arjun Jain,Male,BBA,UG,1,arjun.jain1631@lpu.edu.in,9843538394,62.48,ZQYPJ0631T,U-0379
+LPU.1632,Pooja Mishra,Female,BBA,UG,1,pooja.mishra1632@lpu.edu.in,9883465596,95.52,BQGPM0632T,U-0379
+LPU.1633,Vinay Verma,Male,BBA,UG,1,vinay.verma1633@lpu.edu.in,9821200777,77.64,RKFPV0633X,U-0379
+LPU.1634,Ananya Bose,Male,BBA,UG,1,ananya.bose1634@lpu.edu.in,9842814011,85.89,BMWPB0634E,U-0379
+LPU.1635,Harika Sharma,Female,BBA,UG,1,harika.sharma1635@lpu.edu.in,9823969807,83.85,PEJPS0635G,U-0379
+LPU.1636,Sameer Gupta,Male,BBA,UG,1,sameer.gupta1636@lpu.edu.in,9862690512,86.99,URWPG0636I,U-0379
+LPU.1637,Aman Jain,Male,BBA,UG,1,aman.jain1637@lpu.edu.in,9857275943,90.41,MMTPJ0637F,U-0379
+LPU.1638,Sameer Gupta,Female,BBA,UG,1,sameer.gupta1638@lpu.edu.in,9833178001,86.25,HEPPG0638D,U-0379
+LPU.1639,Harika Reddy,Male,BBA,UG,1,harika.reddy1639@lpu.edu.in,9817311796,73.83,DQJPR0639F,U-0379
+LPU.1640,Ravi Malhotra,Female,BBA,UG,1,ravi.malhotra1640@lpu.edu.in,9849554191,85.56,GNVPM0640G,U-0379
+LPU.1641,Pooja Reddy,Female,BBA,UG,1,pooja.reddy1641@lpu.edu.in,9899925759,62.24,OHKPR0641P,U-0379
+LPU.1642,Sanjay Shetty,Male,BBA,UG,1,sanjay.shetty1642@lpu.edu.in,9872851083,71.74,IAUPS0642A,U-0379
+LPU.1643,Yash Nair,Male,BBA,UG,1,yash.nair1643@lpu.edu.in,9838273624,96.89,ZVIPN0643V,U-0379
+LPU.1644,Ravi Reddy,Male,BBA,UG,1,ravi.reddy1644@lpu.edu.in,9821114894,80.5,QJWPR0644Z,U-0379
+LPU.1645,Vikram Sharma,Male,BBA,UG,1,vikram.sharma1645@lpu.edu.in,9837273362,80.84,VJZPS0645A,U-0379
+LPU.1646,Aman Verma,Female,BBA,UG,1,aman.verma1646@lpu.edu.in,9897858423,93.52,EDSPV0646U,U-0379
+LPU.1647,Sameer Yadav,Female,BBA,UG,1,sameer.yadav1647@lpu.edu.in,9876417421,72.73,DYPPY0647J,U-0379
+LPU.1648,Pooja Reddy,Female,BBA,UG,1,pooja.reddy1648@lpu.edu.in,9885925767,77.77,NNKPR0648K,U-0379
+LPU.1649,Arjun Gupta,Male,BBA,UG,1,arjun.gupta1649@lpu.edu.in,9893297528,60.91,MDAPG0649Q,U-0379
+LPU.1650,Aman Yadav,Female,BBA,UG,1,aman.yadav1650@lpu.edu.in,9864496871,81.15,TSLPY0650O,U-0379
+LPU.1651,Sanjay Singh,Male,BBA,UG,1,sanjay.singh1651@lpu.edu.in,9894049361,68.97,IHDPS0651Q,U-0379
+LPU.1652,Sneha Mishra,Male,BBA,UG,1,sneha.mishra1652@lpu.edu.in,9841808313,74.86,VSTPM0652Y,U-0379
+LPU.1653,Rahul Verma,Female,BBA,UG,1,rahul.verma1653@lpu.edu.in,9811196348,63.77,GMMPV0653D,U-0379
+LPU.1654,Nikhil Das,Female,BBA,UG,1,nikhil.das1654@lpu.edu.in,9843694313,92.49,FMDPD0654F,U-0379
+LPU.1655,Kavya Bhat,Female,BBA,UG,1,kavya.bhat1655@lpu.edu.in,9864536550,78.63,ZNLPB0655C,U-0379
+LPU.1656,Divya Shetty,Female,BBA,UG,1,divya.shetty1656@lpu.edu.in,9836883035,86.03,NGRPS0656P,U-0379
+LPU.1657,Sanjay Chopra,Female,BBA,UG,1,sanjay.chopra1657@lpu.edu.in,9879714689,96.37,MJWPC0657H,U-0379
+LPU.1658,Pooja Nair,Female,BBA,UG,1,pooja.nair1658@lpu.edu.in,9830198358,73.74,QERPN0658M,U-0379
+LPU.1659,Rahul Iyer,Male,BBA,UG,1,rahul.iyer1659@lpu.edu.in,9834264047,90.1,BSQPI0659K,U-0379
+LPU.1660,Harika Chopra,Female,BBA,UG,1,harika.chopra1660@lpu.edu.in,9834622479,81.8,CDJPC0660H,U-0379
+LPU.1661,Sameer Patel,Female,BBA,UG,2,sameer.patel1661@lpu.edu.in,9883463292,60.48,QTHPP0661W,U-0379
+LPU.1662,Rahul Naidu,Male,BBA,UG,2,rahul.naidu1662@lpu.edu.in,9840212987,71.82,HERPN0662D,U-0379
+LPU.1663,Sameer Verma,Male,BBA,UG,2,sameer.verma1663@lpu.edu.in,9846242043,62.95,QEMPV0663C,U-0379
+LPU.1664,Ravi Naidu,Female,BBA,UG,2,ravi.naidu1664@lpu.edu.in,9844025554,91.56,ZCEPN0664E,U-0379
+LPU.1665,Kavya Jain,Female,BBA,UG,2,kavya.jain1665@lpu.edu.in,9893390689,97.45,VUSPJ0665B,U-0379
+LPU.1666,Neha Nair,Male,BBA,UG,2,neha.nair1666@lpu.edu.in,9814789759,90.48,VYWPN0666X,U-0379
+LPU.1667,Divya Rao,Female,BBA,UG,2,divya.rao1667@lpu.edu.in,9839336732,99.38,IKQPR0667W,U-0379
+LPU.1668,Ravi Kumar,Female,BBA,UG,2,ravi.kumar1668@lpu.edu.in,9824513529,72.94,PRHPK0668Z,U-0379
+LPU.1669,Ananya Sharma,Male,BBA,UG,2,ananya.sharma1669@lpu.edu.in,9817680727,79.66,CXGPS0669T,U-0379
+LPU.1670,Yash Reddy,Male,BBA,UG,2,yash.reddy1670@lpu.edu.in,9821051504,80.22,TOIPR0670C,U-0379
+LPU.1671,Neha Bose,Female,BBA,UG,2,neha.bose1671@lpu.edu.in,9891020263,64.46,PXSPB0671K,U-0379
+LPU.1672,Nikhil Shetty,Female,BBA,UG,2,nikhil.shetty1672@lpu.edu.in,9820810083,64.36,CFIPS0672U,U-0379
+LPU.1673,Kavya Yadav,Female,BBA,UG,2,kavya.yadav1673@lpu.edu.in,9883086893,87.19,RCHPY0673G,U-0379
+LPU.1674,Ananya Chopra,Male,BBA,UG,2,ananya.chopra1674@lpu.edu.in,9834937458,88.84,PAAPC0674X,U-0379
+LPU.1675,Yash Malhotra,Female,BBA,UG,2,yash.malhotra1675@lpu.edu.in,9811541017,99.33,LUIPM0675M,U-0379
+LPU.1676,Sanjay Iyer,Female,BBA,UG,2,sanjay.iyer1676@lpu.edu.in,9821635473,85.57,SUAPI0676M,U-0379
+LPU.1677,Ravi Singh,Male,BBA,UG,2,ravi.singh1677@lpu.edu.in,9887911345,92.87,UVWPS0677T,U-0379
+LPU.1678,Kiran Iyer,Male,BBA,UG,2,kiran.iyer1678@lpu.edu.in,9829612963,70.13,PCOPI0678W,U-0379
+LPU.1679,Sneha Chopra,Male,BBA,UG,2,sneha.chopra1679@lpu.edu.in,9850326137,65.84,MKWPC0679T,U-0379
+LPU.1680,Ananya Yadav,Female,BBA,UG,2,ananya.yadav1680@lpu.edu.in,9894671198,75.4,XESPY0680N,U-0379
+LPU.1681,Divya Mishra,Female,BBA,UG,2,divya.mishra1681@lpu.edu.in,9895618524,71.7,SCRPM0681M,U-0379
+LPU.1682,Ritika Patel,Male,BBA,UG,2,ritika.patel1682@lpu.edu.in,9822030462,75.2,TVKPP0682G,U-0379
+LPU.1683,Ananya Sharma,Male,BBA,UG,2,ananya.sharma1683@lpu.edu.in,9834434965,93.06,CAAPS0683E,U-0379
+LPU.1684,Nikhil Patel,Female,BBA,UG,2,nikhil.patel1684@lpu.edu.in,9875691835,75.45,WECPP0684V,U-0379
+LPU.1685,Ananya Naidu,Male,BBA,UG,2,ananya.naidu1685@lpu.edu.in,9855296530,96.62,XNSPN0685M,U-0379
+LPU.1686,Rahul Malhotra,Male,BBA,UG,2,rahul.malhotra1686@lpu.edu.in,9862523019,67.62,IQTPM0686Y,U-0379
+LPU.1687,Kiran Jain,Male,BBA,UG,2,kiran.jain1687@lpu.edu.in,9884405789,73.22,YQHPJ0687T,U-0379
+LPU.1688,Divya Shetty,Male,BBA,UG,2,divya.shetty1688@lpu.edu.in,9893168094,86.86,SUEPS0688B,U-0379
+LPU.1689,Pooja Shetty,Male,BBA,UG,2,pooja.shetty1689@lpu.edu.in,9840295255,84.51,JIMPS0689R,U-0379
+LPU.1690,Pooja Bhat,Female,BBA,UG,2,pooja.bhat1690@lpu.edu.in,9830892676,96.73,DNUPB0690F,U-0379
+LPU.1691,Ravi Sharma,Male,BBA,UG,2,ravi.sharma1691@lpu.edu.in,9888138693,80.64,STAPS0691M,U-0379
+LPU.1692,Vikram Bhat,Female,BBA,UG,2,vikram.bhat1692@lpu.edu.in,9899637983,81.65,ZEOPB0692I,U-0379
+LPU.1693,Kavya Verma,Female,BBA,UG,2,kavya.verma1693@lpu.edu.in,9816244243,82.65,CBEPV0693E,U-0379
+LPU.1694,Kavya Singh,Female,BBA,UG,2,kavya.singh1694@lpu.edu.in,9879681560,67.36,RKPPS0694L,U-0379
+LPU.1695,Arjun Shetty,Female,BBA,UG,2,arjun.shetty1695@lpu.edu.in,9894896491,98.42,NKZPS0695L,U-0379
+LPU.1696,Yash Naidu,Male,BBA,UG,2,yash.naidu1696@lpu.edu.in,9879072267,82.48,PHOPN0696T,U-0379
+LPU.1697,Nikhil Gupta,Female,BBA,UG,2,nikhil.gupta1697@lpu.edu.in,9856377354,98.07,OAIPG0697Z,U-0379
+LPU.1698,Sameer Singh,Female,BBA,UG,2,sameer.singh1698@lpu.edu.in,9838393114,72.52,DJAPS0698H,U-0379
+LPU.1699,Aman Bhat,Male,BBA,UG,2,aman.bhat1699@lpu.edu.in,9853464392,64.34,WUWPB0699P,U-0379
+LPU.1700,Sneha Rao,Male,BBA,UG,2,sneha.rao1700@lpu.edu.in,9880235100,70.7,FRIPR0700J,U-0379
+LPU.1701,Harika Shetty,Female,BBA,UG,2,harika.shetty1701@lpu.edu.in,9860230728,91.65,MQJPS0701B,U-0379
+LPU.1702,Ananya Shetty,Female,BBA,UG,2,ananya.shetty1702@lpu.edu.in,9822715787,69.24,OKMPS0702E,U-0379
+LPU.1703,Yash Bose,Male,BBA,UG,2,yash.bose1703@lpu.edu.in,9868089998,79.3,QURPB0703N,U-0379
+LPU.1704,Kiran Malhotra,Female,BBA,UG,2,kiran.malhotra1704@lpu.edu.in,9841567730,65.21,KWGPM0704W,U-0379
+LPU.1705,Sneha Shetty,Male,BBA,UG,2,sneha.shetty1705@lpu.edu.in,9881836234,92.15,NWYPS0705L,U-0379
+LPU.1706,Ananya Kumar,Female,BBA,UG,2,ananya.kumar1706@lpu.edu.in,9852297210,95.51,WMHPK0706D,U-0379
+LPU.1707,Sneha Iyer,Female,BBA,UG,2,sneha.iyer1707@lpu.edu.in,9861853303,69.86,CLIPI0707E,U-0379
+LPU.1708,Ravi Singh,Male,BBA,UG,2,ravi.singh1708@lpu.edu.in,9897024956,68.93,GNLPS0708K,U-0379
+LPU.1709,Harika Naidu,Female,BBA,UG,2,harika.naidu1709@lpu.edu.in,9814241053,67.38,CDIPN0709R,U-0379
+LPU.1710,Neha Nair,Male,BBA,UG,2,neha.nair1710@lpu.edu.in,9843143532,92.47,EFSPN0710V,U-0379
+LPU.1711,Ananya Naidu,Male,BBA,UG,2,ananya.naidu1711@lpu.edu.in,9845350402,67.9,IHKPN0711U,U-0379
+LPU.1712,Ravi Singh,Female,BBA,UG,2,ravi.singh1712@lpu.edu.in,9877790396,75.38,JNCPS0712C,U-0379
+LPU.1713,Kiran Naidu,Male,BBA,UG,2,kiran.naidu1713@lpu.edu.in,9857188273,64.15,PGTPN0713O,U-0379
+LPU.1714,Neha Jain,Female,BBA,UG,2,neha.jain1714@lpu.edu.in,9812849078,80.36,PRHPJ0714M,U-0379
+LPU.1715,Sneha Chopra,Male,BBA,UG,2,sneha.chopra1715@lpu.edu.in,9836143233,88.03,AOIPC0715Q,U-0379
+LPU.1716,Neha Patel,Male,BBA,UG,2,neha.patel1716@lpu.edu.in,9875956392,77.31,TTKPP0716L,U-0379
+LPU.1717,Sneha Singh,Female,BBA,UG,2,sneha.singh1717@lpu.edu.in,9816189831,97.24,WFUPS0717E,U-0379
+LPU.1718,Ananya Patel,Female,BBA,UG,2,ananya.patel1718@lpu.edu.in,9866230636,88.07,YJFPP0718G,U-0379
+LPU.1719,Harika Reddy,Female,BBA,UG,2,harika.reddy1719@lpu.edu.in,9811757486,63.8,UDXPR0719U,U-0379
+LPU.1720,Aman Kumar,Male,BBA,UG,2,aman.kumar1720@lpu.edu.in,9813601450,64.18,MBOPK0720L,U-0379
+LPU.1721,Vikram Rao,Male,BBA,UG,3,vikram.rao1721@lpu.edu.in,9824456718,81.69,WQZPR0721K,U-0379
+LPU.1722,Ritika Malhotra,Female,BBA,UG,3,ritika.malhotra1722@lpu.edu.in,9893508659,62.8,YIMPM0722I,U-0379
+LPU.1723,Aman Mishra,Female,BBA,UG,3,aman.mishra1723@lpu.edu.in,9850925464,62.47,MUKPM0723R,U-0379
+LPU.1724,Rahul Shetty,Female,BBA,UG,3,rahul.shetty1724@lpu.edu.in,9884563783,80.03,UFIPS0724I,U-0379
+LPU.1725,Ravi Singh,Male,BBA,UG,3,ravi.singh1725@lpu.edu.in,9821903023,81.07,SUCPS0725G,U-0379
+LPU.1726,Kiran Das,Male,BBA,UG,3,kiran.das1726@lpu.edu.in,9865459315,61.27,WSLPD0726I,U-0379
+LPU.1727,Kiran Jain,Male,BBA,UG,3,kiran.jain1727@lpu.edu.in,9894898882,96.9,JDAPJ0727E,U-0379
+LPU.1728,Ravi Das,Male,BBA,UG,3,ravi.das1728@lpu.edu.in,9887650152,66.85,MXWPD0728O,U-0379
+LPU.1729,Sameer Chopra,Female,BBA,UG,3,sameer.chopra1729@lpu.edu.in,9889073739,70.71,UIPPC0729A,U-0379
+LPU.1730,Aman Shetty,Male,BBA,UG,3,aman.shetty1730@lpu.edu.in,9871515956,82.71,ETIPS0730Y,U-0379
+LPU.1731,Sameer Iyer,Male,BBA,UG,3,sameer.iyer1731@lpu.edu.in,9880977852,77.62,OVQPI0731I,U-0379
+LPU.1732,Vikram Singh,Male,BBA,UG,3,vikram.singh1732@lpu.edu.in,9845013881,90.04,PTTPS0732E,U-0379
+LPU.1733,Nikhil Bose,Female,BBA,UG,3,nikhil.bose1733@lpu.edu.in,9880504467,65.69,SIZPB0733O,U-0379
+LPU.1734,Meghana Nair,Female,BBA,UG,3,meghana.nair1734@lpu.edu.in,9856763143,60.68,ZEDPN0734S,U-0379
+LPU.1735,Nikhil Bose,Male,BBA,UG,3,nikhil.bose1735@lpu.edu.in,9899968089,88.23,ZEWPB0735D,U-0379
+LPU.1736,Harika Singh,Male,BBA,UG,3,harika.singh1736@lpu.edu.in,9865117755,79.08,KXMPS0736B,U-0379
+LPU.1737,Nikhil Reddy,Male,BBA,UG,3,nikhil.reddy1737@lpu.edu.in,9834953306,92.12,VXYPR0737R,U-0379
+LPU.1738,Pooja Reddy,Female,BBA,UG,3,pooja.reddy1738@lpu.edu.in,9850705748,95.09,CEAPR0738R,U-0379
+LPU.1739,Kiran Mishra,Female,BBA,UG,3,kiran.mishra1739@lpu.edu.in,9882804142,80.22,DMJPM0739C,U-0379
+LPU.1740,Sameer Patel,Male,BBA,UG,3,sameer.patel1740@lpu.edu.in,9838909489,60.55,FJBPP0740A,U-0379
+LPU.1741,Nikhil Reddy,Female,BBA,UG,3,nikhil.reddy1741@lpu.edu.in,9812377156,91.66,QYVPR0741B,U-0379
+LPU.1742,Yash Patel,Male,BBA,UG,3,yash.patel1742@lpu.edu.in,9865514770,89.95,MQOPP0742L,U-0379
+LPU.1743,Vikram Shetty,Female,BBA,UG,3,vikram.shetty1743@lpu.edu.in,9876120482,76.34,AJYPS0743O,U-0379
+LPU.1744,Vikram Yadav,Female,BBA,UG,3,vikram.yadav1744@lpu.edu.in,9863501588,63.37,JPYPY0744S,U-0379
+LPU.1745,Yash Malhotra,Male,BBA,UG,3,yash.malhotra1745@lpu.edu.in,9893686816,69.33,VHTPM0745D,U-0379
+LPU.1746,Sameer Patel,Female,BBA,UG,3,sameer.patel1746@lpu.edu.in,9877217807,84.72,UXSPP0746A,U-0379
+LPU.1747,Harika Shetty,Female,BBA,UG,3,harika.shetty1747@lpu.edu.in,9833227433,86.69,GSLPS0747L,U-0379
+LPU.1748,Kiran Chopra,Male,BBA,UG,3,kiran.chopra1748@lpu.edu.in,9866189066,81.46,CCVPC0748C,U-0379
+LPU.1749,Meghana Verma,Female,BBA,UG,3,meghana.verma1749@lpu.edu.in,9884175400,91.93,TLNPV0749O,U-0379
+LPU.1750,Harika Verma,Female,BBA,UG,3,harika.verma1750@lpu.edu.in,9886569757,98.32,UVGPV0750C,U-0379
+LPU.1751,Neha Singh,Female,BBA,UG,3,neha.singh1751@lpu.edu.in,9838984204,83.08,ISJPS0751F,U-0379
+LPU.1752,Divya Bhat,Female,BBA,UG,3,divya.bhat1752@lpu.edu.in,9897774549,80.86,ZPLPB0752U,U-0379
+LPU.1753,Nikhil Naidu,Male,BBA,UG,3,nikhil.naidu1753@lpu.edu.in,9899289240,93.32,TGMPN0753P,U-0379
+LPU.1754,Pooja Yadav,Male,BBA,UG,3,pooja.yadav1754@lpu.edu.in,9820623385,86.1,GGBPY0754E,U-0379
+LPU.1755,Meghana Iyer,Male,BBA,UG,3,meghana.iyer1755@lpu.edu.in,9874926581,70.16,SCYPI0755H,U-0379
+LPU.1756,Ananya Nair,Female,BBA,UG,3,ananya.nair1756@lpu.edu.in,9825593237,61.62,XYTPN0756G,U-0379
+LPU.1757,Yash Verma,Female,BBA,UG,3,yash.verma1757@lpu.edu.in,9840564667,91.61,WRHPV0757S,U-0379
+LPU.1758,Sameer Naidu,Female,BBA,UG,3,sameer.naidu1758@lpu.edu.in,9854045774,98.54,VAMPN0758Z,U-0379
+LPU.1759,Vinay Rao,Male,BBA,UG,3,vinay.rao1759@lpu.edu.in,9847167486,96.62,BMQPR0759V,U-0379
+LPU.1760,Neha Malhotra,Male,BBA,UG,3,neha.malhotra1760@lpu.edu.in,9857765767,72.64,YFYPM0760L,U-0379
+LPU.1761,Ravi Patel,Female,BBA,UG,3,ravi.patel1761@lpu.edu.in,9881006483,60.51,MBEPP0761E,U-0379
+LPU.1762,Sanjay Kumar,Female,BBA,UG,3,sanjay.kumar1762@lpu.edu.in,9825234834,63.11,PILPK0762E,U-0379
+LPU.1763,Sanjay Gupta,Female,BBA,UG,3,sanjay.gupta1763@lpu.edu.in,9892654477,98.94,TROPG0763P,U-0379
+LPU.1764,Kavya Mishra,Female,BBA,UG,3,kavya.mishra1764@lpu.edu.in,9889606362,88.92,CCHPM0764O,U-0379
+LPU.1765,Sanjay Yadav,Female,BBA,UG,3,sanjay.yadav1765@lpu.edu.in,9825477546,86.06,RGZPY0765J,U-0379
+LPU.1766,Pooja Reddy,Female,BBA,UG,3,pooja.reddy1766@lpu.edu.in,9860657606,64.73,WMTPR0766D,U-0379
+LPU.1767,Yash Bose,Male,BBA,UG,3,yash.bose1767@lpu.edu.in,9835562110,81.52,ZVEPB0767K,U-0379
+LPU.1768,Rahul Nair,Female,BBA,UG,3,rahul.nair1768@lpu.edu.in,9850744912,96.68,KWCPN0768C,U-0379
+LPU.1769,Vikram Iyer,Female,BBA,UG,3,vikram.iyer1769@lpu.edu.in,9879731457,72.69,BOWPI0769I,U-0379
+LPU.1770,Vikram Naidu,Female,BBA,UG,3,vikram.naidu1770@lpu.edu.in,9858496934,71.03,SVGPN0770S,U-0379
+LPU.1771,Vikram Verma,Male,BBA,UG,3,vikram.verma1771@lpu.edu.in,9891754803,72.31,QEVPV0771C,U-0379
+LPU.1772,Aman Bhat,Female,BBA,UG,3,aman.bhat1772@lpu.edu.in,9868827913,81.96,IZDPB0772Q,U-0379
+LPU.1773,Ravi Das,Female,BBA,UG,3,ravi.das1773@lpu.edu.in,9828117291,91.28,QDYPD0773S,U-0379
+LPU.1774,Harika Verma,Female,BBA,UG,3,harika.verma1774@lpu.edu.in,9839134466,73.42,XHAPV0774M,U-0379
+LPU.1775,Vinay Yadav,Male,BBA,UG,3,vinay.yadav1775@lpu.edu.in,9824956832,66.34,QYWPY0775T,U-0379
+LPU.1776,Ravi Kumar,Male,BBA,UG,3,ravi.kumar1776@lpu.edu.in,9884216314,71.9,IEIPK0776I,U-0379
+LPU.1777,Vikram Patel,Male,BBA,UG,3,vikram.patel1777@lpu.edu.in,9878613833,61.44,YBRPP0777P,U-0379
+LPU.1778,Vinay Reddy,Male,BBA,UG,3,vinay.reddy1778@lpu.edu.in,9873984534,97.74,OVVPR0778B,U-0379
+LPU.1779,Harika Bose,Male,BBA,UG,3,harika.bose1779@lpu.edu.in,9876372956,79.05,TRFPB0779T,U-0379
+LPU.1780,Aman Naidu,Male,BBA,UG,3,aman.naidu1780@lpu.edu.in,9876500255,80.53,NVTPN0780C,U-0379
+LPU.1781,Vikram Yadav,Female,BBA,UG,4,vikram.yadav1781@lpu.edu.in,9899305071,67.76,KDSPY0781C,U-0379
+LPU.1782,Pooja Malhotra,Male,BBA,UG,4,pooja.malhotra1782@lpu.edu.in,9816182725,89.58,DKNPM0782H,U-0379
+LPU.1783,Yash Verma,Female,BBA,UG,4,yash.verma1783@lpu.edu.in,9879101466,79.05,TUXPV0783A,U-0379
+LPU.1784,Nikhil Nair,Female,BBA,UG,4,nikhil.nair1784@lpu.edu.in,9831930535,60.51,GABPN0784F,U-0379
+LPU.1785,Nikhil Yadav,Female,BBA,UG,4,nikhil.yadav1785@lpu.edu.in,9810067805,95.55,DJJPY0785G,U-0379
+LPU.1786,Yash Iyer,Male,BBA,UG,4,yash.iyer1786@lpu.edu.in,9841987823,81.84,RJDPI0786K,U-0379
+LPU.1787,Kavya Shetty,Male,BBA,UG,4,kavya.shetty1787@lpu.edu.in,9820512325,90.43,ALVPS0787G,U-0379
+LPU.1788,Pooja Sharma,Female,BBA,UG,4,pooja.sharma1788@lpu.edu.in,9895074556,61.06,SLAPS0788L,U-0379
+LPU.1789,Pooja Bhat,Male,BBA,UG,4,pooja.bhat1789@lpu.edu.in,9899025979,95.64,AGRPB0789K,U-0379
+LPU.1790,Yash Gupta,Female,BBA,UG,4,yash.gupta1790@lpu.edu.in,9829067692,99.65,QOQPG0790A,U-0379
+LPU.1791,Kiran Yadav,Female,BBA,UG,4,kiran.yadav1791@lpu.edu.in,9856475497,84.8,WPPPY0791I,U-0379
+LPU.1792,Aman Kumar,Female,BBA,UG,4,aman.kumar1792@lpu.edu.in,9839069633,83.11,IOAPK0792Z,U-0379
+LPU.1793,Vinay Singh,Female,BBA,UG,4,vinay.singh1793@lpu.edu.in,9818628499,78.78,MTQPS0793W,U-0379
+LPU.1794,Ananya Bose,Female,BBA,UG,4,ananya.bose1794@lpu.edu.in,9842551473,62.06,YPEPB0794K,U-0379
+LPU.1795,Ravi Sharma,Male,BBA,UG,4,ravi.sharma1795@lpu.edu.in,9857583993,75.9,ZQCPS0795N,U-0379
+LPU.1796,Neha Shetty,Female,BBA,UG,4,neha.shetty1796@lpu.edu.in,9836919861,94.88,GPLPS0796U,U-0379
+LPU.1797,Ravi Nair,Female,BBA,UG,4,ravi.nair1797@lpu.edu.in,9840185025,84.26,LTQPN0797X,U-0379
+LPU.1798,Kavya Reddy,Male,BBA,UG,4,kavya.reddy1798@lpu.edu.in,9876401025,94.07,WHLPR0798M,U-0379
+LPU.1799,Meghana Patel,Female,BBA,UG,4,meghana.patel1799@lpu.edu.in,9820015089,92.39,RLMPP0799P,U-0379
+LPU.1800,Arjun Rao,Female,BBA,UG,4,arjun.rao1800@lpu.edu.in,9854991288,78.6,OGHPR0800S,U-0379
+LPU.1801,Nikhil Das,Male,BBA,UG,4,nikhil.das1801@lpu.edu.in,9831660203,98.51,GPIPD0801Z,U-0379
+LPU.1802,Arjun Sharma,Female,BBA,UG,4,arjun.sharma1802@lpu.edu.in,9836976594,94.25,NKYPS0802N,U-0379
+LPU.1803,Rahul Bose,Male,BBA,UG,4,rahul.bose1803@lpu.edu.in,9825535758,89.59,UWXPB0803G,U-0379
+LPU.1804,Sameer Naidu,Male,BBA,UG,4,sameer.naidu1804@lpu.edu.in,9892025058,65.68,AULPN0804C,U-0379
+LPU.1805,Rahul Shetty,Male,BBA,UG,4,rahul.shetty1805@lpu.edu.in,9883954957,92.52,NHKPS0805Q,U-0379
+LPU.1806,Nikhil Singh,Male,BBA,UG,4,nikhil.singh1806@lpu.edu.in,9851888779,65.29,IUOPS0806E,U-0379
+LPU.1807,Vinay Naidu,Male,BBA,UG,4,vinay.naidu1807@lpu.edu.in,9866090990,69.54,ZHOPN0807H,U-0379
+LPU.1808,Ravi Singh,Female,BBA,UG,4,ravi.singh1808@lpu.edu.in,9866359778,78.53,RYCPS0808C,U-0379
+LPU.1809,Rahul Chopra,Female,BBA,UG,4,rahul.chopra1809@lpu.edu.in,9822968251,71.85,HXLPC0809U,U-0379
+LPU.1810,Kiran Malhotra,Male,BBA,UG,4,kiran.malhotra1810@lpu.edu.in,9850084480,86.7,JNBPM0810W,U-0379
+LPU.1811,Sanjay Jain,Male,BBA,UG,4,sanjay.jain1811@lpu.edu.in,9864516956,81.1,AEFPJ0811I,U-0379
+LPU.1812,Neha Sharma,Female,BBA,UG,4,neha.sharma1812@lpu.edu.in,9815055490,98.09,DEKPS0812Y,U-0379
+LPU.1813,Arjun Iyer,Male,BBA,UG,4,arjun.iyer1813@lpu.edu.in,9897993503,84.88,TRQPI0813J,U-0379
+LPU.1814,Kavya Chopra,Female,BBA,UG,4,kavya.chopra1814@lpu.edu.in,9882683583,65.11,TLVPC0814M,U-0379
+LPU.1815,Rahul Rao,Male,BBA,UG,4,rahul.rao1815@lpu.edu.in,9810084350,85.58,IVXPR0815I,U-0379
+LPU.1816,Kiran Gupta,Male,BBA,UG,4,kiran.gupta1816@lpu.edu.in,9853713190,76.34,YRWPG0816I,U-0379
+LPU.1817,Arjun Chopra,Female,BBA,UG,4,arjun.chopra1817@lpu.edu.in,9855715680,76.28,BOUPC0817V,U-0379
+LPU.1818,Vikram Sharma,Male,BBA,UG,4,vikram.sharma1818@lpu.edu.in,9817209027,84.35,WFRPS0818Z,U-0379
+LPU.1819,Vikram Chopra,Male,BBA,UG,4,vikram.chopra1819@lpu.edu.in,9865191035,68.56,QCUPC0819S,U-0379
+LPU.1820,Nikhil Mishra,Male,BBA,UG,4,nikhil.mishra1820@lpu.edu.in,9866083848,60.35,NRZPM0820Z,U-0379
+LPU.1821,Harika Reddy,Female,BBA,UG,4,harika.reddy1821@lpu.edu.in,9877098334,94.54,SWYPR0821F,U-0379
+LPU.1822,Yash Jain,Female,BBA,UG,4,yash.jain1822@lpu.edu.in,9833016597,74.51,DWQPJ0822W,U-0379
+LPU.1823,Kiran Bhat,Female,BBA,UG,4,kiran.bhat1823@lpu.edu.in,9852219892,79.21,IFZPB0823K,U-0379
+LPU.1824,Meghana Jain,Male,BBA,UG,4,meghana.jain1824@lpu.edu.in,9846647502,80.87,QCIPJ0824L,U-0379
+LPU.1825,Divya Bose,Male,BBA,UG,4,divya.bose1825@lpu.edu.in,9891733077,85.09,MIKPB0825V,U-0379
+LPU.1826,Ananya Sharma,Male,BBA,UG,4,ananya.sharma1826@lpu.edu.in,9825925645,72.69,ATIPS0826U,U-0379
+LPU.1827,Divya Kumar,Female,BBA,UG,4,divya.kumar1827@lpu.edu.in,9873258183,66.58,GLBPK0827F,U-0379
+LPU.1828,Yash Kumar,Male,BBA,UG,4,yash.kumar1828@lpu.edu.in,9816766981,66.8,IKYPK0828A,U-0379
+LPU.1829,Harika Jain,Female,BBA,UG,4,harika.jain1829@lpu.edu.in,9853775254,63.25,CBEPJ0829C,U-0379
+LPU.1830,Ananya Gupta,Male,BBA,UG,4,ananya.gupta1830@lpu.edu.in,9898200742,84.24,VHHPG0830C,U-0379
+LPU.1831,Ritika Shetty,Male,BBA,UG,4,ritika.shetty1831@lpu.edu.in,9828328058,63.77,INPPS0831K,U-0379
+LPU.1832,Sneha Jain,Female,BBA,UG,4,sneha.jain1832@lpu.edu.in,9883529655,66.8,WAAPJ0832D,U-0379
+LPU.1833,Sneha Jain,Female,BBA,UG,4,sneha.jain1833@lpu.edu.in,9889719126,85.32,AUIPJ0833V,U-0379
+LPU.1834,Divya Sharma,Male,BBA,UG,4,divya.sharma1834@lpu.edu.in,9898650567,65.06,JXCPS0834H,U-0379
+LPU.1835,Kiran Nair,Female,BBA,UG,4,kiran.nair1835@lpu.edu.in,9853256892,63.82,NVBPN0835Q,U-0379
+LPU.1836,Ritika Jain,Male,BBA,UG,4,ritika.jain1836@lpu.edu.in,9888531315,80.85,ECIPJ0836H,U-0379
+LPU.1837,Vikram Singh,Male,BBA,UG,4,vikram.singh1837@lpu.edu.in,9895409807,68.04,LCNPS0837P,U-0379
+LPU.1838,Sneha Sharma,Female,BBA,UG,4,sneha.sharma1838@lpu.edu.in,9869319291,80.44,NQHPS0838S,U-0379
+LPU.1839,Sneha Singh,Male,BBA,UG,4,sneha.singh1839@lpu.edu.in,9868927187,79.35,IJWPS0839W,U-0379
+LPU.1840,Neha Shetty,Male,BBA,UG,4,neha.shetty1840@lpu.edu.in,9845173840,80.08,ECSPS0840J,U-0379
+LPU.1841,Sanjay Patel,Female,CE,UG,1,sanjay.patel1841@lpu.edu.in,9855298005,68.36,MHCPP0841D,U-0379
+LPU.1842,Pooja Verma,Female,CE,UG,1,pooja.verma1842@lpu.edu.in,9899559594,74.53,NXKPV0842A,U-0379
+LPU.1843,Pooja Kumar,Male,CE,UG,1,pooja.kumar1843@lpu.edu.in,9816977150,87.15,JWOPK0843S,U-0379
+LPU.1844,Sanjay Das,Male,CE,UG,1,sanjay.das1844@lpu.edu.in,9883750277,71.34,LWBPD0844H,U-0379
+LPU.1845,Aman Chopra,Male,CE,UG,1,aman.chopra1845@lpu.edu.in,9897621121,99.58,GMAPC0845W,U-0379
+LPU.1846,Sanjay Chopra,Female,CE,UG,1,sanjay.chopra1846@lpu.edu.in,9872720836,65.68,OMNPC0846Q,U-0379
+LPU.1847,Sameer Singh,Male,CE,UG,1,sameer.singh1847@lpu.edu.in,9891836887,90.18,RGBPS0847M,U-0379
+LPU.1848,Ritika Rao,Male,CE,UG,1,ritika.rao1848@lpu.edu.in,9888710617,95.33,RGBPR0848Q,U-0379
+LPU.1849,Kavya Chopra,Male,CE,UG,1,kavya.chopra1849@lpu.edu.in,9886305945,98.5,QJXPC0849S,U-0379
+LPU.1850,Pooja Naidu,Female,CE,UG,1,pooja.naidu1850@lpu.edu.in,9811494465,72.82,OELPN0850B,U-0379
+LPU.1851,Sameer Chopra,Male,CE,UG,1,sameer.chopra1851@lpu.edu.in,9810783260,99.14,RXBPC0851D,U-0379
+LPU.1852,Harika Singh,Male,CE,UG,1,harika.singh1852@lpu.edu.in,9849521974,70.05,SYYPS0852V,U-0379
+LPU.1853,Meghana Reddy,Female,CE,UG,1,meghana.reddy1853@lpu.edu.in,9848878369,85.29,EMOPR0853F,U-0379
+LPU.1854,Ravi Kumar,Male,CE,UG,1,ravi.kumar1854@lpu.edu.in,9827725512,70.8,MTLPK0854G,U-0379
+LPU.1855,Meghana Das,Female,CE,UG,1,meghana.das1855@lpu.edu.in,9844206357,95.16,ICZPD0855C,U-0379
+LPU.1856,Yash Shetty,Female,CE,UG,1,yash.shetty1856@lpu.edu.in,9880410094,73.62,FBAPS0856W,U-0379
+LPU.1857,Nikhil Shetty,Female,CE,UG,1,nikhil.shetty1857@lpu.edu.in,9846170869,61.49,KHHPS0857N,U-0379
+LPU.1858,Ritika Verma,Male,CE,UG,1,ritika.verma1858@lpu.edu.in,9880434104,66.51,WRZPV0858I,U-0379
+LPU.1859,Kiran Gupta,Male,CE,UG,1,kiran.gupta1859@lpu.edu.in,9810963941,84.08,BGEPG0859T,U-0379
+LPU.1860,Vinay Patel,Male,CE,UG,1,vinay.patel1860@lpu.edu.in,9838982413,72.79,TJAPP0860L,U-0379
+LPU.1861,Arjun Malhotra,Female,CE,UG,1,arjun.malhotra1861@lpu.edu.in,9855553979,84.83,JEDPM0861X,U-0379
+LPU.1862,Nikhil Iyer,Female,CE,UG,1,nikhil.iyer1862@lpu.edu.in,9881600474,76.76,FSEPI0862D,U-0379
+LPU.1863,Sneha Kumar,Female,CE,UG,1,sneha.kumar1863@lpu.edu.in,9852019193,63.61,EGUPK0863Y,U-0379
+LPU.1864,Yash Nair,Female,CE,UG,1,yash.nair1864@lpu.edu.in,9885956046,64.78,SBBPN0864K,U-0379
+LPU.1865,Vikram Reddy,Male,CE,UG,1,vikram.reddy1865@lpu.edu.in,9836350258,61.5,HLTPR0865H,U-0379
+LPU.1866,Divya Shetty,Female,CE,UG,1,divya.shetty1866@lpu.edu.in,9842516066,62.37,HHEPS0866I,U-0379
+LPU.1867,Vikram Patel,Female,CE,UG,1,vikram.patel1867@lpu.edu.in,9816659091,81.67,GRKPP0867R,U-0379
+LPU.1868,Kavya Das,Female,CE,UG,1,kavya.das1868@lpu.edu.in,9879319654,75.58,OIPPD0868M,U-0379
+LPU.1869,Pooja Kumar,Female,CE,UG,1,pooja.kumar1869@lpu.edu.in,9849731637,90.25,ELSPK0869M,U-0379
+LPU.1870,Rahul Verma,Female,CE,UG,1,rahul.verma1870@lpu.edu.in,9887907275,81.0,TMLPV0870O,U-0379
+LPU.1871,Meghana Das,Female,CE,UG,1,meghana.das1871@lpu.edu.in,9822669875,66.02,WJKPD0871D,U-0379
+LPU.1872,Ananya Das,Female,CE,UG,1,ananya.das1872@lpu.edu.in,9859536446,66.96,CAWPD0872H,U-0379
+LPU.1873,Ritika Yadav,Male,CE,UG,1,ritika.yadav1873@lpu.edu.in,9891482632,90.42,BIGPY0873O,U-0379
+LPU.1874,Kavya Bose,Female,CE,UG,1,kavya.bose1874@lpu.edu.in,9888157003,82.23,OTZPB0874R,U-0379
+LPU.1875,Divya Nair,Female,CE,UG,1,divya.nair1875@lpu.edu.in,9830911278,92.77,HZUPN0875Q,U-0379
+LPU.1876,Yash Jain,Female,CE,UG,1,yash.jain1876@lpu.edu.in,9898291712,90.57,UZXPJ0876H,U-0379
+LPU.1877,Yash Gupta,Female,CE,UG,1,yash.gupta1877@lpu.edu.in,9883107362,89.47,YJCPG0877K,U-0379
+LPU.1878,Ritika Bose,Female,CE,UG,1,ritika.bose1878@lpu.edu.in,9840710102,60.53,NDEPB0878B,U-0379
+LPU.1879,Sneha Chopra,Male,CE,UG,1,sneha.chopra1879@lpu.edu.in,9841624823,99.65,JLIPC0879C,U-0379
+LPU.1880,Aman Iyer,Female,CE,UG,1,aman.iyer1880@lpu.edu.in,9856163476,61.61,EWUPI0880P,U-0379
+LPU.1881,Sameer Naidu,Female,CE,UG,1,sameer.naidu1881@lpu.edu.in,9831056299,91.16,PNMPN0881K,U-0379
+LPU.1882,Kavya Patel,Male,CE,UG,1,kavya.patel1882@lpu.edu.in,9828098233,61.12,UBLPP0882C,U-0379
+LPU.1883,Nikhil Yadav,Male,CE,UG,1,nikhil.yadav1883@lpu.edu.in,9885947221,68.48,HRYPY0883U,U-0379
+LPU.1884,Kiran Gupta,Female,CE,UG,1,kiran.gupta1884@lpu.edu.in,9890754914,69.67,UREPG0884J,U-0379
+LPU.1885,Sameer Naidu,Female,CE,UG,1,sameer.naidu1885@lpu.edu.in,9810454724,65.34,WDQPN0885L,U-0379
+LPU.1886,Vikram Verma,Male,CE,UG,1,vikram.verma1886@lpu.edu.in,9844404456,88.46,RCNPV0886S,U-0379
+LPU.1887,Kavya Yadav,Male,CE,UG,1,kavya.yadav1887@lpu.edu.in,9818117522,92.96,UDEPY0887M,U-0379
+LPU.1888,Divya Malhotra,Male,CE,UG,1,divya.malhotra1888@lpu.edu.in,9829930424,83.66,UKMPM0888H,U-0379
+LPU.1889,Aman Reddy,Male,CE,UG,1,aman.reddy1889@lpu.edu.in,9840700696,65.34,FFYPR0889Q,U-0379
+LPU.1890,Ritika Iyer,Male,CE,UG,1,ritika.iyer1890@lpu.edu.in,9828928757,90.13,KJAPI0890M,U-0379
+LPU.1891,Pooja Sharma,Male,CE,UG,1,pooja.sharma1891@lpu.edu.in,9843669096,74.8,GAXPS0891V,U-0379
+LPU.1892,Arjun Nair,Female,CE,UG,1,arjun.nair1892@lpu.edu.in,9859813758,87.86,RALPN0892F,U-0379
+LPU.1893,Ananya Naidu,Female,CE,UG,1,ananya.naidu1893@lpu.edu.in,9821649895,84.07,TNJPN0893C,U-0379
+LPU.1894,Kavya Bhat,Male,CE,UG,1,kavya.bhat1894@lpu.edu.in,9858817057,67.83,CNGPB0894I,U-0379
+LPU.1895,Vikram Das,Female,CE,UG,1,vikram.das1895@lpu.edu.in,9890959194,91.44,WZGPD0895H,U-0379
+LPU.1896,Ananya Yadav,Female,CE,UG,1,ananya.yadav1896@lpu.edu.in,9834529193,79.61,YHOPY0896M,U-0379
+LPU.1897,Divya Mishra,Male,CE,UG,1,divya.mishra1897@lpu.edu.in,9898865796,60.84,SPUPM0897V,U-0379
+LPU.1898,Ananya Gupta,Female,CE,UG,1,ananya.gupta1898@lpu.edu.in,9889723692,68.95,DXOPG0898F,U-0379
+LPU.1899,Yash Bose,Female,CE,UG,1,yash.bose1899@lpu.edu.in,9861283138,80.88,GXIPB0899M,U-0379
+LPU.1900,Rahul Sharma,Female,CE,UG,1,rahul.sharma1900@lpu.edu.in,9832898786,98.61,NFDPS0900D,U-0379
+LPU.1901,Vikram Jain,Male,CE,UG,2,vikram.jain1901@lpu.edu.in,9814553287,79.38,XOOPJ0901W,U-0379
+LPU.1902,Sameer Singh,Male,CE,UG,2,sameer.singh1902@lpu.edu.in,9859270966,69.65,IEEPS0902M,U-0379
+LPU.1903,Nikhil Bose,Female,CE,UG,2,nikhil.bose1903@lpu.edu.in,9884245142,94.23,LAOPB0903M,U-0379
+LPU.1904,Sameer Bose,Male,CE,UG,2,sameer.bose1904@lpu.edu.in,9887714961,92.33,FQRPB0904L,U-0379
+LPU.1905,Vikram Mishra,Female,CE,UG,2,vikram.mishra1905@lpu.edu.in,9816727590,95.06,MDDPM0905R,U-0379
+LPU.1906,Ritika Sharma,Male,CE,UG,2,ritika.sharma1906@lpu.edu.in,9810182511,82.96,AXTPS0906Z,U-0379
+LPU.1907,Sanjay Gupta,Male,CE,UG,2,sanjay.gupta1907@lpu.edu.in,9835143263,63.41,QPIPG0907U,U-0379
+LPU.1908,Yash Patel,Female,CE,UG,2,yash.patel1908@lpu.edu.in,9888880147,60.52,FRVPP0908O,U-0379
+LPU.1909,Sneha Gupta,Male,CE,UG,2,sneha.gupta1909@lpu.edu.in,9853540644,71.49,LEBPG0909Y,U-0379
+LPU.1910,Kavya Kumar,Female,CE,UG,2,kavya.kumar1910@lpu.edu.in,9897516128,77.93,CTQPK0910W,U-0379
+LPU.1911,Divya Singh,Female,CE,UG,2,divya.singh1911@lpu.edu.in,9894118471,69.36,SEMPS0911H,U-0379
+LPU.1912,Divya Patel,Female,CE,UG,2,divya.patel1912@lpu.edu.in,9836927773,97.51,SUOPP0912M,U-0379
+LPU.1913,Harika Malhotra,Female,CE,UG,2,harika.malhotra1913@lpu.edu.in,9852873582,87.79,VZRPM0913D,U-0379
+LPU.1914,Meghana Das,Male,CE,UG,2,meghana.das1914@lpu.edu.in,9815577643,71.49,HJOPD0914H,U-0379
+LPU.1915,Ravi Gupta,Male,CE,UG,2,ravi.gupta1915@lpu.edu.in,9891904462,65.19,MQTPG0915P,U-0379
+LPU.1916,Sameer Naidu,Female,CE,UG,2,sameer.naidu1916@lpu.edu.in,9897308467,88.0,IMRPN0916S,U-0379
+LPU.1917,Ravi Rao,Female,CE,UG,2,ravi.rao1917@lpu.edu.in,9885800943,60.55,GYAPR0917N,U-0379
+LPU.1918,Rahul Rao,Female,CE,UG,2,rahul.rao1918@lpu.edu.in,9876174060,65.1,HYNPR0918H,U-0379
+LPU.1919,Kiran Jain,Female,CE,UG,2,kiran.jain1919@lpu.edu.in,9828280317,65.54,WMJPJ0919E,U-0379
+LPU.1920,Vinay Nair,Male,CE,UG,2,vinay.nair1920@lpu.edu.in,9834030618,87.94,DVMPN0920U,U-0379
+LPU.1921,Meghana Shetty,Female,CE,UG,2,meghana.shetty1921@lpu.edu.in,9832984273,89.91,IIIPS0921F,U-0379
+LPU.1922,Vinay Rao,Male,CE,UG,2,vinay.rao1922@lpu.edu.in,9839179453,99.81,DLLPR0922Z,U-0379
+LPU.1923,Arjun Yadav,Male,CE,UG,2,arjun.yadav1923@lpu.edu.in,9883936192,92.05,FLDPY0923H,U-0379
+LPU.1924,Kavya Singh,Male,CE,UG,2,kavya.singh1924@lpu.edu.in,9810605220,92.62,AENPS0924F,U-0379
+LPU.1925,Neha Naidu,Male,CE,UG,2,neha.naidu1925@lpu.edu.in,9867420658,99.57,ZFSPN0925K,U-0379
+LPU.1926,Aman Gupta,Male,CE,UG,2,aman.gupta1926@lpu.edu.in,9843800046,99.25,ITIPG0926N,U-0379
+LPU.1927,Harika Patel,Female,CE,UG,2,harika.patel1927@lpu.edu.in,9871404959,83.71,GHGPP0927U,U-0379
+LPU.1928,Ananya Reddy,Male,CE,UG,2,ananya.reddy1928@lpu.edu.in,9860792703,64.18,KOQPR0928R,U-0379
+LPU.1929,Vikram Shetty,Male,CE,UG,2,vikram.shetty1929@lpu.edu.in,9883845179,80.96,KFAPS0929Q,U-0379
+LPU.1930,Vinay Mishra,Male,CE,UG,2,vinay.mishra1930@lpu.edu.in,9878354493,93.53,JUMPM0930R,U-0379
+LPU.1931,Nikhil Malhotra,Male,CE,UG,2,nikhil.malhotra1931@lpu.edu.in,9874570587,99.94,JKPPM0931L,U-0379
+LPU.1932,Meghana Jain,Female,CE,UG,2,meghana.jain1932@lpu.edu.in,9865523167,85.07,GREPJ0932T,U-0379
+LPU.1933,Vikram Reddy,Male,CE,UG,2,vikram.reddy1933@lpu.edu.in,9883109746,85.11,WTVPR0933N,U-0379
+LPU.1934,Pooja Singh,Male,CE,UG,2,pooja.singh1934@lpu.edu.in,9861630105,88.14,NSPPS0934J,U-0379
+LPU.1935,Kiran Patel,Male,CE,UG,2,kiran.patel1935@lpu.edu.in,9879712099,97.99,CBJPP0935O,U-0379
+LPU.1936,Arjun Das,Male,CE,UG,2,arjun.das1936@lpu.edu.in,9886217798,96.04,JOAPD0936K,U-0379
+LPU.1937,Kavya Chopra,Male,CE,UG,2,kavya.chopra1937@lpu.edu.in,9858974309,93.88,IOMPC0937A,U-0379
+LPU.1938,Sneha Nair,Female,CE,UG,2,sneha.nair1938@lpu.edu.in,9833106007,94.19,CHEPN0938H,U-0379
+LPU.1939,Meghana Verma,Female,CE,UG,2,meghana.verma1939@lpu.edu.in,9851912486,92.04,ZWUPV0939K,U-0379
+LPU.1940,Nikhil Iyer,Male,CE,UG,2,nikhil.iyer1940@lpu.edu.in,9894407379,75.92,KFZPI0940P,U-0379
+LPU.1941,Vinay Patel,Male,CE,UG,2,vinay.patel1941@lpu.edu.in,9836581178,81.85,XZLPP0941V,U-0379
+LPU.1942,Kavya Mishra,Male,CE,UG,2,kavya.mishra1942@lpu.edu.in,9815634751,64.27,EZZPM0942O,U-0379
+LPU.1943,Ravi Jain,Male,CE,UG,2,ravi.jain1943@lpu.edu.in,9820790849,86.27,FEYPJ0943Z,U-0379
+LPU.1944,Sanjay Reddy,Female,CE,UG,2,sanjay.reddy1944@lpu.edu.in,9812311483,75.04,QGTPR0944V,U-0379
+LPU.1945,Ritika Kumar,Male,CE,UG,2,ritika.kumar1945@lpu.edu.in,9850631631,61.77,PUPPK0945D,U-0379
+LPU.1946,Ritika Naidu,Male,CE,UG,2,ritika.naidu1946@lpu.edu.in,9895168753,98.61,EEUPN0946K,U-0379
+LPU.1947,Harika Iyer,Female,CE,UG,2,harika.iyer1947@lpu.edu.in,9820168581,91.57,STWPI0947K,U-0379
+LPU.1948,Vinay Patel,Female,CE,UG,2,vinay.patel1948@lpu.edu.in,9852181340,74.47,HVZPP0948T,U-0379
+LPU.1949,Divya Das,Female,CE,UG,2,divya.das1949@lpu.edu.in,9874351229,63.65,BKEPD0949V,U-0379
+LPU.1950,Sameer Jain,Female,CE,UG,2,sameer.jain1950@lpu.edu.in,9834987162,66.21,MDUPJ0950Z,U-0379
+LPU.1951,Arjun Shetty,Male,CE,UG,2,arjun.shetty1951@lpu.edu.in,9850877988,68.58,QUUPS0951D,U-0379
+LPU.1952,Ritika Bhat,Male,CE,UG,2,ritika.bhat1952@lpu.edu.in,9858736431,66.16,XIQPB0952R,U-0379
+LPU.1953,Aman Sharma,Male,CE,UG,2,aman.sharma1953@lpu.edu.in,9825720278,82.8,DUMPS0953O,U-0379
+LPU.1954,Meghana Yadav,Female,CE,UG,2,meghana.yadav1954@lpu.edu.in,9897882894,61.08,RQJPY0954W,U-0379
+LPU.1955,Ritika Singh,Male,CE,UG,2,ritika.singh1955@lpu.edu.in,9893989431,62.58,UKEPS0955O,U-0379
+LPU.1956,Neha Yadav,Male,CE,UG,2,neha.yadav1956@lpu.edu.in,9837764477,97.68,IPVPY0956P,U-0379
+LPU.1957,Aman Rao,Female,CE,UG,2,aman.rao1957@lpu.edu.in,9825903730,68.35,BWXPR0957O,U-0379
+LPU.1958,Vinay Gupta,Female,CE,UG,2,vinay.gupta1958@lpu.edu.in,9876356322,92.75,ODBPG0958D,U-0379
+LPU.1959,Harika Malhotra,Male,CE,UG,2,harika.malhotra1959@lpu.edu.in,9870010013,91.42,RVRPM0959C,U-0379
+LPU.1960,Rahul Bhat,Female,CE,UG,2,rahul.bhat1960@lpu.edu.in,9875754344,88.29,UNQPB0960D,U-0379
+LPU.1961,Sanjay Mishra,Female,CE,UG,3,sanjay.mishra1961@lpu.edu.in,9854402143,99.55,ZJFPM0961A,U-0379
+LPU.1962,Vikram Kumar,Female,CE,UG,3,vikram.kumar1962@lpu.edu.in,9842586920,91.76,GJUPK0962V,U-0379
+LPU.1963,Vinay Yadav,Male,CE,UG,3,vinay.yadav1963@lpu.edu.in,9830268899,98.33,NZAPY0963W,U-0379
+LPU.1964,Yash Patel,Male,CE,UG,3,yash.patel1964@lpu.edu.in,9840195103,94.92,EZMPP0964W,U-0379
+LPU.1965,Kiran Nair,Male,CE,UG,3,kiran.nair1965@lpu.edu.in,9889751874,83.74,DDCPN0965W,U-0379
+LPU.1966,Vinay Das,Female,CE,UG,3,vinay.das1966@lpu.edu.in,9892858620,97.5,EUDPD0966F,U-0379
+LPU.1967,Kavya Naidu,Male,CE,UG,3,kavya.naidu1967@lpu.edu.in,9823746280,68.69,FGVPN0967M,U-0379
+LPU.1968,Sanjay Mishra,Female,CE,UG,3,sanjay.mishra1968@lpu.edu.in,9827022835,60.77,LKJPM0968U,U-0379
+LPU.1969,Kavya Chopra,Male,CE,UG,3,kavya.chopra1969@lpu.edu.in,9810283820,99.93,UTUPC0969S,U-0379
+LPU.1970,Vinay Jain,Male,CE,UG,3,vinay.jain1970@lpu.edu.in,9832035978,79.62,UABPJ0970F,U-0379
+LPU.1971,Neha Das,Female,CE,UG,3,neha.das1971@lpu.edu.in,9852244157,84.94,HQKPD0971F,U-0379
+LPU.1972,Meghana Patel,Male,CE,UG,3,meghana.patel1972@lpu.edu.in,9890823460,95.96,CCJPP0972O,U-0379
+LPU.1973,Vikram Rao,Male,CE,UG,3,vikram.rao1973@lpu.edu.in,9863563789,71.96,UKLPR0973S,U-0379
+LPU.1974,Harika Yadav,Female,CE,UG,3,harika.yadav1974@lpu.edu.in,9838758297,81.34,ODAPY0974B,U-0379
+LPU.1975,Rahul Chopra,Male,CE,UG,3,rahul.chopra1975@lpu.edu.in,9886249573,99.22,MQMPC0975T,U-0379
+LPU.1976,Kavya Nair,Male,CE,UG,3,kavya.nair1976@lpu.edu.in,9852598668,60.18,KDMPN0976K,U-0379
+LPU.1977,Vinay Naidu,Male,CE,UG,3,vinay.naidu1977@lpu.edu.in,9859204288,71.24,YRJPN0977C,U-0379
+LPU.1978,Vikram Mishra,Female,CE,UG,3,vikram.mishra1978@lpu.edu.in,9880107228,86.5,JRMPM0978K,U-0379
+LPU.1979,Harika Patel,Male,CE,UG,3,harika.patel1979@lpu.edu.in,9810873468,82.25,RRXPP0979N,U-0379
+LPU.1980,Neha Naidu,Female,CE,UG,3,neha.naidu1980@lpu.edu.in,9873069126,75.57,QEXPN0980A,U-0379
+LPU.1981,Sanjay Verma,Female,CE,UG,3,sanjay.verma1981@lpu.edu.in,9821697825,89.1,DMEPV0981C,U-0379
+LPU.1982,Sneha Bhat,Male,CE,UG,3,sneha.bhat1982@lpu.edu.in,9838946757,66.85,JUOPB0982H,U-0379
+LPU.1983,Harika Gupta,Male,CE,UG,3,harika.gupta1983@lpu.edu.in,9834033898,89.38,DFHPG0983U,U-0379
+LPU.1984,Pooja Nair,Female,CE,UG,3,pooja.nair1984@lpu.edu.in,9843901002,84.56,FZEPN0984V,U-0379
+LPU.1985,Yash Verma,Male,CE,UG,3,yash.verma1985@lpu.edu.in,9838423562,67.25,WSIPV0985B,U-0379
+LPU.1986,Vinay Chopra,Male,CE,UG,3,vinay.chopra1986@lpu.edu.in,9878439482,70.31,RKPPC0986N,U-0379
+LPU.1987,Nikhil Naidu,Female,CE,UG,3,nikhil.naidu1987@lpu.edu.in,9869966382,83.25,DUYPN0987B,U-0379
+LPU.1988,Kavya Verma,Male,CE,UG,3,kavya.verma1988@lpu.edu.in,9815271113,77.96,XOOPV0988F,U-0379
+LPU.1989,Vikram Reddy,Female,CE,UG,3,vikram.reddy1989@lpu.edu.in,9874393903,62.17,UYVPR0989E,U-0379
+LPU.1990,Ravi Das,Female,CE,UG,3,ravi.das1990@lpu.edu.in,9830124350,95.32,GVAPD0990V,U-0379
+LPU.1991,Neha Sharma,Female,CE,UG,3,neha.sharma1991@lpu.edu.in,9834490577,87.78,GGXPS0991G,U-0379
+LPU.1992,Divya Mishra,Male,CE,UG,3,divya.mishra1992@lpu.edu.in,9876085874,62.2,MHMPM0992U,U-0379
+LPU.1993,Yash Chopra,Male,CE,UG,3,yash.chopra1993@lpu.edu.in,9895725940,69.83,WOQPC0993L,U-0379
+LPU.1994,Sanjay Verma,Female,CE,UG,3,sanjay.verma1994@lpu.edu.in,9848391982,92.5,EJNPV0994E,U-0379
+LPU.1995,Sanjay Kumar,Male,CE,UG,3,sanjay.kumar1995@lpu.edu.in,9885463447,75.11,TPZPK0995H,U-0379
+LPU.1996,Rahul Gupta,Male,CE,UG,3,rahul.gupta1996@lpu.edu.in,9857301713,62.97,UPTPG0996X,U-0379
+LPU.1997,Neha Rao,Male,CE,UG,3,neha.rao1997@lpu.edu.in,9891881870,61.71,FFHPR0997F,U-0379
+LPU.1998,Aman Bose,Female,CE,UG,3,aman.bose1998@lpu.edu.in,9858880663,67.12,KDMPB0998V,U-0379
+LPU.1999,Ravi Patel,Male,CE,UG,3,ravi.patel1999@lpu.edu.in,9815997621,82.37,NTPPP0999I,U-0379
+LPU.2000,Sameer Verma,Male,CE,UG,3,sameer.verma2000@lpu.edu.in,9869086116,65.75,KJUPV1000R,U-0379
+LPU.2001,Kavya Reddy,Female,CE,UG,3,kavya.reddy2001@lpu.edu.in,9868319916,66.54,FWUPR1001Y,U-0379
+LPU.2002,Nikhil Jain,Male,CE,UG,3,nikhil.jain2002@lpu.edu.in,9896176796,89.99,DVFPJ1002J,U-0379
+LPU.2003,Meghana Chopra,Female,CE,UG,3,meghana.chopra2003@lpu.edu.in,9838574903,69.41,JOXPC1003F,U-0379
+LPU.2004,Arjun Reddy,Female,CE,UG,3,arjun.reddy2004@lpu.edu.in,9816211505,75.9,TLMPR1004D,U-0379
+LPU.2005,Ritika Yadav,Male,CE,UG,3,ritika.yadav2005@lpu.edu.in,9847687257,69.35,FJBPY1005L,U-0379
+LPU.2006,Meghana Yadav,Male,CE,UG,3,meghana.yadav2006@lpu.edu.in,9853324946,66.31,YRLPY1006W,U-0379
+LPU.2007,Meghana Jain,Male,CE,UG,3,meghana.jain2007@lpu.edu.in,9864600788,79.61,WHHPJ1007V,U-0379
+LPU.2008,Kiran Bhat,Male,CE,UG,3,kiran.bhat2008@lpu.edu.in,9860721801,71.66,RWZPB1008G,U-0379
+LPU.2009,Arjun Bose,Female,CE,UG,3,arjun.bose2009@lpu.edu.in,9893132540,68.36,PMVPB1009G,U-0379
+LPU.2010,Ritika Kumar,Female,CE,UG,3,ritika.kumar2010@lpu.edu.in,9865720675,66.65,BRNPK1010F,U-0379
+LPU.2011,Arjun Jain,Male,CE,UG,3,arjun.jain2011@lpu.edu.in,9854280292,67.09,KALPJ1011I,U-0379
+LPU.2012,Harika Reddy,Male,CE,UG,3,harika.reddy2012@lpu.edu.in,9867271387,86.55,OCKPR1012X,U-0379
+LPU.2013,Neha Malhotra,Female,CE,UG,3,neha.malhotra2013@lpu.edu.in,9844954500,73.72,BLWPM1013P,U-0379
+LPU.2014,Vinay Patel,Female,CE,UG,3,vinay.patel2014@lpu.edu.in,9842394133,79.7,VGJPP1014E,U-0379
+LPU.2015,Nikhil Das,Female,CE,UG,3,nikhil.das2015@lpu.edu.in,9829951848,98.2,FDEPD1015E,U-0379
+LPU.2016,Neha Yadav,Male,CE,UG,3,neha.yadav2016@lpu.edu.in,9857030775,81.08,KLUPY1016H,U-0379
+LPU.2017,Vinay Naidu,Female,CE,UG,3,vinay.naidu2017@lpu.edu.in,9891553783,73.03,GNOPN1017D,U-0379
+LPU.2018,Ritika Naidu,Female,CE,UG,3,ritika.naidu2018@lpu.edu.in,9825747202,72.65,LYMPN1018T,U-0379
+LPU.2019,Arjun Iyer,Female,CE,UG,3,arjun.iyer2019@lpu.edu.in,9845136361,89.35,FEMPI1019M,U-0379
+LPU.2020,Sanjay Yadav,Male,CE,UG,3,sanjay.yadav2020@lpu.edu.in,9812197242,85.28,DHZPY1020I,U-0379
+LPU.2021,Pooja Shetty,Male,CE,UG,4,pooja.shetty2021@lpu.edu.in,9857427360,88.23,UAXPS1021A,U-0379
+LPU.2022,Rahul Jain,Male,CE,UG,4,rahul.jain2022@lpu.edu.in,9872659601,65.79,RPXPJ1022K,U-0379
+LPU.2023,Ananya Das,Female,CE,UG,4,ananya.das2023@lpu.edu.in,9841703858,81.67,EIVPD1023Y,U-0379
+LPU.2024,Neha Mishra,Female,CE,UG,4,neha.mishra2024@lpu.edu.in,9865469727,68.93,KQAPM1024F,U-0379
+LPU.2025,Kiran Kumar,Male,CE,UG,4,kiran.kumar2025@lpu.edu.in,9880449248,93.04,CTRPK1025I,U-0379
+LPU.2026,Sneha Chopra,Male,CE,UG,4,sneha.chopra2026@lpu.edu.in,9816386610,91.12,CCZPC1026P,U-0379
+LPU.2027,Aman Mishra,Male,CE,UG,4,aman.mishra2027@lpu.edu.in,9840975513,89.7,WLTPM1027R,U-0379
+LPU.2028,Arjun Rao,Female,CE,UG,4,arjun.rao2028@lpu.edu.in,9886948485,68.38,KPXPR1028K,U-0379
+LPU.2029,Pooja Verma,Female,CE,UG,4,pooja.verma2029@lpu.edu.in,9828975513,86.46,PIBPV1029X,U-0379
+LPU.2030,Kavya Bhat,Female,CE,UG,4,kavya.bhat2030@lpu.edu.in,9867091953,95.73,LILPB1030I,U-0379
+LPU.2031,Neha Patel,Female,CE,UG,4,neha.patel2031@lpu.edu.in,9875738265,64.94,VXZPP1031J,U-0379
+LPU.2032,Kavya Chopra,Female,CE,UG,4,kavya.chopra2032@lpu.edu.in,9811169194,67.14,CPKPC1032I,U-0379
+LPU.2033,Aman Kumar,Female,CE,UG,4,aman.kumar2033@lpu.edu.in,9824935372,89.97,YJEPK1033X,U-0379
+LPU.2034,Pooja Reddy,Male,CE,UG,4,pooja.reddy2034@lpu.edu.in,9830103256,61.2,VUWPR1034N,U-0379
+LPU.2035,Kavya Verma,Male,CE,UG,4,kavya.verma2035@lpu.edu.in,9868932603,63.71,UQAPV1035H,U-0379
+LPU.2036,Ananya Mishra,Male,CE,UG,4,ananya.mishra2036@lpu.edu.in,9832303279,87.11,VTMPM1036Z,U-0379
+LPU.2037,Vinay Singh,Male,CE,UG,4,vinay.singh2037@lpu.edu.in,9862582444,72.57,LXHPS1037B,U-0379
+LPU.2038,Kavya Das,Male,CE,UG,4,kavya.das2038@lpu.edu.in,9897570379,93.86,TXEPD1038W,U-0379
+LPU.2039,Vinay Nair,Male,CE,UG,4,vinay.nair2039@lpu.edu.in,9831981576,92.61,QXAPN1039I,U-0379
+LPU.2040,Sneha Verma,Male,CE,UG,4,sneha.verma2040@lpu.edu.in,9818005471,83.98,JQYPV1040J,U-0379
+LPU.2041,Pooja Bhat,Male,CE,UG,4,pooja.bhat2041@lpu.edu.in,9899720665,76.81,SJVPB1041B,U-0379
+LPU.2042,Neha Verma,Male,CE,UG,4,neha.verma2042@lpu.edu.in,9879719844,80.47,TCPPV1042A,U-0379
+LPU.2043,Kavya Malhotra,Female,CE,UG,4,kavya.malhotra2043@lpu.edu.in,9876564840,69.3,ABWPM1043F,U-0379
+LPU.2044,Kiran Yadav,Female,CE,UG,4,kiran.yadav2044@lpu.edu.in,9849106506,96.37,OXUPY1044D,U-0379
+LPU.2045,Pooja Shetty,Male,CE,UG,4,pooja.shetty2045@lpu.edu.in,9854067180,79.95,TQUPS1045M,U-0379
+LPU.2046,Sneha Iyer,Male,CE,UG,4,sneha.iyer2046@lpu.edu.in,9834983416,60.58,IRSPI1046P,U-0379
+LPU.2047,Sameer Yadav,Female,CE,UG,4,sameer.yadav2047@lpu.edu.in,9825131429,95.5,RFTPY1047F,U-0379
+LPU.2048,Vikram Malhotra,Male,CE,UG,4,vikram.malhotra2048@lpu.edu.in,9836238908,70.68,TZBPM1048K,U-0379
+LPU.2049,Pooja Yadav,Male,CE,UG,4,pooja.yadav2049@lpu.edu.in,9817205651,68.91,NGUPY1049B,U-0379
+LPU.2050,Sneha Bhat,Male,CE,UG,4,sneha.bhat2050@lpu.edu.in,9846464695,93.09,QHZPB1050M,U-0379
+LPU.2051,Sanjay Yadav,Male,CE,UG,4,sanjay.yadav2051@lpu.edu.in,9898037134,88.81,AQJPY1051V,U-0379
+LPU.2052,Ananya Mishra,Male,CE,UG,4,ananya.mishra2052@lpu.edu.in,9861935041,66.45,TZEPM1052L,U-0379
+LPU.2053,Nikhil Singh,Female,CE,UG,4,nikhil.singh2053@lpu.edu.in,9845469950,64.37,ASPPS1053W,U-0379
+LPU.2054,Ravi Yadav,Male,CE,UG,4,ravi.yadav2054@lpu.edu.in,9875365031,83.89,FDDPY1054Z,U-0379
+LPU.2055,Meghana Iyer,Male,CE,UG,4,meghana.iyer2055@lpu.edu.in,9849780707,92.39,DCHPI1055B,U-0379
+LPU.2056,Kavya Rao,Male,CE,UG,4,kavya.rao2056@lpu.edu.in,9853504899,84.63,VVAPR1056N,U-0379
+LPU.2057,Vikram Gupta,Male,CE,UG,4,vikram.gupta2057@lpu.edu.in,9838813640,94.45,AMCPG1057Q,U-0379
+LPU.2058,Yash Shetty,Female,CE,UG,4,yash.shetty2058@lpu.edu.in,9827158844,85.22,SWEPS1058H,U-0379
+LPU.2059,Sanjay Verma,Female,CE,UG,4,sanjay.verma2059@lpu.edu.in,9897253710,77.43,GHEPV1059M,U-0379
+LPU.2060,Nikhil Sharma,Male,CE,UG,4,nikhil.sharma2060@lpu.edu.in,9849435194,71.62,DNDPS1060N,U-0379
+LPU.2061,Nikhil Yadav,Female,CE,UG,4,nikhil.yadav2061@lpu.edu.in,9822853121,66.17,VFHPY1061K,U-0379
+LPU.2062,Harika Kumar,Male,CE,UG,4,harika.kumar2062@lpu.edu.in,9860585645,85.86,DPQPK1062R,U-0379
+LPU.2063,Sanjay Rao,Male,CE,UG,4,sanjay.rao2063@lpu.edu.in,9824829517,61.31,KCXPR1063V,U-0379
+LPU.2064,Kavya Sharma,Male,CE,UG,4,kavya.sharma2064@lpu.edu.in,9852928412,79.25,CZVPS1064W,U-0379
+LPU.2065,Neha Reddy,Male,CE,UG,4,neha.reddy2065@lpu.edu.in,9863851678,72.15,ZJUPR1065M,U-0379
+LPU.2066,Neha Bose,Female,CE,UG,4,neha.bose2066@lpu.edu.in,9844085566,76.32,OMHPB1066K,U-0379
+LPU.2067,Vikram Bose,Male,CE,UG,4,vikram.bose2067@lpu.edu.in,9890633361,76.75,ZGDPB1067S,U-0379
+LPU.2068,Sameer Kumar,Female,CE,UG,4,sameer.kumar2068@lpu.edu.in,9868330466,92.74,KOTPK1068U,U-0379
+LPU.2069,Aman Yadav,Male,CE,UG,4,aman.yadav2069@lpu.edu.in,9885183813,61.47,QOVPY1069B,U-0379
+LPU.2070,Nikhil Bhat,Male,CE,UG,4,nikhil.bhat2070@lpu.edu.in,9887399902,64.45,DBBPB1070F,U-0379
+LPU.2071,Nikhil Iyer,Male,CE,UG,4,nikhil.iyer2071@lpu.edu.in,9845834382,76.9,MITPI1071B,U-0379
+LPU.2072,Yash Bose,Male,CE,UG,4,yash.bose2072@lpu.edu.in,9817078358,75.9,TXEPB1072G,U-0379
+LPU.2073,Sneha Mishra,Female,CE,UG,4,sneha.mishra2073@lpu.edu.in,9810001035,99.79,QHHPM1073B,U-0379
+LPU.2074,Divya Malhotra,Female,CE,UG,4,divya.malhotra2074@lpu.edu.in,9812641861,82.66,KQIPM1074S,U-0379
+LPU.2075,Nikhil Das,Male,CE,UG,4,nikhil.das2075@lpu.edu.in,9810108581,63.24,XECPD1075D,U-0379
+LPU.2076,Ananya Rao,Female,CE,UG,4,ananya.rao2076@lpu.edu.in,9879225927,71.77,CSLPR1076G,U-0379
+LPU.2077,Neha Das,Male,CE,UG,4,neha.das2077@lpu.edu.in,9841832248,84.05,SWAPD1077D,U-0379
+LPU.2078,Yash Mishra,Female,CE,UG,4,yash.mishra2078@lpu.edu.in,9852386138,84.68,VBAPM1078O,U-0379
+LPU.2079,Pooja Gupta,Male,CE,UG,4,pooja.gupta2079@lpu.edu.in,9895962918,92.82,RMHPG1079D,U-0379
+LPU.2080,Yash Nair,Male,CE,UG,4,yash.nair2080@lpu.edu.in,9865960198,91.77,RXHPN1080Z,U-0379
+LPU.2081,Yash Yadav,Male,CSE,UG,1,yash.yadav2081@lpu.edu.in,9838412326,73.25,WZQPY1081L,U-0379
+LPU.2082,Nikhil Mishra,Female,CSE,UG,1,nikhil.mishra2082@lpu.edu.in,9861096236,65.57,JNZPM1082U,U-0379
+LPU.2083,Meghana Sharma,Female,CSE,UG,1,meghana.sharma2083@lpu.edu.in,9860586099,92.24,KAWPS1083I,U-0379
+LPU.2084,Vikram Sharma,Male,CSE,UG,1,vikram.sharma2084@lpu.edu.in,9897640742,65.56,AWHPS1084G,U-0379
+LPU.2085,Sameer Singh,Male,CSE,UG,1,sameer.singh2085@lpu.edu.in,9869370834,98.77,NZGPS1085I,U-0379
+LPU.2086,Vinay Jain,Male,CSE,UG,1,vinay.jain2086@lpu.edu.in,9855842107,86.86,NTQPJ1086C,U-0379
+LPU.2087,Arjun Patel,Male,CSE,UG,1,arjun.patel2087@lpu.edu.in,9858452243,98.37,KURPP1087B,U-0379
+LPU.2088,Ritika Shetty,Male,CSE,UG,1,ritika.shetty2088@lpu.edu.in,9810979320,86.67,LWAPS1088I,U-0379
+LPU.2089,Rahul Chopra,Male,CSE,UG,1,rahul.chopra2089@lpu.edu.in,9871438067,79.2,MNPPC1089X,U-0379
+LPU.2090,Ravi Mishra,Male,CSE,UG,1,ravi.mishra2090@lpu.edu.in,9861951977,91.82,LKUPM1090Z,U-0379
+LPU.2091,Divya Iyer,Male,CSE,UG,1,divya.iyer2091@lpu.edu.in,9890994231,79.53,MXGPI1091E,U-0379
+LPU.2092,Sanjay Singh,Male,CSE,UG,1,sanjay.singh2092@lpu.edu.in,9818435030,90.4,JYDPS1092L,U-0379
+LPU.2093,Yash Shetty,Male,CSE,UG,1,yash.shetty2093@lpu.edu.in,9864759786,86.67,GNGPS1093J,U-0379
+LPU.2094,Sanjay Verma,Female,CSE,UG,1,sanjay.verma2094@lpu.edu.in,9811062239,96.66,ZWWPV1094W,U-0379
+LPU.2095,Sameer Reddy,Female,CSE,UG,1,sameer.reddy2095@lpu.edu.in,9827096431,88.74,GXZPR1095Z,U-0379
+LPU.2096,Sneha Verma,Male,CSE,UG,1,sneha.verma2096@lpu.edu.in,9874891954,63.39,AHIPV1096S,U-0379
+LPU.2097,Divya Sharma,Male,CSE,UG,1,divya.sharma2097@lpu.edu.in,9870767150,81.8,CECPS1097R,U-0379
+LPU.2098,Aman Naidu,Male,CSE,UG,1,aman.naidu2098@lpu.edu.in,9821022198,76.68,JIVPN1098O,U-0379
+LPU.2099,Nikhil Iyer,Female,CSE,UG,1,nikhil.iyer2099@lpu.edu.in,9849628260,69.61,UHWPI1099T,U-0379
+LPU.2100,Nikhil Kumar,Male,CSE,UG,1,nikhil.kumar2100@lpu.edu.in,9860973858,69.47,BDVPK1100V,U-0379
+LPU.2101,Nikhil Sharma,Female,CSE,UG,1,nikhil.sharma2101@lpu.edu.in,9817978921,90.98,GITPS1101F,U-0379
+LPU.2102,Ritika Yadav,Male,CSE,UG,1,ritika.yadav2102@lpu.edu.in,9894175380,60.49,VMMPY1102T,U-0379
+LPU.2103,Vikram Bose,Female,CSE,UG,1,vikram.bose2103@lpu.edu.in,9878407349,82.96,VOGPB1103I,U-0379
+LPU.2104,Kavya Bhat,Male,CSE,UG,1,kavya.bhat2104@lpu.edu.in,9874126462,61.23,RYXPB1104G,U-0379
+LPU.2105,Sneha Rao,Male,CSE,UG,1,sneha.rao2105@lpu.edu.in,9844658699,90.84,BKRPR1105V,U-0379
+LPU.2106,Divya Yadav,Male,CSE,UG,1,divya.yadav2106@lpu.edu.in,9825610230,64.52,PEIPY1106Q,U-0379
+LPU.2107,Aman Yadav,Male,CSE,UG,1,aman.yadav2107@lpu.edu.in,9889219645,69.52,JMXPY1107E,U-0379
+LPU.2108,Vikram Malhotra,Female,CSE,UG,1,vikram.malhotra2108@lpu.edu.in,9833590397,66.17,NFAPM1108K,U-0379
+LPU.2109,Ritika Yadav,Male,CSE,UG,1,ritika.yadav2109@lpu.edu.in,9841215908,83.69,YUPPY1109V,U-0379
+LPU.2110,Yash Nair,Male,CSE,UG,1,yash.nair2110@lpu.edu.in,9836365853,75.51,VKSPN1110A,U-0379
+LPU.2111,Aman Yadav,Male,CSE,UG,1,aman.yadav2111@lpu.edu.in,9892949029,80.26,HBPPY1111M,U-0379
+LPU.2112,Sneha Bhat,Male,CSE,UG,1,sneha.bhat2112@lpu.edu.in,9850914849,69.01,OOYPB1112Y,U-0379
+LPU.2113,Yash Jain,Male,CSE,UG,1,yash.jain2113@lpu.edu.in,9843736574,76.47,FPAPJ1113B,U-0379
+LPU.2114,Arjun Patel,Female,CSE,UG,1,arjun.patel2114@lpu.edu.in,9865377811,76.07,QCRPP1114H,U-0379
+LPU.2115,Ritika Mishra,Female,CSE,UG,1,ritika.mishra2115@lpu.edu.in,9824631900,85.91,GEZPM1115D,U-0379
+LPU.2116,Vikram Nair,Female,CSE,UG,1,vikram.nair2116@lpu.edu.in,9841870770,88.4,XMDPN1116Y,U-0379
+LPU.2117,Sanjay Gupta,Female,CSE,UG,1,sanjay.gupta2117@lpu.edu.in,9813443952,67.78,CYAPG1117V,U-0379
+LPU.2118,Sameer Shetty,Male,CSE,UG,1,sameer.shetty2118@lpu.edu.in,9858342661,89.68,CRHPS1118Y,U-0379
+LPU.2119,Kiran Sharma,Female,CSE,UG,1,kiran.sharma2119@lpu.edu.in,9869625861,65.52,KWBPS1119V,U-0379
+LPU.2120,Rahul Nair,Female,CSE,UG,1,rahul.nair2120@lpu.edu.in,9833487640,66.53,TFQPN1120C,U-0379
+LPU.2121,Nikhil Rao,Female,CSE,UG,1,nikhil.rao2121@lpu.edu.in,9835899638,70.64,IGXPR1121E,U-0379
+LPU.2122,Ravi Rao,Female,CSE,UG,1,ravi.rao2122@lpu.edu.in,9843874986,98.29,DLNPR1122J,U-0379
+LPU.2123,Kiran Sharma,Female,CSE,UG,1,kiran.sharma2123@lpu.edu.in,9826980130,88.02,CMWPS1123U,U-0379
+LPU.2124,Sameer Iyer,Female,CSE,UG,1,sameer.iyer2124@lpu.edu.in,9881198575,60.98,JHXPI1124A,U-0379
+LPU.2125,Yash Das,Male,CSE,UG,1,yash.das2125@lpu.edu.in,9866540760,62.1,PKPPD1125A,U-0379
+LPU.2126,Divya Patel,Male,CSE,UG,1,divya.patel2126@lpu.edu.in,9885033605,97.17,EAIPP1126G,U-0379
+LPU.2127,Aman Bhat,Female,CSE,UG,1,aman.bhat2127@lpu.edu.in,9813347819,77.25,KTRPB1127H,U-0379
+LPU.2128,Neha Iyer,Female,CSE,UG,1,neha.iyer2128@lpu.edu.in,9819071997,74.58,QYRPI1128K,U-0379
+LPU.2129,Harika Chopra,Female,CSE,UG,1,harika.chopra2129@lpu.edu.in,9810136941,62.08,YKAPC1129D,U-0379
+LPU.2130,Vinay Kumar,Male,CSE,UG,1,vinay.kumar2130@lpu.edu.in,9887818563,80.85,GOLPK1130H,U-0379
+LPU.2131,Ananya Patel,Female,CSE,UG,1,ananya.patel2131@lpu.edu.in,9814422477,98.41,GIEPP1131F,U-0379
+LPU.2132,Sameer Yadav,Female,CSE,UG,1,sameer.yadav2132@lpu.edu.in,9814257691,61.46,QGEPY1132E,U-0379
+LPU.2133,Pooja Mishra,Female,CSE,UG,1,pooja.mishra2133@lpu.edu.in,9852477895,71.48,TIKPM1133W,U-0379
+LPU.2134,Sameer Gupta,Female,CSE,UG,1,sameer.gupta2134@lpu.edu.in,9832683207,94.75,NHTPG1134C,U-0379
+LPU.2135,Nikhil Singh,Female,CSE,UG,1,nikhil.singh2135@lpu.edu.in,9896846743,96.26,FPEPS1135A,U-0379
+LPU.2136,Divya Naidu,Female,CSE,UG,1,divya.naidu2136@lpu.edu.in,9810012076,98.8,TZVPN1136S,U-0379
+LPU.2137,Sameer Yadav,Male,CSE,UG,1,sameer.yadav2137@lpu.edu.in,9831464697,60.3,TFSPY1137R,U-0379
+LPU.2138,Divya Yadav,Female,CSE,UG,1,divya.yadav2138@lpu.edu.in,9868949069,69.2,BQPPY1138X,U-0379
+LPU.2139,Vikram Shetty,Female,CSE,UG,1,vikram.shetty2139@lpu.edu.in,9843511876,79.0,SZAPS1139H,U-0379
+LPU.2140,Pooja Verma,Female,CSE,UG,1,pooja.verma2140@lpu.edu.in,9826900979,65.63,WKVPV1140W,U-0379
+LPU.2141,Kiran Jain,Female,CSE,UG,2,kiran.jain2141@lpu.edu.in,9817990436,87.61,NFKPJ1141M,U-0379
+LPU.2142,Sanjay Verma,Female,CSE,UG,2,sanjay.verma2142@lpu.edu.in,9887633910,95.25,RUJPV1142J,U-0379
+LPU.2143,Kiran Das,Female,CSE,UG,2,kiran.das2143@lpu.edu.in,9816684365,62.2,EMEPD1143N,U-0379
+LPU.2144,Ananya Gupta,Female,CSE,UG,2,ananya.gupta2144@lpu.edu.in,9829022398,98.77,AJRPG1144U,U-0379
+LPU.2145,Sameer Malhotra,Female,CSE,UG,2,sameer.malhotra2145@lpu.edu.in,9835197112,60.06,PSFPM1145P,U-0379
+LPU.2146,Rahul Bhat,Female,CSE,UG,2,rahul.bhat2146@lpu.edu.in,9855530941,85.95,OCKPB1146F,U-0379
+LPU.2147,Yash Naidu,Female,CSE,UG,2,yash.naidu2147@lpu.edu.in,9820190858,82.12,VMWPN1147K,U-0379
+LPU.2148,Sanjay Singh,Male,CSE,UG,2,sanjay.singh2148@lpu.edu.in,9875479872,83.33,BCXPS1148R,U-0379
+LPU.2149,Kiran Jain,Female,CSE,UG,2,kiran.jain2149@lpu.edu.in,9876778971,71.98,AXRPJ1149X,U-0379
+LPU.2150,Divya Kumar,Female,CSE,UG,2,divya.kumar2150@lpu.edu.in,9827174576,73.73,PQEPK1150D,U-0379
+LPU.2151,Pooja Chopra,Female,CSE,UG,2,pooja.chopra2151@lpu.edu.in,9880045625,65.11,FJIPC1151Y,U-0379
+LPU.2152,Kavya Iyer,Female,CSE,UG,2,kavya.iyer2152@lpu.edu.in,9865101938,73.74,RTHPI1152T,U-0379
+LPU.2153,Sameer Bose,Female,CSE,UG,2,sameer.bose2153@lpu.edu.in,9818726515,60.88,JMDPB1153Q,U-0379
+LPU.2154,Kavya Naidu,Female,CSE,UG,2,kavya.naidu2154@lpu.edu.in,9861735521,93.95,OILPN1154Y,U-0379
+LPU.2155,Harika Mishra,Male,CSE,UG,2,harika.mishra2155@lpu.edu.in,9828832834,90.73,WZWPM1155R,U-0379
+LPU.2156,Nikhil Patel,Male,CSE,UG,2,nikhil.patel2156@lpu.edu.in,9892672747,78.49,RKVPP1156Y,U-0379
+LPU.2157,Rahul Malhotra,Female,CSE,UG,2,rahul.malhotra2157@lpu.edu.in,9869607726,79.61,JETPM1157E,U-0379
+LPU.2158,Aman Verma,Male,CSE,UG,2,aman.verma2158@lpu.edu.in,9817948268,65.64,LSUPV1158U,U-0379
+LPU.2159,Sanjay Kumar,Female,CSE,UG,2,sanjay.kumar2159@lpu.edu.in,9840267970,94.71,UQUPK1159A,U-0379
+LPU.2160,Neha Jain,Female,CSE,UG,2,neha.jain2160@lpu.edu.in,9827178073,96.79,XPAPJ1160Z,U-0379
+LPU.2161,Aman Verma,Male,CSE,UG,2,aman.verma2161@lpu.edu.in,9894377610,80.94,KBRPV1161G,U-0379
+LPU.2162,Arjun Yadav,Female,CSE,UG,2,arjun.yadav2162@lpu.edu.in,9843773954,67.08,NFGPY1162N,U-0379
+LPU.2163,Aman Nair,Female,CSE,UG,2,aman.nair2163@lpu.edu.in,9843978682,84.68,FSNPN1163S,U-0379
+LPU.2164,Pooja Bhat,Female,CSE,UG,2,pooja.bhat2164@lpu.edu.in,9861638296,78.38,DBFPB1164W,U-0379
+LPU.2165,Pooja Malhotra,Male,CSE,UG,2,pooja.malhotra2165@lpu.edu.in,9855130692,95.23,INRPM1165T,U-0379
+LPU.2166,Meghana Yadav,Female,CSE,UG,2,meghana.yadav2166@lpu.edu.in,9846865992,75.49,KNLPY1166M,U-0379
+LPU.2167,Meghana Reddy,Female,CSE,UG,2,meghana.reddy2167@lpu.edu.in,9846741818,92.61,OKUPR1167C,U-0379
+LPU.2168,Pooja Rao,Male,CSE,UG,2,pooja.rao2168@lpu.edu.in,9869440503,97.24,CJZPR1168X,U-0379
+LPU.2169,Yash Jain,Male,CSE,UG,2,yash.jain2169@lpu.edu.in,9879086554,90.93,HJNPJ1169S,U-0379
+LPU.2170,Harika Malhotra,Female,CSE,UG,2,harika.malhotra2170@lpu.edu.in,9840921246,61.16,HOWPM1170J,U-0379
+LPU.2171,Harika Bhat,Male,CSE,UG,2,harika.bhat2171@lpu.edu.in,9895618198,97.25,IKZPB1171V,U-0379
+LPU.2172,Aman Malhotra,Male,CSE,UG,2,aman.malhotra2172@lpu.edu.in,9838123183,87.06,CWBPM1172Z,U-0379
+LPU.2173,Nikhil Singh,Female,CSE,UG,2,nikhil.singh2173@lpu.edu.in,9865169154,81.26,LKXPS1173H,U-0379
+LPU.2174,Nikhil Iyer,Male,CSE,UG,2,nikhil.iyer2174@lpu.edu.in,9842235931,98.08,ZQMPI1174N,U-0379
+LPU.2175,Sneha Shetty,Female,CSE,UG,2,sneha.shetty2175@lpu.edu.in,9876982625,78.82,HGDPS1175B,U-0379
+LPU.2176,Divya Iyer,Female,CSE,UG,2,divya.iyer2176@lpu.edu.in,9886606442,66.7,VZZPI1176S,U-0379
+LPU.2177,Rahul Patel,Female,CSE,UG,2,rahul.patel2177@lpu.edu.in,9829599199,68.48,AOKPP1177S,U-0379
+LPU.2178,Kiran Sharma,Male,CSE,UG,2,kiran.sharma2178@lpu.edu.in,9820144662,88.56,QYWPS1178I,U-0379
+LPU.2179,Neha Naidu,Female,CSE,UG,2,neha.naidu2179@lpu.edu.in,9841201099,85.27,VJQPN1179K,U-0379
+LPU.2180,Harika Das,Female,CSE,UG,2,harika.das2180@lpu.edu.in,9869928036,71.4,UEMPD1180L,U-0379
+LPU.2181,Rahul Gupta,Male,CSE,UG,2,rahul.gupta2181@lpu.edu.in,9828729583,73.26,NPOPG1181O,U-0379
+LPU.2182,Ravi Jain,Female,CSE,UG,2,ravi.jain2182@lpu.edu.in,9842157097,73.26,VDOPJ1182J,U-0379
+LPU.2183,Sameer Patel,Female,CSE,UG,2,sameer.patel2183@lpu.edu.in,9812703040,78.39,MJTPP1183T,U-0379
+LPU.2184,Sneha Mishra,Female,CSE,UG,2,sneha.mishra2184@lpu.edu.in,9855218055,64.79,FFHPM1184L,U-0379
+LPU.2185,Sanjay Bose,Male,CSE,UG,2,sanjay.bose2185@lpu.edu.in,9845170069,83.26,MYSPB1185M,U-0379
+LPU.2186,Ritika Sharma,Female,CSE,UG,2,ritika.sharma2186@lpu.edu.in,9836536618,64.46,PGNPS1186R,U-0379
+LPU.2187,Sameer Rao,Male,CSE,UG,2,sameer.rao2187@lpu.edu.in,9812638645,82.08,TDGPR1187V,U-0379
+LPU.2188,Aman Mishra,Female,CSE,UG,2,aman.mishra2188@lpu.edu.in,9841687723,89.16,PHUPM1188A,U-0379
+LPU.2189,Pooja Jain,Female,CSE,UG,2,pooja.jain2189@lpu.edu.in,9817962094,84.88,HUQPJ1189C,U-0379
+LPU.2190,Kiran Singh,Female,CSE,UG,2,kiran.singh2190@lpu.edu.in,9866962894,85.84,MDQPS1190Q,U-0379
+LPU.2191,Divya Sharma,Male,CSE,UG,2,divya.sharma2191@lpu.edu.in,9882281291,61.81,ANSPS1191Q,U-0379
+LPU.2192,Sanjay Verma,Female,CSE,UG,2,sanjay.verma2192@lpu.edu.in,9882800746,92.07,JJTPV1192Z,U-0379
+LPU.2193,Arjun Kumar,Female,CSE,UG,2,arjun.kumar2193@lpu.edu.in,9885381814,64.09,AOQPK1193T,U-0379
+LPU.2194,Nikhil Chopra,Female,CSE,UG,2,nikhil.chopra2194@lpu.edu.in,9859915913,95.19,ASRPC1194T,U-0379
+LPU.2195,Vikram Bhat,Male,CSE,UG,2,vikram.bhat2195@lpu.edu.in,9852222096,79.5,QAEPB1195P,U-0379
+LPU.2196,Yash Malhotra,Female,CSE,UG,2,yash.malhotra2196@lpu.edu.in,9860102231,60.32,ARNPM1196P,U-0379
+LPU.2197,Arjun Das,Male,CSE,UG,2,arjun.das2197@lpu.edu.in,9853690562,60.45,UKPPD1197U,U-0379
+LPU.2198,Yash Rao,Female,CSE,UG,2,yash.rao2198@lpu.edu.in,9824235771,69.92,UTQPR1198M,U-0379
+LPU.2199,Yash Shetty,Female,CSE,UG,2,yash.shetty2199@lpu.edu.in,9884953174,92.62,LBGPS1199F,U-0379
+LPU.2200,Arjun Rao,Female,CSE,UG,2,arjun.rao2200@lpu.edu.in,9850855301,72.24,IUZPR1200I,U-0379
+LPU.2201,Ananya Iyer,Male,CSE,UG,3,ananya.iyer2201@lpu.edu.in,9845217622,88.76,CKBPI1201V,U-0379
+LPU.2202,Harika Chopra,Female,CSE,UG,3,harika.chopra2202@lpu.edu.in,9835126410,62.77,XTTPC1202D,U-0379
+LPU.2203,Ravi Malhotra,Female,CSE,UG,3,ravi.malhotra2203@lpu.edu.in,9858103670,85.1,UJQPM1203V,U-0379
+LPU.2204,Pooja Nair,Female,CSE,UG,3,pooja.nair2204@lpu.edu.in,9891797075,97.13,UFVPN1204U,U-0379
+LPU.2205,Vikram Das,Male,CSE,UG,3,vikram.das2205@lpu.edu.in,9884911458,67.58,JNOPD1205V,U-0379
+LPU.2206,Vinay Malhotra,Male,CSE,UG,3,vinay.malhotra2206@lpu.edu.in,9866512101,61.66,ZRXPM1206B,U-0379
+LPU.2207,Meghana Gupta,Male,CSE,UG,3,meghana.gupta2207@lpu.edu.in,9823353173,76.96,UDKPG1207Z,U-0379
+LPU.2208,Harika Gupta,Male,CSE,UG,3,harika.gupta2208@lpu.edu.in,9882345330,82.33,APVPG1208Z,U-0379
+LPU.2209,Meghana Jain,Female,CSE,UG,3,meghana.jain2209@lpu.edu.in,9827264662,60.99,MYAPJ1209B,U-0379
+LPU.2210,Vinay Iyer,Female,CSE,UG,3,vinay.iyer2210@lpu.edu.in,9839035116,63.34,YUHPI1210B,U-0379
+LPU.2211,Ananya Patel,Female,CSE,UG,3,ananya.patel2211@lpu.edu.in,9869945980,88.5,UBTPP1211W,U-0379
+LPU.2212,Sameer Shetty,Male,CSE,UG,3,sameer.shetty2212@lpu.edu.in,9815258456,79.87,TXHPS1212X,U-0379
+LPU.2213,Nikhil Patel,Female,CSE,UG,3,nikhil.patel2213@lpu.edu.in,9870958794,77.55,XQDPP1213X,U-0379
+LPU.2214,Aman Bose,Male,CSE,UG,3,aman.bose2214@lpu.edu.in,9818402131,64.31,PCEPB1214H,U-0379
+LPU.2215,Divya Jain,Female,CSE,UG,3,divya.jain2215@lpu.edu.in,9838636712,88.25,TRUPJ1215F,U-0379
+LPU.2216,Yash Verma,Male,CSE,UG,3,yash.verma2216@lpu.edu.in,9867146386,92.95,VSQPV1216I,U-0379
+LPU.2217,Vikram Singh,Female,CSE,UG,3,vikram.singh2217@lpu.edu.in,9858248776,86.46,ZOAPS1217G,U-0379
+LPU.2218,Neha Bose,Male,CSE,UG,3,neha.bose2218@lpu.edu.in,9833746027,73.88,EKIPB1218N,U-0379
+LPU.2219,Harika Sharma,Female,CSE,UG,3,harika.sharma2219@lpu.edu.in,9858077089,64.56,VXZPS1219X,U-0379
+LPU.2220,Nikhil Bhat,Female,CSE,UG,3,nikhil.bhat2220@lpu.edu.in,9898749862,69.66,WZAPB1220Q,U-0379
+LPU.2221,Vinay Kumar,Male,CSE,UG,3,vinay.kumar2221@lpu.edu.in,9853292475,66.32,RPUPK1221G,U-0379
+LPU.2222,Ananya Naidu,Female,CSE,UG,3,ananya.naidu2222@lpu.edu.in,9865710625,96.07,VHEPN1222Q,U-0379
+LPU.2223,Sanjay Singh,Male,CSE,UG,3,sanjay.singh2223@lpu.edu.in,9831400341,64.56,AKHPS1223B,U-0379
+LPU.2224,Aman Mishra,Male,CSE,UG,3,aman.mishra2224@lpu.edu.in,9820412505,71.54,WDLPM1224T,U-0379
+LPU.2225,Ananya Bhat,Female,CSE,UG,3,ananya.bhat2225@lpu.edu.in,9894217706,76.69,IXVPB1225R,U-0379
+LPU.2226,Aman Sharma,Male,CSE,UG,3,aman.sharma2226@lpu.edu.in,9821783331,76.5,ASGPS1226Z,U-0379
+LPU.2227,Divya Nair,Male,CSE,UG,3,divya.nair2227@lpu.edu.in,9823158444,62.67,AQNPN1227R,U-0379
+LPU.2228,Ravi Kumar,Female,CSE,UG,3,ravi.kumar2228@lpu.edu.in,9824341416,79.64,GCJPK1228X,U-0379
+LPU.2229,Harika Chopra,Female,CSE,UG,3,harika.chopra2229@lpu.edu.in,9878674460,79.07,VTPPC1229Z,U-0379
+LPU.2230,Yash Kumar,Female,CSE,UG,3,yash.kumar2230@lpu.edu.in,9849700220,87.39,VWQPK1230C,U-0379
+LPU.2231,Ananya Kumar,Female,CSE,UG,3,ananya.kumar2231@lpu.edu.in,9892648911,65.0,EYKPK1231Y,U-0379
+LPU.2232,Harika Rao,Female,CSE,UG,3,harika.rao2232@lpu.edu.in,9836481636,60.57,TFSPR1232X,U-0379
+LPU.2233,Vikram Iyer,Male,CSE,UG,3,vikram.iyer2233@lpu.edu.in,9879850980,65.4,KBJPI1233B,U-0379
+LPU.2234,Sameer Bhat,Male,CSE,UG,3,sameer.bhat2234@lpu.edu.in,9896907766,91.34,YYDPB1234T,U-0379
+LPU.2235,Sameer Shetty,Female,CSE,UG,3,sameer.shetty2235@lpu.edu.in,9871724864,91.9,PODPS1235G,U-0379
+LPU.2236,Vikram Sharma,Male,CSE,UG,3,vikram.sharma2236@lpu.edu.in,9826311093,69.49,WBQPS1236F,U-0379
+LPU.2237,Sneha Yadav,Female,CSE,UG,3,sneha.yadav2237@lpu.edu.in,9819213499,82.66,CMHPY1237B,U-0379
+LPU.2238,Harika Das,Female,CSE,UG,3,harika.das2238@lpu.edu.in,9867740004,76.28,YWTPD1238P,U-0379
+LPU.2239,Pooja Das,Male,CSE,UG,3,pooja.das2239@lpu.edu.in,9835199459,80.47,YQBPD1239T,U-0379
+LPU.2240,Ravi Rao,Female,CSE,UG,3,ravi.rao2240@lpu.edu.in,9834631646,74.67,PZXPR1240N,U-0379
+LPU.2241,Aman Yadav,Male,CSE,UG,3,aman.yadav2241@lpu.edu.in,9837512316,68.37,FETPY1241D,U-0379
+LPU.2242,Meghana Mishra,Male,CSE,UG,3,meghana.mishra2242@lpu.edu.in,9859469396,76.87,OFKPM1242W,U-0379
+LPU.2243,Kavya Gupta,Female,CSE,UG,3,kavya.gupta2243@lpu.edu.in,9879498134,97.43,QZQPG1243D,U-0379
+LPU.2244,Vinay Shetty,Female,CSE,UG,3,vinay.shetty2244@lpu.edu.in,9863947942,86.0,ASAPS1244W,U-0379
+LPU.2245,Vikram Bhat,Male,CSE,UG,3,vikram.bhat2245@lpu.edu.in,9813811170,87.65,IFUPB1245U,U-0379
+LPU.2246,Meghana Das,Female,CSE,UG,3,meghana.das2246@lpu.edu.in,9890480160,79.94,BMKPD1246L,U-0379
+LPU.2247,Ravi Verma,Female,CSE,UG,3,ravi.verma2247@lpu.edu.in,9850088097,75.93,SJLPV1247E,U-0379
+LPU.2248,Arjun Das,Female,CSE,UG,3,arjun.das2248@lpu.edu.in,9882168177,90.23,ZIMPD1248E,U-0379
+LPU.2249,Sanjay Nair,Male,CSE,UG,3,sanjay.nair2249@lpu.edu.in,9827597802,86.36,ZCMPN1249N,U-0379
+LPU.2250,Divya Yadav,Male,CSE,UG,3,divya.yadav2250@lpu.edu.in,9877964245,83.77,NXCPY1250J,U-0379
+LPU.2251,Yash Malhotra,Male,CSE,UG,3,yash.malhotra2251@lpu.edu.in,9833809601,61.49,DXQPM1251R,U-0379
+LPU.2252,Ritika Das,Female,CSE,UG,3,ritika.das2252@lpu.edu.in,9866086345,63.76,BQAPD1252I,U-0379
+LPU.2253,Vikram Nair,Male,CSE,UG,3,vikram.nair2253@lpu.edu.in,9889922200,64.28,TZCPN1253S,U-0379
+LPU.2254,Sanjay Verma,Female,CSE,UG,3,sanjay.verma2254@lpu.edu.in,9838465858,68.02,HECPV1254P,U-0379
+LPU.2255,Sameer Bose,Female,CSE,UG,3,sameer.bose2255@lpu.edu.in,9857873764,93.66,RYAPB1255X,U-0379
+LPU.2256,Kiran Patel,Male,CSE,UG,3,kiran.patel2256@lpu.edu.in,9845155838,96.2,KFQPP1256N,U-0379
+LPU.2257,Meghana Bhat,Male,CSE,UG,3,meghana.bhat2257@lpu.edu.in,9879942262,65.11,NSBPB1257S,U-0379
+LPU.2258,Vikram Shetty,Female,CSE,UG,3,vikram.shetty2258@lpu.edu.in,9850442715,93.79,FHQPS1258P,U-0379
+LPU.2259,Sneha Chopra,Male,CSE,UG,3,sneha.chopra2259@lpu.edu.in,9849604298,73.56,CBZPC1259L,U-0379
+LPU.2260,Sanjay Bose,Male,CSE,UG,3,sanjay.bose2260@lpu.edu.in,9840490031,89.01,BQCPB1260O,U-0379
+LPU.2261,Aman Iyer,Male,CSE,UG,4,aman.iyer2261@lpu.edu.in,9832560151,95.68,VLVPI1261T,U-0379
+LPU.2262,Sanjay Iyer,Female,CSE,UG,4,sanjay.iyer2262@lpu.edu.in,9822229353,87.91,TZUPI1262Q,U-0379
+LPU.2263,Yash Verma,Female,CSE,UG,4,yash.verma2263@lpu.edu.in,9825754937,61.54,USBPV1263S,U-0379
+LPU.2264,Aman Verma,Male,CSE,UG,4,aman.verma2264@lpu.edu.in,9888694975,72.69,LCSPV1264L,U-0379
+LPU.2265,Yash Das,Male,CSE,UG,4,yash.das2265@lpu.edu.in,9871527122,89.98,EJRPD1265Z,U-0379
+LPU.2266,Ritika Shetty,Female,CSE,UG,4,ritika.shetty2266@lpu.edu.in,9885790676,74.11,ARPPS1266P,U-0379
+LPU.2267,Ravi Sharma,Female,CSE,UG,4,ravi.sharma2267@lpu.edu.in,9858328534,78.3,ZBXPS1267U,U-0379
+LPU.2268,Sameer Yadav,Female,CSE,UG,4,sameer.yadav2268@lpu.edu.in,9885135882,92.11,SRRPY1268K,U-0379
+LPU.2269,Sanjay Naidu,Male,CSE,UG,4,sanjay.naidu2269@lpu.edu.in,9827303483,77.56,OUHPN1269W,U-0379
+LPU.2270,Kavya Reddy,Male,CSE,UG,4,kavya.reddy2270@lpu.edu.in,9846957494,84.61,LYMPR1270V,U-0379
+LPU.2271,Divya Gupta,Female,CSE,UG,4,divya.gupta2271@lpu.edu.in,9849552155,67.2,XZGPG1271S,U-0379
+LPU.2272,Yash Rao,Male,CSE,UG,4,yash.rao2272@lpu.edu.in,9843840506,90.23,CGPPR1272I,U-0379
+LPU.2273,Pooja Bose,Male,CSE,UG,4,pooja.bose2273@lpu.edu.in,9845444970,63.02,GQKPB1273D,U-0379
+LPU.2274,Meghana Singh,Male,CSE,UG,4,meghana.singh2274@lpu.edu.in,9845027984,71.87,RVDPS1274T,U-0379
+LPU.2275,Pooja Nair,Female,CSE,UG,4,pooja.nair2275@lpu.edu.in,9867460991,75.13,KEBPN1275S,U-0379
+LPU.2276,Aman Iyer,Male,CSE,UG,4,aman.iyer2276@lpu.edu.in,9819401342,92.59,SSJPI1276H,U-0379
+LPU.2277,Yash Verma,Male,CSE,UG,4,yash.verma2277@lpu.edu.in,9823464678,90.71,MWPPV1277F,U-0379
+LPU.2278,Pooja Sharma,Female,CSE,UG,4,pooja.sharma2278@lpu.edu.in,9831388446,60.6,HUVPS1278S,U-0379
+LPU.2279,Harika Yadav,Female,CSE,UG,4,harika.yadav2279@lpu.edu.in,9844923294,70.14,AIZPY1279M,U-0379
+LPU.2280,Aman Naidu,Male,CSE,UG,4,aman.naidu2280@lpu.edu.in,9877017825,87.57,ZSYPN1280N,U-0379
+LPU.2281,Harika Kumar,Male,CSE,UG,4,harika.kumar2281@lpu.edu.in,9823581813,98.8,VQRPK1281T,U-0379
+LPU.2282,Kiran Sharma,Female,CSE,UG,4,kiran.sharma2282@lpu.edu.in,9883937500,73.89,WKOPS1282R,U-0379
+LPU.2283,Ananya Bhat,Male,CSE,UG,4,ananya.bhat2283@lpu.edu.in,9849281702,79.37,QIGPB1283D,U-0379
+LPU.2284,Divya Chopra,Male,CSE,UG,4,divya.chopra2284@lpu.edu.in,9831333482,65.42,WHZPC1284I,U-0379
+LPU.2285,Neha Verma,Female,CSE,UG,4,neha.verma2285@lpu.edu.in,9852505078,94.78,NVNPV1285D,U-0379
+LPU.2286,Pooja Verma,Female,CSE,UG,4,pooja.verma2286@lpu.edu.in,9894779377,95.21,GVPPV1286V,U-0379
+LPU.2287,Arjun Jain,Male,CSE,UG,4,arjun.jain2287@lpu.edu.in,9882159754,88.5,LBRPJ1287I,U-0379
+LPU.2288,Kiran Singh,Male,CSE,UG,4,kiran.singh2288@lpu.edu.in,9840321407,97.54,YQYPS1288M,U-0379
+LPU.2289,Kiran Chopra,Male,CSE,UG,4,kiran.chopra2289@lpu.edu.in,9815128458,66.62,DDHPC1289Y,U-0379
+LPU.2290,Harika Das,Female,CSE,UG,4,harika.das2290@lpu.edu.in,9846225010,83.73,IPDPD1290Y,U-0379
+LPU.2291,Divya Singh,Female,CSE,UG,4,divya.singh2291@lpu.edu.in,9848700649,94.19,HKWPS1291Y,U-0379
+LPU.2292,Ravi Kumar,Female,CSE,UG,4,ravi.kumar2292@lpu.edu.in,9847758058,82.72,CQAPK1292P,U-0379
+LPU.2293,Kiran Sharma,Male,CSE,UG,4,kiran.sharma2293@lpu.edu.in,9819306459,60.07,IBRPS1293B,U-0379
+LPU.2294,Neha Singh,Male,CSE,UG,4,neha.singh2294@lpu.edu.in,9864862906,74.54,TRRPS1294R,U-0379
+LPU.2295,Sanjay Gupta,Female,CSE,UG,4,sanjay.gupta2295@lpu.edu.in,9856669408,78.52,JDPPG1295M,U-0379
+LPU.2296,Sneha Shetty,Male,CSE,UG,4,sneha.shetty2296@lpu.edu.in,9821625463,70.55,ANZPS1296R,U-0379
+LPU.2297,Sneha Gupta,Female,CSE,UG,4,sneha.gupta2297@lpu.edu.in,9870410182,83.3,IWOPG1297Y,U-0379
+LPU.2298,Aman Kumar,Male,CSE,UG,4,aman.kumar2298@lpu.edu.in,9814648006,80.52,EPEPK1298D,U-0379
+LPU.2299,Pooja Patel,Female,CSE,UG,4,pooja.patel2299@lpu.edu.in,9836712146,99.52,IMTPP1299I,U-0379
+LPU.2300,Vikram Naidu,Male,CSE,UG,4,vikram.naidu2300@lpu.edu.in,9853352206,78.61,BNKPN1300H,U-0379
+LPU.2301,Arjun Kumar,Male,CSE,UG,4,arjun.kumar2301@lpu.edu.in,9812302652,93.17,HEGPK1301X,U-0379
+LPU.2302,Vinay Nair,Male,CSE,UG,4,vinay.nair2302@lpu.edu.in,9839622268,67.07,RTMPN1302G,U-0379
+LPU.2303,Sameer Patel,Male,CSE,UG,4,sameer.patel2303@lpu.edu.in,9888193788,81.76,VNIPP1303B,U-0379
+LPU.2304,Vikram Bose,Female,CSE,UG,4,vikram.bose2304@lpu.edu.in,9822932821,63.06,SOZPB1304D,U-0379
+LPU.2305,Yash Bhat,Female,CSE,UG,4,yash.bhat2305@lpu.edu.in,9853914251,84.98,FSGPB1305M,U-0379
+LPU.2306,Harika Shetty,Male,CSE,UG,4,harika.shetty2306@lpu.edu.in,9812083767,71.34,QYPPS1306L,U-0379
+LPU.2307,Pooja Sharma,Male,CSE,UG,4,pooja.sharma2307@lpu.edu.in,9825894489,97.27,TFBPS1307F,U-0379
+LPU.2308,Ritika Singh,Male,CSE,UG,4,ritika.singh2308@lpu.edu.in,9830675054,73.75,IMQPS1308Y,U-0379
+LPU.2309,Sneha Naidu,Female,CSE,UG,4,sneha.naidu2309@lpu.edu.in,9873311437,86.98,GRKPN1309Z,U-0379
+LPU.2310,Aman Reddy,Female,CSE,UG,4,aman.reddy2310@lpu.edu.in,9890056698,68.24,KLVPR1310H,U-0379
+LPU.2311,Harika Kumar,Female,CSE,UG,4,harika.kumar2311@lpu.edu.in,9844347038,61.85,HGAPK1311Q,U-0379
+LPU.2312,Sneha Rao,Male,CSE,UG,4,sneha.rao2312@lpu.edu.in,9854523902,70.01,DDTPR1312K,U-0379
+LPU.2313,Kiran Gupta,Female,CSE,UG,4,kiran.gupta2313@lpu.edu.in,9870018262,95.77,YDMPG1313D,U-0379
+LPU.2314,Nikhil Chopra,Male,CSE,UG,4,nikhil.chopra2314@lpu.edu.in,9889384355,81.19,BUEPC1314V,U-0379
+LPU.2315,Sanjay Singh,Female,CSE,UG,4,sanjay.singh2315@lpu.edu.in,9898960544,82.86,ZEBPS1315Q,U-0379
+LPU.2316,Ravi Kumar,Female,CSE,UG,4,ravi.kumar2316@lpu.edu.in,9874696838,68.58,QJTPK1316M,U-0379
+LPU.2317,Ravi Das,Female,CSE,UG,4,ravi.das2317@lpu.edu.in,9881170316,75.45,FZCPD1317W,U-0379
+LPU.2318,Meghana Rao,Male,CSE,UG,4,meghana.rao2318@lpu.edu.in,9846627797,73.78,KDMPR1318Z,U-0379
+LPU.2319,Ananya Patel,Female,CSE,UG,4,ananya.patel2319@lpu.edu.in,9875500030,72.99,RUQPP1319T,U-0379
+LPU.2320,Nikhil Singh,Male,CSE,UG,4,nikhil.singh2320@lpu.edu.in,9820464895,69.06,KQMPS1320G,U-0379
+LPU.2321,Nikhil Rao,Male,ECE,UG,1,nikhil.rao2321@lpu.edu.in,9834110947,79.46,NOHPR1321Y,U-0379
+LPU.2322,Harika Naidu,Male,ECE,UG,1,harika.naidu2322@lpu.edu.in,9892638636,60.47,FVTPN1322Q,U-0379
+LPU.2323,Kiran Singh,Male,ECE,UG,1,kiran.singh2323@lpu.edu.in,9838527362,71.07,CIXPS1323L,U-0379
+LPU.2324,Kavya Das,Male,ECE,UG,1,kavya.das2324@lpu.edu.in,9816117238,92.67,XGSPD1324G,U-0379
+LPU.2325,Arjun Rao,Female,ECE,UG,1,arjun.rao2325@lpu.edu.in,9817324571,61.72,NJVPR1325D,U-0379
+LPU.2326,Sanjay Verma,Male,ECE,UG,1,sanjay.verma2326@lpu.edu.in,9815692061,75.59,EXYPV1326N,U-0379
+LPU.2327,Vinay Bose,Male,ECE,UG,1,vinay.bose2327@lpu.edu.in,9841454578,88.22,BRXPB1327Y,U-0379
+LPU.2328,Neha Kumar,Female,ECE,UG,1,neha.kumar2328@lpu.edu.in,9846806824,95.14,SJRPK1328Z,U-0379
+LPU.2329,Yash Bhat,Female,ECE,UG,1,yash.bhat2329@lpu.edu.in,9815995305,78.65,TJVPB1329C,U-0379
+LPU.2330,Vikram Singh,Female,ECE,UG,1,vikram.singh2330@lpu.edu.in,9863199500,87.18,ANWPS1330C,U-0379
+LPU.2331,Yash Bhat,Male,ECE,UG,1,yash.bhat2331@lpu.edu.in,9861297999,64.91,GECPB1331X,U-0379
+LPU.2332,Rahul Chopra,Female,ECE,UG,1,rahul.chopra2332@lpu.edu.in,9889774525,63.23,XUQPC1332A,U-0379
+LPU.2333,Yash Shetty,Female,ECE,UG,1,yash.shetty2333@lpu.edu.in,9861022146,63.5,FMHPS1333K,U-0379
+LPU.2334,Harika Nair,Male,ECE,UG,1,harika.nair2334@lpu.edu.in,9837932168,65.64,LZXPN1334B,U-0379
+LPU.2335,Yash Singh,Female,ECE,UG,1,yash.singh2335@lpu.edu.in,9835897725,89.78,SDWPS1335P,U-0379
+LPU.2336,Neha Singh,Male,ECE,UG,1,neha.singh2336@lpu.edu.in,9833354303,84.06,OMBPS1336X,U-0379
+LPU.2337,Sanjay Singh,Male,ECE,UG,1,sanjay.singh2337@lpu.edu.in,9836772139,76.62,WIXPS1337D,U-0379
+LPU.2338,Sanjay Bhat,Male,ECE,UG,1,sanjay.bhat2338@lpu.edu.in,9864609483,63.48,BSIPB1338O,U-0379
+LPU.2339,Nikhil Sharma,Female,ECE,UG,1,nikhil.sharma2339@lpu.edu.in,9861326702,71.08,IXQPS1339N,U-0379
+LPU.2340,Ananya Chopra,Female,ECE,UG,1,ananya.chopra2340@lpu.edu.in,9896582338,84.49,CFGPC1340K,U-0379
+LPU.2341,Ritika Bose,Female,ECE,UG,1,ritika.bose2341@lpu.edu.in,9849731933,63.68,MKBPB1341T,U-0379
+LPU.2342,Kavya Rao,Female,ECE,UG,1,kavya.rao2342@lpu.edu.in,9856322539,97.91,ANKPR1342T,U-0379
+LPU.2343,Rahul Singh,Male,ECE,UG,1,rahul.singh2343@lpu.edu.in,9870544975,94.19,OREPS1343Y,U-0379
+LPU.2344,Neha Singh,Female,ECE,UG,1,neha.singh2344@lpu.edu.in,9834934491,81.23,ZUJPS1344G,U-0379
+LPU.2345,Ritika Jain,Male,ECE,UG,1,ritika.jain2345@lpu.edu.in,9820833346,69.36,LJOPJ1345F,U-0379
+LPU.2346,Arjun Chopra,Female,ECE,UG,1,arjun.chopra2346@lpu.edu.in,9893314735,82.26,TLGPC1346W,U-0379
+LPU.2347,Ravi Verma,Female,ECE,UG,1,ravi.verma2347@lpu.edu.in,9820707251,86.53,GSVPV1347T,U-0379
+LPU.2348,Vikram Verma,Female,ECE,UG,1,vikram.verma2348@lpu.edu.in,9828906699,96.71,CXMPV1348L,U-0379
+LPU.2349,Pooja Reddy,Male,ECE,UG,1,pooja.reddy2349@lpu.edu.in,9838165719,71.84,EGYPR1349S,U-0379
+LPU.2350,Nikhil Kumar,Male,ECE,UG,1,nikhil.kumar2350@lpu.edu.in,9875481541,90.44,EUAPK1350J,U-0379
+LPU.2351,Meghana Rao,Male,ECE,UG,1,meghana.rao2351@lpu.edu.in,9893953548,87.23,SQFPR1351V,U-0379
+LPU.2352,Vikram Bose,Male,ECE,UG,1,vikram.bose2352@lpu.edu.in,9841102125,61.38,FODPB1352U,U-0379
+LPU.2353,Kiran Malhotra,Female,ECE,UG,1,kiran.malhotra2353@lpu.edu.in,9825758329,66.3,MMZPM1353K,U-0379
+LPU.2354,Kiran Malhotra,Female,ECE,UG,1,kiran.malhotra2354@lpu.edu.in,9887897131,74.06,ZYWPM1354E,U-0379
+LPU.2355,Vikram Shetty,Female,ECE,UG,1,vikram.shetty2355@lpu.edu.in,9826589382,97.2,KFFPS1355L,U-0379
+LPU.2356,Rahul Kumar,Male,ECE,UG,1,rahul.kumar2356@lpu.edu.in,9887788201,86.07,ZTAPK1356W,U-0379
+LPU.2357,Aman Rao,Female,ECE,UG,1,aman.rao2357@lpu.edu.in,9840640470,86.04,IOYPR1357Z,U-0379
+LPU.2358,Sameer Malhotra,Female,ECE,UG,1,sameer.malhotra2358@lpu.edu.in,9853491805,67.99,WJWPM1358D,U-0379
+LPU.2359,Rahul Iyer,Female,ECE,UG,1,rahul.iyer2359@lpu.edu.in,9818626957,95.64,JURPI1359J,U-0379
+LPU.2360,Divya Jain,Female,ECE,UG,1,divya.jain2360@lpu.edu.in,9832318301,95.9,YRBPJ1360C,U-0379
+LPU.2361,Sanjay Shetty,Female,ECE,UG,1,sanjay.shetty2361@lpu.edu.in,9820156246,75.46,DZDPS1361H,U-0379
+LPU.2362,Sneha Chopra,Female,ECE,UG,1,sneha.chopra2362@lpu.edu.in,9834402416,71.55,DDHPC1362V,U-0379
+LPU.2363,Sanjay Shetty,Female,ECE,UG,1,sanjay.shetty2363@lpu.edu.in,9819433781,76.09,ZTQPS1363K,U-0379
+LPU.2364,Ritika Sharma,Male,ECE,UG,1,ritika.sharma2364@lpu.edu.in,9812491190,84.29,KXEPS1364M,U-0379
+LPU.2365,Vinay Chopra,Female,ECE,UG,1,vinay.chopra2365@lpu.edu.in,9820608439,87.39,WAYPC1365V,U-0379
+LPU.2366,Ritika Mishra,Female,ECE,UG,1,ritika.mishra2366@lpu.edu.in,9897055802,96.51,TWPPM1366W,U-0379
+LPU.2367,Nikhil Sharma,Male,ECE,UG,1,nikhil.sharma2367@lpu.edu.in,9835464386,94.51,BVPPS1367W,U-0379
+LPU.2368,Nikhil Gupta,Female,ECE,UG,1,nikhil.gupta2368@lpu.edu.in,9845777670,74.79,RJWPG1368Z,U-0379
+LPU.2369,Divya Patel,Female,ECE,UG,1,divya.patel2369@lpu.edu.in,9861922635,71.63,CRVPP1369K,U-0379
+LPU.2370,Meghana Reddy,Female,ECE,UG,1,meghana.reddy2370@lpu.edu.in,9817805980,69.2,MQLPR1370G,U-0379
+LPU.2371,Ravi Naidu,Male,ECE,UG,1,ravi.naidu2371@lpu.edu.in,9851647118,69.76,CPSPN1371I,U-0379
+LPU.2372,Harika Nair,Female,ECE,UG,1,harika.nair2372@lpu.edu.in,9838916895,78.56,QZWPN1372O,U-0379
+LPU.2373,Arjun Malhotra,Male,ECE,UG,1,arjun.malhotra2373@lpu.edu.in,9881659548,89.76,KYSPM1373I,U-0379
+LPU.2374,Neha Mishra,Male,ECE,UG,1,neha.mishra2374@lpu.edu.in,9855154003,91.79,BYOPM1374F,U-0379
+LPU.2375,Arjun Reddy,Male,ECE,UG,1,arjun.reddy2375@lpu.edu.in,9852430432,73.45,KHRPR1375A,U-0379
+LPU.2376,Ananya Chopra,Female,ECE,UG,1,ananya.chopra2376@lpu.edu.in,9878041623,76.26,XDPPC1376Q,U-0379
+LPU.2377,Sneha Sharma,Male,ECE,UG,1,sneha.sharma2377@lpu.edu.in,9810686546,61.24,JIXPS1377S,U-0379
+LPU.2378,Ananya Reddy,Female,ECE,UG,1,ananya.reddy2378@lpu.edu.in,9843124447,66.31,WEBPR1378U,U-0379
+LPU.2379,Ananya Chopra,Female,ECE,UG,1,ananya.chopra2379@lpu.edu.in,9825508810,73.21,RIEPC1379V,U-0379
+LPU.2380,Aman Shetty,Female,ECE,UG,1,aman.shetty2380@lpu.edu.in,9813840299,69.38,RYXPS1380H,U-0379
+LPU.2381,Rahul Yadav,Female,ECE,UG,2,rahul.yadav2381@lpu.edu.in,9838527351,68.27,VWGPY1381E,U-0379
+LPU.2382,Aman Jain,Female,ECE,UG,2,aman.jain2382@lpu.edu.in,9867031422,67.71,PDYPJ1382S,U-0379
+LPU.2383,Vikram Naidu,Male,ECE,UG,2,vikram.naidu2383@lpu.edu.in,9881448776,77.81,ZYHPN1383Y,U-0379
+LPU.2384,Divya Iyer,Female,ECE,UG,2,divya.iyer2384@lpu.edu.in,9876747985,60.5,CBNPI1384E,U-0379
+LPU.2385,Arjun Malhotra,Male,ECE,UG,2,arjun.malhotra2385@lpu.edu.in,9837617331,76.43,LUBPM1385E,U-0379
+LPU.2386,Pooja Shetty,Male,ECE,UG,2,pooja.shetty2386@lpu.edu.in,9840758079,84.0,AJYPS1386X,U-0379
+LPU.2387,Pooja Mishra,Male,ECE,UG,2,pooja.mishra2387@lpu.edu.in,9868835294,80.95,NXVPM1387V,U-0379
+LPU.2388,Nikhil Bhat,Female,ECE,UG,2,nikhil.bhat2388@lpu.edu.in,9895658657,69.2,VOHPB1388K,U-0379
+LPU.2389,Arjun Yadav,Female,ECE,UG,2,arjun.yadav2389@lpu.edu.in,9891708053,91.33,JPBPY1389B,U-0379
+LPU.2390,Sneha Das,Male,ECE,UG,2,sneha.das2390@lpu.edu.in,9824151664,89.75,QIYPD1390D,U-0379
+LPU.2391,Ananya Malhotra,Male,ECE,UG,2,ananya.malhotra2391@lpu.edu.in,9830665386,79.66,DBBPM1391T,U-0379
+LPU.2392,Kavya Malhotra,Female,ECE,UG,2,kavya.malhotra2392@lpu.edu.in,9825254606,88.47,LOJPM1392F,U-0379
+LPU.2393,Kiran Rao,Female,ECE,UG,2,kiran.rao2393@lpu.edu.in,9836807457,81.14,IEIPR1393O,U-0379
+LPU.2394,Aman Patel,Female,ECE,UG,2,aman.patel2394@lpu.edu.in,9867627544,88.82,ATDPP1394Y,U-0379
+LPU.2395,Vikram Das,Female,ECE,UG,2,vikram.das2395@lpu.edu.in,9858643520,88.64,OHVPD1395U,U-0379
+LPU.2396,Ravi Rao,Female,ECE,UG,2,ravi.rao2396@lpu.edu.in,9828949071,60.75,PQKPR1396D,U-0379
+LPU.2397,Arjun Kumar,Female,ECE,UG,2,arjun.kumar2397@lpu.edu.in,9842461454,90.47,LMUPK1397X,U-0379
+LPU.2398,Vikram Bhat,Male,ECE,UG,2,vikram.bhat2398@lpu.edu.in,9815677711,96.46,XQAPB1398Y,U-0379
+LPU.2399,Kiran Singh,Female,ECE,UG,2,kiran.singh2399@lpu.edu.in,9899528531,63.67,VHUPS1399U,U-0379
+LPU.2400,Yash Mishra,Female,ECE,UG,2,yash.mishra2400@lpu.edu.in,9825043204,98.24,HRYPM1400F,U-0379
+LPU.2401,Vikram Kumar,Female,ECE,UG,2,vikram.kumar2401@lpu.edu.in,9839219501,98.87,NBEPK1401K,U-0379
+LPU.2402,Ritika Das,Female,ECE,UG,2,ritika.das2402@lpu.edu.in,9843539825,82.36,NZUPD1402Y,U-0379
+LPU.2403,Meghana Mishra,Female,ECE,UG,2,meghana.mishra2403@lpu.edu.in,9888126793,83.9,SGLPM1403T,U-0379
+LPU.2404,Meghana Jain,Female,ECE,UG,2,meghana.jain2404@lpu.edu.in,9833846861,70.87,PKQPJ1404T,U-0379
+LPU.2405,Divya Kumar,Female,ECE,UG,2,divya.kumar2405@lpu.edu.in,9878819567,99.16,HDIPK1405U,U-0379
+LPU.2406,Vikram Verma,Male,ECE,UG,2,vikram.verma2406@lpu.edu.in,9878182114,95.67,ANCPV1406E,U-0379
+LPU.2407,Ananya Bose,Male,ECE,UG,2,ananya.bose2407@lpu.edu.in,9812375046,67.92,DSOPB1407U,U-0379
+LPU.2408,Kiran Sharma,Female,ECE,UG,2,kiran.sharma2408@lpu.edu.in,9842995441,83.61,MBZPS1408H,U-0379
+LPU.2409,Vikram Chopra,Female,ECE,UG,2,vikram.chopra2409@lpu.edu.in,9889828102,88.75,HEYPC1409D,U-0379
+LPU.2410,Ritika Kumar,Male,ECE,UG,2,ritika.kumar2410@lpu.edu.in,9851787882,71.25,SQVPK1410H,U-0379
+LPU.2411,Pooja Kumar,Male,ECE,UG,2,pooja.kumar2411@lpu.edu.in,9825153026,70.2,RWJPK1411N,U-0379
+LPU.2412,Neha Naidu,Female,ECE,UG,2,neha.naidu2412@lpu.edu.in,9878743520,83.48,YMIPN1412P,U-0379
+LPU.2413,Divya Bose,Male,ECE,UG,2,divya.bose2413@lpu.edu.in,9872245996,78.66,DVDPB1413Y,U-0379
+LPU.2414,Sanjay Iyer,Female,ECE,UG,2,sanjay.iyer2414@lpu.edu.in,9861712699,83.78,HXKPI1414A,U-0379
+LPU.2415,Ananya Bose,Male,ECE,UG,2,ananya.bose2415@lpu.edu.in,9876474473,81.74,SGSPB1415U,U-0379
+LPU.2416,Nikhil Naidu,Male,ECE,UG,2,nikhil.naidu2416@lpu.edu.in,9895335582,86.15,KHOPN1416H,U-0379
+LPU.2417,Yash Bhat,Male,ECE,UG,2,yash.bhat2417@lpu.edu.in,9847334313,65.36,ZSPPB1417C,U-0379
+LPU.2418,Harika Sharma,Female,ECE,UG,2,harika.sharma2418@lpu.edu.in,9892908788,72.67,SYIPS1418B,U-0379
+LPU.2419,Nikhil Kumar,Female,ECE,UG,2,nikhil.kumar2419@lpu.edu.in,9837653115,94.76,CSRPK1419S,U-0379
+LPU.2420,Pooja Naidu,Male,ECE,UG,2,pooja.naidu2420@lpu.edu.in,9869036085,77.89,XFNPN1420T,U-0379
+LPU.2421,Rahul Das,Male,ECE,UG,2,rahul.das2421@lpu.edu.in,9889296088,74.64,ANYPD1421O,U-0379
+LPU.2422,Sameer Bhat,Female,ECE,UG,2,sameer.bhat2422@lpu.edu.in,9837790322,99.15,NLSPB1422N,U-0379
+LPU.2423,Aman Shetty,Male,ECE,UG,2,aman.shetty2423@lpu.edu.in,9820446245,80.29,XZHPS1423C,U-0379
+LPU.2424,Ravi Iyer,Female,ECE,UG,2,ravi.iyer2424@lpu.edu.in,9854098486,77.02,RQXPI1424D,U-0379
+LPU.2425,Yash Sharma,Female,ECE,UG,2,yash.sharma2425@lpu.edu.in,9897589909,69.72,QVKPS1425J,U-0379
+LPU.2426,Sanjay Reddy,Male,ECE,UG,2,sanjay.reddy2426@lpu.edu.in,9846545825,84.59,NWBPR1426J,U-0379
+LPU.2427,Divya Bhat,Male,ECE,UG,2,divya.bhat2427@lpu.edu.in,9819946472,85.09,QBHPB1427A,U-0379
+LPU.2428,Sanjay Iyer,Male,ECE,UG,2,sanjay.iyer2428@lpu.edu.in,9863439300,71.66,BEVPI1428V,U-0379
+LPU.2429,Rahul Verma,Female,ECE,UG,2,rahul.verma2429@lpu.edu.in,9877822728,96.66,MQRPV1429J,U-0379
+LPU.2430,Ravi Mishra,Male,ECE,UG,2,ravi.mishra2430@lpu.edu.in,9865904108,82.41,MPJPM1430W,U-0379
+LPU.2431,Sneha Kumar,Female,ECE,UG,2,sneha.kumar2431@lpu.edu.in,9899205251,75.59,HPFPK1431R,U-0379
+LPU.2432,Sameer Patel,Male,ECE,UG,2,sameer.patel2432@lpu.edu.in,9839659748,72.15,RLMPP1432F,U-0379
+LPU.2433,Ravi Naidu,Male,ECE,UG,2,ravi.naidu2433@lpu.edu.in,9829846882,91.95,GFJPN1433F,U-0379
+LPU.2434,Ritika Jain,Female,ECE,UG,2,ritika.jain2434@lpu.edu.in,9827679360,62.25,MJCPJ1434A,U-0379
+LPU.2435,Divya Singh,Female,ECE,UG,2,divya.singh2435@lpu.edu.in,9896584171,71.17,NWLPS1435V,U-0379
+LPU.2436,Arjun Nair,Male,ECE,UG,2,arjun.nair2436@lpu.edu.in,9813733878,88.12,MVNPN1436V,U-0379
+LPU.2437,Meghana Reddy,Male,ECE,UG,2,meghana.reddy2437@lpu.edu.in,9884905748,69.44,UNAPR1437M,U-0379
+LPU.2438,Nikhil Mishra,Female,ECE,UG,2,nikhil.mishra2438@lpu.edu.in,9857248718,88.48,UORPM1438M,U-0379
+LPU.2439,Nikhil Rao,Male,ECE,UG,2,nikhil.rao2439@lpu.edu.in,9872348067,70.83,MQAPR1439X,U-0379
+LPU.2440,Aman Gupta,Male,ECE,UG,2,aman.gupta2440@lpu.edu.in,9841005905,82.11,OLEPG1440E,U-0379
+LPU.2441,Divya Malhotra,Female,ECE,UG,3,divya.malhotra2441@lpu.edu.in,9820117439,81.08,DSSPM1441P,U-0379
+LPU.2442,Sanjay Malhotra,Male,ECE,UG,3,sanjay.malhotra2442@lpu.edu.in,9824180042,91.07,DOOPM1442V,U-0379
+LPU.2443,Pooja Bose,Male,ECE,UG,3,pooja.bose2443@lpu.edu.in,9871311764,99.47,GYLPB1443I,U-0379
+LPU.2444,Yash Gupta,Male,ECE,UG,3,yash.gupta2444@lpu.edu.in,9842994191,68.88,VOJPG1444U,U-0379
+LPU.2445,Ravi Bose,Female,ECE,UG,3,ravi.bose2445@lpu.edu.in,9897648172,88.05,FEXPB1445A,U-0379
+LPU.2446,Ananya Singh,Male,ECE,UG,3,ananya.singh2446@lpu.edu.in,9869221980,88.11,SMMPS1446T,U-0379
+LPU.2447,Ritika Singh,Male,ECE,UG,3,ritika.singh2447@lpu.edu.in,9883596594,62.45,EFMPS1447R,U-0379
+LPU.2448,Sanjay Verma,Female,ECE,UG,3,sanjay.verma2448@lpu.edu.in,9893045269,62.27,ZRHPV1448K,U-0379
+LPU.2449,Divya Sharma,Female,ECE,UG,3,divya.sharma2449@lpu.edu.in,9885808271,68.2,ABTPS1449M,U-0379
+LPU.2450,Divya Mishra,Female,ECE,UG,3,divya.mishra2450@lpu.edu.in,9890055125,77.07,CCPPM1450E,U-0379
+LPU.2451,Kavya Nair,Male,ECE,UG,3,kavya.nair2451@lpu.edu.in,9819571481,76.49,LTAPN1451L,U-0379
+LPU.2452,Neha Chopra,Female,ECE,UG,3,neha.chopra2452@lpu.edu.in,9820341913,94.13,GPNPC1452U,U-0379
+LPU.2453,Kiran Naidu,Female,ECE,UG,3,kiran.naidu2453@lpu.edu.in,9845267346,88.52,MMDPN1453D,U-0379
+LPU.2454,Vikram Chopra,Female,ECE,UG,3,vikram.chopra2454@lpu.edu.in,9859387384,79.89,IDDPC1454R,U-0379
+LPU.2455,Harika Mishra,Female,ECE,UG,3,harika.mishra2455@lpu.edu.in,9851044476,68.19,ULUPM1455R,U-0379
+LPU.2456,Harika Rao,Female,ECE,UG,3,harika.rao2456@lpu.edu.in,9846677383,74.25,XXRPR1456W,U-0379
+LPU.2457,Yash Naidu,Male,ECE,UG,3,yash.naidu2457@lpu.edu.in,9891594135,65.78,PPDPN1457S,U-0379
+LPU.2458,Aman Singh,Male,ECE,UG,3,aman.singh2458@lpu.edu.in,9836566151,97.66,ROJPS1458G,U-0379
+LPU.2459,Vikram Malhotra,Male,ECE,UG,3,vikram.malhotra2459@lpu.edu.in,9887051823,72.48,PXTPM1459P,U-0379
+LPU.2460,Pooja Patel,Male,ECE,UG,3,pooja.patel2460@lpu.edu.in,9827161241,93.09,GNKPP1460N,U-0379
+LPU.2461,Vikram Malhotra,Male,ECE,UG,3,vikram.malhotra2461@lpu.edu.in,9812718874,88.8,DZUPM1461V,U-0379
+LPU.2462,Nikhil Das,Female,ECE,UG,3,nikhil.das2462@lpu.edu.in,9882370093,63.92,QBCPD1462B,U-0379
+LPU.2463,Pooja Sharma,Male,ECE,UG,3,pooja.sharma2463@lpu.edu.in,9840411628,84.71,ZPEPS1463B,U-0379
+LPU.2464,Neha Bhat,Male,ECE,UG,3,neha.bhat2464@lpu.edu.in,9881887030,88.81,RRUPB1464Q,U-0379
+LPU.2465,Divya Das,Female,ECE,UG,3,divya.das2465@lpu.edu.in,9829593359,85.66,QVOPD1465U,U-0379
+LPU.2466,Ananya Bhat,Female,ECE,UG,3,ananya.bhat2466@lpu.edu.in,9890976176,93.99,JKIPB1466N,U-0379
+LPU.2467,Sameer Shetty,Female,ECE,UG,3,sameer.shetty2467@lpu.edu.in,9816420094,73.24,JZYPS1467G,U-0379
+LPU.2468,Arjun Naidu,Male,ECE,UG,3,arjun.naidu2468@lpu.edu.in,9858310815,86.55,MEMPN1468N,U-0379
+LPU.2469,Arjun Singh,Male,ECE,UG,3,arjun.singh2469@lpu.edu.in,9826938788,67.75,ICAPS1469T,U-0379
+LPU.2470,Neha Malhotra,Female,ECE,UG,3,neha.malhotra2470@lpu.edu.in,9849023554,74.66,OSIPM1470U,U-0379
+LPU.2471,Ravi Singh,Female,ECE,UG,3,ravi.singh2471@lpu.edu.in,9859142330,91.91,IUSPS1471I,U-0379
+LPU.2472,Ravi Das,Male,ECE,UG,3,ravi.das2472@lpu.edu.in,9876351158,69.37,ZZUPD1472R,U-0379
+LPU.2473,Ananya Singh,Male,ECE,UG,3,ananya.singh2473@lpu.edu.in,9827609717,89.84,HEIPS1473F,U-0379
+LPU.2474,Sneha Sharma,Female,ECE,UG,3,sneha.sharma2474@lpu.edu.in,9894522382,63.72,QULPS1474C,U-0379
+LPU.2475,Kavya Yadav,Female,ECE,UG,3,kavya.yadav2475@lpu.edu.in,9816787269,62.71,GTBPY1475I,U-0379
+LPU.2476,Vinay Malhotra,Female,ECE,UG,3,vinay.malhotra2476@lpu.edu.in,9860846177,83.29,EDXPM1476W,U-0379
+LPU.2477,Ananya Iyer,Male,ECE,UG,3,ananya.iyer2477@lpu.edu.in,9893776115,88.82,THDPI1477Y,U-0379
+LPU.2478,Ravi Mishra,Female,ECE,UG,3,ravi.mishra2478@lpu.edu.in,9835991886,89.62,RBKPM1478K,U-0379
+LPU.2479,Divya Iyer,Female,ECE,UG,3,divya.iyer2479@lpu.edu.in,9837785076,66.65,HECPI1479M,U-0379
+LPU.2480,Harika Jain,Female,ECE,UG,3,harika.jain2480@lpu.edu.in,9899419706,77.15,QNTPJ1480C,U-0379
+LPU.2481,Nikhil Reddy,Female,ECE,UG,3,nikhil.reddy2481@lpu.edu.in,9843193718,68.06,HPMPR1481J,U-0379
+LPU.2482,Sameer Bose,Male,ECE,UG,3,sameer.bose2482@lpu.edu.in,9843761220,83.47,FHTPB1482U,U-0379
+LPU.2483,Ritika Patel,Male,ECE,UG,3,ritika.patel2483@lpu.edu.in,9863278731,91.84,PKVPP1483B,U-0379
+LPU.2484,Aman Gupta,Male,ECE,UG,3,aman.gupta2484@lpu.edu.in,9860519455,63.63,UGWPG1484H,U-0379
+LPU.2485,Ritika Gupta,Male,ECE,UG,3,ritika.gupta2485@lpu.edu.in,9837420014,76.41,YSVPG1485Q,U-0379
+LPU.2486,Divya Singh,Female,ECE,UG,3,divya.singh2486@lpu.edu.in,9865879478,98.26,CAGPS1486F,U-0379
+LPU.2487,Rahul Nair,Female,ECE,UG,3,rahul.nair2487@lpu.edu.in,9896275536,64.42,LUTPN1487A,U-0379
+LPU.2488,Divya Shetty,Male,ECE,UG,3,divya.shetty2488@lpu.edu.in,9862117738,69.46,YKIPS1488D,U-0379
+LPU.2489,Nikhil Chopra,Female,ECE,UG,3,nikhil.chopra2489@lpu.edu.in,9874060523,93.25,IGVPC1489Y,U-0379
+LPU.2490,Kavya Bhat,Female,ECE,UG,3,kavya.bhat2490@lpu.edu.in,9882825400,63.94,AWRPB1490S,U-0379
+LPU.2491,Sneha Malhotra,Male,ECE,UG,3,sneha.malhotra2491@lpu.edu.in,9847838870,99.31,STAPM1491Z,U-0379
+LPU.2492,Yash Mishra,Female,ECE,UG,3,yash.mishra2492@lpu.edu.in,9862183039,91.15,XVWPM1492B,U-0379
+LPU.2493,Ravi Chopra,Male,ECE,UG,3,ravi.chopra2493@lpu.edu.in,9867092512,97.35,LRBPC1493X,U-0379
+LPU.2494,Ravi Patel,Female,ECE,UG,3,ravi.patel2494@lpu.edu.in,9810208103,70.35,MMCPP1494A,U-0379
+LPU.2495,Sameer Singh,Male,ECE,UG,3,sameer.singh2495@lpu.edu.in,9832442093,84.51,YUSPS1495J,U-0379
+LPU.2496,Harika Gupta,Male,ECE,UG,3,harika.gupta2496@lpu.edu.in,9872516352,84.72,XQAPG1496W,U-0379
+LPU.2497,Pooja Reddy,Male,ECE,UG,3,pooja.reddy2497@lpu.edu.in,9833076023,74.51,WHRPR1497L,U-0379
+LPU.2498,Sameer Iyer,Female,ECE,UG,3,sameer.iyer2498@lpu.edu.in,9812989116,80.0,AAGPI1498H,U-0379
+LPU.2499,Meghana Naidu,Male,ECE,UG,3,meghana.naidu2499@lpu.edu.in,9893959011,68.55,MTRPN1499Y,U-0379
+LPU.2500,Arjun Rao,Male,ECE,UG,3,arjun.rao2500@lpu.edu.in,9878071359,67.87,ZSHPR1500N,U-0379
+LPU.2501,Nikhil Mishra,Male,ECE,UG,4,nikhil.mishra2501@lpu.edu.in,9812367447,74.52,VHRPM1501C,U-0379
+LPU.2502,Kavya Bhat,Female,ECE,UG,4,kavya.bhat2502@lpu.edu.in,9862032661,66.35,OBDPB1502F,U-0379
+LPU.2503,Meghana Jain,Male,ECE,UG,4,meghana.jain2503@lpu.edu.in,9818213977,87.71,MUOPJ1503H,U-0379
+LPU.2504,Neha Iyer,Male,ECE,UG,4,neha.iyer2504@lpu.edu.in,9820708063,63.02,JEMPI1504W,U-0379
+LPU.2505,Pooja Iyer,Male,ECE,UG,4,pooja.iyer2505@lpu.edu.in,9810126166,76.1,AZFPI1505C,U-0379
+LPU.2506,Pooja Gupta,Male,ECE,UG,4,pooja.gupta2506@lpu.edu.in,9875575344,82.06,SDYPG1506V,U-0379
+LPU.2507,Divya Bose,Female,ECE,UG,4,divya.bose2507@lpu.edu.in,9864930954,80.16,ADMPB1507L,U-0379
+LPU.2508,Pooja Singh,Male,ECE,UG,4,pooja.singh2508@lpu.edu.in,9810018116,62.53,LXGPS1508I,U-0379
+LPU.2509,Neha Verma,Male,ECE,UG,4,neha.verma2509@lpu.edu.in,9867788665,63.52,ZHPPV1509P,U-0379
+LPU.2510,Ananya Nair,Male,ECE,UG,4,ananya.nair2510@lpu.edu.in,9895377619,62.34,JMTPN1510F,U-0379
+LPU.2511,Sanjay Singh,Female,ECE,UG,4,sanjay.singh2511@lpu.edu.in,9873468468,76.5,RTZPS1511S,U-0379
+LPU.2512,Sanjay Malhotra,Male,ECE,UG,4,sanjay.malhotra2512@lpu.edu.in,9875723488,94.2,KCZPM1512K,U-0379
+LPU.2513,Nikhil Naidu,Female,ECE,UG,4,nikhil.naidu2513@lpu.edu.in,9846127990,98.91,VQFPN1513X,U-0379
+LPU.2514,Vinay Bose,Male,ECE,UG,4,vinay.bose2514@lpu.edu.in,9899906841,99.33,YEFPB1514N,U-0379
+LPU.2515,Neha Gupta,Female,ECE,UG,4,neha.gupta2515@lpu.edu.in,9847002692,67.32,NDEPG1515M,U-0379
+LPU.2516,Sanjay Yadav,Male,ECE,UG,4,sanjay.yadav2516@lpu.edu.in,9894383196,66.06,XSRPY1516O,U-0379
+LPU.2517,Kavya Iyer,Male,ECE,UG,4,kavya.iyer2517@lpu.edu.in,9850317865,90.25,QVUPI1517I,U-0379
+LPU.2518,Ravi Bose,Male,ECE,UG,4,ravi.bose2518@lpu.edu.in,9829691438,70.57,OIVPB1518H,U-0379
+LPU.2519,Sameer Kumar,Male,ECE,UG,4,sameer.kumar2519@lpu.edu.in,9897781327,63.91,ORYPK1519D,U-0379
+LPU.2520,Sanjay Mishra,Female,ECE,UG,4,sanjay.mishra2520@lpu.edu.in,9823889733,83.16,YZQPM1520P,U-0379
+LPU.2521,Sneha Sharma,Male,ECE,UG,4,sneha.sharma2521@lpu.edu.in,9845272816,92.02,UZRPS1521H,U-0379
+LPU.2522,Meghana Nair,Female,ECE,UG,4,meghana.nair2522@lpu.edu.in,9810920974,62.16,ESAPN1522K,U-0379
+LPU.2523,Sneha Shetty,Female,ECE,UG,4,sneha.shetty2523@lpu.edu.in,9845729151,99.03,POVPS1523G,U-0379
+LPU.2524,Neha Bose,Male,ECE,UG,4,neha.bose2524@lpu.edu.in,9878967568,93.19,YPNPB1524Y,U-0379
+LPU.2525,Yash Das,Female,ECE,UG,4,yash.das2525@lpu.edu.in,9895628943,97.22,TJZPD1525B,U-0379
+LPU.2526,Kavya Sharma,Male,ECE,UG,4,kavya.sharma2526@lpu.edu.in,9859813487,60.65,BIOPS1526R,U-0379
+LPU.2527,Vinay Bose,Female,ECE,UG,4,vinay.bose2527@lpu.edu.in,9810231149,61.18,XUYPB1527Q,U-0379
+LPU.2528,Ananya Rao,Female,ECE,UG,4,ananya.rao2528@lpu.edu.in,9864330175,72.82,DZBPR1528N,U-0379
+LPU.2529,Sneha Chopra,Male,ECE,UG,4,sneha.chopra2529@lpu.edu.in,9891265604,80.87,RDIPC1529F,U-0379
+LPU.2530,Ananya Gupta,Female,ECE,UG,4,ananya.gupta2530@lpu.edu.in,9855735937,81.15,BEMPG1530V,U-0379
+LPU.2531,Harika Reddy,Male,ECE,UG,4,harika.reddy2531@lpu.edu.in,9891410252,75.93,XSEPR1531D,U-0379
+LPU.2532,Divya Patel,Male,ECE,UG,4,divya.patel2532@lpu.edu.in,9896216549,81.57,WRFPP1532S,U-0379
+LPU.2533,Vikram Das,Female,ECE,UG,4,vikram.das2533@lpu.edu.in,9827023178,73.77,AGJPD1533E,U-0379
+LPU.2534,Ravi Shetty,Female,ECE,UG,4,ravi.shetty2534@lpu.edu.in,9858197295,79.49,USOPS1534M,U-0379
+LPU.2535,Rahul Rao,Female,ECE,UG,4,rahul.rao2535@lpu.edu.in,9893475163,92.77,NMUPR1535K,U-0379
+LPU.2536,Rahul Chopra,Female,ECE,UG,4,rahul.chopra2536@lpu.edu.in,9849339019,70.69,CIRPC1536C,U-0379
+LPU.2537,Ritika Naidu,Male,ECE,UG,4,ritika.naidu2537@lpu.edu.in,9859413102,70.35,ZQNPN1537L,U-0379
+LPU.2538,Meghana Malhotra,Male,ECE,UG,4,meghana.malhotra2538@lpu.edu.in,9864797727,84.53,NHPPM1538I,U-0379
+LPU.2539,Sneha Das,Female,ECE,UG,4,sneha.das2539@lpu.edu.in,9818795343,86.77,NMXPD1539H,U-0379
+LPU.2540,Vikram Kumar,Male,ECE,UG,4,vikram.kumar2540@lpu.edu.in,9886738314,79.76,RPDPK1540P,U-0379
+LPU.2541,Meghana Kumar,Female,ECE,UG,4,meghana.kumar2541@lpu.edu.in,9867997006,99.47,IZJPK1541J,U-0379
+LPU.2542,Neha Reddy,Male,ECE,UG,4,neha.reddy2542@lpu.edu.in,9841121826,88.88,FNNPR1542G,U-0379
+LPU.2543,Vikram Sharma,Female,ECE,UG,4,vikram.sharma2543@lpu.edu.in,9868726779,81.9,PGCPS1543H,U-0379
+LPU.2544,Divya Iyer,Female,ECE,UG,4,divya.iyer2544@lpu.edu.in,9836263651,63.56,HEIPI1544Y,U-0379
+LPU.2545,Neha Gupta,Female,ECE,UG,4,neha.gupta2545@lpu.edu.in,9899099258,94.81,FNQPG1545V,U-0379
+LPU.2546,Nikhil Singh,Female,ECE,UG,4,nikhil.singh2546@lpu.edu.in,9874778831,95.67,MOSPS1546V,U-0379
+LPU.2547,Neha Nair,Male,ECE,UG,4,neha.nair2547@lpu.edu.in,9830108242,65.37,EUQPN1547I,U-0379
+LPU.2548,Sanjay Sharma,Male,ECE,UG,4,sanjay.sharma2548@lpu.edu.in,9859733563,83.4,VTMPS1548V,U-0379
+LPU.2549,Meghana Reddy,Female,ECE,UG,4,meghana.reddy2549@lpu.edu.in,9886999726,82.67,LSZPR1549A,U-0379
+LPU.2550,Yash Shetty,Male,ECE,UG,4,yash.shetty2550@lpu.edu.in,9874368505,72.11,YAWPS1550T,U-0379
+LPU.2551,Divya Yadav,Male,ECE,UG,4,divya.yadav2551@lpu.edu.in,9834307011,61.76,XAQPY1551C,U-0379
+LPU.2552,Nikhil Singh,Male,ECE,UG,4,nikhil.singh2552@lpu.edu.in,9843464350,76.24,KDMPS1552R,U-0379
+LPU.2553,Sameer Shetty,Female,ECE,UG,4,sameer.shetty2553@lpu.edu.in,9877621696,71.98,LUMPS1553C,U-0379
+LPU.2554,Rahul Mishra,Male,ECE,UG,4,rahul.mishra2554@lpu.edu.in,9822557915,84.49,GCIPM1554L,U-0379
+LPU.2555,Aman Jain,Female,ECE,UG,4,aman.jain2555@lpu.edu.in,9836452705,73.21,ATTPJ1555Y,U-0379
+LPU.2556,Kavya Yadav,Female,ECE,UG,4,kavya.yadav2556@lpu.edu.in,9851111242,79.17,NCRPY1556T,U-0379
+LPU.2557,Arjun Shetty,Male,ECE,UG,4,arjun.shetty2557@lpu.edu.in,9831887726,63.66,GODPS1557X,U-0379
+LPU.2558,Vinay Yadav,Male,ECE,UG,4,vinay.yadav2558@lpu.edu.in,9893614755,93.48,CQXPY1558M,U-0379
+LPU.2559,Ritika Mishra,Female,ECE,UG,4,ritika.mishra2559@lpu.edu.in,9836534643,84.68,TAEPM1559P,U-0379
+LPU.2560,Sanjay Mishra,Male,ECE,UG,4,sanjay.mishra2560@lpu.edu.in,9836448602,95.06,YCRPM1560J,U-0379
+LPU.2561,Meghana Rao,Female,ME,UG,1,meghana.rao2561@lpu.edu.in,9891247862,85.97,ZJHPR1561C,U-0379
+LPU.2562,Ravi Jain,Female,ME,UG,1,ravi.jain2562@lpu.edu.in,9884070944,62.69,PARPJ1562X,U-0379
+LPU.2563,Yash Bose,Female,ME,UG,1,yash.bose2563@lpu.edu.in,9875483898,74.41,UULPB1563Q,U-0379
+LPU.2564,Divya Nair,Male,ME,UG,1,divya.nair2564@lpu.edu.in,9892537292,90.57,OMHPN1564H,U-0379
+LPU.2565,Kavya Sharma,Male,ME,UG,1,kavya.sharma2565@lpu.edu.in,9862284510,77.46,KLXPS1565S,U-0379
+LPU.2566,Vikram Chopra,Male,ME,UG,1,vikram.chopra2566@lpu.edu.in,9851178446,96.92,LWMPC1566A,U-0379
+LPU.2567,Ritika Gupta,Male,ME,UG,1,ritika.gupta2567@lpu.edu.in,9841682435,99.17,NYNPG1567K,U-0379
+LPU.2568,Rahul Sharma,Male,ME,UG,1,rahul.sharma2568@lpu.edu.in,9869043387,77.24,HWJPS1568J,U-0379
+LPU.2569,Sameer Patel,Male,ME,UG,1,sameer.patel2569@lpu.edu.in,9827342657,63.61,VGKPP1569Q,U-0379
+LPU.2570,Aman Shetty,Male,ME,UG,1,aman.shetty2570@lpu.edu.in,9841345925,94.85,MZHPS1570X,U-0379
+LPU.2571,Sanjay Nair,Female,ME,UG,1,sanjay.nair2571@lpu.edu.in,9846520535,84.08,HBYPN1571J,U-0379
+LPU.2572,Meghana Chopra,Male,ME,UG,1,meghana.chopra2572@lpu.edu.in,9833737254,74.99,VYXPC1572P,U-0379
+LPU.2573,Harika Sharma,Male,ME,UG,1,harika.sharma2573@lpu.edu.in,9897157304,60.89,BLVPS1573M,U-0379
+LPU.2574,Nikhil Kumar,Male,ME,UG,1,nikhil.kumar2574@lpu.edu.in,9894584974,71.66,XYGPK1574H,U-0379
+LPU.2575,Neha Shetty,Male,ME,UG,1,neha.shetty2575@lpu.edu.in,9870198152,84.13,TXMPS1575R,U-0379
+LPU.2576,Meghana Bose,Male,ME,UG,1,meghana.bose2576@lpu.edu.in,9892156877,98.53,XFXPB1576X,U-0379
+LPU.2577,Arjun Mishra,Female,ME,UG,1,arjun.mishra2577@lpu.edu.in,9821463075,96.86,ZQSPM1577W,U-0379
+LPU.2578,Vikram Nair,Female,ME,UG,1,vikram.nair2578@lpu.edu.in,9888804289,93.04,PMNPN1578W,U-0379
+LPU.2579,Yash Naidu,Female,ME,UG,1,yash.naidu2579@lpu.edu.in,9819413628,79.95,OCVPN1579L,U-0379
+LPU.2580,Ravi Shetty,Female,ME,UG,1,ravi.shetty2580@lpu.edu.in,9896014016,84.72,CHPPS1580R,U-0379
+LPU.2581,Ananya Bose,Male,ME,UG,1,ananya.bose2581@lpu.edu.in,9838534429,66.44,WVCPB1581P,U-0379
+LPU.2582,Rahul Iyer,Male,ME,UG,1,rahul.iyer2582@lpu.edu.in,9881904734,73.54,EFOPI1582G,U-0379
+LPU.2583,Harika Yadav,Female,ME,UG,1,harika.yadav2583@lpu.edu.in,9820905288,82.0,YNUPY1583F,U-0379
+LPU.2584,Vinay Iyer,Female,ME,UG,1,vinay.iyer2584@lpu.edu.in,9872291175,81.68,THKPI1584W,U-0379
+LPU.2585,Pooja Malhotra,Male,ME,UG,1,pooja.malhotra2585@lpu.edu.in,9824182035,83.37,YPBPM1585C,U-0379
+LPU.2586,Sameer Naidu,Male,ME,UG,1,sameer.naidu2586@lpu.edu.in,9899562432,69.33,OPCPN1586F,U-0379
+LPU.2587,Aman Mishra,Female,ME,UG,1,aman.mishra2587@lpu.edu.in,9858767430,70.59,ENDPM1587N,U-0379
+LPU.2588,Arjun Bhat,Male,ME,UG,1,arjun.bhat2588@lpu.edu.in,9818805326,98.98,ITHPB1588T,U-0379
+LPU.2589,Vinay Reddy,Female,ME,UG,1,vinay.reddy2589@lpu.edu.in,9872019707,80.08,JLQPR1589S,U-0379
+LPU.2590,Ritika Bhat,Female,ME,UG,1,ritika.bhat2590@lpu.edu.in,9859888542,96.81,ACAPB1590K,U-0379
+LPU.2591,Yash Malhotra,Male,ME,UG,1,yash.malhotra2591@lpu.edu.in,9826720474,67.3,GPOPM1591W,U-0379
+LPU.2592,Sneha Verma,Female,ME,UG,1,sneha.verma2592@lpu.edu.in,9846761887,91.65,DHTPV1592J,U-0379
+LPU.2593,Meghana Yadav,Male,ME,UG,1,meghana.yadav2593@lpu.edu.in,9861572468,74.47,HQMPY1593V,U-0379
+LPU.2594,Pooja Chopra,Female,ME,UG,1,pooja.chopra2594@lpu.edu.in,9892127161,87.28,HYSPC1594U,U-0379
+LPU.2595,Rahul Gupta,Female,ME,UG,1,rahul.gupta2595@lpu.edu.in,9835100355,71.55,RICPG1595E,U-0379
+LPU.2596,Sanjay Mishra,Female,ME,UG,1,sanjay.mishra2596@lpu.edu.in,9880205899,85.26,NIBPM1596C,U-0379
+LPU.2597,Nikhil Shetty,Male,ME,UG,1,nikhil.shetty2597@lpu.edu.in,9810843173,90.15,KLVPS1597J,U-0379
+LPU.2598,Rahul Das,Male,ME,UG,1,rahul.das2598@lpu.edu.in,9881570788,69.15,VRLPD1598A,U-0379
+LPU.2599,Vinay Naidu,Female,ME,UG,1,vinay.naidu2599@lpu.edu.in,9833435830,73.11,UKYPN1599F,U-0379
+LPU.2600,Ravi Rao,Female,ME,UG,1,ravi.rao2600@lpu.edu.in,9853730071,94.93,JJIPR1600K,U-0379
+LPU.2601,Arjun Kumar,Male,ME,UG,1,arjun.kumar2601@lpu.edu.in,9864098957,81.67,JMVPK1601R,U-0379
+LPU.2602,Meghana Kumar,Male,ME,UG,1,meghana.kumar2602@lpu.edu.in,9842314533,82.25,IDUPK1602K,U-0379
+LPU.2603,Harika Reddy,Male,ME,UG,1,harika.reddy2603@lpu.edu.in,9821089226,73.4,ISJPR1603B,U-0379
+LPU.2604,Ananya Naidu,Female,ME,UG,1,ananya.naidu2604@lpu.edu.in,9825106660,94.19,MWWPN1604K,U-0379
+LPU.2605,Vinay Das,Male,ME,UG,1,vinay.das2605@lpu.edu.in,9850155763,94.35,OEZPD1605S,U-0379
+LPU.2606,Aman Mishra,Female,ME,UG,1,aman.mishra2606@lpu.edu.in,9846314383,81.48,ZOJPM1606H,U-0379
+LPU.2607,Neha Yadav,Female,ME,UG,1,neha.yadav2607@lpu.edu.in,9879335998,82.19,NSXPY1607A,U-0379
+LPU.2608,Harika Rao,Female,ME,UG,1,harika.rao2608@lpu.edu.in,9828139566,94.01,EREPR1608N,U-0379
+LPU.2609,Aman Patel,Male,ME,UG,1,aman.patel2609@lpu.edu.in,9862455204,94.11,EEVPP1609H,U-0379
+LPU.2610,Sameer Yadav,Male,ME,UG,1,sameer.yadav2610@lpu.edu.in,9818535261,91.65,VMVPY1610F,U-0379
+LPU.2611,Neha Reddy,Male,ME,UG,1,neha.reddy2611@lpu.edu.in,9819962439,74.44,RLWPR1611X,U-0379
+LPU.2612,Rahul Naidu,Male,ME,UG,1,rahul.naidu2612@lpu.edu.in,9851364042,74.54,EJJPN1612T,U-0379
+LPU.2613,Pooja Bose,Male,ME,UG,1,pooja.bose2613@lpu.edu.in,9897158332,82.84,IGWPB1613C,U-0379
+LPU.2614,Sameer Das,Male,ME,UG,1,sameer.das2614@lpu.edu.in,9850249392,81.3,KCLPD1614C,U-0379
+LPU.2615,Divya Kumar,Male,ME,UG,1,divya.kumar2615@lpu.edu.in,9883141225,83.31,TMGPK1615P,U-0379
+LPU.2616,Yash Bose,Female,ME,UG,1,yash.bose2616@lpu.edu.in,9899986460,92.39,IBJPB1616G,U-0379
+LPU.2617,Ananya Kumar,Male,ME,UG,1,ananya.kumar2617@lpu.edu.in,9817527731,88.67,ZQOPK1617Q,U-0379
+LPU.2618,Sneha Gupta,Female,ME,UG,1,sneha.gupta2618@lpu.edu.in,9811542707,95.98,YVQPG1618J,U-0379
+LPU.2619,Sameer Naidu,Female,ME,UG,1,sameer.naidu2619@lpu.edu.in,9890748054,74.01,LTSPN1619F,U-0379
+LPU.2620,Pooja Bhat,Female,ME,UG,1,pooja.bhat2620@lpu.edu.in,9841999691,83.36,LJXPB1620B,U-0379
+LPU.2621,Sneha Iyer,Female,ME,UG,2,sneha.iyer2621@lpu.edu.in,9871176136,99.64,RVCPI1621C,U-0379
+LPU.2622,Pooja Chopra,Male,ME,UG,2,pooja.chopra2622@lpu.edu.in,9846882418,97.17,KFLPC1622U,U-0379
+LPU.2623,Ananya Das,Male,ME,UG,2,ananya.das2623@lpu.edu.in,9894201280,87.25,YQEPD1623U,U-0379
+LPU.2624,Yash Bhat,Male,ME,UG,2,yash.bhat2624@lpu.edu.in,9812969135,71.51,GBJPB1624D,U-0379
+LPU.2625,Vinay Gupta,Male,ME,UG,2,vinay.gupta2625@lpu.edu.in,9870497665,85.54,BBJPG1625J,U-0379
+LPU.2626,Ritika Singh,Female,ME,UG,2,ritika.singh2626@lpu.edu.in,9880786674,62.87,IEFPS1626C,U-0379
+LPU.2627,Meghana Nair,Female,ME,UG,2,meghana.nair2627@lpu.edu.in,9816480911,62.32,WRHPN1627N,U-0379
+LPU.2628,Pooja Chopra,Female,ME,UG,2,pooja.chopra2628@lpu.edu.in,9813478055,76.51,IJLPC1628L,U-0379
+LPU.2629,Pooja Shetty,Female,ME,UG,2,pooja.shetty2629@lpu.edu.in,9875356919,91.13,TCWPS1629J,U-0379
+LPU.2630,Kavya Sharma,Female,ME,UG,2,kavya.sharma2630@lpu.edu.in,9847461263,89.8,XJCPS1630U,U-0379
+LPU.2631,Vinay Malhotra,Male,ME,UG,2,vinay.malhotra2631@lpu.edu.in,9885515380,73.36,GCTPM1631O,U-0379
+LPU.2632,Meghana Shetty,Male,ME,UG,2,meghana.shetty2632@lpu.edu.in,9818695225,71.93,PRVPS1632T,U-0379
+LPU.2633,Sneha Sharma,Male,ME,UG,2,sneha.sharma2633@lpu.edu.in,9846601239,60.15,HCMPS1633K,U-0379
+LPU.2634,Ravi Bose,Male,ME,UG,2,ravi.bose2634@lpu.edu.in,9862884883,95.72,GTLPB1634T,U-0379
+LPU.2635,Arjun Jain,Female,ME,UG,2,arjun.jain2635@lpu.edu.in,9899981337,68.75,LVTPJ1635Y,U-0379
+LPU.2636,Kiran Sharma,Male,ME,UG,2,kiran.sharma2636@lpu.edu.in,9864834185,88.23,RUCPS1636T,U-0379
+LPU.2637,Sneha Patel,Male,ME,UG,2,sneha.patel2637@lpu.edu.in,9843114836,62.66,QLDPP1637J,U-0379
+LPU.2638,Sanjay Bose,Female,ME,UG,2,sanjay.bose2638@lpu.edu.in,9889510056,98.15,HKSPB1638Y,U-0379
+LPU.2639,Kavya Patel,Female,ME,UG,2,kavya.patel2639@lpu.edu.in,9852481804,99.29,IQVPP1639G,U-0379
+LPU.2640,Sanjay Iyer,Male,ME,UG,2,sanjay.iyer2640@lpu.edu.in,9881785071,83.84,AZQPI1640L,U-0379
+LPU.2641,Kiran Mishra,Male,ME,UG,2,kiran.mishra2641@lpu.edu.in,9876747236,79.68,LLXPM1641S,U-0379
+LPU.2642,Ravi Yadav,Female,ME,UG,2,ravi.yadav2642@lpu.edu.in,9810627108,79.53,CTTPY1642G,U-0379
+LPU.2643,Arjun Malhotra,Female,ME,UG,2,arjun.malhotra2643@lpu.edu.in,9844699574,80.45,QJUPM1643H,U-0379
+LPU.2644,Rahul Das,Male,ME,UG,2,rahul.das2644@lpu.edu.in,9867751579,86.36,SGRPD1644I,U-0379
+LPU.2645,Arjun Chopra,Female,ME,UG,2,arjun.chopra2645@lpu.edu.in,9897482985,64.57,KRRPC1645Y,U-0379
+LPU.2646,Meghana Reddy,Male,ME,UG,2,meghana.reddy2646@lpu.edu.in,9885737878,72.54,UJCPR1646O,U-0379
+LPU.2647,Vinay Chopra,Male,ME,UG,2,vinay.chopra2647@lpu.edu.in,9822695594,97.74,CKHPC1647M,U-0379
+LPU.2648,Divya Sharma,Male,ME,UG,2,divya.sharma2648@lpu.edu.in,9852654653,69.14,YDQPS1648B,U-0379
+LPU.2649,Arjun Verma,Female,ME,UG,2,arjun.verma2649@lpu.edu.in,9874905042,63.31,FLYPV1649Z,U-0379
+LPU.2650,Harika Mishra,Male,ME,UG,2,harika.mishra2650@lpu.edu.in,9891988569,98.4,MOFPM1650M,U-0379
+LPU.2651,Harika Reddy,Female,ME,UG,2,harika.reddy2651@lpu.edu.in,9868129091,64.99,WTHPR1651B,U-0379
+LPU.2652,Neha Singh,Male,ME,UG,2,neha.singh2652@lpu.edu.in,9859036588,86.17,TDHPS1652H,U-0379
+LPU.2653,Kiran Shetty,Female,ME,UG,2,kiran.shetty2653@lpu.edu.in,9898092327,87.18,OSYPS1653O,U-0379
+LPU.2654,Ravi Reddy,Male,ME,UG,2,ravi.reddy2654@lpu.edu.in,9860111430,76.2,MNOPR1654O,U-0379
+LPU.2655,Ananya Reddy,Male,ME,UG,2,ananya.reddy2655@lpu.edu.in,9844297117,63.59,KDDPR1655K,U-0379
+LPU.2656,Vikram Kumar,Male,ME,UG,2,vikram.kumar2656@lpu.edu.in,9878034622,70.19,EFHPK1656S,U-0379
+LPU.2657,Vikram Nair,Male,ME,UG,2,vikram.nair2657@lpu.edu.in,9838045771,87.57,JVCPN1657G,U-0379
+LPU.2658,Sneha Kumar,Female,ME,UG,2,sneha.kumar2658@lpu.edu.in,9856385819,94.39,XNTPK1658T,U-0379
+LPU.2659,Nikhil Kumar,Female,ME,UG,2,nikhil.kumar2659@lpu.edu.in,9866206629,94.97,FEJPK1659Q,U-0379
+LPU.2660,Arjun Chopra,Female,ME,UG,2,arjun.chopra2660@lpu.edu.in,9810004651,70.51,BFEPC1660G,U-0379
+LPU.2661,Divya Verma,Female,ME,UG,2,divya.verma2661@lpu.edu.in,9858491492,97.13,BBQPV1661S,U-0379
+LPU.2662,Aman Nair,Male,ME,UG,2,aman.nair2662@lpu.edu.in,9858800440,79.29,PVMPN1662P,U-0379
+LPU.2663,Kavya Nair,Male,ME,UG,2,kavya.nair2663@lpu.edu.in,9813244601,90.81,MVGPN1663B,U-0379
+LPU.2664,Kiran Bose,Male,ME,UG,2,kiran.bose2664@lpu.edu.in,9844325890,90.61,BNFPB1664G,U-0379
+LPU.2665,Meghana Malhotra,Female,ME,UG,2,meghana.malhotra2665@lpu.edu.in,9853105488,73.72,IAYPM1665Y,U-0379
+LPU.2666,Sneha Mishra,Female,ME,UG,2,sneha.mishra2666@lpu.edu.in,9830408874,86.63,HOWPM1666R,U-0379
+LPU.2667,Sanjay Bhat,Female,ME,UG,2,sanjay.bhat2667@lpu.edu.in,9871599872,66.12,RZPPB1667N,U-0379
+LPU.2668,Ananya Shetty,Female,ME,UG,2,ananya.shetty2668@lpu.edu.in,9890954701,69.9,UFUPS1668Y,U-0379
+LPU.2669,Rahul Jain,Male,ME,UG,2,rahul.jain2669@lpu.edu.in,9827797411,60.04,MIRPJ1669C,U-0379
+LPU.2670,Neha Patel,Male,ME,UG,2,neha.patel2670@lpu.edu.in,9877586718,74.64,MBJPP1670A,U-0379
+LPU.2671,Divya Gupta,Male,ME,UG,2,divya.gupta2671@lpu.edu.in,9845363500,80.5,XFZPG1671W,U-0379
+LPU.2672,Kiran Shetty,Female,ME,UG,2,kiran.shetty2672@lpu.edu.in,9810447676,78.0,XVDPS1672X,U-0379
+LPU.2673,Vikram Sharma,Female,ME,UG,2,vikram.sharma2673@lpu.edu.in,9811935013,62.56,QVJPS1673C,U-0379
+LPU.2674,Divya Nair,Male,ME,UG,2,divya.nair2674@lpu.edu.in,9816765946,62.47,JAWPN1674I,U-0379
+LPU.2675,Kavya Singh,Male,ME,UG,2,kavya.singh2675@lpu.edu.in,9880382550,73.71,QEDPS1675Q,U-0379
+LPU.2676,Sanjay Malhotra,Female,ME,UG,2,sanjay.malhotra2676@lpu.edu.in,9854039067,91.88,YRBPM1676Y,U-0379
+LPU.2677,Vikram Kumar,Male,ME,UG,2,vikram.kumar2677@lpu.edu.in,9865166742,82.35,FMCPK1677R,U-0379
+LPU.2678,Nikhil Patel,Male,ME,UG,2,nikhil.patel2678@lpu.edu.in,9819392901,98.09,QVPPP1678Y,U-0379
+LPU.2679,Ravi Patel,Male,ME,UG,2,ravi.patel2679@lpu.edu.in,9870807496,71.96,TIOPP1679H,U-0379
+LPU.2680,Kavya Reddy,Male,ME,UG,2,kavya.reddy2680@lpu.edu.in,9899525925,84.78,GVMPR1680O,U-0379
+LPU.2681,Kavya Chopra,Male,ME,UG,3,kavya.chopra2681@lpu.edu.in,9887099218,89.72,KAEPC1681H,U-0379
+LPU.2682,Neha Sharma,Male,ME,UG,3,neha.sharma2682@lpu.edu.in,9869695776,74.46,ZYHPS1682Y,U-0379
+LPU.2683,Rahul Mishra,Male,ME,UG,3,rahul.mishra2683@lpu.edu.in,9844031337,81.6,WZRPM1683X,U-0379
+LPU.2684,Vinay Mishra,Female,ME,UG,3,vinay.mishra2684@lpu.edu.in,9845124182,96.03,RSCPM1684J,U-0379
+LPU.2685,Divya Kumar,Male,ME,UG,3,divya.kumar2685@lpu.edu.in,9849384942,73.62,ZPFPK1685S,U-0379
+LPU.2686,Ravi Patel,Male,ME,UG,3,ravi.patel2686@lpu.edu.in,9877042044,99.45,XRQPP1686J,U-0379
+LPU.2687,Nikhil Sharma,Male,ME,UG,3,nikhil.sharma2687@lpu.edu.in,9870205201,82.25,PKBPS1687R,U-0379
+LPU.2688,Ananya Chopra,Female,ME,UG,3,ananya.chopra2688@lpu.edu.in,9821217976,94.91,KBLPC1688H,U-0379
+LPU.2689,Ritika Naidu,Female,ME,UG,3,ritika.naidu2689@lpu.edu.in,9824854158,97.65,IHPPN1689R,U-0379
+LPU.2690,Sneha Verma,Male,ME,UG,3,sneha.verma2690@lpu.edu.in,9834916593,69.47,WRJPV1690V,U-0379
+LPU.2691,Yash Naidu,Female,ME,UG,3,yash.naidu2691@lpu.edu.in,9852307380,65.41,QZQPN1691H,U-0379
+LPU.2692,Arjun Das,Female,ME,UG,3,arjun.das2692@lpu.edu.in,9880681426,63.89,VTRPD1692B,U-0379
+LPU.2693,Vikram Chopra,Female,ME,UG,3,vikram.chopra2693@lpu.edu.in,9890226770,99.76,FLTPC1693G,U-0379
+LPU.2694,Nikhil Mishra,Male,ME,UG,3,nikhil.mishra2694@lpu.edu.in,9874478377,86.77,LNOPM1694S,U-0379
+LPU.2695,Divya Shetty,Female,ME,UG,3,divya.shetty2695@lpu.edu.in,9846579466,77.5,JUGPS1695P,U-0379
+LPU.2696,Divya Malhotra,Female,ME,UG,3,divya.malhotra2696@lpu.edu.in,9844416240,99.26,BLOPM1696W,U-0379
+LPU.2697,Meghana Verma,Male,ME,UG,3,meghana.verma2697@lpu.edu.in,9899299304,80.12,BXDPV1697N,U-0379
+LPU.2698,Ananya Nair,Female,ME,UG,3,ananya.nair2698@lpu.edu.in,9895706584,77.02,UOYPN1698G,U-0379
+LPU.2699,Kiran Patel,Female,ME,UG,3,kiran.patel2699@lpu.edu.in,9829572386,82.15,PLIPP1699G,U-0379
+LPU.2700,Vinay Jain,Female,ME,UG,3,vinay.jain2700@lpu.edu.in,9895641087,82.74,FYEPJ1700U,U-0379
+LPU.2701,Rahul Singh,Male,ME,UG,3,rahul.singh2701@lpu.edu.in,9847324163,94.55,CFKPS1701S,U-0379
+LPU.2702,Kavya Bhat,Female,ME,UG,3,kavya.bhat2702@lpu.edu.in,9865116597,93.2,HYEPB1702H,U-0379
+LPU.2703,Ananya Yadav,Male,ME,UG,3,ananya.yadav2703@lpu.edu.in,9889080942,60.47,ASIPY1703W,U-0379
+LPU.2704,Aman Chopra,Female,ME,UG,3,aman.chopra2704@lpu.edu.in,9852978933,77.12,ZUAPC1704S,U-0379
+LPU.2705,Kiran Das,Female,ME,UG,3,kiran.das2705@lpu.edu.in,9880479480,95.6,PWFPD1705R,U-0379
+LPU.2706,Ravi Yadav,Female,ME,UG,3,ravi.yadav2706@lpu.edu.in,9862308413,91.27,ITHPY1706E,U-0379
+LPU.2707,Nikhil Naidu,Female,ME,UG,3,nikhil.naidu2707@lpu.edu.in,9819964589,76.29,FLIPN1707D,U-0379
+LPU.2708,Vinay Yadav,Male,ME,UG,3,vinay.yadav2708@lpu.edu.in,9897824443,83.36,LUOPY1708L,U-0379
+LPU.2709,Yash Singh,Female,ME,UG,3,yash.singh2709@lpu.edu.in,9852409143,89.89,DJKPS1709R,U-0379
+LPU.2710,Nikhil Verma,Female,ME,UG,3,nikhil.verma2710@lpu.edu.in,9854834273,87.01,SPZPV1710Y,U-0379
+LPU.2711,Sanjay Iyer,Female,ME,UG,3,sanjay.iyer2711@lpu.edu.in,9823774218,84.93,QQLPI1711S,U-0379
+LPU.2712,Aman Verma,Male,ME,UG,3,aman.verma2712@lpu.edu.in,9877139438,78.07,HTRPV1712A,U-0379
+LPU.2713,Pooja Patel,Female,ME,UG,3,pooja.patel2713@lpu.edu.in,9849218451,74.96,STWPP1713A,U-0379
+LPU.2714,Vikram Chopra,Male,ME,UG,3,vikram.chopra2714@lpu.edu.in,9828066604,95.36,QQKPC1714N,U-0379
+LPU.2715,Rahul Shetty,Female,ME,UG,3,rahul.shetty2715@lpu.edu.in,9840628950,72.22,JCVPS1715X,U-0379
+LPU.2716,Kavya Verma,Male,ME,UG,3,kavya.verma2716@lpu.edu.in,9861359863,60.39,PGNPV1716T,U-0379
+LPU.2717,Sneha Das,Female,ME,UG,3,sneha.das2717@lpu.edu.in,9840301153,92.49,KVIPD1717I,U-0379
+LPU.2718,Ritika Singh,Female,ME,UG,3,ritika.singh2718@lpu.edu.in,9856918317,73.25,NWDPS1718I,U-0379
+LPU.2719,Rahul Rao,Male,ME,UG,3,rahul.rao2719@lpu.edu.in,9849477238,95.38,RVGPR1719J,U-0379
+LPU.2720,Aman Reddy,Male,ME,UG,3,aman.reddy2720@lpu.edu.in,9828185991,71.4,ELOPR1720J,U-0379
+LPU.2721,Sanjay Chopra,Female,ME,UG,3,sanjay.chopra2721@lpu.edu.in,9887368495,94.2,UDBPC1721D,U-0379
+LPU.2722,Neha Bose,Male,ME,UG,3,neha.bose2722@lpu.edu.in,9811883552,80.23,VMNPB1722J,U-0379
+LPU.2723,Neha Shetty,Female,ME,UG,3,neha.shetty2723@lpu.edu.in,9837103329,67.25,MBCPS1723L,U-0379
+LPU.2724,Pooja Bose,Male,ME,UG,3,pooja.bose2724@lpu.edu.in,9843821686,76.99,KCUPB1724I,U-0379
+LPU.2725,Vinay Yadav,Female,ME,UG,3,vinay.yadav2725@lpu.edu.in,9860068490,64.41,HFRPY1725F,U-0379
+LPU.2726,Sameer Malhotra,Female,ME,UG,3,sameer.malhotra2726@lpu.edu.in,9838229607,94.3,WILPM1726P,U-0379
+LPU.2727,Ananya Chopra,Female,ME,UG,3,ananya.chopra2727@lpu.edu.in,9823833111,63.47,QFTPC1727L,U-0379
+LPU.2728,Rahul Verma,Female,ME,UG,3,rahul.verma2728@lpu.edu.in,9845733207,61.24,HGZPV1728P,U-0379
+LPU.2729,Arjun Naidu,Female,ME,UG,3,arjun.naidu2729@lpu.edu.in,9849785215,60.59,TNAPN1729S,U-0379
+LPU.2730,Kavya Sharma,Male,ME,UG,3,kavya.sharma2730@lpu.edu.in,9820814599,69.27,GVEPS1730M,U-0379
+LPU.2731,Arjun Rao,Male,ME,UG,3,arjun.rao2731@lpu.edu.in,9898037227,67.75,FUDPR1731C,U-0379
+LPU.2732,Neha Mishra,Male,ME,UG,3,neha.mishra2732@lpu.edu.in,9832774023,60.33,CJCPM1732P,U-0379
+LPU.2733,Aman Gupta,Female,ME,UG,3,aman.gupta2733@lpu.edu.in,9856130009,61.97,SBJPG1733O,U-0379
+LPU.2734,Harika Kumar,Female,ME,UG,3,harika.kumar2734@lpu.edu.in,9889379098,65.77,AFUPK1734Q,U-0379
+LPU.2735,Sneha Kumar,Male,ME,UG,3,sneha.kumar2735@lpu.edu.in,9879349732,87.7,MWSPK1735D,U-0379
+LPU.2736,Meghana Mishra,Male,ME,UG,3,meghana.mishra2736@lpu.edu.in,9853114638,96.56,KQDPM1736L,U-0379
+LPU.2737,Ravi Verma,Female,ME,UG,3,ravi.verma2737@lpu.edu.in,9863525274,65.09,BLTPV1737X,U-0379
+LPU.2738,Divya Rao,Male,ME,UG,3,divya.rao2738@lpu.edu.in,9882231524,80.85,IVNPR1738H,U-0379
+LPU.2739,Neha Rao,Male,ME,UG,3,neha.rao2739@lpu.edu.in,9863681884,91.55,CUJPR1739S,U-0379
+LPU.2740,Pooja Patel,Male,ME,UG,3,pooja.patel2740@lpu.edu.in,9857664693,84.0,LJOPP1740V,U-0379
+LPU.2741,Nikhil Malhotra,Female,ME,UG,4,nikhil.malhotra2741@lpu.edu.in,9843259722,94.36,VMVPM1741H,U-0379
+LPU.2742,Ravi Rao,Female,ME,UG,4,ravi.rao2742@lpu.edu.in,9885080257,95.92,OGHPR1742Q,U-0379
+LPU.2743,Nikhil Malhotra,Male,ME,UG,4,nikhil.malhotra2743@lpu.edu.in,9876822112,78.49,XBCPM1743P,U-0379
+LPU.2744,Sameer Patel,Female,ME,UG,4,sameer.patel2744@lpu.edu.in,9854272993,78.95,LVGPP1744U,U-0379
+LPU.2745,Harika Naidu,Male,ME,UG,4,harika.naidu2745@lpu.edu.in,9834166176,82.84,EAUPN1745F,U-0379
+LPU.2746,Neha Yadav,Male,ME,UG,4,neha.yadav2746@lpu.edu.in,9830288870,81.75,YLTPY1746V,U-0379
+LPU.2747,Nikhil Shetty,Female,ME,UG,4,nikhil.shetty2747@lpu.edu.in,9847093566,91.25,QQDPS1747U,U-0379
+LPU.2748,Ravi Jain,Female,ME,UG,4,ravi.jain2748@lpu.edu.in,9896857302,84.49,OBLPJ1748I,U-0379
+LPU.2749,Sameer Verma,Female,ME,UG,4,sameer.verma2749@lpu.edu.in,9830789785,71.63,VOCPV1749Q,U-0379
+LPU.2750,Kavya Nair,Female,ME,UG,4,kavya.nair2750@lpu.edu.in,9851508590,69.57,INHPN1750E,U-0379
+LPU.2751,Ravi Iyer,Male,ME,UG,4,ravi.iyer2751@lpu.edu.in,9833358106,82.14,WFPPI1751Z,U-0379
+LPU.2752,Harika Das,Female,ME,UG,4,harika.das2752@lpu.edu.in,9843505887,78.7,BYNPD1752N,U-0379
+LPU.2753,Ravi Bhat,Female,ME,UG,4,ravi.bhat2753@lpu.edu.in,9810465954,77.82,TFSPB1753J,U-0379
+LPU.2754,Nikhil Bhat,Male,ME,UG,4,nikhil.bhat2754@lpu.edu.in,9832777188,90.22,HCPPB1754D,U-0379
+LPU.2755,Harika Kumar,Male,ME,UG,4,harika.kumar2755@lpu.edu.in,9844577766,98.69,QDFPK1755E,U-0379
+LPU.2756,Ananya Gupta,Female,ME,UG,4,ananya.gupta2756@lpu.edu.in,9825652256,64.68,WNLPG1756N,U-0379
+LPU.2757,Sneha Sharma,Male,ME,UG,4,sneha.sharma2757@lpu.edu.in,9884663205,83.37,NCQPS1757G,U-0379
+LPU.2758,Pooja Bhat,Male,ME,UG,4,pooja.bhat2758@lpu.edu.in,9853725315,62.42,WEZPB1758A,U-0379
+LPU.2759,Vikram Bose,Female,ME,UG,4,vikram.bose2759@lpu.edu.in,9821244537,75.6,WXHPB1759F,U-0379
+LPU.2760,Kavya Naidu,Male,ME,UG,4,kavya.naidu2760@lpu.edu.in,9873862234,88.64,AKMPN1760Q,U-0379
+LPU.2761,Sameer Naidu,Female,ME,UG,4,sameer.naidu2761@lpu.edu.in,9813224980,95.17,DSXPN1761G,U-0379
+LPU.2762,Sameer Gupta,Male,ME,UG,4,sameer.gupta2762@lpu.edu.in,9842494582,70.64,MNPPG1762G,U-0379
+LPU.2763,Vikram Sharma,Female,ME,UG,4,vikram.sharma2763@lpu.edu.in,9825554640,68.03,ZROPS1763D,U-0379
+LPU.2764,Harika Rao,Female,ME,UG,4,harika.rao2764@lpu.edu.in,9868261488,71.53,THPPR1764Y,U-0379
+LPU.2765,Arjun Sharma,Female,ME,UG,4,arjun.sharma2765@lpu.edu.in,9811131694,82.38,VGTPS1765T,U-0379
+LPU.2766,Meghana Mishra,Male,ME,UG,4,meghana.mishra2766@lpu.edu.in,9852197629,99.09,CZXPM1766B,U-0379
+LPU.2767,Ravi Malhotra,Male,ME,UG,4,ravi.malhotra2767@lpu.edu.in,9883244087,79.56,QUWPM1767T,U-0379
+LPU.2768,Divya Bose,Male,ME,UG,4,divya.bose2768@lpu.edu.in,9895962290,61.28,YUGPB1768A,U-0379
+LPU.2769,Ravi Naidu,Female,ME,UG,4,ravi.naidu2769@lpu.edu.in,9854087460,85.91,DKCPN1769X,U-0379
+LPU.2770,Nikhil Das,Female,ME,UG,4,nikhil.das2770@lpu.edu.in,9851655800,85.25,VIHPD1770C,U-0379
+LPU.2771,Pooja Rao,Male,ME,UG,4,pooja.rao2771@lpu.edu.in,9860336756,76.81,TAIPR1771S,U-0379
+LPU.2772,Kavya Rao,Male,ME,UG,4,kavya.rao2772@lpu.edu.in,9840523193,71.05,EISPR1772P,U-0379
+LPU.2773,Vikram Chopra,Female,ME,UG,4,vikram.chopra2773@lpu.edu.in,9836865906,83.54,EMXPC1773J,U-0379
+LPU.2774,Vikram Yadav,Male,ME,UG,4,vikram.yadav2774@lpu.edu.in,9884650773,81.76,HQOPY1774B,U-0379
+LPU.2775,Harika Nair,Male,ME,UG,4,harika.nair2775@lpu.edu.in,9888219747,95.55,MYXPN1775R,U-0379
+LPU.2776,Rahul Sharma,Male,ME,UG,4,rahul.sharma2776@lpu.edu.in,9885598308,93.88,POVPS1776D,U-0379
+LPU.2777,Vinay Bhat,Female,ME,UG,4,vinay.bhat2777@lpu.edu.in,9893225577,76.41,TWMPB1777X,U-0379
+LPU.2778,Neha Das,Male,ME,UG,4,neha.das2778@lpu.edu.in,9892431365,62.93,BMNPD1778Z,U-0379
+LPU.2779,Neha Yadav,Female,ME,UG,4,neha.yadav2779@lpu.edu.in,9886390341,78.24,CQRPY1779K,U-0379
+LPU.2780,Arjun Mishra,Male,ME,UG,4,arjun.mishra2780@lpu.edu.in,9869906283,92.67,QSWPM1780T,U-0379
+LPU.2781,Ravi Chopra,Female,ME,UG,4,ravi.chopra2781@lpu.edu.in,9879617159,73.02,NUPPC1781C,U-0379
+LPU.2782,Harika Naidu,Female,ME,UG,4,harika.naidu2782@lpu.edu.in,9849374084,67.15,UJAPN1782X,U-0379
+LPU.2783,Aman Singh,Male,ME,UG,4,aman.singh2783@lpu.edu.in,9821333590,79.57,RTGPS1783R,U-0379
+LPU.2784,Vikram Chopra,Female,ME,UG,4,vikram.chopra2784@lpu.edu.in,9868561485,78.4,ELQPC1784R,U-0379
+LPU.2785,Sanjay Rao,Female,ME,UG,4,sanjay.rao2785@lpu.edu.in,9878476060,76.61,MBBPR1785I,U-0379
+LPU.2786,Pooja Verma,Female,ME,UG,4,pooja.verma2786@lpu.edu.in,9894753545,93.06,CURPV1786Q,U-0379
+LPU.2787,Ananya Gupta,Female,ME,UG,4,ananya.gupta2787@lpu.edu.in,9847008520,71.29,JHMPG1787F,U-0379
+LPU.2788,Vinay Sharma,Female,ME,UG,4,vinay.sharma2788@lpu.edu.in,9835674342,78.64,OZJPS1788O,U-0379
+LPU.2789,Rahul Mishra,Male,ME,UG,4,rahul.mishra2789@lpu.edu.in,9862777560,89.46,RAWPM1789L,U-0379
+LPU.2790,Kiran Bose,Female,ME,UG,4,kiran.bose2790@lpu.edu.in,9860986894,92.39,MSNPB1790D,U-0379
+LPU.2791,Neha Das,Female,ME,UG,4,neha.das2791@lpu.edu.in,9823339723,84.58,VEPPD1791N,U-0379
+LPU.2792,Yash Yadav,Male,ME,UG,4,yash.yadav2792@lpu.edu.in,9827091434,90.4,ELVPY1792O,U-0379
+LPU.2793,Meghana Gupta,Female,ME,UG,4,meghana.gupta2793@lpu.edu.in,9855159367,72.2,MYUPG1793D,U-0379
+LPU.2794,Ravi Kumar,Male,ME,UG,4,ravi.kumar2794@lpu.edu.in,9852335937,99.53,PJRPK1794V,U-0379
+LPU.2795,Rahul Nair,Female,ME,UG,4,rahul.nair2795@lpu.edu.in,9899617814,95.27,ZKVPN1795D,U-0379
+LPU.2796,Meghana Reddy,Male,ME,UG,4,meghana.reddy2796@lpu.edu.in,9893107866,93.36,MJWPR1796O,U-0379
+LPU.2797,Meghana Kumar,Female,ME,UG,4,meghana.kumar2797@lpu.edu.in,9885875413,60.34,OKSPK1797O,U-0379
+LPU.2798,Sneha Bose,Female,ME,UG,4,sneha.bose2798@lpu.edu.in,9861391978,78.66,GVEPB1798Q,U-0379
+LPU.2799,Ritika Naidu,Female,ME,UG,4,ritika.naidu2799@lpu.edu.in,9850571251,84.24,GVXPN1799V,U-0379
+LPU.2800,Meghana Bose,Female,ME,UG,4,meghana.bose2800@lpu.edu.in,9830424720,93.44,GXTPB1800M,U-0379

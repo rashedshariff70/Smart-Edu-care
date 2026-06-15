@@ -1,0 +1,236 @@
+
+<style>
+h2.sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap}
+*{box-sizing:border-box}
+.flow-wrap{padding:1.5rem 0;font-size:13px;color:var(--color-text-primary)}
+.phase-title{font-size:11px;font-weight:500;letter-spacing:.08em;text-transform:uppercase;color:var(--color-text-secondary);margin:0 0 10px 2px}
+.lane{background:var(--color-background-secondary);border:0.5px solid var(--color-border-tertiary);border-radius:var(--border-radius-lg);padding:16px 18px;margin-bottom:10px;position:relative}
+.lane-head{display:flex;align-items:center;gap:10px;margin-bottom:12px}
+.lane-icon{width:30px;height:30px;border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:14px;flex-shrink:0}
+.lane-label{font-size:13px;font-weight:500}
+.lane-sub{font-size:11px;color:var(--color-text-secondary);margin-top:1px}
+.steps{display:flex;flex-direction:column;gap:0}
+.step{display:flex;gap:12px;padding:10px 0;border-bottom:0.5px solid var(--color-border-tertiary)}
+.step:last-child{border-bottom:none;padding-bottom:0}
+.step-num{width:22px;height:22px;border-radius:50%;flex-shrink:0;display:flex;align-items:center;justify-content:center;font-size:10px;font-weight:500;margin-top:1px}
+.step-body{}
+.step-title{font-size:13px;font-weight:500;margin-bottom:2px}
+.step-desc{font-size:12px;color:var(--color-text-secondary);line-height:1.55}
+.badges{display:flex;flex-wrap:wrap;gap:5px;margin-top:6px}
+.badge{font-size:10px;font-weight:500;padding:2px 8px;border-radius:20px}
+.b-blue{background:var(--color-background-info);color:var(--color-text-info)}
+.b-green{background:var(--color-background-success);color:var(--color-text-success)}
+.b-warn{background:var(--color-background-warning);color:var(--color-text-warning)}
+.b-danger{background:var(--color-background-danger);color:var(--color-text-danger)}
+.b-neutral{background:var(--color-background-secondary);color:var(--color-text-secondary);border:0.5px solid var(--color-border-secondary)}
+.arrow-row{display:flex;align-items:center;justify-content:center;gap:6px;padding:4px 0;color:var(--color-text-secondary);font-size:11px}
+.arrow-down{width:1px;height:18px;background:var(--color-border-secondary);margin:0 auto}
+.branch-row{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:10px}
+.branch-row-3{display:grid;grid-template-columns:1fr 1fr 1fr;gap:10px;margin-bottom:10px}
+.mini-lane{background:var(--color-background-secondary);border:0.5px solid var(--color-border-tertiary);border-radius:var(--border-radius-lg);padding:14px 16px}
+.mini-title{font-size:12px;font-weight:500;margin-bottom:8px;display:flex;align-items:center;gap:7px}
+.mini-step{font-size:11px;color:var(--color-text-secondary);padding:5px 0;border-bottom:0.5px solid var(--color-border-tertiary);line-height:1.5}
+.mini-step:last-child{border-bottom:none;padding-bottom:0}
+.mini-step strong{color:var(--color-text-primary);font-weight:500}
+.file-row{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-bottom:10px}
+.file-card{background:var(--color-background-primary);border:0.5px solid var(--color-border-secondary);border-radius:var(--border-radius-md);padding:10px 12px}
+.file-num{font-size:10px;font-weight:500;color:var(--color-text-secondary);margin-bottom:4px}
+.file-name{font-size:11px;font-weight:500;font-family:var(--font-mono);word-break:break-all;margin-bottom:4px}
+.file-desc{font-size:11px;color:var(--color-text-secondary);line-height:1.5}
+.model-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-top:8px}
+.model-card{background:var(--color-background-primary);border:0.5px solid var(--color-border-tertiary);border-radius:var(--border-radius-md);padding:10px 12px}
+.model-name{font-size:12px;font-weight:500;margin-bottom:2px}
+.model-role{font-size:11px;color:var(--color-text-secondary)}
+.divider{height:0.5px;background:var(--color-border-tertiary);margin:16px 0}
+</style>
+
+<div class="flow-wrap">
+<h2 class="sr-only">SmartEduCare full platform flow — from university registration to student, parent and AI portals</h2>
+
+<div class="phase-title">Phase 1 — University onboarding</div>
+
+<div class="lane">
+  <div class="lane-head">
+    <div class="lane-icon" style="background:var(--color-background-info)">🏛</div>
+    <div><div class="lane-label">University registers</div><div class="lane-sub">Public registration portal</div></div>
+  </div>
+  <div class="steps">
+    <div class="step">
+      <div class="step-num b-blue">1</div>
+      <div class="step-body">
+        <div class="step-title">Submit registration form</div>
+        <div class="step-desc">University fills in name, AISHE code, contact info and submits. Credentials are held pending admin review.</div>
+        <div class="badges"><span class="badge b-neutral">AISHE code required</span></div>
+      </div>
+    </div>
+    <div class="step">
+      <div class="step-num b-blue">2</div>
+      <div class="step-body">
+        <div class="step-title">Admin reviews — approve or reject</div>
+        <div class="step-desc">SmartEduCare admin sees the request in the admin dashboard and makes a decision.</div>
+        <div class="badges">
+          <span class="badge b-green">Approve → email with login credentials</span>
+          <span class="badge b-danger">Reject → email with reason + reapply link</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="arrow-down"></div>
+
+<div class="phase-title" style="margin-top:10px">Phase 2 — Student data upload</div>
+
+<div class="lane">
+  <div class="lane-head">
+    <div class="lane-icon" style="background:var(--color-background-success)">📊</div>
+    <div><div class="lane-label">University logs in and uploads student data</div><div class="lane-sub">After approval, university portal access granted</div></div>
+  </div>
+  <div class="steps">
+    <div class="step">
+      <div class="step-num b-green">3</div>
+      <div class="step-body">
+        <div class="step-title">Download reference Excel template</div>
+        <div class="step-desc">University downloads the standard 44-column template from the portal — includes all required fields: scores, attendance, department, activities, sports, feedback, ML model performance.</div>
+        <div class="badges"><span class="badge b-neutral">44-column format</span><span class="badge b-neutral">openpyxl</span></div>
+      </div>
+    </div>
+    <div class="step">
+      <div class="step-num b-green">4</div>
+      <div class="step-body">
+        <div class="step-title">Fill and upload completed file</div>
+        <div class="step-desc">University fills in all student data and uploads. System validates, stores inside project, auto-generates a unique password for every student.</div>
+        <div class="badges"><span class="badge b-green">Passwords auto-generated</span><span class="badge b-blue">Sent to university by email</span></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="arrow-down"></div>
+
+<div class="phase-title" style="margin-top:10px">Phase 3 — Three-file data architecture</div>
+
+<div class="file-row">
+  <div class="file-card">
+    <div class="file-num">File 1 — gatekeeper</div>
+    <div class="file-name">AISHE_CODE/U-1284.xlsx</div>
+    <div class="file-desc">4 columns only: StudentID, AISHE_Code, student_password, College_name. Used purely to verify identity at login. Lightweight and fast.</div>
+  </div>
+  <div class="file-card">
+    <div class="file-num">File 2 — full data</div>
+    <div class="file-name">password_generated_files/ password_generated_*.xlsx</div>
+    <div class="file-desc">All 44 columns — scores, attendance, rank, department, activities, sports, ML model data, feedback. Loaded once after identity is confirmed.</div>
+  </div>
+  <div class="file-card">
+    <div class="file-num">File 3 — LLM context</div>
+    <div class="file-name">student_chat_contexts/ U-1284_S0009.txt</div>
+    <div class="file-desc">Generated once per login from File 2. Every chatbot message reads from this .txt as LLM context — no re-reading Excel on every question.</div>
+  </div>
+</div>
+
+<div class="arrow-down"></div>
+
+<div class="phase-title" style="margin-top:10px">Phase 4 — Student login and chat</div>
+
+<div class="lane">
+  <div class="lane-head">
+    <div class="lane-icon" style="background:var(--color-background-success)">👩‍🎓</div>
+    <div><div class="lane-label">Student portal</div><div class="lane-sub">Login → context build → AI chat + ML dashboard</div></div>
+  </div>
+  <div class="steps">
+    <div class="step">
+      <div class="step-num b-green">5</div>
+      <div class="step-body">
+        <div class="step-title">Login: AISHE code + student ID + password</div>
+        <div class="step-desc">Validated against File 1 (gatekeeper). If matched, system fetches full row from File 2 and writes the 44-column context to File 3 (.txt).</div>
+        <div class="badges"><span class="badge b-neutral">File 1 verifies</span><span class="badge b-neutral">File 2 loaded</span><span class="badge b-neutral">File 3 written</span></div>
+      </div>
+    </div>
+    <div class="step">
+      <div class="step-num b-green">6</div>
+      <div class="step-body">
+        <div class="step-title">Text or voice chat about academic performance</div>
+        <div class="step-desc">Student asks about grades, attendance, rank, activities. LLM reads File 3 context and answers. Switch between LLaMA 3.1-70B and GPT-OSS 120B. Voice input via Whisper STT, TTS for responses.</div>
+        <div class="badges">
+          <span class="badge b-blue">LLaMA 3.1-70B (Groq)</span>
+          <span class="badge b-blue">GPT-OSS 120B (Groq)</span>
+          <span class="badge b-neutral">Whisper STT</span>
+          <span class="badge b-neutral">TTS</span>
+        </div>
+      </div>
+    </div>
+    <div class="step">
+      <div class="step-num b-green">7</div>
+      <div class="step-body">
+        <div class="step-title">College rules chatbot</div>
+        <div class="step-desc">Student switches to rules tab. LLaMA 4 Scout 17B reads admin-uploaded PDF/DOCX college regulation documents and gives document-grounded answers on fees, hostel, calendars, and policies.</div>
+        <div class="badges"><span class="badge b-blue">LLaMA 4 Scout 17B (Groq)</span><span class="badge b-neutral">PDF / DOCX grounded</span></div>
+      </div>
+    </div>
+    <div class="step">
+      <div class="step-num b-green">8</div>
+      <div class="step-body">
+        <div class="step-title">ML model performance dashboard</div>
+        <div class="step-desc">Student views their ML model scores and DL image/X-ray analysis task results. Performance metrics stored in the 44-column file are surfaced visually — different models can be integrated and compared.</div>
+        <div class="badges"><span class="badge b-neutral">ML model scores</span><span class="badge b-neutral">DL X-ray analysis</span><span class="badge b-neutral">Pluggable models</span></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="arrow-down"></div>
+
+<div class="phase-title" style="margin-top:10px">Phase 5 — Parent portal (SmartPass)</div>
+
+<div class="lane">
+  <div class="lane-head">
+    <div class="lane-icon" style="background:var(--color-background-warning)">👨‍👩‍👦</div>
+    <div><div class="lane-label">SmartPass parent portal</div><div class="lane-sub">Login → Gemini chat → Qwen analysis → PDF email</div></div>
+  </div>
+  <div class="steps">
+    <div class="step">
+      <div class="step-num b-warn">9</div>
+      <div class="step-body">
+        <div class="step-title">Login: AISHE code + student ID + relation</div>
+        <div class="step-desc">Parent enters their child's credentials and their relation (Father / Mother / Guardian). Student's full data is loaded from File 2.</div>
+        <div class="badges"><span class="badge b-neutral">Relation-aware session</span></div>
+      </div>
+    </div>
+    <div class="step">
+      <div class="step-num b-warn">10</div>
+      <div class="step-body">
+        <div class="step-title">Chat with Gemini 2.5 Flash + TTS voice output</div>
+        <div class="step-desc">Parent asks about child's performance in text or voice. Gemini responds with polite, structured, multilingual answers (English / Hindi / Telugu). Answers read aloud via Gemini TTS (Groq TTS as fallback).</div>
+        <div class="badges"><span class="badge b-blue">Gemini 2.5 Flash</span><span class="badge b-neutral">Whisper STT</span><span class="badge b-neutral">Gemini TTS</span></div>
+      </div>
+    </div>
+    <div class="step">
+      <div class="step-num b-warn">11</div>
+      <div class="step-body">
+        <div class="step-title">Trigger deep analysis → PDF → email</div>
+        <div class="step-desc">Parent clicks "Analyse student". Qwen 3-32B runs deep analysis and returns strict JSON: strengths, weaknesses, risk level (Low/Medium/High), improvement plan, subject insights, parent message. reportlab converts to a polished PDF and emails it instantly.</div>
+        <div class="badges">
+          <span class="badge b-warn">Qwen 3-32B (Groq)</span>
+          <span class="badge b-neutral">reportlab PDF</span>
+          <span class="badge b-green">Emailed to parent</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="divider"></div>
+
+<div class="phase-title">All LLM models in use</div>
+<div class="model-grid">
+  <div class="model-card"><div class="model-name">LLaMA 3.1-70B</div><div class="model-role">Student chat · Groq</div></div>
+  <div class="model-card"><div class="model-name">GPT-OSS 120B</div><div class="model-role">Student chat · Groq</div></div>
+  <div class="model-card"><div class="model-name">LLaMA 4 Scout 17B</div><div class="model-role">College rules · Groq</div></div>
+  <div class="model-card"><div class="model-name">Gemini 2.5 Flash</div><div class="model-role">Parent chat + TTS</div></div>
+  <div class="model-card"><div class="model-name">Qwen 3-32B</div><div class="model-role">Deep analysis + PDF</div></div>
+  <div class="model-card"><div class="model-name">Whisper Large v3</div><div class="model-role">Voice STT · Groq</div></div>
+</div>
+
+<div class="divider"></div>
+<div style="font-size:11px;color:var(--color-text-secondary);text-align:center;padding-bottom:4px">Target completion: 22 Mar 2026 &nbsp;·&nbsp; Backend: Python / Django &nbsp;·&nbsp; Data: Excel-only, zero database required</div>
+</div>

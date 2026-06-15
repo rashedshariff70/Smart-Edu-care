@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Upload Dataset • ML Student Zone</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+    <!-- DataTables CSS -->
+    <link rel="stylesheet" href="https://cdn.datatables.net/2.1.8/css/dataTables.dataTables.min.css">
+
+    <style>
+        :root {
+            --primary: #10b981;
+            --primary-dark: #059669;
+            --dark: #0f172a;
+            --dark-2: #1e293b;
+            --text: #f1f5f9;
+            --text-muted: #94a3b8;
+            --card-bg: rgba(30, 41, 59, 0.78);
+            --success: #34d399;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', system-ui, sans-serif;
+            background: var(--dark);
+            color: var(--text);
+            min-height: 100vh;
+            line-height: 1.6;
+        }
+
+        .video-bg {
+            position: fixed;
+            inset: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: -2;
+        }
+
+        .overlay {
+            position: fixed;
+            inset: 0;
+            background: rgba(15, 23, 42, 0.48);
+            backdrop-filter: blur(1.5px);
+            z-index: -1;
+        }
+
+        .navbar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            background: rgba(15, 23, 42, 0.88);
+            backdrop-filter: blur(16px);
+            padding: 1.1rem 6%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            z-index: 1000;
+            border-bottom: 1px solid rgba(16, 185, 129, 0.2);
+        }
+
+        .logo {
+            font-size: 1.7rem;
+            font-weight: 800;
+            background: linear-gradient(90deg, var(--primary), #34d399);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .nav-links a {
+            color: #e2e8f0;
+            text-decoration: none;
+            font-weight: 500;
+            padding: 0.65rem 1.3rem;
+            border-radius: 9999px;
+            transition: all 0.3s;
+        }
+
+        .nav-links a:hover,
+        .nav-links a.active {
+            background: rgba(16, 185, 129, 0.28);
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 100px auto 60px;
+            padding: 0 5%;
+        }
+
+        h1.page-title {
+            font-size: 2.6rem;
+            font-weight: 800;
+            text-align: center;
+            margin-bottom: 0.8rem;
+            background: linear-gradient(90deg, var(--primary), #34d399);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .subtitle {
+            text-align: center;
+            color: var(--text-muted);
+            margin-bottom: 3rem;
+            font-size: 1.15rem;
+        }
+
+        /* Upload Area */
+        .upload-section {
+            background: var(--card-bg);
+            border: 2px dashed rgba(16, 185, 129, 0.4);
+            border-radius: 16px;
+            padding: 3.5rem 2rem;
+            text-align: center;
+            transition: all 0.35s ease;
+            margin-bottom: 2.5rem;
+            cursor: pointer;
+            position: relative;
+        }
+
+        .upload-section:hover {
+            border-color: var(--primary);
+            background: rgba(30, 41, 59, 0.88);
+        }
+
+        .upload-icon {
+            font-size: 4.2rem;
+            color: var(--primary);
+            margin-bottom: 1.2rem;
+        }
+
+        .upload-text {
+            font-size: 1.35rem;
+            font-weight: 600;
+            margin-bottom: 0.6rem;
+        }
+
+        .upload-hint {
+            color: var(--text-muted);
+            font-size: 0.98rem;
+        }
+
+        input[type="file"] {
+            position: absolute;
+            inset: 0;
+            opacity: 0;
+            cursor: pointer;
+        }
+
+        /* Preview Area */
+        .preview-section {
+            background: var(--card-bg);
+            border-radius: 16px;
+            padding: 2rem;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(16, 185, 129, 0.18);
+        }
+
+        .preview-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 1.5rem;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+
+        .stats {
+            display: flex;
+            gap: 1.5rem;
+            flex-wrap: wrap;
+        }
+
+        .stat-box {
+            background: rgba(16, 185, 129, 0.12);
+            border-radius: 10px;
+            padding: 0.9rem 1.4rem;
+            font-size: 0.95rem;
+        }
+
+        .stat-box strong {
+            color: var(--primary);
+        }
+
+        /* DataTable styling */
+        table.dataTable {
+            color: var(--text);
+            background: transparent !important;
+        }
+
+        table.dataTable thead th {
+            background: rgba(16, 185, 129, 0.15) !important;
+            color: white !important;
+            border-bottom: 2px solid var(--primary) !important;
+        }
+
+        table.dataTable tbody tr {
+            background: rgba(30, 41, 59, 0.4) !important;
+        }
+
+        table.dataTable tbody tr:hover {
+            background: rgba(16, 185, 129, 0.18) !important;
+        }
+
+        .dataTables_wrapper .dataTables_paginate .paginate_button {
+            color: white !important;
+            background: rgba(16, 185, 129, 0.2) !important;
+            border: none !important;
+            border-radius: 8px !important;
+        }
+
+        .dataTables_wrapper .dataTables_paginate .paginate_button.current {
+            background: var(--primary) !important;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 4rem 0;
+            color: var(--text-muted);
+            font-size: 1.3rem;
+        }
+
+        @media (max-width: 768px) {
+            .navbar { padding: 1rem 5%; flex-direction: column; gap: 1rem; }
+            h1.page-title { font-size: 2.1rem; }
+        }
+    </style>
+</head>
+<body>
+
+<video class="video-bg" autoplay muted loop playsinline>
+    <source src="/static/video/5198159-uhd_3840_2160_25fps.mp4" type="video/mp4">
+    <source src="/static/video/ai-circuit-dark.webm" type="video/webm">
+</video>
+
+<div class="overlay"></div>
+
+<nav class="navbar">
+    <div class="logo">ML Student Zone</div>
+
+    <div class="nav-links">
+        <a href="/student_ml_home">Home</a>
+        <a href="/student_ml_upload_data" class="active">Upload Data</a>
+        <a href="/student_ml_view_models">My Models</a>
+        <a href="/student_ml_prediction">Predict</a>
+        <a href="/indexs">logout</a>
+    </div>
+</nav>
+
+<div class="container">
+    <h1 class="page-title">Upload Your Dataset</h1>
+    <p class="subtitle">Start your ML project — upload CSV, Excel or JSON files</p>
+
+    <!-- Upload Area -->
+    <div class="upload-section" id="dropZone">
+        <div class="upload-icon">
+            <i class="fas fa-cloud-upload-alt"></i>
+        </div>
+        <div class="upload-text">Drop your file here or click to browse</div>
+        <div class="upload-hint">Supported formats: .csv, .xlsx, .xls, .json</div>
+        <input type="file" id="fileInput" accept=".csv,.xlsx,.xls,.json">
+    </div>
+
+    <!-- Preview & Info -->
+    <div class="preview-section" id="previewSection" style="display: none;">
+        <div class="preview-header">
+            <h2 id="fileName" style="font-size: 1.6rem; font-weight: 600;"></h2>
+            <div class="stats">
+                <div class="stat-box">Rows: <strong id="rowCount">—</strong></div>
+                <div class="stat-box">Columns: <strong id="colCount">—</strong></div>
+                <div class="stat-box">Size: <strong id="fileSize">—</strong></div>
+            </div>
+        </div>
+
+        <table id="dataTable" class="display compact" style="width:100%">
+            <thead>
+                <tr></tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+
+    <div class="loading" id="loading" style="display: none;">
+        <i class="fas fa-spinner fa-spin"></i> Loading dataset...
+    </div>
+</div>
+
+<!-- Scripts -->
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="https://cdn.datatables.net/2.1.8/js/dataTables.min.js"></script>
+
+<script>
+$(document).ready(function() {
+    let table = null;
+
+    // Handle file selection / drop
+    const fileInput = document.getElementById('fileInput');
+    const dropZone = document.getElementById('dropZone');
+
+    ['dragover', 'dragenter'].forEach(event => {
+        dropZone.addEventListener(event, e => {
+            e.preventDefault();
+            dropZone.style.borderColor = 'var(--primary)';
+            dropZone.style.background = 'rgba(16,185,129,0.08)';
+        });
+    });
+
+    ['dragleave', 'drop'].forEach(event => {
+        dropZone.addEventListener(event, e => {
+            e.preventDefault();
+            dropZone.style.borderColor = 'rgba(16,185,129,0.4)';
+            dropZone.style.background = '';
+        });
+    });
+
+    dropZone.addEventListener('drop', e => {
+        e.preventDefault();
+        const file = e.dataTransfer.files[0];
+        if (file) handleFile(file);
+    });
+
+    fileInput.addEventListener('change', e => {
+        const file = e.target.files[0];
+        if (file) handleFile(file);
+    });
+
+    function handleFile(file) {
+        const allowedTypes = ['text/csv', 'application/vnd.ms-excel', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'application/json'];
+        if (!allowedTypes.includes(file.type)) {
+            alert('Please upload CSV, Excel or JSON file');
+            return;
+        }
+
+        document.getElementById('loading').style.display = 'block';
+        document.getElementById('previewSection').style.display = 'none';
+
+        const reader = new FileReader();
+
+        reader.onload = function(e) {
+            try {
+                const content = e.target.result;
+                let data = [];
+
+                if (file.name.endsWith('.json')) {
+                    data = JSON.parse(content);
+                    // Assuming array of objects
+                    if (!Array.isArray(data)) data = [data];
+                } else {
+                    // CSV or Excel - simple parsing (for real project use PapaParse or SheetJS)
+                    // This is just a demo — in production use better libraries
+                    const lines = content.split('\n').slice(0, 100); // limit preview rows
+                    const headers = lines[0].split(',');
+                    data = lines.slice(1).map(line => {
+                        const values = line.split(',');
+                        return headers.reduce((obj, h, i) => {
+                            obj[h.trim()] = values[i]?.trim() || '';
+                            return obj;
+                        }, {});
+                    });
+                }
+
+                showPreview(file, data);
+            } catch (err) {
+                alert('Error parsing file: ' + err.message);
+                document.getElementById('loading').style.display = 'none';
+            }
+        };
+
+        if (file.name.endsWith('.json') || file.name.endsWith('.csv')) {
+            reader.readAsText(file);
+        } else {
+            alert('Excel file preview is limited in this demo.\nPlease use CSV for best experience.');
+            reader.readAsText(file);
+        }
+    }
+
+    function showPreview(file, data) {
+        document.getElementById('loading').style.display = 'none';
+        document.getElementById('previewSection').style.display = 'block';
+
+        document.getElementById('fileName').textContent = file.name;
+        document.getElementById('rowCount').textContent = data.length;
+        document.getElementById('colCount').textContent = data[0] ? Object.keys(data[0]).length : 0;
+        document.getElementById('fileSize').textContent = (file.size / 1024 / 1024).toFixed(2) + ' MB';
+
+        // Destroy previous table if exists
+        if (table) {
+            table.destroy();
+            $('#dataTable').empty();
+        }
+
+        // Create columns from first row
+        const columns = Object.keys(data[0] || {}).map(key => ({
+            title: key,
+            data: key
+        }));
+
+        table = $('#dataTable').DataTable({
+            data: data.slice(0, 500), // limit preview rows
+            columns: columns,
+            pageLength: 10,
+            lengthMenu: [10, 25, 50, 100],
+            scrollX: true,
+            language: {
+                search: "Filter columns:",
+                lengthMenu: "Show _MENU_ rows"
+            }
+        });
+    }
+});
+</script>
+</body>
+</html>

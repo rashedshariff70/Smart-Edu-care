@@ -1,0 +1,744 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>SmartEduCare — University Registration</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;0,800;1,600&family=DM+Sans:wght@300;400;500;600;700&family=Space+Mono:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      :root {
+        --ink: #1a1035;
+        --accent: #5b3de8;
+        --accent-light: #7c5cf5;
+        --accent-glow: rgba(91, 61, 232, 0.18);
+        --gold: #c9a84c;
+        --gold-light: #e8c97a;
+        --surface: #ffffff;
+        --muted: #6b6b8a;
+        --border: #e2e0f0;
+        --success-bg: #ecfdf5;
+        --success-text: #065f46;
+        --warn-bg: #fffbeb;
+        --warn-text: #92400e;
+        --error-bg: #fef2f2;
+        --error-text: #991b1b;
+        --dark-bg: #0a071f;
+      }
+
+      * { box-sizing: border-box; margin: 0; padding: 0; }
+      html { scroll-behavior: smooth; }
+      body { font-family: "DM Sans", sans-serif; background: var(--dark-bg); color: #fff; overflow-x: hidden; }
+
+      /* ── NAV ── */
+      nav {
+        position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+        padding: 18px 48px;
+        display: flex; align-items: center; justify-content: space-between;
+        background: rgba(10, 7, 31, 0.7);
+        backdrop-filter: blur(18px);
+        border-bottom: 1px solid rgba(255,255,255,0.06);
+        animation: navSlide 0.6s ease both;
+      }
+      @keyframes navSlide { from { opacity:0; transform:translateY(-16px); } to { opacity:1; transform:translateY(0); } }
+
+      .nav-logo { display:flex; align-items:center; gap:10px; text-decoration:none; }
+      .nav-logo-icon {
+        width:36px; height:36px;
+        background: linear-gradient(135deg,#5b3de8,#c9a84c);
+        border-radius:10px; display:flex; align-items:center; justify-content:center;
+        font-family:"Space Mono",monospace; font-size:13px; font-weight:700; color:#fff; letter-spacing:-1px;
+      }
+      .nav-logo-text { font-family:"Playfair Display",serif; font-size:17px; font-weight:700; color:#fff; }
+      .nav-logo-text span { color:var(--gold); }
+
+      .nav-links { display:flex; align-items:center; gap:6px; }
+      .nav-link {
+        padding:8px 18px; border-radius:100px; font-size:13.5px; font-weight:500;
+        color:rgba(255,255,255,0.65); text-decoration:none;
+        transition:all 0.2s; border:1px solid transparent;
+      }
+      .nav-link:hover { color:#fff; background:rgba(255,255,255,0.07); border-color:rgba(255,255,255,0.1); }
+      .nav-link.cta {
+        background:linear-gradient(135deg,#4f30d6,#7c5cf5); color:#fff;
+        border-color:transparent; box-shadow:0 4px 16px rgba(91,61,232,0.4);
+      }
+      .nav-link.cta:hover { transform:translateY(-1px); box-shadow:0 6px 22px rgba(91,61,232,0.55); }
+
+      @media(max-width:640px){
+        nav { padding:14px 20px; }
+        .nav-links { gap:4px; }
+        .nav-link { padding:7px 12px; font-size:12px; }
+      }
+
+      /* ── HERO ── */
+      .hero {
+        min-height:100vh; display:flex; align-items:center; justify-content:center;
+        text-align:center; padding:120px 24px 80px;
+        position:relative; overflow:hidden;
+      }
+      .hero-bg { position:absolute; inset:0; pointer-events:none; }
+      .hero-bg-layer1 {
+        position:absolute; inset:0;
+        background:
+          radial-gradient(ellipse 90% 70% at 20% 10%, rgba(91,61,232,0.45) 0%, transparent 60%),
+          radial-gradient(ellipse 70% 55% at 80% 85%, rgba(201,168,76,0.25) 0%, transparent 55%),
+          radial-gradient(ellipse 60% 50% at 65% 25%, rgba(124,92,245,0.25) 0%, transparent 50%);
+        animation:bgPulse 9s ease-in-out infinite alternate;
+      }
+      @keyframes bgPulse { 0%{opacity:0.7;} 100%{opacity:1;} }
+
+      .hero-grid {
+        position:absolute; inset:0;
+        background-image:
+          linear-gradient(rgba(91,61,232,0.07) 1px, transparent 1px),
+          linear-gradient(90deg, rgba(91,61,232,0.07) 1px, transparent 1px);
+        background-size:60px 60px;
+        mask-image:radial-gradient(ellipse 70% 60% at 50% 50%, black 30%, transparent 80%);
+      }
+
+      .orb { position:absolute; border-radius:50%; pointer-events:none; animation:orbFloat var(--dur,12s) ease-in-out infinite; }
+      .orb-1 { width:500px; height:500px; background:radial-gradient(circle,rgba(91,61,232,0.12),transparent 65%); top:-150px; right:-100px; --dur:14s; }
+      .orb-2 { width:380px; height:380px; background:radial-gradient(circle,rgba(201,168,76,0.1),transparent 65%); bottom:-80px; left:-80px; --dur:10s; animation-delay:-4s; }
+      .orb-3 { width:200px; height:200px; background:radial-gradient(circle,rgba(124,92,245,0.15),transparent 65%); top:40%; left:10%; --dur:8s; animation-delay:-2s; }
+      @keyframes orbFloat { 0%,100%{transform:translateY(0) scale(1);} 50%{transform:translateY(25px) scale(1.06);} }
+
+      .particles { position:absolute; inset:0; overflow:hidden; }
+      .particle { position:absolute; width:2px; height:2px; border-radius:50%; background:rgba(255,255,255,0.4); animation:particleDrift var(--pdur) linear infinite; opacity:0; }
+      @keyframes particleDrift {
+        0%{opacity:0;transform:translateY(0) translateX(0);}
+        10%{opacity:1;}
+        90%{opacity:0.5;}
+        100%{opacity:0;transform:translateY(-120vh) translateX(var(--px,30px));}
+      }
+
+      .hero-content { position:relative; z-index:2; max-width:820px; margin:0 auto; }
+      .hero-badge {
+        display:inline-flex; align-items:center; gap:8px;
+        background:rgba(91,61,232,0.15); border:1px solid rgba(91,61,232,0.35);
+        color:rgba(255,255,255,0.8); font-size:11.5px; font-weight:600;
+        letter-spacing:0.13em; text-transform:uppercase;
+        padding:7px 16px; border-radius:100px; margin-bottom:30px;
+        animation:fadeUp 0.8s 0.1s ease both;
+      }
+      .hero-badge-dot { width:7px; height:7px; border-radius:50%; background:var(--gold); animation:blink 2s ease-in-out infinite; flex-shrink:0; }
+      @keyframes blink { 0%,100%{opacity:1;box-shadow:0 0 6px var(--gold);} 50%{opacity:0.3;box-shadow:none;} }
+
+      .hero-title {
+        font-family:"Playfair Display",serif;
+        font-size:clamp(38px,7vw,72px); font-weight:800;
+        line-height:1.08; letter-spacing:-0.02em; color:#fff;
+        margin-bottom:20px; animation:fadeUp 0.8s 0.2s ease both;
+      }
+      .hero-title .line2 { color:var(--gold); display:block; font-style:italic; }
+
+      .hero-subtitle {
+        font-size:clamp(15px,2.2vw,18px); font-weight:400;
+        color:rgba(255,255,255,0.55); line-height:1.7;
+        max-width:580px; margin:0 auto 40px;
+        animation:fadeUp 0.8s 0.35s ease both;
+      }
+
+      .hero-cta-row {
+        display:flex; align-items:center; justify-content:center;
+        gap:14px; flex-wrap:wrap; animation:fadeUp 0.8s 0.5s ease both;
+      }
+      .cta-btn {
+        display:inline-flex; align-items:center; gap:9px;
+        padding:14px 28px; border-radius:14px;
+        font-family:"DM Sans",sans-serif; font-size:14.5px; font-weight:600;
+        text-decoration:none; transition:all 0.25s; cursor:pointer; border:none;
+      }
+      .cta-primary { background:linear-gradient(135deg,#4f30d6,#7c5cf5); color:#fff; box-shadow:0 8px 28px rgba(91,61,232,0.45); }
+      .cta-primary:hover { transform:translateY(-3px); box-shadow:0 14px 36px rgba(91,61,232,0.6); }
+      .cta-secondary { background:rgba(255,255,255,0.06); border:1.5px solid rgba(255,255,255,0.14); color:rgba(255,255,255,0.8); }
+      .cta-secondary:hover { background:rgba(255,255,255,0.1); color:#fff; transform:translateY(-2px); }
+      .cta-gold { background:linear-gradient(135deg,#b8892e,#e0b455); color:#1a1035; box-shadow:0 8px 28px rgba(201,168,76,0.35); }
+      .cta-gold:hover { transform:translateY(-3px); box-shadow:0 14px 36px rgba(201,168,76,0.5); }
+
+      .hero-stats {
+        display:flex; align-items:center; justify-content:center;
+        gap:0; margin-top:70px; animation:fadeUp 0.8s 0.65s ease both; flex-wrap:wrap;
+      }
+      .stat-item { text-align:center; padding:20px 40px; border-right:1px solid rgba(255,255,255,0.08); }
+      .stat-item:last-child { border-right:none; }
+      .stat-num {
+        font-family:"Space Mono",monospace; font-size:clamp(26px,4vw,36px); font-weight:700; line-height:1;
+        background:linear-gradient(135deg,#fff 40%,var(--gold));
+        -webkit-background-clip:text; -webkit-text-fill-color:transparent; background-clip:text;
+      }
+      .stat-label { font-size:12px; font-weight:500; color:rgba(255,255,255,0.4); letter-spacing:0.1em; text-transform:uppercase; margin-top:6px; }
+      .stat-sub { font-size:10px; color:rgba(255,255,255,0.3); margin-top:3px; }
+
+      @media(max-width:640px){
+        .stat-item { padding:14px 22px; border-right:none; border-bottom:1px solid rgba(255,255,255,0.07); }
+        .stat-item:last-child { border-bottom:none; }
+      }
+      @keyframes fadeUp { from{opacity:0;transform:translateY(22px);} to{opacity:1;transform:translateY(0);} }
+
+      /* ── JOURNEY ── */
+      .journey-section { padding:100px 24px; position:relative; overflow:hidden; }
+      .journey-section::before {
+        content:""; position:absolute; inset:0;
+        background:
+          radial-gradient(ellipse 60% 50% at 15% 50%, rgba(91,61,232,0.15) 0%, transparent 60%),
+          radial-gradient(ellipse 50% 40% at 85% 30%, rgba(201,168,76,0.1) 0%, transparent 55%);
+        pointer-events:none;
+      }
+      .section-inner { max-width:1100px; margin:0 auto; position:relative; z-index:1; }
+      .section-eyebrow { text-align:center; margin-bottom:60px; }
+      .eyebrow-tag {
+        display:inline-flex; align-items:center; gap:8px;
+        background:rgba(91,61,232,0.12); border:1px solid rgba(91,61,232,0.3);
+        color:var(--accent-light); font-size:11px; font-weight:700;
+        letter-spacing:0.15em; text-transform:uppercase;
+        padding:6px 16px; border-radius:100px; margin-bottom:22px;
+      }
+      .section-title { font-family:"Playfair Display",serif; font-size:clamp(30px,5vw,48px); font-weight:700; color:#fff; line-height:1.12; margin-bottom:14px; }
+      .section-title span { color:var(--gold); }
+      .section-desc { color:rgba(255,255,255,0.45); font-size:15px; line-height:1.7; max-width:560px; margin:0 auto; }
+
+      .journey-steps { display:grid; grid-template-columns:1fr 1fr; gap:28px; margin-top:20px; }
+      @media(max-width:768px){ .journey-steps { grid-template-columns:1fr; } }
+
+      .step-card {
+        background:rgba(255,255,255,0.03); border:1px solid rgba(255,255,255,0.07);
+        border-radius:24px; padding:36px 36px 32px;
+        position:relative; overflow:hidden;
+        transition:all 0.35s cubic-bezier(0.22,1,0.36,1); cursor:default;
+      }
+      .step-card::before {
+        content:""; position:absolute; inset:0; border-radius:24px;
+        background:linear-gradient(135deg,rgba(91,61,232,0.07),rgba(201,168,76,0.04));
+        opacity:0; transition:opacity 0.35s;
+      }
+      .step-card:hover { border-color:rgba(91,61,232,0.35); transform:translateY(-6px); box-shadow:0 24px 60px rgba(0,0,0,0.4),0 0 40px rgba(91,61,232,0.12); }
+      .step-card:hover::before { opacity:1; }
+
+      .step-number { font-family:"Space Mono",monospace; font-size:11px; font-weight:700; color:var(--gold); letter-spacing:0.15em; margin-bottom:22px; display:flex; align-items:center; gap:10px; }
+      .step-number::after { content:""; flex:1; height:1px; background:linear-gradient(to right,rgba(201,168,76,0.3),transparent); }
+      .step-icon-wrap { width:56px; height:56px; border-radius:16px; display:flex; align-items:center; justify-content:center; margin-bottom:22px; position:relative; z-index:1; }
+      .step-icon-wrap.purple { background:linear-gradient(135deg,rgba(91,61,232,0.3),rgba(124,92,245,0.2)); border:1px solid rgba(91,61,232,0.3); }
+      .step-icon-wrap.gold   { background:linear-gradient(135deg,rgba(201,168,76,0.25),rgba(232,201,122,0.15)); border:1px solid rgba(201,168,76,0.3); }
+      .step-icon-wrap.green  { background:linear-gradient(135deg,rgba(16,185,129,0.2),rgba(5,150,105,0.15)); border:1px solid rgba(16,185,129,0.25); }
+      .step-icon-wrap.blue   { background:linear-gradient(135deg,rgba(59,130,246,0.2),rgba(37,99,235,0.15)); border:1px solid rgba(59,130,246,0.25); }
+      .step-icon { width:28px; height:28px; }
+      .step-title { font-family:"Playfair Display",serif; font-size:22px; font-weight:700; color:#fff; margin-bottom:12px; position:relative; z-index:1; }
+      .step-desc { font-size:14px; color:rgba(255,255,255,0.5); line-height:1.7; position:relative; z-index:1; margin-bottom:22px; }
+      .step-tags { display:flex; flex-wrap:wrap; gap:8px; position:relative; z-index:1; }
+      .step-tag { display:inline-flex; align-items:center; gap:6px; padding:5px 13px; border-radius:100px; font-size:12px; font-weight:600; letter-spacing:0.02em; }
+      .tag-purple { background:rgba(91,61,232,0.15); color:#a78bfa; border:1px solid rgba(91,61,232,0.25); }
+      .tag-gold   { background:rgba(201,168,76,0.12); color:var(--gold-light); border:1px solid rgba(201,168,76,0.2); }
+      .tag-green  { background:rgba(16,185,129,0.12); color:#34d399; border:1px solid rgba(16,185,129,0.2); }
+      .tag-blue   { background:rgba(59,130,246,0.12); color:#93c5fd; border:1px solid rgba(59,130,246,0.2); }
+      .tag-dot { width:5px; height:5px; border-radius:50%; background:currentColor; flex-shrink:0; }
+
+      .flow-connector { display:flex; flex-direction:column; align-items:center; padding:40px 0; gap:6px; position:relative; z-index:1; }
+      .flow-connector-line { width:1px; height:60px; background:linear-gradient(to bottom,rgba(91,61,232,0.5),rgba(201,168,76,0.3)); }
+      .flow-connector-dot { width:12px; height:12px; border-radius:50%; background:var(--accent); border:2px solid rgba(91,61,232,0.5); box-shadow:0 0 12px rgba(91,61,232,0.6); animation:pulseDot 2s ease-in-out infinite; }
+      @keyframes pulseDot { 0%,100%{box-shadow:0 0 10px rgba(91,61,232,0.6);} 50%{box-shadow:0 0 20px rgba(91,61,232,0.9),0 0 40px rgba(91,61,232,0.3);} }
+      .flow-connector-label { font-size:11px; font-weight:600; color:rgba(255,255,255,0.35); letter-spacing:0.1em; text-transform:uppercase; }
+
+      .section-divider { width:100%; height:1px; background:linear-gradient(to right,transparent,rgba(91,61,232,0.3),rgba(201,168,76,0.2),transparent); margin:0 auto; }
+
+      /* ── REG SECTION ── */
+      .reg-section { padding:100px 24px 80px; position:relative; overflow:hidden; }
+      .reg-section::before {
+        content:""; position:absolute; inset:0;
+        background:
+          radial-gradient(ellipse 80% 60% at 20% 10%, rgba(91,61,232,0.35) 0%, transparent 60%),
+          radial-gradient(ellipse 60% 50% at 80% 90%, rgba(201,168,76,0.2) 0%, transparent 55%),
+          radial-gradient(ellipse 50% 40% at 70% 20%, rgba(124,92,245,0.2) 0%, transparent 50%);
+        pointer-events:none; animation:bgPulse 8s ease-in-out infinite alternate;
+      }
+      .reg-section::after {
+        content:""; position:absolute; width:300px; height:300px; border-radius:50%;
+        background:radial-gradient(circle,rgba(91,61,232,0.15),transparent 70%);
+        top:-80px; right:-80px; pointer-events:none; animation:floatOrb 10s ease-in-out infinite;
+      }
+      @keyframes floatOrb { 0%,100%{transform:translateY(0px) scale(1);} 50%{transform:translateY(30px) scale(1.08);} }
+
+      /* ── FORM CARD ── */
+      .card {
+        position:relative; z-index:1;
+        background:rgba(255,255,255,0.97); backdrop-filter:blur(20px);
+        border-radius:28px; padding:0; width:100%; max-width:780px; margin:0 auto;
+        box-shadow:0 0 0 1px rgba(91,61,232,0.12),0 30px 80px rgba(10,5,40,0.45),0 0 80px rgba(91,61,232,0.12);
+        animation:cardReveal 0.7s cubic-bezier(0.22,1,0.36,1) both; overflow:hidden;
+      }
+      @keyframes cardReveal { from{opacity:0;transform:translateY(36px) scale(0.97);} to{opacity:1;transform:translateY(0) scale(1);} }
+
+      .card-header {
+        background:linear-gradient(135deg,#1a1035 0%,#3a1d96 50%,#5b3de8 100%);
+        padding:44px 48px 40px; position:relative; overflow:hidden;
+      }
+      .card-header::before { content:""; position:absolute; width:260px; height:260px; border-radius:50%; background:rgba(255,255,255,0.05); top:-100px; right:-60px; }
+      .card-header::after  { content:""; position:absolute; width:160px; height:160px; border-radius:50%; border:1px solid rgba(255,255,255,0.08); bottom:-60px; left:40px; }
+
+      .header-badge {
+        display:inline-flex; align-items:center; gap:7px;
+        background:rgba(255,255,255,0.1); border:1px solid rgba(255,255,255,0.15);
+        color:rgba(255,255,255,0.75); font-size:11px; font-weight:600;
+        letter-spacing:0.12em; text-transform:uppercase;
+        padding:6px 14px; border-radius:100px; margin-bottom:18px;
+      }
+      .header-badge::before { content:""; width:6px; height:6px; border-radius:50%; background:#c9a84c; animation:blink 1.8s ease-in-out infinite; }
+
+      .card-header h1 { font-family:"Playfair Display",serif; font-size:34px; color:#fff; line-height:1.15; letter-spacing:-0.01em; position:relative; z-index:1; }
+      .card-header h1 span { color:#c9a84c; }
+      .card-header p { color:rgba(255,255,255,0.55); font-size:13.5px; margin-top:10px; position:relative; z-index:1; }
+
+      .card-body { padding:42px 48px 48px; }
+
+      /* ── MESSAGES ── */
+      .messages { margin-bottom:28px; display:flex; flex-direction:column; gap:10px; }
+      .msg {
+        padding:12px 16px; border-radius:10px; font-size:13.5px; font-weight:500;
+        display:flex; align-items:center; gap:10px;
+        border-left:3px solid transparent; color:var(--ink);
+      }
+      .msg.success { background:var(--success-bg); color:var(--success-text); border-color:#10b981; }
+      .msg.warning { background:var(--warn-bg);    color:var(--warn-text);    border-color:#f59e0b; }
+      .msg.error   { background:var(--error-bg);   color:var(--error-text);   border-color:#ef4444; }
+
+      .section-label {
+        font-size:11px; font-weight:700; letter-spacing:0.14em; text-transform:uppercase;
+        color:var(--accent); margin-bottom:20px; display:flex; align-items:center; gap:10px;
+      }
+      .section-label::after { content:""; flex:1; height:1px; background:linear-gradient(to right,var(--border),transparent); }
+
+      .row { display:grid; grid-template-columns:1fr 1fr; gap:22px; margin-bottom:22px; animation:rowFade 0.5s ease both; }
+      .row:nth-child(1){animation-delay:0.05s;} .row:nth-child(2){animation-delay:0.12s;}
+      .row:nth-child(3){animation-delay:0.19s;} .row:nth-child(4){animation-delay:0.26s;}
+      .row:nth-child(5){animation-delay:0.33s;}
+      @keyframes rowFade { from{opacity:0;transform:translateY(14px);} to{opacity:1;transform:translateY(0);} }
+
+      @media(max-width:600px){
+        .row { grid-template-columns:1fr; }
+        .card-header,.card-body { padding:28px 24px; }
+        .card-header h1 { font-size:26px; }
+      }
+
+      .field { display:flex; flex-direction:column; gap:7px; }
+      label { font-size:12.5px; font-weight:600; color:#3b3560; letter-spacing:0.02em; }
+      .required::after { content:" *"; color:#e53e3e; }
+
+      input, textarea, select {
+        font-family:"DM Sans",sans-serif; font-size:14px; color:var(--ink);
+        background:#faf9ff; border:1.5px solid var(--border); border-radius:12px;
+        padding:11px 15px;
+        transition:border-color 0.2s,box-shadow 0.2s,background 0.2s;
+        outline:none; width:100%;
+      }
+      input::placeholder, textarea::placeholder { color:#b0adc8; font-size:13px; }
+      input:focus, textarea:focus { border-color:var(--accent); background:#fff; box-shadow:0 0 0 4px var(--accent-glow); }
+      input.border-red-500 { border-color:#ef4444 !important; box-shadow:0 0 0 4px rgba(239,68,68,0.12); }
+      textarea { resize:vertical; min-height:90px; line-height:1.5; }
+
+      .field-error { font-size:12px; color:#dc2626; font-weight:500; display:flex; align-items:center; gap:5px; margin-top:2px; }
+      .field-error::before { content:"⚠"; font-size:11px; }
+      #nameError { display:none; }
+      #nameError.visible { display:flex; }
+
+      .btn-row { display:flex; justify-content:space-between; align-items:center; margin-top:36px; gap:16px; }
+
+      .btn-back {
+        display:inline-flex; align-items:center; gap:8px;
+        padding:13px 26px; border-radius:12px;
+        font-family:"DM Sans",sans-serif; font-size:14px; font-weight:600;
+        color:#6b6b8a; background:#f4f3fb; border:1.5px solid var(--border);
+        text-decoration:none; transition:all 0.2s; cursor:pointer;
+      }
+      .btn-back:hover { background:#ede9ff; color:var(--accent); border-color:var(--accent-light); transform:translateX(-2px); }
+
+      .btn-submit {
+        display:inline-flex; align-items:center; gap:10px;
+        padding:13px 32px; border-radius:12px;
+        font-family:"DM Sans",sans-serif; font-size:14px; font-weight:600;
+        color:#fff; background:linear-gradient(135deg,#4f30d6,#7c5cf5);
+        border:none; cursor:pointer; transition:all 0.25s;
+        box-shadow:0 6px 20px rgba(91,61,232,0.35); position:relative; overflow:hidden;
+      }
+      .btn-submit::after { content:""; position:absolute; inset:0; background:linear-gradient(135deg,rgba(255,255,255,0.12),transparent); opacity:0; transition:opacity 0.2s; }
+      .btn-submit:hover { transform:translateY(-2px); box-shadow:0 10px 28px rgba(91,61,232,0.45); }
+      .btn-submit:hover::after { opacity:1; }
+      .btn-submit:active { transform:translateY(0); }
+      .btn-arrow { width:18px; height:18px; display:inline-flex; transition:transform 0.2s; }
+      .btn-submit:hover .btn-arrow { transform:translateX(3px); }
+
+      .footnote {
+        text-align:center; font-size:12px; color:#a8a4c0; margin-top:24px;
+        display:flex; align-items:center; justify-content:center; gap:6px;
+      }
+      .footnote::before,.footnote::after { content:""; width:36px; height:1px; background:var(--border); }
+
+      /* ── FOOTER ── */
+      footer {
+        border-top:1px solid rgba(255,255,255,0.06);
+        padding:40px 48px; display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:16px;
+      }
+      .footer-left { font-size:13px; color:rgba(255,255,255,0.3); }
+      .footer-left strong { color:rgba(255,255,255,0.55); }
+      .footer-links { display:flex; gap:24px; }
+      .footer-links a { font-size:12.5px; color:rgba(255,255,255,0.3); text-decoration:none; transition:color 0.2s; }
+      .footer-links a:hover { color:rgba(255,255,255,0.65); }
+
+      .reveal { opacity:0; transform:translateY(30px); transition:opacity 0.7s ease,transform 0.7s ease; }
+      .reveal.visible { opacity:1; transform:translateY(0); }
+    </style>
+  </head>
+
+  <body>
+
+    <!-- ═══ NAV ═══ -->
+    <nav>
+      <a href="#" class="nav-logo">
+        <div class="nav-logo-icon">SE</div>
+        <span class="nav-logo-text">Smart<span>EduCare</span></span>
+      </a>
+      <div class="nav-links">
+        <a href="/indexs/" class="nav-link">Home</a>
+        <a href="#journey" class="nav-link">How It Works</a>
+        <a href="#register" class="nav-link">Register</a>
+        <!-- ✅ FIX: University Sign-Up scrolls to form on same page -->
+        <a href="/university_login/" class="nav-link">University Login</a>
+      </div>
+    </nav>
+
+    <!-- ═══ HERO ═══ -->
+    <section class="hero">
+      <div class="hero-bg">
+        <div class="hero-bg-layer1"></div>
+        <div class="hero-grid"></div>
+        <div class="orb orb-1"></div>
+        <div class="orb orb-2"></div>
+        <div class="orb orb-3"></div>
+        <div class="particles" id="particles"></div>
+      </div>
+
+      <div class="hero-content">
+        <div class="hero-badge">
+          <span class="hero-badge-dot"></span>
+          Unified AI Platform — Education &amp; Health
+        </div>
+        <h1 class="hero-title">
+          Empowering Universities,
+          <span class="line2">Students &amp; Families</span>
+        </h1>
+        <p class="hero-subtitle">
+          Intelligent university management, personalised student AI dashboards,
+          and deep learning family health diagnostics — all in one platform.
+        </p>
+        <div class="hero-cta-row">
+          <a href="#register" class="cta-btn cta-primary">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="3" y="3" width="18" height="18" rx="3"/><path d="M9 12l2 2 4-4"/>
+            </svg>
+            University Sign-Up
+          </a>
+          <a href="/university_login/" class="cta-btn cta-secondary">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/>
+            </svg>
+            University Login
+          </a>
+          <!-- ✅ FIX: SmartPass links to /parent_login/ -->
+          <a href="/parent_login/" class="cta-btn cta-gold">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/>
+            </svg>
+            Parent Login
+          </a>
+        </div>
+        <div class="hero-stats">
+          <div class="stat-item">
+            <div class="stat-num">AI</div>
+            <div class="stat-label">Powered Analytics</div>
+            <div class="stat-sub">Real-time insights</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-num">3</div>
+            <div class="stat-label">User Portals</div>
+            <div class="stat-sub">Uni · Student · Family</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-num">6 LLMs</div>
+            <div class="stat-label">AI Models Integrated</div>
+            <div class="stat-sub">LLaMA • GPT • Gemini • Whisper • Qwen</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-num">100%</div>
+            <div class="stat-label">Automated Flow</div>
+            <div class="stat-sub">End-to-end pipeline</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <!-- ═══ PLATFORM JOURNEY ═══ -->
+    <section class="journey-section" id="journey">
+      <div class="section-inner">
+        <div class="section-eyebrow reveal">
+          <div class="eyebrow-tag">Platform Journey</div>
+          <h2 class="section-title">How <span>SmartEduCare</span> Works</h2>
+          <p class="section-desc">A seamless, fully automated flow — from university onboarding to real-time student AI support and family health monitoring.</p>
+        </div>
+        <div class="journey-steps">
+          <div class="step-card reveal" style="transition-delay:0.1s">
+            <div class="step-number">STEP 01</div>
+            <div class="step-icon-wrap purple">
+              <svg class="step-icon" viewBox="0 0 24 24" fill="none" stroke="#a78bfa" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/>
+              </svg>
+            </div>
+            <div class="step-title">University Registration</div>
+            <p class="step-desc">Universities register through the secure portal. Credentials are verified and forwarded to the SmartEduCare admin for review and approval.</p>
+            <div class="step-tags">
+              <span class="step-tag tag-purple"><span class="tag-dot"></span>Secure Submission</span>
+              <span class="step-tag tag-purple"><span class="tag-dot"></span>AISHE Verified</span>
+            </div>
+          </div>
+          <div class="step-card reveal" style="transition-delay:0.2s">
+            <div class="step-number">STEP 02</div>
+            <div class="step-icon-wrap gold">
+              <svg class="step-icon" viewBox="0 0 24 24" fill="none" stroke="#e8c97a" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 13a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.56 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/>
+              </svg>
+            </div>
+            <div class="step-title">Admin Review &amp; Email Response</div>
+            <p class="step-desc">Admin approves or rejects the application — sending login credentials on approval, or a clear reason with a reapply option on rejection.</p>
+            <div class="step-tags">
+              <span class="step-tag tag-green"><span class="tag-dot"></span>Approve → Credentials</span>
+              <span class="step-tag tag-gold"><span class="tag-dot"></span>Reject → Reason</span>
+            </div>
+          </div>
+          <div class="step-card reveal" style="transition-delay:0.3s">
+            <div class="step-number">STEP 03</div>
+            <div class="step-icon-wrap green">
+              <svg class="step-icon" viewBox="0 0 24 24" fill="none" stroke="#34d399" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/>
+              </svg>
+            </div>
+            <div class="step-title">Student AI Dashboard</div>
+            <p class="step-desc">Approved students access personalised AI dashboards with smart analytics, learning insights, performance tracking, and AI-powered recommendations.</p>
+            <div class="step-tags">
+              <span class="step-tag tag-green"><span class="tag-dot"></span>AI-Powered</span>
+              <span class="step-tag tag-green"><span class="tag-dot"></span>Personalised</span>
+            </div>
+          </div>
+          <div class="step-card reveal" style="transition-delay:0.4s">
+            <div class="step-number">STEP 04</div>
+            <div class="step-icon-wrap blue">
+              <svg class="step-icon" viewBox="0 0 24 24" fill="none" stroke="#93c5fd" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 12h-4l-3 9L9 3l-3 9H2"/>
+              </svg>
+            </div>
+            <div class="step-title">Family Health Diagnostics</div>
+            <p class="step-desc">Deep learning models analyse health data to provide family members with real-time diagnostics, early-warning alerts, and personalised health insights.</p>
+            <div class="step-tags">
+              <span class="step-tag tag-blue"><span class="tag-dot"></span>Deep Learning</span>
+              <span class="step-tag tag-blue"><span class="tag-dot"></span>Real-time Alerts</span>
+            </div>
+          </div>
+        </div>
+        <div class="flow-connector reveal" style="transition-delay:0.5s">
+          <div class="flow-connector-line"></div>
+          <div class="flow-connector-dot"></div>
+          <div class="flow-connector-label">Begin your journey</div>
+          <div class="flow-connector-line" style="background:linear-gradient(to bottom,rgba(201,168,76,0.3),rgba(91,61,232,0.5));"></div>
+        </div>
+      </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <!-- ═══ REGISTRATION FORM ═══ -->
+    <section class="reg-section" id="register">
+      <div class="card">
+        <div class="card-header">
+          <div class="header-badge">Official Portal</div>
+          <h1>University <span>Registration</span></h1>
+          <p>Submit your institution's details for admin review and approval.</p>
+        </div>
+
+        <div class="card-body">
+          <!--
+            ✅ FIX SUMMARY:
+            1. form action → {% url 'university_reg_save' %}  = POST to /university_register/
+            2. "Go Back" href → href="#register"  (stays on same page, scrolls to form top)
+            3. After success the view does: redirect('university_reg_save')
+               which issues a GET to /university_register/ and Django re-renders this page
+               with the success message shown below the header.
+          -->
+          <form
+            method="POST"
+            action="{% url 'university_reg_save' %}"
+            onsubmit="return validateCollegeName();"
+          >
+            {% csrf_token %}
+
+            {% if messages %}
+            <div class="messages">
+              {% for message in messages %}
+              <div class="msg
+                {% if message.tags == 'success' %}success
+                {% elif message.tags == 'warning' %}warning
+                {% else %}error{% endif %}">
+                {% if message.tags == 'success' %}✅{% elif message.tags == 'warning' %}⚠️{% else %}❌{% endif %}
+                {{ message }}
+              </div>
+              {% endfor %}
+            </div>
+            {% endif %}
+
+            <!-- Institution Identity -->
+            <div class="section-label">Institution Identity</div>
+
+            <div class="row">
+              <div class="field">
+                <label class="required">College / Institute ID (AISHE CODE)</label>
+                <input type="text" name="college_id" required maxlength="20" placeholder="e.g. UNI-AP-001" />
+              </div>
+              <div class="field">
+                <label class="required">University Email</label>
+                <input type="email" name="university_email" required placeholder="admin@university.edu" />
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="field" style="grid-column:1/-1">
+                <label class="required">Full Name (College / University)</label>
+                <input type="text" name="name" id="collegeName" required placeholder="Enter complete college / university name" />
+                <div class="field-error" id="nameError">Please enter complete college name. Your name must be more than 8 letters.</div>
+              </div>
+            </div>
+
+            <!-- Location Details -->
+            <div class="section-label" style="margin-top:10px">Location Details</div>
+
+            <div class="row">
+              <div class="field">
+                <label class="required">Address</label>
+                <textarea name="address" required placeholder="Street, area, locality…"></textarea>
+              </div>
+              <div class="field">
+                <label class="required">State</label>
+                <input type="text" name="state" required placeholder="e.g. Andhra Pradesh" />
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="field">
+                <label class="required">Pin Code</label>
+                <input type="text" name="pincode" required pattern="[0-9]{6}" title="Please enter a valid 6-digit pin code" placeholder="6-digit pin code" />
+              </div>
+              <div class="field">
+                <label class="required">Country</label>
+                <input type="text" name="country" required placeholder="e.g. India" />
+              </div>
+            </div>
+
+            <!-- Contact -->
+            <div class="section-label" style="margin-top:10px">Contact &amp; Web Presence</div>
+
+            <div class="row">
+              <div class="field">
+                <label class="required">Contact Number</label>
+                <input type="tel" name="contact_number" required pattern="[0-9]{10}" title="Please enter a 10-digit mobile number" placeholder="10-digit mobile number" />
+              </div>
+              <div class="field">
+                <label>Website <span style="color:#b0adc8;font-weight:400">(optional)</span></label>
+                <input type="url" name="website" placeholder="https://your-university.edu" />
+              </div>
+            </div>
+
+            <div class="btn-row">
+              <!--
+                ✅ FIX: "Go Back" now scrolls to top of registration form on the same page.
+                Previously it tried {% url 'university_register' %} which pointed to /university/
+                then the form action was /university/university_register/ → 404.
+                Now we simply scroll back to #register (the section anchor on this page).
+              -->
+              <a href="#register" class="btn-back">← Go Back</a>
+              <button type="submit" class="btn-submit">
+                Send Request to Admin
+                <svg class="btn-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M5 12h14M13 6l6 6-6 6"/>
+                </svg>
+              </button>
+            </div>
+          </form>
+
+          <p class="footnote">All fields marked * are required &mdash; reviewed by admin</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══ FOOTER ═══ -->
+    <footer>
+      <div class="footer-left">&copy; 2025 <strong>SmartEduCare</strong> — Unified AI Platform for Education &amp; Health</div>
+      <div class="footer-links">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Use</a>
+        <a href="#">Support</a>
+        <a href="#">Contact Admin</a>
+      </div>
+    </footer>
+
+    <script>
+      /* ── Validate college name ── */
+      function validateCollegeName() {
+        const input = document.getElementById("collegeName");
+        const error = document.getElementById("nameError");
+        if (input.value.trim().length <= 8) {
+          error.classList.add("visible");
+          input.classList.add("border-red-500");
+          input.focus();
+          return false;
+        }
+        error.classList.remove("visible");
+        input.classList.remove("border-red-500");
+        return true;
+      }
+
+      /* ── Auto-scroll to form & highlight message after redirect ── */
+      window.addEventListener("DOMContentLoaded", () => {
+        const msgBox = document.querySelector(".messages");
+        if (msgBox) {
+          // Smooth scroll to the registration card so the message is visible
+          document.getElementById("register").scrollIntoView({ behavior: "smooth", block: "start" });
+        }
+      });
+
+      /* ── Floating particles ── */
+      const container = document.getElementById("particles");
+      for (let i = 0; i < 30; i++) {
+        const p = document.createElement("div");
+        p.className = "particle";
+        p.style.cssText = `
+          left:${Math.random()*100}%;
+          bottom:${Math.random()*20}%;
+          --pdur:${6+Math.random()*14}s;
+          --px:${(Math.random()-0.5)*80}px;
+          animation-delay:${Math.random()*12}s;
+          width:${1+Math.random()*2.5}px;
+          height:${1+Math.random()*2.5}px;
+          opacity:0;
+        `;
+        container.appendChild(p);
+      }
+
+      /* ── Scroll reveal ── */
+      const observer = new IntersectionObserver(
+        (entries) => { entries.forEach(e => { if(e.isIntersecting){ e.target.classList.add("visible"); observer.unobserve(e.target); } }); },
+        { threshold: 0.12 }
+      );
+      document.querySelectorAll(".reveal").forEach(el => observer.observe(el));
+    </script>
+  </body>
+</html>

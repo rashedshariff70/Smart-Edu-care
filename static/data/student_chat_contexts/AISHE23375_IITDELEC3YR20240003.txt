@@ -1,0 +1,57 @@
+Relation: Parent
+
+StudentID: iitdelec3yr20240003
+Name: Aditya Gupta
+Gender: M
+Department: Electrical Engineering
+Program: B.Tech
+Year: 3
+Semester: 6
+Email: aditya.gupta3@college.ac.in
+Phone: 971598634
+PAN_CARD: VI3CIW2OMK
+AISHE_Code: aishe23375
+Guardian_Name: Sakshi Dubey
+Guardian_Phone: 952354301
+Attendance: 90%
+DOB: 05-08-2001
+Address: 946 PHO Street, City
+mid1_Power_Systems: 42
+mid1_Machines: 48
+mid1_Power_Electronics: 46
+mid1_Control_Systems: 43
+mid1_Electrical_Drives: 37
+mid1_HV_Engineering: 39
+mid1_Electromagnetics: 45
+Mid1_Total: 300
+Mid1_Average: 42.86
+mid2_Power_Systems: 41
+mid2_Machines: 45
+mid2_Power_Electronics: 49
+mid2_Control_Systems: 45
+mid2_Electrical_Drives: 50
+mid2_HV_Engineering: 45
+mid2_Electromagnetics: 50
+Mid2_Total: 325
+Mid2_Average: 46.43
+final_Power_Systems: 42
+final_Machines: 40
+final_Power_Electronics: 57
+final_Control_Systems: 54
+final_Electrical_Drives: 50
+final_HV_Engineering: 40
+final_Electromagnetics: 54
+Final_Total: 337
+Final_Average: 48.14
+Overall_Average: 45.81
+Internship_Score: 86
+Project_Score: 80
+Attendance_Score: 99
+Practical_Lab_Score: 79
+Academic_Status: Pass
+Grade: B
+Feedback: Excellent
+Remarks: Consistent
+PAN_CARD.1: VI3CIW2OMK
+AISHE_Code.1: AISHE23375
+student_password: IITDELEC3YR202400032OMK

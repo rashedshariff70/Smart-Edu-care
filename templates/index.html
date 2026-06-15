@@ -1,0 +1,1366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SmartEduCare — AI-Powered Education & Health Platform</title>
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        :root {
+            --g1: #00E5A0;
+            --g2: #00B87C;
+            --blue: #1A6BFF;
+            --orange: #FF6B35;
+            --purple: #A855F7;
+            --teal: #00C9B1;
+            --ink: #080D1A;
+            --ink2: #0E1525;
+            --ink3: #131C2E;
+            --surface: rgba(255,255,255,0.035);
+            --border: rgba(255,255,255,0.07);
+            --muted: #7A8499;
+            --text: #DCE4F5;
+            --radius: 18px;
+            --ease: cubic-bezier(.4,0,.2,1);
+        }
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+        html { scroll-behavior: smooth; }
+        body {
+            font-family: 'Outfit', sans-serif;
+            background: var(--ink);
+            color: var(--text);
+            overflow-x: hidden;
+            line-height: 1.6;
+        }
+        body::after {
+            content: '';
+            position: fixed; inset: 0;
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.75' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='1'/%3E%3C/svg%3E");
+            opacity: 0.028; pointer-events: none; z-index: 9999;
+        }
+
+        /* ══════════ NAVBAR ══════════ */
+        .nav {
+            position: fixed; top: 0; left: 0; right: 0; z-index: 900;
+            height: 68px; display: flex; align-items: center; justify-content: space-between;
+            padding: 0 40px;
+            background: rgba(8,13,26,0.75);
+            backdrop-filter: blur(24px) saturate(1.6);
+            -webkit-backdrop-filter: blur(24px) saturate(1.6);
+            border-bottom: 1px solid var(--border);
+            transition: height .3s var(--ease), background .3s var(--ease);
+        }
+        .nav.slim { height: 58px; background: rgba(8,13,26,0.97); }
+
+        .nav-logo { display: flex; align-items: center; gap: 10px; text-decoration: none; flex-shrink: 0; }
+        .nav-logo-box {
+            width: 34px; height: 34px;
+            background: linear-gradient(135deg, var(--g1), var(--blue));
+            border-radius: 9px; display: grid; place-items: center; font-size: 16px;
+        }
+        .nav-logo-name { font-family:'Syne',sans-serif; font-weight:800; font-size:17px; color:var(--text); letter-spacing:-.2px; }
+        .nav-logo-name em { font-style:normal; color:var(--g1); }
+
+        .nav-right { display:flex; align-items:center; gap:4px; }
+
+        .nav-link {
+            text-decoration:none; color:var(--muted);
+            font-size:14px; font-weight:500;
+            padding:7px 12px; border-radius:8px;
+            transition:color .2s, background .2s; white-space:nowrap;
+        }
+        .nav-link:hover { color:var(--text); background:var(--surface); }
+
+        .nd { position: relative; }
+
+        .nd-toggle {
+            display: flex; align-items: center; gap: 5px;
+            color: var(--muted); font-size: 14px; font-weight: 500;
+            padding: 7px 12px; border-radius: 8px; cursor: pointer;
+            text-decoration: none; white-space: nowrap;
+            transition: color .2s, background .2s;
+            user-select: none;
+        }
+        .nd-toggle:hover,
+        .nd.open .nd-toggle { color: var(--text); background: var(--surface); }
+        .nd-toggle .chev { font-size: 9px; transition: transform .22s; }
+        .nd.open .nd-toggle .chev { transform: rotate(180deg); }
+
+        .nd-menu {
+            display: none;
+            position: absolute; top: calc(100% + 8px); right: 0;
+            min-width: 196px;
+            background: var(--ink3);
+            border: 1px solid rgba(255,255,255,0.10);
+            border-radius: 14px;
+            box-shadow: 0 28px 56px rgba(0,0,0,.55);
+            overflow: hidden;
+            z-index: 9999;
+            animation: menuIn .18s var(--ease) both;
+        }
+        .nd.open .nd-menu { display: block; }
+
+        @keyframes menuIn {
+            from { opacity:0; transform:translateY(-6px); }
+            to   { opacity:1; transform:translateY(0); }
+        }
+
+        .nd-menu a {
+            display: flex; align-items: center; gap: 10px;
+            color: var(--muted); padding: 11px 16px;
+            text-decoration: none; font-size: 13px; font-weight: 500;
+            border-bottom: 1px solid rgba(255,255,255,0.06);
+            transition: color .15s, background .15s;
+        }
+        .nd-menu a:last-child { border-bottom: none; }
+        .nd-menu a:hover { color: var(--g1); background: rgba(0,229,160,.06); }
+        .nd-menu a i { width: 14px; font-size: 12px; color: var(--g1); opacity: .7; }
+
+        .nav-admin-btn {
+            display: inline-flex; align-items: center; gap: 6px;
+            text-decoration: none; font-size: 13px; font-weight: 600;
+            color: var(--text); padding: 7px 14px; border-radius: 8px;
+            border: 1px solid rgba(255,107,53,0.35);
+            background: rgba(255,107,53,0.08);
+            transition: background .2s, border-color .2s, transform .2s;
+            white-space: nowrap;
+        }
+        .nav-admin-btn:hover { background: rgba(255,107,53,0.16); border-color: rgba(255,107,53,0.6); transform: translateY(-1px); }
+        .nav-admin-btn i { color: var(--orange); font-size: 12px; }
+
+        .nav-pill {
+            font-size: 10px; font-weight: 700; letter-spacing: .5px;
+            background: linear-gradient(135deg, var(--g1), var(--blue));
+            color: var(--ink); padding: 2px 7px; border-radius: 20px;
+        }
+
+        .nav-sep { width:1px; height:22px; background:var(--border); margin:0 4px; }
+
+        /* ══════════ HERO ══════════ */
+        .hero {
+            position: relative; min-height: 100vh;
+            display: flex; align-items: center; justify-content: center;
+            text-align: center; overflow: hidden;
+        }
+        .hero-video { position:absolute; inset:0; width:100%; height:100%; object-fit:cover; z-index:0; }
+        .hero-veil {
+            position:absolute; inset:0; z-index:1;
+            background: linear-gradient(160deg, rgba(8,13,26,.9) 0%, rgba(8,13,26,.62) 45%, rgba(8,13,26,.82) 100%);
+        }
+        .orb { position:absolute; border-radius:50%; filter:blur(90px); pointer-events:none; z-index:1; }
+        .orb-a { width:520px;height:520px;background:var(--g1);opacity:.07;top:-80px;left:-80px;animation:drift 10s ease-in-out infinite; }
+        .orb-b { width:380px;height:380px;background:var(--blue);opacity:.08;bottom:-60px;right:-60px;animation:drift 13s ease-in-out infinite reverse; }
+        .orb-c { width:240px;height:240px;background:var(--purple);opacity:.06;top:45%;left:55%;animation:drift 16s ease-in-out infinite 2s; }
+        @keyframes drift { 0%,100%{transform:translate(0,0)scale(1)}40%{transform:translate(24px,-20px)scale(1.04)}70%{transform:translate(-16px,18px)scale(.97)} }
+
+        .hero-body {
+            position:relative; z-index:2; max-width:820px;
+            padding: 150px 24px 64px;
+            animation: riseIn .9s var(--ease) both;
+        }
+        @keyframes riseIn { from{opacity:0;transform:translateY(28px)}to{opacity:1;transform:translateY(0)} }
+
+        .hero-chip {
+            display:inline-flex; align-items:center; gap:7px;
+            background:rgba(0,229,160,.1); border:1px solid rgba(0,229,160,.25);
+            color:var(--g1); font-size:12px; font-weight:600;
+            padding:6px 16px; border-radius:40px; margin-bottom:28px; letter-spacing:.3px;
+        }
+        .hero-chip span { width:6px;height:6px;background:var(--g1);border-radius:50%;animation:blink 1.6s infinite; }
+        @keyframes blink { 0%,100%{opacity:1}50%{opacity:.3} }
+
+        .hero-h1 {
+            font-family:'Syne',sans-serif;
+            font-size:clamp(2.6em,5.5vw,4.2em);
+            font-weight:800; line-height:1.08; letter-spacing:-1.5px; margin-bottom:22px;
+        }
+        .hero-h1 .accent { color:var(--g1); }
+        .hero-h1 .blue   { color:var(--blue); }
+
+        .hero-sub {
+            font-size:clamp(.95em,1.6vw,1.12em); color:var(--muted);
+            max-width:600px; margin:0 auto 38px; line-height:1.78;
+        }
+        .hero-btns { display:flex; gap:12px; justify-content:center; flex-wrap:wrap; margin-bottom:60px; }
+
+        .btn-g {
+            display:inline-flex; align-items:center; gap:8px;
+            background:linear-gradient(135deg,var(--g1),var(--g2));
+            color:var(--ink); font-size:14px; font-weight:700;
+            padding:13px 30px; border-radius:50px; text-decoration:none;
+            box-shadow:0 8px 28px rgba(0,229,160,.25);
+            transition:transform .2s var(--ease),box-shadow .2s var(--ease);
+        }
+        .btn-g:hover { transform:translateY(-2px);box-shadow:0 14px 36px rgba(0,229,160,.38); }
+
+        .btn-ghost {
+            display:inline-flex; align-items:center; gap:8px;
+            background:rgba(255,255,255,.07); border:1px solid var(--border);
+            color:var(--text); font-size:14px; font-weight:600;
+            padding:13px 30px; border-radius:50px; text-decoration:none;
+            backdrop-filter:blur(8px); transition:background .2s,transform .2s var(--ease);
+        }
+        .btn-ghost:hover { background:rgba(255,255,255,.12);transform:translateY(-2px); }
+
+        .btn-line {
+            display:inline-flex; align-items:center; gap:8px;
+            border:1px solid rgba(26,107,255,.4); color:var(--blue);
+            font-size:14px; font-weight:600; padding:13px 30px; border-radius:50px;
+            text-decoration:none; transition:background .2s,transform .2s var(--ease);
+        }
+        .btn-line:hover { background:rgba(26,107,255,.08);transform:translateY(-2px); }
+
+        .hero-stats { display:flex; align-items:center; justify-content:center; flex-wrap:wrap; }
+        .hstat { display:flex; flex-direction:column; align-items:center; padding:0 36px; }
+        .hstat + .hstat { border-left:1px solid var(--border); }
+        .hstat-n { font-family:'Syne',sans-serif; font-size:2em; font-weight:800; color:var(--g1); line-height:1; }
+        .hstat-l { font-size:11px; color:var(--muted); margin-top:4px; font-weight:500; }
+
+        /* ══════════ SECTIONS ══════════ */
+        .sec { padding:110px 48px; }
+        .sec-alt { background:var(--ink2); }
+        .wrap { max-width:1200px; margin:0 auto; }
+
+        .sec-tag {
+            display:inline-flex; align-items:center; gap:8px;
+            font-size:11px; font-weight:700; letter-spacing:2.5px;
+            text-transform:uppercase; color:var(--g1); margin-bottom:14px;
+        }
+        .sec-tag::before { content:''; width:22px; height:2px; background:var(--g1); border-radius:2px; }
+        .sec-h { font-family:'Syne',sans-serif; font-size:clamp(1.9em,3.5vw,2.8em); font-weight:800; letter-spacing:-.6px; line-height:1.15; margin-bottom:14px; }
+        .sec-p { color:var(--muted); font-size:1.02em; line-height:1.75; max-width:520px; }
+        .sec-center { text-align:center; }
+        .sec-center .sec-tag { justify-content:center; }
+        .sec-center .sec-p { margin:0 auto; }
+
+        /* ══════════ TIMELINE ══════════ */
+        .timeline { position:relative; margin-top:70px; }
+        .timeline::before {
+            content:''; position:absolute; left:50%; top:0; bottom:0;
+            width:1px; background:var(--border); transform:translateX(-50%);
+        }
+        .tl-row { display:grid; grid-template-columns:1fr 56px 1fr; gap:0; align-items:start; margin-bottom:52px; }
+        .tl-row:last-child { margin-bottom:0; }
+        .tl-card {
+            background:var(--surface); border:1px solid var(--border);
+            border-radius:var(--radius); padding:28px 30px;
+            transition:border-color .25s,transform .25s var(--ease),box-shadow .25s;
+        }
+        .tl-card:hover { border-color:rgba(0,229,160,.2);transform:translateY(-3px);box-shadow:0 18px 36px rgba(0,0,0,.28); }
+        .tl-right .tl-card { grid-column:3; }
+        .tl-left  .tl-card { grid-column:1; }
+        .tl-dot-col { display:flex; align-items:flex-start; justify-content:center; padding-top:28px; }
+        .tl-dot {
+            width:38px; height:38px; border-radius:50%;
+            background:var(--ink2); border:2px solid var(--border);
+            display:grid; place-items:center; font-size:13px; color:var(--g1);
+            transition:border-color .25s,background .25s; position:relative; z-index:1;
+        }
+        .tl-row:hover .tl-dot { border-color:var(--g1);background:rgba(0,229,160,.08); }
+        .tl-num  { font-size:10px; font-weight:800; color:rgba(0,229,160,.15); font-family:'Syne',sans-serif; margin-bottom:8px; }
+        .tl-icon { width:40px; height:40px; border-radius:10px; display:grid; place-items:center; font-size:17px; margin-bottom:14px; }
+        .tl-icon.g { background:rgba(0,229,160,.08); color:var(--g1); }
+        .tl-icon.b { background:rgba(26,107,255,.08); color:var(--blue); }
+        .tl-icon.p { background:rgba(168,85,247,.08); color:var(--purple); }
+        .tl-icon.o { background:rgba(255,107,53,.08); color:var(--orange); }
+        .tl-icon.t { background:rgba(0,201,177,.08); color:var(--teal); }
+        .tl-title { font-family:'Syne',sans-serif; font-size:1.05em; font-weight:700; margin-bottom:8px; }
+        .tl-desc  { font-size:.875em; color:var(--muted); line-height:1.7; }
+        .tl-badge { display:inline-flex; align-items:center; gap:5px; font-size:11px; font-weight:600; padding:3px 10px; border-radius:20px; margin-top:12px; }
+        .tl-badge.green  { background:rgba(0,229,160,.1);  color:var(--g1); }
+        .tl-badge.red    { background:rgba(255,107,53,.1);  color:var(--orange); }
+        .tl-badge.blue   { background:rgba(26,107,255,.1);  color:var(--blue); }
+        .tl-badge.purple { background:rgba(168,85,247,.1);  color:var(--purple); }
+        .tl-badge.teal   { background:rgba(0,201,177,.1);   color:var(--teal); }
+
+        /* ══════════ FEATURE SLIDER ══════════ */
+        .slider-wrap { margin-top:64px; }
+        .slides { min-height:380px; }
+        .slide { display:none; grid-template-columns:repeat(3,1fr); gap:22px; }
+        .slide.on { display:grid; animation:fadeUp .4s var(--ease) both; }
+        @keyframes fadeUp { from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)} }
+
+        .fcard {
+            background:var(--surface); border:1px solid var(--border);
+            border-radius:var(--radius); overflow:hidden; position:relative;
+            transition:transform .25s var(--ease),border-color .25s,box-shadow .25s;
+        }
+        .fcard:hover { transform:translateY(-6px);border-color:rgba(0,229,160,.2);box-shadow:0 24px 48px rgba(0,0,0,.35); }
+
+        .fcard-img-wrap { position:relative; width:100%; height:200px; overflow:hidden; }
+        .fcard-img-wrap img {
+            width:100%; height:100%; object-fit:cover; display:block;
+            transition:transform .4s var(--ease);
+        }
+        .fcard:hover .fcard-img-wrap img { transform:scale(1.05); }
+        .fcard-img-wrap::after {
+            content:'';
+            position:absolute; inset:0;
+            background:linear-gradient(to bottom, transparent 40%, rgba(8,13,26,.7) 100%);
+        }
+
+        .fcard-icon-wrap {
+            width:100%; height:200px; display:flex; align-items:center; justify-content:center;
+            position:relative; overflow:hidden;
+        }
+        .fcard-icon-wrap::after {
+            content:''; position:absolute; inset:0;
+            background:linear-gradient(to bottom, transparent 50%, rgba(8,13,26,.6) 100%);
+        }
+        .fcard-icon-bg {
+            width:80px; height:80px; border-radius:22px;
+            display:grid; place-items:center; font-size:32px;
+            position:relative; z-index:1;
+            box-shadow:0 0 60px rgba(0,0,0,.4);
+        }
+
+        .fcard-body { padding:22px 24px; }
+        .fcard-tag { font-size:10px; font-weight:700; letter-spacing:1.5px; text-transform:uppercase; color:var(--g1); margin-bottom:8px; }
+        .fcard-h { font-family:'Syne',sans-serif; font-size:1.08em; font-weight:700; margin-bottom:8px; line-height:1.3; }
+        .fcard-p { font-size:.86em; color:var(--muted); line-height:1.68; }
+
+        .fcard-badge {
+            position:absolute; top:12px; right:12px; z-index:2;
+            background:rgba(8,13,26,.82); border:1px solid rgba(255,255,255,.12);
+            border-radius:7px; padding:4px 10px; font-size:10px; font-weight:700; color:var(--g1);
+            backdrop-filter:blur(10px);
+        }
+
+        .slider-ctrl { display:flex; align-items:center; justify-content:center; gap:14px; margin-top:36px; }
+        .s-arrow {
+            width:38px; height:38px; border-radius:50%;
+            background:var(--surface); border:1px solid var(--border);
+            display:grid; place-items:center; cursor:pointer;
+            color:var(--muted); font-size:13px;
+            transition:border-color .2s,color .2s,background .2s;
+        }
+        .s-arrow:hover { border-color:var(--g1);color:var(--g1);background:rgba(0,229,160,.06); }
+        .s-dots { display:flex; gap:7px; align-items:center; }
+        .s-dot {
+            width:7px; height:7px; border-radius:50%;
+            background:var(--border); border:none; outline:none; cursor:pointer;
+            transition:background .2s,width .2s,border-radius .2s;
+        }
+        .s-dot.on { background:var(--g1); width:22px; border-radius:4px; }
+
+        /* ══════════ LLM ARCHITECTURE SECTION ══════════ */
+        .llm-grid { display:grid; grid-template-columns:1fr 1.45fr; gap:56px; align-items:center; margin-top:60px; }
+        .llm-list { display:flex; flex-direction:column; gap:14px; }
+        .llm-item {
+            background:var(--surface); border:1px solid var(--border);
+            border-radius:var(--radius); padding:20px 22px;
+            display:flex; align-items:flex-start; gap:15px;
+            transition:border-color .2s,transform .2s var(--ease),background .2s; cursor:default;
+        }
+        .llm-item:hover { border-color:rgba(0,229,160,.2);transform:translateX(5px);background:rgba(0,229,160,.015); }
+        .llm-ico { width:40px; height:40px; border-radius:9px; display:grid; place-items:center; font-size:17px; flex-shrink:0; }
+        .llm-h { font-family:'Syne',sans-serif; font-size:.93em; font-weight:700; margin-bottom:3px; }
+        .llm-d { font-size:.81em; color:var(--muted); }
+
+        /* ── LLM Model Panel ── */
+        .llm-panel { background:var(--surface); border:1px solid var(--border); border-radius:var(--radius); padding:34px; }
+        .llm-panel-h { font-family:'Syne',sans-serif; font-size:1.05em; font-weight:700; display:flex; align-items:center; gap:10px; margin-bottom:26px; }
+        .live { width:8px; height:8px; border-radius:50%; background:var(--g1); animation:blink 1.5s infinite; }
+
+        .model-row {
+            display:flex; align-items:center; gap:14px;
+            padding:14px 0; border-bottom:1px solid var(--border);
+        }
+        .model-row:last-of-type { border-bottom:none; }
+        .model-icon {
+            width:38px; height:38px; border-radius:10px;
+            display:grid; place-items:center; font-size:15px; flex-shrink:0;
+        }
+        .model-info { flex:1; min-width:0; }
+        .model-name { font-size:13px; font-weight:700; color:var(--text); }
+        .model-role { font-size:11px; color:var(--muted); margin-top:1px; }
+        .model-badge {
+            font-size:10px; font-weight:700; padding:3px 9px; border-radius:20px; flex-shrink:0;
+        }
+        .mb-g { background:rgba(0,229,160,.1); color:var(--g1); }
+        .mb-b { background:rgba(26,107,255,.1); color:var(--blue); }
+        .mb-p { background:rgba(168,85,247,.1); color:var(--purple); }
+        .mb-o { background:rgba(255,107,53,.1); color:var(--orange); }
+        .mb-y { background:rgba(245,158,11,.1); color:#F59E0B; }
+        .mb-t { background:rgba(0,201,177,.1); color:var(--teal); }
+
+        .chip-row { display:flex; flex-wrap:wrap; gap:8px; margin-top:22px; padding-top:22px; border-top:1px solid var(--border); }
+        .chip { font-size:11px; font-weight:500; color:var(--muted); background:rgba(255,255,255,.03); border:1px solid var(--border); padding:4px 12px; border-radius:20px; }
+
+        /* ══════════ FLOW DIAGRAM SECTION ══════════ */
+        .flow-sec { padding:110px 48px; background:var(--ink); }
+        .flow-grid { display:grid; grid-template-columns:1fr 1fr; gap:48px; margin-top:60px; align-items:start; }
+
+        .flow-card {
+            background:var(--surface); border:1px solid var(--border);
+            border-radius:var(--radius); padding:32px; position:relative; overflow:hidden;
+            transition:border-color .25s,transform .25s var(--ease),box-shadow .25s;
+        }
+        .flow-card:hover { border-color:rgba(0,229,160,.18); transform:translateY(-4px); box-shadow:0 22px 44px rgba(0,0,0,.3); }
+        .flow-card::before {
+            content:''; position:absolute; top:-1px; left:0; right:0; height:2px;
+            border-radius:var(--radius) var(--radius) 0 0;
+        }
+        .flow-card.student::before { background:linear-gradient(90deg,var(--g1),var(--g2)); }
+        .flow-card.parent::before  { background:linear-gradient(90deg,var(--blue),var(--purple)); }
+
+        .flow-head { display:flex; align-items:center; gap:14px; margin-bottom:24px; }
+        .flow-head-ico {
+            width:46px; height:46px; border-radius:12px;
+            display:grid; place-items:center; font-size:20px; flex-shrink:0;
+        }
+        .flow-head-title { font-family:'Syne',sans-serif; font-size:1.12em; font-weight:800; }
+        .flow-head-sub { font-size:12px; color:var(--muted); margin-top:2px; }
+
+        .flow-steps { display:flex; flex-direction:column; gap:0; }
+        .flow-step {
+            display:flex; gap:16px; padding:14px 0;
+            border-bottom:1px solid var(--border); position:relative;
+        }
+        .flow-step:last-child { border-bottom:none; }
+        .flow-step-num {
+            width:26px; height:26px; border-radius:50%; flex-shrink:0;
+            display:grid; place-items:center;
+            font-size:11px; font-weight:800; font-family:'Syne',sans-serif;
+            margin-top:2px;
+        }
+        .step-g { background:rgba(0,229,160,.12); color:var(--g1); }
+        .step-b { background:rgba(26,107,255,.12); color:var(--blue); }
+        .flow-step-body {}
+        .flow-step-title { font-size:13px; font-weight:700; color:var(--text); margin-bottom:3px; }
+        .flow-step-desc  { font-size:12px; color:var(--muted); line-height:1.6; }
+        .flow-step-tag {
+            display:inline-flex; align-items:center; gap:4px;
+            font-size:10px; font-weight:700; padding:2px 8px; border-radius:20px; margin-top:6px;
+        }
+
+        /* ══════════ REVIEWS ══════════ */
+        .reviews-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:22px; margin-top:60px; }
+        .reviews-bot  { display:grid; grid-template-columns:1fr 1fr; gap:22px; max-width:840px; margin:22px auto 0; }
+        .rcard {
+            background:var(--surface); border:1px solid var(--border);
+            border-radius:var(--radius); padding:28px; position:relative;
+            transition:border-color .25s,transform .25s var(--ease),box-shadow .25s;
+        }
+        .rcard:hover { border-color:rgba(255,255,255,.11);transform:translateY(-4px);box-shadow:0 18px 36px rgba(0,0,0,.28); }
+        .rcard-q { position:absolute; top:18px; right:22px; font-size:2.8em; line-height:1; color:rgba(0,229,160,.07); font-family:Georgia,serif; }
+        .stars { display:flex; gap:3px; margin-bottom:14px; }
+        .stars i { font-size:12px; color:#F59E0B; }
+        .rtext { font-size:.875em; color:var(--muted); line-height:1.78; margin-bottom:22px; font-style:italic; }
+        .rauthor { display:flex; align-items:center; gap:12px; }
+        .ravatar { width:42px; height:42px; border-radius:50%; object-fit:cover; border:2px solid var(--border); }
+        .rname { font-size:13px; font-weight:700; }
+        .rrole { font-size:11px; color:var(--muted); }
+        .runiv { font-size:10px; color:var(--g1); font-weight:600; margin-top:2px; }
+
+        /* ══════════ CTA ══════════ */
+        .cta-sec { padding:130px 48px; text-align:center; position:relative; overflow:hidden; background:var(--ink); }
+        .cta-sec::before {
+            content:''; position:absolute; inset:0;
+            background:radial-gradient(ellipse 70% 55% at 50% 105%,rgba(0,229,160,.07) 0%,transparent 70%);
+            pointer-events:none;
+        }
+        .cta-inner { position:relative; z-index:1; max-width:660px; margin:0 auto; }
+        .cta-h { font-family:'Syne',sans-serif; font-size:clamp(2em,4vw,3.1em); font-weight:800; letter-spacing:-.5px; margin-bottom:18px; }
+        .cta-p { color:var(--muted); font-size:1.05em; line-height:1.75; margin-bottom:38px; }
+        .cta-btns { display:flex; gap:12px; justify-content:center; flex-wrap:wrap; }
+
+        /* ══════════ FOOTER ══════════ */
+        .footer { background:var(--ink2); border-top:1px solid var(--border); padding:36px 48px; display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:20px; }
+        .footer-logo { display:flex; align-items:center; gap:9px; text-decoration:none; }
+        .footer-logo-box { width:30px; height:30px; border-radius:8px; background:linear-gradient(135deg,var(--g1),var(--blue)); display:grid; place-items:center; font-size:14px; }
+        .footer-logo-n { font-family:'Syne',sans-serif; font-weight:800; font-size:15px; color:var(--text); }
+        .footer-logo-n em { font-style:normal; color:var(--g1); }
+        .footer-nav { display:flex; gap:22px; flex-wrap:wrap; }
+        .footer-nav a { color:var(--muted); font-size:13px; text-decoration:none; transition:color .2s; }
+        .footer-nav a:hover { color:var(--g1); }
+        .footer-c { font-size:12px; color:var(--muted); }
+
+        /* ══════════ SCROLL REVEAL ══════════ */
+        .reveal { opacity:0; transform:translateY(22px); transition:opacity .6s var(--ease),transform .6s var(--ease); }
+        .reveal.in { opacity:1; transform:translateY(0); }
+        .d1{transition-delay:.08s} .d2{transition-delay:.16s} .d3{transition-delay:.24s}
+
+        /* ══════════ TECH STACK BAND ══════════ */
+        .tech-band {
+            background:var(--ink3); border-top:1px solid var(--border); border-bottom:1px solid var(--border);
+            padding:32px 48px; overflow:hidden; position:relative;
+        }
+        .tech-band-inner { display:flex; gap:0; align-items:center; justify-content:center; flex-wrap:wrap; }
+        .tech-pill {
+            display:flex; align-items:center; gap:8px;
+            padding:10px 20px; margin:6px;
+            background:var(--surface); border:1px solid var(--border);
+            border-radius:50px; font-size:12px; font-weight:600; color:var(--muted);
+            transition:border-color .2s,color .2s,background .2s;
+        }
+        .tech-pill:hover { border-color:rgba(0,229,160,.2); color:var(--g1); background:rgba(0,229,160,.04); }
+        .tech-pill i { font-size:13px; }
+
+        /* ══════════ STATS ROW ══════════ */
+        .stats-row {
+            display:grid; grid-template-columns:repeat(4,1fr);
+            gap:1px; background:var(--border); margin-top:60px;
+            border-radius:var(--radius); overflow:hidden;
+        }
+        .stat-box {
+            background:var(--ink2); padding:36px 28px; text-align:center;
+            transition:background .25s;
+        }
+        .stat-box:hover { background:var(--ink3); }
+        .stat-n { font-family:'Syne',sans-serif; font-size:2.4em; font-weight:800; color:var(--g1); line-height:1; }
+        .stat-l { font-size:12px; color:var(--muted); margin-top:7px; font-weight:500; line-height:1.5; }
+
+        /* ══════════ RESPONSIVE ══════════ */
+        @media(max-width:1100px){
+            .nav { padding:0 24px; }
+            .nav-link { display:none; }
+        }
+        @media(max-width:1024px){
+            .llm-grid { grid-template-columns:1fr; gap:40px; }
+            .reviews-grid { grid-template-columns:1fr 1fr; }
+            .slide { grid-template-columns:1fr 1fr; }
+            .flow-grid { grid-template-columns:1fr; }
+            .stats-row { grid-template-columns:1fr 1fr; }
+        }
+        @media(max-width:768px){
+            .nav-right { gap:3px; }
+            .nav-link  { display:none; }
+            .sec { padding:70px 20px; }
+            .flow-sec { padding:70px 20px; }
+            .timeline::before { left:20px; }
+            .tl-row { grid-template-columns:40px 1fr; gap:0; }
+            .tl-dot-col { padding-top:26px; justify-content:flex-start; }
+            .tl-right .tl-card,.tl-left .tl-card { grid-column:2; }
+            .slide { grid-template-columns:1fr; }
+            .reviews-grid { grid-template-columns:1fr; }
+            .reviews-bot  { grid-template-columns:1fr; }
+            .footer { flex-direction:column; text-align:center; }
+            .stats-row { grid-template-columns:1fr 1fr; }
+        }
+        @media(max-width:480px){
+            .hero-h1 { font-size:2.2em; }
+            .hstat { padding:0 18px; }
+            .nav-admin-btn span { display:none; }
+            .stats-row { grid-template-columns:1fr; }
+        }
+    </style>
+</head>
+<body>
+
+<!-- ══════════════ NAVBAR ══════════════ -->
+<nav class="nav" id="mainNav">
+    <a href="#home" class="nav-logo">
+        <div class="nav-logo-box">🎓</div>
+        <span class="nav-logo-name">Smart<em>Edu</em>Care</span>
+    </a>
+
+    <div class="nav-right">
+        <a href="#home"         class="nav-link">Home</a>
+        <a href="#howitworks"   class="nav-link">How It Works</a>
+        <a href="#features"     class="nav-link">Features</a>
+        <a href="#ai"           class="nav-link">AI &amp; LLM</a>
+        <a href="#reviews"      class="nav-link">Reviews</a>
+
+        <div class="nav-sep"></div>
+
+        <!-- Student dropdown -->
+        <div class="nd" id="nd-student">
+            <a class="nd-toggle" href="#" onclick="return false">
+                <i class="fas fa-user-graduate" style="font-size:12px;color:var(--g1)"></i>
+                Student
+                <i class="fas fa-chevron-down chev"></i>
+            </a>
+            <div class="nd-menu">
+                <a href="/student_login"><i class="fas fa-sign-in-alt"></i> Student Login</a>
+            </div>
+        </div>
+
+        <!-- Admin separate button with dropdown -->
+        <div class="nd" id="nd-admin">
+            <a class="nav-admin-btn nd-toggle" href="#" onclick="return false">
+                <i class="fas fa-shield-alt"></i>
+                <span>Admin</span>
+                <i class="fas fa-chevron-down chev" style="font-size:9px;color:inherit;opacity:.7"></i>
+            </a>
+            <div class="nd-menu">
+                <a href="/admin_login"><i class="fas fa-tachometer-alt"></i> Admin Login</a>
+            </div>
+        </div>
+
+        <!-- University dropdown -->
+        <div class="nd" id="nd-uni">
+            <a class="nd-toggle" href="#" onclick="return false">
+                <i class="fas fa-university" style="font-size:12px;color:var(--blue)"></i>
+                University
+                <i class="fas fa-chevron-down chev"></i>
+            </a>
+            <div class="nd-menu">
+                <a href="/university_register"><i class="fas fa-university"></i> Register</a>
+                <a href="/university_login"><i class="fas fa-table"></i> Submit Student Data</a>
+            </div>
+        </div>
+
+        <!-- SmartPass dropdown -->
+        <div class="nd" id="nd-sp">
+            <a class="nd-toggle" href="#" onclick="return false">
+                SmartPass <span class="nav-pill">AI</span>
+                <i class="fas fa-chevron-down chev"></i>
+            </a>
+            <div class="nd-menu">
+                <a href="/parent_login"><i class="fas fa-id-card"></i>Login</a>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<!-- ══════════════ HERO ══════════════ -->
+<section id="home" class="hero">
+    <video autoplay muted loop playsinline class="hero-video" poster="https://via.placeholder.com/1920x1080/080D1A/00E5A0?text=SmartEduCare">
+        <source src="/static/video/course-video.mp4" type="video/mp4">
+        <source src="/static/video/course-video.webm" type="video/webm">
+    </video>
+    <div class="hero-veil"></div>
+    <div class="orb orb-a"></div>
+    <div class="orb orb-b"></div>
+    <div class="orb orb-c"></div>
+
+    <div class="hero-body">
+        <!-- ★ UPDATED: 6 LLMs -->
+        <div class="hero-chip"><span></span> Multi-LLM Powered — Education &amp; Academic Intelligence</div>
+        <h1 class="hero-h1">
+            Empowering <span class="accent">Universities</span>,<br>
+            <span class="blue">Students</span> &amp; Families
+        </h1>
+        <p style="color: white;" class="hero-sub" >
+            Intelligent university management, personalised student AI dashboards with voice &amp; text chat, automated PDF reports, and a dedicated College Rules chatbot — all in one platform powered by 6 real LLMs.
+        </p>
+        <div class="hero-btns">
+            <a href="/university_register"    class="btn-g"><i class="fas fa-university"></i> University Sign-Up</a>
+            <a href="/student_login"          class="btn-ghost"><i class="fas fa-user-graduate"></i> Student Login</a>
+            <a href="smartpass-register.html" class="btn-line"><i class="fas fa-heartbeat"></i> Get SmartPass</a>
+        </div>
+        <div class="hero-stats">
+            <!-- ★ UPDATED: 6 -->
+            <div class="hstat"><span class="hstat-n">6</span><span class="hstat-l">Live LLM Models</span></div>
+            <div class="hstat"><span class="hstat-n">3</span><span class="hstat-l">User Portals</span></div>
+            <div class="hstat"><span class="hstat-n">Voice</span><span class="hstat-l">Whisper STT / TTS</span></div>
+            <div class="hstat"><span class="hstat-n">100%</span><span class="hstat-l">Automated Flow</span></div>
+        </div>
+    </div>
+</section>
+
+<!-- ══════════════ HOW IT WORKS ══════════════ -->
+<section id="howitworks" class="sec sec-alt">
+    <div class="wrap">
+        <div class="sec-center reveal">
+            <div class="sec-tag"><i class="fas fa-route"></i> Platform Journey</div>
+            <h2 class="sec-h">How SmartEduCare Works</h2>
+            <p class="sec-p">A seamless, fully automated flow — from university onboarding to real-time student AI support, college rules chatbot, and family health monitoring.</p>
+        </div>
+        <div class="timeline">
+            <div class="tl-row tl-left reveal">
+                <div class="tl-card">
+                    <div class="tl-num">STEP 01</div>
+                    <div class="tl-icon g"><i class="fas fa-university"></i></div>
+                    <div class="tl-title">University Registration</div>
+                    <p class="tl-desc">Universities register through the secure portal. Credentials are verified and forwarded to the SmartEduCare admin for review.</p>
+                    <span class="tl-badge blue"><i class="fas fa-lock"></i> Secure Submission</span>
+                </div>
+                <div class="tl-dot-col"><div class="tl-dot"><i class="fas fa-university"></i></div></div>
+                <div></div>
+            </div>
+            <div class="tl-row tl-right reveal">
+                <div></div>
+                <div class="tl-dot-col"><div class="tl-dot"><i class="fas fa-envelope"></i></div></div>
+                <div class="tl-card">
+                    <div class="tl-num">STEP 02</div>
+                    <div class="tl-icon b"><i class="fas fa-user-check"></i></div>
+                    <div class="tl-title">Admin Review &amp; Email Response</div>
+                    <p class="tl-desc">Admin approves or rejects the application — sending login credentials on approval, or a clear reason with a reapply option on rejection.</p>
+                    <span class="tl-badge green"><i class="fas fa-check"></i> Approve → Credentials</span>
+                    <span class="tl-badge red" style="margin-left:6px"><i class="fas fa-times"></i> Reject → Reason</span>
+                </div>
+            </div>
+            <div class="tl-row tl-left reveal">
+                <div class="tl-card">
+                    <div class="tl-num">STEP 03</div>
+                    <div class="tl-icon p"><i class="fas fa-file-upload"></i></div>
+                    <div class="tl-title">Student Data Upload</div>
+                    <p class="tl-desc">Approved universities download the standard reference template, fill in all required student details, and upload the completed file securely.</p>
+                    <span class="tl-badge blue"><i class="fas fa-file-excel"></i> Standard Template</span>
+                </div>
+                <div class="tl-dot-col"><div class="tl-dot"><i class="fas fa-table"></i></div></div>
+                <div></div>
+            </div>
+            <div class="tl-row tl-right reveal">
+                <div></div>
+                <div class="tl-dot-col"><div class="tl-dot"><i class="fas fa-key"></i></div></div>
+                <div class="tl-card">
+                    <div class="tl-num">STEP 04</div>
+                    <div class="tl-icon o"><i class="fas fa-magic"></i></div>
+                    <div class="tl-title">Auto Credential Generation</div>
+                    <p class="tl-desc">Unique login credentials are automatically generated for each student and emailed to the university for distribution. Zero manual effort.</p>
+                    <span class="tl-badge purple"><i class="fas fa-bolt"></i> Fully Automated</span>
+                </div>
+            </div>
+            <div class="tl-row tl-left reveal">
+                <div class="tl-card">
+                    <div class="tl-num">STEP 05</div>
+                    <div class="tl-icon g"><i class="fas fa-robot"></i></div>
+                    <div class="tl-title">Student AI Dashboard &amp; Chatbot</div>
+                    <p class="tl-desc">Students log in to view their academic performance and chat with a personalised AI advisor — powered by LLaMA &amp; GPT-OSS via Groq — via text or voice (Whisper STT).</p>
+                    <span class="tl-badge purple"><i class="fas fa-microphone"></i> Text &amp; Voice AI</span>
+                </div>
+                <div class="tl-dot-col"><div class="tl-dot"><i class="fas fa-brain"></i></div></div>
+                <div></div>
+            </div>
+            <!-- ★ NEW STEP 06 — College Rules Chatbot -->
+            <div class="tl-row tl-right reveal">
+                <div></div>
+                <div class="tl-dot-col"><div class="tl-dot"><i class="fas fa-building-columns"></i></div></div>
+                <div class="tl-card">
+                    <div class="tl-num">STEP 06</div>
+                    <div class="tl-icon t"><i class="fas fa-book-open"></i></div>
+                    <div class="tl-title">College Rules Chatbot — LLaMA 4 Scout</div>
+                    <p class="tl-desc">Students and staff ask questions about college regulations, fee structures, hostel policies, and academic calendars. LLaMA 4 Scout 17B reads uploaded PDF/DOCX rule documents and responds with precise, document-grounded answers.</p>
+                    <span class="tl-badge teal"><i class="fas fa-file-lines"></i> PDF/DOCX Grounded</span>
+                </div>
+            </div>
+            <div class="tl-row tl-left reveal">
+                <div class="tl-card">
+                    <div class="tl-num">STEP 07</div>
+                    <div class="tl-icon b"><i class="fas fa-user-friends"></i></div>
+                    <div class="tl-title">SmartPass — Parent AI Portal</div>
+                    <p class="tl-desc">Parents access SmartPass to chat with Gemini 2.5 Flash, get polite structured answers about their child, trigger deep AI analysis via Qwen, and receive a full PDF report by email.</p>
+                    <span class="tl-badge green"><i class="fas fa-file-pdf"></i> AI PDF Report via Email</span>
+                </div>
+                <div class="tl-dot-col"><div class="tl-dot"><i class="fas fa-heart"></i></div></div>
+                <div></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ══════════════ FEATURES SLIDER ══════════════ -->
+<section id="features" class="sec">
+    <div class="wrap">
+        <div class="sec-center reveal">
+            <div class="sec-tag"><i class="fas fa-sparkles"></i> Platform Features</div>
+            <h2 class="sec-h">Everything You Need, Built In</h2>
+            <p class="sec-p">Purpose-built tools for universities, students, and families — powered by production-grade LLMs and voice AI.</p>
+        </div>
+
+        <div class="slider-wrap">
+            <div class="slides" id="slides">
+
+                <!-- SLIDE 1 -->
+                <div class="slide on">
+                    <div class="fcard reveal d1">
+                        <div class="fcard-img-wrap">
+                            <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=700&auto=format&fit=crop&q=70" alt="Personalised AI Chat">
+                        </div>
+                        <span class="fcard-badge">LLaMA</span>
+                        <div class="fcard-body">
+                            <div class="fcard-tag">Student Chat</div>
+                            <div class="fcard-h">Personalised AI Academic Advisor</div>
+                            <p class="fcard-p">LLaMA or GPT-OSS 120B loaded with your full academic context — grades, attendance, rank, college rules — for hyper-relevant instant answers.</p>
+                        </div>
+                    </div>
+                    <div class="fcard reveal d2">
+                        <div class="fcard-img-wrap">
+                            <img src="https://images.unsplash.com/photo-1562564055-71e051d33c19?w=700&auto=format&fit=crop&q=70" alt="University Management">
+                        </div>
+                        <span class="fcard-badge">Admin</span>
+                        <div class="fcard-body">
+                            <div class="fcard-tag">University Portal</div>
+                            <div class="fcard-h">Effortless University Management</div>
+                            <p class="fcard-p">Register, upload Excel student data, track approvals and distribute auto-generated credentials — everything from a single secure dashboard.</p>
+                        </div>
+                    </div>
+                    <div class="fcard reveal d3">
+                        <div class="fcard-img-wrap">
+                            <img src="https://images.unsplash.com/photo-1586769852836-bc069f19e1b6?w=700&auto=format&fit=crop&q=70" alt="SmartPass Parent Portal">
+                        </div>
+                        <span class="fcard-badge">Gemini</span>
+                        <div class="fcard-body">
+                            <div class="fcard-tag">SmartPass</div>
+                            <div class="fcard-h">Parent AI Chat &amp; TTS</div>
+                            <p class="fcard-p">Gemini 2.5 Flash gives parents polite, structured responses about their child's progress — with TTS voice output and multilingual support.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- SLIDE 2 -->
+                <div class="slide">
+                    <div class="fcard">
+                        <div class="fcard-icon-wrap" style="background:linear-gradient(135deg,rgba(26,107,255,.08),rgba(168,85,247,.08))">
+                            <div class="fcard-icon-bg" style="background:rgba(26,107,255,.12);color:var(--blue)"><i class="fas fa-microphone-alt"></i></div>
+                        </div>
+                        <span class="fcard-badge">Whisper</span>
+                        <div class="fcard-body">
+                            <div class="fcard-tag">Voice AI</div>
+                            <div class="fcard-h">Speech-to-Text Interaction</div>
+                            <p class="fcard-p">OpenAI Whisper converts voice to text for both students and parents — ask questions hands-free, get AI answers spoken back via TTS.</p>
+                        </div>
+                    </div>
+                    <div class="fcard">
+                        <div class="fcard-icon-wrap" style="background:linear-gradient(135deg,rgba(0,229,160,.08),rgba(0,184,124,.08))">
+                            <div class="fcard-icon-bg" style="background:rgba(0,229,160,.12);color:var(--g1)"><i class="fas fa-file-pdf"></i></div>
+                        </div>
+                        <span class="fcard-badge">Qwen</span>
+                        <div class="fcard-body">
+                            <div class="fcard-tag">AI Report</div>
+                            <div class="fcard-h">Automated PDF Performance Report</div>
+                            <p class="fcard-p">Qwen 3-32B analyses student data and outputs a structured JSON report — automatically converted to a polished PDF and emailed directly to parents.</p>
+                        </div>
+                    </div>
+                    <!-- ★ NEW CARD — College Rules Chatbot -->
+                    <div class="fcard">
+                        <div class="fcard-icon-wrap" style="background:linear-gradient(135deg,rgba(0,201,177,.08),rgba(0,229,160,.06))">
+                            <div class="fcard-icon-bg" style="background:rgba(0,201,177,.12);color:var(--teal)"><i class="fas fa-book-open"></i></div>
+                        </div>
+                        <span class="fcard-badge" style="color:var(--teal)">LLaMA 4</span>
+                        <div class="fcard-body">
+                            <div class="fcard-tag">College Rules</div>
+                            <div class="fcard-h">College Rules Chatbot</div>
+                            <p class="fcard-p">LLaMA 4 Scout 17B reads your college's uploaded PDF/DOCX rule documents and answers precise questions on regulations, fees, hostel policies, and academic calendars — grounded in the actual documents.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- SLIDE 3 -->
+                <div class="slide">
+                    <div class="fcard">
+                        <div class="fcard-icon-wrap" style="background:linear-gradient(135deg,rgba(168,85,247,.08),rgba(255,107,53,.06))">
+                            <div class="fcard-icon-bg" style="background:rgba(168,85,247,.12);color:var(--purple)"><i class="fas fa-layer-group"></i></div>
+                        </div>
+                        <span class="fcard-badge">Context</span>
+                        <div class="fcard-body">
+                            <div class="fcard-tag">Smart Context</div>
+                            <div class="fcard-h">Dynamic Context Builder</div>
+                            <p class="fcard-p">On login, the system automatically assembles each student's full academic profile — marks, attendance, college rules (PDF/DOCX) — as an LLM context file.</p>
+                        </div>
+                    </div>
+                    <div class="fcard">
+                        <div class="fcard-icon-wrap" style="background:linear-gradient(135deg,rgba(255,107,53,.08),rgba(245,158,11,.06))">
+                            <div class="fcard-icon-bg" style="background:rgba(255,107,53,.12);color:var(--orange)"><i class="fas fa-table"></i></div>
+                        </div>
+                        <span class="fcard-badge">Excel</span>
+                        <div class="fcard-body">
+                            <div class="fcard-tag">Data Layer</div>
+                            <div class="fcard-h">Excel-Based Dynamic Student DB</div>
+                            <p class="fcard-p">No database required — student data lives in Excel. Universities download a standard template, fill it and upload. The system parses and validates everything automatically.</p>
+                        </div>
+                    </div>
+                    <div class="fcard">
+                        <div class="fcard-img-wrap">
+                            <img src="https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?w=700&auto=format&fit=crop&q=70" alt="Data Security">
+                        </div>
+                        <span class="fcard-badge">Secure</span>
+                        <div class="fcard-body">
+                            <div class="fcard-tag">Data Security</div>
+                            <div class="fcard-h">Multi-Layer Access Control</div>
+                            <p class="fcard-p">Every portal follows strict multi-step identity verification — AISHE code, student ID, and password — ensuring academic and family data stays completely protected.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- SLIDE 4 -->
+                <div class="slide">
+                    <div class="fcard">
+                        <div class="fcard-icon-wrap" style="background:linear-gradient(135deg,rgba(0,229,160,.06),rgba(26,107,255,.08))">
+                            <div class="fcard-icon-bg" style="background:rgba(0,229,160,.1);color:var(--g1)"><i class="fas fa-globe"></i></div>
+                        </div>
+                        <span class="fcard-badge">NLP</span>
+                        <div class="fcard-body">
+                            <div class="fcard-tag">Multilingual</div>
+                            <div class="fcard-h">English, Hindi &amp; Telugu Support</div>
+                            <p class="fcard-p">All chatbots — student, college rules, and parent — respond fluently in English, Hindi, and Telugu. Ask in your language, get answers in your language, 24/7.</p>
+                        </div>
+                    </div>
+                    <div class="fcard">
+                        <div class="fcard-icon-wrap" style="background:linear-gradient(135deg,rgba(0,201,177,.06),rgba(26,107,255,.06))">
+                            <div class="fcard-icon-bg" style="background:rgba(0,201,177,.1);color:var(--teal)"><i class="fas fa-building-columns"></i></div>
+                        </div>
+                        <span class="fcard-badge" style="color:var(--teal)">Admin Upload</span>
+                        <div class="fcard-body">
+                            <div class="fcard-tag">College Documents</div>
+                            <div class="fcard-h">Admin Document Upload Portal</div>
+                            <p class="fcard-p">Admins upload PDF/DOCX rule files per college via the College Data Upload dashboard. LLaMA 4 Scout reads these documents in real time to power the College Rules chatbot.</p>
+                        </div>
+                    </div>
+                    <div class="fcard">
+                        <div class="fcard-icon-wrap" style="background:linear-gradient(135deg,rgba(168,85,247,.06),rgba(255,107,53,.06))">
+                            <div class="fcard-icon-bg" style="background:rgba(168,85,247,.1);color:var(--purple)"><i class="fas fa-bolt"></i></div>
+                        </div>
+                        <span class="fcard-badge">Groq</span>
+                        <div class="fcard-body">
+                            <div class="fcard-tag">Inference Speed</div>
+                            <div class="fcard-h">Ultra-Fast Groq Inference</div>
+                            <p class="fcard-p">All LLM calls — student chat, college rules, and deep analysis — route through Groq's ultra-low-latency API, delivering near-instant responses even on long documents.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="slider-ctrl">
+                <button class="s-arrow" id="sPrev"><i class="fas fa-chevron-left"></i></button>
+                <div class="s-dots" id="sDots"></div>
+                <button class="s-arrow" id="sNext"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ══════════════ LLM ARCHITECTURE ══════════════ -->
+<section id="ai" class="sec sec-alt">
+    <div class="wrap">
+        <div class="reveal">
+            <div class="sec-tag"><i class="fas fa-brain"></i> AI &amp; LLM</div>
+            <!-- ★ UPDATED: 6 LLMs -->
+            <h2 class="sec-h">Multi-LLM Architecture,<br>Built for Real Use</h2>
+            <p class="sec-p">Six production LLMs — each chosen for its specific strength. No generic AI wrappers. Real models, real context, real answers.</p>
+        </div>
+        <div class="llm-grid">
+            <div class="llm-list reveal">
+                <div class="llm-item">
+                    <div class="llm-ico" style="background:rgba(0,229,160,.08);color:var(--g1)"><i class="fas fa-comments"></i></div>
+                    <div>
+                        <div class="llm-h">Student Chat — LLaMA &amp; GPT-OSS 120B</div>
+                        <p class="llm-d">Two switchable LLMs via Groq power student Q&amp;A — loaded with each student's full academic context for personalised, instant responses about grades, attendance, and college rules.</p>
+                    </div>
+                </div>
+                <div class="llm-item">
+                    <div class="llm-ico" style="background:rgba(26,107,255,.08);color:var(--blue)"><i class="fas fa-user-friends"></i></div>
+                    <div>
+                        <div class="llm-h">Parent Chat — Gemini 2.5 Flash</div>
+                        <p class="llm-d">Google Gemini 2.5 Flash handles all parent interactions — polite, structured, multilingual responses plus TTS voice output powered by Gemini TTS with Groq TTS as fallback.</p>
+                    </div>
+                </div>
+                <div class="llm-item">
+                    <div class="llm-ico" style="background:rgba(168,85,247,.08);color:var(--purple)"><i class="fas fa-microphone"></i></div>
+                    <div>
+                        <div class="llm-h">Voice Input — OpenAI Whisper STT</div>
+                        <p class="llm-d">Whisper transcribes audio to text for both student and parent portals. Speak your question — the system processes it through the right LLM and speaks the answer back via TTS.</p>
+                    </div>
+                </div>
+                <div class="llm-item">
+                    <div class="llm-ico" style="background:rgba(255,107,53,.08);color:var(--orange)"><i class="fas fa-chart-bar"></i></div>
+                    <div>
+                        <div class="llm-h">Deep Analysis — Qwen 3-32B</div>
+                        <p class="llm-d">Qwen 2.5-32B-Instruct performs deep student analysis — outputting strict JSON with strengths, weaknesses, risk level, and improvement plan — which is auto-converted to a PDF report and emailed.</p>
+                    </div>
+                </div>
+                <!-- ★ NEW LLM ITEM -->
+                <div class="llm-item">
+                    <div class="llm-ico" style="background:rgba(0,201,177,.08);color:var(--teal)"><i class="fas fa-book-open"></i></div>
+                    <div>
+                        <div class="llm-h">College Rules Chatbot — LLaMA 4 Scout 17B</div>
+                        <p class="llm-d">Meta's LLaMA 4 Scout 17B (16E instruct) reads admin-uploaded PDF and DOCX college rule documents via Groq and answers precise questions about regulations, hostel policies, fee structures, and academic calendars — grounded strictly in the uploaded documents.</p>
+                    </div>
+                </div>
+                <div class="llm-item">
+                    <div class="llm-ico" style="background:rgba(245,158,11,.08);color:#F59E0B"><i class="fas fa-file-code"></i></div>
+                    <div>
+                        <div class="llm-h">Context Builder — Excel + PDF/DOCX Parser</div>
+                        <p class="llm-d">At login, the system reads student Excel data, extracts college rules from PDFs/DOCXs, and assembles a structured context file fed directly into the active LLM — zero manual prompt engineering.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="llm-panel reveal d1">
+                <div class="llm-panel-h"><div class="live"></div> Active LLM Models</div>
+
+                <div class="model-row">
+                    <div class="model-icon" style="background:rgba(0,229,160,.1)">🦙</div>
+                    <div class="model-info">
+                        <div class="model-name">LLaMA (via Groq)</div>
+                        <div class="model-role">Student Q&amp;A — Fast Inference</div>
+                    </div>
+                    <span class="model-badge mb-g">Student Chat</span>
+                </div>
+
+                <div class="model-row">
+                    <div class="model-icon" style="background:rgba(26,107,255,.1)">✨</div>
+                    <div class="model-info">
+                        <div class="model-name">GPT-OSS 120B (Groq)</div>
+                        <div class="model-role">Advanced Reasoning — Student Chat</div>
+                    </div>
+                    <span class="model-badge mb-b">Student Chat</span>
+                </div>
+
+                <div class="model-row">
+                    <div class="model-icon" style="background:rgba(168,85,247,.1)">🎤</div>
+                    <div class="model-info">
+                        <div class="model-name">OpenAI Whisper</div>
+                        <div class="model-role">Speech-to-Text — Student &amp; Parent</div>
+                    </div>
+                    <span class="model-badge mb-p">Voice STT</span>
+                </div>
+
+                <div class="model-row">
+                    <div class="model-icon" style="background:rgba(0,229,160,.08)">🤖</div>
+                    <div class="model-info">
+                        <div class="model-name">Gemini 2.5 Flash</div>
+                        <div class="model-role">Parent Chat + TTS Voice Output</div>
+                    </div>
+                    <span class="model-badge mb-g">Parent Chat</span>
+                </div>
+
+                <div class="model-row">
+                    <div class="model-icon" style="background:rgba(255,107,53,.1)">📊</div>
+                    <div class="model-info">
+                        <div class="model-name">Qwen 3-32B Instruct</div>
+                        <div class="model-role">Deep Analysis — JSON → PDF Report</div>
+                    </div>
+                    <span class="model-badge mb-o">PDF Reports</span>
+                </div>
+
+                <!-- ★ NEW MODEL ROW -->
+                <div class="model-row">
+                    <div class="model-icon" style="background:rgba(0,201,177,.1)">📋</div>
+                    <div class="model-info">
+                        <div class="model-name">LLaMA 4 Scout 17B-16E</div>
+                        <div class="model-role">College Rules Chatbot — Doc-Grounded Q&amp;A</div>
+                    </div>
+                    <span class="model-badge mb-t">Rules Bot</span>
+                </div>
+
+                <div class="chip-row">
+                    <span class="chip">Groq API</span>
+                    <span class="chip">Gemini API</span>
+                    <span class="chip">Whisper</span>
+                    <span class="chip">LLaMA 4 Scout</span>
+                    <span class="chip">reportlab</span>
+                    <span class="chip">openpyxl</span>
+                    <span class="chip">PyMuPDF</span>
+                    <span class="chip">python-docx</span>
+                    <span class="chip">Python</span>
+                    <span class="chip">Flask</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Stats Row — ★ UPDATED: 6 LLMs -->
+        <div class="stats-row reveal" style="margin-top:60px">
+            <div class="stat-box">
+                <div class="stat-n">6</div>
+                <div class="stat-l">Real LLM Models<br>Active in Production</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-n">3</div>
+                <div class="stat-l">Languages<br>English · Hindi · Telugu</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-n">0</div>
+                <div class="stat-l">Databases Required<br>Excel-Only Backend</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-n">100%</div>
+                <div class="stat-l">Automated Report<br>Generation &amp; Email</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ══════════════ STUDENT & PARENT FLOWS ══════════════ -->
+<section class="flow-sec">
+    <div class="wrap">
+        <div class="sec-center reveal">
+            <div class="sec-tag"><i class="fas fa-random"></i> User Journeys</div>
+            <h2 class="sec-h">Student, College Rules<br>&amp; Parent Step-by-Step Flows</h2>
+            <p class="sec-p">Every interaction is fully automated — from login to AI chat, voice queries, college rules lookup, and emailed PDF reports.</p>
+        </div>
+
+        <div class="flow-grid">
+            <!-- STUDENT FLOW -->
+            <div class="flow-card student reveal d1">
+                <div class="flow-head">
+                    <div class="flow-head-ico" style="background:rgba(0,229,160,.1);color:var(--g1)"><i class="fas fa-user-graduate"></i></div>
+                    <div>
+                        <div class="flow-head-title">Student Journey</div>
+                        <div class="flow-head-sub">Login → Context → Chat (Text / Voice)</div>
+                    </div>
+                </div>
+                <div class="flow-steps">
+                    <div class="flow-step">
+                        <div class="flow-step-num step-g">1</div>
+                        <div class="flow-step-body">
+                            <div class="flow-step-title">Login with AISHE Code + Student ID</div>
+                            <div class="flow-step-desc">Credentials validated against the university's uploaded Excel file. Secure multi-step verification.</div>
+                            <span class="flow-step-tag" style="background:rgba(0,229,160,.1);color:var(--g1)"><i class="fas fa-lock"></i> Excel Validation</span>
+                        </div>
+                    </div>
+                    <div class="flow-step">
+                        <div class="flow-step-num step-g">2</div>
+                        <div class="flow-step-body">
+                            <div class="flow-step-title">Select File &amp; Build AI Context</div>
+                            <div class="flow-step-desc">Student selects their data file. System fetches full academic data + college rules (PDF/DOCX) and assembles an LLM context file automatically.</div>
+                            <span class="flow-step-tag" style="background:rgba(168,85,247,.1);color:var(--purple)"><i class="fas fa-file-code"></i> Auto Context Build</span>
+                        </div>
+                    </div>
+                    <div class="flow-step">
+                        <div class="flow-step-num step-g">3</div>
+                        <div class="flow-step-body">
+                            <div class="flow-step-title">Text Chat via LLaMA / GPT-OSS</div>
+                            <div class="flow-step-desc">Ask about grades, attendance, rank, activities, rules — the LLM answers from your personal context. Switch between LLaMA and GPT-OSS 120B.</div>
+                            <span class="flow-step-tag" style="background:rgba(0,229,160,.1);color:var(--g1)"><i class="fas fa-robot"></i> LLaMA / GPT-OSS</span>
+                        </div>
+                    </div>
+                    <div class="flow-step">
+                        <div class="flow-step-num step-g">4</div>
+                        <div class="flow-step-body">
+                            <div class="flow-step-title">Voice Chat via Whisper STT</div>
+                            <div class="flow-step-desc">Speak your question. Whisper converts audio to text, routes to the active LLM, and the answer is displayed (or spoken back).</div>
+                            <span class="flow-step-tag" style="background:rgba(26,107,255,.1);color:var(--blue)"><i class="fas fa-microphone"></i> Whisper STT</span>
+                        </div>
+                    </div>
+                    <!-- ★ NEW STEP — College Rules inside student flow -->
+                    <div class="flow-step">
+                        <div class="flow-step-num step-g">5</div>
+                        <div class="flow-step-body">
+                            <div class="flow-step-title">College Rules Chatbot — LLaMA 4 Scout</div>
+                            <div class="flow-step-desc">Switch to the College Rules tab to query your institution's uploaded regulations. LLaMA 4 Scout 17B reads the admin-uploaded documents and answers with document-grounded precision.</div>
+                            <span class="flow-step-tag" style="background:rgba(0,201,177,.1);color:var(--teal)"><i class="fas fa-book-open"></i> LLaMA 4 Scout</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PARENT FLOW -->
+            <div class="flow-card parent reveal d2">
+                <div class="flow-head">
+                    <div class="flow-head-ico" style="background:rgba(26,107,255,.1);color:var(--blue)"><i class="fas fa-user-friends"></i></div>
+                    <div>
+                        <div class="flow-head-title">Parent Journey</div>
+                        <div class="flow-head-sub">Login → Chat → Analyse → PDF Email</div>
+                    </div>
+                </div>
+                <div class="flow-steps">
+                    <div class="flow-step">
+                        <div class="flow-step-num step-b">1</div>
+                        <div class="flow-step-body">
+                            <div class="flow-step-title">Login with AISHE + Student ID + Relation</div>
+                            <div class="flow-step-desc">Parent enters their child's AISHE code, student ID, and their relation (Father/Mother/etc.). Student data is fetched immediately.</div>
+                            <span class="flow-step-tag" style="background:rgba(26,107,255,.1);color:var(--blue)"><i class="fas fa-id-card"></i> Relation-Aware Login</span>
+                        </div>
+                    </div>
+                    <div class="flow-step">
+                        <div class="flow-step-num step-b">2</div>
+                        <div class="flow-step-body">
+                            <div class="flow-step-title">Chat with Gemini 2.5 Flash</div>
+                            <div class="flow-step-desc">Ask anything about your child's academic performance. Gemini responds with polite, structured, multilingual answers — tone adjusted for parents.</div>
+                            <span class="flow-step-tag" style="background:rgba(0,229,160,.1);color:var(--g1)"><i class="fas fa-robot"></i> Gemini 2.5 Flash</span>
+                        </div>
+                    </div>
+                    <div class="flow-step">
+                        <div class="flow-step-num step-b">3</div>
+                        <div class="flow-step-body">
+                            <div class="flow-step-title">Voice Chat + TTS Response</div>
+                            <div class="flow-step-desc">Speak queries via Whisper. Gemini answers are spoken aloud using Gemini TTS (Groq TTS as fallback). Full hands-free parent experience.</div>
+                            <span class="flow-step-tag" style="background:rgba(168,85,247,.1);color:var(--purple)"><i class="fas fa-volume-up"></i> Gemini TTS</span>
+                        </div>
+                    </div>
+                    <div class="flow-step">
+                        <div class="flow-step-num step-b">4</div>
+                        <div class="flow-step-body">
+                            <div class="flow-step-title">Trigger Qwen Analysis → PDF → Email</div>
+                            <div class="flow-step-desc">Click "Analyse Student" — Qwen 3-32B generates strengths, weaknesses, risk level &amp; improvement plan as JSON. reportlab builds a PDF. Sent to parent email instantly.</div>
+                            <span class="flow-step-tag" style="background:rgba(255,107,53,.1);color:var(--orange)"><i class="fas fa-file-pdf"></i> Auto PDF Email</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ══════════════ TECH STACK ══════════════ -->
+<div class="tech-band">
+    <div class="tech-band-inner">
+        <div class="tech-pill"><i class="fas fa-fire" style="color:var(--g1)"></i> Groq API</div>
+        <div class="tech-pill"><i class="fas fa-star" style="color:#4285F4"></i> Gemini 2.5 Flash</div>
+        <div class="tech-pill"><i class="fas fa-microphone" style="color:var(--purple)"></i> Whisper STT</div>
+        <div class="tech-pill"><i class="fas fa-chart-bar" style="color:var(--orange)"></i> Qwen 3-32B</div>
+        <!-- ★ NEW PILL -->
+        <div class="tech-pill"><i class="fas fa-book-open" style="color:var(--teal)"></i> LLaMA 4 Scout</div>
+        <div class="tech-pill"><i class="fas fa-file-pdf" style="color:#E53E3E"></i> reportlab</div>
+        <div class="tech-pill"><i class="fas fa-table" style="color:#1D6F42"></i> openpyxl</div>
+        <div class="tech-pill"><i class="fas fa-flask" style="color:var(--blue)"></i> Flask</div>
+        <div class="tech-pill"><i class="fab fa-python" style="color:#F7CA18"></i> Python</div>
+        <div class="tech-pill"><i class="fas fa-envelope" style="color:var(--g1)"></i> SMTP Email</div>
+    </div>
+</div>
+
+<!-- ══════════════ REVIEWS ══════════════ -->
+<section id="reviews" class="sec">
+    <div class="wrap">
+        <div class="sec-center reveal">
+            <div class="sec-tag"><i class="fas fa-star"></i> Testimonials</div>
+            <h2 class="sec-h">Trusted by Universities,<br>Students &amp; Families</h2>
+            <p class="sec-p">Real feedback from administrators, educators, students and parent users across institutions.</p>
+        </div>
+
+        <div class="reviews-grid">
+            <div class="rcard reveal d1">
+                <span class="rcard-q">"</span>
+                <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                <p class="rtext">SmartEduCare completely transformed how we onboard and manage students. The automated approval-and-email system alone saves our admin team over 20 hours every single week.</p>
+                <div class="rauthor">
+                    <img src="https://randomuser.me/api/portraits/men/4.jpg" alt="Dr. Michael Lee" class="ravatar">
+                    <div><div class="rname">Dr. Michael Lee</div><div class="rrole">University Administrator, 45</div><div class="runiv">IIT Hyderabad</div></div>
+                </div>
+            </div>
+            <div class="rcard reveal d2">
+                <span class="rcard-q">"</span>
+                <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></div>
+                <p class="rtext">The AI chatbot feels like it actually knows me — my grades, attendance, even my semester rank. I asked at midnight and got an instant, accurate answer. The voice feature is incredible.</p>
+                <div class="rauthor">
+                    <img src="https://randomuser.me/api/portraits/women/3.jpg" alt="Emily Clark" class="ravatar">
+                    <div><div class="rname">Emily Clark</div><div class="rrole">B.Tech CSE Student, 21</div><div class="runiv">JNTU Kakinada</div></div>
+                </div>
+            </div>
+            <div class="rcard reveal d3">
+                <span class="rcard-q">"</span>
+                <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></div>
+                <p class="rtext">I used SmartPass to ask Gemini about my son's attendance and got a perfectly structured answer in Telugu. Then clicked Analyse — a detailed PDF landed in my inbox in under a minute.</p>
+                <div class="rauthor">
+                    <img src="https://randomuser.me/api/portraits/men/22.jpg" alt="Ravi Kiran" class="ravatar">
+                    <div><div class="rname">Ravi Kiran</div><div class="rrole">Parent, SmartPass User</div><div class="runiv">Andhra University</div></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="reviews-bot">
+            <div class="rcard reveal d1">
+                <span class="rcard-q">"</span>
+                <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                <p class="rtext">The multi-step identity verification is beautifully engineered — AISHE code + student ID keeps data locked to the right university. Session-level LLM context that never lags.</p>
+                <div class="rauthor">
+                    <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Prof. Ramesh Naidu" class="ravatar">
+                    <div><div class="rname">Prof. Ramesh Naidu</div><div class="rrole">Head of IT Infrastructure, 52</div><div class="runiv">Andhra University</div></div>
+                </div>
+            </div>
+            <div class="rcard reveal d2">
+                <span class="rcard-q">"</span>
+                <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                <!-- ★ UPDATED review to mention College Rules chatbot -->
+                <p class="rtext">The College Rules chatbot powered by LLaMA 4 Scout is a game-changer. Students no longer need to email the office for fee or hostel queries — they just ask and get document-accurate answers instantly.</p>
+                <div class="rauthor">
+                    <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Dr. Priya Sharma" class="ravatar">
+                    <div><div class="rname">Dr. Priya Sharma</div><div class="rrole">Faculty Advisor &amp; EdTech Researcher</div><div class="runiv">AIIMS Vijayawada</div></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ══════════════ CTA ══════════════ -->
+<section id="contact" class="cta-sec">
+    <div class="cta-inner reveal">
+        <div class="sec-tag" style="justify-content:center"><i class="fas fa-rocket"></i> Get Started</div>
+        <h2 class="cta-h">Ready to Transform Your Institution?</h2>
+        <p class="cta-p">Join SmartEduCare — register your university, empower your students with real LLM-powered AI insights, give every parent the detailed academic intelligence they deserve, and let LLaMA 4 Scout handle every college rules query instantly.</p>
+        <div class="cta-btns">
+            <a href="/university_register"    class="btn-g"><i class="fas fa-university"></i> University Sign-Up</a>
+            <a href="/student_login"          class="btn-ghost"><i class="fas fa-user-graduate"></i> Student Login</a>
+            <a href="smartpass-register.html" class="btn-line"><i class="fas fa-heartbeat"></i> Get SmartPass</a>
+        </div>
+    </div>
+</section>
+
+<!-- ══════════════ FOOTER ══════════════ -->
+<footer class="footer">
+    <a href="#home" class="footer-logo">
+        <div class="footer-logo-box">🎓</div>
+        <span class="footer-logo-n">Smart<em>Edu</em>Care</span>
+    </a>
+    <nav class="footer-nav">
+        <a href="#howitworks">How It Works</a>
+        <a href="#features">Features</a>
+        <a href="#ai">AI &amp; LLM</a>
+        <a href="#reviews">Reviews</a>
+        <a href="/university_register">University</a>
+        <a href="smartpass-register.html">SmartPass</a>
+    </nav>
+    <span class="footer-c">© 2025 SmartEduCare. All rights reserved.</span>
+</footer>
+
+<script>
+/* ── Navbar slim ── */
+const mainNav = document.getElementById('mainNav');
+window.addEventListener('scroll', () => mainNav.classList.toggle('slim', window.scrollY > 50), {passive:true});
+
+/* ── Video autoplay ── */
+window.addEventListener('load', () => {
+    const v = document.querySelector('.hero-video');
+    if (v) setTimeout(() => v.play().catch(()=>{}), 120);
+});
+
+/* ── Dropdown (JS-driven) ── */
+(function() {
+    const drops = document.querySelectorAll('.nd');
+
+    function closeAll(except) {
+        drops.forEach(d => { if (d !== except) d.classList.remove('open'); });
+    }
+
+    drops.forEach(drop => {
+        const toggle = drop.querySelector('.nd-toggle');
+        toggle.addEventListener('click', function(e) {
+            e.preventDefault();
+            e.stopPropagation();
+            const isOpen = drop.classList.contains('open');
+            closeAll();
+            if (!isOpen) drop.classList.add('open');
+        });
+        drop.addEventListener('mouseleave', () => {
+            setTimeout(() => {
+                if (!drop.matches(':hover')) drop.classList.remove('open');
+            }, 120);
+        });
+    });
+
+    document.addEventListener('click', () => closeAll());
+})();
+
+/* ── Feature Slider ── */
+(function() {
+    const slides = document.querySelectorAll('#slides .slide');
+    const dotsEl  = document.getElementById('sDots');
+    let cur = 0, timer;
+
+    slides.forEach((_, i) => {
+        const d = document.createElement('button');
+        d.className = 's-dot' + (i === 0 ? ' on' : '');
+        d.onclick = () => { go(i); reset(); };
+        dotsEl.appendChild(d);
+    });
+
+    function go(n) {
+        slides[cur].classList.remove('on');
+        dotsEl.children[cur].classList.remove('on');
+        cur = (n + slides.length) % slides.length;
+        slides[cur].classList.add('on');
+        dotsEl.children[cur].classList.add('on');
+    }
+
+    function reset() { clearInterval(timer); timer = setInterval(() => go(cur + 1), 5200); }
+
+    document.getElementById('sPrev').onclick = () => { go(cur - 1); reset(); };
+    document.getElementById('sNext').onclick = () => { go(cur + 1); reset(); };
+    reset();
+})();
+
+/* ── Scroll reveal ── */
+const ro = new IntersectionObserver(
+    es => es.forEach(e => { if (e.isIntersecting) e.target.classList.add('in'); }),
+    { threshold: 0.1 }
+);
+document.querySelectorAll('.reveal').forEach(el => ro.observe(el));
+</script>
+</body>
+</html>

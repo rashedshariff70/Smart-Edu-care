@@ -1,0 +1,57 @@
+=== STUDENT INFORMATION ===
+StudentID: IITEL3YR20240011
+Name: Rohan Bansal
+Gender: Male
+Department: Electrical
+Program: B.Tech
+Year: 3rd Year
+Semester: 5th Semester
+Email: rohan.bansal@iitbombay.ac.in
+Phone: 9888196632
+DOB: 2/12/2002
+Address: City-Mumbai, PIN-261779
+Guardian_Name: Guardian_11
+Guardian_Phone: 9836588221
+Attendance: 87
+PAN_CARD: TDPJT55950473
+AISHE_Code: AISHE274377
+mid1_control_systems: 50
+mid1_electrical_distribut: 37
+mid1_electrical_machines: 38
+mid1_high_voltage_enginee: 49
+mid1_power_electronics: 49
+mid1_power_system_protect: 42
+mid1_power_systems: 45
+Mid1_Total: 310
+Mid1_Average: 44.29
+mid2_control_systems: 32
+mid2_electrical_distribut: 42
+mid2_electrical_machines: 31
+mid2_high_voltage_enginee: 37
+mid2_power_electronics: 33
+mid2_power_system_protect: 47
+mid2_power_systems: 32
+Mid2_Total: 254
+Mid2_Average: 36.29
+final_control_systems: 41
+final_electrical_distribut: 49
+final_electrical_machines: 43
+final_high_voltage_enginee: 54
+final_power_electronics: 72
+final_power_system_protect: 91
+final_power_systems: 76
+Final_Total: 426
+Final_Average: 60.86
+Overall_Average: 47.14
+Internship_Score: 86
+Project_Score: 68
+Attendance_Score: 87
+Practical_Lab_Score: 88
+Academic_Status: Pass
+Grade: D
+Feedback: Below Average
+Remarks: Consistent
+student_password: IITEL3YR202400110473
+
+=== COLLEGE RULES ===
+(No rules file uploaded yet)

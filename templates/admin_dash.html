@@ -1,0 +1,929 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Admin Dashboard — SmartEduCare (Design 2)</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=DM+Mono:wght@400;500&family=Syne:wght@600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        :root {
+            --g1:#00F5C4; --g2:#00C896;
+            --blue:#4DA8FF; --blue2:#1155FF;
+            --purple:#B47DFF; --pink:#FF6B9D;
+            --yellow:#FFCF40; --orange:#FF924D;
+            --red:#FF6070; --teal:#00E5D1;
+            --ink:#060E1C; --ink2:#0B1525;
+            --ink3:#101E30; --ink4:#162338; --ink5:#1A293F;
+            --border:rgba(255,255,255,0.07);
+            --border2:rgba(255,255,255,0.13);
+            --muted:#506882; --text:#C4D4EC; --text2:#8099BA; --text3:#4E6380;
+            --sw:240px;
+            --ease:cubic-bezier(.4,0,.2,1);
+            --bounce:cubic-bezier(.34,1.56,.64,1);
+            --font:'DM Sans',sans-serif;
+            --font-display:'Syne',sans-serif;
+            --font-mono:'DM Mono',monospace;
+        }
+        *,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+        html{height:100%;scroll-behavior:smooth;}
+        body{font-family:var(--font);background:var(--ink);color:var(--text);min-height:100vh;display:flex;overflow-x:hidden;}
+        body::after{content:'';position:fixed;inset:0;pointer-events:none;z-index:9998;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='250' height='250'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.75' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='1'/%3E%3C/svg%3E");opacity:0.022;}
+
+        /* ── SIDEBAR ── */
+        .sidebar{width:var(--sw);min-height:100vh;background:var(--ink2);border-right:1px solid var(--border);display:flex;flex-direction:column;padding:20px 14px;position:fixed;top:0;left:0;bottom:0;z-index:200;overflow-y:auto;}
+        .sidebar::before{content:'';position:absolute;top:0;left:0;right:0;height:2px;background:linear-gradient(90deg,var(--g1),var(--blue),var(--purple));}
+        .sb-logo{display:flex;align-items:center;gap:9px;text-decoration:none;margin-bottom:20px;padding:0 4px;}
+        .sb-logo-box{width:32px;height:32px;border-radius:9px;background:linear-gradient(135deg,var(--g1),var(--blue2));display:grid;place-items:center;font-size:16px;flex-shrink:0;box-shadow:0 4px 14px rgba(0,245,196,.3);}
+        .sb-logo-name{font-family:var(--font-display);font-weight:700;font-size:14px;color:var(--text);}
+        .sb-logo-name em{font-style:normal;color:var(--g1);}
+        .sb-profile{background:var(--ink3);border:1px solid var(--border);border-radius:12px;padding:16px 12px;text-align:center;margin-bottom:18px;position:relative;overflow:hidden;}
+        .sb-profile::before{content:'';position:absolute;top:0;left:0;right:0;height:36px;background:linear-gradient(135deg,rgba(0,245,196,.1),rgba(77,168,255,.1));}
+        .sb-avatar{width:52px;height:52px;border-radius:50%;object-fit:cover;border:2px solid var(--g1);display:block;margin:0 auto 8px;box-shadow:0 0 0 4px rgba(0,245,196,.1);}
+        .sb-name{font-family:var(--font-display);font-size:.84em;font-weight:700;margin-bottom:2px;}
+        .sb-email{font-size:.68em;color:var(--muted);margin-bottom:7px;word-break:break-all;}
+        .sb-badge{display:inline-flex;align-items:center;gap:4px;background:rgba(0,245,196,.08);border:1px solid rgba(0,245,196,.2);color:var(--g1);font-size:.62em;font-weight:700;padding:2px 9px;border-radius:20px;text-transform:uppercase;letter-spacing:.5px;}
+        .sb-section-label{font-size:9px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:var(--text3);padding:0 7px;margin:12px 0 4px;}
+        .sb-nav{display:flex;flex-direction:column;gap:3px;flex:1;}
+        .sb-link{display:flex;align-items:center;gap:8px;text-decoration:none;color:var(--text2);font-size:12.5px;font-weight:500;padding:8px 10px;border-radius:9px;border:1px solid transparent;transition:all .18s var(--ease);}
+        .sb-link i{width:14px;text-align:center;font-size:12px;}
+        .sb-link:hover{color:var(--text);background:rgba(255,255,255,.03);border-color:var(--border);}
+        .sb-link.active{color:var(--g1);background:rgba(0,245,196,.07);border-color:rgba(0,245,196,.18);}
+        .sb-link.s-blue:hover{color:var(--blue);background:rgba(77,168,255,.07);border-color:rgba(77,168,255,.18);}
+        .sb-link.s-green:hover{color:var(--g1);background:rgba(0,245,196,.07);border-color:rgba(0,245,196,.18);}
+        .sb-link.s-yellow:hover{color:var(--yellow);background:rgba(255,207,64,.07);border-color:rgba(255,207,64,.18);}
+        .sb-link.s-red{color:var(--muted);}
+        .sb-link.s-red:hover{color:var(--red);background:rgba(255,96,112,.07);border-color:rgba(255,96,112,.2);}
+
+        /* ── MAIN ── */
+        .main{margin-left:var(--sw);flex:1;padding:28px;min-height:100vh;position:relative;z-index:1;}
+        .page-top{display:flex;align-items:center;justify-content:space-between;margin-bottom:22px;flex-wrap:wrap;gap:10px;}
+        .page-title{font-family:var(--font-display);font-size:clamp(1.3em,2vw,1.7em);font-weight:800;}
+        .page-title span{color:var(--g1);}
+        .page-clock{font-size:11px;color:var(--muted);display:flex;align-items:center;gap:5px;font-family:var(--font-mono);}
+        .dot{width:6px;height:6px;border-radius:50%;background:var(--g1);animation:pulse 1.5s infinite;}
+        @keyframes pulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.4;transform:scale(.8)}}
+
+        /* ── STAT CARDS ── */
+        .stat-row{display:grid;grid-template-columns:repeat(4,1fr);gap:11px;margin-bottom:20px;}
+        .scard{background:var(--ink3);border:1px solid var(--border);border-radius:12px;padding:15px 17px;position:relative;overflow:hidden;transition:border-color .2s,transform .2s var(--ease);}
+        .scard:hover{border-color:var(--border2);transform:translateY(-2px);}
+        .scard::before{content:'';position:absolute;top:0;left:0;right:0;height:2px;}
+        .scard.c1::before{background:linear-gradient(90deg,var(--g1),var(--teal));}.scard.c2::before{background:linear-gradient(90deg,var(--blue),var(--purple));}.scard.c3::before{background:linear-gradient(90deg,var(--yellow),var(--orange));}.scard.c4::before{background:linear-gradient(90deg,var(--red),var(--pink));}
+        .sc-ico{width:30px;height:30px;border-radius:8px;display:grid;place-items:center;font-size:13px;margin-bottom:9px;}
+        .sc-ico.g{background:rgba(0,245,196,.1);color:var(--g1);}.sc-ico.b{background:rgba(77,168,255,.1);color:var(--blue);}.sc-ico.y{background:rgba(255,207,64,.1);color:var(--yellow);}.sc-ico.r{background:rgba(255,96,112,.1);color:var(--red);}
+        .sc-val{font-family:var(--font-display);font-size:1.5em;font-weight:800;line-height:1;margin-bottom:3px;}
+        .sc-lbl{font-size:.7em;color:var(--muted);}
+
+        /* ── CARD ── */
+        .card{background:var(--ink3);border:1px solid var(--border);border-radius:14px;padding:20px 22px;margin-bottom:16px;transition:border-color .2s;}
+        .card:hover{border-color:var(--border2);}
+        .card-hdr{display:flex;align-items:center;gap:8px;font-family:var(--font-display);font-size:.92em;font-weight:700;margin-bottom:16px;flex-wrap:wrap;}
+        .card-hdr i{color:var(--g1);font-size:12px;}
+        .card-hdr .hdr-right{margin-left:auto;font-size:11px;color:var(--muted);font-weight:400;}
+
+        /* ── UPLOAD ── */
+        .upload-zone{border:2px dashed var(--border2);border-radius:12px;padding:22px 20px;text-align:center;position:relative;cursor:pointer;transition:border-color .2s,background .2s;background:var(--ink4);}
+        .upload-zone:hover,.upload-zone.drag-over{border-color:rgba(0,245,196,.5);background:rgba(0,245,196,.04);}
+        .upload-zone input[type="file"]{position:absolute;inset:0;opacity:0;cursor:pointer;width:100%;height:100%;}
+        .uz-ico{width:40px;height:40px;border-radius:11px;background:rgba(0,245,196,.08);border:1px solid rgba(0,245,196,.2);display:grid;place-items:center;font-size:17px;color:var(--g1);margin:0 auto 10px;}
+        .uz-title{font-family:var(--font-display);font-weight:700;font-size:.88em;margin-bottom:3px;}
+        .uz-sub{font-size:.74em;color:var(--muted);}
+        .file-pills{display:flex;flex-wrap:wrap;gap:5px;margin-top:12px;justify-content:center;}
+        .file-pill{display:inline-flex;align-items:center;gap:5px;background:rgba(0,245,196,.07);border:1px solid rgba(0,245,196,.2);color:var(--g1);font-size:11px;font-weight:600;padding:3px 10px;border-radius:20px;font-family:var(--font-mono);}
+
+        /* ── SEARCH ── */
+        .search-grid{display:grid;grid-template-columns:1fr 1fr auto;gap:12px;align-items:end;}
+        .field{display:flex;flex-direction:column;gap:5px;}
+        .field label{font-size:10px;font-weight:600;letter-spacing:.7px;text-transform:uppercase;color:var(--muted);}
+        select,input[type="text"]{background:var(--ink4);border:1px solid var(--border);border-radius:9px;color:var(--text);font-family:var(--font);font-size:13px;font-weight:500;padding:10px 13px;outline:none;width:100%;transition:border-color .2s,box-shadow .2s;-webkit-appearance:none;}
+        select:focus,input[type="text"]:focus{border-color:rgba(0,245,196,.5);box-shadow:0 0 0 3px rgba(0,245,196,.08);}
+        select option{background:var(--ink3);}
+
+        /* ── BUTTONS ── */
+        .btn{display:inline-flex;align-items:center;justify-content:center;gap:6px;font-family:var(--font);font-size:12.5px;font-weight:700;padding:10px 20px;border-radius:50px;border:none;cursor:pointer;transition:transform .18s var(--ease),box-shadow .18s,filter .15s;text-decoration:none;white-space:nowrap;}
+        .btn:hover{transform:translateY(-1px);}.btn:active{transform:translateY(0);filter:brightness(.92);}
+        .btn-g{background:linear-gradient(135deg,var(--g1),var(--g2));color:var(--ink);box-shadow:0 4px 14px rgba(0,245,196,.25);}
+        .btn-g:hover{box-shadow:0 8px 24px rgba(0,245,196,.4);}
+        .btn-b{background:linear-gradient(135deg,var(--blue),var(--blue2));color:#fff;box-shadow:0 4px 14px rgba(77,168,255,.25);}
+        .btn-b:hover{box-shadow:0 8px 24px rgba(77,168,255,.4);}
+        .btn-y{background:linear-gradient(135deg,var(--yellow),var(--orange));color:var(--ink);box-shadow:0 4px 14px rgba(255,207,64,.2);}
+        .btn-y:hover{box-shadow:0 8px 24px rgba(255,207,64,.4);}
+        .btn-ghost{background:transparent;color:var(--g1);border:1px solid rgba(0,245,196,.3);}
+        .btn-ghost:hover{background:rgba(0,245,196,.07);}
+        .btn-red-ghost{background:transparent;color:var(--red);border:1px solid rgba(255,96,112,.25);}
+        .btn-red-ghost:hover{background:rgba(255,96,112,.07);}
+        .btn-sm{padding:7px 14px;font-size:11.5px;}
+        .btn-full{width:100%;}
+        .btn-upload{background:linear-gradient(135deg,var(--purple),var(--blue2));color:#fff;box-shadow:0 4px 14px rgba(180,125,255,.25);}
+
+        /* ── ALERTS ── */
+        .alert{display:flex;align-items:center;gap:8px;border-radius:9px;padding:10px 14px;margin-bottom:14px;font-size:12.5px;font-weight:500;animation:fadeSlide .3s var(--ease) both;}
+        @keyframes fadeSlide{from{opacity:0;transform:translateY(-5px)}to{opacity:1;transform:translateY(0)}}
+        .alert i{flex-shrink:0;}
+        .alert-ok{background:rgba(0,245,196,.07);border:1px solid rgba(0,245,196,.22);color:var(--g1);}
+        .alert-err{background:rgba(255,96,112,.07);border:1px solid rgba(255,96,112,.22);color:var(--red);}
+        .alert-warn{background:rgba(255,207,64,.07);border:1px solid rgba(255,207,64,.22);color:var(--yellow);}
+        .result-meta{display:flex;align-items:center;gap:6px;font-size:11.5px;margin-top:10px;}
+
+        /* ════════════════════════════════════════════════
+           DESIGN 2 — RECORD LAYOUT
+           Left: narrow Modify Panel
+           Right: TAB SLIDER — each tab = one group of fields
+        ════════════════════════════════════════════════ */
+        .record-layout {
+            display: grid;
+            grid-template-columns: 230px 1fr;
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            overflow: hidden;
+            background: var(--ink3);
+            margin-bottom: 16px;
+            animation: fadeSlide .35s var(--ease) both;
+        }
+
+        /* LEFT PANEL */
+        .mp{background:var(--ink2);border-right:1px solid var(--border);padding:18px 16px;display:flex;flex-direction:column;gap:12px;}
+        .mp-head{font-family:var(--font-display);font-size:.84em;font-weight:700;color:var(--g1);display:flex;align-items:center;gap:7px;padding-bottom:12px;border-bottom:1px solid var(--border);}
+        .mp-label{font-size:9.5px;font-weight:600;letter-spacing:.7px;text-transform:uppercase;color:var(--muted);margin-bottom:4px;display:flex;align-items:center;gap:4px;}
+        .mp select,.mp input[type="text"]{background:var(--ink3);border:1px solid var(--border);font-size:12px;padding:9px 11px;}
+        .mp select:focus,.mp input[type="text"]:focus{border-color:rgba(0,245,196,.45);box-shadow:0 0 0 3px rgba(0,245,196,.08);}
+        .mp select option{background:var(--ink2);}
+        .cur-chip{background:var(--ink3);border:1px solid var(--border);border-radius:8px;padding:8px 11px;font-size:12px;color:var(--text2);display:flex;align-items:flex-start;gap:6px;min-height:36px;word-break:break-all;line-height:1.5;}
+        .cur-chip i{color:var(--muted);font-size:10px;margin-top:2px;flex-shrink:0;}
+        .cur-chip .cc-val{color:var(--text);font-family:var(--font-mono);font-size:11.5px;}
+        .add-btn{display:flex;align-items:center;justify-content:center;gap:6px;background:rgba(0,245,196,.06);border:1px dashed rgba(0,245,196,.3);border-radius:9px;padding:9px;font-size:12px;font-weight:700;color:var(--g1);cursor:pointer;transition:all .18s;user-select:none;}
+        .add-btn:hover{background:rgba(0,245,196,.12);border-color:rgba(0,245,196,.55);}
+        .q-title{font-size:9.5px;font-weight:600;letter-spacing:1px;text-transform:uppercase;color:var(--muted);}
+        .q-empty{font-size:11.5px;color:var(--muted);text-align:center;padding:12px;border:1px dashed var(--border);border-radius:8px;}
+        .q-list{display:flex;flex-direction:column;gap:6px;max-height:180px;overflow-y:auto;}
+        .q-row{background:var(--ink3);border:1px solid var(--border);border-radius:9px;padding:8px 10px;position:relative;animation:fadeSlide .2s var(--ease) both;}
+        .q-row .qr-col{font-size:9.5px;font-weight:700;text-transform:uppercase;color:var(--muted);margin-bottom:2px;}
+        .q-row .qr-old{font-size:10.5px;color:var(--text2);margin-bottom:3px;}
+        .q-row .qr-old span{color:var(--text);font-family:var(--font-mono);}
+        .q-row .qr-new{font-size:12px;font-weight:600;color:var(--g1);font-family:var(--font-mono);}
+        .q-row .qr-rm{position:absolute;top:7px;right:7px;background:rgba(255,96,112,.1);border:none;color:var(--red);width:20px;height:20px;border-radius:5px;cursor:pointer;font-size:9px;display:grid;place-items:center;transition:background .15s;}
+        .q-row .qr-rm:hover{background:rgba(255,96,112,.22);}
+        .mp-foot{display:flex;flex-direction:column;gap:7px;margin-top:2px;padding-top:10px;border-top:1px solid var(--border);}
+
+        /* ── RIGHT: SLIDE TAB PANEL ── */
+        .rr { display: flex; flex-direction: column; overflow: hidden; min-height: 460px; }
+
+        /* Top header bar */
+        .rr-head {
+            display: flex; align-items: center; gap: 8px;
+            padding: 12px 18px 10px;
+            border-bottom: 1px solid var(--border);
+            font-family: var(--font-display);
+            font-size: .86em; font-weight: 700;
+            flex-wrap: wrap;
+        }
+        .rr-head i { color: var(--g1); }
+        .pin-badge { display:inline-flex; align-items:center; gap:4px; background:rgba(0,245,196,.08); border:1px solid rgba(0,245,196,.2); color:var(--g1); font-size:9.5px; font-weight:700; padding:2px 8px; border-radius:20px; }
+        .rr-meta { margin-left:auto; font-size:10px; color:var(--muted); font-family:var(--font-mono); }
+
+        /* TAB STRIP */
+        .tab-strip {
+            display: flex;
+            align-items: stretch;
+            border-bottom: 1px solid var(--border);
+            background: var(--ink2);
+            overflow-x: auto;
+            flex-shrink: 0;
+            scrollbar-width: none;
+        }
+        .tab-strip::-webkit-scrollbar { display: none; }
+
+        .tab-btn {
+            display: flex; align-items: center; gap: 6px;
+            padding: 10px 16px;
+            font-family: var(--font);
+            font-size: 11.5px; font-weight: 600;
+            color: var(--text2);
+            background: transparent;
+            border: none; border-bottom: 2px solid transparent;
+            cursor: pointer;
+            white-space: nowrap;
+            transition: color .18s, border-color .18s, background .18s;
+            position: relative;
+        }
+        .tab-btn i { font-size: 11px; }
+        .tab-btn .tab-count {
+            background: rgba(255,255,255,.06);
+            color: var(--text3);
+            font-size: 9.5px; font-weight: 600;
+            padding: 1px 6px; border-radius: 10px;
+        }
+        .tab-btn:hover { color: var(--text); background: rgba(255,255,255,.03); }
+        .tab-btn.active { color: var(--g1); border-bottom-color: var(--g1); }
+        .tab-btn.active .tab-count { background: rgba(0,245,196,.1); color: var(--g1); }
+
+        /* SLIDE CONTAINER */
+        .slide-viewport {
+            flex: 1;
+            overflow: hidden;
+            position: relative;
+        }
+        .slide-track {
+            display: flex;
+            height: 100%;
+            transition: transform .32s var(--ease);
+        }
+        .slide-panel {
+            min-width: 100%;
+            height: 100%;
+            overflow-y: auto;
+            padding: 14px 16px;
+        }
+
+        /* FIELDS INSIDE EACH SLIDE */
+        .slide-fields {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 8px;
+        }
+
+        .sf-cell {
+            background: var(--ink4);
+            border: 1px solid var(--border);
+            border-radius: 10px;
+            padding: 11px 12px;
+            position: relative;
+            cursor: default;
+            transition: background .12s, border-color .2s;
+        }
+        .sf-cell:hover { background: var(--ink5); border-color: var(--border2); }
+        .sf-cell.editing { background: rgba(0,245,196,.04) !important; border-color: rgba(0,245,196,.4) !important; box-shadow: 0 0 0 2px rgba(0,245,196,.06); }
+
+        .sf-col {
+            font-size: 9.5px; font-weight: 600;
+            letter-spacing: .5px; text-transform: uppercase;
+            color: var(--muted); margin-bottom: 5px;
+            display: flex; align-items: center; justify-content: space-between;
+        }
+        .sf-edit-ico {
+            display: none;
+            background: rgba(0,245,196,.1);
+            border: 1px solid rgba(0,245,196,.25);
+            border-radius: 4px;
+            color: var(--g1);
+            font-size: 9px;
+            padding: 1px 6px;
+            cursor: pointer;
+            align-items: center; gap: 3px;
+            transition: all .15s;
+        }
+        .sf-cell:hover .sf-edit-ico { display: inline-flex; }
+        .sf-edit-ico:hover { background: rgba(0,245,196,.2); }
+
+        .sf-val {
+            font-size: 13px;
+            font-family: var(--font-mono);
+            font-weight: 500;
+            color: var(--text);
+            word-break: break-all;
+            line-height: 1.45;
+            min-height: 18px;
+        }
+        .sf-val.empty { color: var(--text3); font-style: italic; font-size: 11px; font-family: var(--font); }
+        .sf-val.changed { color: var(--g1); }
+
+        .sf-input {
+            background: transparent; border: none; outline: none;
+            color: var(--g1); font-family: var(--font-mono);
+            font-size: 13px; font-weight: 600;
+            width: 100%; padding: 0;
+            border-bottom: 1.5px solid var(--g1);
+        }
+
+        /* SLIDE NAV ARROWS */
+        .slide-nav {
+            display: flex; align-items: center; justify-content: space-between;
+            padding: 8px 16px;
+            border-top: 1px solid var(--border);
+            background: var(--ink2);
+        }
+        .slide-nav-arrows { display: flex; gap: 6px; }
+        .arrow-btn {
+            width: 30px; height: 30px;
+            border-radius: 8px;
+            background: var(--ink4);
+            border: 1px solid var(--border);
+            color: var(--text2);
+            font-size: 11px;
+            display: grid; place-items: center;
+            cursor: pointer;
+            transition: all .15s;
+        }
+        .arrow-btn:hover { background: rgba(0,245,196,.08); border-color: rgba(0,245,196,.3); color: var(--g1); }
+        .arrow-btn:disabled { opacity: .3; cursor: not-allowed; }
+
+        .slide-progress {
+            display: flex; align-items: center; gap: 5px;
+        }
+        .prog-dot {
+            width: 5px; height: 5px;
+            border-radius: 50%;
+            background: var(--border2);
+            transition: all .2s;
+            cursor: pointer;
+        }
+        .prog-dot.active { background: var(--g1); width: 14px; border-radius: 3px; }
+
+        .slide-nav-info {
+            font-size: 11px; color: var(--muted); font-family: var(--font-mono);
+        }
+        .slide-nav-info span { color: var(--g1); font-weight: 600; }
+
+        /* save bar */
+        .save-bar{display:flex;align-items:center;gap:10px;padding:10px 18px;border-top:1px solid var(--border);background:var(--ink4);flex-wrap:wrap;}
+        .save-bar-info{font-size:11px;color:var(--muted);flex:1;}
+        .save-bar-info span{color:var(--g1);font-weight:700;}
+
+        /* PATH HINT */
+        .path-hint{display:inline-flex;align-items:center;gap:6px;background:rgba(0,245,196,.04);border:1px solid rgba(0,245,196,.12);border-radius:7px;padding:5px 10px;font-size:11px;color:var(--text2);margin-bottom:14px;}
+        .path-hint i{color:var(--g1);font-size:10px;}
+        .path-hint code{background:rgba(255,255,255,.05);padding:1px 5px;border-radius:3px;font-size:10.5px;color:var(--g1);font-family:var(--font-mono);}
+
+        /* view-all strip */
+        .view-all-strip{background:var(--ink3);border:1px solid var(--border);border-radius:13px;padding:14px 20px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:10px;margin-bottom:16px;}
+        .vas-title{font-family:var(--font-display);font-weight:700;font-size:.86em;margin-bottom:2px;}
+        .vas-sub{font-size:.74em;color:var(--muted);}
+
+        /* all table */
+        .tbl-wrap{overflow-x:auto;border-radius:9px;}
+        table{width:100%;border-collapse:collapse;font-size:12px;}
+        thead tr{background:var(--ink4);border-bottom:1px solid var(--border);}
+        thead th{padding:10px 13px;text-align:left;font-size:9.5px;font-weight:600;letter-spacing:.6px;text-transform:uppercase;color:var(--muted);white-space:nowrap;}
+        tbody tr{border-bottom:1px solid var(--border);transition:background .12s;}
+        tbody tr:last-child{border-bottom:none;}
+        tbody tr:hover{background:rgba(255,255,255,.02);}
+        tbody td{padding:9px 13px;color:var(--text2);}
+        tbody td:first-child{color:var(--text);font-weight:600;font-family:var(--font-mono);font-size:11px;}
+
+        /* MODAL */
+        .modal-bg{display:none;position:fixed;inset:0;z-index:9999;background:rgba(6,14,28,.88);backdrop-filter:blur(8px);align-items:center;justify-content:center;}
+        .modal-bg.show{display:flex;}
+        .modal{background:var(--ink2);border:1px solid var(--border2);border-radius:18px;padding:28px 30px 24px;max-width:440px;width:92%;position:relative;animation:mPop .24s var(--bounce) both;}
+        @keyframes mPop{from{opacity:0;transform:scale(.9) translateY(14px)}to{opacity:1;transform:scale(1) translateY(0)}}
+        .modal::before{content:'';position:absolute;top:0;left:0;right:0;height:2px;background:linear-gradient(90deg,var(--yellow),var(--orange));border-radius:18px 18px 0 0;}
+        .m-ico{width:44px;height:44px;border-radius:50%;background:rgba(255,207,64,.1);border:1px solid rgba(255,207,64,.25);display:grid;place-items:center;font-size:18px;color:var(--yellow);margin:0 auto 12px;}
+        .m-title{font-family:var(--font-display);font-size:1.08em;font-weight:700;text-align:center;margin-bottom:6px;}
+        .m-sub{font-size:.8em;color:var(--muted);text-align:center;line-height:1.6;margin-bottom:16px;}
+        .m-summary{background:var(--ink3);border:1px solid var(--border);border-radius:9px;padding:12px 14px;margin-bottom:16px;font-size:12px;color:var(--text2);line-height:2.1;max-height:200px;overflow-y:auto;}
+        .m-summary strong{color:var(--text);}
+        .m-btns{display:flex;gap:9px;}
+        .m-btns .btn{flex:1;}
+
+        .design-label{display:inline-flex;align-items:center;gap:6px;background:rgba(77,168,255,.08);border:1px solid rgba(77,168,255,.2);color:var(--blue);font-size:11px;font-weight:700;padding:4px 12px;border-radius:20px;margin-bottom:16px;}
+
+        @media(max-width:960px){.record-layout{grid-template-columns:1fr;}.mp{border-right:none;border-bottom:1px solid var(--border);}}
+        @media(max-width:700px){.slide-fields{grid-template-columns:repeat(2,1fr);}.search-grid{grid-template-columns:1fr;}.stat-row{grid-template-columns:repeat(2,1fr);}}
+        @media(max-width:480px){.slide-fields{grid-template-columns:1fr;}}
+    </style>
+</head>
+<body>
+
+<!-- SIDEBAR -->
+<aside class="sidebar">
+    <a class="sb-logo" href="/admin_dash">
+        <div class="sb-logo-box">🎓</div>
+        <span class="sb-logo-name">Smart<em>Edu</em>Care</span>
+    </a>
+    {% load static %}
+    <div class="sb-profile">
+        <img src="{% static 'data/uploads/admin_image/Admin.jpeg' %}" alt="Admin" class="sb-avatar">
+        <div class="sb-name">Administrator</div>
+        <div class="sb-email">SHARIFF@smarteducare.ai</div>
+        <span class="sb-badge"><i class="fas fa-shield-alt"></i> Super Admin</span>
+    </div>
+    <nav class="sb-nav">
+        <div class="sb-section-label">Management</div>
+        <a href="/admin_dash" class="sb-link active"><i class="fas fa-tachometer-alt"></i> Dashboard</a>
+        <a href="/admin_new_request" class="sb-link s-blue"><i class="fas fa-bell"></i> New Requests</a>
+        <a href="/admin_correct_data" class="sb-link s-blue"><i class="fas fa-edit"></i> Correct Data</a>
+        <a href="/approved_show" class="sb-link s-green"><i class="fas fa-check-circle"></i> Approved</a>
+        <a href="/college_data_upload" class="sb-link s-green" ><i class="fas fa-check-circle"></i>upload college data</a>
+        <a href="/student_data-send" class="sb-link s-yellow"><i class="fas fa-paper-plane"></i> Send Data</a>
+        <div class="sb-section-label" style="margin-top:12px">Account</div>
+        <a href="{% url 'home' %}" class="sb-link s-red"><i class="fas fa-sign-out-alt"></i> Logout</a>
+    </nav>
+</aside>
+
+<main class="main">
+    <div class="page-top">
+        <h1 class="page-title">Admin <span>Dashboard</span></h1>
+        <div class="page-clock"><span class="dot"></span><span id="liveClock"></span></div>
+    </div>
+
+    <div class="design-label"><i class="fas fa-layer-group"></i> Slide Tab Viewer</div>
+
+    {% if messages %}
+        {% for message in messages %}
+        <div class="alert {% if message.tags == 'success' %}alert-ok{% elif message.tags == 'error' %}alert-err{% else %}alert-warn{% endif %}">
+            <i class="fas {% if message.tags == 'success' %}fa-check-circle{% elif message.tags == 'error' %}fa-times-circle{% else %}fa-exclamation-triangle{% endif %}"></i>
+            {{ message }}
+        </div>
+        {% endfor %}
+    {% endif %}
+
+    <!-- STAT CARDS -->
+    <div class="stat-row">
+        <div class="scard c1"><div class="sc-ico g"><i class="fas fa-folder-open"></i></div><div class="sc-val" style="color:var(--g1)">{{ universities|length|default:"0" }}</div><div class="sc-lbl">Files Loaded</div></div>
+        <div class="scard c2"><div class="sc-ico b"><i class="fas fa-user-graduate"></i></div><div class="sc-val" style="color:var(--blue)">{{ all_data|length|default:"—" }}</div><div class="sc-lbl">Students Shown</div></div>
+        <div class="scard c3"><div class="sc-ico y"><i class="fas fa-table-columns"></i></div><div class="sc-val" style="color:var(--yellow)">{{ col_pairs|length|default:"—" }}</div><div class="sc-lbl">Columns</div></div>
+        <div class="scard c4"><div class="sc-ico r"><i class="fas fa-check-double"></i></div><div class="sc-val" style="color:var(--g1)">—</div><div class="sc-lbl">Approved</div></div>
+    </div>
+
+    <!-- UPLOAD -->
+    <div class="card">
+        <div class="card-hdr"><i class="fas fa-cloud-upload-alt"></i> Step 1 — Upload File <span class="hdr-right">.xlsx · .xls · .csv</span></div>
+        <div class="path-hint">
+            <i class="fas fa-folder-open"></i> 
+            <strong style="color:var(--g1)">Save Location:</strong> 
+            <code>{{ upload_path|default:"static/data/uploads/university_data/" }}</code>
+        </div>
+        <form method="POST" enctype="multipart/form-data" id="uploadForm">
+    
+            {% csrf_token %}
+            <input type="hidden" name="action" value="upload">
+            <div class="upload-zone" id="uploadZone">
+                <input type="file" name="files" id="fileInput" accept=".csv,.xlsx,.xls" multiple onchange="handleFileSelect(this)">
+                <div class="uz-ico"><i class="fas fa-file-upload"></i></div>
+                <div class="uz-title">Drag &amp; drop or click to browse</div>
+                <div class="uz-sub">Supported formats: Excel (.xlsx, .xls) and CSV (.csv)</div>
+                <div class="file-pills" id="filePills"></div>
+            </div>
+            <div style="margin-top:12px;display:flex;gap:10px;align-items:center">
+                <button type="submit" class="btn btn-upload" id="uploadBtn"><i class="fas fa-upload"></i> Upload Files</button>
+                <span style="font-size:11.5px;color:var(--muted)" id="fileCountLabel"></span>
+            </div>
+        </form>
+    </div>
+
+    <!-- SEARCH -->
+    <div class="card">
+        <div class="card-hdr"><i class="fas fa-search"></i> Step 2 — Search Student
+            {% if universities %}<span class="hdr-right"><i class="fas fa-folder-open" style="color:var(--g1)"></i> {{ universities|length }} file(s) available</span>
+            {% else %}<span class="hdr-right" style="color:var(--red)"><i class="fas fa-exclamation-triangle"></i> No files uploaded yet</span>{% endif %}
+        </div>
+        <form method="GET">
+            <div class="search-grid">
+                <div class="field">
+                    <label><i class="fas fa-file"></i> Choose File</label>
+                    <select name="university" onchange="this.form.submit()">
+                        <option value="">— Select a file to search —</option>
+                        {% for uni in universities %}<option value="{{ uni }}" {% if uni == selected_uni %}selected{% endif %}>{{ uni }}</option>{% endfor %}
+                    </select>
+                </div>
+                <div class="field">
+                    <label><i class="fas fa-id-card"></i> Student ID / Roll No.</label>
+                    <input type="text" name="roll_no" placeholder="e.g. BITSCIVIL3YR20240010" value="{{ roll_no }}" {% if not selected_uni %}disabled{% endif %}>
+                </div>
+                <div class="field">
+                    <label>&nbsp;</label>
+                    <button type="submit" class="btn btn-g" {% if not selected_uni %}disabled style="opacity:.5"{% endif %}><i class="fas fa-search"></i> Search</button>
+                </div>
+            </div>
+            {% if show_all %}<input type="hidden" name="show_all" value="1">{% endif %}
+            {% if search_done and not student_data and roll_no %}
+                <div class="result-meta" style="color:var(--red);margin-top:10px"><i class="fas fa-times-circle"></i> No record found for <strong style="color:var(--text);margin:0 3px">{{ roll_no }}</strong> in <strong style="color:var(--text)">{{ selected_uni }}</strong></div>
+            {% elif search_done and student_data %}
+                <div class="result-meta" style="color:var(--g1);margin-top:10px"><i class="fas fa-check-circle"></i> Found — <strong style="color:var(--text);margin:0 3px">{{ roll_no }}</strong> in <strong style="color:var(--text)">{{ selected_uni }}</strong></div>
+            {% endif %}
+        </form>
+    </div>
+
+    <!-- STUDENT RECORD -->
+    {% if search_done and student_data %}
+    <div id="colStore" style="display:none" aria-hidden="true">
+        {% for col, val in col_pairs %}<span data-col="{{ col|escapejs }}" data-val="{{ val|escapejs }}"></span>{% endfor %}
+    </div>
+
+    <div class="record-layout" id="resultCard">
+
+        <!-- LEFT: MODIFY PANEL -->
+        <div class="mp">
+            <div class="mp-head"><i class="fas fa-pen-to-square"></i> Modify Record</div>
+            <div>
+                <div class="mp-label"><i class="fas fa-table-columns" style="color:var(--blue)"></i> Step A — Column</div>
+                <select id="colPicker">
+                    <option value="">— Choose column —</option>
+                    {% for col, val in col_pairs %}<option value="{{ col }}">{{ col }}</option>{% endfor %}
+                </select>
+            </div>
+            <div>
+                <div class="mp-label"><i class="fas fa-info-circle"></i> Current Value</div>
+                <div class="cur-chip"><i class="fas fa-arrow-pointer"></i><span class="cc-val" id="curChipVal" style="color:var(--muted);font-style:italic">Select a column</span></div>
+            </div>
+            <div>
+                <div class="mp-label"><i class="fas fa-arrow-right-arrow-left" style="color:var(--g1)"></i> Step B — New Value</div>
+                <input type="text" id="newValInput" placeholder="Replacement value…" autocomplete="off" onkeydown="if(event.key==='Enter'){event.preventDefault();addChange();}">
+            </div>
+            <div class="add-btn" onclick="addChange()" role="button" tabindex="0" onkeydown="if(event.key==='Enter')addChange()">
+                <i class="fas fa-plus-circle"></i> Add to Queue
+            </div>
+            <div class="q-title">Queued Changes</div>
+            <div id="queueWrap">
+                <div class="q-empty" id="qEmpty">No changes queued yet</div>
+                <div class="q-list" id="qList"></div>
+            </div>
+            <form method="POST" id="modForm">
+                {% csrf_token %}
+                <input type="hidden" name="university" value="{{ selected_uni }}">
+                <input type="hidden" name="roll_no" value="{{ roll_no }}">
+                <div id="hiddenFields"></div>
+            </form>
+            <div class="mp-foot">
+                <button type="button" class="btn btn-y btn-sm btn-full" onclick="openModal()"><i class="fas fa-eye"></i> Review &amp; Save</button>
+                <button type="button" class="btn btn-red-ghost btn-sm btn-full" onclick="clearQueue()"><i class="fas fa-trash-alt"></i> Clear Queue</button>
+            </div>
+        </div>
+
+        <!-- RIGHT: SLIDE TAB PANEL -->
+        <div class="rr">
+            <div class="rr-head">
+                <i class="fas fa-id-card"></i> Student Record
+                <span class="pin-badge"><span class="dot"></span> Live</span>
+                <span class="rr-meta">{{ selected_uni }} · #{{ roll_no }}</span>
+            </div>
+
+            <!-- Tab strip -->
+            <div class="tab-strip" id="tabStrip"></div>
+
+            <!-- Slide viewport -->
+            <div class="slide-viewport">
+                <div class="slide-track" id="slideTrack"></div>
+            </div>
+
+            <!-- Nav bar -->
+            <div class="slide-nav">
+                <div class="slide-nav-arrows">
+                    <button class="arrow-btn" id="prevBtn" onclick="slideTo(currentSlide-1)" title="Previous"><i class="fas fa-chevron-left"></i></button>
+                    <button class="arrow-btn" id="nextBtn" onclick="slideTo(currentSlide+1)" title="Next"><i class="fas fa-chevron-right"></i></button>
+                </div>
+                <div class="slide-progress" id="slideProgress"></div>
+                <div class="slide-nav-info" id="slideInfo">Section <span id="slideNum">1</span> of <span id="slideTotal">—</span></div>
+            </div>
+
+            <div class="save-bar">
+                <div class="save-bar-info"><span id="qCount">0</span> change(s) queued — click any cell to edit inline</div>
+                <button type="button" class="btn btn-g btn-sm" onclick="openModal()"><i class="fas fa-floppy-disk"></i> Save All</button>
+            </div>
+        </div>
+    </div>
+    {% endif %}
+
+    <!-- VIEW ALL -->
+    {% if not show_all and selected_uni %}
+    <div class="view-all-strip">
+        <div><div class="vas-title">View All Students</div><div class="vas-sub">Browse every record in <strong style="color:var(--text)">{{ selected_uni }}</strong></div></div>
+        <form method="GET">
+            <input type="hidden" name="university" value="{{ selected_uni }}">
+            <input type="hidden" name="roll_no" value="{{ roll_no }}">
+            <input type="hidden" name="show_all" value="1">
+            <button type="submit" class="btn btn-b"><i class="fas fa-table"></i> View All Records</button>
+        </form>
+    </div>
+    {% endif %}
+
+    <!-- ALL STUDENTS TABLE -->
+    {% if show_all and all_data and all_headers %}
+    <div class="card">
+        <div class="card-hdr"><i class="fas fa-users"></i> All Students — {{ selected_uni }}<span class="hdr-right">{{ all_data|length }} record(s)</span></div>
+        <div style="margin-bottom:12px"><input type="text" id="tableSearch" placeholder="🔍 Filter records…" oninput="filterTable(this.value)" style="max-width:300px"></div>
+        <div class="tbl-wrap">
+            <table id="allTable">
+                <thead><tr>{% for h in all_headers %}<th>{{ h }}</th>{% endfor %}</tr></thead>
+                <tbody>{% for row in all_data %}<tr>{% for cell in row %}<td>{{ cell }}</td>{% endfor %}</tr>{% endfor %}</tbody>
+            </table>
+        </div>
+        <div style="margin-top:12px;font-size:11px;color:var(--muted)" id="tableRowCount">Showing {{ all_data|length }} record(s)</div>
+    </div>
+    {% endif %}
+</main>
+
+<!-- CONFIRM MODAL -->
+<div class="modal-bg" id="confirmModal">
+    <div class="modal">
+        <div class="m-ico"><i class="fas fa-pen-to-square"></i></div>
+        <div class="m-title">Confirm Changes</div>
+        <div class="m-sub">These changes will be saved to: <strong style="color:var(--g1)">{{ upload_path|default:"static/data/uploads/verify/" }}</strong></div>
+        <div class="m-summary" id="mSummary"></div>
+        <div class="m-btns">
+            <button class="btn btn-ghost" onclick="closeModal()"><i class="fas fa-times"></i> Cancel</button>
+            <button class="btn btn-y" onclick="submitMod()"><i class="fas fa-check"></i> Yes, Save</button>
+        </div>
+    </div>
+</div>
+
+<script>
+/* ── CLOCK ── */
+(function tick(){var n=new Date(),el=document.getElementById('liveClock');if(el)el.textContent=n.toLocaleDateString('en-IN',{weekday:'short',day:'numeric',month:'short'})+'  '+n.toLocaleTimeString('en-IN',{hour:'2-digit',minute:'2-digit',second:'2-digit'});setTimeout(tick,1000);})();
+
+/* ── UPLOAD ── */
+function handleFileSelect(input){
+    var pills=document.getElementById('filePills'),
+        label=document.getElementById('fileCountLabel'),
+        uploadBtn=document.getElementById('uploadBtn');
+    
+    pills.innerHTML='';
+    var files=input.files;
+    
+    if(!files.length){
+        label.textContent='';
+        uploadBtn.disabled = false;
+        return;
+    }
+    
+    label.textContent=files.length+' file(s) selected';
+    uploadBtn.disabled = false;
+    
+    Array.from(files).forEach(function(f){
+        var p=document.createElement('span');
+        p.className='file-pill';
+        var icon = 'fa-file-excel';
+        if(f.name.endsWith('.csv')) icon = 'fa-file-csv';
+        p.innerHTML='<i class="fas '+icon+'"></i>'+escH(f.name);
+        pills.appendChild(p);
+    });
+}
+
+var uz=document.getElementById('uploadZone');
+if(uz){
+    uz.addEventListener('dragover',function(e){
+        e.preventDefault();
+        uz.classList.add('drag-over');
+    });
+    
+    uz.addEventListener('dragleave',function(){
+        uz.classList.remove('drag-over');
+    });
+    
+    uz.addEventListener('drop',function(e){
+        e.preventDefault();
+        uz.classList.remove('drag-over');
+        var fi=document.getElementById('fileInput');
+        if(fi){
+            fi.files=e.dataTransfer.files;
+            handleFileSelect(fi);
+        }
+    });
+}
+
+// Upload form submission feedback
+var uploadForm = document.getElementById('uploadForm');
+if(uploadForm){
+    uploadForm.addEventListener('submit', function(){
+        var btn = document.getElementById('uploadBtn');
+        if(btn){
+            btn.disabled = true;
+            btn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Uploading...';
+        }
+    });
+}
+
+/* ── colMap ── */
+var colMap={};
+document.querySelectorAll('#colStore span[data-col]').forEach(function(s){colMap[s.getAttribute('data-col')]=s.getAttribute('data-val');});
+
+/* ── GROUP DEFINITIONS ── */
+var GROUPS=[
+    {label:'Personal',icon:'fa-user',color:'#00F5C4',
+     keys:['StudentID','Name','Gender','DOB','Address','Guardian_Name','Guardian_Phone','Email','Phone']},
+    {label:'Academic',icon:'fa-graduation-cap',color:'#4DA8FF',
+     keys:['Department','Program','Year','Semester','Attendance','Academic_Status','Grade','Feedback','Remarks','AISHE_Code','PAN_CARD']},
+    {label:'Scores',icon:'fa-star',color:'#FFCF40',
+     keys:['Internship_Score','Project_Score','Attendance_Score','Practical_Lab_Score','Overall_Average']},
+    {label:'Mid-1',icon:'fa-file-pen',color:'#FF924D',
+     keys:['mid1_Structures','mid1_Geotechnics','mid1_Hydraulics','mid1_Transportation','mid1_Environmental','mid1_Surveying','mid1_Construction','Mid1_Total','Mid1_Average']},
+    {label:'Mid-2',icon:'fa-file-pen',color:'#B47DFF',
+     keys:['mid2_Structures','mid2_Geotechnics','mid2_Hydraulics','mid2_Transportation','mid2_Environmental','mid2_Surveying','mid2_Construction','Mid2_Total','Mid2_Average']},
+    {label:'Final',icon:'fa-trophy',color:'#FF6B9D',
+     keys:['final_Structures','final_Geotechnics','final_Hydraulics','final_Transportation','final_Environmental','final_Surveying','final_Construction','Final_Total','Final_Average']},
+    {label:'Login',icon:'fa-lock',color:'#FF6070',
+     keys:['student_password']}
+];
+
+/* ── BUILD SLIDES ── */
+var currentSlide=0;
+var builtGroups=[];
+
+(function buildSlides(){
+    var tabStrip=document.getElementById('tabStrip');
+    var slideTrack=document.getElementById('slideTrack');
+    var progressEl=document.getElementById('slideProgress');
+    if(!tabStrip||!slideTrack) return;
+
+    var allCols=Object.keys(colMap);
+    var assignedKeys=[].concat.apply([],GROUPS.map(function(g){return g.keys;}));
+    var otherKeys=allCols.filter(function(c){return assignedKeys.indexOf(c)===-1;});
+    var groups=GROUPS.slice();
+    if(otherKeys.length) groups.push({label:'Other',icon:'fa-ellipsis',color:'#8099BA',keys:otherKeys});
+
+    groups.forEach(function(g,gi){
+        var cols=g.keys.filter(function(k){return colMap.hasOwnProperty(k);});
+        if(!cols.length) return;
+        builtGroups.push({g:g,cols:cols,index:builtGroups.length});
+    });
+
+    var total=builtGroups.length;
+    document.getElementById('slideTotal').textContent=total;
+
+    builtGroups.forEach(function(item,idx){
+        var g=item.g, cols=item.cols;
+
+        /* TAB */
+        var tab=document.createElement('button');
+        tab.type='button'; tab.className='tab-btn'+(idx===0?' active':'');
+        tab.innerHTML='<i class="fas '+g.icon+'" style="color:'+g.color+'"></i>'+escH(g.label)+'<span class="tab-count">'+cols.length+'</span>';
+        tab.addEventListener('click',function(){slideTo(idx);});
+        tabStrip.appendChild(tab);
+
+        /* PROGRESS DOT */
+        var pd=document.createElement('div');
+        pd.className='prog-dot'+(idx===0?' active':'');
+        pd.addEventListener('click',function(){slideTo(idx);});
+        progressEl.appendChild(pd);
+
+        /* SLIDE PANEL */
+        var panel=document.createElement('div');
+        panel.className='slide-panel';
+
+        var fieldsDiv=document.createElement('div');
+        fieldsDiv.className='slide-fields';
+
+        cols.forEach(function(col){
+            var val=colMap[col]||'';
+            var cell=document.createElement('div');
+            cell.className='sf-cell';
+            cell.setAttribute('data-col',col);
+            cell.innerHTML=
+                '<div class="sf-col">'+escH(col)
+                    +'<button type="button" class="sf-edit-ico" onclick="sfEdit(this,'+JSON.stringify(col)+')">'
+                        +'<i class="fas fa-pencil"></i> Edit</button>'
+                +'</div>'
+                +'<div class="sf-val'+(val?'':' empty')+'" id="sfv_'+sanitizeId(col)+'">'+(val?escH(val):'empty')+'</div>';
+            fieldsDiv.appendChild(cell);
+        });
+
+        panel.appendChild(fieldsDiv);
+        slideTrack.appendChild(panel);
+    });
+
+    updateSlideNav();
+})();
+
+function slideTo(idx){
+    var total=builtGroups.length;
+    if(idx<0||idx>=total) return;
+    currentSlide=idx;
+    document.getElementById('slideTrack').style.transform='translateX(-'+idx*100+'%)';
+
+    /* update tabs */
+    document.querySelectorAll('.tab-btn').forEach(function(t,i){ t.classList.toggle('active',i===idx); });
+    /* update dots */
+    document.querySelectorAll('.prog-dot').forEach(function(d,i){ d.classList.toggle('active',i===idx); });
+
+    document.getElementById('slideNum').textContent=idx+1;
+    updateSlideNav();
+
+    /* scroll tab into view */
+    var tabStrip=document.getElementById('tabStrip');
+    var activeTabs=tabStrip.querySelectorAll('.tab-btn');
+    if(activeTabs[idx]) activeTabs[idx].scrollIntoView({behavior:'smooth',block:'nearest',inline:'center'});
+}
+
+function updateSlideNav(){
+    var total=builtGroups.length;
+    var prev=document.getElementById('prevBtn'), next=document.getElementById('nextBtn');
+    if(prev) prev.disabled=(currentSlide===0);
+    if(next) next.disabled=(currentSlide===total-1);
+}
+
+/* keyboard navigation */
+document.addEventListener('keydown',function(e){
+    if(document.getElementById('confirmModal').classList.contains('show')) return;
+    if(e.target.tagName==='INPUT'||e.target.tagName==='SELECT') return;
+    if(e.key==='ArrowRight') slideTo(currentSlide+1);
+    if(e.key==='ArrowLeft')  slideTo(currentSlide-1);
+});
+
+/* ── INLINE CELL EDIT ── */
+function sfEdit(btn,col){
+    var cell=btn.closest('.sf-cell');
+    var valEl=cell.querySelector('.sf-val');
+    if(!valEl||cell.querySelector('.sf-input')) return;
+    var orig=colMap[col]||'';
+    cell.classList.add('editing');
+    var inp=document.createElement('input');
+    inp.className='sf-input'; inp.value=orig;
+    valEl.replaceWith(inp);
+    btn.innerHTML='<i class="fas fa-check" style="color:var(--g1)"></i> Done';
+    btn.onclick=function(){sfCommit(cell,col,orig,inp,btn);};
+    btn.style.display='inline-flex';
+    inp.focus(); inp.select();
+    inp.addEventListener('keydown',function(e){
+        if(e.key==='Enter') sfCommit(cell,col,orig,inp,btn);
+        if(e.key==='Escape') sfCancel(cell,col,orig,inp,btn);
+    });
+}
+
+function sfCommit(cell,col,orig,inp,btn){
+    var newVal=inp.value.trim();
+    var div=document.createElement('div');
+    div.className='sf-val'+(newVal?newVal!==orig?' changed':'':' empty');
+    div.id='sfv_'+sanitizeId(col);
+    div.textContent=newVal||'empty';
+    inp.replaceWith(div);
+    cell.classList.remove('editing');
+    btn.innerHTML='<i class="fas fa-pencil"></i> Edit';
+    btn.onclick=function(){sfEdit(btn,col);};
+    btn.style.display='';
+    if(newVal&&newVal!==orig){queue[col]=newVal;renderQueue();showToast('"'+col+'" staged','ok');}
+}
+
+function sfCancel(cell,col,orig,inp,btn){
+    var div=document.createElement('div');
+    div.className='sf-val'+(orig?'':' empty');
+    div.id='sfv_'+sanitizeId(col);
+    div.textContent=orig||'empty';
+    inp.replaceWith(div);
+    cell.classList.remove('editing');
+    btn.innerHTML='<i class="fas fa-pencil"></i> Edit';
+    btn.onclick=function(){sfEdit(btn,col);};
+    btn.style.display='';
+}
+
+/* ── COLUMN PICKER sync ── */
+var colPickerEl=document.getElementById('colPicker');
+if(colPickerEl){
+    colPickerEl.addEventListener('change',function(){
+        var col=this.value,chip=document.getElementById('curChipVal');
+        if(!col){chip.textContent='Select a column';chip.style.fontStyle='italic';chip.style.color='var(--muted)';return;}
+        var val=colMap.hasOwnProperty(col)?colMap[col]:'—';
+        chip.textContent=(val!==undefined&&val!=='')?val:'(empty)';chip.style.fontStyle='normal';chip.style.color='var(--text)';
+        // jump to that group's slide
+        for(var i=0;i<builtGroups.length;i++){if(builtGroups[i].cols.indexOf(col)!==-1){slideTo(i);break;}}
+        var nv=document.getElementById('newValInput');if(nv) nv.focus();
+    });
+}
+
+/* ── QUEUE ── */
+var queue={};
+function addChange(){
+    var picker=document.getElementById('colPicker'),valInp=document.getElementById('newValInput');
+    if(!picker||!valInp) return;
+    var col=picker.value.trim(),val=valInp.value.trim();
+    if(!col){showToast('Select a column first','warn');return;}
+    if(!val){showToast('Enter a replacement value','warn');return;}
+    queue[col]=val;renderQueue();valInp.value='';picker.value='';
+    var chip=document.getElementById('curChipVal');if(chip){chip.textContent='Select a column';chip.style.color='var(--muted)';chip.style.fontStyle='italic';}
+    showToast('"'+col+'" queued','ok');
+}
+function removeChange(col){delete queue[col];renderQueue();}
+function clearQueue(){queue={};renderQueue();}
+function renderQueue(){
+    var qList=document.getElementById('qList'),qEmpty=document.getElementById('qEmpty'),hf=document.getElementById('hiddenFields');
+    if(!qList||!hf) return;
+    hf.innerHTML='';qList.innerHTML='';
+    var keys=Object.keys(queue);
+    var qc=document.getElementById('qCount');if(qc) qc.textContent=keys.length;
+    if(keys.length===0){if(qEmpty) qEmpty.style.display='';return;}
+    if(qEmpty) qEmpty.style.display='none';
+    keys.forEach(function(col){
+        var cur=colMap.hasOwnProperty(col)?(colMap[col]||'(empty)'):'—',val=queue[col];
+        var inp=document.createElement('input');inp.type='hidden';inp.name='col_'+col;inp.value=val;hf.appendChild(inp);
+        var row=document.createElement('div');row.className='q-row';
+        row.innerHTML='<button type="button" class="qr-rm" onclick="removeChange('+JSON.stringify(col)+')" title="Remove"><i class="fas fa-times"></i></button>'
+            +'<div class="qr-col">'+escH(col)+'</div>'
+            +'<div class="qr-old">Was: <span>'+escH(cur)+'</span></div>'
+            +'<div style="display:flex;align-items:center;gap:5px"><span style="font-size:10px;color:var(--muted)">→</span><span class="qr-new">'+escH(val)+'</span></div>';
+        qList.appendChild(row);
+    });
+}
+
+/* ── MODAL ── */
+function openModal(){
+    var keys=Object.keys(queue);
+    if(keys.length===0){showToast('No changes to save','warn');return;}
+    var html='<div style="font-size:10.5px;color:var(--muted);margin-bottom:8px;font-weight:600">'+keys.length+' field(s) to update:</div>';
+    keys.forEach(function(col){var cur=colMap[col]||'(empty)',val=queue[col];html+='<div><strong>'+escH(col)+'</strong> <span style="color:var(--muted);font-size:10.5px">'+escH(cur)+'</span> <span style="color:var(--muted)">&rarr;</span> <span style="color:var(--g1)">'+escH(val)+'</span></div>';});
+    document.getElementById('mSummary').innerHTML=html;
+    document.getElementById('confirmModal').classList.add('show');
+}
+function closeModal(){document.getElementById('confirmModal').classList.remove('show');}
+document.getElementById('confirmModal').addEventListener('click',function(e){if(e.target===e.currentTarget)closeModal();});
+function submitMod(){closeModal();document.getElementById('modForm').submit();}
+
+/* ── FILTER TABLE ── */
+function filterTable(q){var rows=document.querySelectorAll('#allTable tbody tr'),lower=q.toLowerCase(),shown=0;rows.forEach(function(r){var m=r.textContent.toLowerCase().includes(lower);r.style.display=m?'':'none';if(m)shown++;});var rc=document.getElementById('tableRowCount');if(rc) rc.textContent='Showing '+shown+' record(s)';}
+
+/* ── TOAST ── */
+function showToast(msg,type){var t=document.createElement('div');t.className='alert '+(type==='ok'?'alert-ok':type==='warn'?'alert-warn':'alert-err');t.style.cssText='position:fixed;bottom:20px;right:20px;z-index:9999;max-width:300px;box-shadow:0 8px 24px rgba(0,0,0,.3);animation:none';t.innerHTML='<i class="fas '+(type==='ok'?'fa-check-circle':type==='warn'?'fa-exclamation-triangle':'fa-times-circle')+'"></i> '+escH(msg);document.body.appendChild(t);setTimeout(function(){t.style.opacity='0';t.style.transition='opacity .4s';setTimeout(function(){t.remove();},400);},2500);}
+
+function escH(s){return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');}
+function sanitizeId(s){return s.replace(/[^a-zA-Z0-9_]/g,'_');}
+</script>
+</body>
+</html>

@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Account Approved – SmartEduCare</title>
+    <!--[if mso]>
+    <noscript>
+        <xml><o:OfficeDocumentSettings><o:PixelsPerInch>96</o:PixelsPerInch></o:OfficeDocumentSettings></xml>
+    </noscript>
+    <![endif]-->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700&family=JetBrains+Mono:wght@400;600&display=swap');
+
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+
+        body {
+            font-family: 'Sora', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background: #07111F;
+            color: #D8E2F0;
+            -webkit-text-size-adjust: 100%;
+            -ms-text-size-adjust: 100%;
+        }
+
+        .email-wrapper {
+            max-width: 620px;
+            margin: 40px auto;
+            padding: 0 16px 40px;
+        }
+
+        /* ── Header bar ── */
+        .email-header {
+            background: linear-gradient(135deg, #0C1828 0%, #111F30 100%);
+            border: 1px solid rgba(255,255,255,0.07);
+            border-bottom: none;
+            border-radius: 18px 18px 0 0;
+            padding: 32px 36px 28px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+        .email-header::before {
+            content: '';
+            position: absolute; top: 0; left: 0; right: 0; height: 3px;
+            background: linear-gradient(90deg, #00E5A0, #4facfe, #A855F7);
+        }
+        .email-header::after {
+            content: '';
+            position: absolute; inset: 0;
+            background: radial-gradient(ellipse 60% 50% at 50% 100%, rgba(0,229,160,0.06) 0%, transparent 70%);
+            pointer-events: none;
+        }
+
+        .brand-row {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 22px;
+        }
+        .brand-icon {
+            width: 38px; height: 38px;
+            background: linear-gradient(135deg, #00E5A0, #4facfe);
+            border-radius: 10px;
+            display: inline-flex; align-items: center; justify-content: center;
+            font-size: 18px;
+            vertical-align: middle;
+        }
+        .brand-name {
+            font-family: 'Sora', sans-serif;
+            font-size: 18px; font-weight: 700;
+            color: #D8E2F0; letter-spacing: -0.3px;
+        }
+        .brand-name em { font-style: normal; color: #00E5A0; }
+
+        .approved-seal {
+            width: 72px; height: 72px;
+            background: rgba(0,229,160,0.10);
+            border: 2px solid rgba(0,229,160,0.30);
+            border-radius: 50%;
+            display: inline-flex; align-items: center; justify-content: center;
+            font-size: 32px;
+            margin-bottom: 14px;
+        }
+        .header-title {
+            font-size: 22px; font-weight: 700;
+            color: #ffffff; letter-spacing: -0.4px;
+            margin-bottom: 6px;
+        }
+        .header-sub {
+            font-size: 13px; color: #6B7A94; line-height: 1.5;
+        }
+
+        /* ── Body ── */
+        .email-body {
+            background: #0C1828;
+            border: 1px solid rgba(255,255,255,0.07);
+            border-top: none; border-bottom: none;
+            padding: 32px 36px;
+        }
+
+        .greeting {
+            font-size: 16px; font-weight: 600;
+            color: #D8E2F0; margin-bottom: 10px;
+        }
+        .para {
+            font-size: 14px; color: #9AACC2;
+            line-height: 1.7; margin-bottom: 16px;
+        }
+
+        /* ── Credential card ── */
+        .cred-card {
+            background: #111F30;
+            border: 1px solid rgba(255,255,255,0.09);
+            border-radius: 14px;
+            overflow: hidden;
+            margin: 24px 0;
+        }
+        .cred-card-head {
+            background: rgba(79,172,254,0.07);
+            border-bottom: 1px solid rgba(79,172,254,0.12);
+            padding: 12px 20px;
+            display: flex; align-items: center; gap: 8px;
+        }
+        .cred-card-head-icon { font-size: 15px; }
+        .cred-card-head-label {
+            font-size: 11px; font-weight: 700;
+            letter-spacing: 0.10em; text-transform: uppercase;
+            color: #4facfe;
+        }
+        .cred-body {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        .cred-row td {
+            padding: 13px 18px;
+            border-bottom: 1px solid rgba(255,255,255,0.05);
+            vertical-align: middle;
+        }
+        .cred-row:last-child td { border-bottom: none; }
+        .cred-label {
+            font-size: 10.5px; font-weight: 700;
+            letter-spacing: 0.09em; text-transform: uppercase;
+            color: #6B7A94;
+            white-space: nowrap;
+            width: 120px;
+            background: rgba(255,255,255,0.025);
+        }
+        .cred-value {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 13px; font-weight: 600;
+            color: #D8E2F0;
+        }
+        .cred-value.highlight { color: #00E5A0; }
+
+        /* ── Login button ── */
+        .btn-wrap { text-align: center; margin: 28px 0; }
+        .login-btn {
+            display: inline-block;
+            background: linear-gradient(135deg, #4facfe, #1A6BFF);
+            color: #ffffff !important;
+            font-family: 'Sora', sans-serif;
+            font-size: 14px; font-weight: 700;
+            text-decoration: none;
+            padding: 14px 40px;
+            border-radius: 50px;
+            letter-spacing: 0.02em;
+            box-shadow: 0 6px 24px rgba(79,172,254,0.30);
+        }
+
+        /* ── Section label ── */
+        .section-label {
+            font-size: 11px; font-weight: 700;
+            letter-spacing: 0.10em; text-transform: uppercase;
+            color: #6B7A94; margin-bottom: 10px;
+            display: flex; align-items: center; gap: 7px;
+        }
+        .section-label::after {
+            content: ''; flex: 1; height: 1px;
+            background: rgba(255,255,255,0.06);
+        }
+
+        .col-table {
+            width: 100%; border-collapse: collapse;
+            font-size: 12px; margin-bottom: 20px;
+        }
+        .col-table thead tr {
+            background: rgba(255,255,255,0.04);
+        }
+        .col-table thead th {
+            padding: 9px 12px; text-align: left;
+            font-size: 10px; font-weight: 700;
+            letter-spacing: 0.07em; text-transform: uppercase;
+            color: #6B7A94;
+            border-bottom: 1px solid rgba(255,255,255,0.07);
+        }
+        .col-table tbody td {
+            padding: 9px 12px; color: #9AACC2;
+            border-bottom: 1px solid rgba(255,255,255,0.04);
+            font-family: 'JetBrains Mono', monospace; font-size: 11.5px;
+        }
+        .col-table tbody td:first-child { color: #4facfe; }
+        .col-table tbody td.required {
+            color: #F59E0B; font-family: 'Sora', sans-serif;
+            font-size: 11px; font-weight: 600;
+        }
+        .col-table tbody tr:last-child td { border-bottom: none; }
+
+        .attach-note {
+            background: rgba(0,229,160,0.05);
+            border: 1px solid rgba(0,229,160,0.15);
+            border-radius: 9px;
+            padding: 12px 16px;
+            display: flex; align-items: flex-start; gap: 9px;
+            font-size: 12.5px; color: #9AACC2; line-height: 1.55;
+            margin-bottom: 20px;
+        }
+        .attach-note-icon { font-size: 16px; flex-shrink: 0; margin-top: 1px; }
+        .attach-note strong { color: #00E5A0; }
+
+        /* ── Warning box ── */
+        .warning-box {
+            background: rgba(245,158,11,0.06);
+            border: 1px solid rgba(245,158,11,0.20);
+            border-radius: 9px;
+            padding: 13px 16px;
+            display: flex; gap: 10px; align-items: flex-start;
+            font-size: 12.5px; color: #9AACC2; line-height: 1.55;
+            margin-bottom: 20px;
+        }
+        .warning-box-icon { font-size: 15px; flex-shrink: 0; margin-top: 1px; }
+        .warning-box strong { color: #F59E0B; }
+
+        /* ── Position rules card ── */
+        .pos-card {
+            background: #111F30;
+            border: 1px solid rgba(168,85,247,0.25);
+            border-radius: 14px;
+            overflow: hidden;
+            margin: 20px 0;
+        }
+        .pos-card-head {
+            background: rgba(168,85,247,0.10);
+            border-bottom: 1px solid rgba(168,85,247,0.18);
+            padding: 11px 18px;
+            display: flex; align-items: center; gap: 8px;
+        }
+        .pos-card-head-label {
+            font-size: 11px; font-weight: 700;
+            letter-spacing: 0.10em; text-transform: uppercase;
+            color: #A855F7;
+        }
+        .pos-table {
+            width: 100%; border-collapse: collapse; font-size: 12px;
+        }
+        .pos-table thead tr { background: rgba(255,255,255,0.03); }
+        .pos-table thead th {
+            padding: 9px 14px; text-align: left;
+            font-size: 10px; font-weight: 700;
+            letter-spacing: 0.07em; text-transform: uppercase;
+            color: #6B7A94;
+            border-bottom: 1px solid rgba(255,255,255,0.06);
+        }
+        .pos-table tbody td {
+            padding: 11px 14px;
+            border-bottom: 1px solid rgba(255,255,255,0.04);
+            vertical-align: middle;
+        }
+        .pos-table tbody tr:last-child td { border-bottom: none; }
+        .pos-col-name {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 13px; font-weight: 700;
+            color: #00E5A0;
+        }
+        .pos-badge {
+            display: inline-block;
+            background: rgba(168,85,247,0.15);
+            border: 1px solid rgba(168,85,247,0.35);
+            color: #A855F7;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 11px; font-weight: 700;
+            padding: 3px 10px; border-radius: 20px;
+            white-space: nowrap;
+        }
+        .wrong-list {
+            display: flex; flex-wrap: wrap; gap: 5px; margin-top: 4px;
+        }
+        .wrong-tag {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 10.5px; color: #FF4D6A;
+            background: rgba(255,77,106,0.08);
+            border: 1px solid rgba(255,77,106,0.20);
+            padding: 2px 8px; border-radius: 4px;
+        }
+
+        /* ── Footer ── */
+        .email-footer {
+            background: #0C1828;
+            border: 1px solid rgba(255,255,255,0.07);
+            border-top: 1px solid rgba(255,255,255,0.05);
+            border-radius: 0 0 18px 18px;
+            padding: 22px 36px;
+            text-align: center;
+        }
+        .footer-text {
+            font-size: 12px; color: #4A566B; line-height: 1.6;
+        }
+        .footer-text a { color: #4facfe; text-decoration: none; }
+
+        .divider {
+            border: none; border-top: 1px solid rgba(255,255,255,0.06);
+            margin: 18px 0;
+        }
+
+        @media only screen and (max-width: 480px) {
+            .email-header, .email-body, .email-footer { padding-left: 20px; padding-right: 20px; }
+        }
+    </style>
+</head>
+<body>
+<div class="email-wrapper">
+
+    <!-- Header -->
+    <div class="email-header">
+        <div class="brand-row">
+            <div class="brand-icon">🎓</div>
+            <span class="brand-name">Smart<em>Edu</em>Care</span>
+        </div>
+        <div><div class="approved-seal">✅</div></div>
+        <div class="header-title">Your Account is Approved!</div>
+        <div class="header-sub">Welcome to the SmartEduCare University Portal</div>
+    </div>
+
+    <!-- Body -->
+    <div class="email-body">
+
+        <div class="greeting">Dear {{ clean_name }},</div>
+        <p class="para">
+            Congratulations! Your university registration request has been reviewed and
+            <strong style="color:#00E5A0;">officially approved</strong> by the SmartEduCare
+            administration team. You can now access the university portal using the
+            credentials below.
+        </p>
+
+        <!-- Credential card -->
+        <div class="cred-card">
+            <div class="cred-card-head">
+                <span class="cred-card-head-icon">🔑</span>
+                <span class="cred-card-head-label">Login Credentials</span>
+            </div>
+            <table class="cred-body" width="100%" cellpadding="0" cellspacing="0">
+                <tr class="cred-row">
+                    <td class="cred-label">College ID</td>
+                    <td class="cred-value">{{ college_id }}</td>
+                </tr>
+                <tr class="cred-row">
+                    <td class="cred-label">Email</td>
+                    <td class="cred-value">{{ email }}</td>
+                </tr>
+                <tr class="cred-row">
+                    <td class="cred-label">Password</td>
+                    <td class="cred-value highlight">{{ password }}</td>
+                </tr>
+            </table>
+        </div>
+
+        <!-- Login CTA -->
+        <div class="btn-wrap">
+            <a href="{{ login_url }}" class="login-btn">🚀 &nbsp;Login to Portal</a>
+        </div>
+
+        <hr class="divider">
+
+        <!-- Security Warning -->
+        <div class="warning-box">
+            <span class="warning-box-icon">⚠️</span>
+            <div>
+                <strong>Security Notice:</strong>
+                Never share your credentials with anyone. This password was auto-generated from your
+                registration details.
+            </div>
+        </div>
+
+        <!-- Student data format section -->
+        <div class="section-label">Student Data Upload Format</div>
+
+        <div class="attach-note">
+            <span class="attach-note-icon">📎</span>
+            <div>
+                A <strong>reference Excel file</strong> (<code style="font-family:'JetBrains Mono',monospace;font-size:11px;color:#4facfe">students_final_v8.xlsx</code>)
+                is attached to this email. Use it as the exact template when uploading student data
+                to the portal. <strong>All columns listed below are mandatory</strong> — every field must be filled for each student record.
+            </div>
+        </div>
+
+        <!-- Rejection warning -->
+        <div style="background:rgba(255,77,106,0.07);border:1px solid rgba(255,77,106,0.30);border-radius:10px;padding:14px 16px;margin-bottom:20px;">
+            <div style="display:flex;align-items:flex-start;gap:10px;">
+                <span style="font-size:16px;flex-shrink:0;">🚫</span>
+                <div>
+                    <div style="font-size:12px;font-weight:700;color:#FF4D6A;margin-bottom:6px;letter-spacing:0.04em;">IMPORTANT — SUBMISSION WILL BE REJECTED IF:</div>
+                    <ul style="font-size:12px;color:#9AACC2;line-height:1.9;padding-left:16px;margin:0;">
+                        <li>Any column name is <strong style="color:#FF4D6A;">misspelled</strong> or uses a <strong style="color:#FF4D6A;">different case</strong> — column names are <strong style="color:#FF4D6A;">case-sensitive</strong></li>
+                        <li>The <strong style="color:#FF4D6A;">position of special columns is wrong</strong> — <code style="font-family:'JetBrains Mono',monospace;font-size:10.5px;color:#4facfe">StudentID</code>, <code style="font-family:'JetBrains Mono',monospace;font-size:10.5px;color:#4facfe">PAN_CARD</code> and <code style="font-family:'JetBrains Mono',monospace;font-size:10.5px;color:#4facfe">AISHE_Code</code> must be in their exact column positions</li>
+                        <li>Any <strong style="color:#FF4D6A;">mandatory field is left empty</strong> for any student row</li>
+                        <li>The file is <strong style="color:#FF4D6A;">not in .xlsx or .csv format</strong></li>
+                        <li>Column names have <strong style="color:#FF4D6A;">extra spaces, underscores, or special characters</strong> added</li>
+                        <li>The <strong style="color:#FF4D6A;">header row is missing</strong> or placed on the wrong row</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- All columns table -->
+        <table class="col-table">
+            <thead>
+                <tr>
+                    <th>Exact Column Name&nbsp;<span style="color:#FF4D6A;font-size:9px;">(case-sensitive)</span></th>
+                    <th>Description</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>StudentID</td>
+                    <td style="font-family:'Sora',sans-serif;font-size:12px;color:#9AACC2">Unique student identifier — <span style="color:#A855F7;font-weight:700;">must be Column 1</span></td>
+                    <td class="required">✔ Required</td>
+                </tr>
+                <tr>
+                    <td>student_name</td>
+                    <td style="font-family:'Sora',sans-serif;font-size:12px;color:#9AACC2">Full legal name of the student</td>
+                    <td class="required">✔ Required</td>
+                </tr>
+                <tr>
+                    <td>roll_number</td>
+                    <td style="font-family:'Sora',sans-serif;font-size:12px;color:#9AACC2">Unique roll / registration number per student</td>
+                    <td class="required">✔ Required</td>
+                </tr>
+                <tr>
+                    <td>email</td>
+                    <td style="font-family:'Sora',sans-serif;font-size:12px;color:#9AACC2">Student's official email address</td>
+                    <td class="required">✔ Required</td>
+                </tr>
+                <tr>
+                    <td>course</td>
+                    <td style="font-family:'Sora',sans-serif;font-size:12px;color:#9AACC2">Name of the enrolled course or programme</td>
+                    <td class="required">✔ Required</td>
+                </tr>
+                <tr>
+                    <td>year_of_admission</td>
+                    <td style="font-family:'Sora',sans-serif;font-size:12px;color:#9AACC2">4-digit year the student was admitted (e.g. 2023)</td>
+                    <td class="required">✔ Required</td>
+                </tr>
+                <tr>
+                    <td style="color:#6B7A94;font-style:italic;">... columns 7–9 ...</td>
+                    <td style="font-family:'Sora',sans-serif;font-size:12px;color:#6B7A94;font-style:italic;">Other required fields (see attached template)</td>
+                    <td class="required">✔ Required</td>
+                </tr>
+                <tr>
+                    <td>PAN_CARD</td>
+                    <td style="font-family:'Sora',sans-serif;font-size:12px;color:#9AACC2">Student's PAN card number — <span style="color:#A855F7;font-weight:700;">must be Column 10</span></td>
+                    <td class="required">✔ Required</td>
+                </tr>
+                <tr>
+                    <td>AISHE_Code</td>
+                    <td style="font-family:'Sora',sans-serif;font-size:12px;color:#9AACC2">Institution's AISHE code assigned by the government — <span style="color:#A855F7;font-weight:700;">must be Column 11</span></td>
+                    <td class="required">✔ Required</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!-- Special position rules card -->
+        <div class="pos-card">
+            <div class="pos-card-head">
+                <span style="font-size:15px;">📌</span>
+                <span class="pos-card-head-label">Special Column — Exact Position &amp; Case Rules (Strictly Enforced)</span>
+            </div>
+            <div style="padding:14px 18px 6px;font-size:12px;color:#9AACC2;line-height:1.6;">
+                The three columns below must appear in their <strong style="color:#A855F7;">exact column position</strong> AND use the <strong style="color:#A855F7;">exact casing</strong> shown. Our system reads data by position — placing a column in the wrong slot will cause data to be mapped incorrectly and your file will be <strong style="color:#FF4D6A;">automatically rejected</strong>.
+            </div>
+            <table class="pos-table" cellpadding="0" cellspacing="0">
+                <thead>
+                    <tr>
+                        <th>Column Name <span style="color:#FF4D6A;font-size:9px;">(exact case)</span></th>
+                        <th>Required Position</th>
+                        <th>❌ Wrong Casing — Will Be Rejected</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><span class="pos-col-name">StudentID</span></td>
+                        <td><span class="pos-badge">1st Column (A)</span></td>
+                        <td>
+                            <div class="wrong-list">
+                                <span class="wrong-tag">studentid</span>
+                                <span class="wrong-tag">Student_ID</span>
+                                <span class="wrong-tag">STUDENTID</span>
+                                <span class="wrong-tag">student_id</span>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><span class="pos-col-name">PAN_CARD</span></td>
+                        <td><span class="pos-badge">10th Column (J)</span></td>
+                        <td>
+                            <div class="wrong-list">
+                                <span class="wrong-tag">pan_card</span>
+                                <span class="wrong-tag">Pan_Card</span>
+                                <span class="wrong-tag">PANCARD</span>
+                                <span class="wrong-tag">Pan_card</span>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><span class="pos-col-name">AISHE_Code</span></td>
+                        <td><span class="pos-badge">11th Column (K)</span></td>
+                        <td>
+                            <div class="wrong-list">
+                                <span class="wrong-tag">AISHE_CODE</span>
+                                <span class="wrong-tag">aishe_code</span>
+                                <span class="wrong-tag">Aishe_Code</span>
+                                <span class="wrong-tag">AISHECODE</span>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Case sensitivity example callout -->
+        <div style="background:rgba(79,172,254,0.05);border:1px solid rgba(79,172,254,0.15);border-radius:9px;padding:13px 16px;margin-bottom:20px;font-size:12px;color:#9AACC2;line-height:1.8;">
+            <strong style="color:#4facfe;">📋 Always use the attached template file as your starting point.</strong><br>
+            This ensures all columns are in the correct order. Copy column names exactly — character-for-character:<br><br>
+            <span style="font-family:'JetBrains Mono',monospace;font-size:11px;display:block;margin-bottom:4px;">
+                ✅&nbsp;<span style="color:#00E5A0;">StudentID</span>&nbsp;&nbsp;&nbsp;
+                ❌&nbsp;<span style="color:#FF4D6A;">studentid</span>&nbsp;&nbsp;
+                ❌&nbsp;<span style="color:#FF4D6A;">Student_ID</span>&nbsp;&nbsp;
+                ❌&nbsp;<span style="color:#FF4D6A;">STUDENTID</span>
+            </span>
+            <span style="font-family:'JetBrains Mono',monospace;font-size:11px;display:block;margin-bottom:4px;">
+                ✅&nbsp;<span style="color:#00E5A0;">PAN_CARD</span>&nbsp;&nbsp;&nbsp;&nbsp;
+                ❌&nbsp;<span style="color:#FF4D6A;">pan_card</span>&nbsp;&nbsp;
+                ❌&nbsp;<span style="color:#FF4D6A;">Pan_Card</span>&nbsp;&nbsp;&nbsp;
+                ❌&nbsp;<span style="color:#FF4D6A;">PANCARD</span>
+            </span>
+            <span style="font-family:'JetBrains Mono',monospace;font-size:11px;display:block;">
+                ✅&nbsp;<span style="color:#00E5A0;">AISHE_Code</span>&nbsp;&nbsp;
+                ❌&nbsp;<span style="color:#FF4D6A;">AISHE_CODE</span>&nbsp;
+                ❌&nbsp;<span style="color:#FF4D6A;">aishe_code</span>&nbsp;
+                ❌&nbsp;<span style="color:#FF4D6A;">Aishe_Code</span>
+            </span>
+        </div>
+
+        <p class="para" style="margin-bottom:0;">
+            If you have any questions, reply to this email or contact us via the support
+            portal. We look forward to serving your institution.
+        </p>
+
+        <p class="para" style="margin-top:18px;">
+            Warm regards,<br>
+            <strong style="color:#D8E2F0;">The SmartEduCare Team</strong>
+        </p>
+
+    </div>
+
+    <!-- Footer -->
+    <div class="email-footer">
+        <div class="footer-text">
+            © 2026 SmartEduCare · University Management Platform<br>
+            This is an automated email — please do not reply directly.<br>
+            For support: <a href="mailto:support@smarteducare.com">support@smarteducare.com</a>
+        </div>
+    </div>
+
+</div>
+</body>
+</html>

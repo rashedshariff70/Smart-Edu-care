@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Parent Portal – Academic Chatbot</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+      padding: 20px;
+    }
+
+    .card {
+      background: #fff;
+      border-radius: 20px;
+      box-shadow: 0 28px 70px rgba(0,0,0,0.4);
+      width: 100%;
+      max-width: 440px;
+      overflow: hidden;
+    }
+
+    /* ── header ── */
+    .card-header {
+      background: linear-gradient(135deg, #1a6b3c, #27ae60);
+      padding: 34px 36px 26px;
+      text-align: center;
+      color: #fff;
+    }
+    .card-header .icon { font-size: 52px; display: block; margin-bottom: 10px; }
+    .card-header h1    { font-size: 22px; font-weight: 700; }
+    .card-header p     { font-size: 13px; opacity: 0.85; margin-top: 4px; }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: rgba(255,255,255,0.18);
+      border-radius: 20px;
+      padding: 5px 14px;
+      font-size: 11.5px;
+      font-weight: 600;
+      margin-top: 12px;
+      letter-spacing: 0.3px;
+    }
+
+    /* ── body ── */
+    .card-body { padding: 30px 36px 36px; }
+
+    .form-group { margin-bottom: 18px; }
+    .form-group label {
+      display: block;
+      font-size: 11.5px;
+      font-weight: 700;
+      color: #555;
+      margin-bottom: 6px;
+      text-transform: uppercase;
+      letter-spacing: 0.6px;
+    }
+    .form-group input,
+    .form-group select {
+      width: 100%;
+      padding: 12px 14px;
+      border: 1.8px solid #dde3ea;
+      border-radius: 10px;
+      font-size: 14px;
+      color: #333;
+      background: #fafbfc;
+      outline: none;
+      transition: border-color 0.25s, box-shadow 0.25s;
+      font-family: inherit;
+    }
+    .form-group input:focus,
+    .form-group select:focus {
+      border-color: #27ae60;
+      box-shadow: 0 0 0 3px rgba(39,174,96,0.15);
+      background: #fff;
+    }
+
+    /* ── error ── */
+    .error-box {
+      background: #fff5f5;
+      border: 1.5px solid #f5c2c7;
+      color: #b02a37;
+      border-radius: 10px;
+      padding: 11px 14px;
+      font-size: 13px;
+      margin-bottom: 18px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    /* ── button ── */
+    .btn-login {
+      width: 100%;
+      padding: 13px;
+      background: linear-gradient(135deg, #1a6b3c, #27ae60);
+      color: #fff;
+      border: none;
+      border-radius: 10px;
+      font-size: 15px;
+      font-weight: 700;
+      cursor: pointer;
+      letter-spacing: 0.4px;
+      transition: opacity 0.2s, transform 0.15s;
+      margin-top: 6px;
+      font-family: inherit;
+    }
+    .btn-login:hover  { opacity: 0.91; transform: translateY(-1px); }
+    .btn-login:active { transform: translateY(0); }
+
+    /* ── divider ── */
+    .divider {
+      display: flex; align-items: center; gap: 10px;
+      margin: 20px 0; color: #bbb; font-size: 11.5px;
+    }
+    .divider::before, .divider::after {
+      content: ''; flex: 1; height: 1px; background: #e5e7eb;
+    }
+
+    .footer-note {
+      text-align: center; font-size: 11.5px; color: #999; margin-top: 4px;
+    }
+    .footer-note a { color: #27ae60; text-decoration: none; }
+
+    /* ── info pills ── */
+    .info-pills {
+      display: flex; gap: 8px; flex-wrap: wrap;
+      justify-content: center; margin-bottom: 22px;
+    }
+    .pill {
+      background: #f0faf4; border: 1px solid #b7e4c7;
+      color: #1a6b3c; border-radius: 20px;
+      padding: 4px 12px; font-size: 11.5px; font-weight: 600;
+    }
+  </style>
+</head>
+<body>
+
+<div class="card">
+
+  <div class="card-header">
+    <span class="icon">👨‍👩‍👧</span>
+    <h1>Parent / Guardian Portal</h1>
+    <p>Academic Information Chatbot</p>
+    <div class="badge">✨ Powered by Gemini 2.0 Flash &nbsp;|&nbsp; 🎤 Whisper Large v3</div>
+  </div>
+
+  <div class="card-body">
+
+    <div class="info-pills">
+      <span class="pill">📊 Marks</span>
+      <span class="pill">📅 Attendance</span>
+      <span class="pill">🏆 Rank</span>
+      <span class="pill">📋 Rules</span>
+      <span class="pill">💰 Fees</span>
+    </div>
+
+    {% if error %}
+    <div class="error-box">⚠️ &nbsp;{{ error }}</div>
+    {% endif %}
+
+    <form method="POST">
+      {% csrf_token %}
+
+      <div class="form-group">
+        <label>🏫 College AISHE Code</label>
+        <input
+          type="text"
+          name="aishe_code"
+          placeholder="e.g.  U-0423"
+          value="{{ request.POST.aishe_code }}"
+          required
+          autocomplete="off"
+          autofocus
+        />
+      </div>
+
+      <div class="form-group">
+        <label>🎓 Student ID</label>
+        <input
+          type="text"
+          name="student_id"
+          placeholder="e.g.  S0001"
+          value="{{ request.POST.student_id }}"
+          required
+          autocomplete="off"
+        />
+      </div>
+
+      <div class="form-group">
+        <label>🤝 Your Relation to Student</label>
+        <select name="relation">
+          <option value="Father">👨 Father</option>
+          <option value="Mother">👩 Mother</option>
+          <option value="Guardian">🧑 Guardian</option>
+          <option value="Sibling">👫 Sibling</option>
+          <option value="Other">👤 Other</option>
+        </select>
+      </div>
+
+      <button type="submit" class="btn-login">
+        🔐 &nbsp;Access Student Information
+      </button>
+    </form>
+
+    <div class="divider">secure &amp; private</div>
+
+    <div class="footer-note">
+      Enter the Student ID provided by the college.<br/>
+      For help contact the <a href="#">Academic Office</a>.
+    </div>
+
+  </div>
+</div>
+
+</body>
+</html>

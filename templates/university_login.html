@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>University Login</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+    <style>
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+        body {
+            font-family: 'DM Sans', sans-serif;
+            background: #0a0818;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 24px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        /* Background glow orbs */
+        body::before {
+            content: '';
+            position: fixed;
+            inset: 0;
+            background:
+                radial-gradient(ellipse 70% 60% at 15% 15%, rgba(22,163,74,0.3) 0%, transparent 60%),
+                radial-gradient(ellipse 55% 50% at 85% 85%, rgba(16,185,129,0.18) 0%, transparent 55%),
+                radial-gradient(ellipse 50% 45% at 80% 10%, rgba(5,150,105,0.15) 0%, transparent 50%);
+            pointer-events: none;
+            animation: ambientShift 10s ease-in-out infinite alternate;
+        }
+
+        @keyframes ambientShift {
+            0%   { opacity: 0.8; }
+            100% { opacity: 1; }
+        }
+
+        /* Decorative grid lines */
+        body::after {
+            content: '';
+            position: fixed;
+            inset: 0;
+            background-image:
+                linear-gradient(rgba(255,255,255,0.025) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(255,255,255,0.025) 1px, transparent 1px);
+            background-size: 48px 48px;
+            pointer-events: none;
+        }
+
+        .card {
+            position: relative;
+            z-index: 1;
+            background: rgba(255,255,255,0.97);
+            border-radius: 28px;
+            width: 100%;
+            max-width: 440px;
+            overflow: hidden;
+            box-shadow:
+                0 0 0 1px rgba(22,163,74,0.12),
+                0 32px 80px rgba(5,20,10,0.55),
+                0 0 60px rgba(22,163,74,0.1);
+            animation: cardIn 0.65s cubic-bezier(0.22, 1, 0.36, 1) both;
+        }
+
+        @keyframes cardIn {
+            from { opacity: 0; transform: translateY(32px) scale(0.96); }
+            to   { opacity: 1; transform: translateY(0) scale(1); }
+        }
+
+        /* Top header band */
+        .card-header {
+            background: linear-gradient(135deg, #052e16 0%, #14532d 45%, #16a34a 100%);
+            padding: 40px 40px 36px;
+            position: relative;
+            overflow: hidden;
+            text-align: center;
+        }
+
+        .card-header::before {
+            content: '';
+            position: absolute;
+            width: 220px; height: 220px;
+            border-radius: 50%;
+            background: rgba(255,255,255,0.06);
+            top: -80px; right: -60px;
+        }
+
+        .card-header::after {
+            content: '';
+            position: absolute;
+            width: 130px; height: 130px;
+            border-radius: 50%;
+            border: 1px solid rgba(255,255,255,0.07);
+            bottom: -50px; left: 30px;
+        }
+
+        .header-icon {
+            width: 58px; height: 58px;
+            background: rgba(255,255,255,0.12);
+            border: 1.5px solid rgba(255,255,255,0.2);
+            border-radius: 16px;
+            display: flex; align-items: center; justify-content: center;
+            margin: 0 auto 18px;
+            position: relative; z-index: 1;
+        }
+
+        .header-icon svg {
+            width: 28px; height: 28px;
+            stroke: #fff;
+        }
+
+        .card-header h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 26px;
+            color: #fff;
+            letter-spacing: -0.01em;
+            position: relative; z-index: 1;
+        }
+
+        .card-header h2 span { color: #6ee7b7; }
+
+        .card-header p {
+            color: rgba(255,255,255,0.5);
+            font-size: 13px;
+            margin-top: 8px;
+            position: relative; z-index: 1;
+        }
+
+        /* Form area */
+        .card-body {
+            padding: 36px 40px 40px;
+        }
+
+        /* Messages */
+        .msg-block {
+            margin-bottom: 22px;
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        .error, .success {
+            font-size: 13px;
+            font-weight: 500;
+            padding: 11px 14px;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        .error {
+            background: #fef2f2;
+            color: #991b1b;
+            border: 1px solid #fecaca;
+        }
+
+        .success {
+            background: #f0fdf4;
+            color: #166534;
+            border: 1px solid #bbf7d0;
+        }
+
+        /* Fields */
+        .field {
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            font-size: 12.5px;
+            font-weight: 600;
+            color: #1f3a29;
+            letter-spacing: 0.03em;
+            margin-bottom: 7px;
+        }
+
+        .input-wrap {
+            position: relative;
+        }
+
+        .input-icon {
+            position: absolute;
+            left: 14px;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 17px; height: 17px;
+            color: #86b89a;
+            pointer-events: none;
+            transition: color 0.2s;
+        }
+
+        input {
+            font-family: 'DM Sans', sans-serif;
+            font-size: 14px;
+            color: #0f2418;
+            background: #f4fbf7;
+            border: 1.5px solid #d1fae5;
+            border-radius: 12px;
+            padding: 12px 14px 12px 42px;
+            width: 100%;
+            outline: none;
+            transition: border-color 0.2s, box-shadow 0.2s, background 0.2s;
+        }
+
+        input::placeholder { color: #a7c9b4; font-size: 13px; }
+
+        input:focus {
+            border-color: #16a34a;
+            background: #fff;
+            box-shadow: 0 0 0 4px rgba(22,163,74,0.12);
+        }
+
+        input:focus + .focus-line { transform: scaleX(1); }
+
+        /* Toggle password */
+        .toggle-pass {
+            position: absolute;
+            right: 14px;
+            top: 50%;
+            transform: translateY(-50%);
+            background: none;
+            border: none;
+            cursor: pointer;
+            padding: 0;
+            color: #86b89a;
+            width: 20px; height: 20px;
+            display: flex; align-items: center;
+            margin: 0;
+            transition: color 0.2s;
+        }
+
+        .toggle-pass:hover { color: #16a34a; }
+        .toggle-pass svg { width: 18px; height: 18px; }
+
+        /* Submit button */
+        .btn-submit {
+            margin-top: 8px;
+            width: 100%;
+            padding: 13px;
+            background: linear-gradient(135deg, #15803d, #16a34a 60%, #22c55e);
+            color: #fff;
+            border: none;
+            border-radius: 12px;
+            font-family: 'DM Sans', sans-serif;
+            font-size: 15px;
+            font-weight: 600;
+            cursor: pointer;
+            letter-spacing: 0.02em;
+            transition: all 0.25s;
+            box-shadow: 0 6px 20px rgba(22,163,74,0.35);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 9px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .btn-submit::after {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(135deg, rgba(255,255,255,0.14), transparent);
+            opacity: 0;
+            transition: opacity 0.2s;
+        }
+
+        .btn-submit:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 28px rgba(22,163,74,0.45);
+        }
+
+        .btn-submit:hover::after { opacity: 1; }
+        .btn-submit:active { transform: translateY(0); }
+
+        .btn-submit svg {
+            width: 17px; height: 17px;
+            transition: transform 0.2s;
+        }
+
+        .btn-submit:hover svg { transform: translateX(3px); }
+
+        /* ── Back to Home button ── */
+        .btn-home {
+            margin-top: 12px;
+            width: 100%;
+            padding: 12px;
+            background: transparent;
+            color: #16a34a;
+            border: 1.5px solid #bbf7d0;
+            border-radius: 12px;
+            font-family: 'DM Sans', sans-serif;
+            font-size: 14px;
+            font-weight: 500;
+            cursor: pointer;
+            letter-spacing: 0.02em;
+            transition: all 0.25s;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            text-decoration: none;
+        }
+
+        .btn-home:hover {
+            background: #f0fdf4;
+            border-color: #16a34a;
+            color: #15803d;
+            transform: translateY(-1px);
+        }
+
+        .btn-home:active { transform: translateY(0); }
+
+        .btn-home svg {
+            width: 16px; height: 16px;
+            transition: transform 0.2s;
+        }
+
+        .btn-home:hover svg { transform: translateX(-3px); }
+
+        /* Footer */
+        .card-footer {
+            text-align: center;
+            font-size: 12px;
+            color: #9db5a4;
+            padding: 0 40px 28px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+        }
+
+        .card-footer::before, .card-footer::after {
+            content: '';
+            flex: 1;
+            height: 1px;
+            background: #d1fae5;
+        }
+    </style>
+</head>
+<body>
+
+<div class="card">
+    <!-- Header -->
+    <div class="card-header">
+        <div class="header-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 3L2 9l10 6 10-6-10-6z"/>
+                <path d="M2 9v6a10 10 0 0010 4 10 10 0 0010-4V9"/>
+            </svg>
+        </div>
+        <h2>University <span>Login</span></h2>
+        <p>Access your institution's portal securely</p>
+    </div>
+
+    <!-- Body -->
+    <div class="card-body">
+
+        {% for message in messages %}
+        <div class="msg-block">
+            <div class="{{ message.tags }}">{{ message }}</div>
+        </div>
+        {% endfor %}
+
+        <form method="POST">
+            {% csrf_token %}
+
+            <div class="field">
+                <label>College / University ID</label>
+                <div class="input-wrap">
+                    <svg class="input-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                        <rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a2 2 0 00-2-2h-4a2 2 0 00-2 2v2"/>
+                    </svg>
+                    <input type="text" name="college_id" placeholder="Enter College ID" required>
+                </div>
+            </div>
+
+            <div class="field">
+                <label>Password</label>
+                <div class="input-wrap">
+                    <svg class="input-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                        <rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0110 0v4"/>
+                    </svg>
+                    <input type="password" name="password" id="passwordInput" placeholder="Enter Password" required>
+                    <button type="button" class="toggle-pass" onclick="togglePassword()" title="Show/hide password">
+                        <svg id="eyeIcon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M1 12S5 5 12 5s11 7 11 7-4 7-11 7S1 12 1 12z"/><circle cx="12" cy="12" r="3"/>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+
+            <button type="submit" class="btn-submit">
+                Login
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M5 12h14M13 6l6 6-6 6"/>
+                </svg>
+            </button>
+
+        </form>
+
+        <!-- Back to Home — outside form so it doesn't submit -->
+        <a href="{% url 'indexs' %}" class="btn-home">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M19 12H5M12 5l-7 7 7 7"/>
+            </svg>
+            Back to Home
+        </a>
+
+    </div>
+
+    <div class="card-footer">Secured institutional portal</div>
+</div>
+
+<script>
+    function togglePassword() {
+        const input = document.getElementById('passwordInput');
+        const icon = document.getElementById('eyeIcon');
+        if (input.type === 'password') {
+            input.type = 'text';
+            icon.innerHTML = `<path d="M17.94 17.94A10.07 10.07 0 0112 20c-7 0-11-8-11-8a18.45 18.45 0 015.06-5.94"/><path d="M9.9 4.24A9.12 9.12 0 0112 4c7 0 11 8 11 8a18.5 18.5 0 01-2.16 3.19"/><line x1="1" y1="1" x2="23" y2="23"/>`;
+        } else {
+            input.type = 'password';
+            icon.innerHTML = `<path d="M1 12S5 5 12 5s11 7 11 7-4 7-11 7S1 12 1 12z"/><circle cx="12" cy="12" r="3"/>`;
+        }
+    }
+</script>
+
+</body>
+</html>

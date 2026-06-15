@@ -1,0 +1,1007 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Admin · New University Request — SmartEduCare</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Syne:wght@600;700;800&family=Outfit:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <style>
+      :root {
+        --g1: #00e5a0;
+        --g2: #00b87c;
+        --blue: #4facfe;
+        --blue2: #1a6bff;
+        --orange: #ff6b35;
+        --yellow: #f59e0b;
+        --red: #ff4d6a;
+        --purple: #a855f7;
+        --ink: #07111f;
+        --ink2: #0c1828;
+        --ink3: #111f30;
+        --ink4: #162438;
+        --surface: rgba(255, 255, 255, 0.035);
+        --border: rgba(255, 255, 255, 0.07);
+        --border2: rgba(255, 255, 255, 0.13);
+        --muted: #6b7a94;
+        --text: #d8e2f0;
+        --text2: #9aacc2;
+        --sw: 270px;
+        --ease: cubic-bezier(0.4, 0, 0.2, 1);
+      }
+      *,
+      *::before,
+      *::after {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      html {
+        height: 100%;
+        scroll-behavior: smooth;
+      }
+      body {
+        font-family: "Outfit", sans-serif;
+        background: var(--ink);
+        color: var(--text);
+        min-height: 100vh;
+        display: flex;
+      }
+      body::after {
+        content: "";
+        position: fixed;
+        inset: 0;
+        pointer-events: none;
+        z-index: 9998;
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.75' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='1'/%3E%3C/svg%3E");
+        opacity: 0.023;
+      }
+
+      /* ══════════════════════════════
+           SIDEBAR
+        ══════════════════════════════ */
+      .sidebar {
+        width: var(--sw);
+        min-height: 100vh;
+        background: var(--ink2);
+        border-right: 1px solid var(--border);
+        display: flex;
+        flex-direction: column;
+        padding: 26px 18px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        z-index: 200;
+        overflow-y: auto;
+      }
+      .sidebar::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 3px;
+        background: linear-gradient(
+          90deg,
+          var(--g1),
+          var(--blue),
+          var(--purple)
+        );
+      }
+
+      .sb-logo {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        text-decoration: none;
+        margin-bottom: 26px;
+      }
+      .sb-logo-box {
+        width: 34px;
+        height: 34px;
+        border-radius: 9px;
+        background: linear-gradient(135deg, var(--g1), var(--blue2));
+        display: grid;
+        place-items: center;
+        font-size: 16px;
+        flex-shrink: 0;
+      }
+      .sb-logo-name {
+        font-family: "Syne", sans-serif;
+        font-weight: 800;
+        font-size: 16px;
+        color: var(--text);
+        letter-spacing: -0.2px;
+      }
+      .sb-logo-name em {
+        font-style: normal;
+        color: var(--g1);
+      }
+
+      .sb-profile {
+        background: var(--ink3);
+        border: 1px solid var(--border);
+        border-radius: 14px;
+        padding: 18px 14px;
+        text-align: center;
+        margin-bottom: 22px;
+      }
+      .sb-avatar {
+        width: 68px;
+        height: 68px;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 2px solid var(--g1);
+        display: block;
+        margin: 0 auto 10px;
+      }
+      .sb-name {
+        font-family: "Syne", sans-serif;
+        font-size: 0.92em;
+        font-weight: 700;
+        margin-bottom: 2px;
+        color: var(--text);
+      }
+      .sb-email {
+        font-size: 0.75em;
+        color: var(--muted);
+        word-break: break-all;
+        margin-bottom: 8px;
+      }
+      .sb-badge {
+        display: inline-flex;
+        align-items: center;
+        gap: 5px;
+        background: rgba(0, 229, 160, 0.1);
+        border: 1px solid rgba(0, 229, 160, 0.2);
+        color: var(--g1);
+        font-size: 0.68em;
+        font-weight: 700;
+        padding: 3px 10px;
+        border-radius: 20px;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+      }
+
+      .sb-nav {
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+        flex: 1;
+      }
+      .sb-section-label {
+        font-size: 10px;
+        font-weight: 700;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: var(--muted);
+        padding: 0 10px;
+        margin: 14px 0 5px;
+      }
+      .sb-link {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        text-decoration: none;
+        color: var(--text2);
+        font-size: 13px;
+        font-weight: 500;
+        padding: 10px 12px;
+        border-radius: 10px;
+        border: 1px solid transparent;
+        transition: all 0.2s var(--ease);
+      }
+      .sb-link i {
+        width: 16px;
+        text-align: center;
+        font-size: 13px;
+        flex-shrink: 0;
+      }
+      .sb-link .sb-badge-num {
+        margin-left: auto;
+        background: rgba(79, 172, 254, 0.15);
+        color: var(--blue);
+        font-size: 10px;
+        font-weight: 700;
+        padding: 2px 7px;
+        border-radius: 20px;
+      }
+      .sb-link:hover {
+        color: var(--text);
+        background: var(--surface);
+        border-color: var(--border);
+      }
+      .sb-link.active {
+        color: var(--blue);
+        background: rgba(79, 172, 254, 0.07);
+        border-color: rgba(79, 172, 254, 0.18);
+      }
+      .sb-link.s-blue:hover {
+        color: var(--blue);
+        background: rgba(79, 172, 254, 0.07);
+        border-color: rgba(79, 172, 254, 0.18);
+      }
+      .sb-link.s-green:hover {
+        color: var(--g1);
+        background: rgba(0, 229, 160, 0.07);
+        border-color: rgba(0, 229, 160, 0.18);
+      }
+      .sb-link.s-yellow:hover {
+        color: var(--yellow);
+        background: rgba(245, 158, 11, 0.07);
+        border-color: rgba(245, 158, 11, 0.18);
+      }
+      .sb-link.s-red {
+        color: var(--muted);
+        border-color: rgba(255, 77, 106, 0.12);
+        margin-top: auto;
+      }
+      .sb-link.s-red:hover {
+        color: var(--red);
+        background: rgba(255, 77, 106, 0.07);
+        border-color: rgba(255, 77, 106, 0.3);
+      }
+
+      /* ══════════════════════════════
+           MAIN CONTENT
+        ══════════════════════════════ */
+      .main {
+        margin-left: var(--sw);
+        flex: 1;
+        padding: 36px 38px 60px;
+        min-height: 100vh;
+      }
+
+      .page-top {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 30px;
+        flex-wrap: wrap;
+        gap: 12px;
+      }
+      .page-title {
+        font-family: "Syne", sans-serif;
+        font-size: clamp(1.4em, 2.3vw, 1.9em);
+        font-weight: 800;
+        letter-spacing: -0.4px;
+      }
+      .page-title span {
+        color: var(--blue);
+      }
+      .page-clock {
+        font-size: 12px;
+        color: var(--muted);
+        display: flex;
+        align-items: center;
+        gap: 6px;
+      }
+      .page-clock .dot {
+        width: 7px;
+        height: 7px;
+        border-radius: 50%;
+        background: var(--g1);
+        animation: blink 1.5s infinite;
+      }
+      @keyframes blink {
+        0%,
+        100% {
+          opacity: 1;
+          transform: scale(1);
+        }
+        50% {
+          opacity: 0.4;
+          transform: scale(0.8);
+        }
+      }
+
+      /* ── FORM CARD ── */
+      .form-card {
+        background: var(--ink3);
+        border: 1px solid var(--border);
+        border-radius: 18px;
+        overflow: hidden;
+        max-width: 800px;
+        box-shadow: 0 8px 40px rgba(0, 0, 0, 0.35);
+        animation: fadeUp 0.4s var(--ease) both;
+      }
+      @keyframes fadeUp {
+        from {
+          opacity: 0;
+          transform: translateY(16px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+
+      .form-card-hdr {
+        padding: 28px 34px 24px;
+        border-bottom: 1px solid var(--border);
+        position: relative;
+        overflow: hidden;
+        background: linear-gradient(135deg, var(--ink2) 0%, var(--ink3) 100%);
+      }
+      .form-card-hdr::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 3px;
+        background: linear-gradient(
+          90deg,
+          var(--blue),
+          var(--g1),
+          var(--purple)
+        );
+      }
+      .form-card-hdr::after {
+        content: "";
+        position: absolute;
+        top: -60px;
+        right: -60px;
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        background: radial-gradient(
+          circle,
+          rgba(79, 172, 254, 0.06) 0%,
+          transparent 70%
+        );
+        pointer-events: none;
+      }
+      .hdr-badge {
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+        background: rgba(79, 172, 254, 0.1);
+        border: 1px solid rgba(79, 172, 254, 0.22);
+        color: var(--blue);
+        font-size: 0.7em;
+        font-weight: 700;
+        padding: 4px 12px;
+        border-radius: 20px;
+        text-transform: uppercase;
+        letter-spacing: 0.6px;
+        margin-bottom: 12px;
+      }
+      .hdr-title {
+        font-family: "Syne", sans-serif;
+        font-size: 1.5em;
+        font-weight: 800;
+        letter-spacing: -0.3px;
+        margin-bottom: 8px;
+      }
+      .hdr-lead {
+        font-size: 0.85em;
+        color: var(--text2);
+        line-height: 1.7;
+      }
+      .hdr-lead .req {
+        color: var(--red);
+        font-weight: 700;
+      }
+
+      .form-card-body {
+        padding: 30px 34px 34px;
+      }
+
+      /* 2-col grid */
+      .form-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 22px;
+      }
+      .field-full {
+        grid-column: 1 / -1;
+      }
+
+      /* field */
+      .field {
+        display: flex;
+        flex-direction: column;
+        gap: 7px;
+      }
+      .field label {
+        font-size: 10.5px;
+        font-weight: 700;
+        letter-spacing: 0.7px;
+        text-transform: uppercase;
+        color: var(--muted);
+        display: flex;
+        align-items: center;
+        gap: 6px;
+      }
+      .field label i {
+        font-size: 10px;
+      }
+      .req {
+        color: var(--red);
+        font-size: 13px;
+        margin-left: 2px;
+      }
+
+      /* inputs & select */
+      .field input,
+      .field select {
+        background: var(--ink4);
+        border: 1px solid var(--border);
+        border-radius: 10px;
+        color: var(--text);
+        font-family: "Outfit", sans-serif;
+        font-size: 13.5px;
+        font-weight: 500;
+        padding: 11px 14px;
+        outline: none;
+        width: 100%;
+        transition:
+          border-color 0.2s,
+          box-shadow 0.2s,
+          background 0.2s;
+        -webkit-appearance: none;
+      }
+      .field input::placeholder {
+        color: var(--muted);
+        font-weight: 400;
+        font-size: 13px;
+      }
+      .field input:focus,
+      .field select:focus {
+        border-color: rgba(79, 172, 254, 0.5);
+        box-shadow: 0 0 0 3px rgba(79, 172, 254, 0.09);
+        background: rgba(22, 36, 56, 0.8);
+      }
+      .field input.valid {
+        border-color: rgba(0, 229, 160, 0.35);
+      }
+      .field input.error,
+      .field select.error {
+        border-color: rgba(255, 77, 106, 0.5);
+        box-shadow: 0 0 0 3px rgba(255, 77, 106, 0.08);
+      }
+      .field select option {
+        background: var(--ink3);
+      }
+
+      .hint {
+        font-size: 11px;
+        color: var(--muted);
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        margin-top: -2px;
+      }
+      .hint i {
+        font-size: 10px;
+      }
+
+      .msg {
+        display: none;
+        font-size: 11.5px;
+        font-weight: 500;
+        color: var(--red);
+        align-items: center;
+        gap: 5px;
+      }
+      .msg.show {
+        display: flex;
+      }
+      .msg i {
+        font-size: 11px;
+        flex-shrink: 0;
+      }
+
+      /* divider */
+      .form-divider {
+        grid-column: 1/-1;
+        border: none;
+        border-top: 1px solid var(--border);
+        margin: 4px 0;
+      }
+
+      /* actions */
+      .actions {
+        grid-column: 1/-1;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        gap: 12px;
+        padding-top: 6px;
+      }
+      .btn {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 7px;
+        font-family: "Outfit", sans-serif;
+        font-size: 13.5px;
+        font-weight: 700;
+        padding: 12px 28px;
+        border-radius: 50px;
+        border: none;
+        cursor: pointer;
+        transition:
+          transform 0.2s var(--ease),
+          box-shadow 0.2s,
+          filter 0.15s;
+        white-space: nowrap;
+      }
+      .btn:hover {
+        transform: translateY(-2px);
+      }
+      .btn:active {
+        transform: translateY(0);
+        filter: brightness(0.9);
+      }
+      .btn-primary {
+        background: linear-gradient(135deg, var(--blue), var(--blue2));
+        color: #fff;
+        box-shadow: 0 6px 20px rgba(79, 172, 254, 0.28);
+      }
+      .btn-primary:hover {
+        box-shadow: 0 10px 30px rgba(79, 172, 254, 0.45);
+      }
+      .btn-secondary {
+        background: transparent;
+        color: var(--text2);
+        border: 1px solid var(--border2);
+      }
+      .btn-secondary:hover {
+        color: var(--text);
+        background: var(--surface);
+      }
+
+      /* ── TOAST ── */
+      #toast {
+        position: fixed;
+        top: 24px;
+        right: 28px;
+        z-index: 9999;
+        padding: 13px 20px;
+        border-radius: 12px;
+        font-size: 13.5px;
+        font-weight: 600;
+        display: none;
+        align-items: center;
+        gap: 9px;
+        box-shadow: 0 8px 30px rgba(0, 0, 0, 0.4);
+        min-width: 260px;
+      }
+      #toast.ok {
+        display: flex;
+        background: rgba(0, 229, 160, 0.1);
+        border: 1px solid rgba(0, 229, 160, 0.3);
+        color: var(--g1);
+      }
+      #toast.err {
+        display: flex;
+        background: rgba(255, 77, 106, 0.1);
+        border: 1px solid rgba(255, 77, 106, 0.3);
+        color: var(--red);
+      }
+
+      /* responsive */
+      @media (max-width: 760px) {
+        .form-grid {
+          grid-template-columns: 1fr;
+        }
+        .field-full {
+          grid-column: 1;
+        }
+        .actions {
+          flex-direction: column;
+        }
+        .actions .btn {
+          width: 100%;
+          justify-content: center;
+        }
+      }
+      @media (max-width: 900px) {
+        .sidebar {
+          transform: translateX(-100%);
+          transition: transform 0.3s var(--ease);
+        }
+        .sidebar.open {
+          transform: translateX(0);
+        }
+        .main {
+          margin-left: 0;
+          padding: 24px 18px 40px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- ══════════════════════════════════════
+     SIDEBAR
+══════════════════════════════════════ -->
+<aside class="sidebar" id="sidebar">
+  <a href="/" class="sb-logo">
+    <div class="sb-logo-box">🎓</div>
+    <span class="sb-logo-name">Smart<em>Edu</em>Care</span>
+  </a>
+  <div class="sb-profile">
+      {% load static %}
+    <div class="sb-profile">
+        <img src="{% static 'data/uploads/admin_image/Admin.jpeg' %}" 
+             alt="Admin" 
+             class="sb-avatar">
+
+        <div class="sb-name">Administrator</div>
+        <div class="sb-email">admin@smarteducare.ai</div>
+        <span class="sb-badge">
+            <i class="fas fa-shield-alt"></i> Super Admin
+        </span>
+    </div>
+      <nav class="sb-nav">
+        <div class="sb-section-label">Management</div>
+        <a href="/admin_dash" class="sb-link s-blue"
+          ><i class="fas fa-tachometer-alt"></i> Dashboard</a
+        >
+        <a href="/admin_new_request" class="sb-link active"
+          ><i class="fas fa-bell"></i> New Requests
+          <span class="sb-badge-num">—</span></a
+        >
+        <a href="/admin_correct_data" class="sb-link s-blue"
+          ><i class="fas fa-bell"></i> Data correction<span class="sb-badge-num"
+            >—</span
+          ></a
+        >
+        <a href="/approved_show" class="sb-link s-green"
+          ><i class="fas fa-check-circle"></i> Approved Requests</a
+        >
+        <a href="/college_data_upload" class="sb-link s-green" ><i class="fas fa-check-circle"></i>upload college data</a>
+        <a href="/student_data-send" class="sb-link s-yellow"
+          ><i class="fas fa-paper-plane"></i> Send Student Data</a
+        >
+        <div class="sb-section-label" style="margin-top: 14px">Account</div>
+        <a href="{% url 'home' %}" class="sb-link s-red"
+          ><i class="fas fa-sign-out-alt"></i> Logout</a
+        >
+      </nav>
+    </aside>
+
+    <!-- ══════════════════════════════════════
+     MAIN
+══════════════════════════════════════ -->
+    <main class="main">
+      <div class="page-top">
+        <h1 class="page-title">New <span>University Request</span></h1>
+        <div class="page-clock">
+          <span class="dot"></span><span id="liveClock"></span>
+        </div>
+      </div>
+
+      <!-- toast -->
+      <div id="toast"></div>
+
+      <!-- form card -->
+      <div class="form-card">
+        <div class="form-card-hdr">
+          <div class="hdr-badge">
+            <i class="fas fa-university"></i>&nbsp; Admin · New University
+            Request
+          </div>
+          <div class="hdr-title">Register a University</div>
+          <div class="hdr-lead">
+            Submit a request to add a new university to the system. Fields
+            marked with <span class="req">*</span> are required.
+          </div>
+        </div>
+
+        <div class="form-card-body">
+          <form method="POST" action="{% url 'approve_req' %}" id="uniForm">
+            {% csrf_token %}
+
+            <div class="form-grid">
+              <!-- University Name — full width -->
+              <div class="field field-full">
+                <label for="name">
+                  <i class="fas fa-university" style="color: var(--blue)"></i>
+                  University Name <span class="req">*</span>
+                </label>
+                <input
+                  id="name"
+                  name="name"
+                  type="text"
+                  placeholder="e.g., National Institute of Technology"
+                  required
+                  minlength="3"
+                  maxlength="120"
+                />
+                <div class="msg" data-for="name">
+                  <i class="fas fa-exclamation-circle"></i><span></span>
+                </div>
+              </div>
+
+              <!-- Official Email -->
+              <div class="field">
+                <label for="email">
+                  <i class="fas fa-envelope" style="color: var(--g1)"></i>
+                  Official Email <span class="req">*</span>
+                </label>
+                <input
+                  id="email"
+                  name="email"
+                  type="email"
+                  placeholder="e.g., registrar@university.edu"
+                  required
+                />
+                <div class="msg" data-for="email">
+                  <i class="fas fa-exclamation-circle"></i><span></span>
+                </div>
+              </div>
+
+              <!-- Contact Number -->
+              <div class="field">
+                <label for="contact">
+                  <i class="fas fa-phone" style="color: var(--yellow)"></i>
+                  Contact Number <span class="req">*</span>
+                </label>
+                <input
+                  id="contact"
+                  name="contact"
+                  type="tel"
+                  inputmode="tel"
+                  pattern="^[0-9+()\-\s]{7,20}$"
+                  placeholder="e.g., +91 80 1234 5678"
+                  required
+                />
+                <div class="msg" data-for="contact">
+                  <i class="fas fa-exclamation-circle"></i><span></span>
+                </div>
+              </div>
+
+              <!-- Country -->
+              <div class="field">
+                <label for="country">
+                  <i class="fas fa-globe" style="color: var(--blue)"></i>
+                  Country <span class="req">*</span>
+                </label>
+                <select id="country" name="country" required>
+                  <option value="" selected disabled>Select country...</option>
+                  <option>India</option>
+                  <option>United States</option>
+                  <option>United Kingdom</option>
+                  <option>Canada</option>
+                  <option>Australia</option>
+                  <option>Germany</option>
+                  <option>France</option>
+                  <option>United Arab Emirates</option>
+                  <option>Singapore</option>
+                  <option>Other</option>
+                </select>
+                <div class="msg" data-for="country">
+                  <i class="fas fa-exclamation-circle"></i><span></span>
+                </div>
+              </div>
+
+              <!-- State -->
+              <div class="field">
+                <label for="state">
+                  <i
+                    class="fas fa-map-marker-alt"
+                    style="color: var(--red)"
+                  ></i>
+                  State / Province <span class="req">*</span>
+                </label>
+                <input
+                  id="state"
+                  name="state"
+                  type="text"
+                  placeholder="e.g., Karnataka"
+                  required
+                  minlength="2"
+                  maxlength="64"
+                />
+                <div class="msg" data-for="state">
+                  <i class="fas fa-exclamation-circle"></i><span></span>
+                </div>
+              </div>
+
+              <!-- Pincode -->
+              <div class="field">
+                <label for="pincode">
+                  <i class="fas fa-hashtag" style="color: var(--purple)"></i>
+                  Pincode <span class="req">*</span>
+                </label>
+                <input
+                  id="pincode"
+                  name="pincode"
+                  type="text"
+                  inputmode="numeric"
+                  pattern="^[0-9]{4,10}$"
+                  placeholder="e.g., 560001"
+                  required
+                />
+                <div class="hint">
+                  <i class="fas fa-info-circle"></i> Digits only (4–10 digits)
+                </div>
+                <div class="msg" data-for="pincode">
+                  <i class="fas fa-exclamation-circle"></i><span></span>
+                </div>
+              </div>
+
+              <!-- Website — full width, optional -->
+              <div class="field field-full">
+                <label for="website">
+                  <i class="fas fa-link" style="color: var(--g1)"></i>
+                  Website
+                  <span
+                    style="
+                      color: var(--muted);
+                      font-size: 10px;
+                      font-weight: 400;
+                      text-transform: none;
+                      letter-spacing: 0;
+                      margin-left: 4px;
+                    "
+                    >(optional)</span
+                  >
+                </label>
+                <input
+                  id="website"
+                  name="website"
+                  type="url"
+                  placeholder="https://www.university.edu"
+                />
+                <div class="msg" data-for="website">
+                  <i class="fas fa-exclamation-circle"></i><span></span>
+                </div>
+              </div>
+
+              <hr class="form-divider" />
+
+              <!-- Actions -->
+              <div class="actions">
+                <button type="reset" class="btn btn-secondary">
+                  <i class="fas fa-undo"></i> Reset
+                </button>
+                <button type="submit" class="btn btn-primary">
+                  <i class="fas fa-paper-plane"></i> Submit Request
+                </button>
+              </div>
+            </div>
+            <!-- /form-grid -->
+          </form>
+        </div>
+      </div>
+      <!-- /form-card -->
+    </main>
+
+    <script>
+      /* ── live clock ── */
+      (function tick() {
+        const n = new Date(),
+          el = document.getElementById("liveClock");
+        if (el)
+          el.textContent =
+            n.toLocaleDateString("en-IN", {
+              weekday: "short",
+              day: "numeric",
+              month: "short",
+            }) +
+            "  " +
+            n.toLocaleTimeString("en-IN", {
+              hour: "2-digit",
+              minute: "2-digit",
+              second: "2-digit",
+            });
+        setTimeout(tick, 1000);
+      })();
+
+      /* ── validation ── */
+      (function () {
+        const toast = document.getElementById("toast");
+
+        function showToast(text, ok) {
+          toast.className = "toast " + (ok ? "ok" : "err");
+          toast.innerHTML =
+            (ok
+              ? '<i class="fas fa-check-circle"></i> '
+              : '<i class="fas fa-exclamation-circle"></i> ') + text;
+          clearTimeout(showToast._t);
+          showToast._t = setTimeout(() => {
+            toast.className = "toast";
+          }, 3500);
+        }
+
+        function setError(id, msg) {
+          const el = document.getElementById(id);
+          const m = document.querySelector('.msg[data-for="' + id + '"]');
+          if (!el) return;
+          el.classList.remove("valid");
+          el.classList.add("error");
+          if (m) {
+            m.querySelector("span").textContent = msg;
+            m.classList.add("show");
+          }
+        }
+        function clearError(id) {
+          const el = document.getElementById(id);
+          const m = document.querySelector('.msg[data-for="' + id + '"]');
+          if (!el) return;
+          el.classList.remove("error");
+          el.classList.add("valid");
+          if (m) {
+            m.querySelector("span").textContent = "";
+            m.classList.remove("show");
+          }
+        }
+
+        const validators = {
+          name: (v) =>
+            v.trim().length >= 3 || "Please enter at least 3 characters.",
+          email: (v) =>
+            /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(v) ||
+            "Enter a valid email address.",
+          country: (v) => v !== "" || "Please select a country.",
+          state: (v) =>
+            v.trim().length >= 2 || "Enter a valid state / province.",
+          pincode: (v) =>
+            /^\d{4,10}$/.test(v) || "Pincode must be 4–10 digits.",
+          contact: (v) =>
+            /^[0-9+()\-\s]{7,20}$/.test(v) || "Enter a valid contact number.",
+          website: (v) =>
+            v.trim() === "" ||
+            /^https?:\/\/.+\..+/.test(v) ||
+            "Enter a valid URL starting with https://",
+        };
+
+        Object.keys(validators).forEach((id) => {
+          const el = document.getElementById(id);
+          if (!el) return;
+          ["input", "blur", "change"].forEach((evt) => {
+            el.addEventListener(evt, () => {
+              const res = validators[id](el.value);
+              if (res === true) clearError(id);
+              else setError(id, res);
+            });
+          });
+        });
+
+        document
+          .getElementById("uniForm")
+          .addEventListener("submit", function (e) {
+            e.preventDefault();
+            let allOk = true;
+            Object.keys(validators).forEach((id) => {
+              const el = document.getElementById(id);
+              if (!el) return;
+              const res = validators[id](el.value);
+              if (res !== true) {
+                setError(id, res);
+                allOk = false;
+              }
+            });
+            if (!allOk) {
+              showToast("Please fix the highlighted fields.", false);
+              return;
+            }
+
+            try {
+              const payload = Object.fromEntries(new FormData(this).entries());
+              console.log("Payload:", payload);
+              showToast("Request submitted successfully!", true);
+              this.reset();
+              document
+                .querySelectorAll(".field input,.field select")
+                .forEach((el) => el.classList.remove("valid", "error"));
+            } catch (err) {
+              console.error(err);
+              showToast("Something went wrong. Please try again.", false);
+            }
+          });
+      })();
+    </script>
+  </body>
+</html>

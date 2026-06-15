@@ -1,0 +1,1801 @@
+StudentID,Name,Gender,Department,Program,Year,Email,Phone,Attendance,PAN_CARD,AISHE_Code
+MBU00001,Harika Das,Female,M.Sc Data Science,PG,1,harika.das1001@mbu.edu.in,9880516031,94.81,AUZPD0001G,U-0188
+MBU00002,Vinay Gupta,Male,M.Sc Data Science,PG,1,vinay.gupta1002@mbu.edu.in,9884898522,61.64,VDZPG0002D,U-0188
+MBU00003,Vikram Verma,Female,M.Sc Data Science,PG,1,vikram.verma1003@mbu.edu.in,9858402591,86.49,OJNPV0003R,U-0188
+MBU00004,Rahul Bose,Female,M.Sc Data Science,PG,1,rahul.bose1004@mbu.edu.in,9865063492,87.37,MXUPB0004Y,U-0188
+MBU00005,Vinay Sharma,Female,M.Sc Data Science,PG,1,vinay.sharma1005@mbu.edu.in,9877312184,85.47,FQIPS0005E,U-0188
+MBU00006,Neha Iyer,Male,M.Sc Data Science,PG,1,rashedshariff70@gmail.com,9848603601,99.0,RVWPI0006O,U-0188
+MBU00007,Harika Mishra,Female,M.Sc Data Science,PG,1,harika.mishra1007@mbu.edu.in,9861444429,89.0,BQGPM0007T,U-0188
+MBU00008,Sanjay Das,Female,M.Sc Data Science,PG,1,sanjay.das1008@mbu.edu.in,9856019566,76.73,NGRPD0008M,U-0188
+MBU00009,Divya Jain,Male,M.Sc Data Science,PG,1,divya.jain1009@mbu.edu.in,9812418883,99.14,ZITPJ0009R,U-0188
+MBU00010,Sameer Reddy,Male,M.Sc Data Science,PG,1,sameer.reddy1010@mbu.edu.in,9861519012,81.87,PRVPR0010N,U-0188
+MBU00011,Sneha Mishra,Male,M.Sc Data Science,PG,1,sneha.mishra1011@mbu.edu.in,9870876988,80.83,ROSPM0011Y,U-0188
+MBU00012,Neha Bose,Male,M.Sc Data Science,PG,1,neha.bose1012@mbu.edu.in,9816285043,85.0,SYHPB0012N,U-0188
+MBU00013,Ritika Gupta,Male,M.Sc Data Science,PG,1,ritika.gupta1013@mbu.edu.in,9894311229,62.06,DFVPG0013Q,U-0188
+MBU00014,Sanjay Malhotra,Male,M.Sc Data Science,PG,1,sanjay.malhotra1014@mbu.edu.in,9844437309,66.67,CJGPM0014K,U-0188
+MBU00015,Divya Kumar,Male,M.Sc Data Science,PG,1,divya.kumar1015@mbu.edu.in,9891832076,62.63,MYCPK0015A,U-0188
+MBU00016,Ananya Yadav,Male,M.Sc Data Science,PG,1,ananya.yadav1016@mbu.edu.in,9810433603,71.4,VHHPY0016L,U-0188
+MBU00017,Pooja Malhotra,Male,M.Sc Data Science,PG,1,pooja.malhotra1017@mbu.edu.in,9869598157,84.43,EZJPM0017F,U-0188
+MBU00018,Divya Das,Female,M.Sc Data Science,PG,1,divya.das1018@mbu.edu.in,9862810336,62.99,HQHPD0018M,U-0188
+MBU00019,Ravi Rao,Male,M.Sc Data Science,PG,1,ravi.rao1019@mbu.edu.in,9831764048,68.94,RNOPR0019P,U-0188
+MBU00020,Rahul Patel,Male,M.Sc Data Science,PG,1,rahul.patel1020@mbu.edu.in,9870514631,81.31,PZHPP0020G,U-0188
+MBU00021,Yash Das,Female,M.Sc Data Science,PG,1,yash.das1021@mbu.edu.in,9812279609,78.24,IDFPD0021U,U-0188
+MBU00022,Vikram Iyer,Female,M.Sc Data Science,PG,1,vikram.iyer1022@mbu.edu.in,9883047741,89.71,VMXPI0022Q,U-0188
+MBU00023,Rahul Rao,Female,M.Sc Data Science,PG,1,rahul.rao1023@mbu.edu.in,9874475336,87.81,YCNPR0023H,U-0188
+MBU00024,Rahul Shetty,Female,M.Sc Data Science,PG,1,rahul.shetty1024@mbu.edu.in,9820591218,94.91,MHXPS0024N,U-0188
+MBU00025,Divya Bose,Male,M.Sc Data Science,PG,1,divya.bose1025@mbu.edu.in,9853066465,67.18,UUQPB0025Q,U-0188
+MBU00026,Meghana Bose,Female,M.Sc Data Science,PG,1,meghana.bose1026@mbu.edu.in,9899444537,85.52,YETPB0026U,U-0188
+MBU00027,Arjun Kumar,Female,M.Sc Data Science,PG,1,arjun.kumar1027@mbu.edu.in,9818949202,72.03,PIEPK0027A,U-0188
+MBU00028,Sneha Iyer,Male,M.Sc Data Science,PG,1,sneha.iyer1028@mbu.edu.in,9823276091,80.53,MSUPI0028L,U-0188
+MBU00029,Divya Rao,Female,M.Sc Data Science,PG,1,divya.rao1029@mbu.edu.in,9843682151,82.67,KTUPR0029N,U-0188
+MBU00030,Sameer Jain,Female,M.Sc Data Science,PG,1,sameer.jain1030@mbu.edu.in,9813418059,72.63,KNNPJ0030K,U-0188
+MBU00031,Ritika Bhat,Male,M.Sc Data Science,PG,1,ritika.bhat1031@mbu.edu.in,9832021203,63.79,LYCPB0031P,U-0188
+MBU00032,Yash Kumar,Female,M.Sc Data Science,PG,1,yash.kumar1032@mbu.edu.in,9892172647,85.92,UYXPK0032O,U-0188
+MBU00033,Nikhil Malhotra,Male,M.Sc Data Science,PG,1,nikhil.malhotra1033@mbu.edu.in,9892509994,61.83,GYFPM0033X,U-0188
+MBU00034,Yash Nair,Female,M.Sc Data Science,PG,1,yash.nair1034@mbu.edu.in,9858038373,96.68,JZMPN0034Q,U-0188
+MBU00035,Yash Reddy,Male,M.Sc Data Science,PG,1,yash.reddy1035@mbu.edu.in,9843328819,65.12,JLMPR0035I,U-0188
+MBU00036,Kiran Kumar,Female,M.Sc Data Science,PG,1,kiran.kumar1036@mbu.edu.in,9836312700,80.48,RVAPK0036R,U-0188
+MBU00037,Ravi Mishra,Female,M.Sc Data Science,PG,1,ravi.mishra1037@mbu.edu.in,9840191171,60.25,OHOPM0037Y,U-0188
+MBU00038,Harika Das,Female,M.Sc Data Science,PG,1,harika.das1038@mbu.edu.in,9845199125,62.94,COJPD0038X,U-0188
+MBU00039,Divya Patel,Male,M.Sc Data Science,PG,1,divya.patel1039@mbu.edu.in,9891902021,72.56,BOOPP0039R,U-0188
+MBU00040,Kiran Rao,Male,M.Sc Data Science,PG,1,kiran.rao1040@mbu.edu.in,9830474127,62.21,GXMPR0040F,U-0188
+MBU00041,Nikhil Malhotra,Female,M.Sc Data Science,PG,1,nikhil.malhotra1041@mbu.edu.in,9868509943,89.14,WXTPM0041D,U-0188
+MBU00042,Vikram Yadav,Male,M.Sc Data Science,PG,1,vikram.yadav1042@mbu.edu.in,9864296155,82.81,ZDDPY0042Z,U-0188
+MBU00043,Divya Jain,Male,M.Sc Data Science,PG,1,divya.jain1043@mbu.edu.in,9856163637,81.66,KCYPJ0043X,U-0188
+MBU00044,Nikhil Mishra,Female,M.Sc Data Science,PG,1,nikhil.mishra1044@mbu.edu.in,9861981861,95.26,ARTPM0044O,U-0188
+MBU00045,Kavya Rao,Female,M.Sc Data Science,PG,1,kavya.rao1045@mbu.edu.in,9824668848,95.76,YVOPR0045V,U-0188
+MBU00046,Ritika Bhat,Male,M.Sc Data Science,PG,1,ritika.bhat1046@mbu.edu.in,9863200822,87.69,YLAPB0046W,U-0188
+MBU00047,Vinay Shetty,Male,M.Sc Data Science,PG,1,vinay.shetty1047@mbu.edu.in,9812409060,74.45,SLDPS0047R,U-0188
+MBU00048,Vinay Gupta,Female,M.Sc Data Science,PG,1,vinay.gupta1048@mbu.edu.in,9874240749,97.77,COLPG0048Q,U-0188
+MBU00049,Ritika Jain,Male,M.Sc Data Science,PG,1,ritika.jain1049@mbu.edu.in,9884000585,81.25,APPPJ0049L,U-0188
+MBU00050,Pooja Bose,Female,M.Sc Data Science,PG,1,pooja.bose1050@mbu.edu.in,9857305779,60.6,EDYPB0050L,U-0188
+MBU00051,Rahul Chopra,Female,M.Sc Data Science,PG,1,rahul.chopra1051@mbu.edu.in,9879131266,86.97,NEBPC0051O,U-0188
+MBU00052,Kiran Sharma,Male,M.Sc Data Science,PG,1,kiran.sharma1052@mbu.edu.in,9853794662,97.8,VXIPS0052O,U-0188
+MBU00053,Vikram Iyer,Female,M.Sc Data Science,PG,1,vikram.iyer1053@mbu.edu.in,9856703007,64.26,OFYPI0053P,U-0188
+MBU00054,Aman Singh,Male,M.Sc Data Science,PG,1,aman.singh1054@mbu.edu.in,9890606835,78.02,WIBPS0054J,U-0188
+MBU00055,Harika Verma,Male,M.Sc Data Science,PG,1,harika.verma1055@mbu.edu.in,9853184749,63.67,EBKPV0055Z,U-0188
+MBU00056,Kiran Bose,Female,M.Sc Data Science,PG,1,kiran.bose1056@mbu.edu.in,9875235726,77.44,EJLPB0056I,U-0188
+MBU00057,Sameer Gupta,Male,M.Sc Data Science,PG,1,sameer.gupta1057@mbu.edu.in,9878869280,98.07,UODPG0057M,U-0188
+MBU00058,Ananya Mishra,Female,M.Sc Data Science,PG,1,ananya.mishra1058@mbu.edu.in,9836499650,93.1,YYMPM0058T,U-0188
+MBU00059,Arjun Bose,Female,M.Sc Data Science,PG,1,arjun.bose1059@mbu.edu.in,9880666486,87.59,PGXPB0059V,U-0188
+MBU00060,Rahul Bhat,Female,M.Sc Data Science,PG,1,rahul.bhat1060@mbu.edu.in,9874410984,72.47,ZVRPB0060Z,U-0188
+MBU00061,Ritika Das,Female,M.Sc Data Science,PG,2,ritika.das1061@mbu.edu.in,9835541526,83.37,WFOPD0061F,U-0188
+MBU00062,Harika Malhotra,Female,M.Sc Data Science,PG,2,harika.malhotra1062@mbu.edu.in,9872997859,99.89,JJZPM0062M,U-0188
+MBU00063,Divya Malhotra,Male,M.Sc Data Science,PG,2,divya.malhotra1063@mbu.edu.in,9870227096,81.96,YRJPM0063F,U-0188
+MBU00064,Arjun Rao,Male,M.Sc Data Science,PG,2,arjun.rao1064@mbu.edu.in,9821332510,94.97,TWVPR0064B,U-0188
+MBU00065,Meghana Kumar,Female,M.Sc Data Science,PG,2,meghana.kumar1065@mbu.edu.in,9872294741,84.32,QNIPK0065Y,U-0188
+MBU00066,Aman Das,Female,M.Sc Data Science,PG,2,aman.das1066@mbu.edu.in,9827286187,71.96,CEGPD0066Y,U-0188
+MBU00067,Nikhil Iyer,Male,M.Sc Data Science,PG,2,nikhil.iyer1067@mbu.edu.in,9893238382,93.45,UCZPI0067N,U-0188
+MBU00068,Sameer Gupta,Female,M.Sc Data Science,PG,2,sameer.gupta1068@mbu.edu.in,9855777402,64.71,RZTPG0068G,U-0188
+MBU00069,Yash Bose,Female,M.Sc Data Science,PG,2,yash.bose1069@mbu.edu.in,9858892398,76.5,XZBPB0069U,U-0188
+MBU00070,Sameer Malhotra,Female,M.Sc Data Science,PG,2,sameer.malhotra1070@mbu.edu.in,9889804189,92.58,JJRPM0070S,U-0188
+MBU00071,Vinay Bose,Male,M.Sc Data Science,PG,2,vinay.bose1071@mbu.edu.in,9848989310,93.46,UXIPB0071R,U-0188
+MBU00072,Kiran Rao,Female,M.Sc Data Science,PG,2,kiran.rao1072@mbu.edu.in,9834739735,74.97,JUWPR0072Y,U-0188
+MBU00073,Divya Chopra,Male,M.Sc Data Science,PG,2,divya.chopra1073@mbu.edu.in,9871386256,87.7,FVYPC0073N,U-0188
+MBU00074,Kiran Jain,Male,M.Sc Data Science,PG,2,kiran.jain1074@mbu.edu.in,9856777199,72.5,VMVPJ0074P,U-0188
+MBU00075,Ananya Gupta,Male,M.Sc Data Science,PG,2,ananya.gupta1075@mbu.edu.in,9853283915,66.19,NIEPG0075G,U-0188
+MBU00076,Ananya Singh,Male,M.Sc Data Science,PG,2,ananya.singh1076@mbu.edu.in,9884986045,86.14,SWSPS0076U,U-0188
+MBU00077,Ananya Kumar,Male,M.Sc Data Science,PG,2,ananya.kumar1077@mbu.edu.in,9841490555,72.25,FOXPK0077I,U-0188
+MBU00078,Nikhil Singh,Female,M.Sc Data Science,PG,2,nikhil.singh1078@mbu.edu.in,9894115710,88.74,FSWPS0078L,U-0188
+MBU00079,Sneha Iyer,Female,M.Sc Data Science,PG,2,sneha.iyer1079@mbu.edu.in,9837984558,83.7,PYWPI0079R,U-0188
+MBU00080,Pooja Singh,Male,M.Sc Data Science,PG,2,pooja.singh1080@mbu.edu.in,9889329662,83.16,GEVPS0080J,U-0188
+MBU00081,Sanjay Mishra,Female,M.Sc Data Science,PG,2,sanjay.mishra1081@mbu.edu.in,9840799963,69.78,RIDPM0081G,U-0188
+MBU00082,Rahul Malhotra,Male,M.Sc Data Science,PG,2,rahul.malhotra1082@mbu.edu.in,9820462147,71.39,TUQPM0082J,U-0188
+MBU00083,Ritika Bose,Male,M.Sc Data Science,PG,2,ritika.bose1083@mbu.edu.in,9824675320,72.45,JJMPB0083T,U-0188
+MBU00084,Ritika Iyer,Female,M.Sc Data Science,PG,2,ritika.iyer1084@mbu.edu.in,9845827088,75.94,UZRPI0084F,U-0188
+MBU00085,Ritika Reddy,Female,M.Sc Data Science,PG,2,ritika.reddy1085@mbu.edu.in,9860300074,88.93,HVRPR0085M,U-0188
+MBU00086,Aman Sharma,Male,M.Sc Data Science,PG,2,aman.sharma1086@mbu.edu.in,9814538317,66.55,RSGPS0086M,U-0188
+MBU00087,Kiran Sharma,Male,M.Sc Data Science,PG,2,kiran.sharma1087@mbu.edu.in,9851535441,61.2,SHUPS0087B,U-0188
+MBU00088,Sameer Verma,Male,M.Sc Data Science,PG,2,sameer.verma1088@mbu.edu.in,9841243307,63.78,QQHPV0088F,U-0188
+MBU00089,Nikhil Iyer,Female,M.Sc Data Science,PG,2,nikhil.iyer1089@mbu.edu.in,9811429261,61.04,QEJPI0089B,U-0188
+MBU00090,Vinay Reddy,Male,M.Sc Data Science,PG,2,vinay.reddy1090@mbu.edu.in,9842468771,75.59,BXIPR0090P,U-0188
+MBU00091,Ritika Das,Female,M.Sc Data Science,PG,2,ritika.das1091@mbu.edu.in,9832999080,66.36,XRFPD0091D,U-0188
+MBU00092,Sameer Bose,Male,M.Sc Data Science,PG,2,sameer.bose1092@mbu.edu.in,9883852000,63.95,KWSPB0092H,U-0188
+MBU00093,Arjun Malhotra,Female,M.Sc Data Science,PG,2,arjun.malhotra1093@mbu.edu.in,9877942234,69.4,EAXPM0093Z,U-0188
+MBU00094,Harika Reddy,Male,M.Sc Data Science,PG,2,harika.reddy1094@mbu.edu.in,9892431721,74.11,EEHPR0094T,U-0188
+MBU00095,Yash Rao,Female,M.Sc Data Science,PG,2,yash.rao1095@mbu.edu.in,9879689593,97.17,DVFPR0095U,U-0188
+MBU00096,Sameer Naidu,Male,M.Sc Data Science,PG,2,sameer.naidu1096@mbu.edu.in,9812438422,81.44,SUIPN0096A,U-0188
+MBU00097,Rahul Mishra,Male,M.Sc Data Science,PG,2,rahul.mishra1097@mbu.edu.in,9835020081,63.88,HCGPM0097O,U-0188
+MBU00098,Arjun Sharma,Female,M.Sc Data Science,PG,2,arjun.sharma1098@mbu.edu.in,9834997910,75.01,ECLPS0098T,U-0188
+MBU00099,Meghana Singh,Male,M.Sc Data Science,PG,2,meghana.singh1099@mbu.edu.in,9850424480,75.48,JLNPS0099U,U-0188
+MBU00100,Vikram Iyer,Female,M.Sc Data Science,PG,2,vikram.iyer1100@mbu.edu.in,9894962283,62.2,AVEPI0100R,U-0188
+MBU00101,Sanjay Jain,Female,M.Sc Data Science,PG,2,sanjay.jain1101@mbu.edu.in,9873712610,90.04,JOAPJ0101J,U-0188
+MBU00102,Sameer Malhotra,Male,M.Sc Data Science,PG,2,sameer.malhotra1102@mbu.edu.in,9867428479,97.23,RNNPM0102R,U-0188
+MBU00103,Sameer Nair,Female,M.Sc Data Science,PG,2,sameer.nair1103@mbu.edu.in,9866721183,87.26,NFIPN0103I,U-0188
+MBU00104,Divya Bose,Male,M.Sc Data Science,PG,2,divya.bose1104@mbu.edu.in,9870764087,89.76,LELPB0104K,U-0188
+MBU00105,Nikhil Kumar,Female,M.Sc Data Science,PG,2,nikhil.kumar1105@mbu.edu.in,9843149868,90.99,JRTPK0105Z,U-0188
+MBU00106,Vikram Chopra,Male,M.Sc Data Science,PG,2,vikram.chopra1106@mbu.edu.in,9837504839,74.74,EVHPC0106U,U-0188
+MBU00107,Sameer Gupta,Female,M.Sc Data Science,PG,2,sameer.gupta1107@mbu.edu.in,9851794497,85.21,XVOPG0107N,U-0188
+MBU00108,Yash Iyer,Male,M.Sc Data Science,PG,2,yash.iyer1108@mbu.edu.in,9885032108,62.88,TYTPI0108C,U-0188
+MBU00109,Aman Naidu,Female,M.Sc Data Science,PG,2,aman.naidu1109@mbu.edu.in,9835189040,69.02,HYEPN0109X,U-0188
+MBU00110,Aman Bhat,Male,M.Sc Data Science,PG,2,aman.bhat1110@mbu.edu.in,9827254358,79.61,SXTPB0110Q,U-0188
+MBU00111,Meghana Naidu,Female,M.Sc Data Science,PG,2,meghana.naidu1111@mbu.edu.in,9873625731,95.16,UTTPN0111Y,U-0188
+MBU00112,Vikram Jain,Male,M.Sc Data Science,PG,2,vikram.jain1112@mbu.edu.in,9869057017,91.32,XUGPJ0112X,U-0188
+MBU00113,Harika Sharma,Female,M.Sc Data Science,PG,2,harika.sharma1113@mbu.edu.in,9849638275,60.14,BTVPS0113O,U-0188
+MBU00114,Neha Gupta,Male,M.Sc Data Science,PG,2,neha.gupta1114@mbu.edu.in,9844121120,68.77,NICPG0114O,U-0188
+MBU00115,Harika Rao,Female,M.Sc Data Science,PG,2,harika.rao1115@mbu.edu.in,9813472670,69.2,EKWPR0115R,U-0188
+MBU00116,Pooja Nair,Male,M.Sc Data Science,PG,2,pooja.nair1116@mbu.edu.in,9854803831,86.68,BDUPN0116U,U-0188
+MBU00117,Ravi Sharma,Male,M.Sc Data Science,PG,2,ravi.sharma1117@mbu.edu.in,9880123013,80.8,ZVYPS0117C,U-0188
+MBU00118,Kavya Sharma,Female,M.Sc Data Science,PG,2,kavya.sharma1118@mbu.edu.in,9862439107,70.96,PSVPS0118O,U-0188
+MBU00119,Pooja Mishra,Female,M.Sc Data Science,PG,2,pooja.mishra1119@mbu.edu.in,9817918544,87.38,IDPPM0119W,U-0188
+MBU00120,Rahul Jain,Male,M.Sc Data Science,PG,2,rahul.jain1120@mbu.edu.in,9821150344,94.83,XIHPJ0120A,U-0188
+MBU00121,Kiran Reddy,Male,M.Tech CSE,PG,1,kiran.reddy1121@mbu.edu.in,9842732960,92.75,YPDPR0121L,U-0188
+MBU00122,Rahul Mishra,Male,M.Tech CSE,PG,1,rahul.mishra1122@mbu.edu.in,9848350854,99.14,MFYPM0122R,U-0188
+MBU00123,Kiran Shetty,Female,M.Tech CSE,PG,1,kiran.shetty1123@mbu.edu.in,9895765761,84.24,PAKPS0123K,U-0188
+MBU00124,Ananya Iyer,Female,M.Tech CSE,PG,1,ananya.iyer1124@mbu.edu.in,9866727183,86.53,BAHPI0124I,U-0188
+MBU00125,Aman Jain,Female,M.Tech CSE,PG,1,aman.jain1125@mbu.edu.in,9814523266,82.59,LFCPJ0125N,U-0188
+MBU00126,Ananya Naidu,Female,M.Tech CSE,PG,1,ananya.naidu1126@mbu.edu.in,9873457237,87.76,HJSPN0126E,U-0188
+MBU00127,Arjun Jain,Female,M.Tech CSE,PG,1,arjun.jain1127@mbu.edu.in,9858844549,65.24,WMBPJ0127M,U-0188
+MBU00128,Vikram Malhotra,Male,M.Tech CSE,PG,1,vikram.malhotra1128@mbu.edu.in,9844399847,70.22,IPCPM0128Z,U-0188
+MBU00129,Arjun Das,Female,M.Tech CSE,PG,1,arjun.das1129@mbu.edu.in,9857996668,71.34,UJWPD0129C,U-0188
+MBU00130,Harika Reddy,Male,M.Tech CSE,PG,1,harika.reddy1130@mbu.edu.in,9841677881,63.9,VMJPR0130L,U-0188
+MBU00131,Harika Verma,Male,M.Tech CSE,PG,1,harika.verma1131@mbu.edu.in,9839547456,90.35,QVEPV0131J,U-0188
+MBU00132,Sneha Kumar,Male,M.Tech CSE,PG,1,sneha.kumar1132@mbu.edu.in,9855436395,94.74,ZUXPK0132H,U-0188
+MBU00133,Rahul Shetty,Female,M.Tech CSE,PG,1,rahul.shetty1133@mbu.edu.in,9879072047,74.59,IGWPS0133T,U-0188
+MBU00134,Ananya Rao,Male,M.Tech CSE,PG,1,ananya.rao1134@mbu.edu.in,9884143205,67.8,JBKPR0134D,U-0188
+MBU00135,Neha Reddy,Female,M.Tech CSE,PG,1,neha.reddy1135@mbu.edu.in,9894341488,65.28,JXKPR0135L,U-0188
+MBU00136,Ravi Reddy,Male,M.Tech CSE,PG,1,ravi.reddy1136@mbu.edu.in,9874760486,69.14,REQPR0136G,U-0188
+MBU00137,Arjun Das,Female,M.Tech CSE,PG,1,arjun.das1137@mbu.edu.in,9867915735,96.56,ZXHPD0137J,U-0188
+MBU00138,Harika Bose,Female,M.Tech CSE,PG,1,harika.bose1138@mbu.edu.in,9825789838,82.26,OYBPB0138B,U-0188
+MBU00139,Sneha Sharma,Male,M.Tech CSE,PG,1,sneha.sharma1139@mbu.edu.in,9835716681,60.8,FRNPS0139Y,U-0188
+MBU00140,Sneha Patel,Male,M.Tech CSE,PG,1,sneha.patel1140@mbu.edu.in,9836024662,69.96,OYNPP0140X,U-0188
+MBU00141,Nikhil Nair,Female,M.Tech CSE,PG,1,nikhil.nair1141@mbu.edu.in,9868014181,71.75,CBXPN0141V,U-0188
+MBU00142,Sameer Das,Male,M.Tech CSE,PG,1,sameer.das1142@mbu.edu.in,9887143286,60.09,KENPD0142Z,U-0188
+MBU00143,Rahul Yadav,Male,M.Tech CSE,PG,1,rahul.yadav1143@mbu.edu.in,9837402376,78.66,SNAPY0143R,U-0188
+MBU00144,Kavya Mishra,Female,M.Tech CSE,PG,1,kavya.mishra1144@mbu.edu.in,9871493003,66.38,UNKPM0144T,U-0188
+MBU00145,Harika Sharma,Female,M.Tech CSE,PG,1,harika.sharma1145@mbu.edu.in,9869390192,60.77,NZQPS0145P,U-0188
+MBU00146,Rahul Bose,Male,M.Tech CSE,PG,1,rahul.bose1146@mbu.edu.in,9831154305,85.9,JAQPB0146L,U-0188
+MBU00147,Ritika Naidu,Male,M.Tech CSE,PG,1,ritika.naidu1147@mbu.edu.in,9827906306,95.14,LTXPN0147W,U-0188
+MBU00148,Kiran Mishra,Male,M.Tech CSE,PG,1,kiran.mishra1148@mbu.edu.in,9889731122,76.97,ITJPM0148J,U-0188
+MBU00149,Yash Yadav,Male,M.Tech CSE,PG,1,yash.yadav1149@mbu.edu.in,9815110398,83.34,ZCBPY0149U,U-0188
+MBU00150,Divya Rao,Female,M.Tech CSE,PG,1,divya.rao1150@mbu.edu.in,9833399199,93.8,AAFPR0150Z,U-0188
+MBU00151,Arjun Verma,Male,M.Tech CSE,PG,1,arjun.verma1151@mbu.edu.in,9861708440,71.41,ICXPV0151N,U-0188
+MBU00152,Sanjay Malhotra,Male,M.Tech CSE,PG,1,sanjay.malhotra1152@mbu.edu.in,9854507056,82.33,XTEPM0152T,U-0188
+MBU00153,Yash Shetty,Female,M.Tech CSE,PG,1,yash.shetty1153@mbu.edu.in,9830480787,84.27,TARPS0153O,U-0188
+MBU00154,Divya Das,Female,M.Tech CSE,PG,1,divya.das1154@mbu.edu.in,9887082158,83.79,PBWPD0154H,U-0188
+MBU00155,Sameer Iyer,Female,M.Tech CSE,PG,1,sameer.iyer1155@mbu.edu.in,9899504621,82.51,GJGPI0155T,U-0188
+MBU00156,Vikram Rao,Female,M.Tech CSE,PG,1,vikram.rao1156@mbu.edu.in,9894659993,64.14,RPDPR0156I,U-0188
+MBU00157,Meghana Das,Female,M.Tech CSE,PG,1,meghana.das1157@mbu.edu.in,9896923940,84.4,QTEPD0157N,U-0188
+MBU00158,Ananya Iyer,Male,M.Tech CSE,PG,1,ananya.iyer1158@mbu.edu.in,9866485028,87.5,LYIPI0158R,U-0188
+MBU00159,Pooja Mishra,Female,M.Tech CSE,PG,1,pooja.mishra1159@mbu.edu.in,9830495262,68.14,SCAPM0159O,U-0188
+MBU00160,Sanjay Gupta,Female,M.Tech CSE,PG,1,sanjay.gupta1160@mbu.edu.in,9861029930,81.76,BCZPG0160U,U-0188
+MBU00161,Rahul Shetty,Female,M.Tech CSE,PG,1,rahul.shetty1161@mbu.edu.in,9848054098,91.39,DISPS0161S,U-0188
+MBU00162,Ritika Bhat,Male,M.Tech CSE,PG,1,ritika.bhat1162@mbu.edu.in,9895995761,83.71,VMTPB0162Q,U-0188
+MBU00163,Ritika Reddy,Male,M.Tech CSE,PG,1,ritika.reddy1163@mbu.edu.in,9893777129,83.02,ZWGPR0163V,U-0188
+MBU00164,Arjun Gupta,Male,M.Tech CSE,PG,1,arjun.gupta1164@mbu.edu.in,9894194021,99.25,XXZPG0164E,U-0188
+MBU00165,Vinay Kumar,Female,M.Tech CSE,PG,1,vinay.kumar1165@mbu.edu.in,9815900448,97.5,PGXPK0165S,U-0188
+MBU00166,Pooja Bose,Female,M.Tech CSE,PG,1,pooja.bose1166@mbu.edu.in,9822041788,74.64,FOQPB0166V,U-0188
+MBU00167,Arjun Bose,Female,M.Tech CSE,PG,1,arjun.bose1167@mbu.edu.in,9855149839,89.94,ZOUPB0167J,U-0188
+MBU00168,Meghana Rao,Female,M.Tech CSE,PG,1,meghana.rao1168@mbu.edu.in,9844254251,79.19,ACMPR0168R,U-0188
+MBU00169,Vikram Nair,Female,M.Tech CSE,PG,1,vikram.nair1169@mbu.edu.in,9852165952,76.26,RNAPN0169N,U-0188
+MBU00170,Kavya Das,Male,M.Tech CSE,PG,1,kavya.das1170@mbu.edu.in,9839593972,82.96,NPOPD0170M,U-0188
+MBU00171,Ritika Kumar,Female,M.Tech CSE,PG,1,ritika.kumar1171@mbu.edu.in,9834072078,86.0,JQQPK0171W,U-0188
+MBU00172,Aman Verma,Male,M.Tech CSE,PG,1,aman.verma1172@mbu.edu.in,9821793744,84.43,AFCPV0172I,U-0188
+MBU00173,Meghana Patel,Female,M.Tech CSE,PG,1,meghana.patel1173@mbu.edu.in,9823893249,96.73,RGGPP0173Q,U-0188
+MBU00174,Pooja Gupta,Male,M.Tech CSE,PG,1,pooja.gupta1174@mbu.edu.in,9833127844,88.52,SMSPG0174O,U-0188
+MBU00175,Kavya Patel,Female,M.Tech CSE,PG,1,kavya.patel1175@mbu.edu.in,9886538810,75.43,FUXPP0175H,U-0188
+MBU00176,Ananya Shetty,Female,M.Tech CSE,PG,1,ananya.shetty1176@mbu.edu.in,9840250435,60.01,WAUPS0176L,U-0188
+MBU00177,Kavya Gupta,Male,M.Tech CSE,PG,1,kavya.gupta1177@mbu.edu.in,9819668643,90.3,JWUPG0177Y,U-0188
+MBU00178,Kiran Reddy,Male,M.Tech CSE,PG,1,kiran.reddy1178@mbu.edu.in,9852694935,87.25,CFOPR0178A,U-0188
+MBU00179,Ravi Sharma,Male,M.Tech CSE,PG,1,ravi.sharma1179@mbu.edu.in,9886981161,76.39,QXJPS0179C,U-0188
+MBU00180,Harika Rao,Female,M.Tech CSE,PG,1,harika.rao1180@mbu.edu.in,9883657960,89.28,CMJPR0180W,U-0188
+MBU00181,Pooja Yadav,Female,M.Tech CSE,PG,2,pooja.yadav1181@mbu.edu.in,9817914200,98.32,BZCPY0181I,U-0188
+MBU00182,Pooja Shetty,Male,M.Tech CSE,PG,2,pooja.shetty1182@mbu.edu.in,9892168884,90.19,TFKPS0182S,U-0188
+MBU00183,Vinay Naidu,Female,M.Tech CSE,PG,2,vinay.naidu1183@mbu.edu.in,9827629386,60.54,WKBPN0183D,U-0188
+MBU00184,Pooja Patel,Female,M.Tech CSE,PG,2,pooja.patel1184@mbu.edu.in,9858680663,85.67,ZWXPP0184H,U-0188
+MBU00185,Vinay Verma,Male,M.Tech CSE,PG,2,vinay.verma1185@mbu.edu.in,9862611568,91.49,PESPV0185A,U-0188
+MBU00186,Ritika Gupta,Male,M.Tech CSE,PG,2,ritika.gupta1186@mbu.edu.in,9840938416,82.6,XATPG0186H,U-0188
+MBU00187,Meghana Sharma,Male,M.Tech CSE,PG,2,meghana.sharma1187@mbu.edu.in,9844433218,79.78,NTZPS0187W,U-0188
+MBU00188,Sneha Shetty,Female,M.Tech CSE,PG,2,sneha.shetty1188@mbu.edu.in,9832408786,72.15,IIUPS0188V,U-0188
+MBU00189,Sneha Iyer,Female,M.Tech CSE,PG,2,sneha.iyer1189@mbu.edu.in,9851234353,90.87,RELPI0189N,U-0188
+MBU00190,Sameer Chopra,Female,M.Tech CSE,PG,2,sameer.chopra1190@mbu.edu.in,9891832232,66.19,ENOPC0190B,U-0188
+MBU00191,Arjun Mishra,Male,M.Tech CSE,PG,2,arjun.mishra1191@mbu.edu.in,9899462484,69.2,WFDPM0191C,U-0188
+MBU00192,Sanjay Chopra,Female,M.Tech CSE,PG,2,sanjay.chopra1192@mbu.edu.in,9846644936,97.54,OJGPC0192V,U-0188
+MBU00193,Ananya Jain,Male,M.Tech CSE,PG,2,ananya.jain1193@mbu.edu.in,9814725125,85.85,YSQPJ0193P,U-0188
+MBU00194,Sneha Jain,Female,M.Tech CSE,PG,2,sneha.jain1194@mbu.edu.in,9881761826,86.48,GUKPJ0194J,U-0188
+MBU00195,Ritika Naidu,Male,M.Tech CSE,PG,2,ritika.naidu1195@mbu.edu.in,9888512441,92.19,RZIPN0195P,U-0188
+MBU00196,Sneha Kumar,Female,M.Tech CSE,PG,2,sneha.kumar1196@mbu.edu.in,9868380638,66.1,EAKPK0196D,U-0188
+MBU00197,Pooja Naidu,Female,M.Tech CSE,PG,2,pooja.naidu1197@mbu.edu.in,9887634958,97.75,GKXPN0197N,U-0188
+MBU00198,Kavya Verma,Male,M.Tech CSE,PG,2,kavya.verma1198@mbu.edu.in,9889675188,92.26,JTYPV0198U,U-0188
+MBU00199,Nikhil Yadav,Male,M.Tech CSE,PG,2,nikhil.yadav1199@mbu.edu.in,9817735008,87.15,QKSPY0199U,U-0188
+MBU00200,Nikhil Naidu,Female,M.Tech CSE,PG,2,nikhil.naidu1200@mbu.edu.in,9810833295,62.65,NTKPN0200X,U-0188
+MBU00201,Arjun Chopra,Male,M.Tech CSE,PG,2,arjun.chopra1201@mbu.edu.in,9867142964,60.88,RLAPC0201P,U-0188
+MBU00202,Vikram Kumar,Male,M.Tech CSE,PG,2,vikram.kumar1202@mbu.edu.in,9881911802,70.86,XNQPK0202Y,U-0188
+MBU00203,Harika Naidu,Female,M.Tech CSE,PG,2,harika.naidu1203@mbu.edu.in,9850334894,64.69,INEPN0203L,U-0188
+MBU00204,Ananya Verma,Female,M.Tech CSE,PG,2,ananya.verma1204@mbu.edu.in,9814574992,89.11,ADWPV0204U,U-0188
+MBU00205,Sneha Patel,Male,M.Tech CSE,PG,2,sneha.patel1205@mbu.edu.in,9849077684,68.17,VXOPP0205D,U-0188
+MBU00206,Kavya Iyer,Female,M.Tech CSE,PG,2,kavya.iyer1206@mbu.edu.in,9864638093,90.01,YWWPI0206O,U-0188
+MBU00207,Nikhil Gupta,Male,M.Tech CSE,PG,2,nikhil.gupta1207@mbu.edu.in,9845682447,94.36,VLBPG0207R,U-0188
+MBU00208,Pooja Yadav,Female,M.Tech CSE,PG,2,pooja.yadav1208@mbu.edu.in,9833133924,76.38,ZVWPY0208V,U-0188
+MBU00209,Ravi Bhat,Male,M.Tech CSE,PG,2,ravi.bhat1209@mbu.edu.in,9851714731,98.55,NYLPB0209T,U-0188
+MBU00210,Sameer Bose,Female,M.Tech CSE,PG,2,sameer.bose1210@mbu.edu.in,9888686597,98.08,KYHPB0210S,U-0188
+MBU00211,Vikram Yadav,Male,M.Tech CSE,PG,2,vikram.yadav1211@mbu.edu.in,9831307848,64.02,OIVPY0211X,U-0188
+MBU00212,Divya Gupta,Male,M.Tech CSE,PG,2,divya.gupta1212@mbu.edu.in,9841411889,96.39,NVGPG0212Z,U-0188
+MBU00213,Yash Mishra,Male,M.Tech CSE,PG,2,yash.mishra1213@mbu.edu.in,9858304142,87.4,EPLPM0213S,U-0188
+MBU00214,Vinay Das,Female,M.Tech CSE,PG,2,vinay.das1214@mbu.edu.in,9865968029,74.9,VLDPD0214Y,U-0188
+MBU00215,Yash Chopra,Male,M.Tech CSE,PG,2,yash.chopra1215@mbu.edu.in,9838933896,75.15,IVBPC0215L,U-0188
+MBU00216,Aman Iyer,Male,M.Tech CSE,PG,2,aman.iyer1216@mbu.edu.in,9826081056,86.55,AASPI0216N,U-0188
+MBU00217,Aman Yadav,Male,M.Tech CSE,PG,2,aman.yadav1217@mbu.edu.in,9889149540,78.34,LSIPY0217C,U-0188
+MBU00218,Meghana Rao,Male,M.Tech CSE,PG,2,meghana.rao1218@mbu.edu.in,9879648978,63.39,ITKPR0218L,U-0188
+MBU00219,Kiran Malhotra,Male,M.Tech CSE,PG,2,kiran.malhotra1219@mbu.edu.in,9817750972,71.52,JTZPM0219M,U-0188
+MBU00220,Meghana Rao,Female,M.Tech CSE,PG,2,meghana.rao1220@mbu.edu.in,9892798784,61.55,PIQPR0220Q,U-0188
+MBU00221,Sameer Naidu,Male,M.Tech CSE,PG,2,sameer.naidu1221@mbu.edu.in,9865623882,63.53,NVRPN0221U,U-0188
+MBU00222,Meghana Bhat,Male,M.Tech CSE,PG,2,meghana.bhat1222@mbu.edu.in,9820821849,76.55,TWXPB0222S,U-0188
+MBU00223,Yash Malhotra,Female,M.Tech CSE,PG,2,yash.malhotra1223@mbu.edu.in,9891825333,62.44,KUDPM0223F,U-0188
+MBU00224,Vinay Verma,Female,M.Tech CSE,PG,2,vinay.verma1224@mbu.edu.in,9894845701,61.11,JSYPV0224W,U-0188
+MBU00225,Ananya Malhotra,Male,M.Tech CSE,PG,2,ananya.malhotra1225@mbu.edu.in,9820195795,80.35,LFXPM0225T,U-0188
+MBU00226,Ravi Kumar,Female,M.Tech CSE,PG,2,ravi.kumar1226@mbu.edu.in,9818439786,94.18,UYUPK0226J,U-0188
+MBU00227,Kavya Rao,Male,M.Tech CSE,PG,2,kavya.rao1227@mbu.edu.in,9895836697,62.14,DNOPR0227W,U-0188
+MBU00228,Neha Kumar,Female,M.Tech CSE,PG,2,neha.kumar1228@mbu.edu.in,9881372051,91.2,PSKPK0228E,U-0188
+MBU00229,Neha Chopra,Female,M.Tech CSE,PG,2,neha.chopra1229@mbu.edu.in,9896215351,90.1,ECOPC0229Q,U-0188
+MBU00230,Vikram Jain,Male,M.Tech CSE,PG,2,vikram.jain1230@mbu.edu.in,9893529311,62.77,FZJPJ0230J,U-0188
+MBU00231,Harika Singh,Male,M.Tech CSE,PG,2,harika.singh1231@mbu.edu.in,9851873809,93.29,SCKPS0231Y,U-0188
+MBU00232,Ritika Naidu,Male,M.Tech CSE,PG,2,ritika.naidu1232@mbu.edu.in,9835895332,68.17,FFKPN0232T,U-0188
+MBU00233,Vikram Sharma,Female,M.Tech CSE,PG,2,vikram.sharma1233@mbu.edu.in,9881701808,63.48,FWMPS0233K,U-0188
+MBU00234,Vinay Sharma,Male,M.Tech CSE,PG,2,vinay.sharma1234@mbu.edu.in,9890857736,99.92,AYDPS0234Z,U-0188
+MBU00235,Ananya Malhotra,Female,M.Tech CSE,PG,2,ananya.malhotra1235@mbu.edu.in,9899330004,92.53,ASJPM0235Z,U-0188
+MBU00236,Kiran Gupta,Female,M.Tech CSE,PG,2,kiran.gupta1236@mbu.edu.in,9896688033,60.43,BWQPG0236O,U-0188
+MBU00237,Nikhil Yadav,Female,M.Tech CSE,PG,2,nikhil.yadav1237@mbu.edu.in,9877426064,88.34,TDHPY0237V,U-0188
+MBU00238,Sanjay Kumar,Male,M.Tech CSE,PG,2,sanjay.kumar1238@mbu.edu.in,9856905199,62.07,EOPPK0238S,U-0188
+MBU00239,Yash Das,Male,M.Tech CSE,PG,2,yash.das1239@mbu.edu.in,9870544774,68.83,SGKPD0239W,U-0188
+MBU00240,Kavya Iyer,Female,M.Tech CSE,PG,2,kavya.iyer1240@mbu.edu.in,9852017365,94.57,YGRPI0240Y,U-0188
+MBU00241,Kavya Naidu,Female,M.Tech ECE,PG,1,kavya.naidu1241@mbu.edu.in,9845088364,96.54,PRUPN0241X,U-0188
+MBU00242,Sameer Naidu,Female,M.Tech ECE,PG,1,sameer.naidu1242@mbu.edu.in,9839080092,84.41,ALCPN0242S,U-0188
+MBU00243,Kavya Iyer,Female,M.Tech ECE,PG,1,kavya.iyer1243@mbu.edu.in,9826635165,92.01,DDRPI0243O,U-0188
+MBU00244,Kiran Nair,Male,M.Tech ECE,PG,1,kiran.nair1244@mbu.edu.in,9890775852,64.52,RIVPN0244E,U-0188
+MBU00245,Vinay Sharma,Female,M.Tech ECE,PG,1,vinay.sharma1245@mbu.edu.in,9841291452,98.52,PKCPS0245V,U-0188
+MBU00246,Kavya Nair,Female,M.Tech ECE,PG,1,kavya.nair1246@mbu.edu.in,9881291833,99.06,XCMPN0246M,U-0188
+MBU00247,Vikram Jain,Male,M.Tech ECE,PG,1,vikram.jain1247@mbu.edu.in,9865168501,76.26,DORPJ0247H,U-0188
+MBU00248,Meghana Malhotra,Male,M.Tech ECE,PG,1,meghana.malhotra1248@mbu.edu.in,9842280285,87.13,AMJPM0248V,U-0188
+MBU00249,Vikram Iyer,Female,M.Tech ECE,PG,1,vikram.iyer1249@mbu.edu.in,9897968858,75.7,QMBPI0249V,U-0188
+MBU00250,Divya Nair,Male,M.Tech ECE,PG,1,divya.nair1250@mbu.edu.in,9893226891,87.7,XWDPN0250L,U-0188
+MBU00251,Harika Iyer,Female,M.Tech ECE,PG,1,harika.iyer1251@mbu.edu.in,9876535306,85.64,COEPI0251T,U-0188
+MBU00252,Kiran Naidu,Female,M.Tech ECE,PG,1,kiran.naidu1252@mbu.edu.in,9864144404,99.15,ZRWPN0252I,U-0188
+MBU00253,Meghana Nair,Male,M.Tech ECE,PG,1,meghana.nair1253@mbu.edu.in,9872571402,65.37,EQTPN0253W,U-0188
+MBU00254,Meghana Verma,Female,M.Tech ECE,PG,1,meghana.verma1254@mbu.edu.in,9867536407,84.1,HDXPV0254Z,U-0188
+MBU00255,Pooja Sharma,Female,M.Tech ECE,PG,1,pooja.sharma1255@mbu.edu.in,9845374572,96.52,OCVPS0255S,U-0188
+MBU00256,Sneha Malhotra,Male,M.Tech ECE,PG,1,sneha.malhotra1256@mbu.edu.in,9831625701,91.82,BVWPM0256M,U-0188
+MBU00257,Harika Kumar,Male,M.Tech ECE,PG,1,harika.kumar1257@mbu.edu.in,9875396149,62.04,IOSPK0257W,U-0188
+MBU00258,Sneha Nair,Male,M.Tech ECE,PG,1,sneha.nair1258@mbu.edu.in,9849076883,79.84,WARPN0258A,U-0188
+MBU00259,Kiran Bhat,Female,M.Tech ECE,PG,1,kiran.bhat1259@mbu.edu.in,9897466046,85.43,FQLPB0259H,U-0188
+MBU00260,Neha Bose,Female,M.Tech ECE,PG,1,neha.bose1260@mbu.edu.in,9879799028,82.79,YKAPB0260I,U-0188
+MBU00261,Ananya Bose,Female,M.Tech ECE,PG,1,ananya.bose1261@mbu.edu.in,9856381514,98.37,MHSPB0261A,U-0188
+MBU00262,Meghana Reddy,Male,M.Tech ECE,PG,1,meghana.reddy1262@mbu.edu.in,9868150544,84.31,TUVPR0262C,U-0188
+MBU00263,Arjun Reddy,Female,M.Tech ECE,PG,1,arjun.reddy1263@mbu.edu.in,9838351773,71.38,TMJPR0263W,U-0188
+MBU00264,Ravi Kumar,Female,M.Tech ECE,PG,1,ravi.kumar1264@mbu.edu.in,9876531324,61.05,DYYPK0264Z,U-0188
+MBU00265,Nikhil Verma,Male,M.Tech ECE,PG,1,nikhil.verma1265@mbu.edu.in,9895988624,94.3,KYYPV0265T,U-0188
+MBU00266,Pooja Malhotra,Female,M.Tech ECE,PG,1,pooja.malhotra1266@mbu.edu.in,9888777599,72.66,XYNPM0266H,U-0188
+MBU00267,Sanjay Mishra,Male,M.Tech ECE,PG,1,sanjay.mishra1267@mbu.edu.in,9887744701,97.81,SIVPM0267P,U-0188
+MBU00268,Kavya Kumar,Female,M.Tech ECE,PG,1,kavya.kumar1268@mbu.edu.in,9877840601,82.51,HQOPK0268N,U-0188
+MBU00269,Arjun Gupta,Female,M.Tech ECE,PG,1,arjun.gupta1269@mbu.edu.in,9832778242,99.02,XQLPG0269Q,U-0188
+MBU00270,Pooja Rao,Male,M.Tech ECE,PG,1,pooja.rao1270@mbu.edu.in,9822364133,99.97,PMUPR0270W,U-0188
+MBU00271,Kavya Yadav,Female,M.Tech ECE,PG,1,kavya.yadav1271@mbu.edu.in,9881402632,60.92,YIVPY0271R,U-0188
+MBU00272,Kiran Malhotra,Male,M.Tech ECE,PG,1,kiran.malhotra1272@mbu.edu.in,9820703819,96.22,AMVPM0272T,U-0188
+MBU00273,Ritika Nair,Female,M.Tech ECE,PG,1,ritika.nair1273@mbu.edu.in,9823071774,73.52,SVMPN0273L,U-0188
+MBU00274,Kavya Das,Female,M.Tech ECE,PG,1,kavya.das1274@mbu.edu.in,9889227207,84.2,CWWPD0274V,U-0188
+MBU00275,Nikhil Singh,Male,M.Tech ECE,PG,1,nikhil.singh1275@mbu.edu.in,9840527410,67.65,ZCFPS0275F,U-0188
+MBU00276,Sneha Das,Male,M.Tech ECE,PG,1,sneha.das1276@mbu.edu.in,9857600416,85.98,DGRPD0276S,U-0188
+MBU00277,Sneha Sharma,Female,M.Tech ECE,PG,1,sneha.sharma1277@mbu.edu.in,9826802536,93.34,MYPPS0277H,U-0188
+MBU00278,Harika Das,Male,M.Tech ECE,PG,1,harika.das1278@mbu.edu.in,9889688723,96.94,GXQPD0278P,U-0188
+MBU00279,Sneha Reddy,Male,M.Tech ECE,PG,1,sneha.reddy1279@mbu.edu.in,9859120664,84.45,JOPPR0279R,U-0188
+MBU00280,Harika Kumar,Male,M.Tech ECE,PG,1,harika.kumar1280@mbu.edu.in,9865050049,87.68,ZJSPK0280Y,U-0188
+MBU00281,Aman Shetty,Male,M.Tech ECE,PG,1,aman.shetty1281@mbu.edu.in,9829553919,66.27,AHEPS0281R,U-0188
+MBU00282,Sameer Patel,Female,M.Tech ECE,PG,1,sameer.patel1282@mbu.edu.in,9829301049,86.33,EGRPP0282F,U-0188
+MBU00283,Neha Patel,Male,M.Tech ECE,PG,1,neha.patel1283@mbu.edu.in,9855601677,78.43,RRAPP0283S,U-0188
+MBU00284,Kavya Shetty,Female,M.Tech ECE,PG,1,kavya.shetty1284@mbu.edu.in,9855720950,83.77,IDIPS0284P,U-0188
+MBU00285,Harika Nair,Male,M.Tech ECE,PG,1,harika.nair1285@mbu.edu.in,9837753907,90.58,IQAPN0285Q,U-0188
+MBU00286,Aman Malhotra,Male,M.Tech ECE,PG,1,aman.malhotra1286@mbu.edu.in,9854164302,92.01,LWPPM0286V,U-0188
+MBU00287,Meghana Sharma,Female,M.Tech ECE,PG,1,meghana.sharma1287@mbu.edu.in,9823100996,84.76,IMWPS0287A,U-0188
+MBU00288,Ananya Malhotra,Female,M.Tech ECE,PG,1,ananya.malhotra1288@mbu.edu.in,9885015409,66.09,BYPPM0288H,U-0188
+MBU00289,Nikhil Jain,Female,M.Tech ECE,PG,1,nikhil.jain1289@mbu.edu.in,9850570142,74.57,AMEPJ0289A,U-0188
+MBU00290,Kiran Chopra,Female,M.Tech ECE,PG,1,kiran.chopra1290@mbu.edu.in,9834549749,84.01,RYXPC0290P,U-0188
+MBU00291,Ritika Naidu,Female,M.Tech ECE,PG,1,ritika.naidu1291@mbu.edu.in,9870557401,96.21,UQHPN0291M,U-0188
+MBU00292,Meghana Singh,Male,M.Tech ECE,PG,1,meghana.singh1292@mbu.edu.in,9830977086,74.49,LUWPS0292N,U-0188
+MBU00293,Sneha Iyer,Male,M.Tech ECE,PG,1,sneha.iyer1293@mbu.edu.in,9854632323,82.25,YFOPI0293N,U-0188
+MBU00294,Ravi Mishra,Female,M.Tech ECE,PG,1,ravi.mishra1294@mbu.edu.in,9878201693,91.82,MMMPM0294T,U-0188
+MBU00295,Yash Naidu,Male,M.Tech ECE,PG,1,yash.naidu1295@mbu.edu.in,9891884733,71.19,MYKPN0295Q,U-0188
+MBU00296,Nikhil Singh,Female,M.Tech ECE,PG,1,nikhil.singh1296@mbu.edu.in,9816130299,83.79,HDTPS0296Y,U-0188
+MBU00297,Kavya Bhat,Male,M.Tech ECE,PG,1,kavya.bhat1297@mbu.edu.in,9896118012,82.86,WOXPB0297J,U-0188
+MBU00298,Arjun Shetty,Male,M.Tech ECE,PG,1,arjun.shetty1298@mbu.edu.in,9853259446,86.1,AIEPS0298E,U-0188
+MBU00299,Meghana Jain,Male,M.Tech ECE,PG,1,meghana.jain1299@mbu.edu.in,9894187914,91.34,YSUPJ0299J,U-0188
+MBU00300,Kavya Gupta,Male,M.Tech ECE,PG,1,kavya.gupta1300@mbu.edu.in,9853386315,95.99,LZPPG0300D,U-0188
+MBU00301,Sneha Kumar,Male,M.Tech ECE,PG,2,sneha.kumar1301@mbu.edu.in,9863373980,98.73,HVKPK0301X,U-0188
+MBU00302,Vinay Nair,Male,M.Tech ECE,PG,2,vinay.nair1302@mbu.edu.in,9876170868,99.66,IKOPN0302I,U-0188
+MBU00303,Ravi Nair,Female,M.Tech ECE,PG,2,ravi.nair1303@mbu.edu.in,9831737724,63.34,YNUPN0303X,U-0188
+MBU00304,Ananya Malhotra,Male,M.Tech ECE,PG,2,ananya.malhotra1304@mbu.edu.in,9841147282,64.23,PCNPM0304E,U-0188
+MBU00305,Kavya Gupta,Male,M.Tech ECE,PG,2,kavya.gupta1305@mbu.edu.in,9852986101,72.09,WBIPG0305O,U-0188
+MBU00306,Ananya Jain,Female,M.Tech ECE,PG,2,ananya.jain1306@mbu.edu.in,9895051940,64.74,JWJPJ0306T,U-0188
+MBU00307,Ravi Chopra,Male,M.Tech ECE,PG,2,ravi.chopra1307@mbu.edu.in,9863160470,87.37,RZRPC0307K,U-0188
+MBU00308,Sameer Reddy,Female,M.Tech ECE,PG,2,sameer.reddy1308@mbu.edu.in,9889275717,69.24,LNYPR0308R,U-0188
+MBU00309,Kavya Iyer,Male,M.Tech ECE,PG,2,kavya.iyer1309@mbu.edu.in,9835204000,66.38,HNNPI0309H,U-0188
+MBU00310,Kavya Chopra,Male,M.Tech ECE,PG,2,kavya.chopra1310@mbu.edu.in,9891073452,69.49,TCNPC0310Q,U-0188
+MBU00311,Arjun Sharma,Male,M.Tech ECE,PG,2,arjun.sharma1311@mbu.edu.in,9852979541,81.15,HVDPS0311O,U-0188
+MBU00312,Ananya Kumar,Male,M.Tech ECE,PG,2,ananya.kumar1312@mbu.edu.in,9856369250,82.63,GMAPK0312F,U-0188
+MBU00313,Vikram Jain,Female,M.Tech ECE,PG,2,vikram.jain1313@mbu.edu.in,9837903019,80.75,XTHPJ0313D,U-0188
+MBU00314,Kiran Sharma,Male,M.Tech ECE,PG,2,kiran.sharma1314@mbu.edu.in,9864832199,64.64,ZIBPS0314E,U-0188
+MBU00315,Neha Reddy,Male,M.Tech ECE,PG,2,neha.reddy1315@mbu.edu.in,9870444252,64.18,IFQPR0315J,U-0188
+MBU00316,Meghana Jain,Female,M.Tech ECE,PG,2,meghana.jain1316@mbu.edu.in,9896032757,69.43,BWZPJ0316X,U-0188
+MBU00317,Sanjay Malhotra,Female,M.Tech ECE,PG,2,sanjay.malhotra1317@mbu.edu.in,9868148861,80.59,TQYPM0317R,U-0188
+MBU00318,Kiran Bhat,Female,M.Tech ECE,PG,2,kiran.bhat1318@mbu.edu.in,9850222007,90.03,GSTPB0318O,U-0188
+MBU00319,Harika Mishra,Female,M.Tech ECE,PG,2,harika.mishra1319@mbu.edu.in,9870628650,88.71,LWEPM0319V,U-0188
+MBU00320,Arjun Jain,Female,M.Tech ECE,PG,2,arjun.jain1320@mbu.edu.in,9831745889,91.92,TEIPJ0320X,U-0188
+MBU00321,Pooja Singh,Female,M.Tech ECE,PG,2,pooja.singh1321@mbu.edu.in,9858170283,66.14,HGGPS0321J,U-0188
+MBU00322,Yash Bhat,Male,M.Tech ECE,PG,2,yash.bhat1322@mbu.edu.in,9828368289,72.6,TWFPB0322E,U-0188
+MBU00323,Aman Singh,Male,M.Tech ECE,PG,2,aman.singh1323@mbu.edu.in,9887148048,90.33,MRZPS0323B,U-0188
+MBU00324,Meghana Naidu,Female,M.Tech ECE,PG,2,meghana.naidu1324@mbu.edu.in,9850127590,60.58,QJMPN0324I,U-0188
+MBU00325,Vikram Shetty,Female,M.Tech ECE,PG,2,vikram.shetty1325@mbu.edu.in,9812060860,74.92,THHPS0325J,U-0188
+MBU00326,Arjun Iyer,Male,M.Tech ECE,PG,2,arjun.iyer1326@mbu.edu.in,9850110823,89.62,AOBPI0326K,U-0188
+MBU00327,Neha Shetty,Male,M.Tech ECE,PG,2,neha.shetty1327@mbu.edu.in,9874382761,92.27,SKEPS0327E,U-0188
+MBU00328,Yash Singh,Female,M.Tech ECE,PG,2,yash.singh1328@mbu.edu.in,9830931404,74.4,BUQPS0328L,U-0188
+MBU00329,Meghana Shetty,Female,M.Tech ECE,PG,2,meghana.shetty1329@mbu.edu.in,9853696737,71.86,ESNPS0329T,U-0188
+MBU00330,Ananya Gupta,Male,M.Tech ECE,PG,2,ananya.gupta1330@mbu.edu.in,9882551797,89.39,PJFPG0330D,U-0188
+MBU00331,Yash Bhat,Male,M.Tech ECE,PG,2,yash.bhat1331@mbu.edu.in,9882980913,80.83,IUIPB0331M,U-0188
+MBU00332,Kavya Das,Female,M.Tech ECE,PG,2,kavya.das1332@mbu.edu.in,9868602799,67.25,JMGPD0332K,U-0188
+MBU00333,Ravi Das,Female,M.Tech ECE,PG,2,ravi.das1333@mbu.edu.in,9814683947,84.61,XPOPD0333W,U-0188
+MBU00334,Neha Jain,Male,M.Tech ECE,PG,2,neha.jain1334@mbu.edu.in,9833136806,64.41,BSBPJ0334N,U-0188
+MBU00335,Vikram Bose,Male,M.Tech ECE,PG,2,vikram.bose1335@mbu.edu.in,9866128542,69.57,ORDPB0335J,U-0188
+MBU00336,Kavya Das,Female,M.Tech ECE,PG,2,kavya.das1336@mbu.edu.in,9897547704,61.37,JFZPD0336M,U-0188
+MBU00337,Ritika Gupta,Female,M.Tech ECE,PG,2,ritika.gupta1337@mbu.edu.in,9867028614,76.99,RVMPG0337S,U-0188
+MBU00338,Ravi Bose,Female,M.Tech ECE,PG,2,ravi.bose1338@mbu.edu.in,9840748880,62.47,MKOPB0338E,U-0188
+MBU00339,Ananya Kumar,Male,M.Tech ECE,PG,2,ananya.kumar1339@mbu.edu.in,9873789081,98.93,UQBPK0339H,U-0188
+MBU00340,Ravi Gupta,Female,M.Tech ECE,PG,2,ravi.gupta1340@mbu.edu.in,9851097887,68.17,AEVPG0340T,U-0188
+MBU00341,Harika Bhat,Female,M.Tech ECE,PG,2,harika.bhat1341@mbu.edu.in,9840767052,96.23,VXPPB0341S,U-0188
+MBU00342,Vikram Naidu,Female,M.Tech ECE,PG,2,vikram.naidu1342@mbu.edu.in,9884260792,73.7,WPPPN0342O,U-0188
+MBU00343,Neha Verma,Female,M.Tech ECE,PG,2,neha.verma1343@mbu.edu.in,9844477947,87.86,LRNPV0343E,U-0188
+MBU00344,Kiran Singh,Male,M.Tech ECE,PG,2,kiran.singh1344@mbu.edu.in,9881806837,98.54,TKCPS0344E,U-0188
+MBU00345,Rahul Bhat,Male,M.Tech ECE,PG,2,rahul.bhat1345@mbu.edu.in,9899805466,64.62,MVBPB0345Z,U-0188
+MBU00346,Pooja Rao,Female,M.Tech ECE,PG,2,pooja.rao1346@mbu.edu.in,9848249206,68.98,LAHPR0346P,U-0188
+MBU00347,Vikram Malhotra,Male,M.Tech ECE,PG,2,vikram.malhotra1347@mbu.edu.in,9813404328,80.95,LVRPM0347V,U-0188
+MBU00348,Sneha Rao,Female,M.Tech ECE,PG,2,sneha.rao1348@mbu.edu.in,9844905749,95.07,XLNPR0348G,U-0188
+MBU00349,Ananya Nair,Female,M.Tech ECE,PG,2,ananya.nair1349@mbu.edu.in,9852791621,70.29,FIWPN0349U,U-0188
+MBU00350,Sneha Rao,Male,M.Tech ECE,PG,2,sneha.rao1350@mbu.edu.in,9899360997,61.26,ELNPR0350U,U-0188
+MBU00351,Aman Bhat,Male,M.Tech ECE,PG,2,aman.bhat1351@mbu.edu.in,9854692829,96.38,XYMPB0351Y,U-0188
+MBU00352,Harika Rao,Female,M.Tech ECE,PG,2,harika.rao1352@mbu.edu.in,9876979118,94.61,VMUPR0352O,U-0188
+MBU00353,Rahul Malhotra,Male,M.Tech ECE,PG,2,rahul.malhotra1353@mbu.edu.in,9896569901,72.34,DEBPM0353F,U-0188
+MBU00354,Sneha Singh,Female,M.Tech ECE,PG,2,sneha.singh1354@mbu.edu.in,9887794981,72.73,RWKPS0354A,U-0188
+MBU00355,Meghana Iyer,Female,M.Tech ECE,PG,2,meghana.iyer1355@mbu.edu.in,9869529560,67.4,IGXPI0355A,U-0188
+MBU00356,Pooja Reddy,Male,M.Tech ECE,PG,2,pooja.reddy1356@mbu.edu.in,9891672125,73.89,LSKPR0356P,U-0188
+MBU00357,Sanjay Kumar,Male,M.Tech ECE,PG,2,sanjay.kumar1357@mbu.edu.in,9848112333,90.06,IEHPK0357M,U-0188
+MBU00358,Nikhil Reddy,Female,M.Tech ECE,PG,2,nikhil.reddy1358@mbu.edu.in,9824312613,87.79,IFIPR0358C,U-0188
+MBU00359,Arjun Chopra,Female,M.Tech ECE,PG,2,arjun.chopra1359@mbu.edu.in,9811812791,61.3,DUCPC0359R,U-0188
+MBU00360,Pooja Patel,Male,M.Tech ECE,PG,2,pooja.patel1360@mbu.edu.in,9828479056,66.65,URMPP0360X,U-0188
+MBU00361,Pooja Chopra,Female,MBA,PG,1,pooja.chopra1361@mbu.edu.in,9824524612,65.38,GCZPC0361R,U-0188
+MBU00362,Harika Nair,Male,MBA,PG,1,harika.nair1362@mbu.edu.in,9814516528,76.2,ZAUPN0362X,U-0188
+MBU00363,Vikram Patel,Male,MBA,PG,1,vikram.patel1363@mbu.edu.in,9846417539,87.36,CLDPP0363H,U-0188
+MBU00364,Harika Bhat,Male,MBA,PG,1,harika.bhat1364@mbu.edu.in,9897365507,91.15,DOSPB0364A,U-0188
+MBU00365,Harika Reddy,Female,MBA,PG,1,harika.reddy1365@mbu.edu.in,9866468665,68.71,XRQPR0365V,U-0188
+MBU00366,Pooja Patel,Female,MBA,PG,1,pooja.patel1366@mbu.edu.in,9825158604,70.08,HKUPP0366C,U-0188
+MBU00367,Vinay Naidu,Male,MBA,PG,1,vinay.naidu1367@mbu.edu.in,9842099463,76.42,KFRPN0367Y,U-0188
+MBU00368,Divya Verma,Female,MBA,PG,1,divya.verma1368@mbu.edu.in,9869865712,96.34,PEWPV0368X,U-0188
+MBU00369,Ananya Shetty,Male,MBA,PG,1,ananya.shetty1369@mbu.edu.in,9886376620,95.86,NYQPS0369S,U-0188
+MBU00370,Sanjay Das,Female,MBA,PG,1,sanjay.das1370@mbu.edu.in,9811706505,64.45,PHJPD0370I,U-0188
+MBU00371,Harika Sharma,Female,MBA,PG,1,harika.sharma1371@mbu.edu.in,9825511533,89.9,IUOPS0371T,U-0188
+MBU00372,Meghana Rao,Male,MBA,PG,1,meghana.rao1372@mbu.edu.in,9835818470,79.2,FVVPR0372O,U-0188
+MBU00373,Sanjay Patel,Female,MBA,PG,1,sanjay.patel1373@mbu.edu.in,9841071811,66.92,UGZPP0373C,U-0188
+MBU00374,Ravi Rao,Male,MBA,PG,1,ravi.rao1374@mbu.edu.in,9894179649,89.84,UZPPR0374D,U-0188
+MBU00375,Divya Reddy,Male,MBA,PG,1,divya.reddy1375@mbu.edu.in,9861336526,99.73,CZYPR0375I,U-0188
+MBU00376,Kiran Patel,Male,MBA,PG,1,kiran.patel1376@mbu.edu.in,9841984675,94.45,SDBPP0376M,U-0188
+MBU00377,Ritika Rao,Male,MBA,PG,1,ritika.rao1377@mbu.edu.in,9873220153,83.11,XEQPR0377W,U-0188
+MBU00378,Meghana Patel,Male,MBA,PG,1,meghana.patel1378@mbu.edu.in,9842279098,82.37,IXBPP0378V,U-0188
+MBU00379,Kavya Naidu,Male,MBA,PG,1,kavya.naidu1379@mbu.edu.in,9843853001,62.99,CIKPN0379S,U-0188
+MBU00380,Aman Gupta,Female,MBA,PG,1,aman.gupta1380@mbu.edu.in,9898425573,77.46,KPCPG0380H,U-0188
+MBU00381,Divya Verma,Female,MBA,PG,1,divya.verma1381@mbu.edu.in,9844134832,95.65,SXHPV0381W,U-0188
+MBU00382,Harika Naidu,Female,MBA,PG,1,harika.naidu1382@mbu.edu.in,9838731557,79.33,PMDPN0382M,U-0188
+MBU00383,Ananya Bhat,Male,MBA,PG,1,ananya.bhat1383@mbu.edu.in,9834580279,91.98,JVHPB0383A,U-0188
+MBU00384,Rahul Patel,Male,MBA,PG,1,rahul.patel1384@mbu.edu.in,9859484446,87.97,LSKPP0384O,U-0188
+MBU00385,Harika Bose,Female,MBA,PG,1,harika.bose1385@mbu.edu.in,9897975629,75.03,HNMPB0385G,U-0188
+MBU00386,Nikhil Patel,Male,MBA,PG,1,nikhil.patel1386@mbu.edu.in,9838907931,81.62,IBZPP0386S,U-0188
+MBU00387,Harika Verma,Male,MBA,PG,1,harika.verma1387@mbu.edu.in,9832489561,76.37,DXIPV0387T,U-0188
+MBU00388,Vinay Bhat,Female,MBA,PG,1,vinay.bhat1388@mbu.edu.in,9828972652,90.78,TVPPB0388L,U-0188
+MBU00389,Kavya Reddy,Female,MBA,PG,1,kavya.reddy1389@mbu.edu.in,9866574447,82.37,OINPR0389D,U-0188
+MBU00390,Nikhil Shetty,Male,MBA,PG,1,nikhil.shetty1390@mbu.edu.in,9867885946,82.64,XMPPS0390E,U-0188
+MBU00391,Sameer Sharma,Male,MBA,PG,1,sameer.sharma1391@mbu.edu.in,9858392199,65.63,OSJPS0391D,U-0188
+MBU00392,Sanjay Das,Female,MBA,PG,1,sanjay.das1392@mbu.edu.in,9816972898,93.66,EDLPD0392U,U-0188
+MBU00393,Neha Sharma,Female,MBA,PG,1,neha.sharma1393@mbu.edu.in,9864588832,98.78,VCQPS0393R,U-0188
+MBU00394,Pooja Shetty,Male,MBA,PG,1,pooja.shetty1394@mbu.edu.in,9886075446,85.43,JIMPS0394Q,U-0188
+MBU00395,Kavya Reddy,Male,MBA,PG,1,kavya.reddy1395@mbu.edu.in,9827633637,84.39,PPYPR0395J,U-0188
+MBU00396,Sameer Bhat,Female,MBA,PG,1,sameer.bhat1396@mbu.edu.in,9879252494,98.44,JBYPB0396Z,U-0188
+MBU00397,Divya Singh,Female,MBA,PG,1,divya.singh1397@mbu.edu.in,9894064031,61.14,LGDPS0397Q,U-0188
+MBU00398,Yash Gupta,Female,MBA,PG,1,yash.gupta1398@mbu.edu.in,9882223724,71.6,HAHPG0398B,U-0188
+MBU00399,Sanjay Rao,Female,MBA,PG,1,sanjay.rao1399@mbu.edu.in,9851937519,96.46,TCXPR0399L,U-0188
+MBU00400,Neha Malhotra,Female,MBA,PG,1,neha.malhotra1400@mbu.edu.in,9820255657,67.53,SGZPM0400B,U-0188
+MBU00401,Vikram Jain,Male,MBA,PG,1,vikram.jain1401@mbu.edu.in,9883832716,73.05,EWUPJ0401L,U-0188
+MBU00402,Sanjay Bose,Male,MBA,PG,1,sanjay.bose1402@mbu.edu.in,9896581873,66.1,DVNPB0402B,U-0188
+MBU00403,Divya Bhat,Female,MBA,PG,1,divya.bhat1403@mbu.edu.in,9894032693,67.34,FDCPB0403Y,U-0188
+MBU00404,Yash Sharma,Male,MBA,PG,1,yash.sharma1404@mbu.edu.in,9864425022,99.88,IHAPS0404I,U-0188
+MBU00405,Sanjay Bhat,Male,MBA,PG,1,sanjay.bhat1405@mbu.edu.in,9843325071,66.57,HYTPB0405Y,U-0188
+MBU00406,Pooja Mishra,Male,MBA,PG,1,pooja.mishra1406@mbu.edu.in,9812165024,85.22,DFGPM0406A,U-0188
+MBU00407,Aman Chopra,Female,MBA,PG,1,aman.chopra1407@mbu.edu.in,9887997078,63.4,PGXPC0407V,U-0188
+MBU00408,Nikhil Sharma,Male,MBA,PG,1,nikhil.sharma1408@mbu.edu.in,9879213850,96.71,ECAPS0408A,U-0188
+MBU00409,Pooja Iyer,Female,MBA,PG,1,pooja.iyer1409@mbu.edu.in,9886506817,85.81,MCIPI0409U,U-0188
+MBU00410,Arjun Mishra,Female,MBA,PG,1,arjun.mishra1410@mbu.edu.in,9890559083,66.76,CUTPM0410U,U-0188
+MBU00411,Meghana Reddy,Female,MBA,PG,1,meghana.reddy1411@mbu.edu.in,9884437871,85.92,UWAPR0411N,U-0188
+MBU00412,Kavya Naidu,Male,MBA,PG,1,kavya.naidu1412@mbu.edu.in,9899552876,78.25,ATUPN0412H,U-0188
+MBU00413,Ananya Chopra,Female,MBA,PG,1,ananya.chopra1413@mbu.edu.in,9818368749,62.57,FDQPC0413J,U-0188
+MBU00414,Pooja Das,Male,MBA,PG,1,pooja.das1414@mbu.edu.in,9825859424,67.63,WXZPD0414M,U-0188
+MBU00415,Sneha Singh,Male,MBA,PG,1,sneha.singh1415@mbu.edu.in,9821770892,64.43,FWCPS0415U,U-0188
+MBU00416,Meghana Bose,Male,MBA,PG,1,meghana.bose1416@mbu.edu.in,9815968987,93.66,WNFPB0416J,U-0188
+MBU00417,Pooja Verma,Female,MBA,PG,1,pooja.verma1417@mbu.edu.in,9862900087,87.66,RAZPV0417U,U-0188
+MBU00418,Vikram Nair,Male,MBA,PG,1,vikram.nair1418@mbu.edu.in,9895688941,90.7,SAKPN0418J,U-0188
+MBU00419,Neha Verma,Female,MBA,PG,1,neha.verma1419@mbu.edu.in,9868094991,66.71,NENPV0419R,U-0188
+MBU00420,Divya Bose,Male,MBA,PG,1,divya.bose1420@mbu.edu.in,9890922298,62.22,QFQPB0420C,U-0188
+MBU00421,Ritika Shetty,Female,MBA,PG,2,ritika.shetty1421@mbu.edu.in,9878998220,91.57,DHGPS0421J,U-0188
+MBU00422,Divya Verma,Female,MBA,PG,2,divya.verma1422@mbu.edu.in,9884010341,81.43,LXZPV0422Y,U-0188
+MBU00423,Kiran Bhat,Male,MBA,PG,2,kiran.bhat1423@mbu.edu.in,9820461093,95.84,ECNPB0423Y,U-0188
+MBU00424,Divya Nair,Male,MBA,PG,2,divya.nair1424@mbu.edu.in,9850206944,86.61,KQKPN0424P,U-0188
+MBU00425,Kiran Jain,Female,MBA,PG,2,kiran.jain1425@mbu.edu.in,9810905964,70.63,IORPJ0425N,U-0188
+MBU00426,Nikhil Bhat,Male,MBA,PG,2,nikhil.bhat1426@mbu.edu.in,9853221681,81.46,BQMPB0426O,U-0188
+MBU00427,Kiran Shetty,Male,MBA,PG,2,kiran.shetty1427@mbu.edu.in,9888287368,66.18,NGFPS0427Z,U-0188
+MBU00428,Neha Naidu,Female,MBA,PG,2,neha.naidu1428@mbu.edu.in,9867586309,63.5,HJVPN0428H,U-0188
+MBU00429,Divya Reddy,Female,MBA,PG,2,divya.reddy1429@mbu.edu.in,9824816352,95.97,DOHPR0429X,U-0188
+MBU00430,Neha Jain,Male,MBA,PG,2,neha.jain1430@mbu.edu.in,9860907734,84.37,XUVPJ0430X,U-0188
+MBU00431,Pooja Nair,Female,MBA,PG,2,pooja.nair1431@mbu.edu.in,9833478362,92.8,XMQPN0431S,U-0188
+MBU00432,Yash Nair,Male,MBA,PG,2,yash.nair1432@mbu.edu.in,9873970664,78.58,CDWPN0432Q,U-0188
+MBU00433,Neha Rao,Female,MBA,PG,2,neha.rao1433@mbu.edu.in,9868480159,88.65,LWQPR0433K,U-0188
+MBU00434,Ritika Patel,Male,MBA,PG,2,ritika.patel1434@mbu.edu.in,9872651602,70.09,CADPP0434S,U-0188
+MBU00435,Harika Das,Female,MBA,PG,2,harika.das1435@mbu.edu.in,9845470382,100.0,FYPPD0435X,U-0188
+MBU00436,Ravi Singh,Male,MBA,PG,2,ravi.singh1436@mbu.edu.in,9854732394,78.0,CNBPS0436F,U-0188
+MBU00437,Kiran Shetty,Male,MBA,PG,2,kiran.shetty1437@mbu.edu.in,9877527065,83.53,OJFPS0437M,U-0188
+MBU00438,Aman Sharma,Female,MBA,PG,2,aman.sharma1438@mbu.edu.in,9871038008,61.95,DDDPS0438T,U-0188
+MBU00439,Rahul Yadav,Female,MBA,PG,2,rahul.yadav1439@mbu.edu.in,9874168921,88.0,ATPPY0439R,U-0188
+MBU00440,Ravi Gupta,Male,MBA,PG,2,ravi.gupta1440@mbu.edu.in,9823032682,65.84,XJGPG0440O,U-0188
+MBU00441,Yash Singh,Male,MBA,PG,2,yash.singh1441@mbu.edu.in,9820590670,94.85,DVDPS0441W,U-0188
+MBU00442,Pooja Iyer,Female,MBA,PG,2,pooja.iyer1442@mbu.edu.in,9876655795,77.02,GBFPI0442I,U-0188
+MBU00443,Nikhil Jain,Female,MBA,PG,2,nikhil.jain1443@mbu.edu.in,9888279753,88.3,JGVPJ0443B,U-0188
+MBU00444,Arjun Mishra,Male,MBA,PG,2,arjun.mishra1444@mbu.edu.in,9896458117,60.61,IGPPM0444Z,U-0188
+MBU00445,Aman Iyer,Male,MBA,PG,2,aman.iyer1445@mbu.edu.in,9865027700,92.79,MXMPI0445C,U-0188
+MBU00446,Sanjay Singh,Male,MBA,PG,2,sanjay.singh1446@mbu.edu.in,9870736179,78.2,KXQPS0446V,U-0188
+MBU00447,Rahul Gupta,Male,MBA,PG,2,rahul.gupta1447@mbu.edu.in,9873652276,93.34,KYOPG0447B,U-0188
+MBU00448,Arjun Bose,Male,MBA,PG,2,arjun.bose1448@mbu.edu.in,9857421797,63.42,LCTPB0448B,U-0188
+MBU00449,Ananya Iyer,Female,MBA,PG,2,ananya.iyer1449@mbu.edu.in,9864051143,74.3,OXUPI0449N,U-0188
+MBU00450,Sneha Reddy,Female,MBA,PG,2,sneha.reddy1450@mbu.edu.in,9876625580,93.9,YHCPR0450N,U-0188
+MBU00451,Sameer Rao,Female,MBA,PG,2,sameer.rao1451@mbu.edu.in,9836129778,96.63,JGZPR0451H,U-0188
+MBU00452,Kiran Yadav,Male,MBA,PG,2,kiran.yadav1452@mbu.edu.in,9835116903,79.88,OHCPY0452T,U-0188
+MBU00453,Ananya Bose,Male,MBA,PG,2,ananya.bose1453@mbu.edu.in,9866954009,72.36,LOLPB0453M,U-0188
+MBU00454,Divya Verma,Female,MBA,PG,2,divya.verma1454@mbu.edu.in,9881116589,78.11,QPQPV0454S,U-0188
+MBU00455,Neha Yadav,Male,MBA,PG,2,neha.yadav1455@mbu.edu.in,9847958089,64.82,CSWPY0455L,U-0188
+MBU00456,Yash Rao,Male,MBA,PG,2,yash.rao1456@mbu.edu.in,9888804038,71.85,BBOPR0456C,U-0188
+MBU00457,Aman Das,Male,MBA,PG,2,aman.das1457@mbu.edu.in,9868102222,81.33,IPJPD0457S,U-0188
+MBU00458,Meghana Jain,Female,MBA,PG,2,meghana.jain1458@mbu.edu.in,9842046843,70.9,MCFPJ0458N,U-0188
+MBU00459,Pooja Nair,Male,MBA,PG,2,pooja.nair1459@mbu.edu.in,9821393943,99.83,PFFPN0459H,U-0188
+MBU00460,Meghana Mishra,Male,MBA,PG,2,meghana.mishra1460@mbu.edu.in,9818446965,90.79,FVVPM0460C,U-0188
+MBU00461,Meghana Iyer,Male,MBA,PG,2,meghana.iyer1461@mbu.edu.in,9866010577,76.25,WOHPI0461Z,U-0188
+MBU00462,Arjun Jain,Female,MBA,PG,2,arjun.jain1462@mbu.edu.in,9881981514,77.77,WJKPJ0462C,U-0188
+MBU00463,Harika Malhotra,Female,MBA,PG,2,harika.malhotra1463@mbu.edu.in,9823956034,64.83,DTVPM0463A,U-0188
+MBU00464,Pooja Naidu,Female,MBA,PG,2,pooja.naidu1464@mbu.edu.in,9816294855,73.31,DJZPN0464B,U-0188
+MBU00465,Vikram Iyer,Male,MBA,PG,2,vikram.iyer1465@mbu.edu.in,9882738507,66.59,UZMPI0465G,U-0188
+MBU00466,Neha Yadav,Male,MBA,PG,2,neha.yadav1466@mbu.edu.in,9891464934,63.26,TCBPY0466K,U-0188
+MBU00467,Kiran Reddy,Male,MBA,PG,2,kiran.reddy1467@mbu.edu.in,9842673553,90.33,EDHPR0467T,U-0188
+MBU00468,Nikhil Malhotra,Male,MBA,PG,2,nikhil.malhotra1468@mbu.edu.in,9814516227,78.84,RPYPM0468C,U-0188
+MBU00469,Nikhil Malhotra,Female,MBA,PG,2,nikhil.malhotra1469@mbu.edu.in,9813529346,84.1,JEOPM0469O,U-0188
+MBU00470,Arjun Kumar,Male,MBA,PG,2,arjun.kumar1470@mbu.edu.in,9891165799,69.57,HRBPK0470B,U-0188
+MBU00471,Ravi Bhat,Female,MBA,PG,2,ravi.bhat1471@mbu.edu.in,9889895866,89.05,EDUPB0471L,U-0188
+MBU00472,Kavya Shetty,Female,MBA,PG,2,kavya.shetty1472@mbu.edu.in,9872961840,67.9,XVVPS0472F,U-0188
+MBU00473,Divya Kumar,Female,MBA,PG,2,divya.kumar1473@mbu.edu.in,9824145200,89.09,EXRPK0473R,U-0188
+MBU00474,Aman Jain,Female,MBA,PG,2,aman.jain1474@mbu.edu.in,9849802242,84.77,GGYPJ0474J,U-0188
+MBU00475,Meghana Reddy,Male,MBA,PG,2,meghana.reddy1475@mbu.edu.in,9827670042,92.71,TILPR0475J,U-0188
+MBU00476,Rahul Iyer,Male,MBA,PG,2,rahul.iyer1476@mbu.edu.in,9881109760,95.15,TMOPI0476Z,U-0188
+MBU00477,Aman Bose,Male,MBA,PG,2,aman.bose1477@mbu.edu.in,9818258815,85.15,HRWPB0477I,U-0188
+MBU00478,Meghana Reddy,Male,MBA,PG,2,meghana.reddy1478@mbu.edu.in,9889786581,91.96,QIFPR0478G,U-0188
+MBU00479,Neha Verma,Male,MBA,PG,2,neha.verma1479@mbu.edu.in,9870705367,75.37,GRQPV0479Y,U-0188
+MBU00480,Vinay Chopra,Male,MBA,PG,2,vinay.chopra1480@mbu.edu.in,9876286105,75.05,RNPPC0480C,U-0188
+MBU00481,Yash Naidu,Female,MCA,PG,1,yash.naidu1481@mbu.edu.in,9875104543,96.77,KKKPN0481M,U-0188
+MBU00482,Sameer Patel,Female,MCA,PG,1,sameer.patel1482@mbu.edu.in,9829276676,80.91,TLWPP0482L,U-0188
+MBU00483,Pooja Iyer,Female,MCA,PG,1,pooja.iyer1483@mbu.edu.in,9889361832,82.91,HYBPI0483V,U-0188
+MBU00484,Harika Mishra,Male,MCA,PG,1,harika.mishra1484@mbu.edu.in,9899674667,70.03,BIDPM0484B,U-0188
+MBU00485,Pooja Naidu,Male,MCA,PG,1,pooja.naidu1485@mbu.edu.in,9873727536,78.02,CBTPN0485W,U-0188
+MBU00486,Pooja Reddy,Male,MCA,PG,1,pooja.reddy1486@mbu.edu.in,9846774578,76.51,BHOPR0486F,U-0188
+MBU00487,Divya Yadav,Male,MCA,PG,1,divya.yadav1487@mbu.edu.in,9812586354,98.38,TMNPY0487A,U-0188
+MBU00488,Yash Verma,Female,MCA,PG,1,yash.verma1488@mbu.edu.in,9897456490,82.88,PPCPV0488S,U-0188
+MBU00489,Vikram Bose,Female,MCA,PG,1,vikram.bose1489@mbu.edu.in,9838146438,79.9,ULIPB0489V,U-0188
+MBU00490,Sanjay Reddy,Female,MCA,PG,1,sanjay.reddy1490@mbu.edu.in,9879729753,75.88,AZSPR0490H,U-0188
+MBU00491,Aman Das,Male,MCA,PG,1,aman.das1491@mbu.edu.in,9882740789,99.54,KMHPD0491Y,U-0188
+MBU00492,Vikram Iyer,Female,MCA,PG,1,vikram.iyer1492@mbu.edu.in,9893270969,87.29,BDEPI0492B,U-0188
+MBU00493,Kavya Chopra,Female,MCA,PG,1,kavya.chopra1493@mbu.edu.in,9876137611,99.57,UCVPC0493F,U-0188
+MBU00494,Meghana Rao,Female,MCA,PG,1,meghana.rao1494@mbu.edu.in,9849351133,80.44,FTSPR0494B,U-0188
+MBU00495,Rahul Das,Female,MCA,PG,1,rahul.das1495@mbu.edu.in,9877153301,87.79,COQPD0495T,U-0188
+MBU00496,Ritika Mishra,Female,MCA,PG,1,ritika.mishra1496@mbu.edu.in,9887746797,64.45,ZBXPM0496K,U-0188
+MBU00497,Meghana Jain,Female,MCA,PG,1,meghana.jain1497@mbu.edu.in,9880099893,90.89,XKCPJ0497C,U-0188
+MBU00498,Divya Kumar,Female,MCA,PG,1,divya.kumar1498@mbu.edu.in,9814123715,79.0,MHYPK0498L,U-0188
+MBU00499,Sameer Reddy,Male,MCA,PG,1,sameer.reddy1499@mbu.edu.in,9886650539,60.38,VDMPR0499L,U-0188
+MBU00500,Meghana Mishra,Male,MCA,PG,1,meghana.mishra1500@mbu.edu.in,9824652006,78.28,XJBPM0500Y,U-0188
+MBU00501,Sanjay Patel,Male,MCA,PG,1,sanjay.patel1501@mbu.edu.in,9871962199,89.76,UNMPP0501C,U-0188
+MBU00502,Divya Bose,Male,MCA,PG,1,divya.bose1502@mbu.edu.in,9895173315,65.77,PTXPB0502O,U-0188
+MBU00503,Pooja Shetty,Male,MCA,PG,1,pooja.shetty1503@mbu.edu.in,9856213922,64.32,JLLPS0503C,U-0188
+MBU00504,Harika Bose,Female,MCA,PG,1,harika.bose1504@mbu.edu.in,9831821976,77.73,JRLPB0504B,U-0188
+MBU00505,Yash Naidu,Male,MCA,PG,1,yash.naidu1505@mbu.edu.in,9828162624,86.9,HTIPN0505H,U-0188
+MBU00506,Pooja Das,Female,MCA,PG,1,pooja.das1506@mbu.edu.in,9819457720,61.12,RUNPD0506Z,U-0188
+MBU00507,Arjun Patel,Female,MCA,PG,1,arjun.patel1507@mbu.edu.in,9815926139,65.41,QUEPP0507S,U-0188
+MBU00508,Kiran Das,Female,MCA,PG,1,kiran.das1508@mbu.edu.in,9899117089,76.37,FPWPD0508V,U-0188
+MBU00509,Ananya Mishra,Female,MCA,PG,1,ananya.mishra1509@mbu.edu.in,9834950589,63.74,YKXPM0509O,U-0188
+MBU00510,Kiran Iyer,Male,MCA,PG,1,kiran.iyer1510@mbu.edu.in,9833724025,84.83,RGQPI0510W,U-0188
+MBU00511,Yash Shetty,Female,MCA,PG,1,yash.shetty1511@mbu.edu.in,9855729486,63.97,PJIPS0511Q,U-0188
+MBU00512,Pooja Mishra,Female,MCA,PG,1,pooja.mishra1512@mbu.edu.in,9839701237,96.64,QJNPM0512P,U-0188
+MBU00513,Harika Gupta,Female,MCA,PG,1,harika.gupta1513@mbu.edu.in,9852305364,75.14,OIEPG0513D,U-0188
+MBU00514,Divya Sharma,Male,MCA,PG,1,divya.sharma1514@mbu.edu.in,9864145172,85.15,DLBPS0514H,U-0188
+MBU00515,Kavya Das,Female,MCA,PG,1,kavya.das1515@mbu.edu.in,9882589165,99.4,GWDPD0515O,U-0188
+MBU00516,Sneha Singh,Female,MCA,PG,1,sneha.singh1516@mbu.edu.in,9871640192,90.04,ATWPS0516M,U-0188
+MBU00517,Yash Kumar,Male,MCA,PG,1,yash.kumar1517@mbu.edu.in,9839410449,70.82,EJUPK0517H,U-0188
+MBU00518,Sameer Singh,Female,MCA,PG,1,sameer.singh1518@mbu.edu.in,9882646364,95.91,WWGPS0518O,U-0188
+MBU00519,Aman Malhotra,Female,MCA,PG,1,aman.malhotra1519@mbu.edu.in,9833289556,64.33,ZWKPM0519B,U-0188
+MBU00520,Nikhil Bose,Male,MCA,PG,1,nikhil.bose1520@mbu.edu.in,9830100017,85.1,ZRYPB0520J,U-0188
+MBU00521,Meghana Bose,Male,MCA,PG,1,meghana.bose1521@mbu.edu.in,9883238138,84.66,SXVPB0521V,U-0188
+MBU00522,Rahul Naidu,Female,MCA,PG,1,rahul.naidu1522@mbu.edu.in,9883912844,62.88,LXPPN0522I,U-0188
+MBU00523,Yash Yadav,Male,MCA,PG,1,yash.yadav1523@mbu.edu.in,9833717194,95.04,HBNPY0523P,U-0188
+MBU00524,Sneha Nair,Male,MCA,PG,1,sneha.nair1524@mbu.edu.in,9812633940,65.25,UGCPN0524V,U-0188
+MBU00525,Aman Reddy,Female,MCA,PG,1,aman.reddy1525@mbu.edu.in,9895785373,95.22,CCUPR0525L,U-0188
+MBU00526,Neha Malhotra,Male,MCA,PG,1,neha.malhotra1526@mbu.edu.in,9827160520,93.75,NROPM0526P,U-0188
+MBU00527,Kiran Mishra,Female,MCA,PG,1,kiran.mishra1527@mbu.edu.in,9838810446,88.54,HVOPM0527V,U-0188
+MBU00528,Yash Verma,Female,MCA,PG,1,yash.verma1528@mbu.edu.in,9875093945,71.46,DGPPV0528R,U-0188
+MBU00529,Sanjay Bose,Female,MCA,PG,1,sanjay.bose1529@mbu.edu.in,9815296071,85.96,AOUPB0529C,U-0188
+MBU00530,Nikhil Das,Male,MCA,PG,1,nikhil.das1530@mbu.edu.in,9875790267,63.56,FYCPD0530Q,U-0188
+MBU00531,Arjun Malhotra,Male,MCA,PG,1,arjun.malhotra1531@mbu.edu.in,9810168214,73.52,YPWPM0531Q,U-0188
+MBU00532,Ritika Bose,Male,MCA,PG,1,ritika.bose1532@mbu.edu.in,9894660957,68.75,EPBPB0532W,U-0188
+MBU00533,Vinay Kumar,Female,MCA,PG,1,vinay.kumar1533@mbu.edu.in,9832151846,65.52,FOCPK0533W,U-0188
+MBU00534,Sameer Yadav,Male,MCA,PG,1,sameer.yadav1534@mbu.edu.in,9873788211,86.07,LRYPY0534V,U-0188
+MBU00535,Kavya Verma,Female,MCA,PG,1,kavya.verma1535@mbu.edu.in,9823951908,61.83,IIDPV0535B,U-0188
+MBU00536,Vinay Nair,Female,MCA,PG,1,vinay.nair1536@mbu.edu.in,9866070343,96.99,ZCBPN0536X,U-0188
+MBU00537,Ritika Chopra,Female,MCA,PG,1,ritika.chopra1537@mbu.edu.in,9851379280,87.15,OYDPC0537Q,U-0188
+MBU00538,Sneha Das,Male,MCA,PG,1,sneha.das1538@mbu.edu.in,9813212237,64.36,YFEPD0538E,U-0188
+MBU00539,Ananya Shetty,Male,MCA,PG,1,ananya.shetty1539@mbu.edu.in,9818243375,88.99,KRXPS0539T,U-0188
+MBU00540,Harika Patel,Female,MCA,PG,1,harika.patel1540@mbu.edu.in,9876963205,64.34,ERIPP0540S,U-0188
+MBU00541,Kavya Mishra,Female,MCA,PG,2,kavya.mishra1541@mbu.edu.in,9891150858,62.27,JINPM0541F,U-0188
+MBU00542,Kavya Mishra,Female,MCA,PG,2,kavya.mishra1542@mbu.edu.in,9832256528,65.6,SVIPM0542R,U-0188
+MBU00543,Kavya Rao,Male,MCA,PG,2,kavya.rao1543@mbu.edu.in,9815973936,97.92,DZQPR0543Y,U-0188
+MBU00544,Yash Chopra,Male,MCA,PG,2,yash.chopra1544@mbu.edu.in,9867437461,85.18,IFNPC0544G,U-0188
+MBU00545,Ritika Das,Female,MCA,PG,2,ritika.das1545@mbu.edu.in,9877758870,86.97,CZKPD0545W,U-0188
+MBU00546,Kavya Yadav,Male,MCA,PG,2,kavya.yadav1546@mbu.edu.in,9833803202,79.68,SKBPY0546R,U-0188
+MBU00547,Ravi Verma,Female,MCA,PG,2,ravi.verma1547@mbu.edu.in,9884679278,99.1,BJTPV0547S,U-0188
+MBU00548,Pooja Patel,Male,MCA,PG,2,pooja.patel1548@mbu.edu.in,9865309025,96.31,CMRPP0548G,U-0188
+MBU00549,Sameer Singh,Female,MCA,PG,2,sameer.singh1549@mbu.edu.in,9877632590,74.94,FXCPS0549S,U-0188
+MBU00550,Ananya Jain,Female,MCA,PG,2,ananya.jain1550@mbu.edu.in,9819818355,91.28,TYPPJ0550W,U-0188
+MBU00551,Rahul Iyer,Male,MCA,PG,2,rahul.iyer1551@mbu.edu.in,9834397710,93.28,NHXPI0551P,U-0188
+MBU00552,Ravi Naidu,Female,MCA,PG,2,ravi.naidu1552@mbu.edu.in,9815946333,83.84,KXGPN0552E,U-0188
+MBU00553,Pooja Yadav,Male,MCA,PG,2,pooja.yadav1553@mbu.edu.in,9841356004,69.74,ZXXPY0553J,U-0188
+MBU00554,Arjun Gupta,Female,MCA,PG,2,arjun.gupta1554@mbu.edu.in,9855112726,67.79,AVKPG0554E,U-0188
+MBU00555,Arjun Mishra,Male,MCA,PG,2,arjun.mishra1555@mbu.edu.in,9830666395,86.63,GNGPM0555L,U-0188
+MBU00556,Sanjay Verma,Male,MCA,PG,2,sanjay.verma1556@mbu.edu.in,9834563642,95.27,QYKPV0556S,U-0188
+MBU00557,Divya Gupta,Female,MCA,PG,2,divya.gupta1557@mbu.edu.in,9812989708,91.41,AHIPG0557Y,U-0188
+MBU00558,Neha Chopra,Female,MCA,PG,2,neha.chopra1558@mbu.edu.in,9878641354,83.84,QECPC0558A,U-0188
+MBU00559,Neha Mishra,Male,MCA,PG,2,neha.mishra1559@mbu.edu.in,9877203979,95.73,XDHPM0559D,U-0188
+MBU00560,Ravi Yadav,Female,MCA,PG,2,ravi.yadav1560@mbu.edu.in,9843390431,65.13,YJSPY0560H,U-0188
+MBU00561,Vikram Naidu,Male,MCA,PG,2,vikram.naidu1561@mbu.edu.in,9816067903,96.14,OHAPN0561G,U-0188
+MBU00562,Pooja Singh,Female,MCA,PG,2,pooja.singh1562@mbu.edu.in,9860731323,94.21,WENPS0562U,U-0188
+MBU00563,Kavya Mishra,Female,MCA,PG,2,kavya.mishra1563@mbu.edu.in,9867158088,85.45,UMPPM0563A,U-0188
+MBU00564,Kavya Malhotra,Male,MCA,PG,2,kavya.malhotra1564@mbu.edu.in,9875552080,61.71,ASJPM0564A,U-0188
+MBU00565,Rahul Mishra,Male,MCA,PG,2,rahul.mishra1565@mbu.edu.in,9810599410,83.5,IXCPM0565Q,U-0188
+MBU00566,Nikhil Sharma,Female,MCA,PG,2,nikhil.sharma1566@mbu.edu.in,9854326539,77.87,KTLPS0566Z,U-0188
+MBU00567,Yash Bose,Male,MCA,PG,2,yash.bose1567@mbu.edu.in,9853894089,71.49,CWDPB0567J,U-0188
+MBU00568,Kavya Gupta,Female,MCA,PG,2,kavya.gupta1568@mbu.edu.in,9833711721,82.16,KDMPG0568D,U-0188
+MBU00569,Harika Nair,Male,MCA,PG,2,harika.nair1569@mbu.edu.in,9855256808,97.66,BUAPN0569W,U-0188
+MBU00570,Kiran Jain,Female,MCA,PG,2,kiran.jain1570@mbu.edu.in,9884456707,62.98,XPQPJ0570N,U-0188
+MBU00571,Meghana Bose,Female,MCA,PG,2,meghana.bose1571@mbu.edu.in,9864450131,87.3,FBRPB0571N,U-0188
+MBU00572,Pooja Kumar,Female,MCA,PG,2,pooja.kumar1572@mbu.edu.in,9889604559,98.7,DZYPK0572V,U-0188
+MBU00573,Arjun Malhotra,Male,MCA,PG,2,arjun.malhotra1573@mbu.edu.in,9884730599,85.76,IBOPM0573X,U-0188
+MBU00574,Pooja Verma,Male,MCA,PG,2,pooja.verma1574@mbu.edu.in,9838054111,80.85,XXCPV0574Y,U-0188
+MBU00575,Vikram Singh,Male,MCA,PG,2,vikram.singh1575@mbu.edu.in,9831640208,82.76,KGQPS0575S,U-0188
+MBU00576,Yash Bhat,Male,MCA,PG,2,yash.bhat1576@mbu.edu.in,9876532590,96.06,WVCPB0576B,U-0188
+MBU00577,Ritika Mishra,Female,MCA,PG,2,ritika.mishra1577@mbu.edu.in,9817075546,65.04,AQDPM0577F,U-0188
+MBU00578,Ananya Verma,Male,MCA,PG,2,ananya.verma1578@mbu.edu.in,9879802852,69.96,CSGPV0578M,U-0188
+MBU00579,Vikram Bhat,Male,MCA,PG,2,vikram.bhat1579@mbu.edu.in,9897533872,93.59,KNYPB0579K,U-0188
+MBU00580,Meghana Malhotra,Male,MCA,PG,2,meghana.malhotra1580@mbu.edu.in,9887160434,81.48,KUOPM0580G,U-0188
+MBU00581,Ravi Jain,Female,MCA,PG,2,ravi.jain1581@mbu.edu.in,9829113909,79.99,VGEPJ0581V,U-0188
+MBU00582,Yash Naidu,Male,MCA,PG,2,yash.naidu1582@mbu.edu.in,9834741654,82.73,YGJPN0582R,U-0188
+MBU00583,Vikram Iyer,Male,MCA,PG,2,vikram.iyer1583@mbu.edu.in,9896801191,88.09,SLKPI0583Q,U-0188
+MBU00584,Kiran Singh,Male,MCA,PG,2,kiran.singh1584@mbu.edu.in,9854299212,70.23,QEKPS0584E,U-0188
+MBU00585,Ananya Iyer,Male,MCA,PG,2,ananya.iyer1585@mbu.edu.in,9826293259,96.13,OGPPI0585P,U-0188
+MBU00586,Ananya Yadav,Female,MCA,PG,2,ananya.yadav1586@mbu.edu.in,9873103436,80.66,GNEPY0586O,U-0188
+MBU00587,Rahul Malhotra,Male,MCA,PG,2,rahul.malhotra1587@mbu.edu.in,9819208775,68.15,ZDDPM0587I,U-0188
+MBU00588,Ritika Chopra,Male,MCA,PG,2,ritika.chopra1588@mbu.edu.in,9861266388,98.09,HKWPC0588H,U-0188
+MBU00589,Vinay Shetty,Male,MCA,PG,2,vinay.shetty1589@mbu.edu.in,9842891176,67.52,LKSPS0589N,U-0188
+MBU00590,Divya Chopra,Female,MCA,PG,2,divya.chopra1590@mbu.edu.in,9856518778,96.32,OBZPC0590J,U-0188
+MBU00591,Aman Kumar,Male,MCA,PG,2,aman.kumar1591@mbu.edu.in,9819602057,89.36,GYYPK0591Q,U-0188
+MBU00592,Ananya Mishra,Female,MCA,PG,2,ananya.mishra1592@mbu.edu.in,9852558728,68.3,KDNPM0592I,U-0188
+MBU00593,Yash Shetty,Male,MCA,PG,2,yash.shetty1593@mbu.edu.in,9846788292,97.49,AXUPS0593Y,U-0188
+MBU00594,Kavya Gupta,Male,MCA,PG,2,kavya.gupta1594@mbu.edu.in,9877588932,83.21,PDRPG0594L,U-0188
+MBU00595,Aman Nair,Female,MCA,PG,2,aman.nair1595@mbu.edu.in,9840683942,82.92,YPYPN0595K,U-0188
+MBU00596,Sanjay Shetty,Male,MCA,PG,2,sanjay.shetty1596@mbu.edu.in,9838392485,81.32,FVYPS0596P,U-0188
+MBU00597,Kavya Verma,Male,MCA,PG,2,kavya.verma1597@mbu.edu.in,9843517587,74.48,YUIPV0597T,U-0188
+MBU00598,Aman Rao,Female,MCA,PG,2,aman.rao1598@mbu.edu.in,9859148373,61.26,RKCPR0598D,U-0188
+MBU00599,Ananya Malhotra,Male,MCA,PG,2,ananya.malhotra1599@mbu.edu.in,9899649075,81.8,SUXPM0599I,U-0188
+MBU00600,Sameer Rao,Female,MCA,PG,2,sameer.rao1600@mbu.edu.in,9863871687,69.83,AYEPR0600F,U-0188
+MBU00601,Sneha Yadav,Male,BBA,UG,1,sneha.yadav1601@mbu.edu.in,9882234394,77.18,WOUPY0601M,U-0188
+MBU00602,Nikhil Sharma,Female,BBA,UG,1,nikhil.sharma1602@mbu.edu.in,9865067673,74.71,ETAPS0602V,U-0188
+MBU00603,Aman Reddy,Male,BBA,UG,1,aman.reddy1603@mbu.edu.in,9841668001,65.1,HBVPR0603D,U-0188
+MBU00604,Arjun Das,Female,BBA,UG,1,arjun.das1604@mbu.edu.in,9895493753,75.18,HIHPD0604P,U-0188
+MBU00605,Nikhil Gupta,Male,BBA,UG,1,nikhil.gupta1605@mbu.edu.in,9811984002,62.38,LDJPG0605K,U-0188
+MBU00606,Ritika Reddy,Male,BBA,UG,1,ritika.reddy1606@mbu.edu.in,9887763501,62.8,GQHPR0606B,U-0188
+MBU00607,Divya Malhotra,Male,BBA,UG,1,divya.malhotra1607@mbu.edu.in,9852161227,73.03,SSCPM0607U,U-0188
+MBU00608,Neha Gupta,Male,BBA,UG,1,neha.gupta1608@mbu.edu.in,9891371452,77.89,MFQPG0608N,U-0188
+MBU00609,Divya Jain,Male,BBA,UG,1,divya.jain1609@mbu.edu.in,9818486424,83.17,LWAPJ0609L,U-0188
+MBU00610,Nikhil Das,Female,BBA,UG,1,nikhil.das1610@mbu.edu.in,9865182279,81.07,DCXPD0610E,U-0188
+MBU00611,Harika Singh,Female,BBA,UG,1,harika.singh1611@mbu.edu.in,9826412946,94.42,NACPS0611Q,U-0188
+MBU00612,Neha Iyer,Female,BBA,UG,1,neha.iyer1612@mbu.edu.in,9824020410,93.46,YDOPI0612I,U-0188
+MBU00613,Meghana Rao,Male,BBA,UG,1,meghana.rao1613@mbu.edu.in,9855968968,61.47,RGRPR0613A,U-0188
+MBU00614,Divya Kumar,Female,BBA,UG,1,divya.kumar1614@mbu.edu.in,9825230014,68.45,ELBPK0614E,U-0188
+MBU00615,Pooja Patel,Female,BBA,UG,1,pooja.patel1615@mbu.edu.in,9865575390,74.4,MKZPP0615H,U-0188
+MBU00616,Kiran Yadav,Male,BBA,UG,1,kiran.yadav1616@mbu.edu.in,9864408650,92.01,OJAPY0616D,U-0188
+MBU00617,Nikhil Sharma,Male,BBA,UG,1,nikhil.sharma1617@mbu.edu.in,9860918673,60.79,FKQPS0617S,U-0188
+MBU00618,Ananya Kumar,Female,BBA,UG,1,ananya.kumar1618@mbu.edu.in,9848060941,94.81,UCHPK0618V,U-0188
+MBU00619,Sameer Nair,Male,BBA,UG,1,sameer.nair1619@mbu.edu.in,9842361539,85.01,VAWPN0619E,U-0188
+MBU00620,Aman Iyer,Female,BBA,UG,1,aman.iyer1620@mbu.edu.in,9842459873,94.66,DHJPI0620A,U-0188
+MBU00621,Vikram Malhotra,Male,BBA,UG,1,vikram.malhotra1621@mbu.edu.in,9886785366,95.73,RUPPM0621C,U-0188
+MBU00622,Pooja Sharma,Female,BBA,UG,1,pooja.sharma1622@mbu.edu.in,9843040876,62.4,BZJPS0622I,U-0188
+MBU00623,Harika Yadav,Female,BBA,UG,1,harika.yadav1623@mbu.edu.in,9871525486,96.45,WVOPY0623J,U-0188
+MBU00624,Rahul Bose,Male,BBA,UG,1,rahul.bose1624@mbu.edu.in,9888056619,87.6,UQGPB0624M,U-0188
+MBU00625,Ananya Singh,Male,BBA,UG,1,ananya.singh1625@mbu.edu.in,9838877148,66.31,XDHPS0625I,U-0188
+MBU00626,Arjun Nair,Male,BBA,UG,1,arjun.nair1626@mbu.edu.in,9835066137,85.66,LBGPN0626G,U-0188
+MBU00627,Divya Nair,Male,BBA,UG,1,divya.nair1627@mbu.edu.in,9857054827,69.11,DZWPN0627Z,U-0188
+MBU00628,Kiran Verma,Male,BBA,UG,1,kiran.verma1628@mbu.edu.in,9890769226,83.25,PMKPV0628M,U-0188
+MBU00629,Vikram Yadav,Male,BBA,UG,1,vikram.yadav1629@mbu.edu.in,9840490343,94.78,QMSPY0629M,U-0188
+MBU00630,Yash Yadav,Female,BBA,UG,1,yash.yadav1630@mbu.edu.in,9812703780,68.95,FMZPY0630W,U-0188
+MBU00631,Arjun Jain,Male,BBA,UG,1,arjun.jain1631@mbu.edu.in,9843538394,76.53,ZPXPJ0631E,U-0188
+MBU00632,Pooja Mishra,Female,BBA,UG,1,pooja.mishra1632@mbu.edu.in,9883465596,70.73,HJNPM0632R,U-0188
+MBU00633,Vinay Verma,Male,BBA,UG,1,vinay.verma1633@mbu.edu.in,9821200777,77.68,MQBPV0633V,U-0188
+MBU00634,Ananya Bose,Male,BBA,UG,1,ananya.bose1634@mbu.edu.in,9842814011,90.04,ZSGPB0634Q,U-0188
+MBU00635,Harika Sharma,Female,BBA,UG,1,harika.sharma1635@mbu.edu.in,9823969807,75.12,FLMPS0635R,U-0188
+MBU00636,Sameer Gupta,Male,BBA,UG,1,sameer.gupta1636@mbu.edu.in,9862690512,69.42,WCGPG0636K,U-0188
+MBU00637,Aman Jain,Male,BBA,UG,1,aman.jain1637@mbu.edu.in,9857275943,91.73,ANZPJ0637L,U-0188
+MBU00638,Sameer Gupta,Female,BBA,UG,1,sameer.gupta1638@mbu.edu.in,9833178001,71.37,VWAPG0638F,U-0188
+MBU00639,Harika Reddy,Male,BBA,UG,1,harika.reddy1639@mbu.edu.in,9817311796,82.98,XWAPR0639P,U-0188
+MBU00640,Ravi Malhotra,Female,BBA,UG,1,ravi.malhotra1640@mbu.edu.in,9849554191,71.92,GYPPM0640G,U-0188
+MBU00641,Pooja Reddy,Female,BBA,UG,1,pooja.reddy1641@mbu.edu.in,9899925759,80.69,VLHPR0641X,U-0188
+MBU00642,Sanjay Shetty,Male,BBA,UG,1,sanjay.shetty1642@mbu.edu.in,9872851083,84.23,XRUPS0642P,U-0188
+MBU00643,Yash Nair,Male,BBA,UG,1,yash.nair1643@mbu.edu.in,9838273624,63.94,FEFPN0643O,U-0188
+MBU00644,Ravi Reddy,Male,BBA,UG,1,ravi.reddy1644@mbu.edu.in,9821114894,65.64,OWHPR0644W,U-0188
+MBU00645,Vikram Sharma,Male,BBA,UG,1,vikram.sharma1645@mbu.edu.in,9837273362,93.66,SPKPS0645S,U-0188
+MBU00646,Aman Verma,Female,BBA,UG,1,aman.verma1646@mbu.edu.in,9897858423,97.14,NVKPV0646J,U-0188
+MBU00647,Sameer Yadav,Female,BBA,UG,1,sameer.yadav1647@mbu.edu.in,9876417421,94.41,PRPPY0647S,U-0188
+MBU00648,Pooja Reddy,Female,BBA,UG,1,pooja.reddy1648@mbu.edu.in,9885925767,62.18,KLEPR0648N,U-0188
+MBU00649,Arjun Gupta,Male,BBA,UG,1,arjun.gupta1649@mbu.edu.in,9893297528,96.75,GSUPG0649G,U-0188
+MBU00650,Aman Yadav,Female,BBA,UG,1,aman.yadav1650@mbu.edu.in,9864496871,62.54,YKAPY0650V,U-0188
+MBU00651,Sanjay Singh,Male,BBA,UG,1,sanjay.singh1651@mbu.edu.in,9894049361,67.1,IXBPS0651F,U-0188
+MBU00652,Sneha Mishra,Male,BBA,UG,1,sneha.mishra1652@mbu.edu.in,9841808313,88.13,WNKPM0652A,U-0188
+MBU00653,Rahul Verma,Female,BBA,UG,1,rahul.verma1653@mbu.edu.in,9811196348,81.27,EFTPV0653I,U-0188
+MBU00654,Nikhil Das,Female,BBA,UG,1,nikhil.das1654@mbu.edu.in,9843694313,61.1,DSLPD0654B,U-0188
+MBU00655,Kavya Bhat,Female,BBA,UG,1,kavya.bhat1655@mbu.edu.in,9864536550,76.72,ZLWPB0655X,U-0188
+MBU00656,Divya Shetty,Female,BBA,UG,1,divya.shetty1656@mbu.edu.in,9836883035,75.08,OVEPS0656Y,U-0188
+MBU00657,Sanjay Chopra,Female,BBA,UG,1,sanjay.chopra1657@mbu.edu.in,9879714689,93.05,HIPPC0657X,U-0188
+MBU00658,Pooja Nair,Female,BBA,UG,1,pooja.nair1658@mbu.edu.in,9830198358,69.32,NQNPN0658K,U-0188
+MBU00659,Rahul Iyer,Male,BBA,UG,1,rahul.iyer1659@mbu.edu.in,9834264047,87.38,NOVPI0659N,U-0188
+MBU00660,Harika Chopra,Female,BBA,UG,1,harika.chopra1660@mbu.edu.in,9834622479,84.26,UOXPC0660Y,U-0188
+MBU00661,Sameer Patel,Female,BBA,UG,2,sameer.patel1661@mbu.edu.in,9883463292,81.14,QBEPP0661O,U-0188
+MBU00662,Rahul Naidu,Male,BBA,UG,2,rahul.naidu1662@mbu.edu.in,9840212987,96.61,STIPN0662R,U-0188
+MBU00663,Sameer Verma,Male,BBA,UG,2,sameer.verma1663@mbu.edu.in,9846242043,60.87,YYSPV0663Z,U-0188
+MBU00664,Ravi Naidu,Female,BBA,UG,2,ravi.naidu1664@mbu.edu.in,9844025554,92.8,WDSPN0664V,U-0188
+MBU00665,Kavya Jain,Female,BBA,UG,2,kavya.jain1665@mbu.edu.in,9893390689,84.24,XSHPJ0665V,U-0188
+MBU00666,Neha Nair,Male,BBA,UG,2,neha.nair1666@mbu.edu.in,9814789759,65.23,ANUPN0666Y,U-0188
+MBU00667,Divya Rao,Female,BBA,UG,2,divya.rao1667@mbu.edu.in,9839336732,85.88,HVZPR0667R,U-0188
+MBU00668,Ravi Kumar,Female,BBA,UG,2,ravi.kumar1668@mbu.edu.in,9824513529,87.16,EUUPK0668Q,U-0188
+MBU00669,Ananya Sharma,Male,BBA,UG,2,ananya.sharma1669@mbu.edu.in,9817680727,60.37,GKKPS0669U,U-0188
+MBU00670,Yash Reddy,Male,BBA,UG,2,yash.reddy1670@mbu.edu.in,9821051504,67.51,MDFPR0670I,U-0188
+MBU00671,Neha Bose,Female,BBA,UG,2,neha.bose1671@mbu.edu.in,9891020263,74.5,DBQPB0671D,U-0188
+MBU00672,Nikhil Shetty,Female,BBA,UG,2,nikhil.shetty1672@mbu.edu.in,9820810083,94.75,DJVPS0672C,U-0188
+MBU00673,Kavya Yadav,Female,BBA,UG,2,kavya.yadav1673@mbu.edu.in,9883086893,81.98,LKXPY0673C,U-0188
+MBU00674,Ananya Chopra,Male,BBA,UG,2,ananya.chopra1674@mbu.edu.in,9834937458,91.82,ZGWPC0674H,U-0188
+MBU00675,Yash Malhotra,Female,BBA,UG,2,yash.malhotra1675@mbu.edu.in,9811541017,85.88,FNHPM0675M,U-0188
+MBU00676,Sanjay Iyer,Female,BBA,UG,2,sanjay.iyer1676@mbu.edu.in,9821635473,67.02,UTFPI0676E,U-0188
+MBU00677,Ravi Singh,Male,BBA,UG,2,ravi.singh1677@mbu.edu.in,9887911345,99.1,EREPS0677K,U-0188
+MBU00678,Kiran Iyer,Male,BBA,UG,2,kiran.iyer1678@mbu.edu.in,9829612963,90.36,NHLPI0678B,U-0188
+MBU00679,Sneha Chopra,Male,BBA,UG,2,sneha.chopra1679@mbu.edu.in,9850326137,99.72,RWSPC0679T,U-0188
+MBU00680,Ananya Yadav,Female,BBA,UG,2,ananya.yadav1680@mbu.edu.in,9894671198,70.91,ESEPY0680A,U-0188
+MBU00681,Divya Mishra,Female,BBA,UG,2,divya.mishra1681@mbu.edu.in,9895618524,66.32,XRXPM0681J,U-0188
+MBU00682,Ritika Patel,Male,BBA,UG,2,ritika.patel1682@mbu.edu.in,9822030462,77.73,DEDPP0682N,U-0188
+MBU00683,Ananya Sharma,Male,BBA,UG,2,ananya.sharma1683@mbu.edu.in,9834434965,97.11,GFPPS0683K,U-0188
+MBU00684,Nikhil Patel,Female,BBA,UG,2,nikhil.patel1684@mbu.edu.in,9875691835,65.68,SMQPP0684J,U-0188
+MBU00685,Ananya Naidu,Male,BBA,UG,2,ananya.naidu1685@mbu.edu.in,9855296530,63.97,BONPN0685I,U-0188
+MBU00686,Rahul Malhotra,Male,BBA,UG,2,rahul.malhotra1686@mbu.edu.in,9862523019,88.05,CECPM0686U,U-0188
+MBU00687,Kiran Jain,Male,BBA,UG,2,kiran.jain1687@mbu.edu.in,9884405789,80.91,WJMPJ0687T,U-0188
+MBU00688,Divya Shetty,Male,BBA,UG,2,divya.shetty1688@mbu.edu.in,9893168094,99.81,XVYPS0688G,U-0188
+MBU00689,Pooja Shetty,Male,BBA,UG,2,pooja.shetty1689@mbu.edu.in,9840295255,66.03,PPTPS0689D,U-0188
+MBU00690,Pooja Bhat,Female,BBA,UG,2,pooja.bhat1690@mbu.edu.in,9830892676,65.33,PXKPB0690X,U-0188
+MBU00691,Ravi Sharma,Male,BBA,UG,2,ravi.sharma1691@mbu.edu.in,9888138693,66.63,BFLPS0691M,U-0188
+MBU00692,Vikram Bhat,Female,BBA,UG,2,vikram.bhat1692@mbu.edu.in,9899637983,61.69,FJYPB0692I,U-0188
+MBU00693,Kavya Verma,Female,BBA,UG,2,kavya.verma1693@mbu.edu.in,9816244243,77.87,SSYPV0693K,U-0188
+MBU00694,Kavya Singh,Female,BBA,UG,2,kavya.singh1694@mbu.edu.in,9879681560,83.28,PUAPS0694Y,U-0188
+MBU00695,Arjun Shetty,Female,BBA,UG,2,arjun.shetty1695@mbu.edu.in,9894896491,95.14,ODAPS0695N,U-0188
+MBU00696,Yash Naidu,Male,BBA,UG,2,yash.naidu1696@mbu.edu.in,9879072267,60.68,NGPPN0696K,U-0188
+MBU00697,Nikhil Gupta,Female,BBA,UG,2,nikhil.gupta1697@mbu.edu.in,9856377354,98.19,OOEPG0697G,U-0188
+MBU00698,Sameer Singh,Female,BBA,UG,2,sameer.singh1698@mbu.edu.in,9838393114,72.79,KLWPS0698M,U-0188
+MBU00699,Aman Bhat,Male,BBA,UG,2,aman.bhat1699@mbu.edu.in,9853464392,81.71,QLKPB0699U,U-0188
+MBU00700,Sneha Rao,Male,BBA,UG,2,sneha.rao1700@mbu.edu.in,9880235100,94.69,WWUPR0700Y,U-0188
+MBU00701,Harika Shetty,Female,BBA,UG,2,harika.shetty1701@mbu.edu.in,9860230728,68.92,UMVPS0701B,U-0188
+MBU00702,Ananya Shetty,Female,BBA,UG,2,ananya.shetty1702@mbu.edu.in,9822715787,72.84,GYYPS0702H,U-0188
+MBU00703,Yash Bose,Male,BBA,UG,2,yash.bose1703@mbu.edu.in,9868089998,61.74,OXCPB0703K,U-0188
+MBU00704,Kiran Malhotra,Female,BBA,UG,2,kiran.malhotra1704@mbu.edu.in,9841567730,88.85,AORPM0704P,U-0188
+MBU00705,Sneha Shetty,Male,BBA,UG,2,sneha.shetty1705@mbu.edu.in,9881836234,91.21,CPGPS0705F,U-0188
+MBU00706,Ananya Kumar,Female,BBA,UG,2,ananya.kumar1706@mbu.edu.in,9852297210,82.99,NLHPK0706C,U-0188
+MBU00707,Sneha Iyer,Female,BBA,UG,2,sneha.iyer1707@mbu.edu.in,9861853303,63.67,GVOPI0707V,U-0188
+MBU00708,Ravi Singh,Male,BBA,UG,2,ravi.singh1708@mbu.edu.in,9897024956,94.05,XCDPS0708S,U-0188
+MBU00709,Harika Naidu,Female,BBA,UG,2,harika.naidu1709@mbu.edu.in,9814241053,85.02,YCFPN0709D,U-0188
+MBU00710,Neha Nair,Male,BBA,UG,2,neha.nair1710@mbu.edu.in,9843143532,92.67,ZJQPN0710Y,U-0188
+MBU00711,Ananya Naidu,Male,BBA,UG,2,ananya.naidu1711@mbu.edu.in,9845350402,92.58,NKDPN0711Z,U-0188
+MBU00712,Ravi Singh,Female,BBA,UG,2,ravi.singh1712@mbu.edu.in,9877790396,79.95,AOEPS0712X,U-0188
+MBU00713,Kiran Naidu,Male,BBA,UG,2,kiran.naidu1713@mbu.edu.in,9857188273,62.57,VTJPN0713C,U-0188
+MBU00714,Neha Jain,Female,BBA,UG,2,neha.jain1714@mbu.edu.in,9812849078,65.9,MJYPJ0714X,U-0188
+MBU00715,Sneha Chopra,Male,BBA,UG,2,sneha.chopra1715@mbu.edu.in,9836143233,74.89,VRUPC0715G,U-0188
+MBU00716,Neha Patel,Male,BBA,UG,2,neha.patel1716@mbu.edu.in,9875956392,99.0,ESRPP0716K,U-0188
+MBU00717,Sneha Singh,Female,BBA,UG,2,sneha.singh1717@mbu.edu.in,9816189831,87.89,EMLPS0717X,U-0188
+MBU00718,Ananya Patel,Female,BBA,UG,2,ananya.patel1718@mbu.edu.in,9866230636,80.21,PLGPP0718Q,U-0188
+MBU00719,Harika Reddy,Female,BBA,UG,2,harika.reddy1719@mbu.edu.in,9811757486,67.86,BZPPR0719F,U-0188
+MBU00720,Aman Kumar,Male,BBA,UG,2,aman.kumar1720@mbu.edu.in,9813601450,64.15,HHJPK0720K,U-0188
+MBU00721,Vikram Rao,Male,BBA,UG,3,vikram.rao1721@mbu.edu.in,9824456718,63.78,TSZPR0721P,U-0188
+MBU00722,Ritika Malhotra,Female,BBA,UG,3,ritika.malhotra1722@mbu.edu.in,9893508659,79.11,MTHPM0722D,U-0188
+MBU00723,Aman Mishra,Female,BBA,UG,3,aman.mishra1723@mbu.edu.in,9850925464,88.78,MBGPM0723Q,U-0188
+MBU00724,Rahul Shetty,Female,BBA,UG,3,rahul.shetty1724@mbu.edu.in,9884563783,89.13,AQIPS0724A,U-0188
+MBU00725,Ravi Singh,Male,BBA,UG,3,ravi.singh1725@mbu.edu.in,9821903023,98.74,KJFPS0725E,U-0188
+MBU00726,Kiran Das,Male,BBA,UG,3,kiran.das1726@mbu.edu.in,9865459315,76.2,LELPD0726Y,U-0188
+MBU00727,Kiran Jain,Male,BBA,UG,3,kiran.jain1727@mbu.edu.in,9894898882,65.23,MXRPJ0727L,U-0188
+MBU00728,Ravi Das,Male,BBA,UG,3,ravi.das1728@mbu.edu.in,9887650152,78.91,TWDPD0728K,U-0188
+MBU00729,Sameer Chopra,Female,BBA,UG,3,sameer.chopra1729@mbu.edu.in,9889073739,86.34,OGJPC0729X,U-0188
+MBU00730,Aman Shetty,Male,BBA,UG,3,aman.shetty1730@mbu.edu.in,9871515956,65.37,ZKKPS0730K,U-0188
+MBU00731,Sameer Iyer,Male,BBA,UG,3,sameer.iyer1731@mbu.edu.in,9880977852,78.83,CUDPI0731W,U-0188
+MBU00732,Vikram Singh,Male,BBA,UG,3,vikram.singh1732@mbu.edu.in,9845013881,62.38,WMGPS0732T,U-0188
+MBU00733,Nikhil Bose,Female,BBA,UG,3,nikhil.bose1733@mbu.edu.in,9880504467,85.56,COGPB0733S,U-0188
+MBU00734,Meghana Nair,Female,BBA,UG,3,meghana.nair1734@mbu.edu.in,9856763143,98.23,DCXPN0734A,U-0188
+MBU00735,Nikhil Bose,Male,BBA,UG,3,nikhil.bose1735@mbu.edu.in,9899968089,62.86,MFOPB0735V,U-0188
+MBU00736,Harika Singh,Male,BBA,UG,3,harika.singh1736@mbu.edu.in,9865117755,70.11,HGVPS0736R,U-0188
+MBU00737,Nikhil Reddy,Male,BBA,UG,3,nikhil.reddy1737@mbu.edu.in,9834953306,90.22,RHUPR0737M,U-0188
+MBU00738,Pooja Reddy,Female,BBA,UG,3,pooja.reddy1738@mbu.edu.in,9850705748,62.78,VYJPR0738S,U-0188
+MBU00739,Kiran Mishra,Female,BBA,UG,3,kiran.mishra1739@mbu.edu.in,9882804142,89.3,TDZPM0739R,U-0188
+MBU00740,Sameer Patel,Male,BBA,UG,3,sameer.patel1740@mbu.edu.in,9838909489,93.34,IVKPP0740M,U-0188
+MBU00741,Nikhil Reddy,Female,BBA,UG,3,nikhil.reddy1741@mbu.edu.in,9812377156,77.97,NPRPR0741R,U-0188
+MBU00742,Yash Patel,Male,BBA,UG,3,yash.patel1742@mbu.edu.in,9865514770,60.79,TPUPP0742R,U-0188
+MBU00743,Vikram Shetty,Female,BBA,UG,3,vikram.shetty1743@mbu.edu.in,9876120482,87.93,TAWPS0743Q,U-0188
+MBU00744,Vikram Yadav,Female,BBA,UG,3,vikram.yadav1744@mbu.edu.in,9863501588,98.03,JQMPY0744P,U-0188
+MBU00745,Yash Malhotra,Male,BBA,UG,3,yash.malhotra1745@mbu.edu.in,9893686816,89.72,IWEPM0745E,U-0188
+MBU00746,Sameer Patel,Female,BBA,UG,3,sameer.patel1746@mbu.edu.in,9877217807,73.2,XTYPP0746G,U-0188
+MBU00747,Harika Shetty,Female,BBA,UG,3,harika.shetty1747@mbu.edu.in,9833227433,94.1,NSMPS0747C,U-0188
+MBU00748,Kiran Chopra,Male,BBA,UG,3,kiran.chopra1748@mbu.edu.in,9866189066,98.83,GELPC0748M,U-0188
+MBU00749,Meghana Verma,Female,BBA,UG,3,meghana.verma1749@mbu.edu.in,9884175400,94.73,JAUPV0749B,U-0188
+MBU00750,Harika Verma,Female,BBA,UG,3,harika.verma1750@mbu.edu.in,9886569757,65.39,BQBPV0750U,U-0188
+MBU00751,Neha Singh,Female,BBA,UG,3,neha.singh1751@mbu.edu.in,9838984204,86.25,VPAPS0751H,U-0188
+MBU00752,Divya Bhat,Female,BBA,UG,3,divya.bhat1752@mbu.edu.in,9897774549,76.3,VGKPB0752Y,U-0188
+MBU00753,Nikhil Naidu,Male,BBA,UG,3,nikhil.naidu1753@mbu.edu.in,9899289240,69.46,OJOPN0753L,U-0188
+MBU00754,Pooja Yadav,Male,BBA,UG,3,pooja.yadav1754@mbu.edu.in,9820623385,81.44,BYDPY0754D,U-0188
+MBU00755,Meghana Iyer,Male,BBA,UG,3,meghana.iyer1755@mbu.edu.in,9874926581,89.73,VDUPI0755M,U-0188
+MBU00756,Ananya Nair,Female,BBA,UG,3,ananya.nair1756@mbu.edu.in,9825593237,65.92,IPOPN0756Z,U-0188
+MBU00757,Yash Verma,Female,BBA,UG,3,yash.verma1757@mbu.edu.in,9840564667,66.01,WPSPV0757K,U-0188
+MBU00758,Sameer Naidu,Female,BBA,UG,3,sameer.naidu1758@mbu.edu.in,9854045774,67.07,SSNPN0758J,U-0188
+MBU00759,Vinay Rao,Male,BBA,UG,3,vinay.rao1759@mbu.edu.in,9847167486,73.78,POFPR0759O,U-0188
+MBU00760,Neha Malhotra,Male,BBA,UG,3,neha.malhotra1760@mbu.edu.in,9857765767,74.0,GKVPM0760A,U-0188
+MBU00761,Ravi Patel,Female,BBA,UG,3,ravi.patel1761@mbu.edu.in,9881006483,60.29,LUNPP0761Y,U-0188
+MBU00762,Sanjay Kumar,Female,BBA,UG,3,sanjay.kumar1762@mbu.edu.in,9825234834,96.28,YSNPK0762N,U-0188
+MBU00763,Sanjay Gupta,Female,BBA,UG,3,sanjay.gupta1763@mbu.edu.in,9892654477,71.76,SSVPG0763Z,U-0188
+MBU00764,Kavya Mishra,Female,BBA,UG,3,kavya.mishra1764@mbu.edu.in,9889606362,64.83,NECPM0764O,U-0188
+MBU00765,Sanjay Yadav,Female,BBA,UG,3,sanjay.yadav1765@mbu.edu.in,9825477546,69.18,ORDPY0765S,U-0188
+MBU00766,Pooja Reddy,Female,BBA,UG,3,pooja.reddy1766@mbu.edu.in,9860657606,92.76,CMDPR0766Z,U-0188
+MBU00767,Yash Bose,Male,BBA,UG,3,yash.bose1767@mbu.edu.in,9835562110,68.43,KMOPB0767G,U-0188
+MBU00768,Rahul Nair,Female,BBA,UG,3,rahul.nair1768@mbu.edu.in,9850744912,74.02,OZGPN0768E,U-0188
+MBU00769,Vikram Iyer,Female,BBA,UG,3,vikram.iyer1769@mbu.edu.in,9879731457,90.73,GQUPI0769B,U-0188
+MBU00770,Vikram Naidu,Female,BBA,UG,3,vikram.naidu1770@mbu.edu.in,9858496934,95.1,YLNPN0770S,U-0188
+MBU00771,Vikram Verma,Male,BBA,UG,3,vikram.verma1771@mbu.edu.in,9891754803,71.24,UPQPV0771L,U-0188
+MBU00772,Aman Bhat,Female,BBA,UG,3,aman.bhat1772@mbu.edu.in,9868827913,69.63,UHFPB0772U,U-0188
+MBU00773,Ravi Das,Female,BBA,UG,3,ravi.das1773@mbu.edu.in,9828117291,92.02,EPAPD0773H,U-0188
+MBU00774,Harika Verma,Female,BBA,UG,3,harika.verma1774@mbu.edu.in,9839134466,81.06,BCAPV0774F,U-0188
+MBU00775,Vinay Yadav,Male,BBA,UG,3,vinay.yadav1775@mbu.edu.in,9824956832,84.49,UTVPY0775R,U-0188
+MBU00776,Ravi Kumar,Male,BBA,UG,3,ravi.kumar1776@mbu.edu.in,9884216314,66.48,OLHPK0776C,U-0188
+MBU00777,Vikram Patel,Male,BBA,UG,3,vikram.patel1777@mbu.edu.in,9878613833,74.29,XOTPP0777S,U-0188
+MBU00778,Vinay Reddy,Male,BBA,UG,3,vinay.reddy1778@mbu.edu.in,9873984534,97.96,NTOPR0778U,U-0188
+MBU00779,Harika Bose,Male,BBA,UG,3,harika.bose1779@mbu.edu.in,9876372956,72.49,WANPB0779Z,U-0188
+MBU00780,Aman Naidu,Male,BBA,UG,3,aman.naidu1780@mbu.edu.in,9876500255,87.8,WRYPN0780O,U-0188
+MBU00781,Vikram Yadav,Female,BBA,UG,4,vikram.yadav1781@mbu.edu.in,9899305071,72.13,QQLPY0781Z,U-0188
+MBU00782,Pooja Malhotra,Male,BBA,UG,4,pooja.malhotra1782@mbu.edu.in,9816182725,98.82,SBNPM0782F,U-0188
+MBU00783,Yash Verma,Female,BBA,UG,4,yash.verma1783@mbu.edu.in,9879101466,84.99,PPLPV0783T,U-0188
+MBU00784,Nikhil Nair,Female,BBA,UG,4,nikhil.nair1784@mbu.edu.in,9831930535,96.63,ACIPN0784T,U-0188
+MBU00785,Nikhil Yadav,Female,BBA,UG,4,nikhil.yadav1785@mbu.edu.in,9810067805,88.57,IVRPY0785W,U-0188
+MBU00786,Yash Iyer,Male,BBA,UG,4,yash.iyer1786@mbu.edu.in,9841987823,79.31,LVSPI0786B,U-0188
+MBU00787,Kavya Shetty,Male,BBA,UG,4,kavya.shetty1787@mbu.edu.in,9820512325,93.37,KGYPS0787R,U-0188
+MBU00788,Pooja Sharma,Female,BBA,UG,4,pooja.sharma1788@mbu.edu.in,9895074556,63.81,TUTPS0788I,U-0188
+MBU00789,Pooja Bhat,Male,BBA,UG,4,pooja.bhat1789@mbu.edu.in,9899025979,90.61,CIIPB0789S,U-0188
+MBU00790,Yash Gupta,Female,BBA,UG,4,yash.gupta1790@mbu.edu.in,9829067692,60.69,IGNPG0790Q,U-0188
+MBU00791,Kiran Yadav,Female,BBA,UG,4,kiran.yadav1791@mbu.edu.in,9856475497,86.49,VLUPY0791H,U-0188
+MBU00792,Aman Kumar,Female,BBA,UG,4,aman.kumar1792@mbu.edu.in,9839069633,97.6,AIGPK0792T,U-0188
+MBU00793,Vinay Singh,Female,BBA,UG,4,vinay.singh1793@mbu.edu.in,9818628499,98.69,TJVPS0793J,U-0188
+MBU00794,Ananya Bose,Female,BBA,UG,4,ananya.bose1794@mbu.edu.in,9842551473,99.05,LOYPB0794T,U-0188
+MBU00795,Ravi Sharma,Male,BBA,UG,4,ravi.sharma1795@mbu.edu.in,9857583993,63.3,HTGPS0795S,U-0188
+MBU00796,Neha Shetty,Female,BBA,UG,4,neha.shetty1796@mbu.edu.in,9836919861,85.35,OXSPS0796Z,U-0188
+MBU00797,Ravi Nair,Female,BBA,UG,4,ravi.nair1797@mbu.edu.in,9840185025,72.6,LEUPN0797H,U-0188
+MBU00798,Kavya Reddy,Male,BBA,UG,4,kavya.reddy1798@mbu.edu.in,9876401025,81.99,BSWPR0798R,U-0188
+MBU00799,Meghana Patel,Female,BBA,UG,4,meghana.patel1799@mbu.edu.in,9820015089,66.37,HIVPP0799C,U-0188
+MBU00800,Arjun Rao,Female,BBA,UG,4,arjun.rao1800@mbu.edu.in,9854991288,68.81,BHQPR0800L,U-0188
+MBU00801,Nikhil Das,Male,BBA,UG,4,nikhil.das1801@mbu.edu.in,9831660203,77.03,PRKPD0801Q,U-0188
+MBU00802,Arjun Sharma,Female,BBA,UG,4,arjun.sharma1802@mbu.edu.in,9836976594,65.76,ZHBPS0802A,U-0188
+MBU00803,Rahul Bose,Male,BBA,UG,4,rahul.bose1803@mbu.edu.in,9825535758,62.58,ZKAPB0803N,U-0188
+MBU00804,Sameer Naidu,Male,BBA,UG,4,sameer.naidu1804@mbu.edu.in,9892025058,77.0,CBAPN0804M,U-0188
+MBU00805,Rahul Shetty,Male,BBA,UG,4,rahul.shetty1805@mbu.edu.in,9883954957,74.29,QWTPS0805S,U-0188
+MBU00806,Nikhil Singh,Male,BBA,UG,4,nikhil.singh1806@mbu.edu.in,9851888779,83.02,GFTPS0806N,U-0188
+MBU00807,Vinay Naidu,Male,BBA,UG,4,vinay.naidu1807@mbu.edu.in,9866090990,80.41,TDLPN0807V,U-0188
+MBU00808,Ravi Singh,Female,BBA,UG,4,ravi.singh1808@mbu.edu.in,9866359778,80.9,CALPS0808A,U-0188
+MBU00809,Rahul Chopra,Female,BBA,UG,4,rahul.chopra1809@mbu.edu.in,9822968251,69.66,GDHPC0809M,U-0188
+MBU00810,Kiran Malhotra,Male,BBA,UG,4,kiran.malhotra1810@mbu.edu.in,9850084480,94.05,KOOPM0810K,U-0188
+MBU00811,Sanjay Jain,Male,BBA,UG,4,sanjay.jain1811@mbu.edu.in,9864516956,78.81,SPCPJ0811X,U-0188
+MBU00812,Neha Sharma,Female,BBA,UG,4,neha.sharma1812@mbu.edu.in,9815055490,84.52,KUYPS0812V,U-0188
+MBU00813,Arjun Iyer,Male,BBA,UG,4,arjun.iyer1813@mbu.edu.in,9897993503,67.86,EQKPI0813C,U-0188
+MBU00814,Kavya Chopra,Female,BBA,UG,4,kavya.chopra1814@mbu.edu.in,9882683583,71.09,NOAPC0814R,U-0188
+MBU00815,Rahul Rao,Male,BBA,UG,4,rahul.rao1815@mbu.edu.in,9810084350,64.38,HTQPR0815J,U-0188
+MBU00816,Kiran Gupta,Male,BBA,UG,4,kiran.gupta1816@mbu.edu.in,9853713190,81.45,BSXPG0816R,U-0188
+MBU00817,Arjun Chopra,Female,BBA,UG,4,arjun.chopra1817@mbu.edu.in,9855715680,88.5,VQCPC0817C,U-0188
+MBU00818,Vikram Sharma,Male,BBA,UG,4,vikram.sharma1818@mbu.edu.in,9817209027,66.19,GWTPS0818X,U-0188
+MBU00819,Vikram Chopra,Male,BBA,UG,4,vikram.chopra1819@mbu.edu.in,9865191035,90.17,ONCPC0819D,U-0188
+MBU00820,Nikhil Mishra,Male,BBA,UG,4,nikhil.mishra1820@mbu.edu.in,9866083848,84.83,ZUKPM0820I,U-0188
+MBU00821,Harika Reddy,Female,BBA,UG,4,harika.reddy1821@mbu.edu.in,9877098334,77.53,HLZPR0821U,U-0188
+MBU00822,Yash Jain,Female,BBA,UG,4,yash.jain1822@mbu.edu.in,9833016597,63.69,IFWPJ0822R,U-0188
+MBU00823,Kiran Bhat,Female,BBA,UG,4,kiran.bhat1823@mbu.edu.in,9852219892,96.74,GLEPB0823T,U-0188
+MBU00824,Meghana Jain,Male,BBA,UG,4,meghana.jain1824@mbu.edu.in,9846647502,71.58,XBMPJ0824B,U-0188
+MBU00825,Divya Bose,Male,BBA,UG,4,divya.bose1825@mbu.edu.in,9891733077,88.39,PZKPB0825V,U-0188
+MBU00826,Ananya Sharma,Male,BBA,UG,4,ananya.sharma1826@mbu.edu.in,9825925645,69.18,UUXPS0826P,U-0188
+MBU00827,Divya Kumar,Female,BBA,UG,4,divya.kumar1827@mbu.edu.in,9873258183,92.28,XPJPK0827V,U-0188
+MBU00828,Yash Kumar,Male,BBA,UG,4,yash.kumar1828@mbu.edu.in,9816766981,88.18,RPKPK0828U,U-0188
+MBU00829,Harika Jain,Female,BBA,UG,4,harika.jain1829@mbu.edu.in,9853775254,89.91,IYCPJ0829Z,U-0188
+MBU00830,Ananya Gupta,Male,BBA,UG,4,ananya.gupta1830@mbu.edu.in,9898200742,61.19,BUQPG0830P,U-0188
+MBU00831,Ritika Shetty,Male,BBA,UG,4,ritika.shetty1831@mbu.edu.in,9828328058,64.44,PDVPS0831W,U-0188
+MBU00832,Sneha Jain,Female,BBA,UG,4,sneha.jain1832@mbu.edu.in,9883529655,85.05,MCPPJ0832Z,U-0188
+MBU00833,Sneha Jain,Female,BBA,UG,4,sneha.jain1833@mbu.edu.in,9889719126,75.59,KCFPJ0833Q,U-0188
+MBU00834,Divya Sharma,Male,BBA,UG,4,divya.sharma1834@mbu.edu.in,9898650567,95.97,GDPPS0834J,U-0188
+MBU00835,Kiran Nair,Female,BBA,UG,4,kiran.nair1835@mbu.edu.in,9853256892,74.33,TYEPN0835P,U-0188
+MBU00836,Ritika Jain,Male,BBA,UG,4,ritika.jain1836@mbu.edu.in,9888531315,64.93,AZWPJ0836M,U-0188
+MBU00837,Vikram Singh,Male,BBA,UG,4,vikram.singh1837@mbu.edu.in,9895409807,89.26,QKRPS0837A,U-0188
+MBU00838,Sneha Sharma,Female,BBA,UG,4,sneha.sharma1838@mbu.edu.in,9869319291,83.71,AQLPS0838F,U-0188
+MBU00839,Sneha Singh,Male,BBA,UG,4,sneha.singh1839@mbu.edu.in,9868927187,96.46,NYAPS0839X,U-0188
+MBU00840,Neha Shetty,Male,BBA,UG,4,neha.shetty1840@mbu.edu.in,9845173840,69.0,KLFPS0840B,U-0188
+MBU00841,Sanjay Patel,Female,CE,UG,1,sanjay.patel1841@mbu.edu.in,9855298005,72.92,ACDPP0841G,U-0188
+MBU00842,Pooja Verma,Female,CE,UG,1,pooja.verma1842@mbu.edu.in,9899559594,73.0,DRYPV0842K,U-0188
+MBU00843,Pooja Kumar,Male,CE,UG,1,pooja.kumar1843@mbu.edu.in,9816977150,96.62,GCAPK0843V,U-0188
+MBU00844,Sanjay Das,Male,CE,UG,1,sanjay.das1844@mbu.edu.in,9883750277,92.37,CTQPD0844G,U-0188
+MBU00845,Aman Chopra,Male,CE,UG,1,aman.chopra1845@mbu.edu.in,9897621121,78.84,DNZPC0845W,U-0188
+MBU00846,Sanjay Chopra,Female,CE,UG,1,sanjay.chopra1846@mbu.edu.in,9872720836,73.88,GJBPC0846X,U-0188
+MBU00847,Sameer Singh,Male,CE,UG,1,sameer.singh1847@mbu.edu.in,9891836887,88.7,KVOPS0847K,U-0188
+MBU00848,Ritika Rao,Male,CE,UG,1,ritika.rao1848@mbu.edu.in,9888710617,94.26,PLTPR0848N,U-0188
+MBU00849,Kavya Chopra,Male,CE,UG,1,kavya.chopra1849@mbu.edu.in,9886305945,92.14,XDVPC0849M,U-0188
+MBU00850,Pooja Naidu,Female,CE,UG,1,pooja.naidu1850@mbu.edu.in,9811494465,99.83,YBFPN0850P,U-0188
+MBU00851,Sameer Chopra,Male,CE,UG,1,sameer.chopra1851@mbu.edu.in,9810783260,86.66,XSAPC0851F,U-0188
+MBU00852,Harika Singh,Male,CE,UG,1,harika.singh1852@mbu.edu.in,9849521974,69.6,UGHPS0852E,U-0188
+MBU00853,Meghana Reddy,Female,CE,UG,1,meghana.reddy1853@mbu.edu.in,9848878369,63.12,XFZPR0853Z,U-0188
+MBU00854,Ravi Kumar,Male,CE,UG,1,ravi.kumar1854@mbu.edu.in,9827725512,91.97,RRGPK0854N,U-0188
+MBU00855,Meghana Das,Female,CE,UG,1,meghana.das1855@mbu.edu.in,9844206357,71.63,KHIPD0855W,U-0188
+MBU00856,Yash Shetty,Female,CE,UG,1,yash.shetty1856@mbu.edu.in,9880410094,90.55,VPDPS0856M,U-0188
+MBU00857,Nikhil Shetty,Female,CE,UG,1,nikhil.shetty1857@mbu.edu.in,9846170869,80.43,PSPPS0857N,U-0188
+MBU00858,Ritika Verma,Male,CE,UG,1,ritika.verma1858@mbu.edu.in,9880434104,87.05,IPGPV0858W,U-0188
+MBU00859,Kiran Gupta,Male,CE,UG,1,kiran.gupta1859@mbu.edu.in,9810963941,88.82,CHDPG0859H,U-0188
+MBU00860,Vinay Patel,Male,CE,UG,1,vinay.patel1860@mbu.edu.in,9838982413,89.13,BDRPP0860J,U-0188
+MBU00861,Arjun Malhotra,Female,CE,UG,1,arjun.malhotra1861@mbu.edu.in,9855553979,72.9,CGSPM0861P,U-0188
+MBU00862,Nikhil Iyer,Female,CE,UG,1,nikhil.iyer1862@mbu.edu.in,9881600474,77.53,NJRPI0862S,U-0188
+MBU00863,Sneha Kumar,Female,CE,UG,1,sneha.kumar1863@mbu.edu.in,9852019193,98.55,ENPPK0863L,U-0188
+MBU00864,Yash Nair,Female,CE,UG,1,yash.nair1864@mbu.edu.in,9885956046,89.67,ZRBPN0864C,U-0188
+MBU00865,Vikram Reddy,Male,CE,UG,1,vikram.reddy1865@mbu.edu.in,9836350258,86.44,HIHPR0865M,U-0188
+MBU00866,Divya Shetty,Female,CE,UG,1,divya.shetty1866@mbu.edu.in,9842516066,70.9,VVGPS0866T,U-0188
+MBU00867,Vikram Patel,Female,CE,UG,1,vikram.patel1867@mbu.edu.in,9816659091,88.7,TVOPP0867A,U-0188
+MBU00868,Kavya Das,Female,CE,UG,1,kavya.das1868@mbu.edu.in,9879319654,99.47,BLHPD0868C,U-0188
+MBU00869,Pooja Kumar,Female,CE,UG,1,pooja.kumar1869@mbu.edu.in,9849731637,88.54,VEKPK0869C,U-0188
+MBU00870,Rahul Verma,Female,CE,UG,1,rahul.verma1870@mbu.edu.in,9887907275,91.76,CHNPV0870W,U-0188
+MBU00871,Meghana Das,Female,CE,UG,1,meghana.das1871@mbu.edu.in,9822669875,95.79,SPUPD0871G,U-0188
+MBU00872,Ananya Das,Female,CE,UG,1,ananya.das1872@mbu.edu.in,9859536446,82.93,PJJPD0872E,U-0188
+MBU00873,Ritika Yadav,Male,CE,UG,1,ritika.yadav1873@mbu.edu.in,9891482632,86.55,WILPY0873V,U-0188
+MBU00874,Kavya Bose,Female,CE,UG,1,kavya.bose1874@mbu.edu.in,9888157003,99.26,PNJPB0874W,U-0188
+MBU00875,Divya Nair,Female,CE,UG,1,divya.nair1875@mbu.edu.in,9830911278,65.95,WWJPN0875E,U-0188
+MBU00876,Yash Jain,Female,CE,UG,1,yash.jain1876@mbu.edu.in,9898291712,74.03,XWWPJ0876K,U-0188
+MBU00877,Yash Gupta,Female,CE,UG,1,yash.gupta1877@mbu.edu.in,9883107362,66.62,WRUPG0877Q,U-0188
+MBU00878,Ritika Bose,Female,CE,UG,1,ritika.bose1878@mbu.edu.in,9840710102,83.76,SXUPB0878U,U-0188
+MBU00879,Sneha Chopra,Male,CE,UG,1,sneha.chopra1879@mbu.edu.in,9841624823,71.04,NVBPC0879N,U-0188
+MBU00880,Aman Iyer,Female,CE,UG,1,aman.iyer1880@mbu.edu.in,9856163476,76.58,UYTPI0880K,U-0188
+MBU00881,Sameer Naidu,Female,CE,UG,1,sameer.naidu1881@mbu.edu.in,9831056299,73.65,DRGPN0881C,U-0188
+MBU00882,Kavya Patel,Male,CE,UG,1,kavya.patel1882@mbu.edu.in,9828098233,83.23,RZSPP0882Y,U-0188
+MBU00883,Nikhil Yadav,Male,CE,UG,1,nikhil.yadav1883@mbu.edu.in,9885947221,61.37,CSCPY0883J,U-0188
+MBU00884,Kiran Gupta,Female,CE,UG,1,kiran.gupta1884@mbu.edu.in,9890754914,88.71,OFZPG0884L,U-0188
+MBU00885,Sameer Naidu,Female,CE,UG,1,sameer.naidu1885@mbu.edu.in,9810454724,82.45,FVWPN0885C,U-0188
+MBU00886,Vikram Verma,Male,CE,UG,1,vikram.verma1886@mbu.edu.in,9844404456,78.84,LZOPV0886S,U-0188
+MBU00887,Kavya Yadav,Male,CE,UG,1,kavya.yadav1887@mbu.edu.in,9818117522,84.67,TFJPY0887L,U-0188
+MBU00888,Divya Malhotra,Male,CE,UG,1,divya.malhotra1888@mbu.edu.in,9829930424,89.87,HAEPM0888Z,U-0188
+MBU00889,Aman Reddy,Male,CE,UG,1,aman.reddy1889@mbu.edu.in,9840700696,91.46,BRZPR0889S,U-0188
+MBU00890,Ritika Iyer,Male,CE,UG,1,ritika.iyer1890@mbu.edu.in,9828928757,63.8,TTAPI0890N,U-0188
+MBU00891,Pooja Sharma,Male,CE,UG,1,pooja.sharma1891@mbu.edu.in,9843669096,75.55,KAKPS0891R,U-0188
+MBU00892,Arjun Nair,Female,CE,UG,1,arjun.nair1892@mbu.edu.in,9859813758,66.41,WUUPN0892P,U-0188
+MBU00893,Ananya Naidu,Female,CE,UG,1,ananya.naidu1893@mbu.edu.in,9821649895,93.52,YIRPN0893P,U-0188
+MBU00894,Kavya Bhat,Male,CE,UG,1,kavya.bhat1894@mbu.edu.in,9858817057,65.85,XILPB0894M,U-0188
+MBU00895,Vikram Das,Female,CE,UG,1,vikram.das1895@mbu.edu.in,9890959194,78.78,QWOPD0895X,U-0188
+MBU00896,Ananya Yadav,Female,CE,UG,1,ananya.yadav1896@mbu.edu.in,9834529193,77.25,ARYPY0896D,U-0188
+MBU00897,Divya Mishra,Male,CE,UG,1,divya.mishra1897@mbu.edu.in,9898865796,63.72,UULPM0897Y,U-0188
+MBU00898,Ananya Gupta,Female,CE,UG,1,ananya.gupta1898@mbu.edu.in,9889723692,80.0,QLRPG0898C,U-0188
+MBU00899,Yash Bose,Female,CE,UG,1,yash.bose1899@mbu.edu.in,9861283138,69.09,CQNPB0899X,U-0188
+MBU00900,Rahul Sharma,Female,CE,UG,1,rahul.sharma1900@mbu.edu.in,9832898786,99.85,SYMPS0900Y,U-0188
+MBU00901,Vikram Jain,Male,CE,UG,2,vikram.jain1901@mbu.edu.in,9814553287,68.04,ZJIPJ0901R,U-0188
+MBU00902,Sameer Singh,Male,CE,UG,2,sameer.singh1902@mbu.edu.in,9859270966,83.75,GFYPS0902F,U-0188
+MBU00903,Nikhil Bose,Female,CE,UG,2,nikhil.bose1903@mbu.edu.in,9884245142,80.06,LBXPB0903K,U-0188
+MBU00904,Sameer Bose,Male,CE,UG,2,sameer.bose1904@mbu.edu.in,9887714961,87.77,NSLPB0904A,U-0188
+MBU00905,Vikram Mishra,Female,CE,UG,2,vikram.mishra1905@mbu.edu.in,9816727590,87.01,IDXPM0905M,U-0188
+MBU00906,Ritika Sharma,Male,CE,UG,2,ritika.sharma1906@mbu.edu.in,9810182511,79.42,OSRPS0906O,U-0188
+MBU00907,Sanjay Gupta,Male,CE,UG,2,sanjay.gupta1907@mbu.edu.in,9835143263,76.55,FJHPG0907K,U-0188
+MBU00908,Yash Patel,Female,CE,UG,2,yash.patel1908@mbu.edu.in,9888880147,67.66,IKYPP0908I,U-0188
+MBU00909,Sneha Gupta,Male,CE,UG,2,sneha.gupta1909@mbu.edu.in,9853540644,86.57,HTXPG0909V,U-0188
+MBU00910,Kavya Kumar,Female,CE,UG,2,kavya.kumar1910@mbu.edu.in,9897516128,80.67,EMXPK0910Z,U-0188
+MBU00911,Divya Singh,Female,CE,UG,2,divya.singh1911@mbu.edu.in,9894118471,83.15,ENUPS0911T,U-0188
+MBU00912,Divya Patel,Female,CE,UG,2,divya.patel1912@mbu.edu.in,9836927773,60.96,QQVPP0912X,U-0188
+MBU00913,Harika Malhotra,Female,CE,UG,2,harika.malhotra1913@mbu.edu.in,9852873582,69.66,YQJPM0913Q,U-0188
+MBU00914,Meghana Das,Male,CE,UG,2,meghana.das1914@mbu.edu.in,9815577643,78.99,GAMPD0914I,U-0188
+MBU00915,Ravi Gupta,Male,CE,UG,2,ravi.gupta1915@mbu.edu.in,9891904462,63.47,QTHPG0915M,U-0188
+MBU00916,Sameer Naidu,Female,CE,UG,2,sameer.naidu1916@mbu.edu.in,9897308467,73.63,TLSPN0916L,U-0188
+MBU00917,Ravi Rao,Female,CE,UG,2,ravi.rao1917@mbu.edu.in,9885800943,81.22,FKSPR0917P,U-0188
+MBU00918,Rahul Rao,Female,CE,UG,2,rahul.rao1918@mbu.edu.in,9876174060,70.01,EBPPR0918I,U-0188
+MBU00919,Kiran Jain,Female,CE,UG,2,kiran.jain1919@mbu.edu.in,9828280317,98.35,YFGPJ0919P,U-0188
+MBU00920,Vinay Nair,Male,CE,UG,2,vinay.nair1920@mbu.edu.in,9834030618,76.48,WKQPN0920D,U-0188
+MBU00921,Meghana Shetty,Female,CE,UG,2,meghana.shetty1921@mbu.edu.in,9832984273,74.18,FEMPS0921Q,U-0188
+MBU00922,Vinay Rao,Male,CE,UG,2,vinay.rao1922@mbu.edu.in,9839179453,81.1,IYCPR0922S,U-0188
+MBU00923,Arjun Yadav,Male,CE,UG,2,arjun.yadav1923@mbu.edu.in,9883936192,83.34,QTJPY0923I,U-0188
+MBU00924,Kavya Singh,Male,CE,UG,2,kavya.singh1924@mbu.edu.in,9810605220,63.51,HONPS0924I,U-0188
+MBU00925,Neha Naidu,Male,CE,UG,2,neha.naidu1925@mbu.edu.in,9867420658,94.95,QXAPN0925V,U-0188
+MBU00926,Aman Gupta,Male,CE,UG,2,aman.gupta1926@mbu.edu.in,9843800046,61.07,XLQPG0926O,U-0188
+MBU00927,Harika Patel,Female,CE,UG,2,harika.patel1927@mbu.edu.in,9871404959,98.35,JSBPP0927R,U-0188
+MBU00928,Ananya Reddy,Male,CE,UG,2,ananya.reddy1928@mbu.edu.in,9860792703,96.62,XOFPR0928C,U-0188
+MBU00929,Vikram Shetty,Male,CE,UG,2,vikram.shetty1929@mbu.edu.in,9883845179,60.46,FSAPS0929I,U-0188
+MBU00930,Vinay Mishra,Male,CE,UG,2,vinay.mishra1930@mbu.edu.in,9878354493,62.34,OYGPM0930I,U-0188
+MBU00931,Nikhil Malhotra,Male,CE,UG,2,nikhil.malhotra1931@mbu.edu.in,9874570587,75.04,GFGPM0931A,U-0188
+MBU00932,Meghana Jain,Female,CE,UG,2,meghana.jain1932@mbu.edu.in,9865523167,87.54,DVIPJ0932V,U-0188
+MBU00933,Vikram Reddy,Male,CE,UG,2,vikram.reddy1933@mbu.edu.in,9883109746,83.91,TWPPR0933T,U-0188
+MBU00934,Pooja Singh,Male,CE,UG,2,pooja.singh1934@mbu.edu.in,9861630105,65.53,YHUPS0934P,U-0188
+MBU00935,Kiran Patel,Male,CE,UG,2,kiran.patel1935@mbu.edu.in,9879712099,81.3,MRKPP0935M,U-0188
+MBU00936,Arjun Das,Male,CE,UG,2,arjun.das1936@mbu.edu.in,9886217798,88.21,EKJPD0936E,U-0188
+MBU00937,Kavya Chopra,Male,CE,UG,2,kavya.chopra1937@mbu.edu.in,9858974309,92.96,XGOPC0937T,U-0188
+MBU00938,Sneha Nair,Female,CE,UG,2,sneha.nair1938@mbu.edu.in,9833106007,82.72,JMPPN0938J,U-0188
+MBU00939,Meghana Verma,Female,CE,UG,2,meghana.verma1939@mbu.edu.in,9851912486,80.04,YYDPV0939D,U-0188
+MBU00940,Nikhil Iyer,Male,CE,UG,2,nikhil.iyer1940@mbu.edu.in,9894407379,84.6,HKYPI0940G,U-0188
+MBU00941,Vinay Patel,Male,CE,UG,2,vinay.patel1941@mbu.edu.in,9836581178,86.06,AZHPP0941D,U-0188
+MBU00942,Kavya Mishra,Male,CE,UG,2,kavya.mishra1942@mbu.edu.in,9815634751,71.1,RQGPM0942W,U-0188
+MBU00943,Ravi Jain,Male,CE,UG,2,ravi.jain1943@mbu.edu.in,9820790849,79.92,TCDPJ0943W,U-0188
+MBU00944,Sanjay Reddy,Female,CE,UG,2,sanjay.reddy1944@mbu.edu.in,9812311483,64.51,VNEPR0944W,U-0188
+MBU00945,Ritika Kumar,Male,CE,UG,2,ritika.kumar1945@mbu.edu.in,9850631631,62.33,AZRPK0945A,U-0188
+MBU00946,Ritika Naidu,Male,CE,UG,2,ritika.naidu1946@mbu.edu.in,9895168753,85.97,DXAPN0946H,U-0188
+MBU00947,Harika Iyer,Female,CE,UG,2,harika.iyer1947@mbu.edu.in,9820168581,62.92,GASPI0947D,U-0188
+MBU00948,Vinay Patel,Female,CE,UG,2,vinay.patel1948@mbu.edu.in,9852181340,62.56,EITPP0948B,U-0188
+MBU00949,Divya Das,Female,CE,UG,2,divya.das1949@mbu.edu.in,9874351229,71.08,WDZPD0949Y,U-0188
+MBU00950,Sameer Jain,Female,CE,UG,2,sameer.jain1950@mbu.edu.in,9834987162,67.16,UISPJ0950P,U-0188
+MBU00951,Arjun Shetty,Male,CE,UG,2,arjun.shetty1951@mbu.edu.in,9850877988,77.38,RHYPS0951T,U-0188
+MBU00952,Ritika Bhat,Male,CE,UG,2,ritika.bhat1952@mbu.edu.in,9858736431,86.19,ALUPB0952C,U-0188
+MBU00953,Aman Sharma,Male,CE,UG,2,aman.sharma1953@mbu.edu.in,9825720278,61.68,BBUPS0953C,U-0188
+MBU00954,Meghana Yadav,Female,CE,UG,2,meghana.yadav1954@mbu.edu.in,9897882894,90.56,LZTPY0954I,U-0188
+MBU00955,Ritika Singh,Male,CE,UG,2,ritika.singh1955@mbu.edu.in,9893989431,68.06,RARPS0955T,U-0188
+MBU00956,Neha Yadav,Male,CE,UG,2,neha.yadav1956@mbu.edu.in,9837764477,86.25,XKGPY0956Q,U-0188
+MBU00957,Aman Rao,Female,CE,UG,2,aman.rao1957@mbu.edu.in,9825903730,99.52,JHLPR0957M,U-0188
+MBU00958,Vinay Gupta,Female,CE,UG,2,vinay.gupta1958@mbu.edu.in,9876356322,74.2,TPDPG0958C,U-0188
+MBU00959,Harika Malhotra,Male,CE,UG,2,harika.malhotra1959@mbu.edu.in,9870010013,96.12,AJIPM0959H,U-0188
+MBU00960,Rahul Bhat,Female,CE,UG,2,rahul.bhat1960@mbu.edu.in,9875754344,95.37,RCRPB0960K,U-0188
+MBU00961,Sanjay Mishra,Female,CE,UG,3,sanjay.mishra1961@mbu.edu.in,9854402143,68.82,VJKPM0961M,U-0188
+MBU00962,Vikram Kumar,Female,CE,UG,3,vikram.kumar1962@mbu.edu.in,9842586920,61.27,OQKPK0962M,U-0188
+MBU00963,Vinay Yadav,Male,CE,UG,3,vinay.yadav1963@mbu.edu.in,9830268899,85.41,UFNPY0963D,U-0188
+MBU00964,Yash Patel,Male,CE,UG,3,yash.patel1964@mbu.edu.in,9840195103,62.92,URGPP0964D,U-0188
+MBU00965,Kiran Nair,Male,CE,UG,3,kiran.nair1965@mbu.edu.in,9889751874,68.05,UPOPN0965Z,U-0188
+MBU00966,Vinay Das,Female,CE,UG,3,vinay.das1966@mbu.edu.in,9892858620,79.7,WKXPD0966X,U-0188
+MBU00967,Kavya Naidu,Male,CE,UG,3,kavya.naidu1967@mbu.edu.in,9823746280,70.27,QXBPN0967C,U-0188
+MBU00968,Sanjay Mishra,Female,CE,UG,3,sanjay.mishra1968@mbu.edu.in,9827022835,95.38,TESPM0968I,U-0188
+MBU00969,Kavya Chopra,Male,CE,UG,3,kavya.chopra1969@mbu.edu.in,9810283820,70.23,LBCPC0969M,U-0188
+MBU00970,Vinay Jain,Male,CE,UG,3,vinay.jain1970@mbu.edu.in,9832035978,85.61,JGVPJ0970V,U-0188
+MBU00971,Neha Das,Female,CE,UG,3,neha.das1971@mbu.edu.in,9852244157,86.98,CQPPD0971F,U-0188
+MBU00972,Meghana Patel,Male,CE,UG,3,meghana.patel1972@mbu.edu.in,9890823460,60.2,EZEPP0972J,U-0188
+MBU00973,Vikram Rao,Male,CE,UG,3,vikram.rao1973@mbu.edu.in,9863563789,63.2,YCOPR0973R,U-0188
+MBU00974,Harika Yadav,Female,CE,UG,3,harika.yadav1974@mbu.edu.in,9838758297,61.76,ENGPY0974H,U-0188
+MBU00975,Rahul Chopra,Male,CE,UG,3,rahul.chopra1975@mbu.edu.in,9886249573,70.96,CRXPC0975X,U-0188
+MBU00976,Kavya Nair,Male,CE,UG,3,kavya.nair1976@mbu.edu.in,9852598668,66.63,QZRPN0976E,U-0188
+MBU00977,Vinay Naidu,Male,CE,UG,3,vinay.naidu1977@mbu.edu.in,9859204288,73.52,LLHPN0977W,U-0188
+MBU00978,Vikram Mishra,Female,CE,UG,3,vikram.mishra1978@mbu.edu.in,9880107228,74.17,CGVPM0978V,U-0188
+MBU00979,Harika Patel,Male,CE,UG,3,harika.patel1979@mbu.edu.in,9810873468,67.99,YZJPP0979Q,U-0188
+MBU00980,Neha Naidu,Female,CE,UG,3,neha.naidu1980@mbu.edu.in,9873069126,65.86,IYZPN0980S,U-0188
+MBU00981,Sanjay Verma,Female,CE,UG,3,sanjay.verma1981@mbu.edu.in,9821697825,88.95,SKAPV0981S,U-0188
+MBU00982,Sneha Bhat,Male,CE,UG,3,sneha.bhat1982@mbu.edu.in,9838946757,82.17,HHOPB0982F,U-0188
+MBU00983,Harika Gupta,Male,CE,UG,3,harika.gupta1983@mbu.edu.in,9834033898,96.74,KIBPG0983V,U-0188
+MBU00984,Pooja Nair,Female,CE,UG,3,pooja.nair1984@mbu.edu.in,9843901002,98.11,RWNPN0984J,U-0188
+MBU00985,Yash Verma,Male,CE,UG,3,yash.verma1985@mbu.edu.in,9838423562,88.62,KIZPV0985K,U-0188
+MBU00986,Vinay Chopra,Male,CE,UG,3,vinay.chopra1986@mbu.edu.in,9878439482,92.62,DJEPC0986F,U-0188
+MBU00987,Nikhil Naidu,Female,CE,UG,3,nikhil.naidu1987@mbu.edu.in,9869966382,68.54,SIEPN0987M,U-0188
+MBU00988,Kavya Verma,Male,CE,UG,3,kavya.verma1988@mbu.edu.in,9815271113,88.7,KLLPV0988P,U-0188
+MBU00989,Vikram Reddy,Female,CE,UG,3,vikram.reddy1989@mbu.edu.in,9874393903,61.97,UTZPR0989W,U-0188
+MBU00990,Ravi Das,Female,CE,UG,3,ravi.das1990@mbu.edu.in,9830124350,91.69,PIZPD0990C,U-0188
+MBU00991,Neha Sharma,Female,CE,UG,3,neha.sharma1991@mbu.edu.in,9834490577,75.63,HDUPS0991K,U-0188
+MBU00992,Divya Mishra,Male,CE,UG,3,divya.mishra1992@mbu.edu.in,9876085874,68.48,POBPM0992P,U-0188
+MBU00993,Yash Chopra,Male,CE,UG,3,yash.chopra1993@mbu.edu.in,9895725940,68.73,WRBPC0993J,U-0188
+MBU00994,Sanjay Verma,Female,CE,UG,3,sanjay.verma1994@mbu.edu.in,9848391982,69.79,ELKPV0994X,U-0188
+MBU00995,Sanjay Kumar,Male,CE,UG,3,sanjay.kumar1995@mbu.edu.in,9885463447,69.74,VYBPK0995Y,U-0188
+MBU00996,Rahul Gupta,Male,CE,UG,3,rahul.gupta1996@mbu.edu.in,9857301713,64.12,VENPG0996D,U-0188
+MBU00997,Neha Rao,Male,CE,UG,3,neha.rao1997@mbu.edu.in,9891881870,73.81,URBPR0997D,U-0188
+MBU00998,Aman Bose,Female,CE,UG,3,aman.bose1998@mbu.edu.in,9858880663,88.92,TGIPB0998W,U-0188
+MBU00999,Ravi Patel,Male,CE,UG,3,ravi.patel1999@mbu.edu.in,9815997621,87.09,YWNPP0999K,U-0188
+MBU01000,Sameer Verma,Male,CE,UG,3,sameer.verma2000@mbu.edu.in,9869086116,85.57,PJUPV1000N,U-0188
+MBU01001,Kavya Reddy,Female,CE,UG,3,kavya.reddy2001@mbu.edu.in,9868319916,97.55,RHBPR1001M,U-0188
+MBU01002,Nikhil Jain,Male,CE,UG,3,nikhil.jain2002@mbu.edu.in,9896176796,68.85,EJAPJ1002G,U-0188
+MBU01003,Meghana Chopra,Female,CE,UG,3,meghana.chopra2003@mbu.edu.in,9838574903,74.57,EBDPC1003R,U-0188
+MBU01004,Arjun Reddy,Female,CE,UG,3,arjun.reddy2004@mbu.edu.in,9816211505,99.87,UIKPR1004E,U-0188
+MBU01005,Ritika Yadav,Male,CE,UG,3,ritika.yadav2005@mbu.edu.in,9847687257,87.54,HXDPY1005F,U-0188
+MBU01006,Meghana Yadav,Male,CE,UG,3,meghana.yadav2006@mbu.edu.in,9853324946,83.79,ODJPY1006G,U-0188
+MBU01007,Meghana Jain,Male,CE,UG,3,meghana.jain2007@mbu.edu.in,9864600788,97.94,OOVPJ1007T,U-0188
+MBU01008,Kiran Bhat,Male,CE,UG,3,kiran.bhat2008@mbu.edu.in,9860721801,76.09,ZPRPB1008D,U-0188
+MBU01009,Arjun Bose,Female,CE,UG,3,arjun.bose2009@mbu.edu.in,9893132540,76.48,HIZPB1009X,U-0188
+MBU01010,Ritika Kumar,Female,CE,UG,3,ritika.kumar2010@mbu.edu.in,9865720675,95.84,ZZZPK1010G,U-0188
+MBU01011,Arjun Jain,Male,CE,UG,3,arjun.jain2011@mbu.edu.in,9854280292,95.07,LOEPJ1011Q,U-0188
+MBU01012,Harika Reddy,Male,CE,UG,3,harika.reddy2012@mbu.edu.in,9867271387,91.94,ZXBPR1012N,U-0188
+MBU01013,Neha Malhotra,Female,CE,UG,3,neha.malhotra2013@mbu.edu.in,9844954500,86.19,HMCPM1013B,U-0188
+MBU01014,Vinay Patel,Female,CE,UG,3,vinay.patel2014@mbu.edu.in,9842394133,92.41,MXHPP1014Q,U-0188
+MBU01015,Nikhil Das,Female,CE,UG,3,nikhil.das2015@mbu.edu.in,9829951848,81.01,RZWPD1015C,U-0188
+MBU01016,Neha Yadav,Male,CE,UG,3,neha.yadav2016@mbu.edu.in,9857030775,94.64,LQBPY1016C,U-0188
+MBU01017,Vinay Naidu,Female,CE,UG,3,vinay.naidu2017@mbu.edu.in,9891553783,83.55,GGCPN1017P,U-0188
+MBU01018,Ritika Naidu,Female,CE,UG,3,ritika.naidu2018@mbu.edu.in,9825747202,77.25,EDCPN1018Z,U-0188
+MBU01019,Arjun Iyer,Female,CE,UG,3,arjun.iyer2019@mbu.edu.in,9845136361,70.51,BBAPI1019U,U-0188
+MBU01020,Sanjay Yadav,Male,CE,UG,3,sanjay.yadav2020@mbu.edu.in,9812197242,72.97,LNJPY1020V,U-0188
+MBU01021,Pooja Shetty,Male,CE,UG,4,pooja.shetty2021@mbu.edu.in,9857427360,61.44,LSMPS1021L,U-0188
+MBU01022,Rahul Jain,Male,CE,UG,4,rahul.jain2022@mbu.edu.in,9872659601,86.75,SDGPJ1022A,U-0188
+MBU01023,Ananya Das,Female,CE,UG,4,ananya.das2023@mbu.edu.in,9841703858,76.73,UABPD1023L,U-0188
+MBU01024,Neha Mishra,Female,CE,UG,4,neha.mishra2024@mbu.edu.in,9865469727,91.0,CSUPM1024W,U-0188
+MBU01025,Kiran Kumar,Male,CE,UG,4,kiran.kumar2025@mbu.edu.in,9880449248,80.91,EDZPK1025P,U-0188
+MBU01026,Sneha Chopra,Male,CE,UG,4,sneha.chopra2026@mbu.edu.in,9816386610,61.4,OLDPC1026A,U-0188
+MBU01027,Aman Mishra,Male,CE,UG,4,aman.mishra2027@mbu.edu.in,9840975513,81.63,ALAPM1027Y,U-0188
+MBU01028,Arjun Rao,Female,CE,UG,4,arjun.rao2028@mbu.edu.in,9886948485,92.42,APEPR1028X,U-0188
+MBU01029,Pooja Verma,Female,CE,UG,4,pooja.verma2029@mbu.edu.in,9828975513,89.54,XSNPV1029V,U-0188
+MBU01030,Kavya Bhat,Female,CE,UG,4,kavya.bhat2030@mbu.edu.in,9867091953,65.95,DZHPB1030E,U-0188
+MBU01031,Neha Patel,Female,CE,UG,4,neha.patel2031@mbu.edu.in,9875738265,97.9,LFBPP1031O,U-0188
+MBU01032,Kavya Chopra,Female,CE,UG,4,kavya.chopra2032@mbu.edu.in,9811169194,94.62,LRMPC1032N,U-0188
+MBU01033,Aman Kumar,Female,CE,UG,4,aman.kumar2033@mbu.edu.in,9824935372,62.06,RMCPK1033L,U-0188
+MBU01034,Pooja Reddy,Male,CE,UG,4,pooja.reddy2034@mbu.edu.in,9830103256,70.77,MORPR1034B,U-0188
+MBU01035,Kavya Verma,Male,CE,UG,4,kavya.verma2035@mbu.edu.in,9868932603,91.77,PICPV1035R,U-0188
+MBU01036,Ananya Mishra,Male,CE,UG,4,ananya.mishra2036@mbu.edu.in,9832303279,85.49,RQFPM1036U,U-0188
+MBU01037,Vinay Singh,Male,CE,UG,4,vinay.singh2037@mbu.edu.in,9862582444,65.4,YBNPS1037V,U-0188
+MBU01038,Kavya Das,Male,CE,UG,4,kavya.das2038@mbu.edu.in,9897570379,77.78,GBUPD1038Y,U-0188
+MBU01039,Vinay Nair,Male,CE,UG,4,vinay.nair2039@mbu.edu.in,9831981576,88.22,SLMPN1039D,U-0188
+MBU01040,Sneha Verma,Male,CE,UG,4,sneha.verma2040@mbu.edu.in,9818005471,99.34,BUZPV1040T,U-0188
+MBU01041,Pooja Bhat,Male,CE,UG,4,pooja.bhat2041@mbu.edu.in,9899720665,92.39,AYCPB1041J,U-0188
+MBU01042,Neha Verma,Male,CE,UG,4,neha.verma2042@mbu.edu.in,9879719844,83.13,AXOPV1042P,U-0188
+MBU01043,Kavya Malhotra,Female,CE,UG,4,kavya.malhotra2043@mbu.edu.in,9876564840,93.07,BUJPM1043L,U-0188
+MBU01044,Kiran Yadav,Female,CE,UG,4,kiran.yadav2044@mbu.edu.in,9849106506,99.8,SZNPY1044G,U-0188
+MBU01045,Pooja Shetty,Male,CE,UG,4,pooja.shetty2045@mbu.edu.in,9854067180,71.49,OHNPS1045Q,U-0188
+MBU01046,Sneha Iyer,Male,CE,UG,4,sneha.iyer2046@mbu.edu.in,9834983416,86.32,KYUPI1046U,U-0188
+MBU01047,Sameer Yadav,Female,CE,UG,4,sameer.yadav2047@mbu.edu.in,9825131429,71.19,CYOPY1047H,U-0188
+MBU01048,Vikram Malhotra,Male,CE,UG,4,vikram.malhotra2048@mbu.edu.in,9836238908,79.29,WXFPM1048A,U-0188
+MBU01049,Pooja Yadav,Male,CE,UG,4,pooja.yadav2049@mbu.edu.in,9817205651,97.75,FRWPY1049R,U-0188
+MBU01050,Sneha Bhat,Male,CE,UG,4,sneha.bhat2050@mbu.edu.in,9846464695,72.01,YNNPB1050T,U-0188
+MBU01051,Sanjay Yadav,Male,CE,UG,4,sanjay.yadav2051@mbu.edu.in,9898037134,65.42,EMJPY1051X,U-0188
+MBU01052,Ananya Mishra,Male,CE,UG,4,ananya.mishra2052@mbu.edu.in,9861935041,75.28,WIGPM1052S,U-0188
+MBU01053,Nikhil Singh,Female,CE,UG,4,nikhil.singh2053@mbu.edu.in,9845469950,92.44,KSVPS1053G,U-0188
+MBU01054,Ravi Yadav,Male,CE,UG,4,ravi.yadav2054@mbu.edu.in,9875365031,74.02,NMPPY1054F,U-0188
+MBU01055,Meghana Iyer,Male,CE,UG,4,meghana.iyer2055@mbu.edu.in,9849780707,84.15,MJQPI1055K,U-0188
+MBU01056,Kavya Rao,Male,CE,UG,4,kavya.rao2056@mbu.edu.in,9853504899,96.98,AHIPR1056F,U-0188
+MBU01057,Vikram Gupta,Male,CE,UG,4,vikram.gupta2057@mbu.edu.in,9838813640,66.32,OYXPG1057R,U-0188
+MBU01058,Yash Shetty,Female,CE,UG,4,yash.shetty2058@mbu.edu.in,9827158844,85.39,VCGPS1058D,U-0188
+MBU01059,Sanjay Verma,Female,CE,UG,4,sanjay.verma2059@mbu.edu.in,9897253710,60.85,MRRPV1059A,U-0188
+MBU01060,Nikhil Sharma,Male,CE,UG,4,nikhil.sharma2060@mbu.edu.in,9849435194,82.37,JALPS1060A,U-0188
+MBU01061,Nikhil Yadav,Female,CE,UG,4,nikhil.yadav2061@mbu.edu.in,9822853121,67.61,MNUPY1061S,U-0188
+MBU01062,Harika Kumar,Male,CE,UG,4,harika.kumar2062@mbu.edu.in,9860585645,84.83,FXLPK1062W,U-0188
+MBU01063,Sanjay Rao,Male,CE,UG,4,sanjay.rao2063@mbu.edu.in,9824829517,70.37,UNHPR1063I,U-0188
+MBU01064,Kavya Sharma,Male,CE,UG,4,kavya.sharma2064@mbu.edu.in,9852928412,96.26,ZWGPS1064V,U-0188
+MBU01065,Neha Reddy,Male,CE,UG,4,neha.reddy2065@mbu.edu.in,9863851678,78.26,HWDPR1065V,U-0188
+MBU01066,Neha Bose,Female,CE,UG,4,neha.bose2066@mbu.edu.in,9844085566,87.16,FERPB1066D,U-0188
+MBU01067,Vikram Bose,Male,CE,UG,4,vikram.bose2067@mbu.edu.in,9890633361,92.87,ENYPB1067E,U-0188
+MBU01068,Sameer Kumar,Female,CE,UG,4,sameer.kumar2068@mbu.edu.in,9868330466,90.97,LXYPK1068Q,U-0188
+MBU01069,Aman Yadav,Male,CE,UG,4,aman.yadav2069@mbu.edu.in,9885183813,79.56,FCAPY1069A,U-0188
+MBU01070,Nikhil Bhat,Male,CE,UG,4,nikhil.bhat2070@mbu.edu.in,9887399902,69.24,MILPB1070Q,U-0188
+MBU01071,Nikhil Iyer,Male,CE,UG,4,nikhil.iyer2071@mbu.edu.in,9845834382,94.98,TCPPI1071S,U-0188
+MBU01072,Yash Bose,Male,CE,UG,4,yash.bose2072@mbu.edu.in,9817078358,97.12,JVMPB1072Q,U-0188
+MBU01073,Sneha Mishra,Female,CE,UG,4,sneha.mishra2073@mbu.edu.in,9810001035,99.45,SXRPM1073G,U-0188
+MBU01074,Divya Malhotra,Female,CE,UG,4,divya.malhotra2074@mbu.edu.in,9812641861,88.99,KEBPM1074N,U-0188
+MBU01075,Nikhil Das,Male,CE,UG,4,nikhil.das2075@mbu.edu.in,9810108581,71.74,WVKPD1075T,U-0188
+MBU01076,Ananya Rao,Female,CE,UG,4,ananya.rao2076@mbu.edu.in,9879225927,65.59,GVXPR1076N,U-0188
+MBU01077,Neha Das,Male,CE,UG,4,neha.das2077@mbu.edu.in,9841832248,98.36,ZLIPD1077X,U-0188
+MBU01078,Yash Mishra,Female,CE,UG,4,yash.mishra2078@mbu.edu.in,9852386138,80.02,VPWPM1078Z,U-0188
+MBU01079,Pooja Gupta,Male,CE,UG,4,pooja.gupta2079@mbu.edu.in,9895962918,74.04,PAFPG1079Z,U-0188
+MBU01080,Yash Nair,Male,CE,UG,4,yash.nair2080@mbu.edu.in,9865960198,62.73,DPEPN1080M,U-0188
+MBU01081,Yash Yadav,Male,CSE,UG,1,yash.yadav2081@mbu.edu.in,9838412326,96.81,LLNPY1081T,U-0188
+MBU01082,Nikhil Mishra,Female,CSE,UG,1,nikhil.mishra2082@mbu.edu.in,9861096236,87.27,QIVPM1082W,U-0188
+MBU01083,Meghana Sharma,Female,CSE,UG,1,meghana.sharma2083@mbu.edu.in,9860586099,62.24,WZAPS1083O,U-0188
+MBU01084,Vikram Sharma,Male,CSE,UG,1,vikram.sharma2084@mbu.edu.in,9897640742,89.11,CLFPS1084F,U-0188
+MBU01085,Sameer Singh,Male,CSE,UG,1,sameer.singh2085@mbu.edu.in,9869370834,77.54,CIEPS1085E,U-0188
+MBU01086,Vinay Jain,Male,CSE,UG,1,vinay.jain2086@mbu.edu.in,9855842107,98.44,SNHPJ1086D,U-0188
+MBU01087,Arjun Patel,Male,CSE,UG,1,arjun.patel2087@mbu.edu.in,9858452243,62.41,WYSPP1087D,U-0188
+MBU01088,Ritika Shetty,Male,CSE,UG,1,ritika.shetty2088@mbu.edu.in,9810979320,86.23,BMLPS1088B,U-0188
+MBU01089,Rahul Chopra,Male,CSE,UG,1,rahul.chopra2089@mbu.edu.in,9871438067,64.5,MRXPC1089D,U-0188
+MBU01090,Ravi Mishra,Male,CSE,UG,1,ravi.mishra2090@mbu.edu.in,9861951977,79.86,BDBPM1090V,U-0188
+MBU01091,Divya Iyer,Male,CSE,UG,1,divya.iyer2091@mbu.edu.in,9890994231,64.92,YKWPI1091O,U-0188
+MBU01092,Sanjay Singh,Male,CSE,UG,1,sanjay.singh2092@mbu.edu.in,9818435030,88.0,BTJPS1092G,U-0188
+MBU01093,Yash Shetty,Male,CSE,UG,1,yash.shetty2093@mbu.edu.in,9864759786,76.05,FQRPS1093N,U-0188
+MBU01094,Sanjay Verma,Female,CSE,UG,1,sanjay.verma2094@mbu.edu.in,9811062239,61.85,FXVPV1094W,U-0188
+MBU01095,Sameer Reddy,Female,CSE,UG,1,sameer.reddy2095@mbu.edu.in,9827096431,89.54,BPXPR1095X,U-0188
+MBU01096,Sneha Verma,Male,CSE,UG,1,sneha.verma2096@mbu.edu.in,9874891954,67.48,PQWPV1096T,U-0188
+MBU01097,Divya Sharma,Male,CSE,UG,1,divya.sharma2097@mbu.edu.in,9870767150,88.28,CBGPS1097C,U-0188
+MBU01098,Aman Naidu,Male,CSE,UG,1,aman.naidu2098@mbu.edu.in,9821022198,61.06,XEJPN1098M,U-0188
+MBU01099,Nikhil Iyer,Female,CSE,UG,1,nikhil.iyer2099@mbu.edu.in,9849628260,97.08,GHRPI1099P,U-0188
+MBU01100,Nikhil Kumar,Male,CSE,UG,1,nikhil.kumar2100@mbu.edu.in,9860973858,61.59,TSCPK1100D,U-0188
+MBU01101,Nikhil Sharma,Female,CSE,UG,1,nikhil.sharma2101@mbu.edu.in,9817978921,93.14,QBZPS1101X,U-0188
+MBU01102,Ritika Yadav,Male,CSE,UG,1,ritika.yadav2102@mbu.edu.in,9894175380,82.26,FABPY1102V,U-0188
+MBU01103,Vikram Bose,Female,CSE,UG,1,vikram.bose2103@mbu.edu.in,9878407349,64.74,FABPB1103K,U-0188
+MBU01104,Kavya Bhat,Male,CSE,UG,1,kavya.bhat2104@mbu.edu.in,9874126462,88.85,RCKPB1104R,U-0188
+MBU01105,Sneha Rao,Male,CSE,UG,1,sneha.rao2105@mbu.edu.in,9844658699,85.2,FURPR1105S,U-0188
+MBU01106,Divya Yadav,Male,CSE,UG,1,divya.yadav2106@mbu.edu.in,9825610230,72.86,TPJPY1106V,U-0188
+MBU01107,Aman Yadav,Male,CSE,UG,1,aman.yadav2107@mbu.edu.in,9889219645,88.6,WKPPY1107I,U-0188
+MBU01108,Vikram Malhotra,Female,CSE,UG,1,vikram.malhotra2108@mbu.edu.in,9833590397,73.11,WGIPM1108R,U-0188
+MBU01109,Ritika Yadav,Male,CSE,UG,1,ritika.yadav2109@mbu.edu.in,9841215908,87.03,WZFPY1109K,U-0188
+MBU01110,Yash Nair,Male,CSE,UG,1,yash.nair2110@mbu.edu.in,9836365853,81.77,CBCPN1110J,U-0188
+MBU01111,Aman Yadav,Male,CSE,UG,1,aman.yadav2111@mbu.edu.in,9892949029,88.83,FHDPY1111I,U-0188
+MBU01112,Sneha Bhat,Male,CSE,UG,1,sneha.bhat2112@mbu.edu.in,9850914849,72.84,EGEPB1112E,U-0188
+MBU01113,Yash Jain,Male,CSE,UG,1,yash.jain2113@mbu.edu.in,9843736574,95.33,FTHPJ1113E,U-0188
+MBU01114,Arjun Patel,Female,CSE,UG,1,arjun.patel2114@mbu.edu.in,9865377811,70.45,EBKPP1114B,U-0188
+MBU01115,Ritika Mishra,Female,CSE,UG,1,ritika.mishra2115@mbu.edu.in,9824631900,78.79,HVTPM1115K,U-0188
+MBU01116,Vikram Nair,Female,CSE,UG,1,vikram.nair2116@mbu.edu.in,9841870770,72.27,NARPN1116U,U-0188
+MBU01117,Sanjay Gupta,Female,CSE,UG,1,sanjay.gupta2117@mbu.edu.in,9813443952,64.53,TKVPG1117U,U-0188
+MBU01118,Sameer Shetty,Male,CSE,UG,1,sameer.shetty2118@mbu.edu.in,9858342661,61.9,IMZPS1118Q,U-0188
+MBU01119,Kiran Sharma,Female,CSE,UG,1,kiran.sharma2119@mbu.edu.in,9869625861,64.48,CWSPS1119B,U-0188
+MBU01120,Rahul Nair,Female,CSE,UG,1,rahul.nair2120@mbu.edu.in,9833487640,61.77,VVZPN1120Y,U-0188
+MBU01121,Nikhil Rao,Female,CSE,UG,1,nikhil.rao2121@mbu.edu.in,9835899638,93.93,VSPPR1121X,U-0188
+MBU01122,Ravi Rao,Female,CSE,UG,1,ravi.rao2122@mbu.edu.in,9843874986,95.84,JZYPR1122W,U-0188
+MBU01123,Kiran Sharma,Female,CSE,UG,1,kiran.sharma2123@mbu.edu.in,9826980130,86.63,UBLPS1123D,U-0188
+MBU01124,Sameer Iyer,Female,CSE,UG,1,sameer.iyer2124@mbu.edu.in,9881198575,61.08,JJGPI1124H,U-0188
+MBU01125,Yash Das,Male,CSE,UG,1,yash.das2125@mbu.edu.in,9866540760,72.47,UNYPD1125U,U-0188
+MBU01126,Divya Patel,Male,CSE,UG,1,divya.patel2126@mbu.edu.in,9885033605,92.1,KQXPP1126A,U-0188
+MBU01127,Aman Bhat,Female,CSE,UG,1,aman.bhat2127@mbu.edu.in,9813347819,87.05,PDLPB1127V,U-0188
+MBU01128,Neha Iyer,Female,CSE,UG,1,neha.iyer2128@mbu.edu.in,9819071997,76.31,FGBPI1128B,U-0188
+MBU01129,Harika Chopra,Female,CSE,UG,1,harika.chopra2129@mbu.edu.in,9810136941,77.73,ZCHPC1129O,U-0188
+MBU01130,Vinay Kumar,Male,CSE,UG,1,vinay.kumar2130@mbu.edu.in,9887818563,62.33,JGWPK1130G,U-0188
+MBU01131,Ananya Patel,Female,CSE,UG,1,ananya.patel2131@mbu.edu.in,9814422477,79.73,REWPP1131P,U-0188
+MBU01132,Sameer Yadav,Female,CSE,UG,1,sameer.yadav2132@mbu.edu.in,9814257691,94.26,OFVPY1132Y,U-0188
+MBU01133,Pooja Mishra,Female,CSE,UG,1,pooja.mishra2133@mbu.edu.in,9852477895,89.02,JUMPM1133Z,U-0188
+MBU01134,Sameer Gupta,Female,CSE,UG,1,sameer.gupta2134@mbu.edu.in,9832683207,73.1,IWMPG1134Y,U-0188
+MBU01135,Nikhil Singh,Female,CSE,UG,1,nikhil.singh2135@mbu.edu.in,9896846743,81.77,TFGPS1135T,U-0188
+MBU01136,Divya Naidu,Female,CSE,UG,1,divya.naidu2136@mbu.edu.in,9810012076,97.03,PLGPN1136A,U-0188
+MBU01137,Sameer Yadav,Male,CSE,UG,1,sameer.yadav2137@mbu.edu.in,9831464697,77.92,HTRPY1137L,U-0188
+MBU01138,Divya Yadav,Female,CSE,UG,1,divya.yadav2138@mbu.edu.in,9868949069,97.25,WFBPY1138P,U-0188
+MBU01139,Vikram Shetty,Female,CSE,UG,1,vikram.shetty2139@mbu.edu.in,9843511876,66.13,UYSPS1139X,U-0188
+MBU01140,Pooja Verma,Female,CSE,UG,1,pooja.verma2140@mbu.edu.in,9826900979,83.06,SBLPV1140N,U-0188
+MBU01141,Kiran Jain,Female,CSE,UG,2,kiran.jain2141@mbu.edu.in,9817990436,83.9,JCWPJ1141I,U-0188
+MBU01142,Sanjay Verma,Female,CSE,UG,2,sanjay.verma2142@mbu.edu.in,9887633910,87.88,LCOPV1142A,U-0188
+MBU01143,Kiran Das,Female,CSE,UG,2,kiran.das2143@mbu.edu.in,9816684365,77.53,RGPPD1143X,U-0188
+MBU01144,Ananya Gupta,Female,CSE,UG,2,ananya.gupta2144@mbu.edu.in,9829022398,97.67,GHYPG1144K,U-0188
+MBU01145,Sameer Malhotra,Female,CSE,UG,2,sameer.malhotra2145@mbu.edu.in,9835197112,82.81,JILPM1145Y,U-0188
+MBU01146,Rahul Bhat,Female,CSE,UG,2,rahul.bhat2146@mbu.edu.in,9855530941,73.18,CZVPB1146N,U-0188
+MBU01147,Yash Naidu,Female,CSE,UG,2,yash.naidu2147@mbu.edu.in,9820190858,92.29,QSDPN1147D,U-0188
+MBU01148,Sanjay Singh,Male,CSE,UG,2,sanjay.singh2148@mbu.edu.in,9875479872,93.64,UUWPS1148F,U-0188
+MBU01149,Kiran Jain,Female,CSE,UG,2,kiran.jain2149@mbu.edu.in,9876778971,98.78,SDQPJ1149K,U-0188
+MBU01150,Divya Kumar,Female,CSE,UG,2,divya.kumar2150@mbu.edu.in,9827174576,99.4,DBXPK1150F,U-0188
+MBU01151,Pooja Chopra,Female,CSE,UG,2,pooja.chopra2151@mbu.edu.in,9880045625,65.46,HRAPC1151V,U-0188
+MBU01152,Kavya Iyer,Female,CSE,UG,2,kavya.iyer2152@mbu.edu.in,9865101938,97.67,ONQPI1152H,U-0188
+MBU01153,Sameer Bose,Female,CSE,UG,2,sameer.bose2153@mbu.edu.in,9818726515,89.73,VQPPB1153Y,U-0188
+MBU01154,Kavya Naidu,Female,CSE,UG,2,kavya.naidu2154@mbu.edu.in,9861735521,66.11,VPWPN1154B,U-0188
+MBU01155,Harika Mishra,Male,CSE,UG,2,harika.mishra2155@mbu.edu.in,9828832834,79.44,MVQPM1155S,U-0188
+MBU01156,Nikhil Patel,Male,CSE,UG,2,nikhil.patel2156@mbu.edu.in,9892672747,92.05,SGDPP1156A,U-0188
+MBU01157,Rahul Malhotra,Female,CSE,UG,2,rahul.malhotra2157@mbu.edu.in,9869607726,91.37,QBSPM1157G,U-0188
+MBU01158,Aman Verma,Male,CSE,UG,2,aman.verma2158@mbu.edu.in,9817948268,73.99,HLCPV1158O,U-0188
+MBU01159,Sanjay Kumar,Female,CSE,UG,2,sanjay.kumar2159@mbu.edu.in,9840267970,80.43,UXZPK1159J,U-0188
+MBU01160,Neha Jain,Female,CSE,UG,2,neha.jain2160@mbu.edu.in,9827178073,67.56,SJNPJ1160W,U-0188
+MBU01161,Aman Verma,Male,CSE,UG,2,aman.verma2161@mbu.edu.in,9894377610,83.2,SHJPV1161S,U-0188
+MBU01162,Arjun Yadav,Female,CSE,UG,2,arjun.yadav2162@mbu.edu.in,9843773954,99.07,RWCPY1162A,U-0188
+MBU01163,Aman Nair,Female,CSE,UG,2,aman.nair2163@mbu.edu.in,9843978682,91.41,YTYPN1163N,U-0188
+MBU01164,Pooja Bhat,Female,CSE,UG,2,pooja.bhat2164@mbu.edu.in,9861638296,90.32,PYNPB1164O,U-0188
+MBU01165,Pooja Malhotra,Male,CSE,UG,2,pooja.malhotra2165@mbu.edu.in,9855130692,81.86,WOFPM1165S,U-0188
+MBU01166,Meghana Yadav,Female,CSE,UG,2,meghana.yadav2166@mbu.edu.in,9846865992,98.45,QYVPY1166V,U-0188
+MBU01167,Meghana Reddy,Female,CSE,UG,2,meghana.reddy2167@mbu.edu.in,9846741818,83.81,URTPR1167Q,U-0188
+MBU01168,Pooja Rao,Male,CSE,UG,2,pooja.rao2168@mbu.edu.in,9869440503,93.47,IQKPR1168X,U-0188
+MBU01169,Yash Jain,Male,CSE,UG,2,yash.jain2169@mbu.edu.in,9879086554,91.74,YGPPJ1169E,U-0188
+MBU01170,Harika Malhotra,Female,CSE,UG,2,harika.malhotra2170@mbu.edu.in,9840921246,90.13,JBKPM1170F,U-0188
+MBU01171,Harika Bhat,Male,CSE,UG,2,harika.bhat2171@mbu.edu.in,9895618198,95.7,HAKPB1171E,U-0188
+MBU01172,Aman Malhotra,Male,CSE,UG,2,aman.malhotra2172@mbu.edu.in,9838123183,89.79,GWDPM1172E,U-0188
+MBU01173,Nikhil Singh,Female,CSE,UG,2,nikhil.singh2173@mbu.edu.in,9865169154,93.45,GVBPS1173H,U-0188
+MBU01174,Nikhil Iyer,Male,CSE,UG,2,nikhil.iyer2174@mbu.edu.in,9842235931,69.04,MVGPI1174F,U-0188
+MBU01175,Sneha Shetty,Female,CSE,UG,2,sneha.shetty2175@mbu.edu.in,9876982625,91.44,JNXPS1175A,U-0188
+MBU01176,Divya Iyer,Female,CSE,UG,2,divya.iyer2176@mbu.edu.in,9886606442,85.3,KRHPI1176N,U-0188
+MBU01177,Rahul Patel,Female,CSE,UG,2,rahul.patel2177@mbu.edu.in,9829599199,62.77,JKDPP1177O,U-0188
+MBU01178,Kiran Sharma,Male,CSE,UG,2,kiran.sharma2178@mbu.edu.in,9820144662,72.21,MMLPS1178A,U-0188
+MBU01179,Neha Naidu,Female,CSE,UG,2,neha.naidu2179@mbu.edu.in,9841201099,62.12,PLXPN1179C,U-0188
+MBU01180,Harika Das,Female,CSE,UG,2,harika.das2180@mbu.edu.in,9869928036,91.67,DIPPD1180I,U-0188
+MBU01181,Rahul Gupta,Male,CSE,UG,2,rahul.gupta2181@mbu.edu.in,9828729583,69.53,OPTPG1181Y,U-0188
+MBU01182,Ravi Jain,Female,CSE,UG,2,ravi.jain2182@mbu.edu.in,9842157097,76.87,WSPPJ1182P,U-0188
+MBU01183,Sameer Patel,Female,CSE,UG,2,sameer.patel2183@mbu.edu.in,9812703040,77.86,OKZPP1183K,U-0188
+MBU01184,Sneha Mishra,Female,CSE,UG,2,sneha.mishra2184@mbu.edu.in,9855218055,99.49,DRWPM1184I,U-0188
+MBU01185,Sanjay Bose,Male,CSE,UG,2,sanjay.bose2185@mbu.edu.in,9845170069,69.84,YFDPB1185L,U-0188
+MBU01186,Ritika Sharma,Female,CSE,UG,2,ritika.sharma2186@mbu.edu.in,9836536618,75.12,GZQPS1186F,U-0188
+MBU01187,Sameer Rao,Male,CSE,UG,2,sameer.rao2187@mbu.edu.in,9812638645,88.88,EFLPR1187F,U-0188
+MBU01188,Aman Mishra,Female,CSE,UG,2,aman.mishra2188@mbu.edu.in,9841687723,74.17,PBXPM1188U,U-0188
+MBU01189,Pooja Jain,Female,CSE,UG,2,pooja.jain2189@mbu.edu.in,9817962094,65.38,UWOPJ1189X,U-0188
+MBU01190,Kiran Singh,Female,CSE,UG,2,kiran.singh2190@mbu.edu.in,9866962894,70.64,WBAPS1190P,U-0188
+MBU01191,Divya Sharma,Male,CSE,UG,2,divya.sharma2191@mbu.edu.in,9882281291,70.87,LTYPS1191R,U-0188
+MBU01192,Sanjay Verma,Female,CSE,UG,2,sanjay.verma2192@mbu.edu.in,9882800746,74.52,QMMPV1192Z,U-0188
+MBU01193,Arjun Kumar,Female,CSE,UG,2,arjun.kumar2193@mbu.edu.in,9885381814,64.76,FDRPK1193S,U-0188
+MBU01194,Nikhil Chopra,Female,CSE,UG,2,nikhil.chopra2194@mbu.edu.in,9859915913,63.84,OIIPC1194I,U-0188
+MBU01195,Vikram Bhat,Male,CSE,UG,2,vikram.bhat2195@mbu.edu.in,9852222096,81.42,SAXPB1195D,U-0188
+MBU01196,Yash Malhotra,Female,CSE,UG,2,yash.malhotra2196@mbu.edu.in,9860102231,63.17,KRBPM1196R,U-0188
+MBU01197,Arjun Das,Male,CSE,UG,2,arjun.das2197@mbu.edu.in,9853690562,78.9,LRGPD1197O,U-0188
+MBU01198,Yash Rao,Female,CSE,UG,2,yash.rao2198@mbu.edu.in,9824235771,92.9,PHRPR1198P,U-0188
+MBU01199,Yash Shetty,Female,CSE,UG,2,yash.shetty2199@mbu.edu.in,9884953174,88.07,JVPPS1199A,U-0188
+MBU01200,Arjun Rao,Female,CSE,UG,2,arjun.rao2200@mbu.edu.in,9850855301,85.42,UDQPR1200K,U-0188
+MBU01201,Ananya Iyer,Male,CSE,UG,3,ananya.iyer2201@mbu.edu.in,9845217622,98.11,RUFPI1201O,U-0188
+MBU01202,Harika Chopra,Female,CSE,UG,3,harika.chopra2202@mbu.edu.in,9835126410,93.9,DESPC1202J,U-0188
+MBU01203,Ravi Malhotra,Female,CSE,UG,3,ravi.malhotra2203@mbu.edu.in,9858103670,64.05,IPWPM1203H,U-0188
+MBU01204,Pooja Nair,Female,CSE,UG,3,pooja.nair2204@mbu.edu.in,9891797075,95.79,XQAPN1204J,U-0188
+MBU01205,Vikram Das,Male,CSE,UG,3,vikram.das2205@mbu.edu.in,9884911458,63.84,EHZPD1205Q,U-0188
+MBU01206,Vinay Malhotra,Male,CSE,UG,3,vinay.malhotra2206@mbu.edu.in,9866512101,60.62,FSDPM1206G,U-0188
+MBU01207,Meghana Gupta,Male,CSE,UG,3,meghana.gupta2207@mbu.edu.in,9823353173,68.65,KUVPG1207X,U-0188
+MBU01208,Harika Gupta,Male,CSE,UG,3,harika.gupta2208@mbu.edu.in,9882345330,60.12,UZIPG1208Y,U-0188
+MBU01209,Meghana Jain,Female,CSE,UG,3,meghana.jain2209@mbu.edu.in,9827264662,94.76,HTTPJ1209N,U-0188
+MBU01210,Vinay Iyer,Female,CSE,UG,3,vinay.iyer2210@mbu.edu.in,9839035116,93.62,WKZPI1210H,U-0188
+MBU01211,Ananya Patel,Female,CSE,UG,3,ananya.patel2211@mbu.edu.in,9869945980,76.65,EEWPP1211B,U-0188
+MBU01212,Sameer Shetty,Male,CSE,UG,3,sameer.shetty2212@mbu.edu.in,9815258456,75.48,RUBPS1212J,U-0188
+MBU01213,Nikhil Patel,Female,CSE,UG,3,nikhil.patel2213@mbu.edu.in,9870958794,91.24,ZKFPP1213C,U-0188
+MBU01214,Aman Bose,Male,CSE,UG,3,aman.bose2214@mbu.edu.in,9818402131,94.71,ZWQPB1214D,U-0188
+MBU01215,Divya Jain,Female,CSE,UG,3,divya.jain2215@mbu.edu.in,9838636712,84.54,WMTPJ1215E,U-0188
+MBU01216,Yash Verma,Male,CSE,UG,3,yash.verma2216@mbu.edu.in,9867146386,97.0,YRKPV1216E,U-0188
+MBU01217,Vikram Singh,Female,CSE,UG,3,vikram.singh2217@mbu.edu.in,9858248776,86.36,MWUPS1217X,U-0188
+MBU01218,Neha Bose,Male,CSE,UG,3,neha.bose2218@mbu.edu.in,9833746027,87.58,XWJPB1218J,U-0188
+MBU01219,Harika Sharma,Female,CSE,UG,3,harika.sharma2219@mbu.edu.in,9858077089,61.46,JJGPS1219K,U-0188
+MBU01220,Nikhil Bhat,Female,CSE,UG,3,nikhil.bhat2220@mbu.edu.in,9898749862,65.94,DMQPB1220Z,U-0188
+MBU01221,Vinay Kumar,Male,CSE,UG,3,vinay.kumar2221@mbu.edu.in,9853292475,99.34,EDCPK1221Y,U-0188
+MBU01222,Ananya Naidu,Female,CSE,UG,3,ananya.naidu2222@mbu.edu.in,9865710625,83.88,KYPPN1222V,U-0188
+MBU01223,Sanjay Singh,Male,CSE,UG,3,sanjay.singh2223@mbu.edu.in,9831400341,96.55,FQNPS1223J,U-0188
+MBU01224,Aman Mishra,Male,CSE,UG,3,aman.mishra2224@mbu.edu.in,9820412505,74.55,KHMPM1224G,U-0188
+MBU01225,Ananya Bhat,Female,CSE,UG,3,ananya.bhat2225@mbu.edu.in,9894217706,97.94,OZKPB1225M,U-0188
+MBU01226,Aman Sharma,Male,CSE,UG,3,aman.sharma2226@mbu.edu.in,9821783331,98.61,GADPS1226A,U-0188
+MBU01227,Divya Nair,Male,CSE,UG,3,divya.nair2227@mbu.edu.in,9823158444,63.23,QQNPN1227N,U-0188
+MBU01228,Ravi Kumar,Female,CSE,UG,3,ravi.kumar2228@mbu.edu.in,9824341416,76.36,UROPK1228A,U-0188
+MBU01229,Harika Chopra,Female,CSE,UG,3,harika.chopra2229@mbu.edu.in,9878674460,67.68,ACIPC1229W,U-0188
+MBU01230,Yash Kumar,Female,CSE,UG,3,yash.kumar2230@mbu.edu.in,9849700220,71.2,FGIPK1230J,U-0188
+MBU01231,Ananya Kumar,Female,CSE,UG,3,ananya.kumar2231@mbu.edu.in,9892648911,63.46,ABYPK1231G,U-0188
+MBU01232,Harika Rao,Female,CSE,UG,3,harika.rao2232@mbu.edu.in,9836481636,82.99,ECWPR1232S,U-0188
+MBU01233,Vikram Iyer,Male,CSE,UG,3,vikram.iyer2233@mbu.edu.in,9879850980,69.86,SWGPI1233C,U-0188
+MBU01234,Sameer Bhat,Male,CSE,UG,3,sameer.bhat2234@mbu.edu.in,9896907766,60.82,EDVPB1234C,U-0188
+MBU01235,Sameer Shetty,Female,CSE,UG,3,sameer.shetty2235@mbu.edu.in,9871724864,74.49,WYDPS1235P,U-0188
+MBU01236,Vikram Sharma,Male,CSE,UG,3,vikram.sharma2236@mbu.edu.in,9826311093,81.93,NOLPS1236V,U-0188
+MBU01237,Sneha Yadav,Female,CSE,UG,3,sneha.yadav2237@mbu.edu.in,9819213499,64.97,HJYPY1237T,U-0188
+MBU01238,Harika Das,Female,CSE,UG,3,harika.das2238@mbu.edu.in,9867740004,80.97,VQXPD1238W,U-0188
+MBU01239,Pooja Das,Male,CSE,UG,3,pooja.das2239@mbu.edu.in,9835199459,64.65,APQPD1239G,U-0188
+MBU01240,Ravi Rao,Female,CSE,UG,3,ravi.rao2240@mbu.edu.in,9834631646,82.48,QYFPR1240Q,U-0188
+MBU01241,Aman Yadav,Male,CSE,UG,3,aman.yadav2241@mbu.edu.in,9837512316,95.5,KGSPY1241X,U-0188
+MBU01242,Meghana Mishra,Male,CSE,UG,3,meghana.mishra2242@mbu.edu.in,9859469396,79.29,PYBPM1242B,U-0188
+MBU01243,Kavya Gupta,Female,CSE,UG,3,kavya.gupta2243@mbu.edu.in,9879498134,88.27,UCAPG1243X,U-0188
+MBU01244,Vinay Shetty,Female,CSE,UG,3,vinay.shetty2244@mbu.edu.in,9863947942,89.29,XJFPS1244I,U-0188
+MBU01245,Vikram Bhat,Male,CSE,UG,3,vikram.bhat2245@mbu.edu.in,9813811170,74.85,SCFPB1245C,U-0188
+MBU01246,Meghana Das,Female,CSE,UG,3,meghana.das2246@mbu.edu.in,9890480160,91.82,SGIPD1246Q,U-0188
+MBU01247,Ravi Verma,Female,CSE,UG,3,ravi.verma2247@mbu.edu.in,9850088097,82.39,DOLPV1247Q,U-0188
+MBU01248,Arjun Das,Female,CSE,UG,3,arjun.das2248@mbu.edu.in,9882168177,95.96,ZSRPD1248B,U-0188
+MBU01249,Sanjay Nair,Male,CSE,UG,3,sanjay.nair2249@mbu.edu.in,9827597802,70.27,BLMPN1249S,U-0188
+MBU01250,Divya Yadav,Male,CSE,UG,3,divya.yadav2250@mbu.edu.in,9877964245,91.29,KOQPY1250F,U-0188
+MBU01251,Yash Malhotra,Male,CSE,UG,3,yash.malhotra2251@mbu.edu.in,9833809601,67.56,RTAPM1251R,U-0188
+MBU01252,Ritika Das,Female,CSE,UG,3,ritika.das2252@mbu.edu.in,9866086345,80.71,TWRPD1252L,U-0188
+MBU01253,Vikram Nair,Male,CSE,UG,3,vikram.nair2253@mbu.edu.in,9889922200,82.06,ZDKPN1253W,U-0188
+MBU01254,Sanjay Verma,Female,CSE,UG,3,sanjay.verma2254@mbu.edu.in,9838465858,75.72,DNDPV1254A,U-0188
+MBU01255,Sameer Bose,Female,CSE,UG,3,sameer.bose2255@mbu.edu.in,9857873764,89.56,IOJPB1255U,U-0188
+MBU01256,Kiran Patel,Male,CSE,UG,3,kiran.patel2256@mbu.edu.in,9845155838,85.46,IODPP1256E,U-0188
+MBU01257,Meghana Bhat,Male,CSE,UG,3,meghana.bhat2257@mbu.edu.in,9879942262,79.4,RESPB1257L,U-0188
+MBU01258,Vikram Shetty,Female,CSE,UG,3,vikram.shetty2258@mbu.edu.in,9850442715,93.13,GOKPS1258T,U-0188
+MBU01259,Sneha Chopra,Male,CSE,UG,3,sneha.chopra2259@mbu.edu.in,9849604298,92.0,JETPC1259J,U-0188
+MBU01260,Sanjay Bose,Male,CSE,UG,3,sanjay.bose2260@mbu.edu.in,9840490031,95.42,AVKPB1260G,U-0188
+MBU01261,Aman Iyer,Male,CSE,UG,4,aman.iyer2261@mbu.edu.in,9832560151,65.94,OMLPI1261L,U-0188
+MBU01262,Sanjay Iyer,Female,CSE,UG,4,sanjay.iyer2262@mbu.edu.in,9822229353,81.18,NFBPI1262W,U-0188
+MBU01263,Yash Verma,Female,CSE,UG,4,yash.verma2263@mbu.edu.in,9825754937,86.58,RXSPV1263F,U-0188
+MBU01264,Aman Verma,Male,CSE,UG,4,aman.verma2264@mbu.edu.in,9888694975,69.0,TMCPV1264V,U-0188
+MBU01265,Yash Das,Male,CSE,UG,4,yash.das2265@mbu.edu.in,9871527122,98.58,PANPD1265Z,U-0188
+MBU01266,Ritika Shetty,Female,CSE,UG,4,ritika.shetty2266@mbu.edu.in,9885790676,80.52,OJOPS1266A,U-0188
+MBU01267,Ravi Sharma,Female,CSE,UG,4,ravi.sharma2267@mbu.edu.in,9858328534,98.19,RDEPS1267Y,U-0188
+MBU01268,Sameer Yadav,Female,CSE,UG,4,sameer.yadav2268@mbu.edu.in,9885135882,61.51,OJUPY1268K,U-0188
+MBU01269,Sanjay Naidu,Male,CSE,UG,4,sanjay.naidu2269@mbu.edu.in,9827303483,89.75,NTYPN1269W,U-0188
+MBU01270,Kavya Reddy,Male,CSE,UG,4,kavya.reddy2270@mbu.edu.in,9846957494,95.93,FTIPR1270H,U-0188
+MBU01271,Divya Gupta,Female,CSE,UG,4,divya.gupta2271@mbu.edu.in,9849552155,66.44,MMXPG1271I,U-0188
+MBU01272,Yash Rao,Male,CSE,UG,4,yash.rao2272@mbu.edu.in,9843840506,79.19,CAEPR1272M,U-0188
+MBU01273,Pooja Bose,Male,CSE,UG,4,pooja.bose2273@mbu.edu.in,9845444970,82.83,SWLPB1273V,U-0188
+MBU01274,Meghana Singh,Male,CSE,UG,4,meghana.singh2274@mbu.edu.in,9845027984,74.09,BVFPS1274Q,U-0188
+MBU01275,Pooja Nair,Female,CSE,UG,4,pooja.nair2275@mbu.edu.in,9867460991,75.62,VXQPN1275H,U-0188
+MBU01276,Aman Iyer,Male,CSE,UG,4,aman.iyer2276@mbu.edu.in,9819401342,77.35,YFQPI1276J,U-0188
+MBU01277,Yash Verma,Male,CSE,UG,4,yash.verma2277@mbu.edu.in,9823464678,76.96,DFDPV1277I,U-0188
+MBU01278,Pooja Sharma,Female,CSE,UG,4,pooja.sharma2278@mbu.edu.in,9831388446,95.55,EULPS1278Q,U-0188
+MBU01279,Harika Yadav,Female,CSE,UG,4,harika.yadav2279@mbu.edu.in,9844923294,78.08,QQFPY1279X,U-0188
+MBU01280,Aman Naidu,Male,CSE,UG,4,aman.naidu2280@mbu.edu.in,9877017825,66.34,KDNPN1280D,U-0188
+MBU01281,Harika Kumar,Male,CSE,UG,4,harika.kumar2281@mbu.edu.in,9823581813,99.97,XHVPK1281R,U-0188
+MBU01282,Kiran Sharma,Female,CSE,UG,4,kiran.sharma2282@mbu.edu.in,9883937500,73.47,TMZPS1282N,U-0188
+MBU01283,Ananya Bhat,Male,CSE,UG,4,ananya.bhat2283@mbu.edu.in,9849281702,67.1,SJWPB1283F,U-0188
+MBU01284,Divya Chopra,Male,CSE,UG,4,divya.chopra2284@mbu.edu.in,9831333482,63.56,VMCPC1284S,U-0188
+MBU01285,Neha Verma,Female,CSE,UG,4,neha.verma2285@mbu.edu.in,9852505078,63.43,XZVPV1285M,U-0188
+MBU01286,Pooja Verma,Female,CSE,UG,4,pooja.verma2286@mbu.edu.in,9894779377,66.79,JDVPV1286B,U-0188
+MBU01287,Arjun Jain,Male,CSE,UG,4,arjun.jain2287@mbu.edu.in,9882159754,95.0,MSIPJ1287F,U-0188
+MBU01288,Kiran Singh,Male,CSE,UG,4,kiran.singh2288@mbu.edu.in,9840321407,96.94,CNNPS1288O,U-0188
+MBU01289,Kiran Chopra,Male,CSE,UG,4,kiran.chopra2289@mbu.edu.in,9815128458,87.54,UNSPC1289K,U-0188
+MBU01290,Harika Das,Female,CSE,UG,4,harika.das2290@mbu.edu.in,9846225010,71.21,SFAPD1290Z,U-0188
+MBU01291,Divya Singh,Female,CSE,UG,4,divya.singh2291@mbu.edu.in,9848700649,92.66,ZOVPS1291T,U-0188
+MBU01292,Ravi Kumar,Female,CSE,UG,4,ravi.kumar2292@mbu.edu.in,9847758058,88.68,FLWPK1292C,U-0188
+MBU01293,Kiran Sharma,Male,CSE,UG,4,kiran.sharma2293@mbu.edu.in,9819306459,66.67,QFXPS1293S,U-0188
+MBU01294,Neha Singh,Male,CSE,UG,4,neha.singh2294@mbu.edu.in,9864862906,97.74,LMZPS1294Q,U-0188
+MBU01295,Sanjay Gupta,Female,CSE,UG,4,sanjay.gupta2295@mbu.edu.in,9856669408,75.83,LJGPG1295I,U-0188
+MBU01296,Sneha Shetty,Male,CSE,UG,4,sneha.shetty2296@mbu.edu.in,9821625463,90.88,EMIPS1296R,U-0188
+MBU01297,Sneha Gupta,Female,CSE,UG,4,sneha.gupta2297@mbu.edu.in,9870410182,73.41,CEGPG1297E,U-0188
+MBU01298,Aman Kumar,Male,CSE,UG,4,aman.kumar2298@mbu.edu.in,9814648006,84.09,GBKPK1298X,U-0188
+MBU01299,Pooja Patel,Female,CSE,UG,4,pooja.patel2299@mbu.edu.in,9836712146,60.66,WQUPP1299W,U-0188
+MBU01300,Vikram Naidu,Male,CSE,UG,4,vikram.naidu2300@mbu.edu.in,9853352206,95.04,SNFPN1300X,U-0188
+MBU01301,Arjun Kumar,Male,CSE,UG,4,arjun.kumar2301@mbu.edu.in,9812302652,60.18,BJOPK1301G,U-0188
+MBU01302,Vinay Nair,Male,CSE,UG,4,vinay.nair2302@mbu.edu.in,9839622268,83.93,BKLPN1302S,U-0188
+MBU01303,Sameer Patel,Male,CSE,UG,4,sameer.patel2303@mbu.edu.in,9888193788,92.61,WMJPP1303N,U-0188
+MBU01304,Vikram Bose,Female,CSE,UG,4,vikram.bose2304@mbu.edu.in,9822932821,72.97,CLOPB1304J,U-0188
+MBU01305,Yash Bhat,Female,CSE,UG,4,yash.bhat2305@mbu.edu.in,9853914251,83.1,JHWPB1305L,U-0188
+MBU01306,Harika Shetty,Male,CSE,UG,4,harika.shetty2306@mbu.edu.in,9812083767,99.13,ATKPS1306D,U-0188
+MBU01307,Pooja Sharma,Male,CSE,UG,4,pooja.sharma2307@mbu.edu.in,9825894489,91.89,WZTPS1307H,U-0188
+MBU01308,Ritika Singh,Male,CSE,UG,4,ritika.singh2308@mbu.edu.in,9830675054,78.19,AOTPS1308I,U-0188
+MBU01309,Sneha Naidu,Female,CSE,UG,4,sneha.naidu2309@mbu.edu.in,9873311437,82.6,VBQPN1309U,U-0188
+MBU01310,Aman Reddy,Female,CSE,UG,4,aman.reddy2310@mbu.edu.in,9890056698,68.74,KSLPR1310C,U-0188
+MBU01311,Harika Kumar,Female,CSE,UG,4,harika.kumar2311@mbu.edu.in,9844347038,73.13,UGUPK1311G,U-0188
+MBU01312,Sneha Rao,Male,CSE,UG,4,sneha.rao2312@mbu.edu.in,9854523902,80.98,UDLPR1312D,U-0188
+MBU01313,Kiran Gupta,Female,CSE,UG,4,kiran.gupta2313@mbu.edu.in,9870018262,71.58,GPUPG1313W,U-0188
+MBU01314,Nikhil Chopra,Male,CSE,UG,4,nikhil.chopra2314@mbu.edu.in,9889384355,72.99,CBTPC1314U,U-0188
+MBU01315,Sanjay Singh,Female,CSE,UG,4,sanjay.singh2315@mbu.edu.in,9898960544,72.22,XPKPS1315B,U-0188
+MBU01316,Ravi Kumar,Female,CSE,UG,4,ravi.kumar2316@mbu.edu.in,9874696838,64.43,QVJPK1316N,U-0188
+MBU01317,Ravi Das,Female,CSE,UG,4,ravi.das2317@mbu.edu.in,9881170316,94.03,ARRPD1317D,U-0188
+MBU01318,Meghana Rao,Male,CSE,UG,4,meghana.rao2318@mbu.edu.in,9846627797,80.92,UJKPR1318R,U-0188
+MBU01319,Ananya Patel,Female,CSE,UG,4,ananya.patel2319@mbu.edu.in,9875500030,74.34,IBPPP1319E,U-0188
+MBU01320,Nikhil Singh,Male,CSE,UG,4,nikhil.singh2320@mbu.edu.in,9820464895,86.22,RMYPS1320R,U-0188
+MBU01321,Nikhil Rao,Male,ECE,UG,1,nikhil.rao2321@mbu.edu.in,9834110947,93.71,PCCPR1321U,U-0188
+MBU01322,Harika Naidu,Male,ECE,UG,1,harika.naidu2322@mbu.edu.in,9892638636,72.05,DCSPN1322I,U-0188
+MBU01323,Kiran Singh,Male,ECE,UG,1,kiran.singh2323@mbu.edu.in,9838527362,76.96,ERKPS1323C,U-0188
+MBU01324,Kavya Das,Male,ECE,UG,1,kavya.das2324@mbu.edu.in,9816117238,62.97,JELPD1324W,U-0188
+MBU01325,Arjun Rao,Female,ECE,UG,1,arjun.rao2325@mbu.edu.in,9817324571,94.27,NMKPR1325M,U-0188
+MBU01326,Sanjay Verma,Male,ECE,UG,1,sanjay.verma2326@mbu.edu.in,9815692061,79.91,IJPPV1326B,U-0188
+MBU01327,Vinay Bose,Male,ECE,UG,1,vinay.bose2327@mbu.edu.in,9841454578,75.97,KPLPB1327Y,U-0188
+MBU01328,Neha Kumar,Female,ECE,UG,1,neha.kumar2328@mbu.edu.in,9846806824,77.87,ZPCPK1328J,U-0188
+MBU01329,Yash Bhat,Female,ECE,UG,1,yash.bhat2329@mbu.edu.in,9815995305,90.18,AGNPB1329P,U-0188
+MBU01330,Vikram Singh,Female,ECE,UG,1,vikram.singh2330@mbu.edu.in,9863199500,85.57,IRDPS1330A,U-0188
+MBU01331,Yash Bhat,Male,ECE,UG,1,yash.bhat2331@mbu.edu.in,9861297999,76.67,KXOPB1331R,U-0188
+MBU01332,Rahul Chopra,Female,ECE,UG,1,rahul.chopra2332@mbu.edu.in,9889774525,73.55,RHZPC1332C,U-0188
+MBU01333,Yash Shetty,Female,ECE,UG,1,yash.shetty2333@mbu.edu.in,9861022146,85.06,LLFPS1333X,U-0188
+MBU01334,Harika Nair,Male,ECE,UG,1,harika.nair2334@mbu.edu.in,9837932168,68.11,ZBJPN1334D,U-0188
+MBU01335,Yash Singh,Female,ECE,UG,1,yash.singh2335@mbu.edu.in,9835897725,69.3,QLDPS1335B,U-0188
+MBU01336,Neha Singh,Male,ECE,UG,1,neha.singh2336@mbu.edu.in,9833354303,69.19,BZNPS1336O,U-0188
+MBU01337,Sanjay Singh,Male,ECE,UG,1,sanjay.singh2337@mbu.edu.in,9836772139,94.43,ZFWPS1337E,U-0188
+MBU01338,Sanjay Bhat,Male,ECE,UG,1,sanjay.bhat2338@mbu.edu.in,9864609483,80.26,AOLPB1338P,U-0188
+MBU01339,Nikhil Sharma,Female,ECE,UG,1,nikhil.sharma2339@mbu.edu.in,9861326702,96.01,YLEPS1339V,U-0188
+MBU01340,Ananya Chopra,Female,ECE,UG,1,ananya.chopra2340@mbu.edu.in,9896582338,75.18,TXOPC1340L,U-0188
+MBU01341,Ritika Bose,Female,ECE,UG,1,ritika.bose2341@mbu.edu.in,9849731933,74.99,KBWPB1341K,U-0188
+MBU01342,Kavya Rao,Female,ECE,UG,1,kavya.rao2342@mbu.edu.in,9856322539,94.91,GXBPR1342A,U-0188
+MBU01343,Rahul Singh,Male,ECE,UG,1,rahul.singh2343@mbu.edu.in,9870544975,89.71,YSRPS1343S,U-0188
+MBU01344,Neha Singh,Female,ECE,UG,1,neha.singh2344@mbu.edu.in,9834934491,81.7,DLEPS1344K,U-0188
+MBU01345,Ritika Jain,Male,ECE,UG,1,ritika.jain2345@mbu.edu.in,9820833346,72.32,MPNPJ1345P,U-0188
+MBU01346,Arjun Chopra,Female,ECE,UG,1,arjun.chopra2346@mbu.edu.in,9893314735,63.92,JKFPC1346V,U-0188
+MBU01347,Ravi Verma,Female,ECE,UG,1,ravi.verma2347@mbu.edu.in,9820707251,77.63,ZRQPV1347E,U-0188
+MBU01348,Vikram Verma,Female,ECE,UG,1,vikram.verma2348@mbu.edu.in,9828906699,96.62,LQJPV1348P,U-0188
+MBU01349,Pooja Reddy,Male,ECE,UG,1,pooja.reddy2349@mbu.edu.in,9838165719,92.01,YVTPR1349F,U-0188
+MBU01350,Nikhil Kumar,Male,ECE,UG,1,nikhil.kumar2350@mbu.edu.in,9875481541,60.42,POBPK1350F,U-0188
+MBU01351,Meghana Rao,Male,ECE,UG,1,meghana.rao2351@mbu.edu.in,9893953548,77.57,AKRPR1351D,U-0188
+MBU01352,Vikram Bose,Male,ECE,UG,1,vikram.bose2352@mbu.edu.in,9841102125,83.4,LZYPB1352V,U-0188
+MBU01353,Kiran Malhotra,Female,ECE,UG,1,kiran.malhotra2353@mbu.edu.in,9825758329,68.33,TIYPM1353S,U-0188
+MBU01354,Kiran Malhotra,Female,ECE,UG,1,kiran.malhotra2354@mbu.edu.in,9887897131,91.32,RXQPM1354F,U-0188
+MBU01355,Vikram Shetty,Female,ECE,UG,1,vikram.shetty2355@mbu.edu.in,9826589382,90.83,UVWPS1355Q,U-0188
+MBU01356,Rahul Kumar,Male,ECE,UG,1,rahul.kumar2356@mbu.edu.in,9887788201,62.41,HLEPK1356S,U-0188
+MBU01357,Aman Rao,Female,ECE,UG,1,aman.rao2357@mbu.edu.in,9840640470,69.16,HVNPR1357C,U-0188
+MBU01358,Sameer Malhotra,Female,ECE,UG,1,sameer.malhotra2358@mbu.edu.in,9853491805,67.37,VATPM1358W,U-0188
+MBU01359,Rahul Iyer,Female,ECE,UG,1,rahul.iyer2359@mbu.edu.in,9818626957,62.37,LDPPI1359K,U-0188
+MBU01360,Divya Jain,Female,ECE,UG,1,divya.jain2360@mbu.edu.in,9832318301,89.38,IZTPJ1360C,U-0188
+MBU01361,Sanjay Shetty,Female,ECE,UG,1,sanjay.shetty2361@mbu.edu.in,9820156246,95.99,FESPS1361E,U-0188
+MBU01362,Sneha Chopra,Female,ECE,UG,1,sneha.chopra2362@mbu.edu.in,9834402416,65.46,FTFPC1362P,U-0188
+MBU01363,Sanjay Shetty,Female,ECE,UG,1,sanjay.shetty2363@mbu.edu.in,9819433781,98.46,TOUPS1363T,U-0188
+MBU01364,Ritika Sharma,Male,ECE,UG,1,ritika.sharma2364@mbu.edu.in,9812491190,90.87,YSVPS1364V,U-0188
+MBU01365,Vinay Chopra,Female,ECE,UG,1,vinay.chopra2365@mbu.edu.in,9820608439,95.27,POGPC1365E,U-0188
+MBU01366,Ritika Mishra,Female,ECE,UG,1,ritika.mishra2366@mbu.edu.in,9897055802,82.34,WQGPM1366U,U-0188
+MBU01367,Nikhil Sharma,Male,ECE,UG,1,nikhil.sharma2367@mbu.edu.in,9835464386,73.21,RYPPS1367R,U-0188
+MBU01368,Nikhil Gupta,Female,ECE,UG,1,nikhil.gupta2368@mbu.edu.in,9845777670,67.79,EGBPG1368L,U-0188
+MBU01369,Divya Patel,Female,ECE,UG,1,divya.patel2369@mbu.edu.in,9861922635,74.73,EDCPP1369N,U-0188
+MBU01370,Meghana Reddy,Female,ECE,UG,1,meghana.reddy2370@mbu.edu.in,9817805980,76.42,BAXPR1370V,U-0188
+MBU01371,Ravi Naidu,Male,ECE,UG,1,ravi.naidu2371@mbu.edu.in,9851647118,97.48,YYJPN1371R,U-0188
+MBU01372,Harika Nair,Female,ECE,UG,1,harika.nair2372@mbu.edu.in,9838916895,69.62,LRHPN1372J,U-0188
+MBU01373,Arjun Malhotra,Male,ECE,UG,1,arjun.malhotra2373@mbu.edu.in,9881659548,90.71,GOAPM1373K,U-0188
+MBU01374,Neha Mishra,Male,ECE,UG,1,neha.mishra2374@mbu.edu.in,9855154003,71.69,MTYPM1374R,U-0188
+MBU01375,Arjun Reddy,Male,ECE,UG,1,arjun.reddy2375@mbu.edu.in,9852430432,84.39,YOQPR1375H,U-0188
+MBU01376,Ananya Chopra,Female,ECE,UG,1,ananya.chopra2376@mbu.edu.in,9878041623,82.63,MZMPC1376B,U-0188
+MBU01377,Sneha Sharma,Male,ECE,UG,1,sneha.sharma2377@mbu.edu.in,9810686546,80.29,HBHPS1377K,U-0188
+MBU01378,Ananya Reddy,Female,ECE,UG,1,ananya.reddy2378@mbu.edu.in,9843124447,74.13,LUWPR1378N,U-0188
+MBU01379,Ananya Chopra,Female,ECE,UG,1,ananya.chopra2379@mbu.edu.in,9825508810,69.28,XDAPC1379B,U-0188
+MBU01380,Aman Shetty,Female,ECE,UG,1,aman.shetty2380@mbu.edu.in,9813840299,87.86,AYSPS1380Z,U-0188
+MBU01381,Rahul Yadav,Female,ECE,UG,2,rahul.yadav2381@mbu.edu.in,9838527351,86.66,COLPY1381Q,U-0188
+MBU01382,Aman Jain,Female,ECE,UG,2,aman.jain2382@mbu.edu.in,9867031422,91.88,RBSPJ1382Q,U-0188
+MBU01383,Vikram Naidu,Male,ECE,UG,2,vikram.naidu2383@mbu.edu.in,9881448776,87.2,OKVPN1383O,U-0188
+MBU01384,Divya Iyer,Female,ECE,UG,2,divya.iyer2384@mbu.edu.in,9876747985,72.79,KOAPI1384A,U-0188
+MBU01385,Arjun Malhotra,Male,ECE,UG,2,arjun.malhotra2385@mbu.edu.in,9837617331,83.21,NAYPM1385C,U-0188
+MBU01386,Pooja Shetty,Male,ECE,UG,2,pooja.shetty2386@mbu.edu.in,9840758079,70.21,JVSPS1386J,U-0188
+MBU01387,Pooja Mishra,Male,ECE,UG,2,pooja.mishra2387@mbu.edu.in,9868835294,64.61,SZDPM1387F,U-0188
+MBU01388,Nikhil Bhat,Female,ECE,UG,2,nikhil.bhat2388@mbu.edu.in,9895658657,83.9,YQWPB1388H,U-0188
+MBU01389,Arjun Yadav,Female,ECE,UG,2,arjun.yadav2389@mbu.edu.in,9891708053,97.38,JKYPY1389E,U-0188
+MBU01390,Sneha Das,Male,ECE,UG,2,sneha.das2390@mbu.edu.in,9824151664,80.77,AWZPD1390F,U-0188
+MBU01391,Ananya Malhotra,Male,ECE,UG,2,ananya.malhotra2391@mbu.edu.in,9830665386,89.53,XUSPM1391V,U-0188
+MBU01392,Kavya Malhotra,Female,ECE,UG,2,kavya.malhotra2392@mbu.edu.in,9825254606,80.42,GSCPM1392F,U-0188
+MBU01393,Kiran Rao,Female,ECE,UG,2,kiran.rao2393@mbu.edu.in,9836807457,89.97,ESGPR1393A,U-0188
+MBU01394,Aman Patel,Female,ECE,UG,2,aman.patel2394@mbu.edu.in,9867627544,62.1,SUOPP1394K,U-0188
+MBU01395,Vikram Das,Female,ECE,UG,2,vikram.das2395@mbu.edu.in,9858643520,63.09,MOJPD1395C,U-0188
+MBU01396,Ravi Rao,Female,ECE,UG,2,ravi.rao2396@mbu.edu.in,9828949071,91.63,ZYNPR1396G,U-0188
+MBU01397,Arjun Kumar,Female,ECE,UG,2,arjun.kumar2397@mbu.edu.in,9842461454,99.54,EVCPK1397B,U-0188
+MBU01398,Vikram Bhat,Male,ECE,UG,2,vikram.bhat2398@mbu.edu.in,9815677711,76.96,APKPB1398M,U-0188
+MBU01399,Kiran Singh,Female,ECE,UG,2,kiran.singh2399@mbu.edu.in,9899528531,91.7,KOIPS1399M,U-0188
+MBU01400,Yash Mishra,Female,ECE,UG,2,yash.mishra2400@mbu.edu.in,9825043204,78.91,PLJPM1400R,U-0188
+MBU01401,Vikram Kumar,Female,ECE,UG,2,vikram.kumar2401@mbu.edu.in,9839219501,74.32,YDTPK1401N,U-0188
+MBU01402,Ritika Das,Female,ECE,UG,2,ritika.das2402@mbu.edu.in,9843539825,89.65,NSDPD1402J,U-0188
+MBU01403,Meghana Mishra,Female,ECE,UG,2,meghana.mishra2403@mbu.edu.in,9888126793,90.32,TWPPM1403R,U-0188
+MBU01404,Meghana Jain,Female,ECE,UG,2,meghana.jain2404@mbu.edu.in,9833846861,78.2,KKYPJ1404V,U-0188
+MBU01405,Divya Kumar,Female,ECE,UG,2,divya.kumar2405@mbu.edu.in,9878819567,66.8,SYXPK1405K,U-0188
+MBU01406,Vikram Verma,Male,ECE,UG,2,vikram.verma2406@mbu.edu.in,9878182114,74.05,UZPPV1406Y,U-0188
+MBU01407,Ananya Bose,Male,ECE,UG,2,ananya.bose2407@mbu.edu.in,9812375046,65.26,CJDPB1407U,U-0188
+MBU01408,Kiran Sharma,Female,ECE,UG,2,kiran.sharma2408@mbu.edu.in,9842995441,67.84,KMSPS1408N,U-0188
+MBU01409,Vikram Chopra,Female,ECE,UG,2,vikram.chopra2409@mbu.edu.in,9889828102,86.84,QPQPC1409O,U-0188
+MBU01410,Ritika Kumar,Male,ECE,UG,2,ritika.kumar2410@mbu.edu.in,9851787882,95.12,IYWPK1410L,U-0188
+MBU01411,Pooja Kumar,Male,ECE,UG,2,pooja.kumar2411@mbu.edu.in,9825153026,61.77,SJEPK1411P,U-0188
+MBU01412,Neha Naidu,Female,ECE,UG,2,neha.naidu2412@mbu.edu.in,9878743520,61.95,PDRPN1412M,U-0188
+MBU01413,Divya Bose,Male,ECE,UG,2,divya.bose2413@mbu.edu.in,9872245996,97.96,MWBPB1413Y,U-0188
+MBU01414,Sanjay Iyer,Female,ECE,UG,2,sanjay.iyer2414@mbu.edu.in,9861712699,94.75,DPNPI1414F,U-0188
+MBU01415,Ananya Bose,Male,ECE,UG,2,ananya.bose2415@mbu.edu.in,9876474473,75.01,YHXPB1415T,U-0188
+MBU01416,Nikhil Naidu,Male,ECE,UG,2,nikhil.naidu2416@mbu.edu.in,9895335582,93.82,WYFPN1416Z,U-0188
+MBU01417,Yash Bhat,Male,ECE,UG,2,yash.bhat2417@mbu.edu.in,9847334313,82.68,MOYPB1417I,U-0188
+MBU01418,Harika Sharma,Female,ECE,UG,2,harika.sharma2418@mbu.edu.in,9892908788,89.56,WHHPS1418G,U-0188
+MBU01419,Nikhil Kumar,Female,ECE,UG,2,nikhil.kumar2419@mbu.edu.in,9837653115,95.16,LZWPK1419W,U-0188
+MBU01420,Pooja Naidu,Male,ECE,UG,2,pooja.naidu2420@mbu.edu.in,9869036085,71.87,GTXPN1420N,U-0188
+MBU01421,Rahul Das,Male,ECE,UG,2,rahul.das2421@mbu.edu.in,9889296088,66.12,HNDPD1421I,U-0188
+MBU01422,Sameer Bhat,Female,ECE,UG,2,sameer.bhat2422@mbu.edu.in,9837790322,97.75,OIFPB1422J,U-0188
+MBU01423,Aman Shetty,Male,ECE,UG,2,aman.shetty2423@mbu.edu.in,9820446245,90.31,GGDPS1423B,U-0188
+MBU01424,Ravi Iyer,Female,ECE,UG,2,ravi.iyer2424@mbu.edu.in,9854098486,71.76,GQLPI1424L,U-0188
+MBU01425,Yash Sharma,Female,ECE,UG,2,yash.sharma2425@mbu.edu.in,9897589909,84.12,YYLPS1425I,U-0188
+MBU01426,Sanjay Reddy,Male,ECE,UG,2,sanjay.reddy2426@mbu.edu.in,9846545825,96.49,ITQPR1426U,U-0188
+MBU01427,Divya Bhat,Male,ECE,UG,2,divya.bhat2427@mbu.edu.in,9819946472,78.27,HZOPB1427M,U-0188
+MBU01428,Sanjay Iyer,Male,ECE,UG,2,sanjay.iyer2428@mbu.edu.in,9863439300,99.12,GHJPI1428P,U-0188
+MBU01429,Rahul Verma,Female,ECE,UG,2,rahul.verma2429@mbu.edu.in,9877822728,86.0,LPJPV1429N,U-0188
+MBU01430,Ravi Mishra,Male,ECE,UG,2,ravi.mishra2430@mbu.edu.in,9865904108,95.31,EOCPM1430J,U-0188
+MBU01431,Sneha Kumar,Female,ECE,UG,2,sneha.kumar2431@mbu.edu.in,9899205251,76.17,KHRPK1431D,U-0188
+MBU01432,Sameer Patel,Male,ECE,UG,2,sameer.patel2432@mbu.edu.in,9839659748,99.81,KXIPP1432L,U-0188
+MBU01433,Ravi Naidu,Male,ECE,UG,2,ravi.naidu2433@mbu.edu.in,9829846882,69.52,JUEPN1433Y,U-0188
+MBU01434,Ritika Jain,Female,ECE,UG,2,ritika.jain2434@mbu.edu.in,9827679360,88.18,TFZPJ1434I,U-0188
+MBU01435,Divya Singh,Female,ECE,UG,2,divya.singh2435@mbu.edu.in,9896584171,82.36,YMHPS1435V,U-0188
+MBU01436,Arjun Nair,Male,ECE,UG,2,arjun.nair2436@mbu.edu.in,9813733878,79.92,YJFPN1436Z,U-0188
+MBU01437,Meghana Reddy,Male,ECE,UG,2,meghana.reddy2437@mbu.edu.in,9884905748,98.35,DISPR1437O,U-0188
+MBU01438,Nikhil Mishra,Female,ECE,UG,2,nikhil.mishra2438@mbu.edu.in,9857248718,61.6,IIQPM1438K,U-0188
+MBU01439,Nikhil Rao,Male,ECE,UG,2,nikhil.rao2439@mbu.edu.in,9872348067,70.62,IHSPR1439N,U-0188
+MBU01440,Aman Gupta,Male,ECE,UG,2,aman.gupta2440@mbu.edu.in,9841005905,60.99,WFUPG1440Z,U-0188
+MBU01441,Divya Malhotra,Female,ECE,UG,3,divya.malhotra2441@mbu.edu.in,9820117439,70.0,NTNPM1441V,U-0188
+MBU01442,Sanjay Malhotra,Male,ECE,UG,3,sanjay.malhotra2442@mbu.edu.in,9824180042,67.83,WXLPM1442J,U-0188
+MBU01443,Pooja Bose,Male,ECE,UG,3,pooja.bose2443@mbu.edu.in,9871311764,72.61,UYRPB1443F,U-0188
+MBU01444,Yash Gupta,Male,ECE,UG,3,yash.gupta2444@mbu.edu.in,9842994191,60.01,BBOPG1444A,U-0188
+MBU01445,Ravi Bose,Female,ECE,UG,3,ravi.bose2445@mbu.edu.in,9897648172,96.48,ITIPB1445Z,U-0188
+MBU01446,Ananya Singh,Male,ECE,UG,3,ananya.singh2446@mbu.edu.in,9869221980,71.32,BNXPS1446H,U-0188
+MBU01447,Ritika Singh,Male,ECE,UG,3,ritika.singh2447@mbu.edu.in,9883596594,75.06,FWMPS1447S,U-0188
+MBU01448,Sanjay Verma,Female,ECE,UG,3,sanjay.verma2448@mbu.edu.in,9893045269,96.5,CXCPV1448Y,U-0188
+MBU01449,Divya Sharma,Female,ECE,UG,3,divya.sharma2449@mbu.edu.in,9885808271,80.5,CSPPS1449G,U-0188
+MBU01450,Divya Mishra,Female,ECE,UG,3,divya.mishra2450@mbu.edu.in,9890055125,88.81,BWRPM1450I,U-0188
+MBU01451,Kavya Nair,Male,ECE,UG,3,kavya.nair2451@mbu.edu.in,9819571481,75.17,IREPN1451S,U-0188
+MBU01452,Neha Chopra,Female,ECE,UG,3,neha.chopra2452@mbu.edu.in,9820341913,74.59,JFRPC1452M,U-0188
+MBU01453,Kiran Naidu,Female,ECE,UG,3,kiran.naidu2453@mbu.edu.in,9845267346,91.8,PCEPN1453T,U-0188
+MBU01454,Vikram Chopra,Female,ECE,UG,3,vikram.chopra2454@mbu.edu.in,9859387384,89.66,XZXPC1454O,U-0188
+MBU01455,Harika Mishra,Female,ECE,UG,3,harika.mishra2455@mbu.edu.in,9851044476,85.95,CTKPM1455Q,U-0188
+MBU01456,Harika Rao,Female,ECE,UG,3,harika.rao2456@mbu.edu.in,9846677383,86.61,QFKPR1456U,U-0188
+MBU01457,Yash Naidu,Male,ECE,UG,3,yash.naidu2457@mbu.edu.in,9891594135,98.29,UYFPN1457S,U-0188
+MBU01458,Aman Singh,Male,ECE,UG,3,aman.singh2458@mbu.edu.in,9836566151,69.3,OUAPS1458R,U-0188
+MBU01459,Vikram Malhotra,Male,ECE,UG,3,vikram.malhotra2459@mbu.edu.in,9887051823,94.82,TCFPM1459N,U-0188
+MBU01460,Pooja Patel,Male,ECE,UG,3,pooja.patel2460@mbu.edu.in,9827161241,85.54,RRLPP1460H,U-0188
+MBU01461,Vikram Malhotra,Male,ECE,UG,3,vikram.malhotra2461@mbu.edu.in,9812718874,67.95,OHPPM1461U,U-0188
+MBU01462,Nikhil Das,Female,ECE,UG,3,nikhil.das2462@mbu.edu.in,9882370093,88.44,FXLPD1462E,U-0188
+MBU01463,Pooja Sharma,Male,ECE,UG,3,pooja.sharma2463@mbu.edu.in,9840411628,69.42,PXPPS1463G,U-0188
+MBU01464,Neha Bhat,Male,ECE,UG,3,neha.bhat2464@mbu.edu.in,9881887030,77.96,OGJPB1464T,U-0188
+MBU01465,Divya Das,Female,ECE,UG,3,divya.das2465@mbu.edu.in,9829593359,62.69,PNBPD1465C,U-0188
+MBU01466,Ananya Bhat,Female,ECE,UG,3,ananya.bhat2466@mbu.edu.in,9890976176,95.67,UZBPB1466Y,U-0188
+MBU01467,Sameer Shetty,Female,ECE,UG,3,sameer.shetty2467@mbu.edu.in,9816420094,68.46,FMCPS1467K,U-0188
+MBU01468,Arjun Naidu,Male,ECE,UG,3,arjun.naidu2468@mbu.edu.in,9858310815,85.84,ALQPN1468M,U-0188
+MBU01469,Arjun Singh,Male,ECE,UG,3,arjun.singh2469@mbu.edu.in,9826938788,62.38,KGNPS1469L,U-0188
+MBU01470,Neha Malhotra,Female,ECE,UG,3,neha.malhotra2470@mbu.edu.in,9849023554,75.83,BPHPM1470V,U-0188
+MBU01471,Ravi Singh,Female,ECE,UG,3,ravi.singh2471@mbu.edu.in,9859142330,68.9,BQQPS1471E,U-0188
+MBU01472,Ravi Das,Male,ECE,UG,3,ravi.das2472@mbu.edu.in,9876351158,74.44,SEYPD1472W,U-0188
+MBU01473,Ananya Singh,Male,ECE,UG,3,ananya.singh2473@mbu.edu.in,9827609717,89.1,ULQPS1473G,U-0188
+MBU01474,Sneha Sharma,Female,ECE,UG,3,sneha.sharma2474@mbu.edu.in,9894522382,60.98,GTRPS1474H,U-0188
+MBU01475,Kavya Yadav,Female,ECE,UG,3,kavya.yadav2475@mbu.edu.in,9816787269,78.06,OUVPY1475B,U-0188
+MBU01476,Vinay Malhotra,Female,ECE,UG,3,vinay.malhotra2476@mbu.edu.in,9860846177,73.79,UPKPM1476P,U-0188
+MBU01477,Ananya Iyer,Male,ECE,UG,3,ananya.iyer2477@mbu.edu.in,9893776115,65.43,BAGPI1477W,U-0188
+MBU01478,Ravi Mishra,Female,ECE,UG,3,ravi.mishra2478@mbu.edu.in,9835991886,72.7,WIOPM1478X,U-0188
+MBU01479,Divya Iyer,Female,ECE,UG,3,divya.iyer2479@mbu.edu.in,9837785076,87.0,LTMPI1479J,U-0188
+MBU01480,Harika Jain,Female,ECE,UG,3,harika.jain2480@mbu.edu.in,9899419706,95.87,IPQPJ1480N,U-0188
+MBU01481,Nikhil Reddy,Female,ECE,UG,3,nikhil.reddy2481@mbu.edu.in,9843193718,85.0,AQMPR1481Y,U-0188
+MBU01482,Sameer Bose,Male,ECE,UG,3,sameer.bose2482@mbu.edu.in,9843761220,89.64,QFXPB1482J,U-0188
+MBU01483,Ritika Patel,Male,ECE,UG,3,ritika.patel2483@mbu.edu.in,9863278731,76.42,MJXPP1483C,U-0188
+MBU01484,Aman Gupta,Male,ECE,UG,3,aman.gupta2484@mbu.edu.in,9860519455,69.55,ZSMPG1484N,U-0188
+MBU01485,Ritika Gupta,Male,ECE,UG,3,ritika.gupta2485@mbu.edu.in,9837420014,96.36,OCLPG1485E,U-0188
+MBU01486,Divya Singh,Female,ECE,UG,3,divya.singh2486@mbu.edu.in,9865879478,82.4,VLVPS1486S,U-0188
+MBU01487,Rahul Nair,Female,ECE,UG,3,rahul.nair2487@mbu.edu.in,9896275536,87.93,UTPPN1487O,U-0188
+MBU01488,Divya Shetty,Male,ECE,UG,3,divya.shetty2488@mbu.edu.in,9862117738,88.32,FQXPS1488U,U-0188
+MBU01489,Nikhil Chopra,Female,ECE,UG,3,nikhil.chopra2489@mbu.edu.in,9874060523,86.79,CHYPC1489U,U-0188
+MBU01490,Kavya Bhat,Female,ECE,UG,3,kavya.bhat2490@mbu.edu.in,9882825400,94.76,XRNPB1490H,U-0188
+MBU01491,Sneha Malhotra,Male,ECE,UG,3,sneha.malhotra2491@mbu.edu.in,9847838870,64.15,LKNPM1491L,U-0188
+MBU01492,Yash Mishra,Female,ECE,UG,3,yash.mishra2492@mbu.edu.in,9862183039,79.27,XCPPM1492F,U-0188
+MBU01493,Ravi Chopra,Male,ECE,UG,3,ravi.chopra2493@mbu.edu.in,9867092512,93.93,BBQPC1493U,U-0188
+MBU01494,Ravi Patel,Female,ECE,UG,3,ravi.patel2494@mbu.edu.in,9810208103,98.83,CAOPP1494B,U-0188
+MBU01495,Sameer Singh,Male,ECE,UG,3,sameer.singh2495@mbu.edu.in,9832442093,91.6,TPMPS1495E,U-0188
+MBU01496,Harika Gupta,Male,ECE,UG,3,harika.gupta2496@mbu.edu.in,9872516352,81.03,CHJPG1496T,U-0188
+MBU01497,Pooja Reddy,Male,ECE,UG,3,pooja.reddy2497@mbu.edu.in,9833076023,70.02,OKSPR1497M,U-0188
+MBU01498,Sameer Iyer,Female,ECE,UG,3,sameer.iyer2498@mbu.edu.in,9812989116,94.69,QYQPI1498R,U-0188
+MBU01499,Meghana Naidu,Male,ECE,UG,3,meghana.naidu2499@mbu.edu.in,9893959011,71.66,CKLPN1499C,U-0188
+MBU01500,Arjun Rao,Male,ECE,UG,3,arjun.rao2500@mbu.edu.in,9878071359,84.85,TWWPR1500S,U-0188
+MBU01501,Nikhil Mishra,Male,ECE,UG,4,nikhil.mishra2501@mbu.edu.in,9812367447,69.62,RZWPM1501T,U-0188
+MBU01502,Kavya Bhat,Female,ECE,UG,4,kavya.bhat2502@mbu.edu.in,9862032661,87.33,ZCBPB1502X,U-0188
+MBU01503,Meghana Jain,Male,ECE,UG,4,meghana.jain2503@mbu.edu.in,9818213977,66.56,PKJPJ1503B,U-0188
+MBU01504,Neha Iyer,Male,ECE,UG,4,neha.iyer2504@mbu.edu.in,9820708063,66.49,BGZPI1504G,U-0188
+MBU01505,Pooja Iyer,Male,ECE,UG,4,pooja.iyer2505@mbu.edu.in,9810126166,62.52,SMRPI1505A,U-0188
+MBU01506,Pooja Gupta,Male,ECE,UG,4,pooja.gupta2506@mbu.edu.in,9875575344,75.1,CFAPG1506O,U-0188
+MBU01507,Divya Bose,Female,ECE,UG,4,divya.bose2507@mbu.edu.in,9864930954,67.4,GOPPB1507W,U-0188
+MBU01508,Pooja Singh,Male,ECE,UG,4,pooja.singh2508@mbu.edu.in,9810018116,91.47,OZQPS1508R,U-0188
+MBU01509,Neha Verma,Male,ECE,UG,4,neha.verma2509@mbu.edu.in,9867788665,72.57,UHTPV1509J,U-0188
+MBU01510,Ananya Nair,Male,ECE,UG,4,ananya.nair2510@mbu.edu.in,9895377619,60.97,ZBBPN1510R,U-0188
+MBU01511,Sanjay Singh,Female,ECE,UG,4,sanjay.singh2511@mbu.edu.in,9873468468,97.88,LWSPS1511A,U-0188
+MBU01512,Sanjay Malhotra,Male,ECE,UG,4,sanjay.malhotra2512@mbu.edu.in,9875723488,75.8,HNOPM1512L,U-0188
+MBU01513,Nikhil Naidu,Female,ECE,UG,4,nikhil.naidu2513@mbu.edu.in,9846127990,63.9,TDJPN1513J,U-0188
+MBU01514,Vinay Bose,Male,ECE,UG,4,vinay.bose2514@mbu.edu.in,9899906841,71.25,GUMPB1514G,U-0188
+MBU01515,Neha Gupta,Female,ECE,UG,4,neha.gupta2515@mbu.edu.in,9847002692,70.29,SMOPG1515G,U-0188
+MBU01516,Sanjay Yadav,Male,ECE,UG,4,sanjay.yadav2516@mbu.edu.in,9894383196,74.28,AZFPY1516E,U-0188
+MBU01517,Kavya Iyer,Male,ECE,UG,4,kavya.iyer2517@mbu.edu.in,9850317865,91.38,CVOPI1517U,U-0188
+MBU01518,Ravi Bose,Male,ECE,UG,4,ravi.bose2518@mbu.edu.in,9829691438,63.65,FXSPB1518A,U-0188
+MBU01519,Sameer Kumar,Male,ECE,UG,4,sameer.kumar2519@mbu.edu.in,9897781327,81.09,FGYPK1519V,U-0188
+MBU01520,Sanjay Mishra,Female,ECE,UG,4,sanjay.mishra2520@mbu.edu.in,9823889733,79.18,WCSPM1520N,U-0188
+MBU01521,Sneha Sharma,Male,ECE,UG,4,sneha.sharma2521@mbu.edu.in,9845272816,64.99,FNGPS1521O,U-0188
+MBU01522,Meghana Nair,Female,ECE,UG,4,meghana.nair2522@mbu.edu.in,9810920974,97.52,NUJPN1522N,U-0188
+MBU01523,Sneha Shetty,Female,ECE,UG,4,sneha.shetty2523@mbu.edu.in,9845729151,81.78,BHJPS1523P,U-0188
+MBU01524,Neha Bose,Male,ECE,UG,4,neha.bose2524@mbu.edu.in,9878967568,94.48,LACPB1524R,U-0188
+MBU01525,Yash Das,Female,ECE,UG,4,yash.das2525@mbu.edu.in,9895628943,87.85,ZHSPD1525F,U-0188
+MBU01526,Kavya Sharma,Male,ECE,UG,4,kavya.sharma2526@mbu.edu.in,9859813487,96.51,ORMPS1526K,U-0188
+MBU01527,Vinay Bose,Female,ECE,UG,4,vinay.bose2527@mbu.edu.in,9810231149,75.2,XZZPB1527Y,U-0188
+MBU01528,Ananya Rao,Female,ECE,UG,4,ananya.rao2528@mbu.edu.in,9864330175,79.37,TWFPR1528L,U-0188
+MBU01529,Sneha Chopra,Male,ECE,UG,4,sneha.chopra2529@mbu.edu.in,9891265604,94.08,OZYPC1529R,U-0188
+MBU01530,Ananya Gupta,Female,ECE,UG,4,ananya.gupta2530@mbu.edu.in,9855735937,77.16,DURPG1530D,U-0188
+MBU01531,Harika Reddy,Male,ECE,UG,4,harika.reddy2531@mbu.edu.in,9891410252,99.82,WICPR1531Y,U-0188
+MBU01532,Divya Patel,Male,ECE,UG,4,divya.patel2532@mbu.edu.in,9896216549,85.25,ZMXPP1532A,U-0188
+MBU01533,Vikram Das,Female,ECE,UG,4,vikram.das2533@mbu.edu.in,9827023178,82.91,GHNPD1533M,U-0188
+MBU01534,Ravi Shetty,Female,ECE,UG,4,ravi.shetty2534@mbu.edu.in,9858197295,92.3,AIBPS1534E,U-0188
+MBU01535,Rahul Rao,Female,ECE,UG,4,rahul.rao2535@mbu.edu.in,9893475163,85.16,RHSPR1535Z,U-0188
+MBU01536,Rahul Chopra,Female,ECE,UG,4,rahul.chopra2536@mbu.edu.in,9849339019,84.93,BXIPC1536A,U-0188
+MBU01537,Ritika Naidu,Male,ECE,UG,4,ritika.naidu2537@mbu.edu.in,9859413102,98.61,DQCPN1537S,U-0188
+MBU01538,Meghana Malhotra,Male,ECE,UG,4,meghana.malhotra2538@mbu.edu.in,9864797727,66.75,FSUPM1538T,U-0188
+MBU01539,Sneha Das,Female,ECE,UG,4,sneha.das2539@mbu.edu.in,9818795343,89.39,HTDPD1539G,U-0188
+MBU01540,Vikram Kumar,Male,ECE,UG,4,vikram.kumar2540@mbu.edu.in,9886738314,63.72,LTRPK1540Q,U-0188
+MBU01541,Meghana Kumar,Female,ECE,UG,4,meghana.kumar2541@mbu.edu.in,9867997006,82.86,CUEPK1541N,U-0188
+MBU01542,Neha Reddy,Male,ECE,UG,4,neha.reddy2542@mbu.edu.in,9841121826,83.08,CFLPR1542I,U-0188
+MBU01543,Vikram Sharma,Female,ECE,UG,4,vikram.sharma2543@mbu.edu.in,9868726779,76.65,NQUPS1543M,U-0188
+MBU01544,Divya Iyer,Female,ECE,UG,4,divya.iyer2544@mbu.edu.in,9836263651,80.07,OGMPI1544V,U-0188
+MBU01545,Neha Gupta,Female,ECE,UG,4,neha.gupta2545@mbu.edu.in,9899099258,69.97,KRTPG1545K,U-0188
+MBU01546,Nikhil Singh,Female,ECE,UG,4,nikhil.singh2546@mbu.edu.in,9874778831,99.81,NHOPS1546M,U-0188
+MBU01547,Neha Nair,Male,ECE,UG,4,neha.nair2547@mbu.edu.in,9830108242,61.7,BNQPN1547A,U-0188
+MBU01548,Sanjay Sharma,Male,ECE,UG,4,sanjay.sharma2548@mbu.edu.in,9859733563,64.31,NOXPS1548L,U-0188
+MBU01549,Meghana Reddy,Female,ECE,UG,4,meghana.reddy2549@mbu.edu.in,9886999726,95.09,WLBPR1549P,U-0188
+MBU01550,Yash Shetty,Male,ECE,UG,4,yash.shetty2550@mbu.edu.in,9874368505,67.95,UJGPS1550P,U-0188
+MBU01551,Divya Yadav,Male,ECE,UG,4,divya.yadav2551@mbu.edu.in,9834307011,63.63,YCTPY1551V,U-0188
+MBU01552,Nikhil Singh,Male,ECE,UG,4,nikhil.singh2552@mbu.edu.in,9843464350,74.74,RFAPS1552E,U-0188
+MBU01553,Sameer Shetty,Female,ECE,UG,4,sameer.shetty2553@mbu.edu.in,9877621696,90.75,QZHPS1553Y,U-0188
+MBU01554,Rahul Mishra,Male,ECE,UG,4,rahul.mishra2554@mbu.edu.in,9822557915,80.12,CLHPM1554X,U-0188
+MBU01555,Aman Jain,Female,ECE,UG,4,aman.jain2555@mbu.edu.in,9836452705,60.22,QSZPJ1555Z,U-0188
+MBU01556,Kavya Yadav,Female,ECE,UG,4,kavya.yadav2556@mbu.edu.in,9851111242,99.41,NBUPY1556M,U-0188
+MBU01557,Arjun Shetty,Male,ECE,UG,4,arjun.shetty2557@mbu.edu.in,9831887726,94.59,BTPPS1557B,U-0188
+MBU01558,Vinay Yadav,Male,ECE,UG,4,vinay.yadav2558@mbu.edu.in,9893614755,73.47,MHZPY1558I,U-0188
+MBU01559,Ritika Mishra,Female,ECE,UG,4,ritika.mishra2559@mbu.edu.in,9836534643,73.7,NVJPM1559N,U-0188
+MBU01560,Sanjay Mishra,Male,ECE,UG,4,sanjay.mishra2560@mbu.edu.in,9836448602,99.08,WWTPM1560C,U-0188
+MBU01561,Meghana Rao,Female,ME,UG,1,meghana.rao2561@mbu.edu.in,9891247862,93.58,RUOPR1561U,U-0188
+MBU01562,Ravi Jain,Female,ME,UG,1,ravi.jain2562@mbu.edu.in,9884070944,90.54,EVWPJ1562M,U-0188
+MBU01563,Yash Bose,Female,ME,UG,1,yash.bose2563@mbu.edu.in,9875483898,83.97,ATAPB1563S,U-0188
+MBU01564,Divya Nair,Male,ME,UG,1,divya.nair2564@mbu.edu.in,9892537292,65.41,NXBPN1564G,U-0188
+MBU01565,Kavya Sharma,Male,ME,UG,1,kavya.sharma2565@mbu.edu.in,9862284510,63.29,HYLPS1565M,U-0188
+MBU01566,Vikram Chopra,Male,ME,UG,1,vikram.chopra2566@mbu.edu.in,9851178446,69.0,KACPC1566A,U-0188
+MBU01567,Ritika Gupta,Male,ME,UG,1,ritika.gupta2567@mbu.edu.in,9841682435,81.73,LTXPG1567K,U-0188
+MBU01568,Rahul Sharma,Male,ME,UG,1,rahul.sharma2568@mbu.edu.in,9869043387,68.7,QSOPS1568P,U-0188
+MBU01569,Sameer Patel,Male,ME,UG,1,sameer.patel2569@mbu.edu.in,9827342657,84.33,NXZPP1569P,U-0188
+MBU01570,Aman Shetty,Male,ME,UG,1,aman.shetty2570@mbu.edu.in,9841345925,94.72,AJZPS1570N,U-0188
+MBU01571,Sanjay Nair,Female,ME,UG,1,sanjay.nair2571@mbu.edu.in,9846520535,93.66,YINPN1571H,U-0188
+MBU01572,Meghana Chopra,Male,ME,UG,1,meghana.chopra2572@mbu.edu.in,9833737254,80.75,OUFPC1572Y,U-0188
+MBU01573,Harika Sharma,Male,ME,UG,1,harika.sharma2573@mbu.edu.in,9897157304,98.77,AOIPS1573Q,U-0188
+MBU01574,Nikhil Kumar,Male,ME,UG,1,nikhil.kumar2574@mbu.edu.in,9894584974,60.42,MYDPK1574C,U-0188
+MBU01575,Neha Shetty,Male,ME,UG,1,neha.shetty2575@mbu.edu.in,9870198152,99.19,YCCPS1575L,U-0188
+MBU01576,Meghana Bose,Male,ME,UG,1,meghana.bose2576@mbu.edu.in,9892156877,77.56,GDEPB1576P,U-0188
+MBU01577,Arjun Mishra,Female,ME,UG,1,arjun.mishra2577@mbu.edu.in,9821463075,99.23,AZIPM1577D,U-0188
+MBU01578,Vikram Nair,Female,ME,UG,1,vikram.nair2578@mbu.edu.in,9888804289,81.18,SHJPN1578E,U-0188
+MBU01579,Yash Naidu,Female,ME,UG,1,yash.naidu2579@mbu.edu.in,9819413628,71.92,XPNPN1579J,U-0188
+MBU01580,Ravi Shetty,Female,ME,UG,1,ravi.shetty2580@mbu.edu.in,9896014016,78.01,PRFPS1580R,U-0188
+MBU01581,Ananya Bose,Male,ME,UG,1,ananya.bose2581@mbu.edu.in,9838534429,86.61,ZOPPB1581T,U-0188
+MBU01582,Rahul Iyer,Male,ME,UG,1,rahul.iyer2582@mbu.edu.in,9881904734,81.25,XAGPI1582H,U-0188
+MBU01583,Harika Yadav,Female,ME,UG,1,harika.yadav2583@mbu.edu.in,9820905288,99.87,DUYPY1583F,U-0188
+MBU01584,Vinay Iyer,Female,ME,UG,1,vinay.iyer2584@mbu.edu.in,9872291175,99.26,WNSPI1584S,U-0188
+MBU01585,Pooja Malhotra,Male,ME,UG,1,pooja.malhotra2585@mbu.edu.in,9824182035,94.4,CLQPM1585Q,U-0188
+MBU01586,Sameer Naidu,Male,ME,UG,1,sameer.naidu2586@mbu.edu.in,9899562432,92.11,ESQPN1586W,U-0188
+MBU01587,Aman Mishra,Female,ME,UG,1,aman.mishra2587@mbu.edu.in,9858767430,93.82,RNEPM1587E,U-0188
+MBU01588,Arjun Bhat,Male,ME,UG,1,arjun.bhat2588@mbu.edu.in,9818805326,68.85,CWNPB1588A,U-0188
+MBU01589,Vinay Reddy,Female,ME,UG,1,vinay.reddy2589@mbu.edu.in,9872019707,90.29,EVCPR1589L,U-0188
+MBU01590,Ritika Bhat,Female,ME,UG,1,ritika.bhat2590@mbu.edu.in,9859888542,69.67,GUSPB1590C,U-0188
+MBU01591,Yash Malhotra,Male,ME,UG,1,yash.malhotra2591@mbu.edu.in,9826720474,91.41,DUQPM1591O,U-0188
+MBU01592,Sneha Verma,Female,ME,UG,1,sneha.verma2592@mbu.edu.in,9846761887,89.74,FIXPV1592W,U-0188
+MBU01593,Meghana Yadav,Male,ME,UG,1,meghana.yadav2593@mbu.edu.in,9861572468,66.24,NUZPY1593C,U-0188
+MBU01594,Pooja Chopra,Female,ME,UG,1,pooja.chopra2594@mbu.edu.in,9892127161,70.84,EFJPC1594V,U-0188
+MBU01595,Rahul Gupta,Female,ME,UG,1,rahul.gupta2595@mbu.edu.in,9835100355,70.58,YOVPG1595X,U-0188
+MBU01596,Sanjay Mishra,Female,ME,UG,1,sanjay.mishra2596@mbu.edu.in,9880205899,75.33,PDIPM1596Y,U-0188
+MBU01597,Nikhil Shetty,Male,ME,UG,1,nikhil.shetty2597@mbu.edu.in,9810843173,60.98,FDLPS1597N,U-0188
+MBU01598,Rahul Das,Male,ME,UG,1,rahul.das2598@mbu.edu.in,9881570788,88.88,NYQPD1598M,U-0188
+MBU01599,Vinay Naidu,Female,ME,UG,1,vinay.naidu2599@mbu.edu.in,9833435830,84.45,ZOJPN1599I,U-0188
+MBU01600,Ravi Rao,Female,ME,UG,1,ravi.rao2600@mbu.edu.in,9853730071,76.85,DBOPR1600G,U-0188
+MBU01601,Arjun Kumar,Male,ME,UG,1,arjun.kumar2601@mbu.edu.in,9864098957,61.1,ZQKPK1601L,U-0188
+MBU01602,Meghana Kumar,Male,ME,UG,1,meghana.kumar2602@mbu.edu.in,9842314533,65.66,TFMPK1602S,U-0188
+MBU01603,Harika Reddy,Male,ME,UG,1,harika.reddy2603@mbu.edu.in,9821089226,94.29,ZBPPR1603W,U-0188
+MBU01604,Ananya Naidu,Female,ME,UG,1,ananya.naidu2604@mbu.edu.in,9825106660,80.95,BYXPN1604S,U-0188
+MBU01605,Vinay Das,Male,ME,UG,1,vinay.das2605@mbu.edu.in,9850155763,72.54,CRVPD1605V,U-0188
+MBU01606,Aman Mishra,Female,ME,UG,1,aman.mishra2606@mbu.edu.in,9846314383,82.13,BZLPM1606L,U-0188
+MBU01607,Neha Yadav,Female,ME,UG,1,neha.yadav2607@mbu.edu.in,9879335998,83.16,ZCQPY1607V,U-0188
+MBU01608,Harika Rao,Female,ME,UG,1,harika.rao2608@mbu.edu.in,9828139566,82.11,ELVPR1608Y,U-0188
+MBU01609,Aman Patel,Male,ME,UG,1,aman.patel2609@mbu.edu.in,9862455204,86.98,SEYPP1609T,U-0188
+MBU01610,Sameer Yadav,Male,ME,UG,1,sameer.yadav2610@mbu.edu.in,9818535261,93.49,JSXPY1610N,U-0188
+MBU01611,Neha Reddy,Male,ME,UG,1,neha.reddy2611@mbu.edu.in,9819962439,64.78,NGPPR1611I,U-0188
+MBU01612,Rahul Naidu,Male,ME,UG,1,rahul.naidu2612@mbu.edu.in,9851364042,98.44,HTNPN1612K,U-0188
+MBU01613,Pooja Bose,Male,ME,UG,1,pooja.bose2613@mbu.edu.in,9897158332,93.76,SAYPB1613X,U-0188
+MBU01614,Sameer Das,Male,ME,UG,1,sameer.das2614@mbu.edu.in,9850249392,67.51,FHQPD1614U,U-0188
+MBU01615,Divya Kumar,Male,ME,UG,1,divya.kumar2615@mbu.edu.in,9883141225,60.45,KOHPK1615W,U-0188
+MBU01616,Yash Bose,Female,ME,UG,1,yash.bose2616@mbu.edu.in,9899986460,66.14,WQGPB1616R,U-0188
+MBU01617,Ananya Kumar,Male,ME,UG,1,ananya.kumar2617@mbu.edu.in,9817527731,83.12,DHLPK1617C,U-0188
+MBU01618,Sneha Gupta,Female,ME,UG,1,sneha.gupta2618@mbu.edu.in,9811542707,91.4,QIJPG1618P,U-0188
+MBU01619,Sameer Naidu,Female,ME,UG,1,sameer.naidu2619@mbu.edu.in,9890748054,77.65,QQIPN1619R,U-0188
+MBU01620,Pooja Bhat,Female,ME,UG,1,pooja.bhat2620@mbu.edu.in,9841999691,67.9,NAJPB1620I,U-0188
+MBU01621,Sneha Iyer,Female,ME,UG,2,sneha.iyer2621@mbu.edu.in,9871176136,86.29,OPBPI1621E,U-0188
+MBU01622,Pooja Chopra,Male,ME,UG,2,pooja.chopra2622@mbu.edu.in,9846882418,86.24,HKKPC1622T,U-0188
+MBU01623,Ananya Das,Male,ME,UG,2,ananya.das2623@mbu.edu.in,9894201280,83.23,HEVPD1623M,U-0188
+MBU01624,Yash Bhat,Male,ME,UG,2,yash.bhat2624@mbu.edu.in,9812969135,95.75,ZCZPB1624R,U-0188
+MBU01625,Vinay Gupta,Male,ME,UG,2,vinay.gupta2625@mbu.edu.in,9870497665,67.86,FABPG1625F,U-0188
+MBU01626,Ritika Singh,Female,ME,UG,2,ritika.singh2626@mbu.edu.in,9880786674,82.49,LSOPS1626S,U-0188
+MBU01627,Meghana Nair,Female,ME,UG,2,meghana.nair2627@mbu.edu.in,9816480911,67.42,FTZPN1627Z,U-0188
+MBU01628,Pooja Chopra,Female,ME,UG,2,pooja.chopra2628@mbu.edu.in,9813478055,62.95,RVAPC1628P,U-0188
+MBU01629,Pooja Shetty,Female,ME,UG,2,pooja.shetty2629@mbu.edu.in,9875356919,77.74,WIBPS1629R,U-0188
+MBU01630,Kavya Sharma,Female,ME,UG,2,kavya.sharma2630@mbu.edu.in,9847461263,78.59,KXDPS1630E,U-0188
+MBU01631,Vinay Malhotra,Male,ME,UG,2,vinay.malhotra2631@mbu.edu.in,9885515380,73.7,PKJPM1631X,U-0188
+MBU01632,Meghana Shetty,Male,ME,UG,2,meghana.shetty2632@mbu.edu.in,9818695225,95.79,YWGPS1632U,U-0188
+MBU01633,Sneha Sharma,Male,ME,UG,2,sneha.sharma2633@mbu.edu.in,9846601239,74.03,BSJPS1633T,U-0188
+MBU01634,Ravi Bose,Male,ME,UG,2,ravi.bose2634@mbu.edu.in,9862884883,82.8,VIMPB1634M,U-0188
+MBU01635,Arjun Jain,Female,ME,UG,2,arjun.jain2635@mbu.edu.in,9899981337,77.01,HJBPJ1635Y,U-0188
+MBU01636,Kiran Sharma,Male,ME,UG,2,kiran.sharma2636@mbu.edu.in,9864834185,97.85,SAGPS1636A,U-0188
+MBU01637,Sneha Patel,Male,ME,UG,2,sneha.patel2637@mbu.edu.in,9843114836,95.22,VFAPP1637D,U-0188
+MBU01638,Sanjay Bose,Female,ME,UG,2,sanjay.bose2638@mbu.edu.in,9889510056,77.48,MVYPB1638Q,U-0188
+MBU01639,Kavya Patel,Female,ME,UG,2,kavya.patel2639@mbu.edu.in,9852481804,88.68,LAWPP1639B,U-0188
+MBU01640,Sanjay Iyer,Male,ME,UG,2,sanjay.iyer2640@mbu.edu.in,9881785071,75.91,XYLPI1640Y,U-0188
+MBU01641,Kiran Mishra,Male,ME,UG,2,kiran.mishra2641@mbu.edu.in,9876747236,99.53,HIGPM1641P,U-0188
+MBU01642,Ravi Yadav,Female,ME,UG,2,ravi.yadav2642@mbu.edu.in,9810627108,76.69,ALIPY1642W,U-0188
+MBU01643,Arjun Malhotra,Female,ME,UG,2,arjun.malhotra2643@mbu.edu.in,9844699574,68.26,MKOPM1643H,U-0188
+MBU01644,Rahul Das,Male,ME,UG,2,rahul.das2644@mbu.edu.in,9867751579,62.78,FJIPD1644R,U-0188
+MBU01645,Arjun Chopra,Female,ME,UG,2,arjun.chopra2645@mbu.edu.in,9897482985,86.94,URXPC1645O,U-0188
+MBU01646,Meghana Reddy,Male,ME,UG,2,meghana.reddy2646@mbu.edu.in,9885737878,65.76,MZTPR1646X,U-0188
+MBU01647,Vinay Chopra,Male,ME,UG,2,vinay.chopra2647@mbu.edu.in,9822695594,67.01,OZPPC1647Y,U-0188
+MBU01648,Divya Sharma,Male,ME,UG,2,divya.sharma2648@mbu.edu.in,9852654653,69.86,BHFPS1648T,U-0188
+MBU01649,Arjun Verma,Female,ME,UG,2,arjun.verma2649@mbu.edu.in,9874905042,85.6,QYXPV1649W,U-0188
+MBU01650,Harika Mishra,Male,ME,UG,2,harika.mishra2650@mbu.edu.in,9891988569,97.22,ECRPM1650J,U-0188
+MBU01651,Harika Reddy,Female,ME,UG,2,harika.reddy2651@mbu.edu.in,9868129091,94.34,ZOTPR1651C,U-0188
+MBU01652,Neha Singh,Male,ME,UG,2,neha.singh2652@mbu.edu.in,9859036588,61.76,YSVPS1652K,U-0188
+MBU01653,Kiran Shetty,Female,ME,UG,2,kiran.shetty2653@mbu.edu.in,9898092327,83.8,NWHPS1653U,U-0188
+MBU01654,Ravi Reddy,Male,ME,UG,2,ravi.reddy2654@mbu.edu.in,9860111430,96.79,UGXPR1654F,U-0188
+MBU01655,Ananya Reddy,Male,ME,UG,2,ananya.reddy2655@mbu.edu.in,9844297117,99.86,DLRPR1655Z,U-0188
+MBU01656,Vikram Kumar,Male,ME,UG,2,vikram.kumar2656@mbu.edu.in,9878034622,75.26,BQLPK1656P,U-0188
+MBU01657,Vikram Nair,Male,ME,UG,2,vikram.nair2657@mbu.edu.in,9838045771,87.75,YBWPN1657A,U-0188
+MBU01658,Sneha Kumar,Female,ME,UG,2,sneha.kumar2658@mbu.edu.in,9856385819,87.78,DIYPK1658L,U-0188
+MBU01659,Nikhil Kumar,Female,ME,UG,2,nikhil.kumar2659@mbu.edu.in,9866206629,61.19,LHBPK1659P,U-0188
+MBU01660,Arjun Chopra,Female,ME,UG,2,arjun.chopra2660@mbu.edu.in,9810004651,87.56,GGDPC1660W,U-0188
+MBU01661,Divya Verma,Female,ME,UG,2,divya.verma2661@mbu.edu.in,9858491492,79.03,ZIFPV1661L,U-0188
+MBU01662,Aman Nair,Male,ME,UG,2,aman.nair2662@mbu.edu.in,9858800440,89.45,XALPN1662H,U-0188
+MBU01663,Kavya Nair,Male,ME,UG,2,kavya.nair2663@mbu.edu.in,9813244601,83.19,EZKPN1663O,U-0188
+MBU01664,Kiran Bose,Male,ME,UG,2,kiran.bose2664@mbu.edu.in,9844325890,81.16,UUJPB1664M,U-0188
+MBU01665,Meghana Malhotra,Female,ME,UG,2,meghana.malhotra2665@mbu.edu.in,9853105488,93.22,GQVPM1665I,U-0188
+MBU01666,Sneha Mishra,Female,ME,UG,2,sneha.mishra2666@mbu.edu.in,9830408874,90.35,EKQPM1666Z,U-0188
+MBU01667,Sanjay Bhat,Female,ME,UG,2,sanjay.bhat2667@mbu.edu.in,9871599872,81.68,FBLPB1667E,U-0188
+MBU01668,Ananya Shetty,Female,ME,UG,2,ananya.shetty2668@mbu.edu.in,9890954701,77.24,EXWPS1668X,U-0188
+MBU01669,Rahul Jain,Male,ME,UG,2,rahul.jain2669@mbu.edu.in,9827797411,95.18,PMBPJ1669B,U-0188
+MBU01670,Neha Patel,Male,ME,UG,2,neha.patel2670@mbu.edu.in,9877586718,83.41,XWFPP1670G,U-0188
+MBU01671,Divya Gupta,Male,ME,UG,2,divya.gupta2671@mbu.edu.in,9845363500,66.76,GYAPG1671W,U-0188
+MBU01672,Kiran Shetty,Female,ME,UG,2,kiran.shetty2672@mbu.edu.in,9810447676,65.89,EQMPS1672Y,U-0188
+MBU01673,Vikram Sharma,Female,ME,UG,2,vikram.sharma2673@mbu.edu.in,9811935013,63.47,ILBPS1673O,U-0188
+MBU01674,Divya Nair,Male,ME,UG,2,divya.nair2674@mbu.edu.in,9816765946,78.27,FMCPN1674T,U-0188
+MBU01675,Kavya Singh,Male,ME,UG,2,kavya.singh2675@mbu.edu.in,9880382550,76.15,CTQPS1675F,U-0188
+MBU01676,Sanjay Malhotra,Female,ME,UG,2,sanjay.malhotra2676@mbu.edu.in,9854039067,85.52,FJFPM1676B,U-0188
+MBU01677,Vikram Kumar,Male,ME,UG,2,vikram.kumar2677@mbu.edu.in,9865166742,99.3,JCIPK1677A,U-0188
+MBU01678,Nikhil Patel,Male,ME,UG,2,nikhil.patel2678@mbu.edu.in,9819392901,73.57,CLAPP1678Q,U-0188
+MBU01679,Ravi Patel,Male,ME,UG,2,ravi.patel2679@mbu.edu.in,9870807496,73.92,HXKPP1679I,U-0188
+MBU01680,Kavya Reddy,Male,ME,UG,2,kavya.reddy2680@mbu.edu.in,9899525925,97.1,XYJPR1680R,U-0188
+MBU01681,Kavya Chopra,Male,ME,UG,3,kavya.chopra2681@mbu.edu.in,9887099218,80.0,HTUPC1681M,U-0188
+MBU01682,Neha Sharma,Male,ME,UG,3,neha.sharma2682@mbu.edu.in,9869695776,91.41,OVLPS1682V,U-0188
+MBU01683,Rahul Mishra,Male,ME,UG,3,rahul.mishra2683@mbu.edu.in,9844031337,84.74,OADPM1683Q,U-0188
+MBU01684,Vinay Mishra,Female,ME,UG,3,vinay.mishra2684@mbu.edu.in,9845124182,96.28,OCRPM1684E,U-0188
+MBU01685,Divya Kumar,Male,ME,UG,3,divya.kumar2685@mbu.edu.in,9849384942,60.2,UKIPK1685O,U-0188
+MBU01686,Ravi Patel,Male,ME,UG,3,ravi.patel2686@mbu.edu.in,9877042044,77.12,YAHPP1686X,U-0188
+MBU01687,Nikhil Sharma,Male,ME,UG,3,nikhil.sharma2687@mbu.edu.in,9870205201,82.28,QHCPS1687I,U-0188
+MBU01688,Ananya Chopra,Female,ME,UG,3,ananya.chopra2688@mbu.edu.in,9821217976,70.86,ECVPC1688F,U-0188
+MBU01689,Ritika Naidu,Female,ME,UG,3,ritika.naidu2689@mbu.edu.in,9824854158,99.65,IBKPN1689J,U-0188
+MBU01690,Sneha Verma,Male,ME,UG,3,sneha.verma2690@mbu.edu.in,9834916593,83.73,ZYWPV1690L,U-0188
+MBU01691,Yash Naidu,Female,ME,UG,3,yash.naidu2691@mbu.edu.in,9852307380,62.33,WBLPN1691P,U-0188
+MBU01692,Arjun Das,Female,ME,UG,3,arjun.das2692@mbu.edu.in,9880681426,67.0,USTPD1692I,U-0188
+MBU01693,Vikram Chopra,Female,ME,UG,3,vikram.chopra2693@mbu.edu.in,9890226770,95.37,RLRPC1693X,U-0188
+MBU01694,Nikhil Mishra,Male,ME,UG,3,nikhil.mishra2694@mbu.edu.in,9874478377,90.26,QTNPM1694L,U-0188
+MBU01695,Divya Shetty,Female,ME,UG,3,divya.shetty2695@mbu.edu.in,9846579466,65.84,VGMPS1695X,U-0188
+MBU01696,Divya Malhotra,Female,ME,UG,3,divya.malhotra2696@mbu.edu.in,9844416240,76.05,DGGPM1696T,U-0188
+MBU01697,Meghana Verma,Male,ME,UG,3,meghana.verma2697@mbu.edu.in,9899299304,88.06,BVVPV1697H,U-0188
+MBU01698,Ananya Nair,Female,ME,UG,3,ananya.nair2698@mbu.edu.in,9895706584,62.5,XYBPN1698G,U-0188
+MBU01699,Kiran Patel,Female,ME,UG,3,kiran.patel2699@mbu.edu.in,9829572386,87.78,CHXPP1699Q,U-0188
+MBU01700,Vinay Jain,Female,ME,UG,3,vinay.jain2700@mbu.edu.in,9895641087,83.2,ULFPJ1700Q,U-0188
+MBU01701,Rahul Singh,Male,ME,UG,3,rahul.singh2701@mbu.edu.in,9847324163,67.05,DKOPS1701Z,U-0188
+MBU01702,Kavya Bhat,Female,ME,UG,3,kavya.bhat2702@mbu.edu.in,9865116597,75.59,DMOPB1702F,U-0188
+MBU01703,Ananya Yadav,Male,ME,UG,3,ananya.yadav2703@mbu.edu.in,9889080942,67.37,SFKPY1703A,U-0188
+MBU01704,Aman Chopra,Female,ME,UG,3,aman.chopra2704@mbu.edu.in,9852978933,72.46,TIGPC1704E,U-0188
+MBU01705,Kiran Das,Female,ME,UG,3,kiran.das2705@mbu.edu.in,9880479480,63.81,YWAPD1705O,U-0188
+MBU01706,Ravi Yadav,Female,ME,UG,3,ravi.yadav2706@mbu.edu.in,9862308413,69.78,KJAPY1706R,U-0188
+MBU01707,Nikhil Naidu,Female,ME,UG,3,nikhil.naidu2707@mbu.edu.in,9819964589,60.72,JNHPN1707H,U-0188
+MBU01708,Vinay Yadav,Male,ME,UG,3,vinay.yadav2708@mbu.edu.in,9897824443,83.49,QRXPY1708X,U-0188
+MBU01709,Yash Singh,Female,ME,UG,3,yash.singh2709@mbu.edu.in,9852409143,90.97,VEMPS1709W,U-0188
+MBU01710,Nikhil Verma,Female,ME,UG,3,nikhil.verma2710@mbu.edu.in,9854834273,89.68,JSGPV1710I,U-0188
+MBU01711,Sanjay Iyer,Female,ME,UG,3,sanjay.iyer2711@mbu.edu.in,9823774218,90.44,ULVPI1711N,U-0188
+MBU01712,Aman Verma,Male,ME,UG,3,aman.verma2712@mbu.edu.in,9877139438,85.95,FTYPV1712N,U-0188
+MBU01713,Pooja Patel,Female,ME,UG,3,pooja.patel2713@mbu.edu.in,9849218451,99.07,SJMPP1713G,U-0188
+MBU01714,Vikram Chopra,Male,ME,UG,3,vikram.chopra2714@mbu.edu.in,9828066604,93.57,PFNPC1714Q,U-0188
+MBU01715,Rahul Shetty,Female,ME,UG,3,rahul.shetty2715@mbu.edu.in,9840628950,71.1,KDMPS1715F,U-0188
+MBU01716,Kavya Verma,Male,ME,UG,3,kavya.verma2716@mbu.edu.in,9861359863,89.22,GWQPV1716R,U-0188
+MBU01717,Sneha Das,Female,ME,UG,3,sneha.das2717@mbu.edu.in,9840301153,91.84,JUIPD1717S,U-0188
+MBU01718,Ritika Singh,Female,ME,UG,3,ritika.singh2718@mbu.edu.in,9856918317,86.97,UEAPS1718T,U-0188
+MBU01719,Rahul Rao,Male,ME,UG,3,rahul.rao2719@mbu.edu.in,9849477238,78.25,QRIPR1719K,U-0188
+MBU01720,Aman Reddy,Male,ME,UG,3,aman.reddy2720@mbu.edu.in,9828185991,71.72,ZJAPR1720M,U-0188
+MBU01721,Sanjay Chopra,Female,ME,UG,3,sanjay.chopra2721@mbu.edu.in,9887368495,81.11,SREPC1721B,U-0188
+MBU01722,Neha Bose,Male,ME,UG,3,neha.bose2722@mbu.edu.in,9811883552,69.51,AARPB1722P,U-0188
+MBU01723,Neha Shetty,Female,ME,UG,3,neha.shetty2723@mbu.edu.in,9837103329,92.3,TXJPS1723H,U-0188
+MBU01724,Pooja Bose,Male,ME,UG,3,pooja.bose2724@mbu.edu.in,9843821686,84.08,ZYBPB1724B,U-0188
+MBU01725,Vinay Yadav,Female,ME,UG,3,vinay.yadav2725@mbu.edu.in,9860068490,92.89,SWYPY1725S,U-0188
+MBU01726,Sameer Malhotra,Female,ME,UG,3,sameer.malhotra2726@mbu.edu.in,9838229607,85.03,OVJPM1726K,U-0188
+MBU01727,Ananya Chopra,Female,ME,UG,3,ananya.chopra2727@mbu.edu.in,9823833111,80.71,IVTPC1727M,U-0188
+MBU01728,Rahul Verma,Female,ME,UG,3,rahul.verma2728@mbu.edu.in,9845733207,80.53,UVJPV1728H,U-0188
+MBU01729,Arjun Naidu,Female,ME,UG,3,arjun.naidu2729@mbu.edu.in,9849785215,75.92,JCXPN1729B,U-0188
+MBU01730,Kavya Sharma,Male,ME,UG,3,kavya.sharma2730@mbu.edu.in,9820814599,80.59,DJEPS1730G,U-0188
+MBU01731,Arjun Rao,Male,ME,UG,3,arjun.rao2731@mbu.edu.in,9898037227,69.62,PRJPR1731Z,U-0188
+MBU01732,Neha Mishra,Male,ME,UG,3,neha.mishra2732@mbu.edu.in,9832774023,60.56,BACPM1732T,U-0188
+MBU01733,Aman Gupta,Female,ME,UG,3,aman.gupta2733@mbu.edu.in,9856130009,67.94,WZIPG1733N,U-0188
+MBU01734,Harika Kumar,Female,ME,UG,3,harika.kumar2734@mbu.edu.in,9889379098,96.55,MTSPK1734G,U-0188
+MBU01735,Sneha Kumar,Male,ME,UG,3,sneha.kumar2735@mbu.edu.in,9879349732,84.53,NJEPK1735U,U-0188
+MBU01736,Meghana Mishra,Male,ME,UG,3,meghana.mishra2736@mbu.edu.in,9853114638,99.24,IVAPM1736P,U-0188
+MBU01737,Ravi Verma,Female,ME,UG,3,ravi.verma2737@mbu.edu.in,9863525274,93.87,TBGPV1737J,U-0188
+MBU01738,Divya Rao,Male,ME,UG,3,divya.rao2738@mbu.edu.in,9882231524,81.6,NHQPR1738O,U-0188
+MBU01739,Neha Rao,Male,ME,UG,3,neha.rao2739@mbu.edu.in,9863681884,97.37,SGJPR1739B,U-0188
+MBU01740,Pooja Patel,Male,ME,UG,3,pooja.patel2740@mbu.edu.in,9857664693,78.62,IVWPP1740Z,U-0188
+MBU01741,Nikhil Malhotra,Female,ME,UG,4,nikhil.malhotra2741@mbu.edu.in,9843259722,88.51,ZRVPM1741L,U-0188
+MBU01742,Ravi Rao,Female,ME,UG,4,ravi.rao2742@mbu.edu.in,9885080257,64.49,QVUPR1742O,U-0188
+MBU01743,Nikhil Malhotra,Male,ME,UG,4,nikhil.malhotra2743@mbu.edu.in,9876822112,67.97,EBNPM1743Z,U-0188
+MBU01744,Sameer Patel,Female,ME,UG,4,sameer.patel2744@mbu.edu.in,9854272993,79.41,SPCPP1744G,U-0188
+MBU01745,Harika Naidu,Male,ME,UG,4,harika.naidu2745@mbu.edu.in,9834166176,91.28,MQHPN1745V,U-0188
+MBU01746,Neha Yadav,Male,ME,UG,4,neha.yadav2746@mbu.edu.in,9830288870,78.53,RHHPY1746E,U-0188
+MBU01747,Nikhil Shetty,Female,ME,UG,4,nikhil.shetty2747@mbu.edu.in,9847093566,77.94,LLSPS1747L,U-0188
+MBU01748,Ravi Jain,Female,ME,UG,4,ravi.jain2748@mbu.edu.in,9896857302,98.54,YNMPJ1748D,U-0188
+MBU01749,Sameer Verma,Female,ME,UG,4,sameer.verma2749@mbu.edu.in,9830789785,94.25,DQNPV1749A,U-0188
+MBU01750,Kavya Nair,Female,ME,UG,4,kavya.nair2750@mbu.edu.in,9851508590,93.9,FIGPN1750C,U-0188
+MBU01751,Ravi Iyer,Male,ME,UG,4,ravi.iyer2751@mbu.edu.in,9833358106,84.42,SQBPI1751Z,U-0188
+MBU01752,Harika Das,Female,ME,UG,4,harika.das2752@mbu.edu.in,9843505887,83.55,PJTPD1752R,U-0188
+MBU01753,Ravi Bhat,Female,ME,UG,4,ravi.bhat2753@mbu.edu.in,9810465954,98.04,ZCQPB1753V,U-0188
+MBU01754,Nikhil Bhat,Male,ME,UG,4,nikhil.bhat2754@mbu.edu.in,9832777188,82.85,NFVPB1754X,U-0188
+MBU01755,Harika Kumar,Male,ME,UG,4,harika.kumar2755@mbu.edu.in,9844577766,94.06,LDPPK1755R,U-0188
+MBU01756,Ananya Gupta,Female,ME,UG,4,ananya.gupta2756@mbu.edu.in,9825652256,68.32,UQVPG1756C,U-0188
+MBU01757,Sneha Sharma,Male,ME,UG,4,sneha.sharma2757@mbu.edu.in,9884663205,96.9,HHSPS1757C,U-0188
+MBU01758,Pooja Bhat,Male,ME,UG,4,pooja.bhat2758@mbu.edu.in,9853725315,79.06,JJLPB1758M,U-0188
+MBU01759,Vikram Bose,Female,ME,UG,4,vikram.bose2759@mbu.edu.in,9821244537,60.37,AJCPB1759S,U-0188
+MBU01760,Kavya Naidu,Male,ME,UG,4,kavya.naidu2760@mbu.edu.in,9873862234,90.04,LYSPN1760D,U-0188
+MBU01761,Sameer Naidu,Female,ME,UG,4,sameer.naidu2761@mbu.edu.in,9813224980,72.57,EPYPN1761C,U-0188
+MBU01762,Sameer Gupta,Male,ME,UG,4,sameer.gupta2762@mbu.edu.in,9842494582,87.75,AKLPG1762B,U-0188
+MBU01763,Vikram Sharma,Female,ME,UG,4,vikram.sharma2763@mbu.edu.in,9825554640,69.07,ELMPS1763V,U-0188
+MBU01764,Harika Rao,Female,ME,UG,4,harika.rao2764@mbu.edu.in,9868261488,83.24,GTQPR1764Y,U-0188
+MBU01765,Arjun Sharma,Female,ME,UG,4,arjun.sharma2765@mbu.edu.in,9811131694,84.13,MZBPS1765U,U-0188
+MBU01766,Meghana Mishra,Male,ME,UG,4,meghana.mishra2766@mbu.edu.in,9852197629,95.03,EIKPM1766D,U-0188
+MBU01767,Ravi Malhotra,Male,ME,UG,4,ravi.malhotra2767@mbu.edu.in,9883244087,86.18,GNEPM1767X,U-0188
+MBU01768,Divya Bose,Male,ME,UG,4,divya.bose2768@mbu.edu.in,9895962290,62.92,WTAPB1768P,U-0188
+MBU01769,Ravi Naidu,Female,ME,UG,4,ravi.naidu2769@mbu.edu.in,9854087460,89.38,HVGPN1769P,U-0188
+MBU01770,Nikhil Das,Female,ME,UG,4,nikhil.das2770@mbu.edu.in,9851655800,66.37,QVHPD1770C,U-0188
+MBU01771,Pooja Rao,Male,ME,UG,4,pooja.rao2771@mbu.edu.in,9860336756,66.37,DNMPR1771H,U-0188
+MBU01772,Kavya Rao,Male,ME,UG,4,kavya.rao2772@mbu.edu.in,9840523193,69.92,SHXPR1772U,U-0188
+MBU01773,Vikram Chopra,Female,ME,UG,4,vikram.chopra2773@mbu.edu.in,9836865906,73.5,UBCPC1773J,U-0188
+MBU01774,Vikram Yadav,Male,ME,UG,4,vikram.yadav2774@mbu.edu.in,9884650773,72.91,CDJPY1774Z,U-0188
+MBU01775,Harika Nair,Male,ME,UG,4,harika.nair2775@mbu.edu.in,9888219747,70.84,YBFPN1775F,U-0188
+MBU01776,Rahul Sharma,Male,ME,UG,4,rahul.sharma2776@mbu.edu.in,9885598308,85.77,PGHPS1776R,U-0188
+MBU01777,Vinay Bhat,Female,ME,UG,4,vinay.bhat2777@mbu.edu.in,9893225577,80.25,XSWPB1777H,U-0188
+MBU01778,Neha Das,Male,ME,UG,4,neha.das2778@mbu.edu.in,9892431365,77.38,PGDPD1778P,U-0188
+MBU01779,Neha Yadav,Female,ME,UG,4,neha.yadav2779@mbu.edu.in,9886390341,71.68,AJSPY1779B,U-0188
+MBU01780,Arjun Mishra,Male,ME,UG,4,arjun.mishra2780@mbu.edu.in,9869906283,91.4,ZBMPM1780G,U-0188
+MBU01781,Ravi Chopra,Female,ME,UG,4,ravi.chopra2781@mbu.edu.in,9879617159,62.93,LBIPC1781X,U-0188
+MBU01782,Harika Naidu,Female,ME,UG,4,harika.naidu2782@mbu.edu.in,9849374084,74.29,LUSPN1782L,U-0188
+MBU01783,Aman Singh,Male,ME,UG,4,aman.singh2783@mbu.edu.in,9821333590,93.28,FWCPS1783Y,U-0188
+MBU01784,Vikram Chopra,Female,ME,UG,4,vikram.chopra2784@mbu.edu.in,9868561485,89.12,QHRPC1784E,U-0188
+MBU01785,Sanjay Rao,Female,ME,UG,4,sanjay.rao2785@mbu.edu.in,9878476060,96.3,TGOPR1785G,U-0188
+MBU01786,Pooja Verma,Female,ME,UG,4,pooja.verma2786@mbu.edu.in,9894753545,68.52,DJPPV1786S,U-0188
+MBU01787,Ananya Gupta,Female,ME,UG,4,ananya.gupta2787@mbu.edu.in,9847008520,67.89,BPGPG1787J,U-0188
+MBU01788,Vinay Sharma,Female,ME,UG,4,vinay.sharma2788@mbu.edu.in,9835674342,83.87,RQSPS1788V,U-0188
+MBU01789,Rahul Mishra,Male,ME,UG,4,rahul.mishra2789@mbu.edu.in,9862777560,91.81,URHPM1789X,U-0188
+MBU01790,Kiran Bose,Female,ME,UG,4,kiran.bose2790@mbu.edu.in,9860986894,90.41,LKKPB1790L,U-0188
+MBU01791,Neha Das,Female,ME,UG,4,neha.das2791@mbu.edu.in,9823339723,77.19,TKBPD1791A,U-0188
+MBU01792,Yash Yadav,Male,ME,UG,4,yash.yadav2792@mbu.edu.in,9827091434,74.49,ZCNPY1792F,U-0188
+MBU01793,Meghana Gupta,Female,ME,UG,4,meghana.gupta2793@mbu.edu.in,9855159367,65.09,QINPG1793B,U-0188
+MBU01794,Ravi Kumar,Male,ME,UG,4,ravi.kumar2794@mbu.edu.in,9852335937,82.1,MXDPK1794Y,U-0188
+MBU01795,Rahul Nair,Female,ME,UG,4,rahul.nair2795@mbu.edu.in,9899617814,72.83,RTFPN1795Q,U-0188
+MBU01796,Meghana Reddy,Male,ME,UG,4,meghana.reddy2796@mbu.edu.in,9893107866,84.64,LJUPR1796U,U-0188
+MBU01797,Meghana Kumar,Female,ME,UG,4,meghana.kumar2797@mbu.edu.in,9885875413,99.44,FEXPK1797S,U-0188
+MBU01798,Sneha Bose,Female,ME,UG,4,sneha.bose2798@mbu.edu.in,9861391978,81.61,EWZPB1798B,U-0188
+MBU01799,Ritika Naidu,Female,ME,UG,4,ritika.naidu2799@mbu.edu.in,9850571251,71.15,JTZPN1799O,U-0188
+MBU01800,Meghana Bose,Female,ME,UG,4,meghana.bose2800@mbu.edu.in,9830424720,80.17,LSFPB1800O,U-0188

@@ -1,0 +1,55 @@
+Relation: Parent
+
+StudentID: bitscivil3yr20240010
+Name: Sakshi Iyer
+Gender: M
+Department: Civil Engineering
+Program: B.Tech
+Year: 3
+Semester: 6
+Email: sakshi.iyer10@college.ac.in
+Phone: 948536726
+DOB: 17-07-2001
+Address: 610 MAX Street, City
+Guardian_Name: Anjali Bhat
+Guardian_Phone: 912279824
+Attendance: 75%
+PAN_CARD: ETB6FFHCLQ
+AISHE_Code: aishe71577
+mid1_Structures: 36
+mid1_Geotechnics: 47
+mid1_Hydraulics: 42
+mid1_Transportation: 35
+mid1_Environmental: 44
+mid1_Surveying: 44
+mid1_Construction: 46
+Mid1_Total: 294
+Mid1_Average: 42.0
+mid2_Structures: 47
+mid2_Geotechnics: 39
+mid2_Hydraulics: 41
+mid2_Transportation: 43
+mid2_Environmental: 39
+mid2_Surveying: 44
+mid2_Construction: 39
+Mid2_Total: 292
+Mid2_Average: 41.71
+final_Structures: 49
+final_Geotechnics: 51
+final_Hydraulics: 54
+final_Transportation: 55
+final_Environmental: 48
+final_Surveying: 47
+final_Construction: 53
+Final_Total: 357
+Final_Average: 51.0
+Overall_Average: 44.9
+Internship_Score: 76
+Project_Score: 79
+Attendance_Score: 83
+Practical_Lab_Score: 74
+Academic_Status: Pass
+Grade: B+
+Feedback: Below Average
+Remarks: Excellent
+student_password: BITSCIVIL3YR20240010HCLQ

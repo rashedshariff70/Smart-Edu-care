@@ -1,0 +1,93 @@
+=== STUDENT INFORMATION (Viewed by: Father) ===
+StudentID: S0080
+name: Nitin Prasad
+Gender: Male
+Department: Computer Science
+Program: B.Tech CSE
+Year: 2
+Email: nitin.prasad48@gmail.com
+Phone: +91-93620-20558
+Attendance: 96%
+PAN_CARD: KYGLU8380F
+AISHE_Code: U-1284
+mid1_telugu: 98
+mid1_hindi: 55
+mid1_english: 73
+mid1_maths: 83
+mid1_science: 51
+mid1_physics: 54
+mid1_biology: 59
+mid2_telugu: 61
+mid2_hindi: 83
+mid2_english: 89
+mid2_maths: 53
+mid2_science: 93
+mid2_physics: 97
+mid2_biology: 90
+final_telugu: 72
+final_hindi: 88
+final_english: 56
+final_maths: 50
+final_science: 55
+final_physics: 47
+final_biology: 71
+final_total: 439
+attendance: 96
+sports: Athletics Gold
+activities: Environment Club
+status: Pass
+feedback: Consistent performer with excellent communication skills.
+mid1_total: 473
+mid2_total: 566
+final_total.1: 439
+mid_total: 1039
+rank: 3
+
+=== COLLEGE RULES ===
+--- Rules from: MBU.pdf ---
+7
+Mohan Babu University (MBU)is a private multidisciplinary university located
+in Tirupati, Andhra Pradesh, India. The institution was officially established in
+2022after receiving university status from the Government of Andhra Pradesh. It
+evolved from the well-known educational institutions founded by Indian actor,
+educationist, and philanthropist Mohan Babu. His vision was to create a modern
+educational ecosystem that combines quality academics, professional skills, and
+ethical values for students across India.
+The roots of the university date back to 1992, when the Sri Vidyanikethan
+Educational Trustwas founded to promote higher education in the Rayalaseema
+region. Initially, the trust started with a small number of programs and a limited
+student population. Over the next three decades, the institution expanded
+rapidly and established multiple colleges and schools under the Sri
+Vidyanikethan group. One of the major institutions developed during this period
+was Sree Vidyanikethan Engineering College, which became a prominent
+technical institute in the region.
+The university campus is spread across approximately 40–50 acresof land in
+Tirupati and contains several academic blocks, research laboratories, libraries,
+hostels, and sports facilities. Today, the university serves more than 10,000
+studentsenrolled in various undergraduate, postgraduate, and doctoral
+programs. The institution employs around 600+ faculty membersand academic
+staff who support teaching, research, and innovation activities across
+departments.
+Mohan Babu University currently offers more than 50 academic programsacross
+disciplines such as engineering, computer science, data science, management,
+commerce, and humanities. The engineering and technology programs are
+among the most popular, with specializations including Artificial Intelligence,
+Machine Learning, Data Science, Cybersecurity, and Electronics. Each year, the
+university admits thousands of students through national and state-level
+entrance examinations as well as its own admission processes.
+The university also places strong emphasis on research and innovation. It has
+established multiple research centers and innovation labs that encourage
+students to work on real-world problems in areas such as smart technologies,
+digital transformation, and advanced computing. In addition, students are
+encouraged to participate in hackathons, workshops, and industry collaborations
+to improve their practical skills.
+Apart from academics, the university promotes holistic development through
+extracurricular activities. Students can participate in 20+ clubs and student
+organizations, including cultural clubs, technical clubs, entrepreneurship cells,
+and sports teams. Annual events, cultural festivals, and technical symposiums
+attract participation from thousands of students across the region.
+Over the years, Mohan Babu University has continued to expand its
+infrastructure, academic offerings, and research initiatives. By combining 30+
+years of educational legacy, modern technology-driven programs, and strong
+industry connections, the university aims to prepare students to succeed in both
+national and global professional environments.

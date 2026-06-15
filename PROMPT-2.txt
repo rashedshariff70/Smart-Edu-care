@@ -1,0 +1,417 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>University Registration Requests</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  </head>
+  <body class="bg-gray-100 min-h-screen p-6">
+
+    {% if messages %}
+    <div class="max-w-7xl mx-auto mb-6 space-y-3">
+      {% for message in messages %}
+      <div class="px-4 py-3 rounded-lg text-sm font-medium {% if message.tags == 'success' %} bg-green-100 text-green-800 {% elif message.tags == 'error' %} bg-red-100 text-red-800 {% elif message.tags == 'warning' %} bg-yellow-100 text-yellow-800 {% else %} bg-blue-100 text-blue-800 {% endif %}">
+        {{ message }}
+      </div>
+      {% endfor %}
+    </div>
+    {% endif %}
+
+    <div class="max-w-7xl mx-auto bg-white rounded-xl shadow-lg p-6">
+      <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-8 gap-4">
+        <h1 class="text-2xl md:text-3xl font-bold text-gray-800">University Registration Requests</h1>
+        <div class="flex gap-4 flex-wrap">
+          <a href="{% url 'university_register' %}" class="bg-indigo-600 hover:bg-indigo-700 text-white px-6 py-3 rounded-lg font-medium shadow-md transition">
+            + Register New University
+          </a>
+          <a href="{% url 'approved_show' %}" class="bg-green-600 hover:bg-green-700 text-white px-6 py-3 rounded-lg font-medium shadow-md transition">
+            + Approved universities
+          </a>
+        </div>
+      </div>
+
+      <div class="overflow-x-auto rounded-lg border border-gray-200">
+        <table class="min-w-full divide-y divide-gray-200">
+          <thead class="bg-gray-50">
+            <tr>
+              <th class="px-4 py-3 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider">College ID</th>
+              <th class="px-4 py-3 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider">Name</th>
+              <th class="px-4 py-3 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider">Email</th>
+              <th class="px-4 py-3 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider">Country</th>
+              <th class="px-4 py-3 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider">State</th>
+              <th class="px-4 py-3 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider">Pincode</th>
+              <th class="px-4 py-3 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider">Contact</th>
+              <th class="px-4 py-3 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider">Website</th>
+              <th class="px-4 py-3 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider">Status</th>
+              <th class="px-4 py-3 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider">Created</th>
+              <th class="px-4 py-3 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider">Address</th>
+              <!-- ── NEW COLUMN ── -->
+              <th class="px-4 py-3 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider">Remarks</th>
+              <th class="px-4 py-3 text-center text-xs font-semibold text-gray-600 uppercase tracking-wider">Actions</th>
+            </tr>
+          </thead>
+          <tbody class="bg-white divide-y divide-gray-200">
+            {% for uni in universities %}
+            <tr class="hover:bg-gray-50 transition">
+              <td class="px-4 py-4 whitespace-nowrap text-sm font-medium text-gray-900">{{ uni.college_id }}</td>
+              <td class="px-4 py-4 whitespace-nowrap text-sm text-gray-900">{{ uni.name }}</td>
+              <td class="px-4 py-4 whitespace-nowrap text-sm text-gray-600">{{ uni.university_email }}</td>
+              <td class="px-4 py-4 whitespace-nowrap text-sm text-gray-600">{{ uni.country }}</td>
+              <td class="px-4 py-4 whitespace-nowrap text-sm text-gray-600">{{ uni.state }}</td>
+              <td class="px-4 py-4 whitespace-nowrap text-sm text-gray-600">{{ uni.pincode }}</td>
+              <td class="px-4 py-4 whitespace-nowrap text-sm text-gray-600">{{ uni.contact_number }}</td>
+              <td class="px-4 py-4 whitespace-nowrap text-sm">
+                {% if uni.website %}
+                  <a href="{{ uni.website }}" target="_blank" class="text-indigo-600 hover:underline">Visit</a>
+                {% else %}
+                  <span class="text-gray-400">—</span>
+                {% endif %}
+              </td>
+              <td class="px-4 py-4 whitespace-nowrap text-sm font-medium">
+                {% if uni.status == 'Approved' %}
+                  <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-green-100 text-green-800">Approved</span>
+                {% elif uni.status == 'Rejected' %}
+                  <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-red-100 text-red-800">Rejected</span>
+                {% else %}
+                  <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-yellow-100 text-yellow-800">Pending</span>
+                {% endif %}
+              </td>
+              <td class="px-4 py-4 whitespace-nowrap text-sm text-gray-600">{{ uni.created_at|date:"Y-m-d H:i" }}</td>
+              <td class="px-4 py-4 whitespace-nowrap text-sm text-gray-600">{{ uni.address }}</td>
+
+              <!-- NEW Remarks column -->
+              <td class="px-4 py-4">
+                <textarea
+                  id="remarks-{{ uni.id }}"
+                  rows="3"
+                  class="block w-full rounded-md border-gray-300 shadow-sm focus:border-amber-500 focus:ring-amber-500 sm:text-sm resize-y"
+                  placeholder="Enter remarks / corrections (max ~100 words)"
+                  maxlength="700"></textarea>
+              </td>
+
+              <td class="px-4 py-4 whitespace-nowrap text-center text-sm font-medium space-x-2">
+                {% if uni.status == 'Pending' %}
+                  <a href="{% url 'admin_approve' uni.id %}" class="inline-block bg-green-600 hover:bg-green-700 text-white px-3 py-1.5 rounded text-xs transition">
+                    Approve
+                  </a>
+
+                  <a href="#" onclick="confirmReject('{{ uni.name|escapejs }}', '{{ uni.id }}')"
+                     class="inline-block bg-red-600 hover:bg-red-700 text-white px-3 py-1.5 rounded text-xs transition">
+                    Reject
+                  </a>
+
+                  <!-- NEW BUTTON -->
+                  <button type="button"
+                          onclick="handleSendCorrection('{{ uni.id }}', '{{ uni.name|escapejs }}', '{{ uni.university_email|escapejs }}')"
+                          class="inline-block bg-amber-600 hover:bg-amber-700 text-white px-3 py-1.5 rounded text-xs transition">
+                    Send Correction Email
+                  </button>
+                {% elif uni.status == 'Approved' %}
+                  <span class="text-green-700 font-medium">Approved</span>
+                {% else %}
+                  <span class="text-red-700 font-medium">Rejected</span>
+                {% endif %}
+              </td>
+            </tr>
+            {% empty %}
+            <tr>
+              <td colspan="13" class="px-6 py-12 text-center text-gray-500 text-lg">
+                No university registration requests found.
+              </td>
+            </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <script>
+      async function handleSendCorrection(id, name, email) {
+        const textarea = document.getElementById('remarks-' + id);
+        const remarks = textarea.value.trim();
+
+        if (!remarks) {
+          Swal.fire({
+            icon: 'warning',
+            title: 'Remarks required',
+            text: 'Please write the corrections / instructions before sending.',
+            confirmButtonColor: '#d97706'
+          });
+          return;
+        }
+
+        const wordCount = remarks.split(/\s+/).filter(w => w.length > 0).length;
+        if (wordCount > 120) {
+          Swal.fire({
+            icon: 'error',
+            title: 'Too many words',
+            text: `Remarks should be around 100 words or less (you have ${wordCount}).`,
+            confirmButtonColor: '#dc2626'
+          });
+          return;
+        }
+
+        const result = await Swal.fire({
+          title: 'Send correction email?',
+          html: `Send to <b>${name}</b> (${email})?<br><br>After sending:<br>• Status → Rejected<br>• Record will be deleted`,
+          icon: 'question',
+          showCancelButton: true,
+          confirmButtonColor: '#d97706',
+          cancelButtonColor: '#6b7280',
+          confirmButtonText: 'Yes, Send & Reject',
+        });
+
+        if (result.isConfirmed) {
+          // Pass remarks via query string (you may also use POST + CSRF if preferred)
+          const url = `{% url 'send_correction_email' 0 %}`.replace('0', id) + '?remarks=' + encodeURIComponent(remarks);
+          window.location.href = url;
+        }
+      }
+
+      async function confirmReject(name, id) {
+        const result = await Swal.fire({
+          title: "Reject University?",
+          text: `Are you sure you want to reject "${name}"? This cannot be undone.`,
+          icon: "warning",
+          showCancelButton: true,
+          confirmButtonColor: "#dc2626",
+          cancelButtonColor: "#6b7280",
+          confirmButtonText: "Yes, Reject",
+          cancelButtonText: "Cancel",
+        });
+        if (result.isConfirmed) {
+          window.location.href = `{% url 'admin_reject' 0 %}`.replace("0", id);
+        }
+      }
+    </script>
+  </body>
+</html>
+
+for remarks column ...increease the width of the column more wider so that i can enter 100 words and make visible send email button inside so that when i click it ...it should send my msg to the registered email and connect to below email...and after sending email...mark actions column as rejected automaically
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Correction Required</title>
+</head>
+<body>
+  <p>Dear {{ uni.name }},</p>
+  <p>We have received your university registration request. Please check the following remarks and make corrections:</p>
+  <blockquote>{{ remark }}</blockquote>
+  <p>After making corrections, you may submit the request again.</p>
+  <p>Best regards,<br>SmartEduCare Team</p>
+</body>
+</html>
+
+...make changes and give me complete updated html codes...give every line and check match with below function flow
+
+
+import re
+import logging
+from django.shortcuts import get_object_or_404, redirect, render
+from django.contrib import messages
+from django.contrib.auth.models import User
+from django.core.mail import send_mail
+from django.template.loader import render_to_string
+from django.utils.html import strip_tags, format_html
+from django.db import transaction
+from django.conf import settings
+
+logger = logging.getLogger(__name__)
+
+# ----------------------------------
+# APPROVE UNIVERSITY
+# ----------------------------------
+def admin_approve(request, pk):
+    """
+    Approve a university request.
+    Password format: Smartedu_<cleaned_collegeID>_<cleaned_PIN>
+    """
+
+    uni = get_object_or_404(UniversityRequest, pk=pk)
+
+    if uni.status != "Pending":
+        messages.warning(request, "Only pending requests can be approved.")
+        return redirect("university_reg_show")
+
+    # -------------------------
+    # PASSWORD LOGIC (UPDATED)
+    # -------------------------
+    # Remove special characters from college_id and pincode
+    special_chars_pattern = r"[,!_\-=*&^%$#@]"
+    clean_college_id = re.sub(special_chars_pattern, "", str(uni.college_id))
+    clean_pincode = re.sub(special_chars_pattern, "", str(uni.pincode))
+
+    raw_password = f"Smartedu_{clean_college_id}_{clean_pincode}"
+
+    # Clean name for email greeting
+    email_name = re.sub(r"\d+", "", uni.university_email.split("@")[0]).capitalize()
+
+    context = {
+        "clean_name": email_name,
+        "college_id": uni.college_id,
+        "email": uni.university_email,
+        "password": raw_password,
+        "login_url": request.build_absolute_uri("/login/"),
+    }
+
+    try:
+        with transaction.atomic():
+
+            # -------------------------
+            # DUPLICATE CHECKS
+            # -------------------------
+            if ApprovedUniversityAccount.objects.filter(college_id=uni.college_id).exists():
+                messages.error(
+                    request,
+                    format_html(
+                        'College ID already exists. '
+                        'Please use <a href="{}" target="_blank">Admin Panel</a> to make changes.',
+                        ADMIN_URL
+                    )
+                )
+                return redirect("university_reg_show")
+
+            if User.objects.filter(username=uni.college_id).exists():
+                messages.error(
+                    request,
+                    format_html(
+                        'User already exists. '
+                        'Please use <a href="{}" target="_blank">Admin Panel</a> to make changes.',
+                        ADMIN_URL
+                    )
+                )
+                return redirect("university_reg_show")
+
+            # -------------------------
+            # SEND EMAIL
+            # -------------------------
+            html_message = render_to_string("emails/approval_email.html", context)
+            send_mail(
+                subject="SmartEduCare – University Account Approved",
+                message=strip_tags(html_message),
+                from_email=settings.DEFAULT_FROM_EMAIL,
+                recipient_list=[uni.university_email],
+                html_message=html_message,
+                fail_silently=False,
+            )
+
+            # -------------------------
+            # CREATE AUTH USER
+            # -------------------------
+            user = User.objects.create_user(
+                username=uni.college_id,
+                email=uni.university_email,
+                password=raw_password,
+                first_name=uni.name[:30],
+            )
+
+            # -------------------------
+            # CREATE APPROVED UNIVERSITY ACCOUNT
+            # -------------------------
+            ApprovedUniversityAccount.objects.create(
+                user=user,
+                college_id=uni.college_id,
+                name=uni.name,
+                university_email=uni.university_email,
+                country=uni.country,
+                state=uni.state,
+                pincode=uni.pincode,
+                contact_number=uni.contact_number,
+                website=uni.website,
+            )
+
+            # -------------------------
+            # SAVE LOGIN CREDENTIALS
+            # -------------------------
+            ApprovedUniversityCredential.objects.create(
+                college_id=uni.college_id,
+                email=uni.university_email,
+                password=raw_password,
+            )
+
+            # -------------------------
+            # UPDATE STATUS
+            # -------------------------
+            uni.status = "Approved"
+            uni.save(update_fields=["status"])
+
+            messages.success(
+                request,
+                "University approved successfully. Credentials emailed and saved."
+            )
+
+    except Exception as e:
+        logger.exception("Approval failed")
+        messages.error(request, f"Approval failed: {e}")
+
+    return redirect("university_reg_show")
+
+
+# ----------------------------------
+# SHOW APPROVED CREDENTIALS
+# ----------------------------------
+def approved_show(request):
+    approved_list = ApprovedUniversityCredential.objects.all()
+    return render(
+        request,
+        "approved_show.html",
+        {"approved_list": approved_list}
+    )
+
+
+
+from django.shortcuts import get_object_or_404, redirect
+from django.contrib import messages
+from django.core.mail import send_mail
+from django.template.loader import render_to_string
+from django.utils.html import strip_tags
+from university_app.models import UniversityRequest
+
+def send_correction_email(request, pk):
+    uni = get_object_or_404(UniversityRequest, pk=pk)
+    
+    if uni.status != "Pending":
+        messages.warning(request, "Only pending requests can receive correction emails.")
+        return redirect("university_reg_show")
+
+    remark = request.GET.get("remark", "").strip()
+    
+    if not remark:
+        messages.error(request, "Remarks are required to send correction email.")
+        return redirect("university_reg_show")
+
+    try:
+        html_message = render_to_string("emails/correction_email.html", {
+            "uni": uni,
+            "remark": remark,
+        })
+
+        send_mail(
+            subject="SmartEduCare – Correction Required",
+            message=strip_tags(html_message),
+            from_email=settings.DEFAULT_FROM_EMAIL,   # ← important: use this instead of None
+            recipient_list=[uni.university_email],
+            html_message=html_message,
+            fail_silently=False,
+        )
+
+        # Mark rejected and delete inside transaction
+        with transaction.atomic():
+            uni.status = "Rejected"
+            uni.save(update_fields=["status"])
+            uni.delete()
+
+        messages.success(
+            request,
+            f"Correction email sent to {uni.university_email}. Request marked Rejected and removed."
+        )
+
+    except Exception as e:
+        logger.exception("Correction email failed")
+        messages.error(request, f"Failed to send correction email: {str(e)}")
+
+    return redirect("university_reg_show")

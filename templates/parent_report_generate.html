@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generate Student Report</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --navy: #0f2547;
+            --blue: #1e4d8c;
+            --accent: #2563eb;
+            --accent-light: #dbeafe;
+            --gold: #d4a017;
+            --gold-light: #fef9ec;
+            --text: #1a202c;
+            --muted: #64748b;
+            --border: #e2e8f0;
+            --surface: #f8fafc;
+            --white: #ffffff;
+            --success: #059669;
+            --success-light: #d1fae5;
+            --error: #dc2626;
+            --error-light: #fee2e2;
+            --radius: 10px;
+            --shadow: 0 4px 24px rgba(15,37,71,0.10);
+            --shadow-lg: 0 12px 48px rgba(15,37,71,0.18);
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'DM Sans', sans-serif;
+            background: var(--surface);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 32px 16px;
+        }
+
+        /* ── Background decoration ── */
+        body::before {
+            content: '';
+            position: fixed;
+            inset: 0;
+            background:
+                radial-gradient(ellipse 80% 50% at 20% 10%, rgba(37,99,235,0.07) 0%, transparent 60%),
+                radial-gradient(ellipse 60% 40% at 80% 90%, rgba(212,160,23,0.06) 0%, transparent 60%);
+            pointer-events: none;
+            z-index: 0;
+        }
+
+        .page-wrap {
+            position: relative;
+            z-index: 1;
+            width: 100%;
+            max-width: 560px;
+        }
+
+        /* ── CARD ── */
+        .card {
+            background: var(--white);
+            border-radius: 16px;
+            box-shadow: var(--shadow-lg);
+            overflow: hidden;
+        }
+
+        /* ── HEADER BAR ── */
+        .card-header {
+            background: linear-gradient(135deg, var(--navy) 0%, var(--blue) 100%);
+            padding: 32px 36px 28px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .card-header::after {
+            content: '';
+            position: absolute;
+            right: -30px;
+            top: -30px;
+            width: 160px;
+            height: 160px;
+            border-radius: 50%;
+            border: 2px solid rgba(255,255,255,0.08);
+        }
+
+        .card-header::before {
+            content: '';
+            position: absolute;
+            right: 20px;
+            bottom: -50px;
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            border: 2px solid rgba(255,255,255,0.05);
+        }
+
+        .header-icon {
+            font-size: 32px;
+            margin-bottom: 10px;
+            display: block;
+        }
+
+        .card-header h1 {
+            font-family: 'DM Serif Display', serif;
+            font-size: 24px;
+            color: var(--white);
+            margin-bottom: 6px;
+            line-height: 1.2;
+        }
+
+        .card-header p {
+            font-size: 13px;
+            color: rgba(255,255,255,0.65);
+            font-weight: 400;
+        }
+
+        /* ── BODY ── */
+        .card-body {
+            padding: 32px 36px;
+        }
+
+        /* ── STUDENT CHIP ── */
+        .student-chip {
+            display: flex;
+            align-items: center;
+            gap: 14px;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            padding: 14px 18px;
+            margin-bottom: 28px;
+        }
+
+        .student-avatar {
+            width: 44px;
+            height: 44px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, var(--accent) 0%, var(--navy) 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 18px;
+            flex-shrink: 0;
+        }
+
+        .student-meta {
+            flex: 1;
+            min-width: 0;
+        }
+
+        .student-meta strong {
+            display: block;
+            font-size: 14px;
+            font-weight: 600;
+            color: var(--text);
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        .student-meta span {
+            font-size: 12px;
+            color: var(--muted);
+        }
+
+        .status-badge {
+            background: var(--success-light);
+            color: var(--success);
+            font-size: 11px;
+            font-weight: 600;
+            padding: 4px 10px;
+            border-radius: 99px;
+            white-space: nowrap;
+        }
+
+        /* ── ALERTS ── */
+        .alert {
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+            padding: 14px 16px;
+            border-radius: var(--radius);
+            margin-bottom: 20px;
+            font-size: 13.5px;
+            line-height: 1.5;
+            animation: fadeSlideIn 0.3s ease;
+        }
+
+        .alert-icon { font-size: 16px; flex-shrink: 0; margin-top: 1px; }
+
+        .alert-success {
+            background: var(--success-light);
+            color: #065f46;
+            border: 1px solid #6ee7b7;
+        }
+
+        .alert-error {
+            background: var(--error-light);
+            color: #7f1d1d;
+            border: 1px solid #fca5a5;
+        }
+
+        /* ── FORM ── */
+        .form-group {
+            margin-bottom: 22px;
+        }
+
+        label {
+            display: block;
+            font-size: 13px;
+            font-weight: 600;
+            color: var(--text);
+            margin-bottom: 8px;
+            letter-spacing: 0.01em;
+        }
+
+        label .req { color: var(--error); margin-left: 2px; }
+
+        input[type="email"],
+        textarea {
+            width: 100%;
+            padding: 11px 14px;
+            border: 1.5px solid var(--border);
+            border-radius: var(--radius);
+            font-family: 'DM Sans', sans-serif;
+            font-size: 14px;
+            color: var(--text);
+            background: var(--white);
+            transition: border-color 0.2s, box-shadow 0.2s;
+            outline: none;
+        }
+
+        input[type="email"]::placeholder,
+        textarea::placeholder { color: #a0aec0; }
+
+        input[type="email"]:focus,
+        textarea:focus {
+            border-color: var(--accent);
+            box-shadow: 0 0 0 3px rgba(37,99,235,0.10);
+        }
+
+        textarea {
+            resize: vertical;
+            min-height: 76px;
+        }
+
+        .hint {
+            font-size: 11.5px;
+            color: var(--muted);
+            margin-top: 5px;
+        }
+
+        /* ── WHAT YOU GET BOX ── */
+        .features-box {
+            background: var(--gold-light);
+            border: 1px solid rgba(212,160,23,0.25);
+            border-radius: var(--radius);
+            padding: 16px 18px;
+            margin-bottom: 26px;
+        }
+
+        .features-box h4 {
+            font-size: 11px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            color: var(--gold);
+            margin-bottom: 12px;
+        }
+
+        .feature-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 8px;
+        }
+
+        .feature-item {
+            display: flex;
+            align-items: center;
+            gap: 7px;
+            font-size: 12.5px;
+            color: #5c4a00;
+        }
+
+        .feature-dot {
+            width: 18px;
+            height: 18px;
+            border-radius: 50%;
+            background: rgba(212,160,23,0.18);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 10px;
+            flex-shrink: 0;
+        }
+
+        /* ── DIVIDER ── */
+        .divider {
+            height: 1px;
+            background: var(--border);
+            margin: 4px 0 24px;
+        }
+
+        /* ── BUTTONS ── */
+        .btn-row {
+            display: flex;
+            gap: 12px;
+        }
+
+        .btn {
+            flex: 1;
+            padding: 13px 16px;
+            border: none;
+            border-radius: var(--radius);
+            font-family: 'DM Sans', sans-serif;
+            font-size: 13.5px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.22s ease;
+            letter-spacing: 0.02em;
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, var(--accent) 0%, var(--navy) 100%);
+            color: var(--white);
+            box-shadow: 0 2px 12px rgba(37,99,235,0.25);
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(37,99,235,0.35);
+        }
+
+        .btn-primary:active { transform: translateY(0); }
+
+        .btn-primary:disabled {
+            opacity: 0.65;
+            cursor: not-allowed;
+            transform: none;
+        }
+
+        .btn-secondary {
+            background: var(--surface);
+            color: var(--muted);
+            border: 1.5px solid var(--border);
+        }
+
+        .btn-secondary:hover {
+            background: var(--border);
+            color: var(--text);
+        }
+
+        /* ── LOADING ── */
+        .loading-wrap {
+            display: none;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+            padding: 20px 0 4px;
+        }
+
+        .spinner-ring {
+            width: 40px;
+            height: 40px;
+            border: 3px solid var(--accent-light);
+            border-top-color: var(--accent);
+            border-radius: 50%;
+            animation: spin 0.8s linear infinite;
+        }
+
+        .loading-wrap p {
+            font-size: 13px;
+            color: var(--muted);
+            text-align: center;
+            line-height: 1.5;
+        }
+
+        /* ── NOTE ── */
+        .note {
+            margin-top: 20px;
+            padding: 12px 16px;
+            background: var(--accent-light);
+            border-radius: var(--radius);
+            border-left: 3px solid var(--accent);
+            font-size: 12.5px;
+            color: #1e40af;
+            line-height: 1.55;
+        }
+
+        /* ── ANIMATIONS ── */
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+
+        @keyframes fadeSlideIn {
+            from { opacity: 0; transform: translateY(-8px); }
+            to   { opacity: 1; transform: translateY(0); }
+        }
+
+        /* ── LOGOUT ── */
+        .logout-btn {
+            position: absolute;
+            top: 16px;
+            right: 18px;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            background: rgba(255,255,255,0.12);
+            border: 1px solid rgba(255,255,255,0.22);
+            color: rgba(255,255,255,0.90);
+            font-family: 'DM Sans', sans-serif;
+            font-size: 12px;
+            font-weight: 600;
+            padding: 6px 13px;
+            border-radius: 99px;
+            text-decoration: none;
+            letter-spacing: 0.02em;
+            transition: background 0.2s, color 0.2s;
+            cursor: pointer;
+            z-index: 10;
+        }
+
+        .logout-btn:hover {
+            background: rgba(255,255,255,0.22);
+            color: #ffffff;
+        }
+
+        /* ── RESPONSIVE ── */
+        @media (max-width: 480px) {
+            .card-body { padding: 24px 20px; }
+            .card-header { padding: 24px 20px 22px; }
+            .feature-grid { grid-template-columns: 1fr; }
+            .btn-row { flex-direction: column; }
+            .logout-btn { top: 12px; right: 12px; font-size: 11px; padding: 5px 10px; }
+        }
+    </style>
+</head>
+<body>
+<div class="page-wrap">
+    <div class="card">
+
+        <!-- HEADER -->
+        <div class="card-header">
+            <a href="/indexs" class="logout-btn" onclick="handleLogout(event)">
+                🚪 Logout
+            </a>
+            <span class="header-icon">📊</span>
+            <h1>Generate AI Report</h1>
+            <p>Personalized academic analysis delivered to your inbox</p>
+        </div>
+
+        <!-- BODY -->
+        <div class="card-body">
+
+            <!-- STUDENT CHIP -->
+            <div class="student-chip">
+                <div class="student-avatar">👤</div>
+                <div class="student-meta">
+                    <strong>{{ student_name }}</strong>
+                    <span>ID: {{ student_id }}</span>
+                </div>
+                <span class="status-badge">✓ Verified</span>
+            </div>
+
+            <!-- ALERTS -->
+            {% if success %}
+            <div class="alert alert-success">
+                <span class="alert-icon">✅</span>
+                <div>
+                    <strong>Report sent successfully!</strong><br>
+                    The AI-generated report has been delivered to <strong>{{ email_sent_to }}</strong>.
+                    Please check your inbox (and spam folder).
+                </div>
+            </div>
+            {% endif %}
+
+            {% if error %}
+            <div class="alert alert-error">
+                <span class="alert-icon">⚠️</span>
+                <div><strong>Error:</strong> {{ error }}</div>
+            </div>
+            {% endif %}
+
+            <!-- FORM -->
+            {% if not success %}
+            <form id="reportForm" method="POST">
+                {% csrf_token %}
+
+                <div class="form-group">
+                    <label for="parent_email">
+                        📧 Parent / Guardian Email<span class="req">*</span>
+                    </label>
+                    <input
+                        type="email"
+                        id="parent_email"
+                        name="parent_email"
+                        placeholder="parent@example.com"
+                        value="{{ request.POST.parent_email }}"
+                        autocomplete="email"
+                        required
+                    >
+                    <div class="hint">The full report PDF will be attached to this email.</div>
+                </div>
+
+                <div class="form-group">
+                    <label for="notes">📝 Focus Areas (Optional)</label>
+                    <textarea
+                        id="notes"
+                        name="notes"
+                        placeholder="e.g. Focus on Microprocessors, or highlight project performance…"
+                    ></textarea>
+                    <div class="hint">Help the AI highlight areas most important to you.</div>
+                </div>
+
+                <div class="divider"></div>
+
+                <!-- WHAT YOU'LL RECEIVE -->
+                <div class="features-box">
+                    <h4>✨ What's Included in the Report</h4>
+                    <div class="feature-grid">
+                        <div class="feature-item">
+                            <div class="feature-dot">📈</div>
+                            Performance analysis
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-dot">✅</div>
+                            Strengths & weaknesses
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-dot">🗺</div>
+                            Improvement roadmap
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-dot">🚨</div>
+                            Risk level assessment
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-dot">📚</div>
+                            Subject-level insights
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-dot">📄</div>
+                            Downloadable PDF
+                        </div>
+                    </div>
+                </div>
+
+                <!-- BUTTONS -->
+                <div class="btn-row">
+                    <button type="submit" class="btn btn-primary" id="submitBtn">
+                        ✨ Generate &amp; Send Report
+                    </button>
+                    <button type="button" class="btn btn-secondary" onclick="window.history.back()">
+                        Cancel
+                    </button>
+                </div>
+
+                <!-- LOADING -->
+                <div class="loading-wrap" id="loadingWrap">
+                    <div class="spinner-ring"></div>
+                    <p>
+                        AI is analyzing student data…<br>
+                        <small>This may take 30–60 seconds.</small>
+                    </p>
+                </div>
+            </form>
+            {% endif %}
+
+            <!-- NOTE -->
+            <div class="note">
+                <strong>ℹ️ Note:</strong> This report is AI-assisted and meant for guidance. Always
+                consult teachers and academic advisors for comprehensive academic planning.
+            </div>
+
+        </div><!-- /card-body -->
+    </div><!-- /card -->
+</div>
+
+<script>
+    const form       = document.getElementById('reportForm');
+    const submitBtn  = document.getElementById('submitBtn');
+    const loadingWrap= document.getElementById('loadingWrap');
+
+    if (form) {
+        form.addEventListener('submit', function(e) {
+            const email = document.getElementById('parent_email').value.trim();
+            if (!email || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+                e.preventDefault();
+                alert('Please enter a valid email address.');
+                return;
+            }
+            submitBtn.disabled = true;
+            submitBtn.textContent = 'Sending…';
+            if (loadingWrap) loadingWrap.style.display = 'flex';
+        });
+    }
+
+    // Auto-focus email on load
+    const emailEl = document.getElementById('parent_email');
+    if (emailEl) emailEl.focus();
+
+    // Logout: POST to server to flush session, then redirect
+    function handleLogout(e) {
+        e.preventDefault();
+        const form = document.createElement('form');
+        form.method = 'POST';
+        form.action = '/indexs/';
+        const csrf = document.createElement('input');
+        csrf.type  = 'hidden';
+        csrf.name  = 'csrfmiddlewaretoken';
+        csrf.value = '{{ csrf_token }}';
+        form.appendChild(csrf);
+        document.body.appendChild(form);
+        form.submit();
+    }
+</script>
+</body>
+</html>

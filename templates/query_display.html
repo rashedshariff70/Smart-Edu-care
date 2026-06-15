@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Query Display</title>
+        <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 90%;
+            margin: 20px auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .query-item {
+            margin: 20px 0;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            background-color: #fafafa;
+        }
+        .query-item:hover {
+            background-color: #f1f1f1;
+        }
+        .query-details {
+            margin-bottom: 15px;
+        }
+        .query-details p {
+            margin: 5px 0;
+        }
+        .reply-form {
+            margin-top: 10px;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        label {
+            margin: 5px 0;
+        }
+        textarea {
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            width: 100%;
+        }
+        button {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Query Display</h1>
+            {% for query in q_display %}
+            <div class="query-item">
+                <div class="query-details">
+                    <p><strong>ID:</strong> {{ query.id }}</p>
+                    <p><strong>Name:</strong> {{ query.name }}</p>
+                    <p><strong>Course:</strong> {{ query.course }}</p>
+                    <p><strong>Query:</strong> {{ query.query }}</p>
+        
+                    <!-- Reply Form -->
+                    <form class="reply-form" action="{% url 'query_reply' %}" method="POST" onsubmit="return confirmSubmission(event)">
+                        {% csrf_token %}
+                        
+                        <!-- Hidden inputs for passing data -->
+                        <input type="hidden" name="id" value="{{ query.id }}">
+                        <input type="hidden" name="name" value="{{ query.name }}">
+                        <input type="hidden" name="course" value="{{ query.course }}">
+                        <input type="hidden" name="query" value="{{ query.query }}">
+        
+                        <!-- Textarea for reply -->
+                        <label for="reply-{{ query.id }}">Reply:</label>
+                        <textarea id="reply-{{ query.id }}" name="query_reply" rows="4" placeholder="Enter your reply here"></textarea>
+        
+                        <!-- Submit Button -->
+                        <button type="submit" style="width: 200px;">Submit Reply</button>
+                    </form>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+        <div class="card-footer text-muted" >
+            <a href="http://127.0.0.1:8000/"  style="padding-left: 180px;">Click here to go back to home </a>
+        </div>
+        
+        <script>
+        function confirmSubmission(event) {
+            const confirmAction = confirm("Are you sure you want to submit this reply?");
+            if (!confirmAction) {
+                // Prevent form submission if user clicks "Cancel"
+                event.preventDefault();
+            }
+        }
+    </script>
+    </body>
+</html>

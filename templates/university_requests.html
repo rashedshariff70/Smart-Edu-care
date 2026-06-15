@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>University Registration Requests</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  </head>
+  <body class="bg-gray-100 min-h-screen p-6">
+    {% if messages %}
+    <div class="max-w-7xl mx-auto mb-6 space-y-3">
+      {% for message in messages %}
+      <div
+        class="px-4 py-3 rounded-lg text-sm font-medium {% if message.tags == 'success' %} bg-green-100 text-green-800 {% elif message.tags == 'error' %} bg-red-100 text-red-800 {% elif message.tags == 'warning' %} bg-yellow-100 text-yellow-800 {% else %} bg-blue-100 text-blue-800 {% endif %}"
+      >
+        {{ message }}
+      </div>
+      {% endfor %}
+    </div>
+    {% endif %}
+
+    <div class="max-w-7xl mx-auto bg-white rounded-xl shadow-lg p-6">
+      <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-8 gap-4">
+        <h1 class="text-2xl md:text-3xl font-bold text-gray-800">
+          University Registration Requests
+        </h1>
+        <a href="{% url 'university_register' %}" class="bg-indigo-600 hover:bg-indigo-700 text-white px-6 py-3 rounded-lg font-medium shadow-md transition">
+          + Register New University
+        </a>
+        <a href="{% url 'approved_show' %}" class="bg-green-600 hover:bg-green-700 text-white px-6 py-3 rounded-lg font-medium shadow-md transition">
+          + Approved universities
+        </a>
+      </div>
+
+      <div class="overflow-x-auto rounded-lg border border-gray-200">
+        <table class="min-w-full divide-y divide-gray-200">
+          <thead class="bg-gray-50">
+            <tr>
+              <th class="px-4 py-3 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider">College ID</th>
+              <th class="px-4 py-3 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider">Name</th>
+              <th class="px-4 py-3 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider">Email</th>
+              <th class="px-4 py-3 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider">Country</th>
+              <th class="px-4 py-3 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider">State</th>
+              <th class="px-4 py-3 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider">Pincode</th>
+              <th class="px-4 py-3 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider">Contact</th>
+              <th class="px-4 py-3 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider">Website</th>
+              <th class="px-4 py-3 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider">Status</th>
+              <th class="px-4 py-3 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider">Created</th>
+              <th class="px-4 py-3 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider">Address</th>
+
+              <!-- NEW REMARKS COLUMN -->
+              <th class="px-4 py-3 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider">Remarks</th>
+
+              <th class="px-4 py-3 text-center text-xs font-semibold text-gray-600 uppercase tracking-wider">Actions</th>
+            </tr>
+          </thead>
+          <tbody class="bg-white divide-y divide-gray-200">
+            {% for uni in universities %}
+            <tr class="hover:bg-gray-50 transition">
+              <td class="px-4 py-4 whitespace-nowrap text-sm font-medium text-gray-900">{{ uni.college_id }}</td>
+              <td class="px-4 py-4 whitespace-nowrap text-sm text-gray-900">{{ uni.name }}</td>
+              <td class="px-4 py-4 whitespace-nowrap text-sm text-gray-600">{{ uni.university_email }}</td>
+              <td class="px-4 py-4 whitespace-nowrap text-sm text-gray-600">{{ uni.country }}</td>
+              <td class="px-4 py-4 whitespace-nowrap text-sm text-gray-600">{{ uni.state }}</td>
+              <td class="px-4 py-4 whitespace-nowrap text-sm text-gray-600">{{ uni.pincode }}</td>
+              <td class="px-4 py-4 whitespace-nowrap text-sm text-gray-600">{{ uni.contact_number }}</td>
+              <td class="px-4 py-4 whitespace-nowrap text-sm">
+                {% if uni.website %}
+                <a href="{{ uni.website }}" target="_blank" class="text-indigo-600 hover:underline">Visit</a>
+                {% else %}
+                <span class="text-gray-400">—</span>
+                {% endif %}
+              </td>
+              <td class="px-4 py-4 whitespace-nowrap text-sm font-medium">
+                {% if uni.status == 'Approved' %}
+                <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-green-100 text-green-800">Approved</span>
+                {% elif uni.status == 'Rejected' %}
+                <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-red-100 text-red-800">Rejected</span>
+                {% else %}
+                <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-yellow-100 text-yellow-800">Pending</span>
+                {% endif %}
+              </td>
+              <td class="px-4 py-4 whitespace-nowrap text-sm text-gray-600">{{ uni.created_at|date:"Y-m-d H:i" }}</td>
+              <td class="px-4 py-4 whitespace-nowrap text-sm text-gray-600">{{ uni.address }}</td>
+
+              <!-- NEW REMARKS INPUT -->
+              <td class="px-4 py-4 whitespace-nowrap text-sm text-gray-600">
+                <textarea id="remark-{{ uni.id }}" class="w-full border rounded px-2 py-1 text-sm" rows="3" maxlength="500" placeholder="Write remarks (up to 100 words)"></textarea>
+              </td>
+
+              <td class="px-4 py-4 whitespace-nowrap text-center text-sm font-medium space-x-2">
+                {% if uni.status == 'Pending' %}
+                <a href="{% url 'admin_approve' uni.id %}" class="inline-block bg-green-600 hover:bg-green-700 text-white px-4 py-1.5 rounded text-xs shadow-sm transition">Approve</a>
+
+                <!-- SEND CORRECTION BUTTON -->
+                <a href="#" onclick="sendCorrectionEmail('{{ uni.id }}', '{{ uni.university_email }}')" class="inline-block bg-orange-600 hover:bg-orange-700 text-white px-4 py-1.5 rounded text-xs shadow-sm transition">Send Correction</a>
+
+                <a href="#" onclick="confirmReject('{{ uni.name|escapejs }}', '{{ uni.id }}')" class="inline-block bg-red-600 hover:bg-red-700 text-white px-4 py-1.5 rounded text-xs shadow-sm transition">Reject</a>
+                {% elif uni.status == 'Approved' %}
+                <span class="text-green-700 font-medium">Approved</span>
+                {% else %}
+                <span class="text-red-700 font-medium">Rejected</span>
+                {% endif %}
+              </td>
+            </tr>
+            {% empty %}
+            <tr>
+              <td colspan="13" class="px-6 py-12 text-center text-gray-500 text-lg">No university registration requests found.</td>
+            </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <script>
+      async function confirmReject(name, id) {
+        const result = await Swal.fire({
+          title: "Reject University?",
+          text: `Are you sure you want to reject "${name}"? This cannot be undone.`,
+          icon: "warning",
+          showCancelButton: true,
+          confirmButtonColor: "#dc2626",
+          cancelButtonColor: "#6b7280",
+          confirmButtonText: "Yes, Reject",
+          cancelButtonText: "Cancel",
+        });
+
+        if (result.isConfirmed) {
+          window.location.href = `{% url 'admin_reject' 0 %}`.replace("0", id);
+        }
+      }
+
+      function sendCorrectionEmail(id, email) {
+        const remark = document.getElementById(`remark-${id}`).value;
+        if (!remark) {
+          Swal.fire("Error", "Please enter remarks before sending email.", "error");
+          return;
+        }
+
+        Swal.fire({
+          title: "Send Correction Email?",
+          text: "This will send the email, mark as rejected, and remove the request.",
+          icon: "warning",
+          showCancelButton: true,
+          confirmButtonColor: "#f97316",
+          cancelButtonColor: "#6b7280",
+          confirmButtonText: "Send & Reject",
+        }).then((result) => {
+          if (result.isConfirmed) {
+            // Redirect to Django view with remarks as GET parameter
+            window.location.href = `{% url 'send_correction_email' 0 %}?remark=${encodeURIComponent(remark)}`.replace("0", id);
+          }
+        });
+      }
+    </script>
+  </body>
+</html>

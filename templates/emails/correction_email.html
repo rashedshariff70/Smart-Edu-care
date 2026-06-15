@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Correction Required</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      padding: 20px;
+      color: #333;
+    }
+    .container {
+      max-width: 600px;
+      margin: auto;
+      background: #ffffff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    .header {
+      border-bottom: 1px solid #ddd;
+      margin-bottom: 16px;
+      padding-bottom: 8px;
+    }
+    .header h2 {
+      color: #dc2626;
+      margin: 0;
+    }
+    .remark {
+      background: #f9f9f9;
+      padding: 12px;
+      border-left: 4px solid #dc2626;
+      margin: 16px 0;
+      white-space: pre-wrap;
+    }
+    .footer {
+      margin-top: 20px;
+      font-size: 0.9em;
+      color: #555;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+
+    <div class="header">
+      <h2>SmartEduCare – Correction Required</h2>
+    </div>
+
+    <p>Dear {{ clean_name }},</p>
+
+    <p>
+      Your university registration request has been reviewed.
+      Please see the remarks below and make the required corrections:
+    </p>
+
+    <div class="remark">
+      {{ remark }}
+    </div>
+
+    <p>
+      After making the corrections, you may submit the registration again.
+    </p>
+
+    <div class="footer">
+      <p>Best regards,<br><strong>SmartEduCare Team</strong></p>
+      <p><small>This is an automated email. Please do not reply.</small></p>
+    </div>
+
+  </div>
+</body>
+</html>

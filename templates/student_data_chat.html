@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Student AI Chat — Login</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+
+<style>
+:root {
+  --bg:#0a0a0f; --card:#13131a; --border:#1e1e2e;
+  --accent:#7c6af7; --accent2:#4fc3f7;
+  --text:#e8e8f0; --muted:#6b6b80; --error:#ff6b6b;
+  --input-bg:#0f0f18;
+}
+
+body {
+  background:var(--bg);
+  font-family:'DM Sans',sans-serif;
+  display:flex; align-items:center; justify-content:center;
+  min-height:100vh;
+}
+
+.card {
+  background:var(--card);
+  border:1px solid var(--border);
+  padding:40px;
+  border-radius:20px;
+  width:100%; max-width:460px;
+}
+
+h1 { color:var(--text); margin-bottom:10px; }
+.subtitle { color:var(--muted); margin-bottom:25px; }
+
+.field { margin-bottom:18px; }
+
+label {
+  font-size:12px; color:var(--muted);
+  display:block; margin-bottom:6px;
+}
+
+input {
+  width:100%;
+  padding:12px;
+  border-radius:10px;
+  border:1px solid var(--border);
+  background:var(--input-bg);
+  color:var(--text);
+}
+
+.btn {
+  width:100%;
+  padding:14px;
+  border:none;
+  border-radius:10px;
+  background:linear-gradient(135deg,var(--accent),#5c4fd6);
+  color:white;
+  font-weight:bold;
+  cursor:pointer;
+}
+
+.error-box {
+  background:#ff6b6b20;
+  color:var(--error);
+  padding:10px;
+  border-radius:8px;
+  margin-bottom:15px;
+}
+
+/* 🔍 Custom Dropdown */
+.dropdown {
+  position:relative;
+}
+
+.dropdown input {
+  padding-left:12px;
+  cursor:pointer;
+}
+
+.dropdown-list {
+  position:absolute;
+  width:100%;
+  max-height:180px;
+  overflow-y:auto;
+  background:#111;
+  border:1px solid var(--border);
+  border-radius:10px;
+  margin-top:5px;
+  display:none;
+  z-index:10;
+}
+
+.dropdown-list div {
+  padding:10px;
+  cursor:pointer;
+}
+
+.dropdown-list div:hover {
+  background:var(--accent);
+}
+</style>
+</head>
+
+<body>
+
+<div class="card">
+
+<h1>Student Chat</h1>
+<p class="subtitle">Login to access your AI assistant</p>
+
+{% if error %}
+<div class="error-box">{{ error }}</div>
+{% endif %}
+
+<form method="POST">
+{% csrf_token %}
+
+<!-- 🔍 SEARCHABLE DROPDOWN -->
+<div class="field">
+  <label>Select College</label>
+
+  <div class="dropdown">
+    <input type="text" id="searchBox" placeholder="Search your college..." autocomplete="off">
+    
+    <div class="dropdown-list" id="dropdownList">
+      {% for file in excel_files %}
+        <div data-value="{{ file.file }}">{{ file.name }}</div>
+      {% endfor %}
+    </div>
+  </div>
+
+  <!-- Hidden actual value -->
+  <input type="hidden" name="excel_file" id="selectedFile" required>
+</div>
+
+<!-- AISHE -->
+<div class="field">
+  <label>AISHE Code</label>
+  <input type="text" name="aishe_code" placeholder="e.g. U-1284" required>
+</div>
+
+<!-- Student ID -->
+<div class="field">
+  <label>Student ID</label>
+  <input type="text" name="student_id" placeholder="e.g. S0009" required>
+</div>
+
+<!-- Optional Name -->
+<div class="field">
+  <label>Student Name (Optional)</label>
+  <input type="text" name="student_name" placeholder="e.g. Rashed">
+</div>
+
+<button class="btn">Enter Chat →</button>
+
+</form>
+</div>
+
+<script>
+// Elements
+const searchBox = document.getElementById("searchBox");
+const dropdown = document.getElementById("dropdownList");
+const hiddenInput = document.getElementById("selectedFile");
+
+// Show dropdown
+searchBox.addEventListener("focus", () => {
+  dropdown.style.display = "block";
+});
+
+// Filter list
+searchBox.addEventListener("keyup", () => {
+  const filter = searchBox.value.toLowerCase();
+  const items = dropdown.querySelectorAll("div");
+
+  items.forEach(item => {
+    const text = item.innerText.toLowerCase();
+    item.style.display = text.includes(filter) ? "block" : "none";
+  });
+});
+
+// Select item
+dropdown.querySelectorAll("div").forEach(item => {
+  item.addEventListener("click", () => {
+    searchBox.value = item.innerText;
+    hiddenInput.value = item.getAttribute("data-value");
+    dropdown.style.display = "none";
+  });
+});
+
+// Close on outside click
+document.addEventListener("click", (e) => {
+  if (!e.target.closest(".dropdown")) {
+    dropdown.style.display = "none";
+  }
+});
+</script>
+
+</body>
+</html>

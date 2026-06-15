@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>Approved Universities — SmartEduCare</title>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@600;700;800&family=Outfit:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<style>
+:root{
+  --g1:#00E5A0;--g2:#00B87C;--blue:#4facfe;--blue2:#1A6BFF;
+  --orange:#FF6B35;--yellow:#F59E0B;--red:#FF4D6A;--purple:#A855F7;
+  --ink:#07111F;--ink2:#0C1828;--ink3:#111F30;--ink4:#162438;
+  --surface:rgba(255,255,255,.035);--border:rgba(255,255,255,.07);
+  --border2:rgba(255,255,255,.13);--muted:#6B7A94;
+  --text:#D8E2F0;--text2:#9AACC2;--sw:270px;
+  --ease:cubic-bezier(.4,0,.2,1);
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{height:100%;scroll-behavior:smooth}
+body{
+  font-family:'Outfit',sans-serif;background:var(--ink);
+  color:var(--text);min-height:100vh;display:flex;
+}
+body::after{
+  content:'';position:fixed;inset:0;pointer-events:none;z-index:9998;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.75' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='1'/%3E%3C/svg%3E");
+  opacity:.023;
+}
+::-webkit-scrollbar{width:5px;height:5px}
+::-webkit-scrollbar-track{background:var(--ink2)}
+::-webkit-scrollbar-thumb{background:var(--ink4);border-radius:4px}
+
+/* ── SIDEBAR ── */
+.sidebar{
+  width:var(--sw);min-height:100vh;
+  background:var(--ink2);border-right:1px solid var(--border);
+  display:flex;flex-direction:column;padding:26px 18px;
+  position:fixed;top:0;left:0;bottom:0;z-index:200;overflow-y:auto;
+}
+.sidebar::before{
+  content:'';position:absolute;top:0;left:0;right:0;height:3px;
+  background:linear-gradient(90deg,var(--g1),var(--blue),var(--purple));
+}
+.sb-logo{display:flex;align-items:center;gap:10px;text-decoration:none;margin-bottom:26px}
+.sb-logo-box{
+  width:34px;height:34px;border-radius:9px;
+  background:linear-gradient(135deg,var(--g1),var(--blue2));
+  display:grid;place-items:center;font-size:16px;flex-shrink:0;
+}
+.sb-logo-name{font-family:'Syne',sans-serif;font-weight:800;font-size:16px;color:var(--text);letter-spacing:-.2px}
+.sb-logo-name em{font-style:normal;color:var(--g1)}
+.sb-profile{
+  background:var(--ink3);border:1px solid var(--border);
+  border-radius:14px;padding:18px 14px;text-align:center;margin-bottom:22px;
+}
+.sb-avatar{width:68px;height:68px;border-radius:50%;object-fit:cover;border:2px solid var(--g1);display:block;margin:0 auto 10px}
+.sb-name{font-family:'Syne',sans-serif;font-size:.92em;font-weight:700;margin-bottom:2px;color:var(--text)}
+.sb-email{font-size:.75em;color:var(--muted);word-break:break-all;margin-bottom:8px}
+.sb-badge{
+  display:inline-flex;align-items:center;gap:5px;
+  background:rgba(0,229,160,.1);border:1px solid rgba(0,229,160,.2);
+  color:var(--g1);font-size:.68em;font-weight:700;
+  padding:3px 10px;border-radius:20px;text-transform:uppercase;letter-spacing:.5px;
+}
+.sb-nav{display:flex;flex-direction:column;gap:4px;flex:1}
+.sb-section-label{font-size:10px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:var(--muted);padding:0 10px;margin:14px 0 5px}
+.sb-link{
+  display:flex;align-items:center;gap:10px;text-decoration:none;
+  color:var(--text2);font-size:13px;font-weight:500;
+  padding:10px 12px;border-radius:10px;border:1px solid transparent;transition:all .2s var(--ease);
+}
+.sb-link i{width:16px;text-align:center;font-size:13px;flex-shrink:0}
+.sb-link:hover{color:var(--text);background:var(--surface);border-color:var(--border)}
+.sb-link.active{color:var(--g1);background:rgba(0,229,160,.07);border-color:rgba(0,229,160,.18)}
+.sb-link.s-blue:hover{color:var(--blue);background:rgba(79,172,254,.07);border-color:rgba(79,172,254,.18)}
+.sb-link.s-yellow:hover{color:var(--yellow);background:rgba(245,158,11,.07);border-color:rgba(245,158,11,.18)}
+.sb-link.s-red{color:var(--muted);margin-top:auto}
+.sb-link.s-red:hover{color:var(--red);background:rgba(255,77,106,.07);border-color:rgba(255,77,106,.3)}
+
+/* ── MAIN ── */
+.main{margin-left:var(--sw);flex:1;padding:36px 32px 60px;min-height:100vh}
+
+.page-top{display:flex;align-items:center;justify-content:space-between;margin-bottom:28px;flex-wrap:wrap;gap:14px}
+.page-title{font-family:'Syne',sans-serif;font-size:clamp(1.3em,2.2vw,1.8em);font-weight:800;letter-spacing:-.4px}
+.page-title span{color:var(--g1)}
+.page-clock{font-size:12px;color:var(--muted);display:flex;align-items:center;gap:6px}
+.page-clock .dot{width:7px;height:7px;border-radius:50%;background:var(--g1);animation:blink 1.5s infinite}
+@keyframes blink{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.4;transform:scale(.8)}}
+
+/* ── MESSAGES ── */
+.dj-messages{display:flex;flex-direction:column;gap:8px;margin-bottom:20px}
+.dj-msg{
+  display:flex;align-items:flex-start;gap:10px;
+  padding:13px 16px;border-radius:11px;font-size:13px;font-weight:500;
+  line-height:1.55;border-left:3px solid;
+  animation:slideIn .3s cubic-bezier(.22,1,.36,1) both;
+}
+@keyframes slideIn{from{opacity:0;transform:translateY(-6px)}to{opacity:1;transform:translateY(0)}}
+.dj-msg i{flex-shrink:0;margin-top:2px}
+.dj-msg.success{background:rgba(0,229,160,.07);border-color:var(--g1);color:var(--g1)}
+.dj-msg.error{background:rgba(255,77,106,.07);border-color:var(--red);color:var(--red)}
+.dj-msg.warning{background:rgba(245,158,11,.07);border-color:var(--yellow);color:var(--yellow)}
+.dj-msg.info{background:rgba(79,172,254,.07);border-color:var(--blue);color:var(--blue)}
+
+/* ── BUTTONS ── */
+.btn{
+  display:inline-flex;align-items:center;gap:7px;
+  font-family:'Outfit',sans-serif;font-size:13px;font-weight:700;
+  padding:10px 20px;border-radius:50px;border:none;cursor:pointer;
+  transition:transform .2s var(--ease),box-shadow .2s,filter .15s;
+  text-decoration:none;white-space:nowrap;
+}
+.btn:hover{transform:translateY(-2px)}
+.btn:active{transform:translateY(0);filter:brightness(.9)}
+.btn-blue{background:linear-gradient(135deg,var(--blue),var(--blue2));color:#fff;box-shadow:0 5px 18px rgba(79,172,254,.28)}
+.btn-blue:hover{box-shadow:0 10px 28px rgba(79,172,254,.45)}
+.btn-green{background:linear-gradient(135deg,var(--g1),var(--g2));color:var(--ink);box-shadow:0 5px 18px rgba(0,229,160,.22)}
+.btn-green:hover{box-shadow:0 10px 28px rgba(0,229,160,.4)}
+.btn-orange{background:linear-gradient(135deg,var(--orange),#e85d2f);color:#fff;box-shadow:0 5px 18px rgba(255,107,53,.25)}
+.btn-sm{padding:8px 16px;font-size:12px}
+
+/* ── CARDS ── */
+.card{
+  background:var(--ink3);border:1px solid var(--border);
+  border-radius:16px;overflow:hidden;box-shadow:0 6px 32px rgba(0,0,0,.3);
+  margin-bottom:28px;
+}
+.card-head{
+  display:flex;align-items:center;justify-content:space-between;
+  padding:18px 22px;border-bottom:1px solid var(--border);gap:14px;flex-wrap:wrap;
+}
+.card-title{font-family:'Syne',sans-serif;font-size:1em;font-weight:700;display:flex;align-items:center;gap:9px}
+.card-body{padding:22px}
+
+/* ── UPLOAD ZONE ── */
+.upload-zone{
+  border:2px dashed var(--border2);border-radius:14px;
+  padding:32px 24px;text-align:center;cursor:pointer;
+  transition:all .25s var(--ease);position:relative;
+  background:var(--ink4);
+}
+.upload-zone:hover,.upload-zone.drag-over{
+  border-color:var(--g1);background:rgba(0,229,160,.04);
+}
+.upload-zone input[type=file]{
+  position:absolute;inset:0;opacity:0;cursor:pointer;width:100%;height:100%;
+}
+.upload-icon{font-size:36px;margin-bottom:10px;opacity:.6;transition:transform .3s}
+.upload-zone:hover .upload-icon{transform:translateY(-4px);opacity:1}
+.upload-title{font-size:15px;font-weight:600;margin-bottom:5px;color:var(--text)}
+.upload-sub{font-size:12px;color:var(--muted)}
+.upload-sub span{color:var(--g1);font-weight:600}
+
+/* ── FILE PILLS (preview of selected files) ── */
+.file-pills{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px;min-height:0}
+.file-pill{
+  display:inline-flex;align-items:center;gap:7px;
+  background:var(--ink4);border:1px solid var(--border2);
+  border-radius:8px;padding:6px 12px;font-size:12px;
+}
+.file-pill .pill-name{
+  font-family:'JetBrains Mono',monospace;font-size:11px;
+  color:var(--blue);max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;
+}
+.file-pill .pill-size{color:var(--muted);font-size:11px}
+.file-pill .pill-rm{
+  background:none;border:none;color:var(--muted);cursor:pointer;
+  font-size:14px;line-height:1;padding:0 2px;transition:color .15s;
+}
+.file-pill .pill-rm:hover{color:var(--red)}
+
+/* ── FORM FIELDS ── */
+.form-group{display:flex;flex-direction:column;gap:6px;margin-bottom:16px}
+.form-label{font-size:11px;font-weight:700;letter-spacing:.8px;text-transform:uppercase;color:var(--muted)}
+.form-control{
+  background:var(--ink4);border:1px solid var(--border2);
+  border-radius:10px;color:var(--text);
+  font-family:'Outfit',sans-serif;font-size:13px;
+  padding:10px 14px;outline:none;width:100%;
+  transition:border-color .2s,box-shadow .2s;appearance:none;
+}
+.form-control:focus{border-color:rgba(0,229,160,.45);box-shadow:0 0 0 3px rgba(0,229,160,.08)}
+.form-control option{background:var(--ink3)}
+
+/* ── RESULTS PANEL ── */
+.results-panel{margin-top:24px}
+.results-header{
+  display:flex;align-items:center;gap:10px;
+  font-family:'Syne',sans-serif;font-size:.95em;font-weight:700;
+  margin-bottom:16px;
+}
+.result-stats{
+  display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));
+  gap:10px;margin-bottom:20px;
+}
+.rstat{
+  background:var(--ink4);border:1px solid var(--border);
+  border-radius:10px;padding:12px 16px;
+}
+.rstat-val{font-family:'Syne',sans-serif;font-size:22px;font-weight:800;line-height:1}
+.rstat-label{font-size:11px;color:var(--muted);margin-top:3px}
+
+/* ── FILE RESULT BLOCKS ── */
+.file-result{
+  background:var(--ink4);border:1px solid var(--border);
+  border-radius:12px;overflow:hidden;margin-bottom:10px;
+}
+.file-result-head{
+  display:flex;align-items:center;justify-content:space-between;
+  padding:12px 16px;cursor:pointer;transition:background .15s;gap:12px;
+}
+.file-result-head:hover{background:rgba(255,255,255,.03)}
+.file-result-fname{
+  font-family:'JetBrains Mono',monospace;font-size:12px;color:var(--text);
+  flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;
+}
+.file-result-body{padding:14px 16px;border-top:1px solid var(--border);display:none}
+.file-result-body.open{display:block}
+
+/* ── BADGES ── */
+.badge{
+  display:inline-flex;align-items:center;gap:4px;
+  font-size:10.5px;font-weight:700;padding:3px 9px;border-radius:20px;white-space:nowrap;
+  font-family:'JetBrains Mono',monospace;
+}
+.badge-green{background:rgba(0,229,160,.1);color:var(--g1);border:1px solid rgba(0,229,160,.25)}
+.badge-red{background:rgba(255,77,106,.1);color:var(--red);border:1px solid rgba(255,77,106,.25)}
+.badge-blue{background:rgba(79,172,254,.1);color:var(--blue);border:1px solid rgba(79,172,254,.25)}
+.badge-yellow{background:rgba(245,158,11,.1);color:var(--yellow);border:1px solid rgba(245,158,11,.25)}
+.badge-gray{background:var(--ink3);color:var(--muted);border:1px solid var(--border)}
+
+/* ── PATH DISPLAY ── */
+.path-row{
+  display:flex;align-items:center;gap:8px;
+  background:var(--ink3);border:1px solid var(--border);
+  border-radius:8px;padding:8px 12px;margin-bottom:8px;font-size:12px;
+}
+.path-label{color:var(--muted);white-space:nowrap;flex-shrink:0}
+.path-value{
+  font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--g1);
+  word-break:break-all;
+}
+.aishe-tag{
+  display:inline-flex;align-items:center;gap:5px;
+  background:rgba(79,172,254,.08);border:1px solid rgba(79,172,254,.2);
+  color:var(--blue);border-radius:6px;padding:3px 9px;
+  font-family:'JetBrains Mono',monospace;font-size:11px;
+}
+
+/* ── FOLDER STRUCTURE VISUAL ── */
+.folder-tree{
+  background:var(--ink);border:1px solid var(--border);
+  border-radius:10px;padding:14px 16px;font-family:'JetBrains Mono',monospace;
+  font-size:11.5px;line-height:2;color:var(--text2);
+}
+.folder-tree .dir{color:var(--yellow)}
+.folder-tree .file-ok{color:var(--g1)}
+.folder-tree .file-err{color:var(--red)}
+.folder-tree .indent{padding-left:20px}
+
+/* ── APPROVED TABLE ── */
+.tbl-card{
+  background:var(--ink3);border:1px solid var(--border);
+  border-radius:16px;overflow:hidden;box-shadow:0 6px 32px rgba(0,0,0,.3);
+}
+.tbl-wrap{overflow-x:auto}
+table{width:100%;border-collapse:collapse;font-size:12.5px}
+thead tr{background:var(--ink4);border-bottom:1px solid var(--border2)}
+thead th{
+  padding:13px 14px;text-align:left;
+  font-size:10px;font-weight:700;letter-spacing:.6px;
+  text-transform:uppercase;color:var(--muted);white-space:nowrap;
+}
+tbody tr{border-bottom:1px solid var(--border);transition:background .12s}
+tbody tr:last-child{border-bottom:none}
+tbody tr:hover{background:rgba(79,172,254,.03)}
+tbody td{padding:12px 14px;color:var(--text2);vertical-align:middle;font-size:12.5px}
+.td-name{color:var(--text)!important;font-weight:600}
+.td-mono{font-family:'JetBrains Mono',monospace;font-size:11.5px;color:var(--blue)}
+.td-pw{font-family:'JetBrains Mono',monospace;font-size:11.5px;color:var(--g1)}
+
+/* ── PROGRESS BAR ── */
+.prog-wrap{
+  height:4px;background:var(--ink4);border-radius:2px;
+  overflow:hidden;margin-top:8px;display:none;
+}
+.prog-bar{height:100%;background:linear-gradient(90deg,var(--g1),var(--blue));width:0;transition:width .3s}
+
+@media(max-width:900px){
+  .sidebar{transform:translateX(-100%);transition:transform .3s var(--ease)}
+  .sidebar.open{transform:translateX(0)}
+  .main{margin-left:0;padding:22px 14px 40px}
+}
+</style>
+</head>
+<body>
+
+<!-- ═══════════════ SIDEBAR ═══════════════ -->
+<aside class="sidebar" id="sidebar">
+  <a href="/" class="sb-logo">
+    <div class="sb-logo-box">🎓</div>
+    <span class="sb-logo-name">Smart<em>Edu</em>Care</span>
+  </a>
+  <div class="sb-profile">
+      {% load static %}
+    <div class="sb-profile">
+        <img src="{% static 'data/uploads/admin_image/Admin.jpeg' %}" 
+             alt="Admin" 
+             class="sb-avatar">
+
+        <div class="sb-name">Administrator</div>
+        <div class="sb-email">admin@smarteducare.ai</div>
+        <span class="sb-badge">
+            <i class="fas fa-shield-alt"></i> Super Admin
+        </span>
+    </div>
+  
+  <nav class="sb-nav">
+    <div class="sb-section-label">Management</div>
+    <a href="/admin_dash"         class="sb-link s-blue"><i class="fas fa-tachometer-alt"></i> Dashboard</a>
+    <a href="/admin_new_request"  class="sb-link s-blue"><i class="fas fa-bell"></i> New Requests</a>
+    <a href="/admin_correct_data" class="sb-link s-blue"><i class="fas fa-pen-to-square"></i> Correct Data</a>
+    <a href="/approved_show"      class="sb-link active"><i class="fas fa-check-circle"></i> Approved Requests</a>
+    <a href="/college_data_upload" class="sb-link s-green" ><i class="fas fa-check-circle"></i>upload college data</a>
+    <a href="/student_data-send"  class="sb-link s-yellow"><i class="fas fa-paper-plane"></i> Send Student Data</a>
+    <div class="sb-section-label" style="margin-top:14px">Account</div>
+    <a href="{% url 'home' %}" class="sb-link s-red"><i class="fas fa-sign-out-alt"></i> Logout</a>
+  </nav>
+</aside>
+
+<!-- ═══════════════ MAIN ═══════════════ -->
+<main class="main">
+
+  <!-- Page top -->
+  <div class="page-top">
+    <div>
+      <h1 class="page-title">Approved <span>Universities</span></h1>
+      <p style="font-size:12px;color:var(--muted);margin-top:3px">
+        Upload student Excel/CSV files to auto-generate passwords — saved per university folder
+      </p>
+    </div>
+    <div style="display:flex;align-items:center;gap:14px;flex-wrap:wrap">
+      <div class="page-clock"><span class="dot"></span><span id="liveClock"></span></div>
+      <a href="{% url 'university_reg_show' %}" class="btn btn-blue btn-sm">
+        <i class="fas fa-arrow-left"></i> Back to Requests
+      </a>
+    </div>
+  </div>
+
+  <!-- Django messages -->
+  {% if messages %}
+  <div class="dj-messages">
+    {% for m in messages %}
+    <div class="dj-msg {{ m.tags }}">
+      {% if m.tags == 'success' %}<i class="fas fa-check-circle"></i>
+      {% elif m.tags == 'error' %}<i class="fas fa-times-circle"></i>
+      {% else %}<i class="fas fa-info-circle"></i>{% endif %}
+      <span>{{ m }}</span>
+    </div>
+    {% endfor %}
+  </div>
+  {% endif %}
+
+  <!-- ═══ UPLOAD SECTION ═══ -->
+  <div class="card">
+    <div class="card-head">
+      <div class="card-title">
+        <i class="fas fa-cloud-upload-alt" style="color:var(--g1)"></i>
+        Upload Student Data Files
+      </div>
+      <span class="badge badge-blue">Multi-file supported</span>
+    </div>
+    <div class="card-body">
+
+      <form method="POST" enctype="multipart/form-data" id="uploadForm">
+        {% csrf_token %}
+
+        <!-- University selector -->
+        <div class="form-group">
+          <label class="form-label">
+            <i class="fas fa-university"></i> &nbsp;Select University (AISHE Code)
+          </label>
+          <select class="form-control" name="rules_aishe_code" id="aisheSelect" required>
+            <option value="">— Select an approved university —</option>
+            {% for uni in approved_list %}
+            <option value="{{ uni.college_id }}">
+              {{ uni.name }} &nbsp;|&nbsp; {{ uni.college_id }}
+            </option>
+            {% endfor %}
+          </select>
+          <span style="font-size:11px;color:var(--muted);margin-top:4px">
+            Files will be saved in:
+            <span id="folderPreview" style="font-family:'JetBrains Mono',monospace;color:var(--g1)">
+              password_generated_files / {UniversityName}_{AISHE} /
+            </span>
+          </span>
+        </div>
+
+        <!-- Drop zone -->
+        <div class="upload-zone" id="dropZone">
+          <input type="file" name="files[]" id="fileInput"
+                 accept=".xlsx,.xls,.csv" multiple
+                 onchange="handleFiles(this.files)"/>
+          <div class="upload-icon">📂</div>
+          <div class="upload-title">Drop files here or <span style="color:var(--g1)">browse</span></div>
+          <div class="upload-sub">
+            Accepts <span>.xlsx</span> &nbsp;·&nbsp; <span>.xls</span> &nbsp;·&nbsp; <span>.csv</span>
+            &nbsp;·&nbsp; one or many files at once
+          </div>
+        </div>
+
+        <!-- File pills preview -->
+        <div class="file-pills" id="filePills"></div>
+
+        <!-- Progress bar -->
+        <div class="prog-wrap" id="progWrap">
+          <div class="prog-bar" id="progBar"></div>
+        </div>
+
+        <!-- Info note -->
+        <div style="
+          background:rgba(79,172,254,.06);border:1px solid rgba(79,172,254,.15);
+          border-radius:10px;padding:12px 16px;font-size:12px;color:var(--text2);
+          margin-top:16px;display:flex;align-items:flex-start;gap:10px;
+        ">
+          <i class="fas fa-info-circle" style="color:var(--blue);margin-top:2px;flex-shrink:0"></i>
+          <div>
+            <strong style="color:var(--text)">Password formula:</strong>
+            &nbsp;<code style="font-family:'JetBrains Mono',monospace;color:var(--g1)">
+              student_password = StudentID + last 4 chars of PAN_CARD
+            </code><br/>
+            Each file must have <code style="color:var(--yellow)">StudentID</code> and
+            <code style="color:var(--yellow)">PAN_CARD</code> columns.
+            Output is saved inside <code style="color:var(--g1)">
+              static/data/uploads/password_generated_files/{UniversityName}_{AISHE}/
+            </code>
+            — existing folder is reused, existing files are overwritten.
+          </div>
+        </div>
+
+        <div style="display:flex;gap:12px;margin-top:18px;flex-wrap:wrap">
+          <button type="submit" class="btn btn-green" id="submitBtn" disabled>
+            <i class="fas fa-bolt"></i> Generate Passwords
+          </button>
+          <button type="button" class="btn btn-sm"
+                  style="background:var(--ink4);border:1px solid var(--border2);color:var(--muted)"
+                  onclick="clearFiles()">
+            <i class="fas fa-trash-alt"></i> Clear
+          </button>
+        </div>
+      </form>
+
+      <!-- ── Per-file results (returned after POST) ── -->
+      {% if upload_results %}
+      <div class="results-panel">
+        <div class="results-header">
+          <i class="fas fa-list-check" style="color:var(--g1)"></i>
+          Processing Results
+        </div>
+
+        <!-- Stats row -->
+        {% with ok=upload_results|length %}
+        <div class="result-stats">
+          <div class="rstat">
+            <div class="rstat-val" style="color:var(--text)">{{ upload_results|length }}</div>
+            <div class="rstat-label">Files Submitted</div>
+          </div>
+          <div class="rstat">
+            <div class="rstat-val" style="color:var(--g1)">
+              {% for r in upload_results %}{% if not r.error %}✔{% endif %}{% endfor %}
+            </div>
+            <div class="rstat-label" style="display:none">spacer</div>
+          </div>
+        </div>
+        {% endwith %}
+
+        <!-- FOLDER TREE -->
+        {% with first_ok=None %}
+        {% for r in upload_results %}{% if not r.error and not first_ok %}
+        <div class="folder-tree" style="margin-bottom:16px">
+          <span class="dir">📁 static/data/uploads/password_generated_files/</span><br/>
+          <span class="indent dir">📁 {{ r.relative_folder|cut:"static/data/uploads/password_generated_files/"|default:r.relative_folder }}</span>
+          {% for rr in upload_results %}
+          <br/><span class="indent indent {% if rr.error %}file-err{% else %}file-ok{% endif %}">
+            {% if rr.error %}❌{% else %}✅{% endif %}
+            &nbsp;{{ rr.output_name|default:rr.filename }}
+            {% if not rr.error %}<span style="color:var(--muted)">({{ rr.row_count }} rows)</span>{% endif %}
+          </span>
+          {% endfor %}
+        </div>
+        {% endif %}{% endfor %}
+        {% endwith %}
+
+        <!-- Per-file accordion -->
+        {% for r in upload_results %}
+        <div class="file-result">
+          <div class="file-result-head" onclick="toggleResult({{ forloop.counter0 }})">
+            <span style="font-size:15px">{% if r.error %}❌{% else %}✅{% endif %}</span>
+            <span class="file-result-fname">{{ r.filename }}</span>
+            <div style="display:flex;align-items:center;gap:8px;flex-shrink:0">
+              {% if r.error %}
+                <span class="badge badge-red">Failed</span>
+              {% else %}
+                <span class="badge badge-green">{{ r.row_count }} rows</span>
+                {% if r.aishe_files %}
+                  <span class="badge badge-blue">AISHE ✓</span>
+                {% endif %}
+              {% endif %}
+              <span id="arr-{{ forloop.counter0 }}"
+                    style="color:var(--muted);font-size:12px;transition:transform .2s">▼</span>
+            </div>
+          </div>
+          <div class="file-result-body" id="body-{{ forloop.counter0 }}">
+            {% if r.error %}
+              <div style="
+                background:rgba(255,77,106,.07);border:1px solid rgba(255,77,106,.2);
+                border-radius:8px;padding:10px 14px;color:var(--red);font-size:13px;
+              ">
+                <i class="fas fa-exclamation-circle"></i> {{ r.error }}
+              </div>
+            {% else %}
+              <div class="path-row">
+                <span class="path-label">📁 Saved to</span>
+                <span class="path-value">{{ r.relative_folder }}/{{ r.output_name }}</span>
+              </div>
+              {% if r.aishe_files %}
+              <div class="path-row">
+                <span class="path-label">🗂 AISHE copy</span>
+                <div style="display:flex;flex-wrap:wrap;gap:6px">
+                  {% for af in r.aishe_files %}
+                  <span class="aishe-tag"><i class="fas fa-file-excel" style="font-size:10px"></i> {{ af }}</span>
+                  {% endfor %}
+                </div>
+              </div>
+              {% else %}
+              <div style="font-size:12px;color:var(--muted);margin-top:4px">
+                <i class="fas fa-info-circle"></i>
+                AISHE copy skipped — no <code>AISHE_Code</code> column found.
+              </div>
+              {% endif %}
+            {% endif %}
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+      {% endif %}
+
+    </div><!-- /card-body -->
+  </div><!-- /upload card -->
+
+ 
+  <!-- ═══ APPROVED UNIVERSITIES TABLE ═══ -->
+  <div class="tbl-card">
+    <div style="
+      display:flex;align-items:center;justify-content:space-between;
+      padding:18px 22px;border-bottom:1px solid var(--border);flex-wrap:wrap;gap:10px;
+    ">
+      <div style="font-family:'Syne',sans-serif;font-size:1em;font-weight:700;
+                  display:flex;align-items:center;gap:9px">
+        <i class="fas fa-university" style="color:var(--g1)"></i>
+        Approved Universities
+        <span class="badge badge-green">{{ approved_list|length }}</span>
+      </div>
+    </div>
+    <div class="tbl-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>College ID</th>
+            <th>University Name</th>
+            <th>Email</th>
+            <th>Password</th>
+            <th>Output Folder</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for uni in approved_list %}
+          <tr>
+            <td style="color:var(--muted);font-size:11px">{{ forloop.counter }}</td>
+            <td class="td-mono">{{ uni.college_id }}</td>
+            <td class="td-name">{{ uni.name }}</td>
+            <td style="font-size:12px;color:var(--text2)">{{ uni.email }}</td>
+            <td class="td-pw">{{ uni.password }}</td>
+            <td>
+              <span class="aishe-tag">
+                <i class="fas fa-folder" style="font-size:10px"></i>
+                password_generated_files/{{ uni.name|slice:":20" }}_{{ uni.college_id }}/
+              </span>
+            </td>
+          </tr>
+          {% empty %}
+          <tr>
+            <td colspan="6" style="text-align:center;padding:32px;color:var(--muted)">
+              No approved universities yet.
+            </td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+</main>
+
+<!-- ═══════════════ SCRIPTS ═══════════════ -->
+<script>
+/* Live clock */
+(function tick(){
+  const n=new Date(),el=document.getElementById('liveClock');
+  if(el) el.textContent=
+    n.toLocaleDateString('en-IN',{weekday:'short',day:'numeric',month:'short'})
+    +'  '+n.toLocaleTimeString('en-IN',{hour:'2-digit',minute:'2-digit',second:'2-digit'});
+  setTimeout(tick,1000);
+})();
+
+/* Folder preview */
+const aisheSelect=document.getElementById('aisheSelect');
+const folderPreview=document.getElementById('folderPreview');
+if(aisheSelect && folderPreview){
+  aisheSelect.addEventListener('change',function(){
+    const opt=this.options[this.selectedIndex];
+    if(!this.value){
+      folderPreview.textContent='password_generated_files / {UniversityName}_{AISHE} /';
+      return;
+    }
+    const parts=opt.text.split('|');
+    const name=(parts[0]||'').trim().replace(/[\s,/\\:*?"<>|]+/g,'_').replace(/_+/g,'_').replace(/^_|_$/g,'');
+    const code=(parts[1]||this.value).trim().replace(/[\s,/\\:*?"<>|]+/g,'_').replace(/_+/g,'_').replace(/^_|_$/g,'');
+    folderPreview.textContent=`password_generated_files / ${name}_${code} /`;
+  });
+}
+
+/* File input handling */
+let selectedFiles=[];
+
+function formatBytes(b){
+  if(b<1024) return b+'B';
+  if(b<1048576) return (b/1024).toFixed(1)+'KB';
+  return (b/1048576).toFixed(1)+'MB';
+}
+
+function renderPills(){
+  const container=document.getElementById('filePills');
+  container.innerHTML='';
+  selectedFiles.forEach((f,i)=>{
+    const pill=document.createElement('div');
+    pill.className='file-pill';
+    pill.innerHTML=`<span>📄</span>
+      <span class="pill-name" title="${f.name}">${f.name}</span>
+      <span class="pill-size">${formatBytes(f.size)}</span>
+      <button type="button" class="pill-rm" onclick="removeFile(${i})" title="Remove">×</button>`;
+    container.appendChild(pill);
+  });
+  document.getElementById('submitBtn').disabled = (selectedFiles.length===0 || !aisheSelect.value);
+}
+
+function handleFiles(newFiles){
+  // Merge, dedupe by name
+  const existing=new Set(selectedFiles.map(f=>f.name));
+  Array.from(newFiles).forEach(f=>{
+    if(!existing.has(f.name)){
+      selectedFiles.push(f);
+      existing.add(f.name);
+    }
+  });
+  // Update the actual input's files via DataTransfer
+  syncInput();
+  renderPills();
+}
+
+function syncInput(){
+  const dt=new DataTransfer();
+  selectedFiles.forEach(f=>dt.items.add(f));
+  document.getElementById('fileInput').files=dt.files;
+}
+
+function removeFile(idx){
+  selectedFiles.splice(idx,1);
+  syncInput();
+  renderPills();
+}
+
+function clearFiles(){
+  selectedFiles=[];
+  const dt=new DataTransfer();
+  document.getElementById('fileInput').files=dt.files;
+  document.getElementById('filePills').innerHTML='';
+  document.getElementById('submitBtn').disabled=true;
+}
+
+// Re-validate submit on select change
+if(aisheSelect) aisheSelect.addEventListener('change',()=>{
+  document.getElementById('submitBtn').disabled=(selectedFiles.length===0 || !aisheSelect.value);
+});
+
+/* Drag & drop */
+const dz=document.getElementById('dropZone');
+if(dz){
+  ['dragenter','dragover'].forEach(e=>dz.addEventListener(e,ev=>{ev.preventDefault();dz.classList.add('drag-over')}));
+  ['dragleave','drop'].forEach(e=>dz.addEventListener(e,ev=>{ev.preventDefault();dz.classList.remove('drag-over')}));
+  dz.addEventListener('drop',ev=>{
+    const files=ev.dataTransfer.files;
+    if(files.length) handleFiles(files);
+  });
+}
+
+/* Submit — show progress bar animation */
+document.getElementById('uploadForm').addEventListener('submit',function(){
+  const pw=document.getElementById('progWrap');
+  const pb=document.getElementById('progBar');
+  pw.style.display='block';
+  let w=0;
+  const iv=setInterval(()=>{
+    w=Math.min(w+(Math.random()*8+2),88);
+    pb.style.width=w+'%';
+    if(w>=88) clearInterval(iv);
+  },200);
+});
+
+/* Result accordions */
+function toggleResult(i){
+  const body=document.getElementById('body-'+i);
+  const arr=document.getElementById('arr-'+i);
+  const open=body.classList.toggle('open');
+  arr.style.transform=open?'rotate(180deg)':'';
+}
+
+/* Auto-open failed results */
+document.querySelectorAll('.file-result-body').forEach((b,i)=>{
+  // open failed ones by default
+  if(b.querySelector('[style*="var(--red)"]')){
+    b.classList.add('open');
+    const a=document.getElementById('arr-'+i);
+    if(a) a.style.transform='rotate(180deg)';
+  }
+});
+</script>
+</body>
+</html>

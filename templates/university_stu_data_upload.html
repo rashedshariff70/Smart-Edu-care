@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Data Upload | University Panel</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg:          #0b0f1a;
+            --panel:       #111827;
+            --panel-2:     #161d2e;
+            --border:      rgba(255,255,255,0.07);
+            --border-hi:   rgba(99,179,237,0.35);
+            --accent:      #3b9eff;
+            --accent-2:    #00d4aa;
+            --accent-glow: rgba(59,158,255,0.22);
+            --text:        #e8edf5;
+            --muted:       #6b7898;
+            --success-bg:  #0d2b20;
+            --success-fg:  #4ade80;
+            --error-bg:    #2b0d0d;
+            --error-fg:    #f87171;
+            --warn-bg:     #2b2008;
+            --warn-fg:     #fbbf24;
+            --mono:        'JetBrains Mono', monospace;
+            --sans:        'Sora', sans-serif;
+            --r:           14px;
+        }
+        *, *::before, *::after { box-sizing:border-box; margin:0; padding:0; }
+        body {
+            font-family:var(--sans); background:var(--bg); color:var(--text);
+            min-height:100vh; display:flex; flex-direction:column;
+            align-items:center; justify-content:center;
+            padding:32px 16px; position:relative; overflow-x:hidden;
+        }
+        body::before {
+            content:''; position:fixed; inset:0;
+            background:
+                radial-gradient(ellipse 55% 45% at 10% 15%, rgba(59,158,255,0.10) 0%, transparent 65%),
+                radial-gradient(ellipse 45% 55% at 90% 85%, rgba(0,212,170,0.07) 0%, transparent 65%);
+            pointer-events:none; z-index:0;
+        }
+        body::after {
+            content:''; position:fixed; inset:0;
+            background-image:
+                linear-gradient(rgba(255,255,255,0.025) 1px, transparent 1px),
+                linear-gradient(90deg,rgba(255,255,255,0.025) 1px, transparent 1px);
+            background-size:40px 40px; pointer-events:none; z-index:0;
+        }
+        .page {
+            position:relative; z-index:1;
+            width:100%; max-width:600px;
+            display:flex; flex-direction:column; gap:18px;
+        }
+
+        /* Topbar */
+        .topbar {
+            display:flex; align-items:center; justify-content:space-between;
+            padding:12px 18px; background:var(--panel);
+            border:1px solid var(--border); border-radius:var(--r);
+            animation:fadeDown 0.4s cubic-bezier(.22,1,.36,1) both;
+        }
+        .topbar-left  { display:flex; align-items:center; gap:12px; }
+        .topbar-right { display:flex; align-items:center; gap:10px; }
+        .logo-dot {
+            width:38px; height:38px;
+            background:linear-gradient(135deg, var(--accent), var(--accent-2));
+            border-radius:9px; display:flex; align-items:center; justify-content:center; font-size:18px;
+        }
+        .topbar-label span { display:block; font-size:10px; letter-spacing:.12em; text-transform:uppercase; color:var(--muted); font-weight:500; }
+        .topbar-label strong { font-size:14px; font-weight:600; color:var(--text); }
+        .status-pill {
+            font-family:var(--mono); font-size:10px; font-weight:500;
+            padding:4px 11px; border-radius:20px;
+            background:rgba(74,222,128,0.1); color:var(--success-fg);
+            border:1px solid rgba(74,222,128,0.2);
+            display:flex; align-items:center; gap:5px;
+        }
+        .status-pill::before {
+            content:''; width:6px; height:6px; border-radius:50%;
+            background:var(--success-fg); box-shadow:0 0 6px var(--success-fg);
+            animation:pulse 2s infinite;
+        }
+        @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:.3} }
+
+        .btn-home {
+            display:flex; align-items:center; gap:6px;
+            font-family:var(--sans); font-size:11.5px; font-weight:500;
+            color:var(--muted); background:var(--panel-2);
+            border:1px solid var(--border); border-radius:8px;
+            padding:5px 12px; text-decoration:none;
+            transition:color .2s, border-color .2s, background .2s; white-space:nowrap;
+        }
+        .btn-home svg { width:13px; height:13px; transition:transform .2s; flex-shrink:0; }
+        .btn-home:hover { color:var(--accent); border-color:rgba(59,158,255,0.35); background:rgba(59,158,255,0.06); }
+        .btn-home:hover svg { transform:translateX(-3px); }
+
+        /* Card */
+        .card {
+            background:var(--panel); border:1px solid var(--border);
+            border-radius:var(--r); padding:32px;
+            animation:riseUp 0.5s cubic-bezier(.22,1,.36,1) 0.07s both;
+        }
+        .card-title {
+            font-size:22px; font-weight:700; letter-spacing:-.03em;
+            background:linear-gradient(90deg, var(--text) 60%, var(--muted));
+            -webkit-background-clip:text; -webkit-text-fill-color:transparent;
+        }
+        .card-sub { font-size:13px; color:var(--muted); margin-top:5px; margin-bottom:24px; line-height:1.6; }
+        .card-sub code { font-family:var(--mono); font-size:11.5px; color:var(--accent-2); background:rgba(0,212,170,0.1); padding:1px 6px; border-radius:4px; }
+
+        /* Messages */
+        .msg { padding:11px 14px; border-radius:9px; font-size:12.5px; margin-bottom:14px; display:flex; align-items:flex-start; gap:9px; line-height:1.55; border-left:3px solid; }
+        .msg-icon { font-size:14px; flex-shrink:0; margin-top:1px; }
+        .msg-success { background:var(--success-bg); color:var(--success-fg); border-color:var(--success-fg); }
+        .msg-error   { background:var(--error-bg);   color:var(--error-fg);   border-color:var(--error-fg); }
+        .msg-warning { background:var(--warn-bg);    color:var(--warn-fg);    border-color:var(--warn-fg); }
+
+        /* Field */
+        .field-group { margin-bottom:20px; }
+        .field-label { display:block; font-size:11px; font-weight:600; letter-spacing:.09em; text-transform:uppercase; color:var(--muted); margin-bottom:8px; }
+        .field-label .req { color:var(--error-fg); margin-left:2px; }
+        .input-wrap { position:relative; }
+        .input-icon { position:absolute; left:13px; top:50%; transform:translateY(-50%); font-size:15px; pointer-events:none; opacity:.5; }
+        .uni-input {
+            width:100%; padding:11px 14px 11px 40px;
+            background:var(--panel-2); border:1px solid var(--border);
+            border-radius:10px; font-family:var(--sans); font-size:13.5px;
+            color:var(--text); outline:none;
+            transition:border-color .2s, box-shadow .2s;
+        }
+        .uni-input::placeholder { color:var(--muted); font-size:13px; }
+        .uni-input:focus { border-color:var(--accent); box-shadow:0 0 0 3px var(--accent-glow); }
+        .uni-input.has-value { border-color:rgba(0,212,170,0.4); }
+
+        /* Live folder pill */
+        .folder-pill { display:none; margin-top:7px; font-family:var(--mono); font-size:11px; color:var(--accent-2); background:rgba(0,212,170,0.07); border:1px solid rgba(0,212,170,0.18); border-radius:6px; padding:5px 11px; align-items:center; gap:6px; }
+        .folder-pill.visible { display:flex; }
+
+        /* Drop zone */
+        .drop-zone {
+            border:2px dashed rgba(59,158,255,0.22); border-radius:12px;
+            padding:38px 24px; text-align:center; cursor:pointer;
+            transition:border-color .2s, background .2s, box-shadow .2s; background:var(--panel-2);
+        }
+        .drop-zone.dragover { border-color:var(--accent); background:rgba(59,158,255,0.05); box-shadow:0 0 32px var(--accent-glow); }
+        .dz-icon { font-size:40px; display:block; margin-bottom:10px; transition:transform .25s; }
+        .drop-zone:hover .dz-icon, .drop-zone.dragover .dz-icon { transform:translateY(-4px) scale(1.06); }
+        .dz-title { font-size:14px; font-weight:600; color:var(--text); margin-bottom:4px; }
+        .dz-hint { font-size:12px; color:var(--muted); }
+        .dz-hint em { color:var(--accent); font-style:normal; font-weight:600; text-decoration:underline; text-decoration-style:dotted; }
+        .fmt-row { display:flex; gap:6px; justify-content:center; margin-top:12px; flex-wrap:wrap; }
+        .fmt-chip { font-family:var(--mono); font-size:10px; font-weight:500; padding:3px 9px; border-radius:5px; background:rgba(59,158,255,0.08); color:var(--accent); border:1px solid rgba(59,158,255,0.18); }
+
+        /* AISHE banner */
+        .aishe-banner { display:none; align-items:center; gap:10px; padding:11px 14px; background:rgba(0,212,170,0.07); border:1px solid rgba(0,212,170,0.2); border-radius:9px; margin-top:14px; font-size:12.5px; color:var(--accent-2); }
+        .aishe-banner.visible { display:flex; }
+        .aishe-banner strong { font-family:var(--mono); }
+
+        /* File list */
+        .file-list { margin-top:14px; display:flex; flex-direction:column; gap:8px; }
+        .file-item { display:flex; align-items:center; gap:10px; background:var(--panel-2); border:1px solid var(--border); border-radius:9px; padding:10px 13px; font-size:12.5px; animation:itemIn .2s cubic-bezier(.22,1,.36,1) both; }
+        .fi-icon { font-size:20px; flex-shrink:0; }
+        .fi-info { flex:1; min-width:0; }
+        .fi-name { font-weight:500; color:var(--text); white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+        .fi-meta { font-family:var(--mono); font-size:10.5px; color:var(--muted); margin-top:2px; }
+        .fi-remove { background:none; border:none; cursor:pointer; color:var(--muted); font-size:14px; padding:4px 6px; border-radius:5px; line-height:1; transition:color .15s, background .15s; flex-shrink:0; }
+        .fi-remove:hover { color:var(--error-fg); background:var(--error-bg); }
+
+        /* Count bar */
+        .count-bar { display:none; align-items:center; justify-content:space-between; margin-top:10px; }
+        .count-bar.visible { display:flex; }
+        .count-badge { font-family:var(--mono); font-size:11px; font-weight:600; padding:3px 11px; border-radius:20px; background:rgba(59,158,255,0.10); color:var(--accent); border:1px solid rgba(59,158,255,0.18); }
+        .clear-btn { background:none; border:none; font-family:var(--sans); font-size:11.5px; color:var(--muted); cursor:pointer; padding:3px 8px; border-radius:5px; transition:color .15s, background .15s; }
+        .clear-btn:hover { color:var(--error-fg); background:var(--error-bg); }
+
+        /* Folder preview */
+        .folder-preview { display:none; margin-top:14px; padding:13px 15px; background:var(--panel-2); border:1px solid var(--border); border-radius:10px; font-family:var(--mono); font-size:11.5px; color:var(--muted); line-height:2; }
+        .folder-preview.visible { display:block; }
+        .fp-top  { font-size:10px; opacity:.5; margin-bottom:4px; }
+        .fp-root { color:var(--accent-2); font-weight:600; display:flex; align-items:center; gap:6px; }
+        .fp-file { padding-left:18px; display:flex; align-items:center; gap:6px; }
+        .fp-file::before { content:'├─'; opacity:.3; }
+        .fp-file:last-child::before { content:'└─'; opacity:.3; }
+
+        .divider { border:none; border-top:1px solid var(--border); margin:22px 0; }
+
+        /* Upload button */
+        .upload-btn {
+            width:100%; padding:14px;
+            background:linear-gradient(135deg, var(--accent), #1a72cc);
+            color:#fff; font-size:14px; font-weight:600;
+            font-family:var(--sans); border:none; border-radius:10px; cursor:pointer;
+            transition:transform .15s, box-shadow .2s;
+            display:flex; align-items:center; justify-content:center; gap:8px;
+            position:relative; overflow:hidden;
+        }
+        .upload-btn:hover:not(:disabled) { transform:translateY(-2px); box-shadow:0 8px 28px var(--accent-glow); }
+        .upload-btn:active:not(:disabled) { transform:translateY(0); }
+        .upload-btn:disabled { opacity:.3; cursor:not-allowed; }
+
+        /* Progress */
+        .progress-wrap { display:none; margin-top:14px; }
+        .progress-wrap.visible { display:block; }
+        .progress-track { height:3px; background:rgba(59,158,255,0.15); border-radius:10px; overflow:hidden; }
+        .progress-fill { height:100%; width:0%; background:linear-gradient(90deg, var(--accent), var(--accent-2)); border-radius:10px; transition:width .35s ease; }
+        .progress-label { font-family:var(--mono); font-size:10.5px; color:var(--muted); margin-top:7px; text-align:center; }
+
+        .card-foot { display:flex; align-items:center; justify-content:space-between; margin-top:20px; font-size:11px; color:var(--muted); }
+
+        @keyframes fadeDown { from{opacity:0;transform:translateY(-10px)} to{opacity:1;transform:translateY(0)} }
+        @keyframes riseUp   { from{opacity:0;transform:translateY(16px) scale(.98)} to{opacity:1;transform:translateY(0) scale(1)} }
+        @keyframes itemIn   { from{opacity:0;transform:translateY(6px)} to{opacity:1;transform:translateY(0)} }
+        @media(max-width:520px){ .card{ padding:20px 14px; } .btn-home span{ display:none; } }
+    </style>
+</head>
+<body>
+<div class="page">
+
+    <!-- Topbar -->
+    <div class="topbar">
+        <div class="topbar-left">
+            <div class="logo-dot">🎓</div>
+            <div class="topbar-label">
+                <span>University Management System</span>
+                <strong>Data Upload Portal</strong>
+            </div>
+        </div>
+        <div class="topbar-right">
+            <a href="{% url 'indexs' %}" class="btn-home">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M19 12H5M12 5l-7 7 7 7"/>
+                </svg>
+                <span>Back to Home</span>
+            </a>
+            <div class="status-pill">Secure</div>
+        </div>
+    </div>
+
+    <!-- Card -->
+    <div class="card">
+        <div class="card-title">Student Data Upload</div>
+        <p class="card-sub">
+            Enter your university name and upload student files. The system reads the
+            <code>AISHE Code</code> column value and saves files into a folder named
+            <code>UniversityName_AISHECode</code> inside <code>university_data/</code>.
+            Existing folders are reused and files are replaced.
+        </p>
+
+        {% if messages %}
+            {% for message in messages %}
+                <div class="msg {% if message.tags == 'success' %}msg-success{% elif message.tags == 'warning' %}msg-warning{% else %}msg-error{% endif %}">
+                    <span class="msg-icon">{% if message.tags == 'success' %}✅{% elif message.tags == 'warning' %}⚠️{% else %}❌{% endif %}</span>
+                    <span>{{ message }}</span>
+                </div>
+            {% endfor %}
+        {% endif %}
+
+        <form method="POST" enctype="multipart/form-data" id="uploadForm">
+            {% csrf_token %}
+
+            <!-- University Name -->
+            <div class="field-group">
+                <label class="field-label" for="uniInput">
+                    University Name <span class="req">*</span>
+                </label>
+                <div class="input-wrap">
+                    <span class="input-icon">🏛️</span>
+                    <input type="text" id="uniInput" name="university_name"
+                           class="uni-input" autocomplete="off" required
+                           placeholder="e.g. Sri Venkateswara University">
+                </div>
+                <div class="folder-pill" id="folderPill">
+                    <span>📁</span>
+                    <span id="folderPillText"></span>
+                </div>
+            </div>
+
+            <input type="file" id="hiddenInput" name="student_files"
+                   multiple accept=".csv,.xlsx,.xls" style="display:none">
+
+            <div class="drop-zone" id="dropZone">
+                <span class="dz-icon">📂</span>
+                <div class="dz-title">Drag &amp; drop student files here</div>
+                <div class="dz-hint">or <em>browse to select</em> — multiple files supported</div>
+                <div class="fmt-row">
+                    <span class="fmt-chip">.CSV</span>
+                    <span class="fmt-chip">.XLSX</span>
+                    <span class="fmt-chip">.XLS</span>
+                </div>
+            </div>
+
+            <div class="aishe-banner" id="aisheBanner">
+                <span style="font-size:20px">🏛️</span>
+                <div>AISHE Code detected: <strong id="aisheDisplay">—</strong></div>
+            </div>
+
+            <div class="file-list" id="fileList"></div>
+
+            <div class="count-bar" id="countBar">
+                <span class="count-badge" id="countBadge"></span>
+                <button type="button" class="clear-btn" id="clearBtn">Clear all</button>
+            </div>
+
+            <div class="folder-preview" id="folderPreview"></div>
+
+            <hr class="divider">
+
+            <button type="submit" class="upload-btn" id="uploadBtn" disabled>
+                ⬆️ Upload &amp; Save Files
+            </button>
+
+            <div class="progress-wrap" id="progressWrap">
+                <div class="progress-track">
+                    <div class="progress-fill" id="progressFill"></div>
+                </div>
+                <div class="progress-label" id="progressLabel">Preparing…</div>
+            </div>
+        </form>
+
+        <div class="card-foot">
+            <span>© 2026 University Management System</span>
+            <span style="font-family:var(--mono);font-size:10px">AISHE auto-detect enabled</span>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+<script>
+let selectedFiles  = [];
+let detectedAishe  = null;
+let universityName = '';
+
+const dropZone      = document.getElementById('dropZone');
+const hiddenInput   = document.getElementById('hiddenInput');
+const fileList      = document.getElementById('fileList');
+const countBar      = document.getElementById('countBar');
+const countBadge    = document.getElementById('countBadge');
+const clearBtn      = document.getElementById('clearBtn');
+const uploadBtn     = document.getElementById('uploadBtn');
+const uploadForm    = document.getElementById('uploadForm');
+const progressWrap  = document.getElementById('progressWrap');
+const progressFill  = document.getElementById('progressFill');
+const progressLabel = document.getElementById('progressLabel');
+const aisheBanner   = document.getElementById('aisheBanner');
+const aisheDisplay  = document.getElementById('aisheDisplay');
+const folderPreview = document.getElementById('folderPreview');
+const uniInput      = document.getElementById('uniInput');
+const folderPill    = document.getElementById('folderPill');
+const folderPillText= document.getElementById('folderPillText');
+
+const ALLOWED = ['csv', 'xlsx', 'xls'];
+
+function safeName(val) {
+    return val.trim().replace(/ /g, '_').replace(/[^\w\-]/g, '').replace(/_+/g, '_').replace(/^_+|_+$/g, '').slice(0, 120);
+}
+
+// ── University name input ────────────────────────────────────────────────────
+uniInput.addEventListener('input', () => {
+    universityName = uniInput.value.trim();
+    uniInput.classList.toggle('has-value', universityName.length > 0);
+    render();
+});
+
+// ── Drop zone ────────────────────────────────────────────────────────────────
+dropZone.addEventListener('click', () => hiddenInput.click());
+dropZone.addEventListener('dragover',  e => { e.preventDefault(); dropZone.classList.add('dragover'); });
+dropZone.addEventListener('dragleave', () => dropZone.classList.remove('dragover'));
+dropZone.addEventListener('drop', e => { e.preventDefault(); dropZone.classList.remove('dragover'); addFiles([...e.dataTransfer.files]); });
+hiddenInput.addEventListener('change', () => { addFiles([...hiddenInput.files]); hiddenInput.value = ''; });
+
+function addFiles(newFiles) {
+    const valid = newFiles.filter(f => ALLOWED.includes(f.name.split('.').pop().toLowerCase()));
+    if (valid.length !== newFiles.length) alert('Only .csv, .xlsx and .xls files are accepted.');
+    valid.forEach(f => {
+        if (!selectedFiles.some(s => s.name === f.name && s.size === f.size)) selectedFiles.push(f);
+    });
+    render();
+    valid.forEach(readAishe);
+}
+
+// ── Read AISHE Code column from file ─────────────────────────────────────────
+// Searches for a column named exactly "AISHE Code" (case-insensitive, ignores spaces/underscores)
+function readAishe(file) {
+    const ext = file.name.split('.').pop().toLowerCase();
+    const reader = new FileReader();
+    reader.onload = e => {
+        try {
+            let wb;
+            if (ext === 'csv') wb = XLSX.read(e.target.result, { type: 'string' });
+            else               wb = XLSX.read(new Uint8Array(e.target.result), { type: 'array' });
+
+            const ws   = wb.Sheets[wb.SheetNames[0]];
+            const rows = XLSX.utils.sheet_to_json(ws, { defval: '' });
+            if (!rows.length) return;
+
+            const headers = Object.keys(rows[0]);
+
+            // Find column where cleaned name === "aishecode"
+            const aisheKey = headers.find(h =>
+                h.trim().toLowerCase().replace(/[\s_]/g, '') === 'aishecode'
+            );
+            if (!aisheKey) return;
+
+            // Get first non-empty value
+            for (const row of rows) {
+                const v = String(row[aisheKey]).trim();
+                if (v && v.toLowerCase() !== 'nan' && v.toLowerCase() !== 'none' && v !== '') {
+                    if (!detectedAishe) {
+                        detectedAishe = v;
+                        render();
+                    }
+                    return;
+                }
+            }
+        } catch(err) { console.warn('AISHE read error:', err); }
+    };
+    ext === 'csv' ? reader.readAsText(file) : reader.readAsArrayBuffer(file);
+}
+
+// ── Remove / Clear ───────────────────────────────────────────────────────────
+function removeFile(idx) {
+    selectedFiles.splice(idx, 1);
+    if (!selectedFiles.length) detectedAishe = null;
+    render();
+}
+clearBtn.addEventListener('click', () => { selectedFiles = []; detectedAishe = null; render(); });
+
+// ── Helpers ──────────────────────────────────────────────────────────────────
+function fmtSize(b) {
+    if (b < 1024)  return b + ' B';
+    if (b < 1<<20) return (b/1024).toFixed(1) + ' KB';
+    return (b/(1<<20)).toFixed(2) + ' MB';
+}
+function fileIcon(n) { return n.endsWith('.csv') ? '📄' : '📊'; }
+
+// ── Render ───────────────────────────────────────────────────────────────────
+function render() {
+    const n = selectedFiles.length;
+
+    // File items
+    fileList.innerHTML = '';
+    selectedFiles.forEach((f, i) => {
+        const div = document.createElement('div');
+        div.className = 'file-item';
+        div.style.animationDelay = (i * .04) + 's';
+        div.innerHTML = `
+            <span class="fi-icon">${fileIcon(f.name)}</span>
+            <div class="fi-info">
+                <div class="fi-name" title="${f.name}">${f.name}</div>
+                <div class="fi-meta">${fmtSize(f.size)}</div>
+            </div>
+            <button type="button" class="fi-remove" data-i="${i}" title="Remove">✕</button>`;
+        fileList.appendChild(div);
+    });
+    fileList.querySelectorAll('.fi-remove').forEach(b =>
+        b.addEventListener('click', () => removeFile(+b.dataset.i))
+    );
+
+    // Count bar
+    countBar.classList.toggle('visible', n > 0);
+    countBadge.textContent = n + (n === 1 ? ' file selected' : ' files selected');
+
+    // AISHE banner
+    if (detectedAishe) {
+        aisheBanner.classList.add('visible');
+        aisheDisplay.textContent = detectedAishe;
+    } else {
+        aisheBanner.classList.remove('visible');
+    }
+
+    // Folder pill
+    if (universityName) {
+        const uni   = safeName(universityName);
+        const aishe = detectedAishe ? safeName(detectedAishe) : '…';
+        folderPill.classList.add('visible');
+        folderPillText.textContent = `received / ${uni}_${aishe}`;
+    } else {
+        folderPill.classList.remove('visible');
+    }
+
+    // Folder preview
+    if (universityName && detectedAishe && n) {
+        const folder = `${safeName(universityName)}_${safeName(detectedAishe)}`;
+        let html = `<div class="fp-top">static / data / uploads / received /</div>
+                    <div class="fp-root">📁 ${folder}/</div>`;
+        selectedFiles.forEach(f => { html += `<div class="fp-file">📄 ${f.name}</div>`; });
+        folderPreview.classList.add('visible');
+        folderPreview.innerHTML = html;
+    } else {
+        folderPreview.classList.remove('visible');
+        folderPreview.innerHTML = '';
+    }
+
+    // Button enabled only when name + files both present
+    uploadBtn.disabled = (n === 0 || !universityName);
+}
+
+// ── Submit ───────────────────────────────────────────────────────────────────
+uploadForm.addEventListener('submit', e => {
+    e.preventDefault();
+    if (!selectedFiles.length || !universityName) return;
+
+    const fd = new FormData(uploadForm);
+    fd.delete('student_files');
+    selectedFiles.forEach(f => fd.append('student_files', f));
+
+    uploadBtn.disabled = true;
+    uploadBtn.textContent = '⏳ Uploading…';
+    progressWrap.classList.add('visible');
+
+    let pct = 0;
+    const tick = setInterval(() => {
+        pct = Math.min(pct + Math.random() * 10, 88);
+        progressFill.style.width = pct + '%';
+        progressLabel.textContent = `Uploading ${selectedFiles.length} file(s)…`;
+    }, 220);
+
+    fetch(window.location.href, {
+        method: 'POST', body: fd,
+        headers: { 'X-CSRFToken': fd.get('csrfmiddlewaretoken') }
+    })
+    .then(res => {
+        clearInterval(tick);
+        progressFill.style.width = '100%';
+        progressLabel.textContent = 'Done! Redirecting…';
+        setTimeout(() => { window.location.href = res.url || window.location.href; }, 600);
+    })
+    .catch(() => {
+        clearInterval(tick);
+        progressLabel.textContent = 'Upload failed. Please try again.';
+        uploadBtn.disabled = false;
+        uploadBtn.textContent = '⬆️ Upload & Save Files';
+    });
+});
+</script>
+</body>
+</html>
