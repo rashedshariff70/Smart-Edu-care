@@ -1,0 +1,24 @@
+/* Global mobile-friendly settings */
+* {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Mobile rules */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    display: none;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+}
