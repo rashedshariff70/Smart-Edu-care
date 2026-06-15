@@ -1,0 +1,55 @@
+Relation: Parent
+
+StudentID: iitmece3yr20240001
+Name: Divya Chopra
+Gender: F
+Department: Electronics & Communication
+Program: B.Tech
+Year: 3
+Semester: 6
+Email: divya.chopra1@college.ac.in
+Phone: 939241978
+PAN_CARD: MHDPSYU4KQ
+AISHE_Code: aishe52895
+Guardian_Name: Aarav Bhat
+Guardian_Phone: 988413657
+Attendance: 92%
+DOB: 31-07-2002
+Address: 351 QUG Street, City
+mid1_Signals_Systems: 42
+mid1_Digital_Design: 50
+mid1_Microprocessors: 38
+mid1_Communications: 45
+mid1_VLSI_Design: 45
+mid1_Antennas: 46
+mid1_Power_Electronics: 47
+Mid1_Total: 313
+Mid1_Average: 44.71
+mid2_Signals_Systems: 48
+mid2_Digital_Design: 40
+mid2_Microprocessors: 39
+mid2_Communications: 38
+mid2_VLSI_Design: 43
+mid2_Antennas: 49
+mid2_Power_Electronics: 47
+Mid2_Total: 304
+Mid2_Average: 43.43
+final_Signals_Systems: 47
+final_Digital_Design: 46
+final_Microprocessors: 46
+final_Communications: 53
+final_VLSI_Design: 56
+final_Antennas: 52
+final_Power_Electronics: 41
+Final_Total: 341
+Final_Average: 48.71
+Overall_Average: 45.62
+Internship_Score: 82
+Project_Score: 77
+Attendance_Score: 93
+Practical_Lab_Score: 87
+Academic_Status: Pass
+Grade: B+
+Feedback: Below Average
+Remarks: Excellent
+student_password: IITMECE3YR20240001U4KQ

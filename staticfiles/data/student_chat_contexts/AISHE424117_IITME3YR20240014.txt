@@ -1,0 +1,55 @@
+Relation: Parent
+
+StudentID: IITME3YR20240014
+Name: Arjun Iyer
+Gender: Female
+Department: Mechanical
+Program: B.Tech
+Year: 3rd Year
+Semester: 5th Semester
+Email: arjun.iyer@iitbombay.ac.in
+Phone: 9844393312
+PAN_CARD: XGOHI60057707
+AISHE_Code: AISHE424117
+Guardian_Name: Guardian_14
+Guardian_Phone: 9854888433
+Attendance: 91
+DOB: 8/11/2002
+Address: City-Delhi, PIN-981777
+mid1_design_of_machine_el: 39
+mid1_fluid_mechanics: 32
+mid1_heat__mass_transfer: 39
+mid1_manufacturing_techno: 34
+mid1_mechanical_vibration: 50
+mid1_power_plant_engineer: 32
+mid1_thermodynamics: 44
+Mid1_Total: 270
+Mid1_Average: 38.57
+mid2_design_of_machine_el: 38
+mid2_fluid_mechanics: 45
+mid2_heat__mass_transfer: 40
+mid2_manufacturing_techno: 50
+mid2_mechanical_vibration: 48
+mid2_power_plant_engineer: 43
+mid2_thermodynamics: 36
+Mid2_Total: 300
+Mid2_Average: 42.86
+final_design_of_machine_el: 53
+final_fluid_mechanics: 55
+final_heat__mass_transfer: 97
+final_manufacturing_techno: 98
+final_mechanical_vibration: 80
+final_power_plant_engineer: 96
+final_thermodynamics: 94
+Final_Total: 573
+Final_Average: 81.86
+Overall_Average: 54.43
+Internship_Score: 70
+Project_Score: 76
+Attendance_Score: 91
+Practical_Lab_Score: 69
+Academic_Status: Pass
+Grade: C
+Feedback: Excellent
+Remarks: Excellent
+student_password: IITME3YR202400147707

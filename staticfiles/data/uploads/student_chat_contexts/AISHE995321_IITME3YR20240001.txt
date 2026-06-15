@@ -1,0 +1,57 @@
+=== STUDENT INFORMATION ===
+StudentID: IITME3YR20240001
+Name: Shaik Rashed shairff
+Gender: Male
+Department: Mechanical
+Program: B.Tech
+Year: 3rd Year
+Semester: 5th Semester
+Email: ashish.chopra@iitbombay.ac.in
+Phone: 9838598794
+PAN_CARD: LELXO91890123
+AISHE_Code: AISHE995321
+Guardian_Name: Guardian_1
+Guardian_Phone: 9847260923
+Attendance: 91
+DOB: 17/4/2002
+Address: City-Hyderabad, PIN-147687
+mid1_design_of_machine_el: 37
+mid1_fluid_mechanics: 33
+mid1_heat__mass_transfer: 40
+mid1_manufacturing_techno: 48
+mid1_mechanical_vibration: 39
+mid1_power_plant_engineer: 32
+mid1_thermodynamics: 49
+Mid1_Total: 278
+Mid1_Average: 39.71
+mid2_design_of_machine_el: 42
+mid2_fluid_mechanics: 48
+mid2_heat__mass_transfer: 34
+mid2_manufacturing_techno: 47
+mid2_mechanical_vibration: 48
+mid2_power_plant_engineer: 46
+mid2_thermodynamics: 34
+Mid2_Total: 299
+Mid2_Average: 42.71
+final_design_of_machine_el: 76
+final_fluid_mechanics: 82
+final_heat__mass_transfer: 50
+final_manufacturing_techno: 88
+final_mechanical_vibration: 50
+final_power_plant_engineer: 67
+final_thermodynamics: 46
+Final_Total: 459
+Final_Average: 65.57
+Overall_Average: 49.33
+Internship_Score: 100
+Project_Score: 73
+Attendance_Score: 91
+Practical_Lab_Score: 88
+Academic_Status: Pass
+Grade: D
+Feedback: Average
+Remarks: Irregular
+student_password: IITME3YR202400010123
+
+=== COLLEGE RULES ===
+(No rules file uploaded yet)

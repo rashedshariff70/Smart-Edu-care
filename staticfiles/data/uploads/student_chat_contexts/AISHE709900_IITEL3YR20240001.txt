@@ -1,0 +1,59 @@
+=== STUDENT INFORMATION ===
+StudentID: IITEL3YR20240001
+Name: Shaik Rashed shariff
+Gender: Male
+Department: Electrical
+Program: B.Tech
+Year: 3rd Year
+Semester: 5th Semester
+Email: pooja.patel@iitbombay.ac.in
+Phone: 9860660063
+PAN_CARD: AALQU45309248
+AISHE_Code: AISHE709900
+Guardian_Name: Guardian_1
+Guardian_Phone: 9888433271
+Attendance: 100
+DOB: 5/10/2002
+Address: City-Mumbai, PIN-347287
+mid1_control_systems: 33
+mid1_electrical_distribut: 37
+mid1_electrical_machines: 31
+mid1_high_voltage_enginee: 48
+mid1_power_electronics: 35
+mid1_power_system_protect: 36
+mid1_power_systems: 38
+Mid1_Total: 258
+Mid1_Average: 36.86
+mid2_control_systems: 48
+mid2_electrical_distribut: 31
+mid2_electrical_machines: 50
+mid2_high_voltage_enginee: 34
+mid2_power_electronics: 46
+mid2_power_system_protect: 40
+mid2_power_systems: 35
+Mid2_Total: 284
+Mid2_Average: 40.57
+final_control_systems: 57
+final_electrical_distribut: 84
+final_electrical_machines: 64
+final_high_voltage_enginee: 69
+final_power_electronics: 89
+final_power_system_protect: 97
+final_power_systems: 72
+Final_Total: 532
+Final_Average: 76
+Overall_Average: 51.14
+Internship_Score: 85
+Project_Score: 86
+Attendance_Score: 100
+Practical_Lab_Score: 74
+Academic_Status: Pass
+Grade: C
+Feedback: Good
+Remarks: Good Progress
+PAN_CARD.1: AALQU45309248
+AISHE_Code.1: AISHE709900
+student_password: IITEL3YR202400019248
+
+=== COLLEGE RULES ===
+(No rules file uploaded yet)

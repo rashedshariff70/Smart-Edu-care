@@ -1,0 +1,57 @@
+=== STUDENT INFORMATION ===
+StudentID: BITSCSE3YR20240009
+Name: Aditya Pandey
+Gender: F
+Department: Computer Science & Engineering
+Program: B.Tech
+Year: 3
+Semester: 6
+Email: aditya.pandey9@college.ac.in
+Phone: 915570130
+PAN_CARD: Q79X9UXQCZ
+AISHE_Code: AISHE32834
+Guardian_Name: Vivaan Reddy
+Guardian_Phone: 995371696
+Attendance: 92%
+DOB: 18-08-2001
+Address: 822 FDS Street, City
+mid1_Data Structures: 48
+mid1_Algorithms: 36
+mid1_Database: 50
+mid1_Web Dev: 35
+mid1_Software Eng: 36
+mid1_Compiler Design: 35
+mid1_AI_ML: 39
+Mid1_Total: 279
+Mid1_Average: 39.86
+mid2_Data Structures: 40
+mid2_Algorithms: 37
+mid2_Database: 37
+mid2_Web Dev: 40
+mid2_Software Eng: 43
+mid2_Compiler Design: 49
+mid2_AI_ML: 39
+Mid2_Total: 285
+Mid2_Average: 40.71
+final_Data Structures: 42
+final_Algorithms: 59
+final_Database: 58
+final_Web Dev: 52
+final_Software Eng: 49
+final_Compiler Design: 43
+final_AI_ML: 42
+Final_Total: 345
+Final_Average: 49.29
+Overall_Average: 43.29
+Internship_Score: 65
+Project_Score: 76
+Attendance_Score: 75
+Practical_Lab_Score: 82
+Academic_Status: Pass
+Grade: B+
+Feedback: Good
+Remarks: Consistent
+student_password: BITSCSE3YR20240009XQCZ
+
+=== COLLEGE RULES ===
+(No rules file uploaded yet)

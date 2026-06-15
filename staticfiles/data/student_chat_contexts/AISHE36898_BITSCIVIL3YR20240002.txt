@@ -1,0 +1,55 @@
+Relation: Parent
+
+StudentID: bitscivil3yr20240002
+Name: Sneha Gupta
+Gender: M
+Department: Civil Engineering
+Program: B.Tech
+Year: 3
+Semester: 6
+Email: sneha.gupta2@college.ac.in
+Phone: 985250231
+DOB: 10-01-2002
+Address: 984 PVM Street, City
+Guardian_Name: Atharv Joshi
+Guardian_Phone: 991593424
+Attendance: 84%
+PAN_CARD: QVY2PT4TLA
+AISHE_Code: aishe36898
+mid1_Structures: 41
+mid1_Geotechnics: 46
+mid1_Hydraulics: 41
+mid1_Transportation: 46
+mid1_Environmental: 37
+mid1_Surveying: 36
+mid1_Construction: 41
+Mid1_Total: 288
+Mid1_Average: 41.14
+mid2_Structures: 45
+mid2_Geotechnics: 38
+mid2_Hydraulics: 45
+mid2_Transportation: 35
+mid2_Environmental: 38
+mid2_Surveying: 49
+mid2_Construction: 39
+Mid2_Total: 289
+Mid2_Average: 41.29
+final_Structures: 54
+final_Geotechnics: 47
+final_Hydraulics: 60
+final_Transportation: 54
+final_Environmental: 57
+final_Surveying: 42
+final_Construction: 41
+Final_Total: 355
+Final_Average: 50.71
+Overall_Average: 44.38
+Internship_Score: 73
+Project_Score: 78
+Attendance_Score: 89
+Practical_Lab_Score: 70
+Academic_Status: Pass
+Grade: B+
+Feedback: Good
+Remarks: Needs Improvement
+student_password: BITSCIVIL3YR202400024TLA

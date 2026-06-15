@@ -1,0 +1,1801 @@
+StudentID,Name,Gender,Department,Program,Year,Email,Phone,Attendance,PAN_CARD
+KLU00001,Harika Das,Female,M.Sc Data Science,PG,1,harika.das9101@klu.edu.in,9880516031,95.22,EAFPD0001I
+KLU00002,Vinay Gupta,Male,M.Sc Data Science,PG,1,vinay.gupta9102@klu.edu.in,9884898522,88.0,BYGPG0002S
+KLU00003,Vikram Verma,Female,M.Sc Data Science,PG,1,vikram.verma9103@klu.edu.in,9858402591,81.18,OHNPV0003Q
+KLU00004,Rahul Bose,Female,M.Sc Data Science,PG,1,rahul.bose9104@klu.edu.in,9865063492,78.08,TDQPB0004I
+KLU00005,Vinay Sharma,Female,M.Sc Data Science,PG,1,vinay.sharma9105@klu.edu.in,9877312184,64.2,MAKPS0005Z
+KLU00006,Neha Iyer,Male,M.Sc Data Science,PG,1,neha.iyer9106@klu.edu.in,9848603601,91.15,FVWPI0006M
+KLU00007,Harika Mishra,Female,M.Sc Data Science,PG,1,harika.mishra9107@klu.edu.in,9861444429,90.23,EGOPM0007F
+KLU00008,Sanjay Das,Female,M.Sc Data Science,PG,1,sanjay.das9108@klu.edu.in,9856019566,65.25,UZDPD0008S
+KLU00009,Divya Jain,Male,M.Sc Data Science,PG,1,divya.jain9109@klu.edu.in,9812418883,72.53,FRGPJ0009Z
+KLU00010,Sameer Reddy,Male,M.Sc Data Science,PG,1,sameer.reddy9110@klu.edu.in,9861519012,85.93,ANBPR0010I
+KLU00011,Sneha Mishra,Male,M.Sc Data Science,PG,1,sneha.mishra9111@klu.edu.in,9870876988,73.89,SUXPM0011A
+KLU00012,Neha Bose,Male,M.Sc Data Science,PG,1,neha.bose9112@klu.edu.in,9816285043,75.25,GBAPB0012U
+KLU00013,Ritika Gupta,Male,M.Sc Data Science,PG,1,ritika.gupta9113@klu.edu.in,9894311229,80.76,AXRPG0013O
+KLU00014,Sanjay Malhotra,Male,M.Sc Data Science,PG,1,sanjay.malhotra9114@klu.edu.in,9844437309,74.19,ZGRPM0014J
+KLU00015,Divya Kumar,Male,M.Sc Data Science,PG,1,divya.kumar9115@klu.edu.in,9891832076,94.9,YUYPK0015I
+KLU00016,Ananya Yadav,Male,M.Sc Data Science,PG,1,ananya.yadav9116@klu.edu.in,9810433603,86.56,OUDPY0016P
+KLU00017,Pooja Malhotra,Male,M.Sc Data Science,PG,1,pooja.malhotra9117@klu.edu.in,9869598157,85.08,FJWPM0017O
+KLU00018,Divya Das,Female,M.Sc Data Science,PG,1,divya.das9118@klu.edu.in,9862810336,90.64,BOZPD0018N
+KLU00019,Ravi Rao,Male,M.Sc Data Science,PG,1,ravi.rao9119@klu.edu.in,9831764048,85.93,EHFPR0019G
+KLU00020,Rahul Patel,Male,M.Sc Data Science,PG,1,rashedshariff70@gmail.com,9870514631,100.0,BVLPP0020Y
+KLU00021,Yash Das,Female,M.Sc Data Science,PG,1,yash.das9121@klu.edu.in,9812279609,45.0,FWZPD0021W
+KLU00022,Vikram Iyer,Female,M.Sc Data Science,PG,1,vikram.iyer9122@klu.edu.in,9883047741,81.87,UUTPI0022R
+KLU00023,Rahul Rao,Female,M.Sc Data Science,PG,1,rahul.rao9123@klu.edu.in,9874475336,98.23,QVMPR0023Q
+KLU00024,Rahul Shetty,Female,M.Sc Data Science,PG,1,rahul.shetty9124@klu.edu.in,9820591218,81.63,PSUPS0024H
+KLU00025,Divya Bose,Male,M.Sc Data Science,PG,1,divya.bose9125@klu.edu.in,9853066465,97.89,IHVPB0025B
+KLU00026,Meghana Bose,Female,M.Sc Data Science,PG,1,meghana.bose9126@klu.edu.in,9899444537,95.44,FTTPB0026S
+KLU00027,Arjun Kumar,Female,M.Sc Data Science,PG,1,arjun.kumar9127@klu.edu.in,9818949202,68.38,COGPK0027S
+KLU00028,Sneha Iyer,Male,M.Sc Data Science,PG,1,brfloydraiss@gmail.com,9823276091,85.0,HYRPI0028Y
+KLU00029,Divya Rao,Female,M.Sc Data Science,PG,1,divya.rao9129@klu.edu.in,9843682151,96.29,MZTPR0029W
+KLU00030,Sameer Jain,Female,M.Sc Data Science,PG,1,sameer.jain9130@klu.edu.in,9813418059,93.87,PDTPJ0030Z
+KLU00031,Ritika Bhat,Male,M.Sc Data Science,PG,1,ritika.bhat9131@klu.edu.in,9832021203,93.84,HZPPB0031J
+KLU00032,Yash Kumar,Female,M.Sc Data Science,PG,1,yash.kumar9132@klu.edu.in,9892172647,67.41,IDIPK0032H
+KLU00033,Nikhil Malhotra,Male,M.Sc Data Science,PG,1,nikhil.malhotra9133@klu.edu.in,9892509994,88.03,JUNPM0033I
+KLU00034,Yash Nair,Female,M.Sc Data Science,PG,1,yash.nair9134@klu.edu.in,9858038373,82.01,NOTPN0034F
+KLU00035,Yash Reddy,Male,M.Sc Data Science,PG,1,yash.reddy9135@klu.edu.in,9843328819,74.68,CHCPR0035U
+KLU00036,Kiran Kumar,Female,M.Sc Data Science,PG,1,kiran.kumar9136@klu.edu.in,9836312700,77.68,RKDPK0036F
+KLU00037,Ravi Mishra,Female,M.Sc Data Science,PG,1,ravi.mishra9137@klu.edu.in,9840191171,62.11,DJWPM0037F
+KLU00038,Harika Das,Female,M.Sc Data Science,PG,1,harika.das9138@klu.edu.in,9845199125,90.98,KMMPD0038T
+KLU00039,Divya Patel,Male,M.Sc Data Science,PG,1,divya.patel9139@klu.edu.in,9891902021,64.81,LHTPP0039H
+KLU00040,Kiran Rao,Male,M.Sc Data Science,PG,1,kiran.rao9140@klu.edu.in,9830474127,89.61,JTYPR0040N
+KLU00041,Nikhil Malhotra,Female,M.Sc Data Science,PG,1,nikhil.malhotra9141@klu.edu.in,9868509943,86.46,OUOPM0041N
+KLU00042,Vikram Yadav,Male,M.Sc Data Science,PG,1,vikram.yadav9142@klu.edu.in,9864296155,80.55,CUDPY0042U
+KLU00043,Divya Jain,Male,M.Sc Data Science,PG,1,divya.jain9143@klu.edu.in,9856163637,73.48,OBDPJ0043R
+KLU00044,Nikhil Mishra,Female,M.Sc Data Science,PG,1,nikhil.mishra9144@klu.edu.in,9861981861,96.89,NJMPM0044B
+KLU00045,Kavya Rao,Female,M.Sc Data Science,PG,1,kavya.rao9145@klu.edu.in,9824668848,95.22,LBEPR0045W
+KLU00046,Ritika Bhat,Male,M.Sc Data Science,PG,1,ritika.bhat9146@klu.edu.in,9863200822,77.52,CQBPB0046D
+KLU00047,Vinay Shetty,Male,M.Sc Data Science,PG,1,vinay.shetty9147@klu.edu.in,9812409060,99.72,IXHPS0047V
+KLU00048,Vinay Gupta,Female,M.Sc Data Science,PG,1,vinay.gupta9148@klu.edu.in,9874240749,71.3,SCTPG0048R
+KLU00049,Ritika Jain,Male,M.Sc Data Science,PG,1,ritika.jain9149@klu.edu.in,9884000585,80.87,BBEPJ0049Q
+KLU00050,Pooja Bose,Female,M.Sc Data Science,PG,1,pooja.bose9150@klu.edu.in,9857305779,84.43,REEPB0050C
+KLU00051,Rahul Chopra,Female,M.Sc Data Science,PG,1,rahul.chopra9151@klu.edu.in,9879131266,71.23,IWYPC0051L
+KLU00052,Kiran Sharma,Male,M.Sc Data Science,PG,1,kiran.sharma9152@klu.edu.in,9853794662,97.36,GWGPS0052Y
+KLU00053,Vikram Iyer,Female,M.Sc Data Science,PG,1,vikram.iyer9153@klu.edu.in,9856703007,69.41,AMYPI0053Q
+KLU00054,Aman Singh,Male,M.Sc Data Science,PG,1,aman.singh9154@klu.edu.in,9890606835,62.71,EGKPS0054G
+KLU00055,Harika Verma,Male,M.Sc Data Science,PG,1,harika.verma9155@klu.edu.in,9853184749,69.12,FHUPV0055W
+KLU00056,Kiran Bose,Female,M.Sc Data Science,PG,1,kiran.bose9156@klu.edu.in,9875235726,77.24,LPWPB0056D
+KLU00057,Sameer Gupta,Male,M.Sc Data Science,PG,1,sameer.gupta9157@klu.edu.in,9878869280,86.15,QVSPG0057F
+KLU00058,Ananya Mishra,Female,M.Sc Data Science,PG,1,ananya.mishra9158@klu.edu.in,9836499650,85.06,XVZPM0058F
+KLU00059,Arjun Bose,Female,M.Sc Data Science,PG,1,arjun.bose9159@klu.edu.in,9880666486,85.14,VLSPB0059T
+KLU00060,Rahul Bhat,Female,M.Sc Data Science,PG,1,rahul.bhat9160@klu.edu.in,9874410984,80.85,MBUPB0060W
+KLU00061,Ritika Das,Female,M.Sc Data Science,PG,2,ritika.das9201@klu.edu.in,9835541526,91.04,TKWPD0061X
+KLU00062,Harika Malhotra,Female,M.Sc Data Science,PG,2,harika.malhotra9202@klu.edu.in,9872997859,62.26,XHBPM0062D
+KLU00063,Divya Malhotra,Male,M.Sc Data Science,PG,2,divya.malhotra9203@klu.edu.in,9870227096,82.62,XSUPM0063Q
+KLU00064,Arjun Rao,Male,M.Sc Data Science,PG,2,arjun.rao9204@klu.edu.in,9821332510,91.55,HKIPR0064T
+KLU00065,Meghana Kumar,Female,M.Sc Data Science,PG,2,meghana.kumar9205@klu.edu.in,9872294741,86.29,GEEPK0065X
+KLU00066,Aman Das,Female,M.Sc Data Science,PG,2,aman.das9206@klu.edu.in,9827286187,69.42,GJNPD0066I
+KLU00067,Nikhil Iyer,Male,M.Sc Data Science,PG,2,nikhil.iyer9207@klu.edu.in,9893238382,63.81,XQJPI0067L
+KLU00068,Sameer Gupta,Female,M.Sc Data Science,PG,2,sameer.gupta9208@klu.edu.in,9855777402,60.39,AUXPG0068K
+KLU00069,Yash Bose,Female,M.Sc Data Science,PG,2,yash.bose9209@klu.edu.in,9858892398,80.9,RWGPB0069P
+KLU00070,Sameer Malhotra,Female,M.Sc Data Science,PG,2,sameer.malhotra9210@klu.edu.in,9889804189,82.59,MMOPM0070C
+KLU00071,Vinay Bose,Male,M.Sc Data Science,PG,2,vinay.bose9211@klu.edu.in,9848989310,97.75,EWMPB0071O
+KLU00072,Kiran Rao,Female,M.Sc Data Science,PG,2,kiran.rao9212@klu.edu.in,9834739735,97.16,DBQPR0072T
+KLU00073,Divya Chopra,Male,M.Sc Data Science,PG,2,divya.chopra9213@klu.edu.in,9871386256,86.36,KTIPC0073Z
+KLU00074,Kiran Jain,Male,M.Sc Data Science,PG,2,kiran.jain9214@klu.edu.in,9856777199,76.23,NOSPJ0074V
+KLU00075,Ananya Gupta,Male,M.Sc Data Science,PG,2,ananya.gupta9215@klu.edu.in,9853283915,98.64,CJXPG0075V
+KLU00076,Ananya Singh,Male,M.Sc Data Science,PG,2,ananya.singh9216@klu.edu.in,9884986045,79.48,FHKPS0076B
+KLU00077,Ananya Kumar,Male,M.Sc Data Science,PG,2,ananya.kumar9217@klu.edu.in,9841490555,75.81,AAXPK0077S
+KLU00078,Nikhil Singh,Female,M.Sc Data Science,PG,2,nikhil.singh9218@klu.edu.in,9894115710,89.85,DUDPS0078F
+KLU00079,Sneha Iyer,Female,M.Sc Data Science,PG,2,sneha.iyer9219@klu.edu.in,9837984558,96.62,FDXPI0079T
+KLU00080,Pooja Singh,Male,M.Sc Data Science,PG,2,pooja.singh9220@klu.edu.in,9889329662,95.78,TVSPS0080V
+KLU00081,Sanjay Mishra,Female,M.Sc Data Science,PG,2,sanjay.mishra9221@klu.edu.in,9840799963,74.91,LRLPM0081U
+KLU00082,Rahul Malhotra,Male,M.Sc Data Science,PG,2,rahul.malhotra9222@klu.edu.in,9820462147,83.04,TKYPM0082U
+KLU00083,Ritika Bose,Male,M.Sc Data Science,PG,2,ritika.bose9223@klu.edu.in,9824675320,81.9,QUOPB0083B
+KLU00084,Ritika Iyer,Female,M.Sc Data Science,PG,2,ritika.iyer9224@klu.edu.in,9845827088,73.02,ERNPI0084K
+KLU00085,Ritika Reddy,Female,M.Sc Data Science,PG,2,ritika.reddy9225@klu.edu.in,9860300074,99.18,XYTPR0085U
+KLU00086,Aman Sharma,Male,M.Sc Data Science,PG,2,aman.sharma9226@klu.edu.in,9814538317,90.88,WZTPS0086I
+KLU00087,Kiran Sharma,Male,M.Sc Data Science,PG,2,kiran.sharma9227@klu.edu.in,9851535441,61.06,AUUPS0087K
+KLU00088,Sameer Verma,Male,M.Sc Data Science,PG,2,sameer.verma9228@klu.edu.in,9841243307,68.85,NZTPV0088U
+KLU00089,Nikhil Iyer,Female,M.Sc Data Science,PG,2,nikhil.iyer9229@klu.edu.in,9811429261,79.32,NVZPI0089V
+KLU00090,Vinay Reddy,Male,M.Sc Data Science,PG,2,vinay.reddy9230@klu.edu.in,9842468771,67.08,BNLPR0090R
+KLU00091,Ritika Das,Female,M.Sc Data Science,PG,2,ritika.das9231@klu.edu.in,9832999080,66.72,WZSPD0091B
+KLU00092,Sameer Bose,Male,M.Sc Data Science,PG,2,sameer.bose9232@klu.edu.in,9883852000,96.19,ZGJPB0092I
+KLU00093,Arjun Malhotra,Female,M.Sc Data Science,PG,2,arjun.malhotra9233@klu.edu.in,9877942234,74.73,DNZPM0093X
+KLU00094,Harika Reddy,Male,M.Sc Data Science,PG,2,harika.reddy9234@klu.edu.in,9892431721,68.33,YOXPR0094E
+KLU00095,Yash Rao,Female,M.Sc Data Science,PG,2,yash.rao9235@klu.edu.in,9879689593,68.87,HIJPR0095U
+KLU00096,Sameer Naidu,Male,M.Sc Data Science,PG,2,sameer.naidu9236@klu.edu.in,9812438422,78.98,DHXPN0096P
+KLU00097,Rahul Mishra,Male,M.Sc Data Science,PG,2,rahul.mishra9237@klu.edu.in,9835020081,71.56,CLHPM0097Z
+KLU00098,Arjun Sharma,Female,M.Sc Data Science,PG,2,arjun.sharma9238@klu.edu.in,9834997910,99.22,TPUPS0098F
+KLU00099,Meghana Singh,Male,M.Sc Data Science,PG,2,meghana.singh9239@klu.edu.in,9850424480,78.48,EQAPS0099E
+KLU00100,Vikram Iyer,Female,M.Sc Data Science,PG,2,vikram.iyer9240@klu.edu.in,9894962283,66.91,JGOPI0100E
+KLU00101,Sanjay Jain,Female,M.Sc Data Science,PG,2,sanjay.jain9241@klu.edu.in,9873712610,86.13,HTZPJ0101S
+KLU00102,Sameer Malhotra,Male,M.Sc Data Science,PG,2,sameer.malhotra9242@klu.edu.in,9867428479,82.85,XGJPM0102A
+KLU00103,Sameer Nair,Female,M.Sc Data Science,PG,2,sameer.nair9243@klu.edu.in,9866721183,92.57,VWUPN0103J
+KLU00104,Divya Bose,Male,M.Sc Data Science,PG,2,divya.bose9244@klu.edu.in,9870764087,90.52,RQBPB0104K
+KLU00105,Nikhil Kumar,Female,M.Sc Data Science,PG,2,nikhil.kumar9245@klu.edu.in,9843149868,75.92,GENPK0105H
+KLU00106,Vikram Chopra,Male,M.Sc Data Science,PG,2,vikram.chopra9246@klu.edu.in,9837504839,93.63,UNZPC0106D
+KLU00107,Sameer Gupta,Female,M.Sc Data Science,PG,2,sameer.gupta9247@klu.edu.in,9851794497,79.77,XTRPG0107K
+KLU00108,Yash Iyer,Male,M.Sc Data Science,PG,2,yash.iyer9248@klu.edu.in,9885032108,91.86,BBVPI0108Z
+KLU00109,Aman Naidu,Female,M.Sc Data Science,PG,2,aman.naidu9249@klu.edu.in,9835189040,85.01,BUGPN0109S
+KLU00110,Aman Bhat,Male,M.Sc Data Science,PG,2,aman.bhat9250@klu.edu.in,9827254358,71.03,GCIPB0110Q
+KLU00111,Meghana Naidu,Female,M.Sc Data Science,PG,2,meghana.naidu9251@klu.edu.in,9873625731,90.93,EQCPN0111C
+KLU00112,Vikram Jain,Male,M.Sc Data Science,PG,2,vikram.jain9252@klu.edu.in,9869057017,65.7,CCVPJ0112E
+KLU00113,Harika Sharma,Female,M.Sc Data Science,PG,2,harika.sharma9253@klu.edu.in,9849638275,67.42,ACNPS0113Q
+KLU00114,Neha Gupta,Male,M.Sc Data Science,PG,2,neha.gupta9254@klu.edu.in,9844121120,82.04,NDKPG0114B
+KLU00115,Harika Rao,Female,M.Sc Data Science,PG,2,harika.rao9255@klu.edu.in,9813472670,70.95,XFBPR0115O
+KLU00116,Pooja Nair,Male,M.Sc Data Science,PG,2,pooja.nair9256@klu.edu.in,9854803831,70.35,VYXPN0116C
+KLU00117,Ravi Sharma,Male,M.Sc Data Science,PG,2,ravi.sharma9257@klu.edu.in,9880123013,64.37,SHLPS0117V
+KLU00118,Kavya Sharma,Female,M.Sc Data Science,PG,2,kavya.sharma9258@klu.edu.in,9862439107,90.28,IZCPS0118K
+KLU00119,Pooja Mishra,Female,M.Sc Data Science,PG,2,pooja.mishra9259@klu.edu.in,9817918544,60.95,AMJPM0119G
+KLU00120,Rahul Jain,Male,M.Sc Data Science,PG,2,rahul.jain9260@klu.edu.in,9821150344,77.98,KGDPJ0120C
+KLU00121,Kiran Reddy,Male,M.Tech CSE,PG,1,kiran.reddy5101@klu.edu.in,9842732960,92.96,ATXPR0121J
+KLU00122,Rahul Mishra,Male,M.Tech CSE,PG,1,rahul.mishra5102@klu.edu.in,9848350854,92.5,YDTPM0122X
+KLU00123,Kiran Shetty,Female,M.Tech CSE,PG,1,kiran.shetty5103@klu.edu.in,9895765761,76.97,DKTPS0123H
+KLU00124,Ananya Iyer,Female,M.Tech CSE,PG,1,ananya.iyer5104@klu.edu.in,9866727183,71.31,VIOPI0124E
+KLU00125,Aman Jain,Female,M.Tech CSE,PG,1,aman.jain5105@klu.edu.in,9814523266,62.72,BKIPJ0125M
+KLU00126,Ananya Naidu,Female,M.Tech CSE,PG,1,ananya.naidu5106@klu.edu.in,9873457237,65.82,YLKPN0126H
+KLU00127,Arjun Jain,Female,M.Tech CSE,PG,1,arjun.jain5107@klu.edu.in,9858844549,94.14,BNJPJ0127P
+KLU00128,Vikram Malhotra,Male,M.Tech CSE,PG,1,vikram.malhotra5108@klu.edu.in,9844399847,77.76,FJKPM0128A
+KLU00129,Arjun Das,Female,M.Tech CSE,PG,1,arjun.das5109@klu.edu.in,9857996668,63.58,PUKPD0129P
+KLU00130,Harika Reddy,Male,M.Tech CSE,PG,1,harika.reddy5110@klu.edu.in,9841677881,81.24,CWWPR0130U
+KLU00131,Harika Verma,Male,M.Tech CSE,PG,1,harika.verma5111@klu.edu.in,9839547456,87.06,XQIPV0131D
+KLU00132,Sneha Kumar,Male,M.Tech CSE,PG,1,sneha.kumar5112@klu.edu.in,9855436395,93.98,ONGPK0132W
+KLU00133,Rahul Shetty,Female,M.Tech CSE,PG,1,rahul.shetty5113@klu.edu.in,9879072047,80.58,HXNPS0133N
+KLU00134,Ananya Rao,Male,M.Tech CSE,PG,1,ananya.rao5114@klu.edu.in,9884143205,70.59,HTXPR0134Z
+KLU00135,Neha Reddy,Female,M.Tech CSE,PG,1,neha.reddy5115@klu.edu.in,9894341488,97.97,NIUPR0135L
+KLU00136,Ravi Reddy,Male,M.Tech CSE,PG,1,ravi.reddy5116@klu.edu.in,9874760486,77.83,ENWPR0136H
+KLU00137,Arjun Das,Female,M.Tech CSE,PG,1,arjun.das5117@klu.edu.in,9867915735,96.78,BGCPD0137H
+KLU00138,Harika Bose,Female,M.Tech CSE,PG,1,harika.bose5118@klu.edu.in,9825789838,63.41,AVPPB0138C
+KLU00139,Sneha Sharma,Male,M.Tech CSE,PG,1,sneha.sharma5119@klu.edu.in,9835716681,65.07,CYQPS0139Z
+KLU00140,Sneha Patel,Male,M.Tech CSE,PG,1,sneha.patel5120@klu.edu.in,9836024662,87.33,KFKPP0140W
+KLU00141,Nikhil Nair,Female,M.Tech CSE,PG,1,nikhil.nair5121@klu.edu.in,9868014181,74.94,YMZPN0141S
+KLU00142,Sameer Das,Male,M.Tech CSE,PG,1,sameer.das5122@klu.edu.in,9887143286,64.53,KBHPD0142L
+KLU00143,Rahul Yadav,Male,M.Tech CSE,PG,1,rahul.yadav5123@klu.edu.in,9837402376,72.14,BAFPY0143Y
+KLU00144,Kavya Mishra,Female,M.Tech CSE,PG,1,kavya.mishra5124@klu.edu.in,9871493003,81.13,CSGPM0144K
+KLU00145,Harika Sharma,Female,M.Tech CSE,PG,1,harika.sharma5125@klu.edu.in,9869390192,77.84,KOFPS0145B
+KLU00146,Rahul Bose,Male,M.Tech CSE,PG,1,rahul.bose5126@klu.edu.in,9831154305,89.68,HLXPB0146O
+KLU00147,Ritika Naidu,Male,M.Tech CSE,PG,1,ritika.naidu5127@klu.edu.in,9827906306,81.33,FTGPN0147X
+KLU00148,Kiran Mishra,Male,M.Tech CSE,PG,1,kiran.mishra5128@klu.edu.in,9889731122,76.67,XNFPM0148J
+KLU00149,Yash Yadav,Male,M.Tech CSE,PG,1,yash.yadav5129@klu.edu.in,9815110398,99.68,RWAPY0149Y
+KLU00150,Divya Rao,Female,M.Tech CSE,PG,1,divya.rao5130@klu.edu.in,9833399199,98.7,SVFPR0150C
+KLU00151,Arjun Verma,Male,M.Tech CSE,PG,1,arjun.verma5131@klu.edu.in,9861708440,80.67,VRDPV0151A
+KLU00152,Sanjay Malhotra,Male,M.Tech CSE,PG,1,sanjay.malhotra5132@klu.edu.in,9854507056,81.28,OYVPM0152W
+KLU00153,Yash Shetty,Female,M.Tech CSE,PG,1,yash.shetty5133@klu.edu.in,9830480787,82.57,FVTPS0153Y
+KLU00154,Divya Das,Female,M.Tech CSE,PG,1,divya.das5134@klu.edu.in,9887082158,88.79,OKRPD0154Y
+KLU00155,Sameer Iyer,Female,M.Tech CSE,PG,1,sameer.iyer5135@klu.edu.in,9899504621,75.33,JDSPI0155S
+KLU00156,Vikram Rao,Female,M.Tech CSE,PG,1,vikram.rao5136@klu.edu.in,9894659993,63.37,GPVPR0156S
+KLU00157,Meghana Das,Female,M.Tech CSE,PG,1,meghana.das5137@klu.edu.in,9896923940,93.83,BLAPD0157X
+KLU00158,Ananya Iyer,Male,M.Tech CSE,PG,1,ananya.iyer5138@klu.edu.in,9866485028,78.97,CLTPI0158I
+KLU00159,Pooja Mishra,Female,M.Tech CSE,PG,1,pooja.mishra5139@klu.edu.in,9830495262,74.68,MDOPM0159F
+KLU00160,Sanjay Gupta,Female,M.Tech CSE,PG,1,sanjay.gupta5140@klu.edu.in,9861029930,66.47,CEDPG0160K
+KLU00161,Rahul Shetty,Female,M.Tech CSE,PG,1,rahul.shetty5141@klu.edu.in,9848054098,73.17,MHMPS0161R
+KLU00162,Ritika Bhat,Male,M.Tech CSE,PG,1,ritika.bhat5142@klu.edu.in,9895995761,71.42,XKLPB0162S
+KLU00163,Ritika Reddy,Male,M.Tech CSE,PG,1,ritika.reddy5143@klu.edu.in,9893777129,78.95,KHBPR0163I
+KLU00164,Arjun Gupta,Male,M.Tech CSE,PG,1,arjun.gupta5144@klu.edu.in,9894194021,82.23,MDUPG0164A
+KLU00165,Vinay Kumar,Female,M.Tech CSE,PG,1,vinay.kumar5145@klu.edu.in,9815900448,69.25,EJJPK0165U
+KLU00166,Pooja Bose,Female,M.Tech CSE,PG,1,pooja.bose5146@klu.edu.in,9822041788,96.03,RUEPB0166P
+KLU00167,Arjun Bose,Female,M.Tech CSE,PG,1,arjun.bose5147@klu.edu.in,9855149839,91.05,NUXPB0167F
+KLU00168,Meghana Rao,Female,M.Tech CSE,PG,1,meghana.rao5148@klu.edu.in,9844254251,75.54,QEXPR0168N
+KLU00169,Vikram Nair,Female,M.Tech CSE,PG,1,vikram.nair5149@klu.edu.in,9852165952,82.16,IIQPN0169P
+KLU00170,Kavya Das,Male,M.Tech CSE,PG,1,kavya.das5150@klu.edu.in,9839593972,62.59,MAAPD0170K
+KLU00171,Ritika Kumar,Female,M.Tech CSE,PG,1,ritika.kumar5151@klu.edu.in,9834072078,63.43,FGJPK0171V
+KLU00172,Aman Verma,Male,M.Tech CSE,PG,1,aman.verma5152@klu.edu.in,9821793744,67.11,TKFPV0172R
+KLU00173,Meghana Patel,Female,M.Tech CSE,PG,1,meghana.patel5153@klu.edu.in,9823893249,70.62,DUDPP0173O
+KLU00174,Pooja Gupta,Male,M.Tech CSE,PG,1,pooja.gupta5154@klu.edu.in,9833127844,64.28,TTVPG0174G
+KLU00175,Kavya Patel,Female,M.Tech CSE,PG,1,kavya.patel5155@klu.edu.in,9886538810,95.96,TMZPP0175J
+KLU00176,Ananya Shetty,Female,M.Tech CSE,PG,1,ananya.shetty5156@klu.edu.in,9840250435,86.51,SFTPS0176G
+KLU00177,Kavya Gupta,Male,M.Tech CSE,PG,1,kavya.gupta5157@klu.edu.in,9819668643,61.11,LMNPG0177K
+KLU00178,Kiran Reddy,Male,M.Tech CSE,PG,1,kiran.reddy5158@klu.edu.in,9852694935,78.8,MXGPR0178H
+KLU00179,Ravi Sharma,Male,M.Tech CSE,PG,1,ravi.sharma5159@klu.edu.in,9886981161,88.22,ZHHPS0179M
+KLU00180,Harika Rao,Female,M.Tech CSE,PG,1,harika.rao5160@klu.edu.in,9883657960,75.49,TPMPR0180F
+KLU00181,Pooja Yadav,Female,M.Tech CSE,PG,2,pooja.yadav5201@klu.edu.in,9817914200,80.27,UFQPY0181X
+KLU00182,Pooja Shetty,Male,M.Tech CSE,PG,2,pooja.shetty5202@klu.edu.in,9892168884,83.46,ECSPS0182H
+KLU00183,Vinay Naidu,Female,M.Tech CSE,PG,2,vinay.naidu5203@klu.edu.in,9827629386,68.91,LISPN0183C
+KLU00184,Pooja Patel,Female,M.Tech CSE,PG,2,pooja.patel5204@klu.edu.in,9858680663,68.21,INRPP0184F
+KLU00185,Vinay Verma,Male,M.Tech CSE,PG,2,vinay.verma5205@klu.edu.in,9862611568,63.59,YTQPV0185S
+KLU00186,Ritika Gupta,Male,M.Tech CSE,PG,2,ritika.gupta5206@klu.edu.in,9840938416,80.08,FEKPG0186M
+KLU00187,Meghana Sharma,Male,M.Tech CSE,PG,2,meghana.sharma5207@klu.edu.in,9844433218,71.08,NHGPS0187R
+KLU00188,Sneha Shetty,Female,M.Tech CSE,PG,2,sneha.shetty5208@klu.edu.in,9832408786,72.66,VTQPS0188E
+KLU00189,Sneha Iyer,Female,M.Tech CSE,PG,2,sneha.iyer5209@klu.edu.in,9851234353,83.03,DVAPI0189O
+KLU00190,Sameer Chopra,Female,M.Tech CSE,PG,2,sameer.chopra5210@klu.edu.in,9891832232,87.22,WIBPC0190V
+KLU00191,Arjun Mishra,Male,M.Tech CSE,PG,2,arjun.mishra5211@klu.edu.in,9899462484,71.4,BCWPM0191N
+KLU00192,Sanjay Chopra,Female,M.Tech CSE,PG,2,sanjay.chopra5212@klu.edu.in,9846644936,73.39,NKTPC0192X
+KLU00193,Ananya Jain,Male,M.Tech CSE,PG,2,ananya.jain5213@klu.edu.in,9814725125,93.87,SBMPJ0193Q
+KLU00194,Sneha Jain,Female,M.Tech CSE,PG,2,sneha.jain5214@klu.edu.in,9881761826,72.33,BSFPJ0194T
+KLU00195,Ritika Naidu,Male,M.Tech CSE,PG,2,ritika.naidu5215@klu.edu.in,9888512441,76.07,WDHPN0195R
+KLU00196,Sneha Kumar,Female,M.Tech CSE,PG,2,sneha.kumar5216@klu.edu.in,9868380638,65.58,QFBPK0196C
+KLU00197,Pooja Naidu,Female,M.Tech CSE,PG,2,pooja.naidu5217@klu.edu.in,9887634958,89.85,SRDPN0197Z
+KLU00198,Kavya Verma,Male,M.Tech CSE,PG,2,kavya.verma5218@klu.edu.in,9889675188,86.53,VSZPV0198L
+KLU00199,Nikhil Yadav,Male,M.Tech CSE,PG,2,nikhil.yadav5219@klu.edu.in,9817735008,88.48,IDUPY0199Y
+KLU00200,Nikhil Naidu,Female,M.Tech CSE,PG,2,nikhil.naidu5220@klu.edu.in,9810833295,73.88,LSIPN0200O
+KLU00201,Arjun Chopra,Male,M.Tech CSE,PG,2,arjun.chopra5221@klu.edu.in,9867142964,78.15,FFEPC0201O
+KLU00202,Vikram Kumar,Male,M.Tech CSE,PG,2,vikram.kumar5222@klu.edu.in,9881911802,60.45,QJVPK0202I
+KLU00203,Harika Naidu,Female,M.Tech CSE,PG,2,harika.naidu5223@klu.edu.in,9850334894,81.84,CYGPN0203X
+KLU00204,Ananya Verma,Female,M.Tech CSE,PG,2,ananya.verma5224@klu.edu.in,9814574992,77.92,IAUPV0204U
+KLU00205,Sneha Patel,Male,M.Tech CSE,PG,2,sneha.patel5225@klu.edu.in,9849077684,62.15,NHHPP0205P
+KLU00206,Kavya Iyer,Female,M.Tech CSE,PG,2,kavya.iyer5226@klu.edu.in,9864638093,97.85,OHQPI0206M
+KLU00207,Nikhil Gupta,Male,M.Tech CSE,PG,2,nikhil.gupta5227@klu.edu.in,9845682447,67.57,BOFPG0207I
+KLU00208,Pooja Yadav,Female,M.Tech CSE,PG,2,pooja.yadav5228@klu.edu.in,9833133924,90.2,WUOPY0208V
+KLU00209,Ravi Bhat,Male,M.Tech CSE,PG,2,ravi.bhat5229@klu.edu.in,9851714731,81.07,MGVPB0209J
+KLU00210,Sameer Bose,Female,M.Tech CSE,PG,2,sameer.bose5230@klu.edu.in,9888686597,96.93,KLTPB0210S
+KLU00211,Vikram Yadav,Male,M.Tech CSE,PG,2,vikram.yadav5231@klu.edu.in,9831307848,94.49,DCCPY0211H
+KLU00212,Divya Gupta,Male,M.Tech CSE,PG,2,divya.gupta5232@klu.edu.in,9841411889,71.01,XOHPG0212D
+KLU00213,Yash Mishra,Male,M.Tech CSE,PG,2,yash.mishra5233@klu.edu.in,9858304142,89.91,PUBPM0213U
+KLU00214,Vinay Das,Female,M.Tech CSE,PG,2,vinay.das5234@klu.edu.in,9865968029,88.81,OMBPD0214H
+KLU00215,Yash Chopra,Male,M.Tech CSE,PG,2,yash.chopra5235@klu.edu.in,9838933896,85.45,AXLPC0215T
+KLU00216,Aman Iyer,Male,M.Tech CSE,PG,2,aman.iyer5236@klu.edu.in,9826081056,85.74,WQHPI0216U
+KLU00217,Aman Yadav,Male,M.Tech CSE,PG,2,aman.yadav5237@klu.edu.in,9889149540,61.97,ZENPY0217W
+KLU00218,Meghana Rao,Male,M.Tech CSE,PG,2,meghana.rao5238@klu.edu.in,9879648978,84.0,JLDPR0218Z
+KLU00219,Kiran Malhotra,Male,M.Tech CSE,PG,2,kiran.malhotra5239@klu.edu.in,9817750972,85.11,YVNPM0219Y
+KLU00220,Meghana Rao,Female,M.Tech CSE,PG,2,meghana.rao5240@klu.edu.in,9892798784,71.62,JRTPR0220C
+KLU00221,Sameer Naidu,Male,M.Tech CSE,PG,2,sameer.naidu5241@klu.edu.in,9865623882,84.34,DXZPN0221I
+KLU00222,Meghana Bhat,Male,M.Tech CSE,PG,2,meghana.bhat5242@klu.edu.in,9820821849,61.53,USRPB0222G
+KLU00223,Yash Malhotra,Female,M.Tech CSE,PG,2,yash.malhotra5243@klu.edu.in,9891825333,86.16,WNKPM0223P
+KLU00224,Vinay Verma,Female,M.Tech CSE,PG,2,vinay.verma5244@klu.edu.in,9894845701,90.88,NGRPV0224G
+KLU00225,Ananya Malhotra,Male,M.Tech CSE,PG,2,ananya.malhotra5245@klu.edu.in,9820195795,70.75,KAAPM0225K
+KLU00226,Ravi Kumar,Female,M.Tech CSE,PG,2,ravi.kumar5246@klu.edu.in,9818439786,71.46,DLVPK0226P
+KLU00227,Kavya Rao,Male,M.Tech CSE,PG,2,kavya.rao5247@klu.edu.in,9895836697,82.99,TYXPR0227W
+KLU00228,Neha Kumar,Female,M.Tech CSE,PG,2,neha.kumar5248@klu.edu.in,9881372051,73.92,GWLPK0228H
+KLU00229,Neha Chopra,Female,M.Tech CSE,PG,2,neha.chopra5249@klu.edu.in,9896215351,93.57,OMHPC0229L
+KLU00230,Vikram Jain,Male,M.Tech CSE,PG,2,vikram.jain5250@klu.edu.in,9893529311,72.47,HHMPJ0230Q
+KLU00231,Harika Singh,Male,M.Tech CSE,PG,2,harika.singh5251@klu.edu.in,9851873809,75.69,KPZPS0231T
+KLU00232,Ritika Naidu,Male,M.Tech CSE,PG,2,ritika.naidu5252@klu.edu.in,9835895332,84.89,AIAPN0232E
+KLU00233,Vikram Sharma,Female,M.Tech CSE,PG,2,vikram.sharma5253@klu.edu.in,9881701808,69.56,XTGPS0233H
+KLU00234,Vinay Sharma,Male,M.Tech CSE,PG,2,vinay.sharma5254@klu.edu.in,9890857736,88.54,GMAPS0234Y
+KLU00235,Ananya Malhotra,Female,M.Tech CSE,PG,2,ananya.malhotra5255@klu.edu.in,9899330004,95.5,MGNPM0235M
+KLU00236,Kiran Gupta,Female,M.Tech CSE,PG,2,kiran.gupta5256@klu.edu.in,9896688033,67.15,SQYPG0236C
+KLU00237,Nikhil Yadav,Female,M.Tech CSE,PG,2,nikhil.yadav5257@klu.edu.in,9877426064,75.1,YSSPY0237E
+KLU00238,Sanjay Kumar,Male,M.Tech CSE,PG,2,sanjay.kumar5258@klu.edu.in,9856905199,97.97,UYKPK0238X
+KLU00239,Yash Das,Male,M.Tech CSE,PG,2,yash.das5259@klu.edu.in,9870544774,86.13,AFUPD0239Y
+KLU00240,Kavya Iyer,Female,M.Tech CSE,PG,2,kavya.iyer5260@klu.edu.in,9852017365,70.55,VYZPI0240E
+KLU00241,Kavya Naidu,Female,M.Tech ECE,PG,1,kavya.naidu6101@klu.edu.in,9845088364,71.99,SCKPN0241G
+KLU00242,Sameer Naidu,Female,M.Tech ECE,PG,1,sameer.naidu6102@klu.edu.in,9839080092,98.6,QMAPN0242V
+KLU00243,Kavya Iyer,Female,M.Tech ECE,PG,1,kavya.iyer6103@klu.edu.in,9826635165,94.2,GXNPI0243O
+KLU00244,Kiran Nair,Male,M.Tech ECE,PG,1,kiran.nair6104@klu.edu.in,9890775852,96.46,AQWPN0244E
+KLU00245,Vinay Sharma,Female,M.Tech ECE,PG,1,vinay.sharma6105@klu.edu.in,9841291452,69.31,AYFPS0245Z
+KLU00246,Kavya Nair,Female,M.Tech ECE,PG,1,kavya.nair6106@klu.edu.in,9881291833,83.14,JICPN0246V
+KLU00247,Vikram Jain,Male,M.Tech ECE,PG,1,vikram.jain6107@klu.edu.in,9865168501,85.47,NZAPJ0247C
+KLU00248,Meghana Malhotra,Male,M.Tech ECE,PG,1,meghana.malhotra6108@klu.edu.in,9842280285,94.87,WSJPM0248X
+KLU00249,Vikram Iyer,Female,M.Tech ECE,PG,1,vikram.iyer6109@klu.edu.in,9897968858,84.53,REOPI0249S
+KLU00250,Divya Nair,Male,M.Tech ECE,PG,1,divya.nair6110@klu.edu.in,9893226891,85.63,JPGPN0250N
+KLU00251,Harika Iyer,Female,M.Tech ECE,PG,1,harika.iyer6111@klu.edu.in,9876535306,96.86,NFUPI0251E
+KLU00252,Kiran Naidu,Female,M.Tech ECE,PG,1,kiran.naidu6112@klu.edu.in,9864144404,93.28,FLTPN0252V
+KLU00253,Meghana Nair,Male,M.Tech ECE,PG,1,meghana.nair6113@klu.edu.in,9872571402,95.94,BXQPN0253M
+KLU00254,Meghana Verma,Female,M.Tech ECE,PG,1,meghana.verma6114@klu.edu.in,9867536407,64.95,WWMPV0254K
+KLU00255,Pooja Sharma,Female,M.Tech ECE,PG,1,pooja.sharma6115@klu.edu.in,9845374572,92.25,WYOPS0255N
+KLU00256,Sneha Malhotra,Male,M.Tech ECE,PG,1,sneha.malhotra6116@klu.edu.in,9831625701,95.61,KPMPM0256W
+KLU00257,Harika Kumar,Male,M.Tech ECE,PG,1,harika.kumar6117@klu.edu.in,9875396149,86.25,XMDPK0257M
+KLU00258,Sneha Nair,Male,M.Tech ECE,PG,1,sneha.nair6118@klu.edu.in,9849076883,80.93,DAMPN0258P
+KLU00259,Kiran Bhat,Female,M.Tech ECE,PG,1,kiran.bhat6119@klu.edu.in,9897466046,85.6,LKNPB0259P
+KLU00260,Neha Bose,Female,M.Tech ECE,PG,1,neha.bose6120@klu.edu.in,9879799028,70.28,GINPB0260F
+KLU00261,Ananya Bose,Female,M.Tech ECE,PG,1,ananya.bose6121@klu.edu.in,9856381514,87.12,MOTPB0261D
+KLU00262,Meghana Reddy,Male,M.Tech ECE,PG,1,meghana.reddy6122@klu.edu.in,9868150544,92.87,DZUPR0262K
+KLU00263,Arjun Reddy,Female,M.Tech ECE,PG,1,arjun.reddy6123@klu.edu.in,9838351773,69.33,FCOPR0263P
+KLU00264,Ravi Kumar,Female,M.Tech ECE,PG,1,ravi.kumar6124@klu.edu.in,9876531324,86.35,THWPK0264Z
+KLU00265,Nikhil Verma,Male,M.Tech ECE,PG,1,nikhil.verma6125@klu.edu.in,9895988624,80.77,KVCPV0265K
+KLU00266,Pooja Malhotra,Female,M.Tech ECE,PG,1,pooja.malhotra6126@klu.edu.in,9888777599,85.71,HTWPM0266Q
+KLU00267,Sanjay Mishra,Male,M.Tech ECE,PG,1,sanjay.mishra6127@klu.edu.in,9887744701,61.8,RHYPM0267P
+KLU00268,Kavya Kumar,Female,M.Tech ECE,PG,1,kavya.kumar6128@klu.edu.in,9877840601,63.75,NBNPK0268M
+KLU00269,Arjun Gupta,Female,M.Tech ECE,PG,1,arjun.gupta6129@klu.edu.in,9832778242,99.21,SPKPG0269T
+KLU00270,Pooja Rao,Male,M.Tech ECE,PG,1,pooja.rao6130@klu.edu.in,9822364133,83.15,ZUTPR0270B
+KLU00271,Kavya Yadav,Female,M.Tech ECE,PG,1,kavya.yadav6131@klu.edu.in,9881402632,70.74,OTYPY0271X
+KLU00272,Kiran Malhotra,Male,M.Tech ECE,PG,1,kiran.malhotra6132@klu.edu.in,9820703819,89.33,IYRPM0272L
+KLU00273,Ritika Nair,Female,M.Tech ECE,PG,1,ritika.nair6133@klu.edu.in,9823071774,93.68,AOVPN0273T
+KLU00274,Kavya Das,Female,M.Tech ECE,PG,1,kavya.das6134@klu.edu.in,9889227207,77.77,VYRPD0274N
+KLU00275,Nikhil Singh,Male,M.Tech ECE,PG,1,nikhil.singh6135@klu.edu.in,9840527410,88.17,ROTPS0275Q
+KLU00276,Sneha Das,Male,M.Tech ECE,PG,1,sneha.das6136@klu.edu.in,9857600416,93.87,VGPPD0276Z
+KLU00277,Sneha Sharma,Female,M.Tech ECE,PG,1,sneha.sharma6137@klu.edu.in,9826802536,81.84,MEHPS0277K
+KLU00278,Harika Das,Male,M.Tech ECE,PG,1,harika.das6138@klu.edu.in,9889688723,73.69,DZDPD0278N
+KLU00279,Sneha Reddy,Male,M.Tech ECE,PG,1,sneha.reddy6139@klu.edu.in,9859120664,64.57,HKMPR0279G
+KLU00280,Harika Kumar,Male,M.Tech ECE,PG,1,harika.kumar6140@klu.edu.in,9865050049,62.12,HUXPK0280X
+KLU00281,Aman Shetty,Male,M.Tech ECE,PG,1,aman.shetty6141@klu.edu.in,9829553919,97.89,JOPPS0281E
+KLU00282,Sameer Patel,Female,M.Tech ECE,PG,1,sameer.patel6142@klu.edu.in,9829301049,80.22,OVOPP0282P
+KLU00283,Neha Patel,Male,M.Tech ECE,PG,1,neha.patel6143@klu.edu.in,9855601677,93.98,XOEPP0283R
+KLU00284,Kavya Shetty,Female,M.Tech ECE,PG,1,kavya.shetty6144@klu.edu.in,9855720950,69.75,SWKPS0284V
+KLU00285,Harika Nair,Male,M.Tech ECE,PG,1,harika.nair6145@klu.edu.in,9837753907,67.1,JFRPN0285C
+KLU00286,Aman Malhotra,Male,M.Tech ECE,PG,1,aman.malhotra6146@klu.edu.in,9854164302,94.92,NUPPM0286F
+KLU00287,Meghana Sharma,Female,M.Tech ECE,PG,1,meghana.sharma6147@klu.edu.in,9823100996,95.85,ZDPPS0287I
+KLU00288,Ananya Malhotra,Female,M.Tech ECE,PG,1,ananya.malhotra6148@klu.edu.in,9885015409,91.68,QYDPM0288Y
+KLU00289,Nikhil Jain,Female,M.Tech ECE,PG,1,nikhil.jain6149@klu.edu.in,9850570142,68.91,SCSPJ0289J
+KLU00290,Kiran Chopra,Female,M.Tech ECE,PG,1,kiran.chopra6150@klu.edu.in,9834549749,74.39,VVNPC0290I
+KLU00291,Ritika Naidu,Female,M.Tech ECE,PG,1,ritika.naidu6151@klu.edu.in,9870557401,84.63,MMQPN0291M
+KLU00292,Meghana Singh,Male,M.Tech ECE,PG,1,meghana.singh6152@klu.edu.in,9830977086,80.54,QOCPS0292C
+KLU00293,Sneha Iyer,Male,M.Tech ECE,PG,1,sneha.iyer6153@klu.edu.in,9854632323,87.23,WRAPI0293T
+KLU00294,Ravi Mishra,Female,M.Tech ECE,PG,1,ravi.mishra6154@klu.edu.in,9878201693,63.4,GKCPM0294M
+KLU00295,Yash Naidu,Male,M.Tech ECE,PG,1,yash.naidu6155@klu.edu.in,9891884733,62.0,KTWPN0295O
+KLU00296,Nikhil Singh,Female,M.Tech ECE,PG,1,nikhil.singh6156@klu.edu.in,9816130299,67.8,INXPS0296H
+KLU00297,Kavya Bhat,Male,M.Tech ECE,PG,1,kavya.bhat6157@klu.edu.in,9896118012,74.26,MBCPB0297I
+KLU00298,Arjun Shetty,Male,M.Tech ECE,PG,1,arjun.shetty6158@klu.edu.in,9853259446,65.96,JWSPS0298R
+KLU00299,Meghana Jain,Male,M.Tech ECE,PG,1,meghana.jain6159@klu.edu.in,9894187914,92.56,DGBPJ0299W
+KLU00300,Kavya Gupta,Male,M.Tech ECE,PG,1,kavya.gupta6160@klu.edu.in,9853386315,77.8,AABPG0300F
+KLU00301,Sneha Kumar,Male,M.Tech ECE,PG,2,sneha.kumar6201@klu.edu.in,9863373980,90.19,IIOPK0301K
+KLU00302,Vinay Nair,Male,M.Tech ECE,PG,2,vinay.nair6202@klu.edu.in,9876170868,67.28,NJYPN0302L
+KLU00303,Ravi Nair,Female,M.Tech ECE,PG,2,ravi.nair6203@klu.edu.in,9831737724,78.97,VFZPN0303R
+KLU00304,Ananya Malhotra,Male,M.Tech ECE,PG,2,ananya.malhotra6204@klu.edu.in,9841147282,74.28,MUPPM0304Q
+KLU00305,Kavya Gupta,Male,M.Tech ECE,PG,2,kavya.gupta6205@klu.edu.in,9852986101,62.33,SKUPG0305E
+KLU00306,Ananya Jain,Female,M.Tech ECE,PG,2,ananya.jain6206@klu.edu.in,9895051940,96.24,TUJPJ0306F
+KLU00307,Ravi Chopra,Male,M.Tech ECE,PG,2,ravi.chopra6207@klu.edu.in,9863160470,74.56,UTBPC0307E
+KLU00308,Sameer Reddy,Female,M.Tech ECE,PG,2,sameer.reddy6208@klu.edu.in,9889275717,95.29,PLPPR0308W
+KLU00309,Kavya Iyer,Male,M.Tech ECE,PG,2,kavya.iyer6209@klu.edu.in,9835204000,85.18,YVXPI0309B
+KLU00310,Kavya Chopra,Male,M.Tech ECE,PG,2,kavya.chopra6210@klu.edu.in,9891073452,92.72,ITHPC0310H
+KLU00311,Arjun Sharma,Male,M.Tech ECE,PG,2,arjun.sharma6211@klu.edu.in,9852979541,79.37,VPOPS0311C
+KLU00312,Ananya Kumar,Male,M.Tech ECE,PG,2,ananya.kumar6212@klu.edu.in,9856369250,79.28,BSYPK0312J
+KLU00313,Vikram Jain,Female,M.Tech ECE,PG,2,vikram.jain6213@klu.edu.in,9837903019,96.47,ZBXPJ0313Z
+KLU00314,Kiran Sharma,Male,M.Tech ECE,PG,2,kiran.sharma6214@klu.edu.in,9864832199,92.2,UBIPS0314H
+KLU00315,Neha Reddy,Male,M.Tech ECE,PG,2,neha.reddy6215@klu.edu.in,9870444252,80.08,RTDPR0315W
+KLU00316,Meghana Jain,Female,M.Tech ECE,PG,2,meghana.jain6216@klu.edu.in,9896032757,65.34,QHIPJ0316J
+KLU00317,Sanjay Malhotra,Female,M.Tech ECE,PG,2,sanjay.malhotra6217@klu.edu.in,9868148861,96.14,MPEPM0317Y
+KLU00318,Kiran Bhat,Female,M.Tech ECE,PG,2,kiran.bhat6218@klu.edu.in,9850222007,68.99,PTXPB0318K
+KLU00319,Harika Mishra,Female,M.Tech ECE,PG,2,harika.mishra6219@klu.edu.in,9870628650,76.42,JUTPM0319S
+KLU00320,Arjun Jain,Female,M.Tech ECE,PG,2,arjun.jain6220@klu.edu.in,9831745889,99.09,SCLPJ0320U
+KLU00321,Pooja Singh,Female,M.Tech ECE,PG,2,pooja.singh6221@klu.edu.in,9858170283,69.53,RMAPS0321C
+KLU00322,Yash Bhat,Male,M.Tech ECE,PG,2,yash.bhat6222@klu.edu.in,9828368289,61.22,OPYPB0322L
+KLU00323,Aman Singh,Male,M.Tech ECE,PG,2,aman.singh6223@klu.edu.in,9887148048,81.25,JJMPS0323N
+KLU00324,Meghana Naidu,Female,M.Tech ECE,PG,2,meghana.naidu6224@klu.edu.in,9850127590,64.79,ZGCPN0324H
+KLU00325,Vikram Shetty,Female,M.Tech ECE,PG,2,vikram.shetty6225@klu.edu.in,9812060860,65.15,XVYPS0325U
+KLU00326,Arjun Iyer,Male,M.Tech ECE,PG,2,arjun.iyer6226@klu.edu.in,9850110823,99.26,TJZPI0326F
+KLU00327,Neha Shetty,Male,M.Tech ECE,PG,2,neha.shetty6227@klu.edu.in,9874382761,77.37,SMTPS0327O
+KLU00328,Yash Singh,Female,M.Tech ECE,PG,2,yash.singh6228@klu.edu.in,9830931404,97.78,DMKPS0328W
+KLU00329,Meghana Shetty,Female,M.Tech ECE,PG,2,meghana.shetty6229@klu.edu.in,9853696737,70.51,INWPS0329G
+KLU00330,Ananya Gupta,Male,M.Tech ECE,PG,2,ananya.gupta6230@klu.edu.in,9882551797,88.75,IFDPG0330F
+KLU00331,Yash Bhat,Male,M.Tech ECE,PG,2,yash.bhat6231@klu.edu.in,9882980913,82.58,TGRPB0331C
+KLU00332,Kavya Das,Female,M.Tech ECE,PG,2,kavya.das6232@klu.edu.in,9868602799,83.01,NELPD0332J
+KLU00333,Ravi Das,Female,M.Tech ECE,PG,2,ravi.das6233@klu.edu.in,9814683947,79.7,UJXPD0333W
+KLU00334,Neha Jain,Male,M.Tech ECE,PG,2,neha.jain6234@klu.edu.in,9833136806,95.6,OCFPJ0334B
+KLU00335,Vikram Bose,Male,M.Tech ECE,PG,2,vikram.bose6235@klu.edu.in,9866128542,61.51,JWDPB0335R
+KLU00336,Kavya Das,Female,M.Tech ECE,PG,2,kavya.das6236@klu.edu.in,9897547704,93.77,RROPD0336G
+KLU00337,Ritika Gupta,Female,M.Tech ECE,PG,2,ritika.gupta6237@klu.edu.in,9867028614,70.97,OFUPG0337D
+KLU00338,Ravi Bose,Female,M.Tech ECE,PG,2,ravi.bose6238@klu.edu.in,9840748880,99.93,TLKPB0338O
+KLU00339,Ananya Kumar,Male,M.Tech ECE,PG,2,ananya.kumar6239@klu.edu.in,9873789081,86.92,TGLPK0339Q
+KLU00340,Ravi Gupta,Female,M.Tech ECE,PG,2,ravi.gupta6240@klu.edu.in,9851097887,76.48,EGVPG0340N
+KLU00341,Harika Bhat,Female,M.Tech ECE,PG,2,harika.bhat6241@klu.edu.in,9840767052,65.83,WAOPB0341E
+KLU00342,Vikram Naidu,Female,M.Tech ECE,PG,2,vikram.naidu6242@klu.edu.in,9884260792,72.33,YYYPN0342B
+KLU00343,Neha Verma,Female,M.Tech ECE,PG,2,neha.verma6243@klu.edu.in,9844477947,72.09,JMVPV0343K
+KLU00344,Kiran Singh,Male,M.Tech ECE,PG,2,kiran.singh6244@klu.edu.in,9881806837,99.83,UXPPS0344C
+KLU00345,Rahul Bhat,Male,M.Tech ECE,PG,2,rahul.bhat6245@klu.edu.in,9899805466,72.99,RXFPB0345C
+KLU00346,Pooja Rao,Female,M.Tech ECE,PG,2,pooja.rao6246@klu.edu.in,9848249206,93.74,IXTPR0346B
+KLU00347,Vikram Malhotra,Male,M.Tech ECE,PG,2,vikram.malhotra6247@klu.edu.in,9813404328,89.98,PMZPM0347H
+KLU00348,Sneha Rao,Female,M.Tech ECE,PG,2,sneha.rao6248@klu.edu.in,9844905749,86.52,QRNPR0348D
+KLU00349,Ananya Nair,Female,M.Tech ECE,PG,2,ananya.nair6249@klu.edu.in,9852791621,82.2,DMQPN0349T
+KLU00350,Sneha Rao,Male,M.Tech ECE,PG,2,sneha.rao6250@klu.edu.in,9899360997,74.15,CVPPR0350J
+KLU00351,Aman Bhat,Male,M.Tech ECE,PG,2,aman.bhat6251@klu.edu.in,9854692829,78.66,RBFPB0351I
+KLU00352,Harika Rao,Female,M.Tech ECE,PG,2,harika.rao6252@klu.edu.in,9876979118,82.07,OUMPR0352S
+KLU00353,Rahul Malhotra,Male,M.Tech ECE,PG,2,rahul.malhotra6253@klu.edu.in,9896569901,63.74,UGBPM0353S
+KLU00354,Sneha Singh,Female,M.Tech ECE,PG,2,sneha.singh6254@klu.edu.in,9887794981,92.52,HZVPS0354B
+KLU00355,Meghana Iyer,Female,M.Tech ECE,PG,2,meghana.iyer6255@klu.edu.in,9869529560,92.4,FNVPI0355S
+KLU00356,Pooja Reddy,Male,M.Tech ECE,PG,2,pooja.reddy6256@klu.edu.in,9891672125,74.45,SLLPR0356K
+KLU00357,Sanjay Kumar,Male,M.Tech ECE,PG,2,sanjay.kumar6257@klu.edu.in,9848112333,64.23,UQFPK0357K
+KLU00358,Nikhil Reddy,Female,M.Tech ECE,PG,2,nikhil.reddy6258@klu.edu.in,9824312613,63.61,AHKPR0358U
+KLU00359,Arjun Chopra,Female,M.Tech ECE,PG,2,arjun.chopra6259@klu.edu.in,9811812791,81.75,YOWPC0359I
+KLU00360,Pooja Patel,Male,M.Tech ECE,PG,2,pooja.patel6260@klu.edu.in,9828479056,60.22,IBUPP0360M
+KLU00361,Pooja Chopra,Female,MBA,PG,1,pooja.chopra7101@klu.edu.in,9824524612,61.49,JJXPC0361D
+KLU00362,Harika Nair,Male,MBA,PG,1,harika.nair7102@klu.edu.in,9814516528,98.69,HTXPN0362M
+KLU00363,Vikram Patel,Male,MBA,PG,1,vikram.patel7103@klu.edu.in,9846417539,81.5,EPXPP0363W
+KLU00364,Harika Bhat,Male,MBA,PG,1,harika.bhat7104@klu.edu.in,9897365507,75.57,SLHPB0364N
+KLU00365,Harika Reddy,Female,MBA,PG,1,harika.reddy7105@klu.edu.in,9866468665,94.38,VKDPR0365U
+KLU00366,Pooja Patel,Female,MBA,PG,1,pooja.patel7106@klu.edu.in,9825158604,61.76,THWPP0366B
+KLU00367,Vinay Naidu,Male,MBA,PG,1,vinay.naidu7107@klu.edu.in,9842099463,82.87,COXPN0367V
+KLU00368,Divya Verma,Female,MBA,PG,1,divya.verma7108@klu.edu.in,9869865712,99.21,ZVRPV0368N
+KLU00369,Ananya Shetty,Male,MBA,PG,1,ananya.shetty7109@klu.edu.in,9886376620,77.28,ETZPS0369M
+KLU00370,Sanjay Das,Female,MBA,PG,1,sanjay.das7110@klu.edu.in,9811706505,74.85,IIQPD0370V
+KLU00371,Harika Sharma,Female,MBA,PG,1,harika.sharma7111@klu.edu.in,9825511533,66.49,PUMPS0371H
+KLU00372,Meghana Rao,Male,MBA,PG,1,meghana.rao7112@klu.edu.in,9835818470,97.19,PIWPR0372U
+KLU00373,Sanjay Patel,Female,MBA,PG,1,sanjay.patel7113@klu.edu.in,9841071811,97.39,KQHPP0373F
+KLU00374,Ravi Rao,Male,MBA,PG,1,ravi.rao7114@klu.edu.in,9894179649,87.12,XIMPR0374I
+KLU00375,Divya Reddy,Male,MBA,PG,1,divya.reddy7115@klu.edu.in,9861336526,64.51,YKOPR0375L
+KLU00376,Kiran Patel,Male,MBA,PG,1,kiran.patel7116@klu.edu.in,9841984675,96.44,AMPPP0376F
+KLU00377,Ritika Rao,Male,MBA,PG,1,ritika.rao7117@klu.edu.in,9873220153,86.97,KJMPR0377N
+KLU00378,Meghana Patel,Male,MBA,PG,1,meghana.patel7118@klu.edu.in,9842279098,84.56,MXQPP0378R
+KLU00379,Kavya Naidu,Male,MBA,PG,1,kavya.naidu7119@klu.edu.in,9843853001,77.55,GZIPN0379O
+KLU00380,Aman Gupta,Female,MBA,PG,1,aman.gupta7120@klu.edu.in,9898425573,92.35,GEBPG0380I
+KLU00381,Divya Verma,Female,MBA,PG,1,divya.verma7121@klu.edu.in,9844134832,70.5,MKLPV0381K
+KLU00382,Harika Naidu,Female,MBA,PG,1,harika.naidu7122@klu.edu.in,9838731557,72.91,CYHPN0382W
+KLU00383,Ananya Bhat,Male,MBA,PG,1,ananya.bhat7123@klu.edu.in,9834580279,89.6,EVDPB0383E
+KLU00384,Rahul Patel,Male,MBA,PG,1,rahul.patel7124@klu.edu.in,9859484446,76.3,XGFPP0384G
+KLU00385,Harika Bose,Female,MBA,PG,1,harika.bose7125@klu.edu.in,9897975629,70.36,LCXPB0385R
+KLU00386,Nikhil Patel,Male,MBA,PG,1,nikhil.patel7126@klu.edu.in,9838907931,97.24,IRYPP0386E
+KLU00387,Harika Verma,Male,MBA,PG,1,harika.verma7127@klu.edu.in,9832489561,88.13,DZHPV0387Y
+KLU00388,Vinay Bhat,Female,MBA,PG,1,vinay.bhat7128@klu.edu.in,9828972652,85.83,SDJPB0388Y
+KLU00389,Kavya Reddy,Female,MBA,PG,1,kavya.reddy7129@klu.edu.in,9866574447,86.48,FUVPR0389R
+KLU00390,Nikhil Shetty,Male,MBA,PG,1,nikhil.shetty7130@klu.edu.in,9867885946,62.51,HMZPS0390V
+KLU00391,Sameer Sharma,Male,MBA,PG,1,sameer.sharma7131@klu.edu.in,9858392199,74.48,FBFPS0391J
+KLU00392,Sanjay Das,Female,MBA,PG,1,sanjay.das7132@klu.edu.in,9816972898,73.02,FRAPD0392U
+KLU00393,Neha Sharma,Female,MBA,PG,1,neha.sharma7133@klu.edu.in,9864588832,65.36,TPYPS0393J
+KLU00394,Pooja Shetty,Male,MBA,PG,1,pooja.shetty7134@klu.edu.in,9886075446,64.77,QZGPS0394W
+KLU00395,Kavya Reddy,Male,MBA,PG,1,kavya.reddy7135@klu.edu.in,9827633637,96.38,FNDPR0395O
+KLU00396,Sameer Bhat,Female,MBA,PG,1,sameer.bhat7136@klu.edu.in,9879252494,91.8,FWMPB0396O
+KLU00397,Divya Singh,Female,MBA,PG,1,divya.singh7137@klu.edu.in,9894064031,86.56,THZPS0397L
+KLU00398,Yash Gupta,Female,MBA,PG,1,yash.gupta7138@klu.edu.in,9882223724,93.65,BWFPG0398N
+KLU00399,Sanjay Rao,Female,MBA,PG,1,sanjay.rao7139@klu.edu.in,9851937519,80.4,HRHPR0399S
+KLU00400,Neha Malhotra,Female,MBA,PG,1,neha.malhotra7140@klu.edu.in,9820255657,96.23,NOCPM0400U
+KLU00401,Vikram Jain,Male,MBA,PG,1,vikram.jain7141@klu.edu.in,9883832716,67.28,IEXPJ0401D
+KLU00402,Sanjay Bose,Male,MBA,PG,1,sanjay.bose7142@klu.edu.in,9896581873,96.2,VQGPB0402T
+KLU00403,Divya Bhat,Female,MBA,PG,1,divya.bhat7143@klu.edu.in,9894032693,78.61,RPEPB0403A
+KLU00404,Yash Sharma,Male,MBA,PG,1,yash.sharma7144@klu.edu.in,9864425022,91.09,NJJPS0404N
+KLU00405,Sanjay Bhat,Male,MBA,PG,1,sanjay.bhat7145@klu.edu.in,9843325071,88.35,HISPB0405W
+KLU00406,Pooja Mishra,Male,MBA,PG,1,pooja.mishra7146@klu.edu.in,9812165024,92.92,NVZPM0406E
+KLU00407,Aman Chopra,Female,MBA,PG,1,aman.chopra7147@klu.edu.in,9887997078,94.79,RVLPC0407H
+KLU00408,Nikhil Sharma,Male,MBA,PG,1,nikhil.sharma7148@klu.edu.in,9879213850,99.92,AUGPS0408C
+KLU00409,Pooja Iyer,Female,MBA,PG,1,pooja.iyer7149@klu.edu.in,9886506817,96.02,SJGPI0409Z
+KLU00410,Arjun Mishra,Female,MBA,PG,1,arjun.mishra7150@klu.edu.in,9890559083,64.4,SCOPM0410K
+KLU00411,Meghana Reddy,Female,MBA,PG,1,meghana.reddy7151@klu.edu.in,9884437871,68.88,TFYPR0411R
+KLU00412,Kavya Naidu,Male,MBA,PG,1,kavya.naidu7152@klu.edu.in,9899552876,94.0,MKPPN0412Y
+KLU00413,Ananya Chopra,Female,MBA,PG,1,ananya.chopra7153@klu.edu.in,9818368749,93.86,UNAPC0413P
+KLU00414,Pooja Das,Male,MBA,PG,1,pooja.das7154@klu.edu.in,9825859424,72.28,MFXPD0414G
+KLU00415,Sneha Singh,Male,MBA,PG,1,sneha.singh7155@klu.edu.in,9821770892,72.98,YAPPS0415B
+KLU00416,Meghana Bose,Male,MBA,PG,1,meghana.bose7156@klu.edu.in,9815968987,67.44,FFKPB0416W
+KLU00417,Pooja Verma,Female,MBA,PG,1,pooja.verma7157@klu.edu.in,9862900087,78.88,FIVPV0417C
+KLU00418,Vikram Nair,Male,MBA,PG,1,vikram.nair7158@klu.edu.in,9895688941,98.82,WLYPN0418E
+KLU00419,Neha Verma,Female,MBA,PG,1,neha.verma7159@klu.edu.in,9868094991,83.21,QZCPV0419R
+KLU00420,Divya Bose,Male,MBA,PG,1,divya.bose7160@klu.edu.in,9890922298,82.7,NXQPB0420K
+KLU00421,Ritika Shetty,Female,MBA,PG,2,ritika.shetty7201@klu.edu.in,9878998220,97.67,BKKPS0421H
+KLU00422,Divya Verma,Female,MBA,PG,2,divya.verma7202@klu.edu.in,9884010341,64.02,OZXPV0422B
+KLU00423,Kiran Bhat,Male,MBA,PG,2,kiran.bhat7203@klu.edu.in,9820461093,83.06,TJTPB0423H
+KLU00424,Divya Nair,Male,MBA,PG,2,divya.nair7204@klu.edu.in,9850206944,62.8,PENPN0424Y
+KLU00425,Kiran Jain,Female,MBA,PG,2,kiran.jain7205@klu.edu.in,9810905964,66.57,ZPPPJ0425A
+KLU00426,Nikhil Bhat,Male,MBA,PG,2,nikhil.bhat7206@klu.edu.in,9853221681,87.41,IBYPB0426C
+KLU00427,Kiran Shetty,Male,MBA,PG,2,kiran.shetty7207@klu.edu.in,9888287368,60.55,YWZPS0427I
+KLU00428,Neha Naidu,Female,MBA,PG,2,neha.naidu7208@klu.edu.in,9867586309,64.36,WKNPN0428B
+KLU00429,Divya Reddy,Female,MBA,PG,2,divya.reddy7209@klu.edu.in,9824816352,90.67,STKPR0429O
+KLU00430,Neha Jain,Male,MBA,PG,2,neha.jain7210@klu.edu.in,9860907734,78.71,KIAPJ0430U
+KLU00431,Pooja Nair,Female,MBA,PG,2,pooja.nair7211@klu.edu.in,9833478362,84.08,VOZPN0431Q
+KLU00432,Yash Nair,Male,MBA,PG,2,yash.nair7212@klu.edu.in,9873970664,66.38,BJLPN0432D
+KLU00433,Neha Rao,Female,MBA,PG,2,neha.rao7213@klu.edu.in,9868480159,86.28,SAHPR0433G
+KLU00434,Ritika Patel,Male,MBA,PG,2,ritika.patel7214@klu.edu.in,9872651602,85.56,CJIPP0434T
+KLU00435,Harika Das,Female,MBA,PG,2,harika.das7215@klu.edu.in,9845470382,79.78,JWDPD0435N
+KLU00436,Ravi Singh,Male,MBA,PG,2,ravi.singh7216@klu.edu.in,9854732394,61.65,BHDPS0436W
+KLU00437,Kiran Shetty,Male,MBA,PG,2,kiran.shetty7217@klu.edu.in,9877527065,62.76,KKQPS0437M
+KLU00438,Aman Sharma,Female,MBA,PG,2,aman.sharma7218@klu.edu.in,9871038008,72.9,OOOPS0438G
+KLU00439,Rahul Yadav,Female,MBA,PG,2,rahul.yadav7219@klu.edu.in,9874168921,84.48,RZTPY0439H
+KLU00440,Ravi Gupta,Male,MBA,PG,2,ravi.gupta7220@klu.edu.in,9823032682,81.36,IMUPG0440F
+KLU00441,Yash Singh,Male,MBA,PG,2,yash.singh7221@klu.edu.in,9820590670,64.2,RKZPS0441Y
+KLU00442,Pooja Iyer,Female,MBA,PG,2,pooja.iyer7222@klu.edu.in,9876655795,81.93,WYHPI0442H
+KLU00443,Nikhil Jain,Female,MBA,PG,2,nikhil.jain7223@klu.edu.in,9888279753,66.45,HNLPJ0443K
+KLU00444,Arjun Mishra,Male,MBA,PG,2,arjun.mishra7224@klu.edu.in,9896458117,74.14,AOMPM0444C
+KLU00445,Aman Iyer,Male,MBA,PG,2,aman.iyer7225@klu.edu.in,9865027700,93.22,TYDPI0445A
+KLU00446,Sanjay Singh,Male,MBA,PG,2,sanjay.singh7226@klu.edu.in,9870736179,69.35,VQYPS0446A
+KLU00447,Rahul Gupta,Male,MBA,PG,2,rahul.gupta7227@klu.edu.in,9873652276,69.64,CTYPG0447O
+KLU00448,Arjun Bose,Male,MBA,PG,2,arjun.bose7228@klu.edu.in,9857421797,84.14,OAOPB0448E
+KLU00449,Ananya Iyer,Female,MBA,PG,2,ananya.iyer7229@klu.edu.in,9864051143,69.46,WPAPI0449D
+KLU00450,Sneha Reddy,Female,MBA,PG,2,sneha.reddy7230@klu.edu.in,9876625580,74.95,FIAPR0450E
+KLU00451,Sameer Rao,Female,MBA,PG,2,sameer.rao7231@klu.edu.in,9836129778,75.75,AIOPR0451O
+KLU00452,Kiran Yadav,Male,MBA,PG,2,kiran.yadav7232@klu.edu.in,9835116903,94.95,NPZPY0452J
+KLU00453,Ananya Bose,Male,MBA,PG,2,ananya.bose7233@klu.edu.in,9866954009,81.79,IJWPB0453R
+KLU00454,Divya Verma,Female,MBA,PG,2,divya.verma7234@klu.edu.in,9881116589,92.82,TQNPV0454I
+KLU00455,Neha Yadav,Male,MBA,PG,2,neha.yadav7235@klu.edu.in,9847958089,67.72,EMLPY0455O
+KLU00456,Yash Rao,Male,MBA,PG,2,yash.rao7236@klu.edu.in,9888804038,81.24,XPNPR0456G
+KLU00457,Aman Das,Male,MBA,PG,2,aman.das7237@klu.edu.in,9868102222,81.68,BNJPD0457D
+KLU00458,Meghana Jain,Female,MBA,PG,2,meghana.jain7238@klu.edu.in,9842046843,90.47,CRGPJ0458F
+KLU00459,Pooja Nair,Male,MBA,PG,2,pooja.nair7239@klu.edu.in,9821393943,84.45,RWCPN0459I
+KLU00460,Meghana Mishra,Male,MBA,PG,2,meghana.mishra7240@klu.edu.in,9818446965,77.23,GTPPM0460F
+KLU00461,Meghana Iyer,Male,MBA,PG,2,meghana.iyer7241@klu.edu.in,9866010577,81.52,FOBPI0461V
+KLU00462,Arjun Jain,Female,MBA,PG,2,arjun.jain7242@klu.edu.in,9881981514,64.08,HEDPJ0462H
+KLU00463,Harika Malhotra,Female,MBA,PG,2,harika.malhotra7243@klu.edu.in,9823956034,84.24,XLYPM0463I
+KLU00464,Pooja Naidu,Female,MBA,PG,2,pooja.naidu7244@klu.edu.in,9816294855,91.05,RXAPN0464I
+KLU00465,Vikram Iyer,Male,MBA,PG,2,vikram.iyer7245@klu.edu.in,9882738507,88.05,RZHPI0465L
+KLU00466,Neha Yadav,Male,MBA,PG,2,neha.yadav7246@klu.edu.in,9891464934,63.4,BYWPY0466F
+KLU00467,Kiran Reddy,Male,MBA,PG,2,kiran.reddy7247@klu.edu.in,9842673553,62.16,YMVPR0467G
+KLU00468,Nikhil Malhotra,Male,MBA,PG,2,nikhil.malhotra7248@klu.edu.in,9814516227,62.29,GHLPM0468Y
+KLU00469,Nikhil Malhotra,Female,MBA,PG,2,nikhil.malhotra7249@klu.edu.in,9813529346,88.66,ONMPM0469X
+KLU00470,Arjun Kumar,Male,MBA,PG,2,arjun.kumar7250@klu.edu.in,9891165799,99.08,BLEPK0470G
+KLU00471,Ravi Bhat,Female,MBA,PG,2,ravi.bhat7251@klu.edu.in,9889895866,62.37,IDJPB0471Q
+KLU00472,Kavya Shetty,Female,MBA,PG,2,kavya.shetty7252@klu.edu.in,9872961840,84.02,XXQPS0472G
+KLU00473,Divya Kumar,Female,MBA,PG,2,divya.kumar7253@klu.edu.in,9824145200,75.78,CDQPK0473F
+KLU00474,Aman Jain,Female,MBA,PG,2,aman.jain7254@klu.edu.in,9849802242,90.93,WAYPJ0474F
+KLU00475,Meghana Reddy,Male,MBA,PG,2,meghana.reddy7255@klu.edu.in,9827670042,70.94,GGZPR0475Z
+KLU00476,Rahul Iyer,Male,MBA,PG,2,rahul.iyer7256@klu.edu.in,9881109760,86.47,WFYPI0476I
+KLU00477,Aman Bose,Male,MBA,PG,2,aman.bose7257@klu.edu.in,9818258815,63.12,MUYPB0477C
+KLU00478,Meghana Reddy,Male,MBA,PG,2,meghana.reddy7258@klu.edu.in,9889786581,72.97,WYJPR0478S
+KLU00479,Neha Verma,Male,MBA,PG,2,neha.verma7259@klu.edu.in,9870705367,92.32,SGTPV0479I
+KLU00480,Vinay Chopra,Male,MBA,PG,2,vinay.chopra7260@klu.edu.in,9876286105,83.1,USUPC0480C
+KLU00481,Yash Naidu,Female,MCA,PG,1,yash.naidu8101@klu.edu.in,9875104543,73.73,QBLPN0481S
+KLU00482,Sameer Patel,Female,MCA,PG,1,sameer.patel8102@klu.edu.in,9829276676,64.21,DFYPP0482A
+KLU00483,Pooja Iyer,Female,MCA,PG,1,pooja.iyer8103@klu.edu.in,9889361832,79.26,KJUPI0483M
+KLU00484,Harika Mishra,Male,MCA,PG,1,harika.mishra8104@klu.edu.in,9899674667,88.69,MNTPM0484G
+KLU00485,Pooja Naidu,Male,MCA,PG,1,pooja.naidu8105@klu.edu.in,9873727536,78.97,VABPN0485A
+KLU00486,Pooja Reddy,Male,MCA,PG,1,pooja.reddy8106@klu.edu.in,9846774578,98.81,VKHPR0486J
+KLU00487,Divya Yadav,Male,MCA,PG,1,divya.yadav8107@klu.edu.in,9812586354,61.38,RVOPY0487E
+KLU00488,Yash Verma,Female,MCA,PG,1,yash.verma8108@klu.edu.in,9897456490,78.3,QUVPV0488F
+KLU00489,Vikram Bose,Female,MCA,PG,1,vikram.bose8109@klu.edu.in,9838146438,82.92,BPSPB0489T
+KLU00490,Sanjay Reddy,Female,MCA,PG,1,sanjay.reddy8110@klu.edu.in,9879729753,76.5,JKFPR0490B
+KLU00491,Aman Das,Male,MCA,PG,1,aman.das8111@klu.edu.in,9882740789,63.28,UUHPD0491H
+KLU00492,Vikram Iyer,Female,MCA,PG,1,vikram.iyer8112@klu.edu.in,9893270969,60.92,QPJPI0492A
+KLU00493,Kavya Chopra,Female,MCA,PG,1,kavya.chopra8113@klu.edu.in,9876137611,96.44,OAWPC0493L
+KLU00494,Meghana Rao,Female,MCA,PG,1,meghana.rao8114@klu.edu.in,9849351133,96.44,XJAPR0494E
+KLU00495,Rahul Das,Female,MCA,PG,1,rahul.das8115@klu.edu.in,9877153301,67.05,MDPPD0495L
+KLU00496,Ritika Mishra,Female,MCA,PG,1,ritika.mishra8116@klu.edu.in,9887746797,80.71,KQYPM0496N
+KLU00497,Meghana Jain,Female,MCA,PG,1,meghana.jain8117@klu.edu.in,9880099893,94.77,YWYPJ0497B
+KLU00498,Divya Kumar,Female,MCA,PG,1,divya.kumar8118@klu.edu.in,9814123715,98.19,JMLPK0498B
+KLU00499,Sameer Reddy,Male,MCA,PG,1,sameer.reddy8119@klu.edu.in,9886650539,71.09,QTGPR0499F
+KLU00500,Meghana Mishra,Male,MCA,PG,1,meghana.mishra8120@klu.edu.in,9824652006,72.96,GCEPM0500H
+KLU00501,Sanjay Patel,Male,MCA,PG,1,sanjay.patel8121@klu.edu.in,9871962199,63.85,GDZPP0501V
+KLU00502,Divya Bose,Male,MCA,PG,1,divya.bose8122@klu.edu.in,9895173315,63.85,OWIPB0502K
+KLU00503,Pooja Shetty,Male,MCA,PG,1,pooja.shetty8123@klu.edu.in,9856213922,96.46,MAPPS0503T
+KLU00504,Harika Bose,Female,MCA,PG,1,harika.bose8124@klu.edu.in,9831821976,66.56,ZTTPB0504A
+KLU00505,Yash Naidu,Male,MCA,PG,1,yash.naidu8125@klu.edu.in,9828162624,70.22,GZMPN0505X
+KLU00506,Pooja Das,Female,MCA,PG,1,pooja.das8126@klu.edu.in,9819457720,71.91,PBIPD0506O
+KLU00507,Arjun Patel,Female,MCA,PG,1,arjun.patel8127@klu.edu.in,9815926139,70.42,RNXPP0507S
+KLU00508,Kiran Das,Female,MCA,PG,1,kiran.das8128@klu.edu.in,9899117089,98.98,QPVPD0508W
+KLU00509,Ananya Mishra,Female,MCA,PG,1,ananya.mishra8129@klu.edu.in,9834950589,87.22,OXEPM0509F
+KLU00510,Kiran Iyer,Male,MCA,PG,1,kiran.iyer8130@klu.edu.in,9833724025,87.82,QLSPI0510R
+KLU00511,Yash Shetty,Female,MCA,PG,1,yash.shetty8131@klu.edu.in,9855729486,79.84,GGQPS0511N
+KLU00512,Pooja Mishra,Female,MCA,PG,1,pooja.mishra8132@klu.edu.in,9839701237,71.3,QBYPM0512Q
+KLU00513,Harika Gupta,Female,MCA,PG,1,harika.gupta8133@klu.edu.in,9852305364,96.45,SZVPG0513O
+KLU00514,Divya Sharma,Male,MCA,PG,1,divya.sharma8134@klu.edu.in,9864145172,62.88,GNCPS0514A
+KLU00515,Kavya Das,Female,MCA,PG,1,kavya.das8135@klu.edu.in,9882589165,73.67,CFDPD0515L
+KLU00516,Sneha Singh,Female,MCA,PG,1,sneha.singh8136@klu.edu.in,9871640192,95.61,ILXPS0516U
+KLU00517,Yash Kumar,Male,MCA,PG,1,yash.kumar8137@klu.edu.in,9839410449,83.03,SQFPK0517K
+KLU00518,Sameer Singh,Female,MCA,PG,1,sameer.singh8138@klu.edu.in,9882646364,67.2,DOAPS0518Z
+KLU00519,Aman Malhotra,Female,MCA,PG,1,aman.malhotra8139@klu.edu.in,9833289556,61.23,DRRPM0519W
+KLU00520,Nikhil Bose,Male,MCA,PG,1,nikhil.bose8140@klu.edu.in,9830100017,81.75,EXJPB0520A
+KLU00521,Meghana Bose,Male,MCA,PG,1,meghana.bose8141@klu.edu.in,9883238138,72.32,TAPPB0521Y
+KLU00522,Rahul Naidu,Female,MCA,PG,1,rahul.naidu8142@klu.edu.in,9883912844,70.1,SWAPN0522D
+KLU00523,Yash Yadav,Male,MCA,PG,1,yash.yadav8143@klu.edu.in,9833717194,89.15,DKYPY0523O
+KLU00524,Sneha Nair,Male,MCA,PG,1,sneha.nair8144@klu.edu.in,9812633940,61.4,HTZPN0524L
+KLU00525,Aman Reddy,Female,MCA,PG,1,aman.reddy8145@klu.edu.in,9895785373,70.03,UXHPR0525X
+KLU00526,Neha Malhotra,Male,MCA,PG,1,neha.malhotra8146@klu.edu.in,9827160520,97.7,IKGPM0526U
+KLU00527,Kiran Mishra,Female,MCA,PG,1,kiran.mishra8147@klu.edu.in,9838810446,86.66,WKLPM0527W
+KLU00528,Yash Verma,Female,MCA,PG,1,yash.verma8148@klu.edu.in,9875093945,66.44,VAUPV0528L
+KLU00529,Sanjay Bose,Female,MCA,PG,1,sanjay.bose8149@klu.edu.in,9815296071,95.49,UFPPB0529N
+KLU00530,Nikhil Das,Male,MCA,PG,1,nikhil.das8150@klu.edu.in,9875790267,70.34,LRJPD0530Y
+KLU00531,Arjun Malhotra,Male,MCA,PG,1,arjun.malhotra8151@klu.edu.in,9810168214,63.72,BFQPM0531G
+KLU00532,Ritika Bose,Male,MCA,PG,1,ritika.bose8152@klu.edu.in,9894660957,98.67,CYSPB0532I
+KLU00533,Vinay Kumar,Female,MCA,PG,1,vinay.kumar8153@klu.edu.in,9832151846,60.12,WCIPK0533J
+KLU00534,Sameer Yadav,Male,MCA,PG,1,sameer.yadav8154@klu.edu.in,9873788211,84.11,AVZPY0534V
+KLU00535,Kavya Verma,Female,MCA,PG,1,kavya.verma8155@klu.edu.in,9823951908,72.04,CMXPV0535L
+KLU00536,Vinay Nair,Female,MCA,PG,1,vinay.nair8156@klu.edu.in,9866070343,69.56,ZBNPN0536W
+KLU00537,Ritika Chopra,Female,MCA,PG,1,ritika.chopra8157@klu.edu.in,9851379280,78.63,KCBPC0537J
+KLU00538,Sneha Das,Male,MCA,PG,1,sneha.das8158@klu.edu.in,9813212237,65.5,HDNPD0538F
+KLU00539,Ananya Shetty,Male,MCA,PG,1,ananya.shetty8159@klu.edu.in,9818243375,73.48,SEJPS0539D
+KLU00540,Harika Patel,Female,MCA,PG,1,harika.patel8160@klu.edu.in,9876963205,83.39,FTDPP0540T
+KLU00541,Kavya Mishra,Female,MCA,PG,2,kavya.mishra8201@klu.edu.in,9891150858,61.46,FEUPM0541M
+KLU00542,Kavya Mishra,Female,MCA,PG,2,kavya.mishra8202@klu.edu.in,9832256528,92.06,FBYPM0542S
+KLU00543,Kavya Rao,Male,MCA,PG,2,kavya.rao8203@klu.edu.in,9815973936,88.4,CFDPR0543Y
+KLU00544,Yash Chopra,Male,MCA,PG,2,yash.chopra8204@klu.edu.in,9867437461,88.45,RRUPC0544L
+KLU00545,Ritika Das,Female,MCA,PG,2,ritika.das8205@klu.edu.in,9877758870,68.96,KQYPD0545H
+KLU00546,Kavya Yadav,Male,MCA,PG,2,kavya.yadav8206@klu.edu.in,9833803202,89.46,TISPY0546K
+KLU00547,Ravi Verma,Female,MCA,PG,2,ravi.verma8207@klu.edu.in,9884679278,92.1,SDUPV0547Y
+KLU00548,Pooja Patel,Male,MCA,PG,2,pooja.patel8208@klu.edu.in,9865309025,79.74,CHWPP0548K
+KLU00549,Sameer Singh,Female,MCA,PG,2,sameer.singh8209@klu.edu.in,9877632590,81.46,ALEPS0549Q
+KLU00550,Ananya Jain,Female,MCA,PG,2,ananya.jain8210@klu.edu.in,9819818355,64.68,LZJPJ0550B
+KLU00551,Rahul Iyer,Male,MCA,PG,2,rahul.iyer8211@klu.edu.in,9834397710,86.56,XSEPI0551C
+KLU00552,Ravi Naidu,Female,MCA,PG,2,ravi.naidu8212@klu.edu.in,9815946333,76.62,ZIXPN0552P
+KLU00553,Pooja Yadav,Male,MCA,PG,2,pooja.yadav8213@klu.edu.in,9841356004,71.02,QHJPY0553C
+KLU00554,Arjun Gupta,Female,MCA,PG,2,arjun.gupta8214@klu.edu.in,9855112726,87.37,VQWPG0554P
+KLU00555,Arjun Mishra,Male,MCA,PG,2,arjun.mishra8215@klu.edu.in,9830666395,83.37,VECPM0555Y
+KLU00556,Sanjay Verma,Male,MCA,PG,2,sanjay.verma8216@klu.edu.in,9834563642,85.48,ZMWPV0556T
+KLU00557,Divya Gupta,Female,MCA,PG,2,divya.gupta8217@klu.edu.in,9812989708,75.1,ZBDPG0557R
+KLU00558,Neha Chopra,Female,MCA,PG,2,neha.chopra8218@klu.edu.in,9878641354,93.79,WROPC0558A
+KLU00559,Neha Mishra,Male,MCA,PG,2,neha.mishra8219@klu.edu.in,9877203979,64.36,ASWPM0559P
+KLU00560,Ravi Yadav,Female,MCA,PG,2,ravi.yadav8220@klu.edu.in,9843390431,72.09,GHKPY0560P
+KLU00561,Vikram Naidu,Male,MCA,PG,2,vikram.naidu8221@klu.edu.in,9816067903,84.89,UBEPN0561Q
+KLU00562,Pooja Singh,Female,MCA,PG,2,pooja.singh8222@klu.edu.in,9860731323,74.37,XGIPS0562E
+KLU00563,Kavya Mishra,Female,MCA,PG,2,kavya.mishra8223@klu.edu.in,9867158088,61.67,FSEPM0563I
+KLU00564,Kavya Malhotra,Male,MCA,PG,2,kavya.malhotra8224@klu.edu.in,9875552080,90.85,YZLPM0564F
+KLU00565,Rahul Mishra,Male,MCA,PG,2,rahul.mishra8225@klu.edu.in,9810599410,82.23,YMFPM0565J
+KLU00566,Nikhil Sharma,Female,MCA,PG,2,nikhil.sharma8226@klu.edu.in,9854326539,72.36,SSSPS0566O
+KLU00567,Yash Bose,Male,MCA,PG,2,yash.bose8227@klu.edu.in,9853894089,66.95,MRLPB0567Q
+KLU00568,Kavya Gupta,Female,MCA,PG,2,kavya.gupta8228@klu.edu.in,9833711721,84.78,SGHPG0568O
+KLU00569,Harika Nair,Male,MCA,PG,2,harika.nair8229@klu.edu.in,9855256808,85.67,FXUPN0569I
+KLU00570,Kiran Jain,Female,MCA,PG,2,kiran.jain8230@klu.edu.in,9884456707,83.33,LWZPJ0570F
+KLU00571,Meghana Bose,Female,MCA,PG,2,meghana.bose8231@klu.edu.in,9864450131,80.54,CRAPB0571W
+KLU00572,Pooja Kumar,Female,MCA,PG,2,pooja.kumar8232@klu.edu.in,9889604559,82.94,STPPK0572F
+KLU00573,Arjun Malhotra,Male,MCA,PG,2,arjun.malhotra8233@klu.edu.in,9884730599,83.94,NIVPM0573X
+KLU00574,Pooja Verma,Male,MCA,PG,2,pooja.verma8234@klu.edu.in,9838054111,98.65,ZQLPV0574Q
+KLU00575,Vikram Singh,Male,MCA,PG,2,vikram.singh8235@klu.edu.in,9831640208,76.42,DXXPS0575G
+KLU00576,Yash Bhat,Male,MCA,PG,2,yash.bhat8236@klu.edu.in,9876532590,72.63,CFWPB0576W
+KLU00577,Ritika Mishra,Female,MCA,PG,2,ritika.mishra8237@klu.edu.in,9817075546,75.98,CENPM0577G
+KLU00578,Ananya Verma,Male,MCA,PG,2,ananya.verma8238@klu.edu.in,9879802852,76.17,CKCPV0578N
+KLU00579,Vikram Bhat,Male,MCA,PG,2,vikram.bhat8239@klu.edu.in,9897533872,94.66,KONPB0579L
+KLU00580,Meghana Malhotra,Male,MCA,PG,2,meghana.malhotra8240@klu.edu.in,9887160434,92.95,HTRPM0580U
+KLU00581,Ravi Jain,Female,MCA,PG,2,ravi.jain8241@klu.edu.in,9829113909,83.48,PIAPJ0581F
+KLU00582,Yash Naidu,Male,MCA,PG,2,yash.naidu8242@klu.edu.in,9834741654,93.85,CMPPN0582X
+KLU00583,Vikram Iyer,Male,MCA,PG,2,vikram.iyer8243@klu.edu.in,9896801191,89.85,ZDBPI0583G
+KLU00584,Kiran Singh,Male,MCA,PG,2,kiran.singh8244@klu.edu.in,9854299212,62.14,XWQPS0584G
+KLU00585,Ananya Iyer,Male,MCA,PG,2,ananya.iyer8245@klu.edu.in,9826293259,99.16,ZWAPI0585L
+KLU00586,Ananya Yadav,Female,MCA,PG,2,ananya.yadav8246@klu.edu.in,9873103436,79.79,QFVPY0586J
+KLU00587,Rahul Malhotra,Male,MCA,PG,2,rahul.malhotra8247@klu.edu.in,9819208775,98.21,JLJPM0587Y
+KLU00588,Ritika Chopra,Male,MCA,PG,2,ritika.chopra8248@klu.edu.in,9861266388,88.24,LSOPC0588L
+KLU00589,Vinay Shetty,Male,MCA,PG,2,vinay.shetty8249@klu.edu.in,9842891176,99.47,RIWPS0589I
+KLU00590,Divya Chopra,Female,MCA,PG,2,divya.chopra8250@klu.edu.in,9856518778,90.62,RYFPC0590K
+KLU00591,Aman Kumar,Male,MCA,PG,2,aman.kumar8251@klu.edu.in,9819602057,87.98,KNCPK0591R
+KLU00592,Ananya Mishra,Female,MCA,PG,2,ananya.mishra8252@klu.edu.in,9852558728,67.99,RIKPM0592Y
+KLU00593,Yash Shetty,Male,MCA,PG,2,yash.shetty8253@klu.edu.in,9846788292,86.11,ZSOPS0593R
+KLU00594,Kavya Gupta,Male,MCA,PG,2,kavya.gupta8254@klu.edu.in,9877588932,88.16,BMQPG0594V
+KLU00595,Aman Nair,Female,MCA,PG,2,aman.nair8255@klu.edu.in,9840683942,90.37,JEBPN0595G
+KLU00596,Sanjay Shetty,Male,MCA,PG,2,sanjay.shetty8256@klu.edu.in,9838392485,74.17,PXWPS0596U
+KLU00597,Kavya Verma,Male,MCA,PG,2,kavya.verma8257@klu.edu.in,9843517587,82.7,KBEPV0597R
+KLU00598,Aman Rao,Female,MCA,PG,2,aman.rao8258@klu.edu.in,9859148373,71.05,XFRPR0598Y
+KLU00599,Ananya Malhotra,Male,MCA,PG,2,ananya.malhotra8259@klu.edu.in,9899649075,73.5,LHYPM0599T
+KLU00600,Sameer Rao,Female,MCA,PG,2,sameer.rao8260@klu.edu.in,9863871687,98.87,SBMPR0600Z
+KLU00601,Sneha Yadav,Male,BBA,UG,1,sneha.yadav4101@klu.edu.in,9882234394,79.81,DHKPY0601G
+KLU00602,Nikhil Sharma,Female,BBA,UG,1,nikhil.sharma4102@klu.edu.in,9865067673,99.87,ADBPS0602L
+KLU00603,Aman Reddy,Male,BBA,UG,1,aman.reddy4103@klu.edu.in,9841668001,87.89,YGCPR0603H
+KLU00604,Arjun Das,Female,BBA,UG,1,arjun.das4104@klu.edu.in,9895493753,92.45,LHQPD0604W
+KLU00605,Nikhil Gupta,Male,BBA,UG,1,nikhil.gupta4105@klu.edu.in,9811984002,87.89,WBZPG0605E
+KLU00606,Ritika Reddy,Male,BBA,UG,1,ritika.reddy4106@klu.edu.in,9887763501,95.85,YZEPR0606N
+KLU00607,Divya Malhotra,Male,BBA,UG,1,divya.malhotra4107@klu.edu.in,9852161227,68.45,ESOPM0607U
+KLU00608,Neha Gupta,Male,BBA,UG,1,neha.gupta4108@klu.edu.in,9891371452,79.68,LQVPG0608U
+KLU00609,Divya Jain,Male,BBA,UG,1,divya.jain4109@klu.edu.in,9818486424,68.35,BMEPJ0609G
+KLU00610,Nikhil Das,Female,BBA,UG,1,nikhil.das4110@klu.edu.in,9865182279,96.8,QDEPD0610X
+KLU00611,Harika Singh,Female,BBA,UG,1,harika.singh4111@klu.edu.in,9826412946,67.52,EXYPS0611K
+KLU00612,Neha Iyer,Female,BBA,UG,1,neha.iyer4112@klu.edu.in,9824020410,61.99,CNYPI0612E
+KLU00613,Meghana Rao,Male,BBA,UG,1,meghana.rao4113@klu.edu.in,9855968968,99.57,JGPPR0613G
+KLU00614,Divya Kumar,Female,BBA,UG,1,divya.kumar4114@klu.edu.in,9825230014,82.54,EWMPK0614H
+KLU00615,Pooja Patel,Female,BBA,UG,1,pooja.patel4115@klu.edu.in,9865575390,67.44,QAVPP0615G
+KLU00616,Kiran Yadav,Male,BBA,UG,1,kiran.yadav4116@klu.edu.in,9864408650,67.05,RUFPY0616M
+KLU00617,Nikhil Sharma,Male,BBA,UG,1,nikhil.sharma4117@klu.edu.in,9860918673,70.04,ABHPS0617M
+KLU00618,Ananya Kumar,Female,BBA,UG,1,ananya.kumar4118@klu.edu.in,9848060941,68.45,HRKPK0618V
+KLU00619,Sameer Nair,Male,BBA,UG,1,sameer.nair4119@klu.edu.in,9842361539,61.67,KUPPN0619M
+KLU00620,Aman Iyer,Female,BBA,UG,1,aman.iyer4120@klu.edu.in,9842459873,97.82,ECVPI0620R
+KLU00621,Vikram Malhotra,Male,BBA,UG,1,vikram.malhotra4121@klu.edu.in,9886785366,98.38,MJWPM0621G
+KLU00622,Pooja Sharma,Female,BBA,UG,1,pooja.sharma4122@klu.edu.in,9843040876,99.18,FVWPS0622F
+KLU00623,Harika Yadav,Female,BBA,UG,1,harika.yadav4123@klu.edu.in,9871525486,98.17,OFGPY0623I
+KLU00624,Rahul Bose,Male,BBA,UG,1,rahul.bose4124@klu.edu.in,9888056619,60.23,BSLPB0624Z
+KLU00625,Ananya Singh,Male,BBA,UG,1,ananya.singh4125@klu.edu.in,9838877148,91.89,KCMPS0625Z
+KLU00626,Arjun Nair,Male,BBA,UG,1,arjun.nair4126@klu.edu.in,9835066137,70.59,WTRPN0626W
+KLU00627,Divya Nair,Male,BBA,UG,1,divya.nair4127@klu.edu.in,9857054827,65.41,RBLPN0627W
+KLU00628,Kiran Verma,Male,BBA,UG,1,kiran.verma4128@klu.edu.in,9890769226,60.1,QJYPV0628Z
+KLU00629,Vikram Yadav,Male,BBA,UG,1,vikram.yadav4129@klu.edu.in,9840490343,81.53,POKPY0629K
+KLU00630,Yash Yadav,Female,BBA,UG,1,yash.yadav4130@klu.edu.in,9812703780,86.11,TDMPY0630O
+KLU00631,Arjun Jain,Male,BBA,UG,1,arjun.jain4131@klu.edu.in,9843538394,63.88,PECPJ0631R
+KLU00632,Pooja Mishra,Female,BBA,UG,1,pooja.mishra4132@klu.edu.in,9883465596,67.66,HBYPM0632N
+KLU00633,Vinay Verma,Male,BBA,UG,1,vinay.verma4133@klu.edu.in,9821200777,89.04,KEBPV0633L
+KLU00634,Ananya Bose,Male,BBA,UG,1,ananya.bose4134@klu.edu.in,9842814011,80.75,ULVPB0634M
+KLU00635,Harika Sharma,Female,BBA,UG,1,harika.sharma4135@klu.edu.in,9823969807,83.43,CECPS0635Z
+KLU00636,Sameer Gupta,Male,BBA,UG,1,sameer.gupta4136@klu.edu.in,9862690512,65.17,HWDPG0636H
+KLU00637,Aman Jain,Male,BBA,UG,1,aman.jain4137@klu.edu.in,9857275943,89.33,KICPJ0637W
+KLU00638,Sameer Gupta,Female,BBA,UG,1,sameer.gupta4138@klu.edu.in,9833178001,75.63,DBHPG0638B
+KLU00639,Harika Reddy,Male,BBA,UG,1,harika.reddy4139@klu.edu.in,9817311796,75.07,QBPPR0639O
+KLU00640,Ravi Malhotra,Female,BBA,UG,1,ravi.malhotra4140@klu.edu.in,9849554191,87.29,QKQPM0640M
+KLU00641,Pooja Reddy,Female,BBA,UG,1,pooja.reddy4141@klu.edu.in,9899925759,62.88,ZTUPR0641M
+KLU00642,Sanjay Shetty,Male,BBA,UG,1,sanjay.shetty4142@klu.edu.in,9872851083,90.77,PNYPS0642K
+KLU00643,Yash Nair,Male,BBA,UG,1,yash.nair4143@klu.edu.in,9838273624,99.19,CUWPN0643Z
+KLU00644,Ravi Reddy,Male,BBA,UG,1,ravi.reddy4144@klu.edu.in,9821114894,61.94,KSLPR0644I
+KLU00645,Vikram Sharma,Male,BBA,UG,1,vikram.sharma4145@klu.edu.in,9837273362,66.1,PEUPS0645O
+KLU00646,Aman Verma,Female,BBA,UG,1,aman.verma4146@klu.edu.in,9897858423,73.97,BLUPV0646O
+KLU00647,Sameer Yadav,Female,BBA,UG,1,sameer.yadav4147@klu.edu.in,9876417421,89.82,PEUPY0647N
+KLU00648,Pooja Reddy,Female,BBA,UG,1,pooja.reddy4148@klu.edu.in,9885925767,92.22,CNZPR0648D
+KLU00649,Arjun Gupta,Male,BBA,UG,1,arjun.gupta4149@klu.edu.in,9893297528,98.82,XSDPG0649E
+KLU00650,Aman Yadav,Female,BBA,UG,1,aman.yadav4150@klu.edu.in,9864496871,87.5,YMRPY0650B
+KLU00651,Sanjay Singh,Male,BBA,UG,1,sanjay.singh4151@klu.edu.in,9894049361,68.26,BZMPS0651N
+KLU00652,Sneha Mishra,Male,BBA,UG,1,sneha.mishra4152@klu.edu.in,9841808313,87.32,KMWPM0652N
+KLU00653,Rahul Verma,Female,BBA,UG,1,rahul.verma4153@klu.edu.in,9811196348,68.55,PDZPV0653G
+KLU00654,Nikhil Das,Female,BBA,UG,1,nikhil.das4154@klu.edu.in,9843694313,91.7,DBCPD0654J
+KLU00655,Kavya Bhat,Female,BBA,UG,1,kavya.bhat4155@klu.edu.in,9864536550,89.17,ZKOPB0655E
+KLU00656,Divya Shetty,Female,BBA,UG,1,divya.shetty4156@klu.edu.in,9836883035,86.26,EJXPS0656V
+KLU00657,Sanjay Chopra,Female,BBA,UG,1,sanjay.chopra4157@klu.edu.in,9879714689,77.43,XSHPC0657V
+KLU00658,Pooja Nair,Female,BBA,UG,1,pooja.nair4158@klu.edu.in,9830198358,92.05,IZJPN0658Q
+KLU00659,Rahul Iyer,Male,BBA,UG,1,rahul.iyer4159@klu.edu.in,9834264047,72.63,MRQPI0659P
+KLU00660,Harika Chopra,Female,BBA,UG,1,harika.chopra4160@klu.edu.in,9834622479,60.77,IQZPC0660J
+KLU00661,Sameer Patel,Female,BBA,UG,2,sameer.patel4201@klu.edu.in,9883463292,96.9,XVLPP0661Y
+KLU00662,Rahul Naidu,Male,BBA,UG,2,rahul.naidu4202@klu.edu.in,9840212987,67.78,EKZPN0662U
+KLU00663,Sameer Verma,Male,BBA,UG,2,sameer.verma4203@klu.edu.in,9846242043,83.12,ZKVPV0663G
+KLU00664,Ravi Naidu,Female,BBA,UG,2,ravi.naidu4204@klu.edu.in,9844025554,90.09,SLNPN0664Z
+KLU00665,Kavya Jain,Female,BBA,UG,2,kavya.jain4205@klu.edu.in,9893390689,66.34,FOZPJ0665Y
+KLU00666,Neha Nair,Male,BBA,UG,2,neha.nair4206@klu.edu.in,9814789759,61.13,GNUPN0666Q
+KLU00667,Divya Rao,Female,BBA,UG,2,divya.rao4207@klu.edu.in,9839336732,97.05,SKEPR0667D
+KLU00668,Ravi Kumar,Female,BBA,UG,2,ravi.kumar4208@klu.edu.in,9824513529,93.42,HBUPK0668D
+KLU00669,Ananya Sharma,Male,BBA,UG,2,ananya.sharma4209@klu.edu.in,9817680727,72.37,FBGPS0669Z
+KLU00670,Yash Reddy,Male,BBA,UG,2,yash.reddy4210@klu.edu.in,9821051504,89.41,ABYPR0670W
+KLU00671,Neha Bose,Female,BBA,UG,2,neha.bose4211@klu.edu.in,9891020263,72.34,XRDPB0671M
+KLU00672,Nikhil Shetty,Female,BBA,UG,2,nikhil.shetty4212@klu.edu.in,9820810083,64.32,ASQPS0672U
+KLU00673,Kavya Yadav,Female,BBA,UG,2,kavya.yadav4213@klu.edu.in,9883086893,62.64,JHQPY0673Q
+KLU00674,Ananya Chopra,Male,BBA,UG,2,ananya.chopra4214@klu.edu.in,9834937458,89.76,UKZPC0674I
+KLU00675,Yash Malhotra,Female,BBA,UG,2,yash.malhotra4215@klu.edu.in,9811541017,86.02,IRFPM0675L
+KLU00676,Sanjay Iyer,Female,BBA,UG,2,sanjay.iyer4216@klu.edu.in,9821635473,72.13,INCPI0676T
+KLU00677,Ravi Singh,Male,BBA,UG,2,ravi.singh4217@klu.edu.in,9887911345,75.51,YTHPS0677S
+KLU00678,Kiran Iyer,Male,BBA,UG,2,kiran.iyer4218@klu.edu.in,9829612963,65.88,IGEPI0678M
+KLU00679,Sneha Chopra,Male,BBA,UG,2,sneha.chopra4219@klu.edu.in,9850326137,75.61,SYRPC0679H
+KLU00680,Ananya Yadav,Female,BBA,UG,2,ananya.yadav4220@klu.edu.in,9894671198,72.21,PWFPY0680C
+KLU00681,Divya Mishra,Female,BBA,UG,2,divya.mishra4221@klu.edu.in,9895618524,77.24,CQAPM0681N
+KLU00682,Ritika Patel,Male,BBA,UG,2,ritika.patel4222@klu.edu.in,9822030462,99.87,CXKPP0682W
+KLU00683,Ananya Sharma,Male,BBA,UG,2,ananya.sharma4223@klu.edu.in,9834434965,90.75,AOTPS0683K
+KLU00684,Nikhil Patel,Female,BBA,UG,2,nikhil.patel4224@klu.edu.in,9875691835,61.85,HUXPP0684M
+KLU00685,Ananya Naidu,Male,BBA,UG,2,ananya.naidu4225@klu.edu.in,9855296530,80.26,YTJPN0685B
+KLU00686,Rahul Malhotra,Male,BBA,UG,2,rahul.malhotra4226@klu.edu.in,9862523019,80.59,LDWPM0686Q
+KLU00687,Kiran Jain,Male,BBA,UG,2,kiran.jain4227@klu.edu.in,9884405789,67.1,NZEPJ0687P
+KLU00688,Divya Shetty,Male,BBA,UG,2,divya.shetty4228@klu.edu.in,9893168094,72.23,DPIPS0688S
+KLU00689,Pooja Shetty,Male,BBA,UG,2,pooja.shetty4229@klu.edu.in,9840295255,61.21,UDCPS0689U
+KLU00690,Pooja Bhat,Female,BBA,UG,2,pooja.bhat4230@klu.edu.in,9830892676,91.3,VUEPB0690C
+KLU00691,Ravi Sharma,Male,BBA,UG,2,ravi.sharma4231@klu.edu.in,9888138693,90.93,RVUPS0691J
+KLU00692,Vikram Bhat,Female,BBA,UG,2,vikram.bhat4232@klu.edu.in,9899637983,64.34,GVJPB0692Y
+KLU00693,Kavya Verma,Female,BBA,UG,2,kavya.verma4233@klu.edu.in,9816244243,70.61,ATTPV0693V
+KLU00694,Kavya Singh,Female,BBA,UG,2,kavya.singh4234@klu.edu.in,9879681560,93.21,MOOPS0694T
+KLU00695,Arjun Shetty,Female,BBA,UG,2,arjun.shetty4235@klu.edu.in,9894896491,87.61,BUJPS0695F
+KLU00696,Yash Naidu,Male,BBA,UG,2,yash.naidu4236@klu.edu.in,9879072267,87.96,WYKPN0696M
+KLU00697,Nikhil Gupta,Female,BBA,UG,2,nikhil.gupta4237@klu.edu.in,9856377354,74.29,IGYPG0697U
+KLU00698,Sameer Singh,Female,BBA,UG,2,sameer.singh4238@klu.edu.in,9838393114,85.37,EIWPS0698G
+KLU00699,Aman Bhat,Male,BBA,UG,2,aman.bhat4239@klu.edu.in,9853464392,64.77,ECTPB0699K
+KLU00700,Sneha Rao,Male,BBA,UG,2,sneha.rao4240@klu.edu.in,9880235100,87.68,ARHPR0700A
+KLU00701,Harika Shetty,Female,BBA,UG,2,harika.shetty4241@klu.edu.in,9860230728,93.1,YIJPS0701V
+KLU00702,Ananya Shetty,Female,BBA,UG,2,ananya.shetty4242@klu.edu.in,9822715787,82.48,LCHPS0702V
+KLU00703,Yash Bose,Male,BBA,UG,2,yash.bose4243@klu.edu.in,9868089998,82.46,BJMPB0703I
+KLU00704,Kiran Malhotra,Female,BBA,UG,2,kiran.malhotra4244@klu.edu.in,9841567730,79.3,ZBRPM0704M
+KLU00705,Sneha Shetty,Male,BBA,UG,2,sneha.shetty4245@klu.edu.in,9881836234,97.26,PJSPS0705K
+KLU00706,Ananya Kumar,Female,BBA,UG,2,ananya.kumar4246@klu.edu.in,9852297210,97.29,XYFPK0706J
+KLU00707,Sneha Iyer,Female,BBA,UG,2,sneha.iyer4247@klu.edu.in,9861853303,68.75,WWZPI0707C
+KLU00708,Ravi Singh,Male,BBA,UG,2,ravi.singh4248@klu.edu.in,9897024956,60.84,DXFPS0708E
+KLU00709,Harika Naidu,Female,BBA,UG,2,harika.naidu4249@klu.edu.in,9814241053,93.48,TZVPN0709T
+KLU00710,Neha Nair,Male,BBA,UG,2,neha.nair4250@klu.edu.in,9843143532,81.39,AQTPN0710X
+KLU00711,Ananya Naidu,Male,BBA,UG,2,ananya.naidu4251@klu.edu.in,9845350402,73.42,JNSPN0711E
+KLU00712,Ravi Singh,Female,BBA,UG,2,ravi.singh4252@klu.edu.in,9877790396,64.94,ADAPS0712H
+KLU00713,Kiran Naidu,Male,BBA,UG,2,kiran.naidu4253@klu.edu.in,9857188273,68.75,ZMGPN0713C
+KLU00714,Neha Jain,Female,BBA,UG,2,neha.jain4254@klu.edu.in,9812849078,61.92,YYSPJ0714F
+KLU00715,Sneha Chopra,Male,BBA,UG,2,sneha.chopra4255@klu.edu.in,9836143233,71.13,NGNPC0715R
+KLU00716,Neha Patel,Male,BBA,UG,2,neha.patel4256@klu.edu.in,9875956392,85.26,DKVPP0716Y
+KLU00717,Sneha Singh,Female,BBA,UG,2,sneha.singh4257@klu.edu.in,9816189831,94.36,RGCPS0717Z
+KLU00718,Ananya Patel,Female,BBA,UG,2,ananya.patel4258@klu.edu.in,9866230636,67.42,ZBMPP0718W
+KLU00719,Harika Reddy,Female,BBA,UG,2,harika.reddy4259@klu.edu.in,9811757486,96.46,LPNPR0719J
+KLU00720,Aman Kumar,Male,BBA,UG,2,aman.kumar4260@klu.edu.in,9813601450,62.25,GFTPK0720F
+KLU00721,Vikram Rao,Male,BBA,UG,3,vikram.rao4301@klu.edu.in,9824456718,64.33,QRKPR0721L
+KLU00722,Ritika Malhotra,Female,BBA,UG,3,ritika.malhotra4302@klu.edu.in,9893508659,82.55,EHWPM0722Y
+KLU00723,Aman Mishra,Female,BBA,UG,3,aman.mishra4303@klu.edu.in,9850925464,68.2,IAVPM0723T
+KLU00724,Rahul Shetty,Female,BBA,UG,3,rahul.shetty4304@klu.edu.in,9884563783,74.45,ANFPS0724W
+KLU00725,Ravi Singh,Male,BBA,UG,3,ravi.singh4305@klu.edu.in,9821903023,65.3,TYUPS0725B
+KLU00726,Kiran Das,Male,BBA,UG,3,kiran.das4306@klu.edu.in,9865459315,96.03,HHJPD0726Z
+KLU00727,Kiran Jain,Male,BBA,UG,3,kiran.jain4307@klu.edu.in,9894898882,70.0,YIZPJ0727C
+KLU00728,Ravi Das,Male,BBA,UG,3,ravi.das4308@klu.edu.in,9887650152,73.02,YVSPD0728C
+KLU00729,Sameer Chopra,Female,BBA,UG,3,sameer.chopra4309@klu.edu.in,9889073739,89.82,UDUPC0729D
+KLU00730,Aman Shetty,Male,BBA,UG,3,aman.shetty4310@klu.edu.in,9871515956,60.68,ZMWPS0730N
+KLU00731,Sameer Iyer,Male,BBA,UG,3,sameer.iyer4311@klu.edu.in,9880977852,86.93,GCQPI0731J
+KLU00732,Vikram Singh,Male,BBA,UG,3,vikram.singh4312@klu.edu.in,9845013881,91.47,MCCPS0732D
+KLU00733,Nikhil Bose,Female,BBA,UG,3,nikhil.bose4313@klu.edu.in,9880504467,77.17,TLWPB0733A
+KLU00734,Meghana Nair,Female,BBA,UG,3,meghana.nair4314@klu.edu.in,9856763143,74.88,NMDPN0734P
+KLU00735,Nikhil Bose,Male,BBA,UG,3,nikhil.bose4315@klu.edu.in,9899968089,84.81,WYHPB0735K
+KLU00736,Harika Singh,Male,BBA,UG,3,harika.singh4316@klu.edu.in,9865117755,83.61,TAGPS0736F
+KLU00737,Nikhil Reddy,Male,BBA,UG,3,nikhil.reddy4317@klu.edu.in,9834953306,77.11,BFIPR0737V
+KLU00738,Pooja Reddy,Female,BBA,UG,3,pooja.reddy4318@klu.edu.in,9850705748,64.94,NTAPR0738W
+KLU00739,Kiran Mishra,Female,BBA,UG,3,kiran.mishra4319@klu.edu.in,9882804142,88.32,BGUPM0739X
+KLU00740,Sameer Patel,Male,BBA,UG,3,sameer.patel4320@klu.edu.in,9838909489,72.61,TZLPP0740D
+KLU00741,Nikhil Reddy,Female,BBA,UG,3,nikhil.reddy4321@klu.edu.in,9812377156,69.18,ZLTPR0741N
+KLU00742,Yash Patel,Male,BBA,UG,3,yash.patel4322@klu.edu.in,9865514770,86.26,MYQPP0742U
+KLU00743,Vikram Shetty,Female,BBA,UG,3,vikram.shetty4323@klu.edu.in,9876120482,60.85,IAEPS0743G
+KLU00744,Vikram Yadav,Female,BBA,UG,3,vikram.yadav4324@klu.edu.in,9863501588,74.78,MULPY0744L
+KLU00745,Yash Malhotra,Male,BBA,UG,3,yash.malhotra4325@klu.edu.in,9893686816,63.07,CQFPM0745R
+KLU00746,Sameer Patel,Female,BBA,UG,3,sameer.patel4326@klu.edu.in,9877217807,86.4,RDUPP0746F
+KLU00747,Harika Shetty,Female,BBA,UG,3,harika.shetty4327@klu.edu.in,9833227433,73.64,RMBPS0747H
+KLU00748,Kiran Chopra,Male,BBA,UG,3,kiran.chopra4328@klu.edu.in,9866189066,67.96,XUVPC0748U
+KLU00749,Meghana Verma,Female,BBA,UG,3,meghana.verma4329@klu.edu.in,9884175400,95.42,AQAPV0749Y
+KLU00750,Harika Verma,Female,BBA,UG,3,harika.verma4330@klu.edu.in,9886569757,64.67,DTAPV0750V
+KLU00751,Neha Singh,Female,BBA,UG,3,neha.singh4331@klu.edu.in,9838984204,97.79,AXDPS0751M
+KLU00752,Divya Bhat,Female,BBA,UG,3,divya.bhat4332@klu.edu.in,9897774549,96.51,FUYPB0752D
+KLU00753,Nikhil Naidu,Male,BBA,UG,3,nikhil.naidu4333@klu.edu.in,9899289240,93.27,OUAPN0753H
+KLU00754,Pooja Yadav,Male,BBA,UG,3,pooja.yadav4334@klu.edu.in,9820623385,82.22,IFYPY0754Q
+KLU00755,Meghana Iyer,Male,BBA,UG,3,meghana.iyer4335@klu.edu.in,9874926581,72.01,KAPPI0755D
+KLU00756,Ananya Nair,Female,BBA,UG,3,ananya.nair4336@klu.edu.in,9825593237,75.08,JZYPN0756X
+KLU00757,Yash Verma,Female,BBA,UG,3,yash.verma4337@klu.edu.in,9840564667,70.65,KFRPV0757D
+KLU00758,Sameer Naidu,Female,BBA,UG,3,sameer.naidu4338@klu.edu.in,9854045774,70.42,WYQPN0758F
+KLU00759,Vinay Rao,Male,BBA,UG,3,vinay.rao4339@klu.edu.in,9847167486,88.52,YZEPR0759G
+KLU00760,Neha Malhotra,Male,BBA,UG,3,neha.malhotra4340@klu.edu.in,9857765767,66.78,CZEPM0760H
+KLU00761,Ravi Patel,Female,BBA,UG,3,ravi.patel4341@klu.edu.in,9881006483,71.16,HUGPP0761A
+KLU00762,Sanjay Kumar,Female,BBA,UG,3,sanjay.kumar4342@klu.edu.in,9825234834,72.99,MNVPK0762A
+KLU00763,Sanjay Gupta,Female,BBA,UG,3,sanjay.gupta4343@klu.edu.in,9892654477,80.23,EHRPG0763D
+KLU00764,Kavya Mishra,Female,BBA,UG,3,kavya.mishra4344@klu.edu.in,9889606362,96.32,IEBPM0764Q
+KLU00765,Sanjay Yadav,Female,BBA,UG,3,sanjay.yadav4345@klu.edu.in,9825477546,98.48,UGRPY0765Y
+KLU00766,Pooja Reddy,Female,BBA,UG,3,pooja.reddy4346@klu.edu.in,9860657606,97.13,CPPPR0766W
+KLU00767,Yash Bose,Male,BBA,UG,3,yash.bose4347@klu.edu.in,9835562110,76.38,HYFPB0767Y
+KLU00768,Rahul Nair,Female,BBA,UG,3,rahul.nair4348@klu.edu.in,9850744912,99.05,TYKPN0768F
+KLU00769,Vikram Iyer,Female,BBA,UG,3,vikram.iyer4349@klu.edu.in,9879731457,93.02,CCOPI0769X
+KLU00770,Vikram Naidu,Female,BBA,UG,3,vikram.naidu4350@klu.edu.in,9858496934,96.77,KRTPN0770Z
+KLU00771,Vikram Verma,Male,BBA,UG,3,vikram.verma4351@klu.edu.in,9891754803,99.66,EGWPV0771L
+KLU00772,Aman Bhat,Female,BBA,UG,3,aman.bhat4352@klu.edu.in,9868827913,63.99,BUSPB0772S
+KLU00773,Ravi Das,Female,BBA,UG,3,ravi.das4353@klu.edu.in,9828117291,63.25,RIWPD0773T
+KLU00774,Harika Verma,Female,BBA,UG,3,harika.verma4354@klu.edu.in,9839134466,93.36,EDUPV0774N
+KLU00775,Vinay Yadav,Male,BBA,UG,3,vinay.yadav4355@klu.edu.in,9824956832,93.69,DDVPY0775S
+KLU00776,Ravi Kumar,Male,BBA,UG,3,ravi.kumar4356@klu.edu.in,9884216314,89.84,BSYPK0776I
+KLU00777,Vikram Patel,Male,BBA,UG,3,vikram.patel4357@klu.edu.in,9878613833,92.73,DWZPP0777B
+KLU00778,Vinay Reddy,Male,BBA,UG,3,vinay.reddy4358@klu.edu.in,9873984534,86.06,ELKPR0778L
+KLU00779,Harika Bose,Male,BBA,UG,3,harika.bose4359@klu.edu.in,9876372956,85.35,NEIPB0779X
+KLU00780,Aman Naidu,Male,BBA,UG,3,aman.naidu4360@klu.edu.in,9876500255,96.71,TDGPN0780P
+KLU00781,Vikram Yadav,Female,BBA,UG,4,vikram.yadav4401@klu.edu.in,9899305071,93.08,ULEPY0781D
+KLU00782,Pooja Malhotra,Male,BBA,UG,4,pooja.malhotra4402@klu.edu.in,9816182725,82.27,JDSPM0782M
+KLU00783,Yash Verma,Female,BBA,UG,4,yash.verma4403@klu.edu.in,9879101466,64.82,RXSPV0783R
+KLU00784,Nikhil Nair,Female,BBA,UG,4,nikhil.nair4404@klu.edu.in,9831930535,73.62,XRDPN0784A
+KLU00785,Nikhil Yadav,Female,BBA,UG,4,nikhil.yadav4405@klu.edu.in,9810067805,84.3,JQJPY0785V
+KLU00786,Yash Iyer,Male,BBA,UG,4,yash.iyer4406@klu.edu.in,9841987823,89.77,NOFPI0786H
+KLU00787,Kavya Shetty,Male,BBA,UG,4,kavya.shetty4407@klu.edu.in,9820512325,83.79,SBHPS0787V
+KLU00788,Pooja Sharma,Female,BBA,UG,4,pooja.sharma4408@klu.edu.in,9895074556,73.79,EDHPS0788O
+KLU00789,Pooja Bhat,Male,BBA,UG,4,pooja.bhat4409@klu.edu.in,9899025979,60.13,UYTPB0789Y
+KLU00790,Yash Gupta,Female,BBA,UG,4,yash.gupta4410@klu.edu.in,9829067692,81.92,XDLPG0790O
+KLU00791,Kiran Yadav,Female,BBA,UG,4,kiran.yadav4411@klu.edu.in,9856475497,78.48,HPEPY0791V
+KLU00792,Aman Kumar,Female,BBA,UG,4,aman.kumar4412@klu.edu.in,9839069633,79.88,BQIPK0792E
+KLU00793,Vinay Singh,Female,BBA,UG,4,vinay.singh4413@klu.edu.in,9818628499,91.85,RLJPS0793Y
+KLU00794,Ananya Bose,Female,BBA,UG,4,ananya.bose4414@klu.edu.in,9842551473,67.27,RQJPB0794P
+KLU00795,Ravi Sharma,Male,BBA,UG,4,ravi.sharma4415@klu.edu.in,9857583993,98.04,MEDPS0795E
+KLU00796,Neha Shetty,Female,BBA,UG,4,neha.shetty4416@klu.edu.in,9836919861,69.57,GOQPS0796H
+KLU00797,Ravi Nair,Female,BBA,UG,4,ravi.nair4417@klu.edu.in,9840185025,98.95,DWXPN0797O
+KLU00798,Kavya Reddy,Male,BBA,UG,4,kavya.reddy4418@klu.edu.in,9876401025,75.84,IDIPR0798F
+KLU00799,Meghana Patel,Female,BBA,UG,4,meghana.patel4419@klu.edu.in,9820015089,64.86,UUMPP0799J
+KLU00800,Arjun Rao,Female,BBA,UG,4,arjun.rao4420@klu.edu.in,9854991288,82.16,ASJPR0800I
+KLU00801,Nikhil Das,Male,BBA,UG,4,nikhil.das4421@klu.edu.in,9831660203,82.05,ZNVPD0801A
+KLU00802,Arjun Sharma,Female,BBA,UG,4,arjun.sharma4422@klu.edu.in,9836976594,91.51,KDWPS0802T
+KLU00803,Rahul Bose,Male,BBA,UG,4,rahul.bose4423@klu.edu.in,9825535758,99.08,ULNPB0803D
+KLU00804,Sameer Naidu,Male,BBA,UG,4,sameer.naidu4424@klu.edu.in,9892025058,89.16,QKTPN0804K
+KLU00805,Rahul Shetty,Male,BBA,UG,4,rahul.shetty4425@klu.edu.in,9883954957,89.48,ISSPS0805W
+KLU00806,Nikhil Singh,Male,BBA,UG,4,nikhil.singh4426@klu.edu.in,9851888779,62.11,KDYPS0806Q
+KLU00807,Vinay Naidu,Male,BBA,UG,4,vinay.naidu4427@klu.edu.in,9866090990,70.87,DQNPN0807U
+KLU00808,Ravi Singh,Female,BBA,UG,4,ravi.singh4428@klu.edu.in,9866359778,72.62,PXCPS0808W
+KLU00809,Rahul Chopra,Female,BBA,UG,4,rahul.chopra4429@klu.edu.in,9822968251,94.28,MOIPC0809S
+KLU00810,Kiran Malhotra,Male,BBA,UG,4,kiran.malhotra4430@klu.edu.in,9850084480,99.85,WLHPM0810V
+KLU00811,Sanjay Jain,Male,BBA,UG,4,sanjay.jain4431@klu.edu.in,9864516956,61.69,ENKPJ0811L
+KLU00812,Neha Sharma,Female,BBA,UG,4,neha.sharma4432@klu.edu.in,9815055490,66.13,WLVPS0812A
+KLU00813,Arjun Iyer,Male,BBA,UG,4,arjun.iyer4433@klu.edu.in,9897993503,64.07,FBKPI0813K
+KLU00814,Kavya Chopra,Female,BBA,UG,4,kavya.chopra4434@klu.edu.in,9882683583,84.7,ZCCPC0814G
+KLU00815,Rahul Rao,Male,BBA,UG,4,rahul.rao4435@klu.edu.in,9810084350,60.01,YLWPR0815S
+KLU00816,Kiran Gupta,Male,BBA,UG,4,kiran.gupta4436@klu.edu.in,9853713190,97.88,UXOPG0816I
+KLU00817,Arjun Chopra,Female,BBA,UG,4,arjun.chopra4437@klu.edu.in,9855715680,65.35,MMLPC0817Z
+KLU00818,Vikram Sharma,Male,BBA,UG,4,vikram.sharma4438@klu.edu.in,9817209027,97.0,RYIPS0818G
+KLU00819,Vikram Chopra,Male,BBA,UG,4,vikram.chopra4439@klu.edu.in,9865191035,72.81,LPZPC0819Y
+KLU00820,Nikhil Mishra,Male,BBA,UG,4,nikhil.mishra4440@klu.edu.in,9866083848,64.54,NRBPM0820D
+KLU00821,Harika Reddy,Female,BBA,UG,4,harika.reddy4441@klu.edu.in,9877098334,83.56,UQUPR0821P
+KLU00822,Yash Jain,Female,BBA,UG,4,yash.jain4442@klu.edu.in,9833016597,82.12,DCLPJ0822C
+KLU00823,Kiran Bhat,Female,BBA,UG,4,kiran.bhat4443@klu.edu.in,9852219892,63.63,YKXPB0823J
+KLU00824,Meghana Jain,Male,BBA,UG,4,meghana.jain4444@klu.edu.in,9846647502,66.8,MEVPJ0824Y
+KLU00825,Divya Bose,Male,BBA,UG,4,divya.bose4445@klu.edu.in,9891733077,83.57,PZBPB0825C
+KLU00826,Ananya Sharma,Male,BBA,UG,4,ananya.sharma4446@klu.edu.in,9825925645,88.4,RREPS0826Q
+KLU00827,Divya Kumar,Female,BBA,UG,4,divya.kumar4447@klu.edu.in,9873258183,69.98,OFYPK0827Q
+KLU00828,Yash Kumar,Male,BBA,UG,4,yash.kumar4448@klu.edu.in,9816766981,98.4,LEOPK0828H
+KLU00829,Harika Jain,Female,BBA,UG,4,harika.jain4449@klu.edu.in,9853775254,93.82,QLAPJ0829Y
+KLU00830,Ananya Gupta,Male,BBA,UG,4,ananya.gupta4450@klu.edu.in,9898200742,97.04,RCNPG0830X
+KLU00831,Ritika Shetty,Male,BBA,UG,4,ritika.shetty4451@klu.edu.in,9828328058,70.94,HUZPS0831A
+KLU00832,Sneha Jain,Female,BBA,UG,4,sneha.jain4452@klu.edu.in,9883529655,96.44,QXLPJ0832C
+KLU00833,Sneha Jain,Female,BBA,UG,4,sneha.jain4453@klu.edu.in,9889719126,60.04,XQWPJ0833T
+KLU00834,Divya Sharma,Male,BBA,UG,4,divya.sharma4454@klu.edu.in,9898650567,72.71,VCWPS0834E
+KLU00835,Kiran Nair,Female,BBA,UG,4,kiran.nair4455@klu.edu.in,9853256892,88.3,KBKPN0835H
+KLU00836,Ritika Jain,Male,BBA,UG,4,ritika.jain4456@klu.edu.in,9888531315,65.9,WLAPJ0836I
+KLU00837,Vikram Singh,Male,BBA,UG,4,vikram.singh4457@klu.edu.in,9895409807,63.36,SRGPS0837E
+KLU00838,Sneha Sharma,Female,BBA,UG,4,sneha.sharma4458@klu.edu.in,9869319291,96.68,JFAPS0838T
+KLU00839,Sneha Singh,Male,BBA,UG,4,sneha.singh4459@klu.edu.in,9868927187,62.29,NCSPS0839T
+KLU00840,Neha Shetty,Male,BBA,UG,4,neha.shetty4460@klu.edu.in,9845173840,60.49,JAWPS0840H
+KLU00841,Sanjay Patel,Female,CE,UG,1,sanjay.patel3101@klu.edu.in,9855298005,86.62,SZPPP0841O
+KLU00842,Pooja Verma,Female,CE,UG,1,pooja.verma3102@klu.edu.in,9899559594,94.51,ZFTPV0842T
+KLU00843,Pooja Kumar,Male,CE,UG,1,pooja.kumar3103@klu.edu.in,9816977150,78.39,SOEPK0843G
+KLU00844,Sanjay Das,Male,CE,UG,1,sanjay.das3104@klu.edu.in,9883750277,63.63,IFGPD0844A
+KLU00845,Aman Chopra,Male,CE,UG,1,aman.chopra3105@klu.edu.in,9897621121,76.2,PMEPC0845H
+KLU00846,Sanjay Chopra,Female,CE,UG,1,sanjay.chopra3106@klu.edu.in,9872720836,64.97,JKRPC0846Q
+KLU00847,Sameer Singh,Male,CE,UG,1,sameer.singh3107@klu.edu.in,9891836887,64.98,IIMPS0847M
+KLU00848,Ritika Rao,Male,CE,UG,1,ritika.rao3108@klu.edu.in,9888710617,62.42,BSXPR0848H
+KLU00849,Kavya Chopra,Male,CE,UG,1,kavya.chopra3109@klu.edu.in,9886305945,83.73,FISPC0849T
+KLU00850,Pooja Naidu,Female,CE,UG,1,pooja.naidu3110@klu.edu.in,9811494465,90.02,ZDIPN0850G
+KLU00851,Sameer Chopra,Male,CE,UG,1,sameer.chopra3111@klu.edu.in,9810783260,83.49,YOCPC0851C
+KLU00852,Harika Singh,Male,CE,UG,1,harika.singh3112@klu.edu.in,9849521974,96.6,SKTPS0852C
+KLU00853,Meghana Reddy,Female,CE,UG,1,meghana.reddy3113@klu.edu.in,9848878369,90.37,MVKPR0853H
+KLU00854,Ravi Kumar,Male,CE,UG,1,ravi.kumar3114@klu.edu.in,9827725512,83.9,AGIPK0854I
+KLU00855,Meghana Das,Female,CE,UG,1,meghana.das3115@klu.edu.in,9844206357,66.08,FZWPD0855Z
+KLU00856,Yash Shetty,Female,CE,UG,1,yash.shetty3116@klu.edu.in,9880410094,64.23,AVPPS0856S
+KLU00857,Nikhil Shetty,Female,CE,UG,1,nikhil.shetty3117@klu.edu.in,9846170869,84.74,XYYPS0857M
+KLU00858,Ritika Verma,Male,CE,UG,1,ritika.verma3118@klu.edu.in,9880434104,79.15,BOIPV0858P
+KLU00859,Kiran Gupta,Male,CE,UG,1,kiran.gupta3119@klu.edu.in,9810963941,63.64,LIHPG0859H
+KLU00860,Vinay Patel,Male,CE,UG,1,vinay.patel3120@klu.edu.in,9838982413,71.17,DCHPP0860Y
+KLU00861,Arjun Malhotra,Female,CE,UG,1,arjun.malhotra3121@klu.edu.in,9855553979,80.18,CZTPM0861W
+KLU00862,Nikhil Iyer,Female,CE,UG,1,nikhil.iyer3122@klu.edu.in,9881600474,72.77,PQBPI0862P
+KLU00863,Sneha Kumar,Female,CE,UG,1,sneha.kumar3123@klu.edu.in,9852019193,60.51,CUDPK0863S
+KLU00864,Yash Nair,Female,CE,UG,1,yash.nair3124@klu.edu.in,9885956046,91.67,QTZPN0864D
+KLU00865,Vikram Reddy,Male,CE,UG,1,vikram.reddy3125@klu.edu.in,9836350258,65.21,DRTPR0865X
+KLU00866,Divya Shetty,Female,CE,UG,1,divya.shetty3126@klu.edu.in,9842516066,92.31,WYIPS0866V
+KLU00867,Vikram Patel,Female,CE,UG,1,vikram.patel3127@klu.edu.in,9816659091,64.07,GMWPP0867X
+KLU00868,Kavya Das,Female,CE,UG,1,kavya.das3128@klu.edu.in,9879319654,90.28,BOLPD0868Q
+KLU00869,Pooja Kumar,Female,CE,UG,1,pooja.kumar3129@klu.edu.in,9849731637,94.75,GXTPK0869G
+KLU00870,Rahul Verma,Female,CE,UG,1,rahul.verma3130@klu.edu.in,9887907275,62.32,EVVPV0870W
+KLU00871,Meghana Das,Female,CE,UG,1,meghana.das3131@klu.edu.in,9822669875,71.59,YYKPD0871U
+KLU00872,Ananya Das,Female,CE,UG,1,ananya.das3132@klu.edu.in,9859536446,68.0,NNMPD0872E
+KLU00873,Ritika Yadav,Male,CE,UG,1,ritika.yadav3133@klu.edu.in,9891482632,89.18,ZDNPY0873K
+KLU00874,Kavya Bose,Female,CE,UG,1,kavya.bose3134@klu.edu.in,9888157003,64.77,GJVPB0874O
+KLU00875,Divya Nair,Female,CE,UG,1,divya.nair3135@klu.edu.in,9830911278,62.68,IXOPN0875V
+KLU00876,Yash Jain,Female,CE,UG,1,yash.jain3136@klu.edu.in,9898291712,79.27,XETPJ0876Y
+KLU00877,Yash Gupta,Female,CE,UG,1,yash.gupta3137@klu.edu.in,9883107362,94.04,PRVPG0877P
+KLU00878,Ritika Bose,Female,CE,UG,1,ritika.bose3138@klu.edu.in,9840710102,64.98,TYLPB0878T
+KLU00879,Sneha Chopra,Male,CE,UG,1,sneha.chopra3139@klu.edu.in,9841624823,79.34,IXDPC0879D
+KLU00880,Aman Iyer,Female,CE,UG,1,aman.iyer3140@klu.edu.in,9856163476,95.69,QKTPI0880U
+KLU00881,Sameer Naidu,Female,CE,UG,1,sameer.naidu3141@klu.edu.in,9831056299,87.53,GQRPN0881K
+KLU00882,Kavya Patel,Male,CE,UG,1,kavya.patel3142@klu.edu.in,9828098233,80.45,MZTPP0882Y
+KLU00883,Nikhil Yadav,Male,CE,UG,1,nikhil.yadav3143@klu.edu.in,9885947221,68.12,JFEPY0883D
+KLU00884,Kiran Gupta,Female,CE,UG,1,kiran.gupta3144@klu.edu.in,9890754914,88.9,UAPPG0884P
+KLU00885,Sameer Naidu,Female,CE,UG,1,sameer.naidu3145@klu.edu.in,9810454724,99.1,WYRPN0885D
+KLU00886,Vikram Verma,Male,CE,UG,1,vikram.verma3146@klu.edu.in,9844404456,91.89,TASPV0886Y
+KLU00887,Kavya Yadav,Male,CE,UG,1,kavya.yadav3147@klu.edu.in,9818117522,78.3,VFFPY0887C
+KLU00888,Divya Malhotra,Male,CE,UG,1,divya.malhotra3148@klu.edu.in,9829930424,97.53,KVOPM0888J
+KLU00889,Aman Reddy,Male,CE,UG,1,aman.reddy3149@klu.edu.in,9840700696,79.7,EIBPR0889N
+KLU00890,Ritika Iyer,Male,CE,UG,1,ritika.iyer3150@klu.edu.in,9828928757,65.42,RRVPI0890P
+KLU00891,Pooja Sharma,Male,CE,UG,1,pooja.sharma3151@klu.edu.in,9843669096,77.67,COXPS0891T
+KLU00892,Arjun Nair,Female,CE,UG,1,arjun.nair3152@klu.edu.in,9859813758,85.11,SRLPN0892E
+KLU00893,Ananya Naidu,Female,CE,UG,1,ananya.naidu3153@klu.edu.in,9821649895,78.83,ANPPN0893S
+KLU00894,Kavya Bhat,Male,CE,UG,1,kavya.bhat3154@klu.edu.in,9858817057,97.18,BAUPB0894L
+KLU00895,Vikram Das,Female,CE,UG,1,vikram.das3155@klu.edu.in,9890959194,84.65,SWJPD0895D
+KLU00896,Ananya Yadav,Female,CE,UG,1,ananya.yadav3156@klu.edu.in,9834529193,98.73,SYLPY0896R
+KLU00897,Divya Mishra,Male,CE,UG,1,divya.mishra3157@klu.edu.in,9898865796,65.83,LIZPM0897K
+KLU00898,Ananya Gupta,Female,CE,UG,1,ananya.gupta3158@klu.edu.in,9889723692,67.25,JHPPG0898Y
+KLU00899,Yash Bose,Female,CE,UG,1,yash.bose3159@klu.edu.in,9861283138,63.75,YZCPB0899I
+KLU00900,Rahul Sharma,Female,CE,UG,1,rahul.sharma3160@klu.edu.in,9832898786,85.81,UGZPS0900V
+KLU00901,Vikram Jain,Male,CE,UG,2,vikram.jain3201@klu.edu.in,9814553287,84.76,HHDPJ0901R
+KLU00902,Sameer Singh,Male,CE,UG,2,sameer.singh3202@klu.edu.in,9859270966,81.71,DXJPS0902X
+KLU00903,Nikhil Bose,Female,CE,UG,2,nikhil.bose3203@klu.edu.in,9884245142,99.12,GBCPB0903T
+KLU00904,Sameer Bose,Male,CE,UG,2,sameer.bose3204@klu.edu.in,9887714961,60.87,BCDPB0904R
+KLU00905,Vikram Mishra,Female,CE,UG,2,vikram.mishra3205@klu.edu.in,9816727590,75.44,XHFPM0905N
+KLU00906,Ritika Sharma,Male,CE,UG,2,ritika.sharma3206@klu.edu.in,9810182511,83.07,VVQPS0906J
+KLU00907,Sanjay Gupta,Male,CE,UG,2,sanjay.gupta3207@klu.edu.in,9835143263,99.53,PDUPG0907Q
+KLU00908,Yash Patel,Female,CE,UG,2,yash.patel3208@klu.edu.in,9888880147,93.12,TVKPP0908K
+KLU00909,Sneha Gupta,Male,CE,UG,2,sneha.gupta3209@klu.edu.in,9853540644,80.74,BHAPG0909N
+KLU00910,Kavya Kumar,Female,CE,UG,2,kavya.kumar3210@klu.edu.in,9897516128,69.2,IKNPK0910H
+KLU00911,Divya Singh,Female,CE,UG,2,divya.singh3211@klu.edu.in,9894118471,99.24,EMWPS0911E
+KLU00912,Divya Patel,Female,CE,UG,2,divya.patel3212@klu.edu.in,9836927773,62.75,JZCPP0912I
+KLU00913,Harika Malhotra,Female,CE,UG,2,harika.malhotra3213@klu.edu.in,9852873582,82.34,SUZPM0913I
+KLU00914,Meghana Das,Male,CE,UG,2,meghana.das3214@klu.edu.in,9815577643,88.14,SMQPD0914F
+KLU00915,Ravi Gupta,Male,CE,UG,2,ravi.gupta3215@klu.edu.in,9891904462,73.06,BYVPG0915V
+KLU00916,Sameer Naidu,Female,CE,UG,2,sameer.naidu3216@klu.edu.in,9897308467,66.72,IHGPN0916L
+KLU00917,Ravi Rao,Female,CE,UG,2,ravi.rao3217@klu.edu.in,9885800943,89.57,SZRPR0917E
+KLU00918,Rahul Rao,Female,CE,UG,2,rahul.rao3218@klu.edu.in,9876174060,71.11,TLTPR0918N
+KLU00919,Kiran Jain,Female,CE,UG,2,kiran.jain3219@klu.edu.in,9828280317,82.86,GLQPJ0919E
+KLU00920,Vinay Nair,Male,CE,UG,2,vinay.nair3220@klu.edu.in,9834030618,67.16,IPYPN0920B
+KLU00921,Meghana Shetty,Female,CE,UG,2,meghana.shetty3221@klu.edu.in,9832984273,64.61,UYJPS0921I
+KLU00922,Vinay Rao,Male,CE,UG,2,vinay.rao3222@klu.edu.in,9839179453,66.36,WISPR0922K
+KLU00923,Arjun Yadav,Male,CE,UG,2,arjun.yadav3223@klu.edu.in,9883936192,62.98,LBHPY0923K
+KLU00924,Kavya Singh,Male,CE,UG,2,kavya.singh3224@klu.edu.in,9810605220,68.25,DEIPS0924C
+KLU00925,Neha Naidu,Male,CE,UG,2,neha.naidu3225@klu.edu.in,9867420658,73.69,FZOPN0925I
+KLU00926,Aman Gupta,Male,CE,UG,2,aman.gupta3226@klu.edu.in,9843800046,60.08,DRAPG0926I
+KLU00927,Harika Patel,Female,CE,UG,2,harika.patel3227@klu.edu.in,9871404959,62.03,ISNPP0927C
+KLU00928,Ananya Reddy,Male,CE,UG,2,ananya.reddy3228@klu.edu.in,9860792703,81.19,KSAPR0928M
+KLU00929,Vikram Shetty,Male,CE,UG,2,vikram.shetty3229@klu.edu.in,9883845179,82.1,FINPS0929R
+KLU00930,Vinay Mishra,Male,CE,UG,2,vinay.mishra3230@klu.edu.in,9878354493,85.9,WKPPM0930P
+KLU00931,Nikhil Malhotra,Male,CE,UG,2,nikhil.malhotra3231@klu.edu.in,9874570587,63.42,ZDIPM0931C
+KLU00932,Meghana Jain,Female,CE,UG,2,meghana.jain3232@klu.edu.in,9865523167,63.55,KQAPJ0932E
+KLU00933,Vikram Reddy,Male,CE,UG,2,vikram.reddy3233@klu.edu.in,9883109746,99.07,PPPPR0933D
+KLU00934,Pooja Singh,Male,CE,UG,2,pooja.singh3234@klu.edu.in,9861630105,88.42,CSKPS0934X
+KLU00935,Kiran Patel,Male,CE,UG,2,kiran.patel3235@klu.edu.in,9879712099,62.7,MPVPP0935A
+KLU00936,Arjun Das,Male,CE,UG,2,arjun.das3236@klu.edu.in,9886217798,95.41,YLIPD0936Y
+KLU00937,Kavya Chopra,Male,CE,UG,2,kavya.chopra3237@klu.edu.in,9858974309,83.87,GQAPC0937W
+KLU00938,Sneha Nair,Female,CE,UG,2,sneha.nair3238@klu.edu.in,9833106007,65.72,VHFPN0938A
+KLU00939,Meghana Verma,Female,CE,UG,2,meghana.verma3239@klu.edu.in,9851912486,90.31,XECPV0939J
+KLU00940,Nikhil Iyer,Male,CE,UG,2,nikhil.iyer3240@klu.edu.in,9894407379,97.26,QURPI0940H
+KLU00941,Vinay Patel,Male,CE,UG,2,vinay.patel3241@klu.edu.in,9836581178,68.05,UPVPP0941E
+KLU00942,Kavya Mishra,Male,CE,UG,2,kavya.mishra3242@klu.edu.in,9815634751,67.24,ZJHPM0942V
+KLU00943,Ravi Jain,Male,CE,UG,2,ravi.jain3243@klu.edu.in,9820790849,83.1,JKWPJ0943C
+KLU00944,Sanjay Reddy,Female,CE,UG,2,sanjay.reddy3244@klu.edu.in,9812311483,70.08,LTSPR0944Z
+KLU00945,Ritika Kumar,Male,CE,UG,2,ritika.kumar3245@klu.edu.in,9850631631,99.53,AQBPK0945Y
+KLU00946,Ritika Naidu,Male,CE,UG,2,ritika.naidu3246@klu.edu.in,9895168753,89.08,TLJPN0946N
+KLU00947,Harika Iyer,Female,CE,UG,2,harika.iyer3247@klu.edu.in,9820168581,81.44,WFWPI0947G
+KLU00948,Vinay Patel,Female,CE,UG,2,vinay.patel3248@klu.edu.in,9852181340,88.82,ACGPP0948G
+KLU00949,Divya Das,Female,CE,UG,2,divya.das3249@klu.edu.in,9874351229,65.1,RPVPD0949X
+KLU00950,Sameer Jain,Female,CE,UG,2,sameer.jain3250@klu.edu.in,9834987162,91.81,NURPJ0950M
+KLU00951,Arjun Shetty,Male,CE,UG,2,arjun.shetty3251@klu.edu.in,9850877988,73.02,DCBPS0951V
+KLU00952,Ritika Bhat,Male,CE,UG,2,ritika.bhat3252@klu.edu.in,9858736431,66.73,YAYPB0952Q
+KLU00953,Aman Sharma,Male,CE,UG,2,aman.sharma3253@klu.edu.in,9825720278,86.1,XKQPS0953A
+KLU00954,Meghana Yadav,Female,CE,UG,2,meghana.yadav3254@klu.edu.in,9897882894,76.79,TYMPY0954N
+KLU00955,Ritika Singh,Male,CE,UG,2,ritika.singh3255@klu.edu.in,9893989431,77.22,RRWPS0955G
+KLU00956,Neha Yadav,Male,CE,UG,2,neha.yadav3256@klu.edu.in,9837764477,95.56,UIZPY0956H
+KLU00957,Aman Rao,Female,CE,UG,2,aman.rao3257@klu.edu.in,9825903730,83.34,MQQPR0957G
+KLU00958,Vinay Gupta,Female,CE,UG,2,vinay.gupta3258@klu.edu.in,9876356322,70.51,YPRPG0958Q
+KLU00959,Harika Malhotra,Male,CE,UG,2,harika.malhotra3259@klu.edu.in,9870010013,86.2,ENOPM0959D
+KLU00960,Rahul Bhat,Female,CE,UG,2,rahul.bhat3260@klu.edu.in,9875754344,66.82,XNCPB0960O
+KLU00961,Sanjay Mishra,Female,CE,UG,3,sanjay.mishra3301@klu.edu.in,9854402143,98.64,XVLPM0961S
+KLU00962,Vikram Kumar,Female,CE,UG,3,vikram.kumar3302@klu.edu.in,9842586920,66.5,PPBPK0962D
+KLU00963,Vinay Yadav,Male,CE,UG,3,vinay.yadav3303@klu.edu.in,9830268899,87.07,YYPPY0963E
+KLU00964,Yash Patel,Male,CE,UG,3,yash.patel3304@klu.edu.in,9840195103,69.82,TIPPP0964D
+KLU00965,Kiran Nair,Male,CE,UG,3,kiran.nair3305@klu.edu.in,9889751874,61.67,OEOPN0965D
+KLU00966,Vinay Das,Female,CE,UG,3,vinay.das3306@klu.edu.in,9892858620,98.65,ZLWPD0966R
+KLU00967,Kavya Naidu,Male,CE,UG,3,kavya.naidu3307@klu.edu.in,9823746280,78.48,PZKPN0967T
+KLU00968,Sanjay Mishra,Female,CE,UG,3,sanjay.mishra3308@klu.edu.in,9827022835,83.27,GCCPM0968T
+KLU00969,Kavya Chopra,Male,CE,UG,3,kavya.chopra3309@klu.edu.in,9810283820,78.41,BPTPC0969V
+KLU00970,Vinay Jain,Male,CE,UG,3,vinay.jain3310@klu.edu.in,9832035978,87.9,ARSPJ0970N
+KLU00971,Neha Das,Female,CE,UG,3,neha.das3311@klu.edu.in,9852244157,94.81,VGKPD0971L
+KLU00972,Meghana Patel,Male,CE,UG,3,meghana.patel3312@klu.edu.in,9890823460,98.29,JKXPP0972S
+KLU00973,Vikram Rao,Male,CE,UG,3,vikram.rao3313@klu.edu.in,9863563789,70.85,OWBPR0973A
+KLU00974,Harika Yadav,Female,CE,UG,3,harika.yadav3314@klu.edu.in,9838758297,95.35,TKKPY0974C
+KLU00975,Rahul Chopra,Male,CE,UG,3,rahul.chopra3315@klu.edu.in,9886249573,66.81,HPFPC0975F
+KLU00976,Kavya Nair,Male,CE,UG,3,kavya.nair3316@klu.edu.in,9852598668,60.01,KKLPN0976Q
+KLU00977,Vinay Naidu,Male,CE,UG,3,vinay.naidu3317@klu.edu.in,9859204288,91.91,HKDPN0977R
+KLU00978,Vikram Mishra,Female,CE,UG,3,vikram.mishra3318@klu.edu.in,9880107228,82.15,BHLPM0978R
+KLU00979,Harika Patel,Male,CE,UG,3,harika.patel3319@klu.edu.in,9810873468,66.48,BZMPP0979V
+KLU00980,Neha Naidu,Female,CE,UG,3,neha.naidu3320@klu.edu.in,9873069126,79.13,MKGPN0980E
+KLU00981,Sanjay Verma,Female,CE,UG,3,sanjay.verma3321@klu.edu.in,9821697825,82.96,FTFPV0981T
+KLU00982,Sneha Bhat,Male,CE,UG,3,sneha.bhat3322@klu.edu.in,9838946757,78.54,NAPPB0982D
+KLU00983,Harika Gupta,Male,CE,UG,3,harika.gupta3323@klu.edu.in,9834033898,62.51,PIMPG0983L
+KLU00984,Pooja Nair,Female,CE,UG,3,pooja.nair3324@klu.edu.in,9843901002,99.51,CBGPN0984F
+KLU00985,Yash Verma,Male,CE,UG,3,yash.verma3325@klu.edu.in,9838423562,84.65,FGAPV0985G
+KLU00986,Vinay Chopra,Male,CE,UG,3,vinay.chopra3326@klu.edu.in,9878439482,90.69,XVLPC0986F
+KLU00987,Nikhil Naidu,Female,CE,UG,3,nikhil.naidu3327@klu.edu.in,9869966382,88.36,KYCPN0987C
+KLU00988,Kavya Verma,Male,CE,UG,3,kavya.verma3328@klu.edu.in,9815271113,63.55,OHIPV0988D
+KLU00989,Vikram Reddy,Female,CE,UG,3,vikram.reddy3329@klu.edu.in,9874393903,73.12,OZNPR0989U
+KLU00990,Ravi Das,Female,CE,UG,3,ravi.das3330@klu.edu.in,9830124350,95.38,TZXPD0990M
+KLU00991,Neha Sharma,Female,CE,UG,3,neha.sharma3331@klu.edu.in,9834490577,97.12,KGIPS0991J
+KLU00992,Divya Mishra,Male,CE,UG,3,divya.mishra3332@klu.edu.in,9876085874,71.32,RKOPM0992Y
+KLU00993,Yash Chopra,Male,CE,UG,3,yash.chopra3333@klu.edu.in,9895725940,80.2,QVKPC0993Y
+KLU00994,Sanjay Verma,Female,CE,UG,3,sanjay.verma3334@klu.edu.in,9848391982,99.88,IZRPV0994K
+KLU00995,Sanjay Kumar,Male,CE,UG,3,sanjay.kumar3335@klu.edu.in,9885463447,93.96,XZUPK0995B
+KLU00996,Rahul Gupta,Male,CE,UG,3,rahul.gupta3336@klu.edu.in,9857301713,88.58,TXHPG0996G
+KLU00997,Neha Rao,Male,CE,UG,3,neha.rao3337@klu.edu.in,9891881870,94.4,PUDPR0997X
+KLU00998,Aman Bose,Female,CE,UG,3,aman.bose3338@klu.edu.in,9858880663,96.63,SDNPB0998Z
+KLU00999,Ravi Patel,Male,CE,UG,3,ravi.patel3339@klu.edu.in,9815997621,66.24,KMFPP0999P
+KLU01000,Sameer Verma,Male,CE,UG,3,sameer.verma3340@klu.edu.in,9869086116,62.86,YANPV1000R
+KLU01001,Kavya Reddy,Female,CE,UG,3,kavya.reddy3341@klu.edu.in,9868319916,69.78,VZTPR1001C
+KLU01002,Nikhil Jain,Male,CE,UG,3,nikhil.jain3342@klu.edu.in,9896176796,94.08,XQIPJ1002Q
+KLU01003,Meghana Chopra,Female,CE,UG,3,meghana.chopra3343@klu.edu.in,9838574903,87.09,MUXPC1003K
+KLU01004,Arjun Reddy,Female,CE,UG,3,arjun.reddy3344@klu.edu.in,9816211505,87.15,REOPR1004Y
+KLU01005,Ritika Yadav,Male,CE,UG,3,ritika.yadav3345@klu.edu.in,9847687257,84.1,UCEPY1005W
+KLU01006,Meghana Yadav,Male,CE,UG,3,meghana.yadav3346@klu.edu.in,9853324946,71.63,SENPY1006R
+KLU01007,Meghana Jain,Male,CE,UG,3,meghana.jain3347@klu.edu.in,9864600788,86.61,WWEPJ1007M
+KLU01008,Kiran Bhat,Male,CE,UG,3,kiran.bhat3348@klu.edu.in,9860721801,70.49,QVLPB1008H
+KLU01009,Arjun Bose,Female,CE,UG,3,arjun.bose3349@klu.edu.in,9893132540,95.65,FFMPB1009Z
+KLU01010,Ritika Kumar,Female,CE,UG,3,ritika.kumar3350@klu.edu.in,9865720675,86.65,YFCPK1010Q
+KLU01011,Arjun Jain,Male,CE,UG,3,arjun.jain3351@klu.edu.in,9854280292,85.25,ISVPJ1011T
+KLU01012,Harika Reddy,Male,CE,UG,3,harika.reddy3352@klu.edu.in,9867271387,61.18,ANJPR1012Z
+KLU01013,Neha Malhotra,Female,CE,UG,3,neha.malhotra3353@klu.edu.in,9844954500,97.59,AGUPM1013F
+KLU01014,Vinay Patel,Female,CE,UG,3,vinay.patel3354@klu.edu.in,9842394133,74.23,ZCLPP1014U
+KLU01015,Nikhil Das,Female,CE,UG,3,nikhil.das3355@klu.edu.in,9829951848,70.8,AIKPD1015O
+KLU01016,Neha Yadav,Male,CE,UG,3,neha.yadav3356@klu.edu.in,9857030775,71.5,DBFPY1016L
+KLU01017,Vinay Naidu,Female,CE,UG,3,vinay.naidu3357@klu.edu.in,9891553783,98.58,NYJPN1017O
+KLU01018,Ritika Naidu,Female,CE,UG,3,ritika.naidu3358@klu.edu.in,9825747202,69.62,AHXPN1018C
+KLU01019,Arjun Iyer,Female,CE,UG,3,arjun.iyer3359@klu.edu.in,9845136361,85.85,MBNPI1019A
+KLU01020,Sanjay Yadav,Male,CE,UG,3,sanjay.yadav3360@klu.edu.in,9812197242,70.97,POFPY1020C
+KLU01021,Pooja Shetty,Male,CE,UG,4,pooja.shetty3401@klu.edu.in,9857427360,82.52,ICAPS1021J
+KLU01022,Rahul Jain,Male,CE,UG,4,rahul.jain3402@klu.edu.in,9872659601,77.13,NQPPJ1022R
+KLU01023,Ananya Das,Female,CE,UG,4,ananya.das3403@klu.edu.in,9841703858,98.43,SRMPD1023M
+KLU01024,Neha Mishra,Female,CE,UG,4,neha.mishra3404@klu.edu.in,9865469727,84.92,ERGPM1024V
+KLU01025,Kiran Kumar,Male,CE,UG,4,kiran.kumar3405@klu.edu.in,9880449248,92.64,RWFPK1025X
+KLU01026,Sneha Chopra,Male,CE,UG,4,sneha.chopra3406@klu.edu.in,9816386610,98.57,FOFPC1026X
+KLU01027,Aman Mishra,Male,CE,UG,4,aman.mishra3407@klu.edu.in,9840975513,87.95,BTSPM1027E
+KLU01028,Arjun Rao,Female,CE,UG,4,arjun.rao3408@klu.edu.in,9886948485,75.21,FRFPR1028N
+KLU01029,Pooja Verma,Female,CE,UG,4,pooja.verma3409@klu.edu.in,9828975513,64.93,APUPV1029B
+KLU01030,Kavya Bhat,Female,CE,UG,4,kavya.bhat3410@klu.edu.in,9867091953,74.41,YCGPB1030U
+KLU01031,Neha Patel,Female,CE,UG,4,neha.patel3411@klu.edu.in,9875738265,77.95,RAMPP1031X
+KLU01032,Kavya Chopra,Female,CE,UG,4,kavya.chopra3412@klu.edu.in,9811169194,93.96,QUIPC1032E
+KLU01033,Aman Kumar,Female,CE,UG,4,aman.kumar3413@klu.edu.in,9824935372,60.78,SFDPK1033H
+KLU01034,Pooja Reddy,Male,CE,UG,4,pooja.reddy3414@klu.edu.in,9830103256,71.71,ARTPR1034P
+KLU01035,Kavya Verma,Male,CE,UG,4,kavya.verma3415@klu.edu.in,9868932603,94.55,GXXPV1035H
+KLU01036,Ananya Mishra,Male,CE,UG,4,ananya.mishra3416@klu.edu.in,9832303279,79.77,VCZPM1036X
+KLU01037,Vinay Singh,Male,CE,UG,4,vinay.singh3417@klu.edu.in,9862582444,92.77,FGAPS1037S
+KLU01038,Kavya Das,Male,CE,UG,4,kavya.das3418@klu.edu.in,9897570379,82.62,PGYPD1038O
+KLU01039,Vinay Nair,Male,CE,UG,4,vinay.nair3419@klu.edu.in,9831981576,73.33,OLOPN1039Q
+KLU01040,Sneha Verma,Male,CE,UG,4,sneha.verma3420@klu.edu.in,9818005471,97.9,CQYPV1040O
+KLU01041,Pooja Bhat,Male,CE,UG,4,pooja.bhat3421@klu.edu.in,9899720665,83.57,BRYPB1041W
+KLU01042,Neha Verma,Male,CE,UG,4,neha.verma3422@klu.edu.in,9879719844,92.29,RMUPV1042A
+KLU01043,Kavya Malhotra,Female,CE,UG,4,kavya.malhotra3423@klu.edu.in,9876564840,92.38,HGEPM1043W
+KLU01044,Kiran Yadav,Female,CE,UG,4,kiran.yadav3424@klu.edu.in,9849106506,62.22,QRDPY1044H
+KLU01045,Pooja Shetty,Male,CE,UG,4,pooja.shetty3425@klu.edu.in,9854067180,77.88,UXAPS1045Y
+KLU01046,Sneha Iyer,Male,CE,UG,4,sneha.iyer3426@klu.edu.in,9834983416,96.25,DUEPI1046Y
+KLU01047,Sameer Yadav,Female,CE,UG,4,sameer.yadav3427@klu.edu.in,9825131429,85.22,LSYPY1047C
+KLU01048,Vikram Malhotra,Male,CE,UG,4,vikram.malhotra3428@klu.edu.in,9836238908,67.8,VVMPM1048K
+KLU01049,Pooja Yadav,Male,CE,UG,4,pooja.yadav3429@klu.edu.in,9817205651,84.94,ENNPY1049D
+KLU01050,Sneha Bhat,Male,CE,UG,4,sneha.bhat3430@klu.edu.in,9846464695,88.11,LFAPB1050M
+KLU01051,Sanjay Yadav,Male,CE,UG,4,sanjay.yadav3431@klu.edu.in,9898037134,63.7,DWEPY1051W
+KLU01052,Ananya Mishra,Male,CE,UG,4,ananya.mishra3432@klu.edu.in,9861935041,94.48,GNXPM1052S
+KLU01053,Nikhil Singh,Female,CE,UG,4,nikhil.singh3433@klu.edu.in,9845469950,67.67,JLOPS1053E
+KLU01054,Ravi Yadav,Male,CE,UG,4,ravi.yadav3434@klu.edu.in,9875365031,73.24,XZCPY1054N
+KLU01055,Meghana Iyer,Male,CE,UG,4,meghana.iyer3435@klu.edu.in,9849780707,97.8,NQSPI1055H
+KLU01056,Kavya Rao,Male,CE,UG,4,kavya.rao3436@klu.edu.in,9853504899,84.83,DLZPR1056H
+KLU01057,Vikram Gupta,Male,CE,UG,4,vikram.gupta3437@klu.edu.in,9838813640,62.49,HMVPG1057B
+KLU01058,Yash Shetty,Female,CE,UG,4,yash.shetty3438@klu.edu.in,9827158844,74.42,OKWPS1058T
+KLU01059,Sanjay Verma,Female,CE,UG,4,sanjay.verma3439@klu.edu.in,9897253710,80.48,THLPV1059Y
+KLU01060,Nikhil Sharma,Male,CE,UG,4,nikhil.sharma3440@klu.edu.in,9849435194,68.07,OWEPS1060U
+KLU01061,Nikhil Yadav,Female,CE,UG,4,nikhil.yadav3441@klu.edu.in,9822853121,91.03,CTUPY1061Q
+KLU01062,Harika Kumar,Male,CE,UG,4,harika.kumar3442@klu.edu.in,9860585645,65.32,UZRPK1062F
+KLU01063,Sanjay Rao,Male,CE,UG,4,sanjay.rao3443@klu.edu.in,9824829517,84.88,JKJPR1063A
+KLU01064,Kavya Sharma,Male,CE,UG,4,kavya.sharma3444@klu.edu.in,9852928412,86.46,ENVPS1064U
+KLU01065,Neha Reddy,Male,CE,UG,4,neha.reddy3445@klu.edu.in,9863851678,70.21,JUIPR1065R
+KLU01066,Neha Bose,Female,CE,UG,4,neha.bose3446@klu.edu.in,9844085566,66.87,FVXPB1066U
+KLU01067,Vikram Bose,Male,CE,UG,4,vikram.bose3447@klu.edu.in,9890633361,61.96,FILPB1067W
+KLU01068,Sameer Kumar,Female,CE,UG,4,sameer.kumar3448@klu.edu.in,9868330466,62.72,QAKPK1068O
+KLU01069,Aman Yadav,Male,CE,UG,4,aman.yadav3449@klu.edu.in,9885183813,86.81,MLZPY1069Y
+KLU01070,Nikhil Bhat,Male,CE,UG,4,nikhil.bhat3450@klu.edu.in,9887399902,73.87,TKGPB1070O
+KLU01071,Nikhil Iyer,Male,CE,UG,4,nikhil.iyer3451@klu.edu.in,9845834382,92.18,XJIPI1071Z
+KLU01072,Yash Bose,Male,CE,UG,4,yash.bose3452@klu.edu.in,9817078358,68.03,DRAPB1072Z
+KLU01073,Sneha Mishra,Female,CE,UG,4,sneha.mishra3453@klu.edu.in,9810001035,76.23,BVYPM1073S
+KLU01074,Divya Malhotra,Female,CE,UG,4,divya.malhotra3454@klu.edu.in,9812641861,81.33,MECPM1074H
+KLU01075,Nikhil Das,Male,CE,UG,4,nikhil.das3455@klu.edu.in,9810108581,76.5,ZGXPD1075T
+KLU01076,Ananya Rao,Female,CE,UG,4,ananya.rao3456@klu.edu.in,9879225927,71.67,XVBPR1076P
+KLU01077,Neha Das,Male,CE,UG,4,neha.das3457@klu.edu.in,9841832248,85.81,XUPPD1077F
+KLU01078,Yash Mishra,Female,CE,UG,4,yash.mishra3458@klu.edu.in,9852386138,84.2,DPJPM1078U
+KLU01079,Pooja Gupta,Male,CE,UG,4,pooja.gupta3459@klu.edu.in,9895962918,81.89,PWWPG1079J
+KLU01080,Yash Nair,Male,CE,UG,4,yash.nair3460@klu.edu.in,9865960198,71.38,YXVPN1080Q
+KLU01081,Yash Yadav,Male,CSE,UG,1,yash.yadav101@klu.edu.in,9838412326,80.18,AVXPY1081N
+KLU01082,Nikhil Mishra,Female,CSE,UG,1,nikhil.mishra102@klu.edu.in,9861096236,64.72,KPUPM1082F
+KLU01083,Meghana Sharma,Female,CSE,UG,1,meghana.sharma103@klu.edu.in,9860586099,95.93,SFFPS1083E
+KLU01084,Vikram Sharma,Male,CSE,UG,1,vikram.sharma104@klu.edu.in,9897640742,71.82,CXSPS1084K
+KLU01085,Sameer Singh,Male,CSE,UG,1,sameer.singh105@klu.edu.in,9869370834,79.96,UTPPS1085U
+KLU01086,Vinay Jain,Male,CSE,UG,1,vinay.jain106@klu.edu.in,9855842107,66.75,GDTPJ1086C
+KLU01087,Arjun Patel,Male,CSE,UG,1,arjun.patel107@klu.edu.in,9858452243,81.83,KOMPP1087C
+KLU01088,Ritika Shetty,Male,CSE,UG,1,ritika.shetty108@klu.edu.in,9810979320,63.12,PDHPS1088N
+KLU01089,Rahul Chopra,Male,CSE,UG,1,rahul.chopra109@klu.edu.in,9871438067,77.58,XAHPC1089M
+KLU01090,Ravi Mishra,Male,CSE,UG,1,ravi.mishra110@klu.edu.in,9861951977,81.62,XPVPM1090Q
+KLU01091,Divya Iyer,Male,CSE,UG,1,divya.iyer111@klu.edu.in,9890994231,98.1,JHCPI1091L
+KLU01092,Sanjay Singh,Male,CSE,UG,1,sanjay.singh112@klu.edu.in,9818435030,61.46,WSCPS1092R
+KLU01093,Yash Shetty,Male,CSE,UG,1,yash.shetty113@klu.edu.in,9864759786,90.34,SOGPS1093E
+KLU01094,Sanjay Verma,Female,CSE,UG,1,sanjay.verma114@klu.edu.in,9811062239,94.82,VOBPV1094U
+KLU01095,Sameer Reddy,Female,CSE,UG,1,sameer.reddy115@klu.edu.in,9827096431,75.95,WJOPR1095M
+KLU01096,Sneha Verma,Male,CSE,UG,1,sneha.verma116@klu.edu.in,9874891954,81.92,QBHPV1096F
+KLU01097,Divya Sharma,Male,CSE,UG,1,divya.sharma117@klu.edu.in,9870767150,85.29,BHIPS1097T
+KLU01098,Aman Naidu,Male,CSE,UG,1,aman.naidu118@klu.edu.in,9821022198,85.38,TOLPN1098Z
+KLU01099,Nikhil Iyer,Female,CSE,UG,1,nikhil.iyer119@klu.edu.in,9849628260,98.42,UUQPI1099D
+KLU01100,Nikhil Kumar,Male,CSE,UG,1,nikhil.kumar120@klu.edu.in,9860973858,88.94,DHSPK1100J
+KLU01101,Nikhil Sharma,Female,CSE,UG,1,nikhil.sharma121@klu.edu.in,9817978921,72.05,VEJPS1101B
+KLU01102,Ritika Yadav,Male,CSE,UG,1,ritika.yadav122@klu.edu.in,9894175380,60.57,JDQPY1102I
+KLU01103,Vikram Bose,Female,CSE,UG,1,vikram.bose123@klu.edu.in,9878407349,72.09,HDHPB1103N
+KLU01104,Kavya Bhat,Male,CSE,UG,1,kavya.bhat124@klu.edu.in,9874126462,74.48,HBNPB1104A
+KLU01105,Sneha Rao,Male,CSE,UG,1,sneha.rao125@klu.edu.in,9844658699,94.01,MWZPR1105T
+KLU01106,Divya Yadav,Male,CSE,UG,1,divya.yadav126@klu.edu.in,9825610230,60.34,WXNPY1106Q
+KLU01107,Aman Yadav,Male,CSE,UG,1,aman.yadav127@klu.edu.in,9889219645,93.77,OQEPY1107S
+KLU01108,Vikram Malhotra,Female,CSE,UG,1,vikram.malhotra128@klu.edu.in,9833590397,64.75,COMPM1108X
+KLU01109,Ritika Yadav,Male,CSE,UG,1,ritika.yadav129@klu.edu.in,9841215908,94.98,HHGPY1109G
+KLU01110,Yash Nair,Male,CSE,UG,1,yash.nair130@klu.edu.in,9836365853,75.54,GHTPN1110V
+KLU01111,Aman Yadav,Male,CSE,UG,1,aman.yadav131@klu.edu.in,9892949029,68.1,ZZBPY1111P
+KLU01112,Sneha Bhat,Male,CSE,UG,1,sneha.bhat132@klu.edu.in,9850914849,79.17,CUJPB1112Z
+KLU01113,Yash Jain,Male,CSE,UG,1,yash.jain133@klu.edu.in,9843736574,65.58,NLJPJ1113N
+KLU01114,Arjun Patel,Female,CSE,UG,1,arjun.patel134@klu.edu.in,9865377811,86.36,WTAPP1114L
+KLU01115,Ritika Mishra,Female,CSE,UG,1,ritika.mishra135@klu.edu.in,9824631900,98.29,ILJPM1115A
+KLU01116,Vikram Nair,Female,CSE,UG,1,vikram.nair136@klu.edu.in,9841870770,73.98,VDKPN1116V
+KLU01117,Sanjay Gupta,Female,CSE,UG,1,sanjay.gupta137@klu.edu.in,9813443952,86.2,HUDPG1117M
+KLU01118,Sameer Shetty,Male,CSE,UG,1,sameer.shetty138@klu.edu.in,9858342661,85.95,BYPPS1118Y
+KLU01119,Kiran Sharma,Female,CSE,UG,1,kiran.sharma139@klu.edu.in,9869625861,75.72,KPRPS1119A
+KLU01120,Rahul Nair,Female,CSE,UG,1,rahul.nair140@klu.edu.in,9833487640,82.34,ZBLPN1120E
+KLU01121,Nikhil Rao,Female,CSE,UG,1,nikhil.rao141@klu.edu.in,9835899638,97.48,MBZPR1121K
+KLU01122,Ravi Rao,Female,CSE,UG,1,ravi.rao142@klu.edu.in,9843874986,74.72,SVVPR1122M
+KLU01123,Kiran Sharma,Female,CSE,UG,1,kiran.sharma143@klu.edu.in,9826980130,74.25,TKNPS1123H
+KLU01124,Sameer Iyer,Female,CSE,UG,1,sameer.iyer144@klu.edu.in,9881198575,66.31,YTLPI1124B
+KLU01125,Yash Das,Male,CSE,UG,1,yash.das145@klu.edu.in,9866540760,86.21,SONPD1125X
+KLU01126,Divya Patel,Male,CSE,UG,1,divya.patel146@klu.edu.in,9885033605,66.16,WCXPP1126K
+KLU01127,Aman Bhat,Female,CSE,UG,1,aman.bhat147@klu.edu.in,9813347819,69.36,MCGPB1127H
+KLU01128,Neha Iyer,Female,CSE,UG,1,neha.iyer148@klu.edu.in,9819071997,87.67,RMOPI1128K
+KLU01129,Harika Chopra,Female,CSE,UG,1,harika.chopra149@klu.edu.in,9810136941,96.26,CTLPC1129I
+KLU01130,Vinay Kumar,Male,CSE,UG,1,vinay.kumar150@klu.edu.in,9887818563,65.96,QWTPK1130G
+KLU01131,Ananya Patel,Female,CSE,UG,1,ananya.patel151@klu.edu.in,9814422477,61.49,KDFPP1131N
+KLU01132,Sameer Yadav,Female,CSE,UG,1,sameer.yadav152@klu.edu.in,9814257691,66.87,FCFPY1132E
+KLU01133,Pooja Mishra,Female,CSE,UG,1,pooja.mishra153@klu.edu.in,9852477895,70.4,CSLPM1133K
+KLU01134,Sameer Gupta,Female,CSE,UG,1,sameer.gupta154@klu.edu.in,9832683207,75.6,BBTPG1134S
+KLU01135,Nikhil Singh,Female,CSE,UG,1,nikhil.singh155@klu.edu.in,9896846743,66.51,JVRPS1135J
+KLU01136,Divya Naidu,Female,CSE,UG,1,divya.naidu156@klu.edu.in,9810012076,87.32,PIUPN1136M
+KLU01137,Sameer Yadav,Male,CSE,UG,1,sameer.yadav157@klu.edu.in,9831464697,67.02,ZRDPY1137P
+KLU01138,Divya Yadav,Female,CSE,UG,1,divya.yadav158@klu.edu.in,9868949069,64.06,NQAPY1138T
+KLU01139,Vikram Shetty,Female,CSE,UG,1,vikram.shetty159@klu.edu.in,9843511876,96.04,XRSPS1139P
+KLU01140,Pooja Verma,Female,CSE,UG,1,pooja.verma160@klu.edu.in,9826900979,95.22,YLTPV1140O
+KLU01141,Kiran Jain,Female,CSE,UG,2,kiran.jain201@klu.edu.in,9817990436,72.3,VIDPJ1141T
+KLU01142,Sanjay Verma,Female,CSE,UG,2,sanjay.verma202@klu.edu.in,9887633910,87.31,XPCPV1142G
+KLU01143,Kiran Das,Female,CSE,UG,2,kiran.das203@klu.edu.in,9816684365,74.98,VWBPD1143T
+KLU01144,Ananya Gupta,Female,CSE,UG,2,ananya.gupta204@klu.edu.in,9829022398,75.86,SJXPG1144F
+KLU01145,Sameer Malhotra,Female,CSE,UG,2,sameer.malhotra205@klu.edu.in,9835197112,66.02,JHXPM1145C
+KLU01146,Rahul Bhat,Female,CSE,UG,2,rahul.bhat206@klu.edu.in,9855530941,84.52,UKMPB1146X
+KLU01147,Yash Naidu,Female,CSE,UG,2,yash.naidu207@klu.edu.in,9820190858,71.08,WQAPN1147L
+KLU01148,Sanjay Singh,Male,CSE,UG,2,sanjay.singh208@klu.edu.in,9875479872,82.54,YPFPS1148K
+KLU01149,Kiran Jain,Female,CSE,UG,2,kiran.jain209@klu.edu.in,9876778971,94.75,OJKPJ1149C
+KLU01150,Divya Kumar,Female,CSE,UG,2,divya.kumar210@klu.edu.in,9827174576,81.5,SOEPK1150T
+KLU01151,Pooja Chopra,Female,CSE,UG,2,pooja.chopra211@klu.edu.in,9880045625,79.38,MVYPC1151P
+KLU01152,Kavya Iyer,Female,CSE,UG,2,kavya.iyer212@klu.edu.in,9865101938,70.47,XWCPI1152Y
+KLU01153,Sameer Bose,Female,CSE,UG,2,sameer.bose213@klu.edu.in,9818726515,74.1,IDJPB1153Y
+KLU01154,Kavya Naidu,Female,CSE,UG,2,kavya.naidu214@klu.edu.in,9861735521,73.64,IUKPN1154M
+KLU01155,Harika Mishra,Male,CSE,UG,2,harika.mishra215@klu.edu.in,9828832834,95.34,CPHPM1155R
+KLU01156,Nikhil Patel,Male,CSE,UG,2,nikhil.patel216@klu.edu.in,9892672747,78.21,SCRPP1156S
+KLU01157,Rahul Malhotra,Female,CSE,UG,2,rahul.malhotra217@klu.edu.in,9869607726,97.66,GVOPM1157I
+KLU01158,Aman Verma,Male,CSE,UG,2,aman.verma218@klu.edu.in,9817948268,87.26,ADDPV1158K
+KLU01159,Sanjay Kumar,Female,CSE,UG,2,sanjay.kumar219@klu.edu.in,9840267970,78.98,GMAPK1159K
+KLU01160,Neha Jain,Female,CSE,UG,2,neha.jain220@klu.edu.in,9827178073,79.82,HAAPJ1160F
+KLU01161,Aman Verma,Male,CSE,UG,2,aman.verma221@klu.edu.in,9894377610,78.99,LHDPV1161I
+KLU01162,Arjun Yadav,Female,CSE,UG,2,arjun.yadav222@klu.edu.in,9843773954,93.94,JUJPY1162Q
+KLU01163,Aman Nair,Female,CSE,UG,2,aman.nair223@klu.edu.in,9843978682,72.54,GFMPN1163M
+KLU01164,Pooja Bhat,Female,CSE,UG,2,pooja.bhat224@klu.edu.in,9861638296,97.54,QRBPB1164B
+KLU01165,Pooja Malhotra,Male,CSE,UG,2,pooja.malhotra225@klu.edu.in,9855130692,70.89,SSZPM1165C
+KLU01166,Meghana Yadav,Female,CSE,UG,2,meghana.yadav226@klu.edu.in,9846865992,99.72,QDSPY1166L
+KLU01167,Meghana Reddy,Female,CSE,UG,2,meghana.reddy227@klu.edu.in,9846741818,73.29,ALAPR1167K
+KLU01168,Pooja Rao,Male,CSE,UG,2,pooja.rao228@klu.edu.in,9869440503,91.92,KIRPR1168I
+KLU01169,Yash Jain,Male,CSE,UG,2,yash.jain229@klu.edu.in,9879086554,84.1,XXGPJ1169U
+KLU01170,Harika Malhotra,Female,CSE,UG,2,harika.malhotra230@klu.edu.in,9840921246,63.7,REMPM1170Y
+KLU01171,Harika Bhat,Male,CSE,UG,2,harika.bhat231@klu.edu.in,9895618198,71.05,FERPB1171X
+KLU01172,Aman Malhotra,Male,CSE,UG,2,aman.malhotra232@klu.edu.in,9838123183,88.87,FLHPM1172L
+KLU01173,Nikhil Singh,Female,CSE,UG,2,nikhil.singh233@klu.edu.in,9865169154,72.03,EIRPS1173U
+KLU01174,Nikhil Iyer,Male,CSE,UG,2,nikhil.iyer234@klu.edu.in,9842235931,67.86,AZGPI1174D
+KLU01175,Sneha Shetty,Female,CSE,UG,2,sneha.shetty235@klu.edu.in,9876982625,84.16,LZKPS1175A
+KLU01176,Divya Iyer,Female,CSE,UG,2,divya.iyer236@klu.edu.in,9886606442,74.08,AOJPI1176J
+KLU01177,Rahul Patel,Female,CSE,UG,2,rahul.patel237@klu.edu.in,9829599199,88.43,IDWPP1177R
+KLU01178,Kiran Sharma,Male,CSE,UG,2,kiran.sharma238@klu.edu.in,9820144662,88.83,TCGPS1178W
+KLU01179,Neha Naidu,Female,CSE,UG,2,neha.naidu239@klu.edu.in,9841201099,72.56,YOVPN1179U
+KLU01180,Harika Das,Female,CSE,UG,2,harika.das240@klu.edu.in,9869928036,90.01,BRVPD1180M
+KLU01181,Rahul Gupta,Male,CSE,UG,2,rahul.gupta241@klu.edu.in,9828729583,76.18,BJAPG1181S
+KLU01182,Ravi Jain,Female,CSE,UG,2,ravi.jain242@klu.edu.in,9842157097,79.12,LAEPJ1182T
+KLU01183,Sameer Patel,Female,CSE,UG,2,sameer.patel243@klu.edu.in,9812703040,63.25,TGOPP1183C
+KLU01184,Sneha Mishra,Female,CSE,UG,2,sneha.mishra244@klu.edu.in,9855218055,72.95,IWUPM1184M
+KLU01185,Sanjay Bose,Male,CSE,UG,2,sanjay.bose245@klu.edu.in,9845170069,91.79,FTUPB1185Y
+KLU01186,Ritika Sharma,Female,CSE,UG,2,ritika.sharma246@klu.edu.in,9836536618,61.92,IOLPS1186L
+KLU01187,Sameer Rao,Male,CSE,UG,2,sameer.rao247@klu.edu.in,9812638645,94.56,DOYPR1187M
+KLU01188,Aman Mishra,Female,CSE,UG,2,aman.mishra248@klu.edu.in,9841687723,60.01,TTNPM1188X
+KLU01189,Pooja Jain,Female,CSE,UG,2,pooja.jain249@klu.edu.in,9817962094,97.62,UGQPJ1189H
+KLU01190,Kiran Singh,Female,CSE,UG,2,kiran.singh250@klu.edu.in,9866962894,80.31,KFIPS1190V
+KLU01191,Divya Sharma,Male,CSE,UG,2,divya.sharma251@klu.edu.in,9882281291,91.81,ZWIPS1191A
+KLU01192,Sanjay Verma,Female,CSE,UG,2,sanjay.verma252@klu.edu.in,9882800746,72.37,UGZPV1192Q
+KLU01193,Arjun Kumar,Female,CSE,UG,2,arjun.kumar253@klu.edu.in,9885381814,77.14,XPSPK1193O
+KLU01194,Nikhil Chopra,Female,CSE,UG,2,nikhil.chopra254@klu.edu.in,9859915913,78.44,CHBPC1194U
+KLU01195,Vikram Bhat,Male,CSE,UG,2,vikram.bhat255@klu.edu.in,9852222096,70.37,UEMPB1195R
+KLU01196,Yash Malhotra,Female,CSE,UG,2,yash.malhotra256@klu.edu.in,9860102231,62.15,OYUPM1196P
+KLU01197,Arjun Das,Male,CSE,UG,2,arjun.das257@klu.edu.in,9853690562,91.11,GJCPD1197M
+KLU01198,Yash Rao,Female,CSE,UG,2,yash.rao258@klu.edu.in,9824235771,87.18,HHIPR1198C
+KLU01199,Yash Shetty,Female,CSE,UG,2,yash.shetty259@klu.edu.in,9884953174,97.82,FOHPS1199S
+KLU01200,Arjun Rao,Female,CSE,UG,2,arjun.rao260@klu.edu.in,9850855301,82.58,TDSPR1200H
+KLU01201,Ananya Iyer,Male,CSE,UG,3,ananya.iyer301@klu.edu.in,9845217622,82.74,KZLPI1201D
+KLU01202,Harika Chopra,Female,CSE,UG,3,harika.chopra302@klu.edu.in,9835126410,74.2,YYBPC1202E
+KLU01203,Ravi Malhotra,Female,CSE,UG,3,ravi.malhotra303@klu.edu.in,9858103670,62.73,WNJPM1203I
+KLU01204,Pooja Nair,Female,CSE,UG,3,pooja.nair304@klu.edu.in,9891797075,82.27,HHVPN1204A
+KLU01205,Vikram Das,Male,CSE,UG,3,vikram.das305@klu.edu.in,9884911458,89.48,ZFPPD1205Z
+KLU01206,Vinay Malhotra,Male,CSE,UG,3,vinay.malhotra306@klu.edu.in,9866512101,74.79,OXXPM1206Y
+KLU01207,Meghana Gupta,Male,CSE,UG,3,meghana.gupta307@klu.edu.in,9823353173,61.46,AWAPG1207D
+KLU01208,Harika Gupta,Male,CSE,UG,3,harika.gupta308@klu.edu.in,9882345330,61.64,BXSPG1208J
+KLU01209,Meghana Jain,Female,CSE,UG,3,meghana.jain309@klu.edu.in,9827264662,63.95,ZIHPJ1209K
+KLU01210,Vinay Iyer,Female,CSE,UG,3,vinay.iyer310@klu.edu.in,9839035116,72.17,EFNPI1210C
+KLU01211,Ananya Patel,Female,CSE,UG,3,ananya.patel311@klu.edu.in,9869945980,84.75,WSMPP1211A
+KLU01212,Sameer Shetty,Male,CSE,UG,3,sameer.shetty312@klu.edu.in,9815258456,66.85,UAIPS1212U
+KLU01213,Nikhil Patel,Female,CSE,UG,3,nikhil.patel313@klu.edu.in,9870958794,99.8,DCIPP1213N
+KLU01214,Aman Bose,Male,CSE,UG,3,aman.bose314@klu.edu.in,9818402131,66.94,ZXWPB1214F
+KLU01215,Divya Jain,Female,CSE,UG,3,divya.jain315@klu.edu.in,9838636712,68.96,CFOPJ1215D
+KLU01216,Yash Verma,Male,CSE,UG,3,yash.verma316@klu.edu.in,9867146386,92.8,WINPV1216N
+KLU01217,Vikram Singh,Female,CSE,UG,3,vikram.singh317@klu.edu.in,9858248776,78.6,WKIPS1217F
+KLU01218,Neha Bose,Male,CSE,UG,3,neha.bose318@klu.edu.in,9833746027,80.52,DMQPB1218H
+KLU01219,Harika Sharma,Female,CSE,UG,3,harika.sharma319@klu.edu.in,9858077089,60.11,RZRPS1219J
+KLU01220,Nikhil Bhat,Female,CSE,UG,3,nikhil.bhat320@klu.edu.in,9898749862,69.84,UFTPB1220X
+KLU01221,Vinay Kumar,Male,CSE,UG,3,vinay.kumar321@klu.edu.in,9853292475,62.13,DKWPK1221O
+KLU01222,Ananya Naidu,Female,CSE,UG,3,ananya.naidu322@klu.edu.in,9865710625,60.27,RTPPN1222Y
+KLU01223,Sanjay Singh,Male,CSE,UG,3,sanjay.singh323@klu.edu.in,9831400341,70.6,KFPPS1223M
+KLU01224,Aman Mishra,Male,CSE,UG,3,aman.mishra324@klu.edu.in,9820412505,67.94,ZMSPM1224Q
+KLU01225,Ananya Bhat,Female,CSE,UG,3,ananya.bhat325@klu.edu.in,9894217706,73.33,EYCPB1225R
+KLU01226,Aman Sharma,Male,CSE,UG,3,aman.sharma326@klu.edu.in,9821783331,82.87,TQNPS1226R
+KLU01227,Divya Nair,Male,CSE,UG,3,divya.nair327@klu.edu.in,9823158444,96.98,SRQPN1227A
+KLU01228,Ravi Kumar,Female,CSE,UG,3,ravi.kumar328@klu.edu.in,9824341416,97.09,LWGPK1228E
+KLU01229,Harika Chopra,Female,CSE,UG,3,harika.chopra329@klu.edu.in,9878674460,75.68,ZLBPC1229T
+KLU01230,Yash Kumar,Female,CSE,UG,3,yash.kumar330@klu.edu.in,9849700220,86.45,DOFPK1230T
+KLU01231,Ananya Kumar,Female,CSE,UG,3,ananya.kumar331@klu.edu.in,9892648911,69.72,CSXPK1231R
+KLU01232,Harika Rao,Female,CSE,UG,3,harika.rao332@klu.edu.in,9836481636,80.64,ISGPR1232I
+KLU01233,Vikram Iyer,Male,CSE,UG,3,vikram.iyer333@klu.edu.in,9879850980,66.53,ABNPI1233L
+KLU01234,Sameer Bhat,Male,CSE,UG,3,sameer.bhat334@klu.edu.in,9896907766,64.27,EFFPB1234V
+KLU01235,Sameer Shetty,Female,CSE,UG,3,sameer.shetty335@klu.edu.in,9871724864,76.19,BKRPS1235P
+KLU01236,Vikram Sharma,Male,CSE,UG,3,vikram.sharma336@klu.edu.in,9826311093,84.69,YPJPS1236H
+KLU01237,Sneha Yadav,Female,CSE,UG,3,sneha.yadav337@klu.edu.in,9819213499,91.34,EAZPY1237B
+KLU01238,Harika Das,Female,CSE,UG,3,harika.das338@klu.edu.in,9867740004,94.24,SCZPD1238Y
+KLU01239,Pooja Das,Male,CSE,UG,3,pooja.das339@klu.edu.in,9835199459,65.45,CLIPD1239S
+KLU01240,Ravi Rao,Female,CSE,UG,3,ravi.rao340@klu.edu.in,9834631646,87.84,ZMAPR1240F
+KLU01241,Aman Yadav,Male,CSE,UG,3,aman.yadav341@klu.edu.in,9837512316,85.07,FOKPY1241U
+KLU01242,Meghana Mishra,Male,CSE,UG,3,meghana.mishra342@klu.edu.in,9859469396,63.05,HLGPM1242N
+KLU01243,Kavya Gupta,Female,CSE,UG,3,kavya.gupta343@klu.edu.in,9879498134,97.23,SYUPG1243C
+KLU01244,Vinay Shetty,Female,CSE,UG,3,vinay.shetty344@klu.edu.in,9863947942,69.63,BGOPS1244X
+KLU01245,Vikram Bhat,Male,CSE,UG,3,vikram.bhat345@klu.edu.in,9813811170,89.39,ECEPB1245J
+KLU01246,Meghana Das,Female,CSE,UG,3,meghana.das346@klu.edu.in,9890480160,94.04,KEZPD1246J
+KLU01247,Ravi Verma,Female,CSE,UG,3,ravi.verma347@klu.edu.in,9850088097,88.97,WWTPV1247L
+KLU01248,Arjun Das,Female,CSE,UG,3,arjun.das348@klu.edu.in,9882168177,72.25,DAXPD1248O
+KLU01249,Sanjay Nair,Male,CSE,UG,3,sanjay.nair349@klu.edu.in,9827597802,82.69,CEXPN1249R
+KLU01250,Divya Yadav,Male,CSE,UG,3,divya.yadav350@klu.edu.in,9877964245,82.36,UYJPY1250L
+KLU01251,Yash Malhotra,Male,CSE,UG,3,yash.malhotra351@klu.edu.in,9833809601,63.42,TTJPM1251H
+KLU01252,Ritika Das,Female,CSE,UG,3,ritika.das352@klu.edu.in,9866086345,94.01,VFNPD1252A
+KLU01253,Vikram Nair,Male,CSE,UG,3,vikram.nair353@klu.edu.in,9889922200,76.08,BVFPN1253B
+KLU01254,Sanjay Verma,Female,CSE,UG,3,sanjay.verma354@klu.edu.in,9838465858,64.06,FGIPV1254L
+KLU01255,Sameer Bose,Female,CSE,UG,3,sameer.bose355@klu.edu.in,9857873764,91.75,QOFPB1255K
+KLU01256,Kiran Patel,Male,CSE,UG,3,kiran.patel356@klu.edu.in,9845155838,64.72,ADQPP1256G
+KLU01257,Meghana Bhat,Male,CSE,UG,3,meghana.bhat357@klu.edu.in,9879942262,62.93,BWQPB1257I
+KLU01258,Vikram Shetty,Female,CSE,UG,3,vikram.shetty358@klu.edu.in,9850442715,93.85,IACPS1258C
+KLU01259,Sneha Chopra,Male,CSE,UG,3,sneha.chopra359@klu.edu.in,9849604298,71.05,ZTGPC1259H
+KLU01260,Sanjay Bose,Male,CSE,UG,3,sanjay.bose360@klu.edu.in,9840490031,64.39,VFOPB1260N
+KLU01261,Aman Iyer,Male,CSE,UG,4,aman.iyer401@klu.edu.in,9832560151,94.28,MGSPI1261T
+KLU01262,Sanjay Iyer,Female,CSE,UG,4,sanjay.iyer402@klu.edu.in,9822229353,87.87,BQMPI1262V
+KLU01263,Yash Verma,Female,CSE,UG,4,yash.verma403@klu.edu.in,9825754937,95.71,RQDPV1263O
+KLU01264,Aman Verma,Male,CSE,UG,4,aman.verma404@klu.edu.in,9888694975,66.78,IXEPV1264V
+KLU01265,Yash Das,Male,CSE,UG,4,yash.das405@klu.edu.in,9871527122,96.4,PNJPD1265G
+KLU01266,Ritika Shetty,Female,CSE,UG,4,ritika.shetty406@klu.edu.in,9885790676,79.87,BYRPS1266Y
+KLU01267,Ravi Sharma,Female,CSE,UG,4,ravi.sharma407@klu.edu.in,9858328534,67.1,EZXPS1267M
+KLU01268,Sameer Yadav,Female,CSE,UG,4,sameer.yadav408@klu.edu.in,9885135882,60.16,CLUPY1268U
+KLU01269,Sanjay Naidu,Male,CSE,UG,4,sanjay.naidu409@klu.edu.in,9827303483,61.23,CJUPN1269E
+KLU01270,Kavya Reddy,Male,CSE,UG,4,kavya.reddy410@klu.edu.in,9846957494,60.6,ZJUPR1270Z
+KLU01271,Divya Gupta,Female,CSE,UG,4,divya.gupta411@klu.edu.in,9849552155,77.36,TDSPG1271J
+KLU01272,Yash Rao,Male,CSE,UG,4,yash.rao412@klu.edu.in,9843840506,87.42,EQKPR1272Z
+KLU01273,Pooja Bose,Male,CSE,UG,4,pooja.bose413@klu.edu.in,9845444970,82.13,JHRPB1273W
+KLU01274,Meghana Singh,Male,CSE,UG,4,meghana.singh414@klu.edu.in,9845027984,86.63,KBJPS1274N
+KLU01275,Pooja Nair,Female,CSE,UG,4,pooja.nair415@klu.edu.in,9867460991,69.08,WZGPN1275S
+KLU01276,Aman Iyer,Male,CSE,UG,4,aman.iyer416@klu.edu.in,9819401342,85.21,GBUPI1276C
+KLU01277,Yash Verma,Male,CSE,UG,4,yash.verma417@klu.edu.in,9823464678,78.58,LAUPV1277A
+KLU01278,Pooja Sharma,Female,CSE,UG,4,pooja.sharma418@klu.edu.in,9831388446,98.56,CTAPS1278U
+KLU01279,Harika Yadav,Female,CSE,UG,4,harika.yadav419@klu.edu.in,9844923294,72.13,ZCKPY1279M
+KLU01280,Aman Naidu,Male,CSE,UG,4,aman.naidu420@klu.edu.in,9877017825,77.24,PUAPN1280U
+KLU01281,Harika Kumar,Male,CSE,UG,4,harika.kumar421@klu.edu.in,9823581813,79.65,HHEPK1281E
+KLU01282,Kiran Sharma,Female,CSE,UG,4,kiran.sharma422@klu.edu.in,9883937500,92.93,TJGPS1282W
+KLU01283,Ananya Bhat,Male,CSE,UG,4,ananya.bhat423@klu.edu.in,9849281702,86.43,FWAPB1283Z
+KLU01284,Divya Chopra,Male,CSE,UG,4,divya.chopra424@klu.edu.in,9831333482,97.3,SDJPC1284D
+KLU01285,Neha Verma,Female,CSE,UG,4,neha.verma425@klu.edu.in,9852505078,91.38,EOAPV1285X
+KLU01286,Pooja Verma,Female,CSE,UG,4,pooja.verma426@klu.edu.in,9894779377,94.08,DZAPV1286D
+KLU01287,Arjun Jain,Male,CSE,UG,4,arjun.jain427@klu.edu.in,9882159754,70.47,ARJPJ1287G
+KLU01288,Kiran Singh,Male,CSE,UG,4,kiran.singh428@klu.edu.in,9840321407,76.2,YQAPS1288L
+KLU01289,Kiran Chopra,Male,CSE,UG,4,kiran.chopra429@klu.edu.in,9815128458,72.53,NWKPC1289H
+KLU01290,Harika Das,Female,CSE,UG,4,harika.das430@klu.edu.in,9846225010,93.91,DLQPD1290P
+KLU01291,Divya Singh,Female,CSE,UG,4,divya.singh431@klu.edu.in,9848700649,73.24,RZYPS1291E
+KLU01292,Ravi Kumar,Female,CSE,UG,4,ravi.kumar432@klu.edu.in,9847758058,87.4,UHFPK1292X
+KLU01293,Kiran Sharma,Male,CSE,UG,4,kiran.sharma433@klu.edu.in,9819306459,61.49,IDXPS1293L
+KLU01294,Neha Singh,Male,CSE,UG,4,neha.singh434@klu.edu.in,9864862906,60.86,AIYPS1294G
+KLU01295,Sanjay Gupta,Female,CSE,UG,4,sanjay.gupta435@klu.edu.in,9856669408,85.46,UWLPG1295A
+KLU01296,Sneha Shetty,Male,CSE,UG,4,sneha.shetty436@klu.edu.in,9821625463,96.19,WKQPS1296U
+KLU01297,Sneha Gupta,Female,CSE,UG,4,sneha.gupta437@klu.edu.in,9870410182,81.08,MNLPG1297L
+KLU01298,Aman Kumar,Male,CSE,UG,4,aman.kumar438@klu.edu.in,9814648006,80.61,METPK1298R
+KLU01299,Pooja Patel,Female,CSE,UG,4,pooja.patel439@klu.edu.in,9836712146,85.61,MOTPP1299V
+KLU01300,Vikram Naidu,Male,CSE,UG,4,vikram.naidu440@klu.edu.in,9853352206,65.01,SWXPN1300L
+KLU01301,Arjun Kumar,Male,CSE,UG,4,arjun.kumar441@klu.edu.in,9812302652,96.56,SASPK1301M
+KLU01302,Vinay Nair,Male,CSE,UG,4,vinay.nair442@klu.edu.in,9839622268,88.4,LPNPN1302I
+KLU01303,Sameer Patel,Male,CSE,UG,4,sameer.patel443@klu.edu.in,9888193788,74.76,GVCPP1303P
+KLU01304,Vikram Bose,Female,CSE,UG,4,vikram.bose444@klu.edu.in,9822932821,99.34,BPLPB1304W
+KLU01305,Yash Bhat,Female,CSE,UG,4,yash.bhat445@klu.edu.in,9853914251,95.47,VFGPB1305B
+KLU01306,Harika Shetty,Male,CSE,UG,4,harika.shetty446@klu.edu.in,9812083767,91.12,IZDPS1306B
+KLU01307,Pooja Sharma,Male,CSE,UG,4,pooja.sharma447@klu.edu.in,9825894489,87.3,ZKPPS1307X
+KLU01308,Ritika Singh,Male,CSE,UG,4,ritika.singh448@klu.edu.in,9830675054,86.75,XWVPS1308C
+KLU01309,Sneha Naidu,Female,CSE,UG,4,sneha.naidu449@klu.edu.in,9873311437,65.2,IRMPN1309X
+KLU01310,Aman Reddy,Female,CSE,UG,4,aman.reddy450@klu.edu.in,9890056698,95.22,GRFPR1310L
+KLU01311,Harika Kumar,Female,CSE,UG,4,harika.kumar451@klu.edu.in,9844347038,71.62,UXOPK1311Z
+KLU01312,Sneha Rao,Male,CSE,UG,4,sneha.rao452@klu.edu.in,9854523902,75.47,FYYPR1312J
+KLU01313,Kiran Gupta,Female,CSE,UG,4,kiran.gupta453@klu.edu.in,9870018262,74.68,LJJPG1313J
+KLU01314,Nikhil Chopra,Male,CSE,UG,4,nikhil.chopra454@klu.edu.in,9889384355,81.89,MAGPC1314B
+KLU01315,Sanjay Singh,Female,CSE,UG,4,sanjay.singh455@klu.edu.in,9898960544,82.35,LFQPS1315O
+KLU01316,Ravi Kumar,Female,CSE,UG,4,ravi.kumar456@klu.edu.in,9874696838,78.7,GWYPK1316Y
+KLU01317,Ravi Das,Female,CSE,UG,4,ravi.das457@klu.edu.in,9881170316,83.96,IDMPD1317X
+KLU01318,Meghana Rao,Male,CSE,UG,4,meghana.rao458@klu.edu.in,9846627797,91.65,OUDPR1318N
+KLU01319,Ananya Patel,Female,CSE,UG,4,ananya.patel459@klu.edu.in,9875500030,99.34,XEFPP1319X
+KLU01320,Nikhil Singh,Male,CSE,UG,4,nikhil.singh460@klu.edu.in,9820464895,84.47,LXNPS1320Z
+KLU01321,Nikhil Rao,Male,ECE,UG,1,nikhil.rao1101@klu.edu.in,9834110947,88.51,QTAPR1321S
+KLU01322,Harika Naidu,Male,ECE,UG,1,harika.naidu1102@klu.edu.in,9892638636,92.85,TZSPN1322O
+KLU01323,Kiran Singh,Male,ECE,UG,1,kiran.singh1103@klu.edu.in,9838527362,94.75,FKJPS1323K
+KLU01324,Kavya Das,Male,ECE,UG,1,kavya.das1104@klu.edu.in,9816117238,63.71,FWZPD1324I
+KLU01325,Arjun Rao,Female,ECE,UG,1,arjun.rao1105@klu.edu.in,9817324571,71.27,AAVPR1325V
+KLU01326,Sanjay Verma,Male,ECE,UG,1,sanjay.verma1106@klu.edu.in,9815692061,66.14,FHJPV1326I
+KLU01327,Vinay Bose,Male,ECE,UG,1,vinay.bose1107@klu.edu.in,9841454578,96.98,MFIPB1327G
+KLU01328,Neha Kumar,Female,ECE,UG,1,neha.kumar1108@klu.edu.in,9846806824,87.14,ZDKPK1328Q
+KLU01329,Yash Bhat,Female,ECE,UG,1,yash.bhat1109@klu.edu.in,9815995305,84.75,JWHPB1329Y
+KLU01330,Vikram Singh,Female,ECE,UG,1,vikram.singh1110@klu.edu.in,9863199500,68.91,ROZPS1330I
+KLU01331,Yash Bhat,Male,ECE,UG,1,yash.bhat1111@klu.edu.in,9861297999,72.26,KOWPB1331I
+KLU01332,Rahul Chopra,Female,ECE,UG,1,rahul.chopra1112@klu.edu.in,9889774525,79.98,NRCPC1332G
+KLU01333,Yash Shetty,Female,ECE,UG,1,yash.shetty1113@klu.edu.in,9861022146,69.95,EWFPS1333C
+KLU01334,Harika Nair,Male,ECE,UG,1,harika.nair1114@klu.edu.in,9837932168,93.39,HWLPN1334F
+KLU01335,Yash Singh,Female,ECE,UG,1,yash.singh1115@klu.edu.in,9835897725,88.38,DLVPS1335N
+KLU01336,Neha Singh,Male,ECE,UG,1,neha.singh1116@klu.edu.in,9833354303,92.57,NYWPS1336A
+KLU01337,Sanjay Singh,Male,ECE,UG,1,sanjay.singh1117@klu.edu.in,9836772139,91.22,ZBTPS1337X
+KLU01338,Sanjay Bhat,Male,ECE,UG,1,sanjay.bhat1118@klu.edu.in,9864609483,70.5,WHVPB1338G
+KLU01339,Nikhil Sharma,Female,ECE,UG,1,nikhil.sharma1119@klu.edu.in,9861326702,86.03,XAMPS1339T
+KLU01340,Ananya Chopra,Female,ECE,UG,1,ananya.chopra1120@klu.edu.in,9896582338,72.81,UUSPC1340D
+KLU01341,Ritika Bose,Female,ECE,UG,1,ritika.bose1121@klu.edu.in,9849731933,97.21,XJGPB1341T
+KLU01342,Kavya Rao,Female,ECE,UG,1,kavya.rao1122@klu.edu.in,9856322539,66.46,WHRPR1342G
+KLU01343,Rahul Singh,Male,ECE,UG,1,rahul.singh1123@klu.edu.in,9870544975,95.49,ZHTPS1343R
+KLU01344,Neha Singh,Female,ECE,UG,1,neha.singh1124@klu.edu.in,9834934491,63.5,JOVPS1344F
+KLU01345,Ritika Jain,Male,ECE,UG,1,ritika.jain1125@klu.edu.in,9820833346,71.28,SRVPJ1345W
+KLU01346,Arjun Chopra,Female,ECE,UG,1,arjun.chopra1126@klu.edu.in,9893314735,99.6,MVLPC1346C
+KLU01347,Ravi Verma,Female,ECE,UG,1,ravi.verma1127@klu.edu.in,9820707251,84.9,CIEPV1347R
+KLU01348,Vikram Verma,Female,ECE,UG,1,vikram.verma1128@klu.edu.in,9828906699,97.77,XWUPV1348Y
+KLU01349,Pooja Reddy,Male,ECE,UG,1,pooja.reddy1129@klu.edu.in,9838165719,97.19,LDRPR1349M
+KLU01350,Nikhil Kumar,Male,ECE,UG,1,nikhil.kumar1130@klu.edu.in,9875481541,90.44,IOEPK1350R
+KLU01351,Meghana Rao,Male,ECE,UG,1,meghana.rao1131@klu.edu.in,9893953548,79.81,TEAPR1351B
+KLU01352,Vikram Bose,Male,ECE,UG,1,vikram.bose1132@klu.edu.in,9841102125,61.23,VPLPB1352N
+KLU01353,Kiran Malhotra,Female,ECE,UG,1,kiran.malhotra1133@klu.edu.in,9825758329,95.44,DOXPM1353Y
+KLU01354,Kiran Malhotra,Female,ECE,UG,1,kiran.malhotra1134@klu.edu.in,9887897131,92.11,GHNPM1354M
+KLU01355,Vikram Shetty,Female,ECE,UG,1,vikram.shetty1135@klu.edu.in,9826589382,81.63,PTIPS1355C
+KLU01356,Rahul Kumar,Male,ECE,UG,1,rahul.kumar1136@klu.edu.in,9887788201,88.28,SKWPK1356A
+KLU01357,Aman Rao,Female,ECE,UG,1,aman.rao1137@klu.edu.in,9840640470,66.42,OGQPR1357Q
+KLU01358,Sameer Malhotra,Female,ECE,UG,1,sameer.malhotra1138@klu.edu.in,9853491805,93.02,LGEPM1358M
+KLU01359,Rahul Iyer,Female,ECE,UG,1,rahul.iyer1139@klu.edu.in,9818626957,90.96,EGGPI1359U
+KLU01360,Divya Jain,Female,ECE,UG,1,divya.jain1140@klu.edu.in,9832318301,92.51,DCUPJ1360V
+KLU01361,Sanjay Shetty,Female,ECE,UG,1,sanjay.shetty1141@klu.edu.in,9820156246,96.21,YAVPS1361B
+KLU01362,Sneha Chopra,Female,ECE,UG,1,sneha.chopra1142@klu.edu.in,9834402416,95.59,IAXPC1362J
+KLU01363,Sanjay Shetty,Female,ECE,UG,1,sanjay.shetty1143@klu.edu.in,9819433781,60.04,CYBPS1363X
+KLU01364,Ritika Sharma,Male,ECE,UG,1,ritika.sharma1144@klu.edu.in,9812491190,62.6,AJAPS1364Z
+KLU01365,Vinay Chopra,Female,ECE,UG,1,vinay.chopra1145@klu.edu.in,9820608439,92.86,VEEPC1365J
+KLU01366,Ritika Mishra,Female,ECE,UG,1,ritika.mishra1146@klu.edu.in,9897055802,79.08,KXIPM1366B
+KLU01367,Nikhil Sharma,Male,ECE,UG,1,nikhil.sharma1147@klu.edu.in,9835464386,93.38,IPAPS1367O
+KLU01368,Nikhil Gupta,Female,ECE,UG,1,nikhil.gupta1148@klu.edu.in,9845777670,97.01,THGPG1368E
+KLU01369,Divya Patel,Female,ECE,UG,1,divya.patel1149@klu.edu.in,9861922635,83.48,GTJPP1369I
+KLU01370,Meghana Reddy,Female,ECE,UG,1,meghana.reddy1150@klu.edu.in,9817805980,95.77,DGWPR1370Z
+KLU01371,Ravi Naidu,Male,ECE,UG,1,ravi.naidu1151@klu.edu.in,9851647118,84.77,ALIPN1371S
+KLU01372,Harika Nair,Female,ECE,UG,1,harika.nair1152@klu.edu.in,9838916895,66.94,ILOPN1372E
+KLU01373,Arjun Malhotra,Male,ECE,UG,1,arjun.malhotra1153@klu.edu.in,9881659548,99.87,KRUPM1373F
+KLU01374,Neha Mishra,Male,ECE,UG,1,neha.mishra1154@klu.edu.in,9855154003,96.13,SPYPM1374M
+KLU01375,Arjun Reddy,Male,ECE,UG,1,arjun.reddy1155@klu.edu.in,9852430432,84.34,DFGPR1375N
+KLU01376,Ananya Chopra,Female,ECE,UG,1,ananya.chopra1156@klu.edu.in,9878041623,62.45,DHJPC1376K
+KLU01377,Sneha Sharma,Male,ECE,UG,1,sneha.sharma1157@klu.edu.in,9810686546,63.84,YCOPS1377G
+KLU01378,Ananya Reddy,Female,ECE,UG,1,ananya.reddy1158@klu.edu.in,9843124447,98.91,EGZPR1378W
+KLU01379,Ananya Chopra,Female,ECE,UG,1,ananya.chopra1159@klu.edu.in,9825508810,68.79,AWKPC1379X
+KLU01380,Aman Shetty,Female,ECE,UG,1,aman.shetty1160@klu.edu.in,9813840299,97.78,AJQPS1380G
+KLU01381,Rahul Yadav,Female,ECE,UG,2,rahul.yadav1201@klu.edu.in,9838527351,84.22,KSTPY1381X
+KLU01382,Aman Jain,Female,ECE,UG,2,aman.jain1202@klu.edu.in,9867031422,72.43,BSQPJ1382C
+KLU01383,Vikram Naidu,Male,ECE,UG,2,vikram.naidu1203@klu.edu.in,9881448776,73.78,SSWPN1383R
+KLU01384,Divya Iyer,Female,ECE,UG,2,divya.iyer1204@klu.edu.in,9876747985,87.0,VLAPI1384T
+KLU01385,Arjun Malhotra,Male,ECE,UG,2,arjun.malhotra1205@klu.edu.in,9837617331,89.18,MAJPM1385O
+KLU01386,Pooja Shetty,Male,ECE,UG,2,pooja.shetty1206@klu.edu.in,9840758079,63.78,DOKPS1386U
+KLU01387,Pooja Mishra,Male,ECE,UG,2,pooja.mishra1207@klu.edu.in,9868835294,60.74,CQRPM1387S
+KLU01388,Nikhil Bhat,Female,ECE,UG,2,nikhil.bhat1208@klu.edu.in,9895658657,80.63,PSBPB1388S
+KLU01389,Arjun Yadav,Female,ECE,UG,2,arjun.yadav1209@klu.edu.in,9891708053,92.54,WRNPY1389G
+KLU01390,Sneha Das,Male,ECE,UG,2,sneha.das1210@klu.edu.in,9824151664,90.45,YSEPD1390D
+KLU01391,Ananya Malhotra,Male,ECE,UG,2,ananya.malhotra1211@klu.edu.in,9830665386,67.18,YNYPM1391P
+KLU01392,Kavya Malhotra,Female,ECE,UG,2,kavya.malhotra1212@klu.edu.in,9825254606,78.19,WJBPM1392D
+KLU01393,Kiran Rao,Female,ECE,UG,2,kiran.rao1213@klu.edu.in,9836807457,67.92,DFUPR1393Y
+KLU01394,Aman Patel,Female,ECE,UG,2,aman.patel1214@klu.edu.in,9867627544,80.95,BIMPP1394W
+KLU01395,Vikram Das,Female,ECE,UG,2,vikram.das1215@klu.edu.in,9858643520,68.47,CPOPD1395E
+KLU01396,Ravi Rao,Female,ECE,UG,2,ravi.rao1216@klu.edu.in,9828949071,96.03,UKMPR1396N
+KLU01397,Arjun Kumar,Female,ECE,UG,2,arjun.kumar1217@klu.edu.in,9842461454,79.22,HLKPK1397B
+KLU01398,Vikram Bhat,Male,ECE,UG,2,vikram.bhat1218@klu.edu.in,9815677711,68.37,VYFPB1398Z
+KLU01399,Kiran Singh,Female,ECE,UG,2,kiran.singh1219@klu.edu.in,9899528531,61.67,PDOPS1399M
+KLU01400,Yash Mishra,Female,ECE,UG,2,yash.mishra1220@klu.edu.in,9825043204,78.03,PBEPM1400X
+KLU01401,Vikram Kumar,Female,ECE,UG,2,vikram.kumar1221@klu.edu.in,9839219501,62.2,VCQPK1401L
+KLU01402,Ritika Das,Female,ECE,UG,2,ritika.das1222@klu.edu.in,9843539825,93.59,ZWOPD1402R
+KLU01403,Meghana Mishra,Female,ECE,UG,2,meghana.mishra1223@klu.edu.in,9888126793,74.64,GVHPM1403L
+KLU01404,Meghana Jain,Female,ECE,UG,2,meghana.jain1224@klu.edu.in,9833846861,71.86,AELPJ1404M
+KLU01405,Divya Kumar,Female,ECE,UG,2,divya.kumar1225@klu.edu.in,9878819567,96.35,ZEBPK1405L
+KLU01406,Vikram Verma,Male,ECE,UG,2,vikram.verma1226@klu.edu.in,9878182114,61.36,CXAPV1406G
+KLU01407,Ananya Bose,Male,ECE,UG,2,ananya.bose1227@klu.edu.in,9812375046,83.86,KJCPB1407L
+KLU01408,Kiran Sharma,Female,ECE,UG,2,kiran.sharma1228@klu.edu.in,9842995441,93.88,DGBPS1408D
+KLU01409,Vikram Chopra,Female,ECE,UG,2,vikram.chopra1229@klu.edu.in,9889828102,61.23,SKKPC1409M
+KLU01410,Ritika Kumar,Male,ECE,UG,2,ritika.kumar1230@klu.edu.in,9851787882,74.65,OBIPK1410M
+KLU01411,Pooja Kumar,Male,ECE,UG,2,pooja.kumar1231@klu.edu.in,9825153026,96.38,ZKVPK1411N
+KLU01412,Neha Naidu,Female,ECE,UG,2,neha.naidu1232@klu.edu.in,9878743520,92.15,KFQPN1412H
+KLU01413,Divya Bose,Male,ECE,UG,2,divya.bose1233@klu.edu.in,9872245996,92.87,TMUPB1413V
+KLU01414,Sanjay Iyer,Female,ECE,UG,2,sanjay.iyer1234@klu.edu.in,9861712699,72.82,FCMPI1414M
+KLU01415,Ananya Bose,Male,ECE,UG,2,ananya.bose1235@klu.edu.in,9876474473,96.58,KXOPB1415C
+KLU01416,Nikhil Naidu,Male,ECE,UG,2,nikhil.naidu1236@klu.edu.in,9895335582,97.14,IEMPN1416M
+KLU01417,Yash Bhat,Male,ECE,UG,2,yash.bhat1237@klu.edu.in,9847334313,62.08,NRWPB1417I
+KLU01418,Harika Sharma,Female,ECE,UG,2,harika.sharma1238@klu.edu.in,9892908788,66.23,PVWPS1418B
+KLU01419,Nikhil Kumar,Female,ECE,UG,2,nikhil.kumar1239@klu.edu.in,9837653115,97.93,PKLPK1419R
+KLU01420,Pooja Naidu,Male,ECE,UG,2,pooja.naidu1240@klu.edu.in,9869036085,70.08,JLXPN1420I
+KLU01421,Rahul Das,Male,ECE,UG,2,rahul.das1241@klu.edu.in,9889296088,78.37,VBVPD1421T
+KLU01422,Sameer Bhat,Female,ECE,UG,2,sameer.bhat1242@klu.edu.in,9837790322,96.41,JOSPB1422D
+KLU01423,Aman Shetty,Male,ECE,UG,2,aman.shetty1243@klu.edu.in,9820446245,98.47,GRDPS1423C
+KLU01424,Ravi Iyer,Female,ECE,UG,2,ravi.iyer1244@klu.edu.in,9854098486,77.59,NMIPI1424H
+KLU01425,Yash Sharma,Female,ECE,UG,2,yash.sharma1245@klu.edu.in,9897589909,96.77,KSRPS1425D
+KLU01426,Sanjay Reddy,Male,ECE,UG,2,sanjay.reddy1246@klu.edu.in,9846545825,71.11,MDUPR1426F
+KLU01427,Divya Bhat,Male,ECE,UG,2,divya.bhat1247@klu.edu.in,9819946472,83.02,APRPB1427X
+KLU01428,Sanjay Iyer,Male,ECE,UG,2,sanjay.iyer1248@klu.edu.in,9863439300,90.02,MRMPI1428W
+KLU01429,Rahul Verma,Female,ECE,UG,2,rahul.verma1249@klu.edu.in,9877822728,84.13,SFZPV1429L
+KLU01430,Ravi Mishra,Male,ECE,UG,2,ravi.mishra1250@klu.edu.in,9865904108,93.89,OZMPM1430C
+KLU01431,Sneha Kumar,Female,ECE,UG,2,sneha.kumar1251@klu.edu.in,9899205251,90.74,WMRPK1431J
+KLU01432,Sameer Patel,Male,ECE,UG,2,sameer.patel1252@klu.edu.in,9839659748,96.26,BAZPP1432T
+KLU01433,Ravi Naidu,Male,ECE,UG,2,ravi.naidu1253@klu.edu.in,9829846882,88.81,UZFPN1433F
+KLU01434,Ritika Jain,Female,ECE,UG,2,ritika.jain1254@klu.edu.in,9827679360,95.4,JOOPJ1434D
+KLU01435,Divya Singh,Female,ECE,UG,2,divya.singh1255@klu.edu.in,9896584171,69.74,PZNPS1435E
+KLU01436,Arjun Nair,Male,ECE,UG,2,arjun.nair1256@klu.edu.in,9813733878,94.07,FUPPN1436L
+KLU01437,Meghana Reddy,Male,ECE,UG,2,meghana.reddy1257@klu.edu.in,9884905748,75.76,ASQPR1437U
+KLU01438,Nikhil Mishra,Female,ECE,UG,2,nikhil.mishra1258@klu.edu.in,9857248718,88.93,NERPM1438K
+KLU01439,Nikhil Rao,Male,ECE,UG,2,nikhil.rao1259@klu.edu.in,9872348067,93.87,TWQPR1439T
+KLU01440,Aman Gupta,Male,ECE,UG,2,aman.gupta1260@klu.edu.in,9841005905,60.8,YZUPG1440B
+KLU01441,Divya Malhotra,Female,ECE,UG,3,divya.malhotra1301@klu.edu.in,9820117439,63.31,JNMPM1441U
+KLU01442,Sanjay Malhotra,Male,ECE,UG,3,sanjay.malhotra1302@klu.edu.in,9824180042,65.57,EYFPM1442Q
+KLU01443,Pooja Bose,Male,ECE,UG,3,pooja.bose1303@klu.edu.in,9871311764,77.56,GVUPB1443I
+KLU01444,Yash Gupta,Male,ECE,UG,3,yash.gupta1304@klu.edu.in,9842994191,95.53,GCNPG1444R
+KLU01445,Ravi Bose,Female,ECE,UG,3,ravi.bose1305@klu.edu.in,9897648172,60.66,CVEPB1445F
+KLU01446,Ananya Singh,Male,ECE,UG,3,ananya.singh1306@klu.edu.in,9869221980,63.79,WDPPS1446L
+KLU01447,Ritika Singh,Male,ECE,UG,3,ritika.singh1307@klu.edu.in,9883596594,62.87,AFBPS1447D
+KLU01448,Sanjay Verma,Female,ECE,UG,3,sanjay.verma1308@klu.edu.in,9893045269,89.19,BCMPV1448C
+KLU01449,Divya Sharma,Female,ECE,UG,3,divya.sharma1309@klu.edu.in,9885808271,79.4,JKIPS1449M
+KLU01450,Divya Mishra,Female,ECE,UG,3,divya.mishra1310@klu.edu.in,9890055125,68.49,TKOPM1450E
+KLU01451,Kavya Nair,Male,ECE,UG,3,kavya.nair1311@klu.edu.in,9819571481,68.34,DXWPN1451T
+KLU01452,Neha Chopra,Female,ECE,UG,3,neha.chopra1312@klu.edu.in,9820341913,96.78,QWRPC1452Z
+KLU01453,Kiran Naidu,Female,ECE,UG,3,kiran.naidu1313@klu.edu.in,9845267346,68.3,PRNPN1453V
+KLU01454,Vikram Chopra,Female,ECE,UG,3,vikram.chopra1314@klu.edu.in,9859387384,80.79,EXQPC1454P
+KLU01455,Harika Mishra,Female,ECE,UG,3,harika.mishra1315@klu.edu.in,9851044476,67.76,ZIPPM1455V
+KLU01456,Harika Rao,Female,ECE,UG,3,harika.rao1316@klu.edu.in,9846677383,90.81,FAWPR1456A
+KLU01457,Yash Naidu,Male,ECE,UG,3,yash.naidu1317@klu.edu.in,9891594135,99.25,CGQPN1457W
+KLU01458,Aman Singh,Male,ECE,UG,3,aman.singh1318@klu.edu.in,9836566151,76.37,EOCPS1458A
+KLU01459,Vikram Malhotra,Male,ECE,UG,3,vikram.malhotra1319@klu.edu.in,9887051823,76.22,RLEPM1459N
+KLU01460,Pooja Patel,Male,ECE,UG,3,pooja.patel1320@klu.edu.in,9827161241,90.9,XWGPP1460Y
+KLU01461,Vikram Malhotra,Male,ECE,UG,3,vikram.malhotra1321@klu.edu.in,9812718874,68.89,RFYPM1461X
+KLU01462,Nikhil Das,Female,ECE,UG,3,nikhil.das1322@klu.edu.in,9882370093,75.5,SEDPD1462J
+KLU01463,Pooja Sharma,Male,ECE,UG,3,pooja.sharma1323@klu.edu.in,9840411628,68.41,GEEPS1463J
+KLU01464,Neha Bhat,Male,ECE,UG,3,neha.bhat1324@klu.edu.in,9881887030,94.02,FVFPB1464L
+KLU01465,Divya Das,Female,ECE,UG,3,divya.das1325@klu.edu.in,9829593359,68.05,UTAPD1465J
+KLU01466,Ananya Bhat,Female,ECE,UG,3,ananya.bhat1326@klu.edu.in,9890976176,86.91,NIBPB1466A
+KLU01467,Sameer Shetty,Female,ECE,UG,3,sameer.shetty1327@klu.edu.in,9816420094,89.21,TOHPS1467Z
+KLU01468,Arjun Naidu,Male,ECE,UG,3,arjun.naidu1328@klu.edu.in,9858310815,62.84,SXUPN1468Q
+KLU01469,Arjun Singh,Male,ECE,UG,3,arjun.singh1329@klu.edu.in,9826938788,78.85,VROPS1469Y
+KLU01470,Neha Malhotra,Female,ECE,UG,3,neha.malhotra1330@klu.edu.in,9849023554,98.85,NFEPM1470O
+KLU01471,Ravi Singh,Female,ECE,UG,3,ravi.singh1331@klu.edu.in,9859142330,82.66,GXIPS1471T
+KLU01472,Ravi Das,Male,ECE,UG,3,ravi.das1332@klu.edu.in,9876351158,68.58,ZQNPD1472H
+KLU01473,Ananya Singh,Male,ECE,UG,3,ananya.singh1333@klu.edu.in,9827609717,88.38,PJHPS1473Q
+KLU01474,Sneha Sharma,Female,ECE,UG,3,sneha.sharma1334@klu.edu.in,9894522382,87.23,LVNPS1474S
+KLU01475,Kavya Yadav,Female,ECE,UG,3,kavya.yadav1335@klu.edu.in,9816787269,83.48,FLFPY1475C
+KLU01476,Vinay Malhotra,Female,ECE,UG,3,vinay.malhotra1336@klu.edu.in,9860846177,74.53,ZAGPM1476W
+KLU01477,Ananya Iyer,Male,ECE,UG,3,ananya.iyer1337@klu.edu.in,9893776115,84.21,BORPI1477T
+KLU01478,Ravi Mishra,Female,ECE,UG,3,ravi.mishra1338@klu.edu.in,9835991886,61.07,AUSPM1478R
+KLU01479,Divya Iyer,Female,ECE,UG,3,divya.iyer1339@klu.edu.in,9837785076,73.97,STMPI1479M
+KLU01480,Harika Jain,Female,ECE,UG,3,harika.jain1340@klu.edu.in,9899419706,65.69,KKZPJ1480X
+KLU01481,Nikhil Reddy,Female,ECE,UG,3,nikhil.reddy1341@klu.edu.in,9843193718,74.4,OYNPR1481N
+KLU01482,Sameer Bose,Male,ECE,UG,3,sameer.bose1342@klu.edu.in,9843761220,73.62,XTJPB1482T
+KLU01483,Ritika Patel,Male,ECE,UG,3,ritika.patel1343@klu.edu.in,9863278731,77.76,RLHPP1483J
+KLU01484,Aman Gupta,Male,ECE,UG,3,aman.gupta1344@klu.edu.in,9860519455,87.52,BHLPG1484B
+KLU01485,Ritika Gupta,Male,ECE,UG,3,ritika.gupta1345@klu.edu.in,9837420014,93.18,VTAPG1485U
+KLU01486,Divya Singh,Female,ECE,UG,3,divya.singh1346@klu.edu.in,9865879478,91.47,BSIPS1486Q
+KLU01487,Rahul Nair,Female,ECE,UG,3,rahul.nair1347@klu.edu.in,9896275536,81.8,RKQPN1487O
+KLU01488,Divya Shetty,Male,ECE,UG,3,divya.shetty1348@klu.edu.in,9862117738,95.59,YKKPS1488W
+KLU01489,Nikhil Chopra,Female,ECE,UG,3,nikhil.chopra1349@klu.edu.in,9874060523,70.47,SBHPC1489P
+KLU01490,Kavya Bhat,Female,ECE,UG,3,kavya.bhat1350@klu.edu.in,9882825400,74.68,OYTPB1490K
+KLU01491,Sneha Malhotra,Male,ECE,UG,3,sneha.malhotra1351@klu.edu.in,9847838870,68.82,DRFPM1491I
+KLU01492,Yash Mishra,Female,ECE,UG,3,yash.mishra1352@klu.edu.in,9862183039,95.14,TRHPM1492C
+KLU01493,Ravi Chopra,Male,ECE,UG,3,ravi.chopra1353@klu.edu.in,9867092512,77.65,HIHPC1493S
+KLU01494,Ravi Patel,Female,ECE,UG,3,ravi.patel1354@klu.edu.in,9810208103,90.19,RXNPP1494M
+KLU01495,Sameer Singh,Male,ECE,UG,3,sameer.singh1355@klu.edu.in,9832442093,68.75,HVBPS1495U
+KLU01496,Harika Gupta,Male,ECE,UG,3,harika.gupta1356@klu.edu.in,9872516352,93.18,NYXPG1496I
+KLU01497,Pooja Reddy,Male,ECE,UG,3,pooja.reddy1357@klu.edu.in,9833076023,86.16,FHZPR1497B
+KLU01498,Sameer Iyer,Female,ECE,UG,3,sameer.iyer1358@klu.edu.in,9812989116,73.6,JSAPI1498Z
+KLU01499,Meghana Naidu,Male,ECE,UG,3,meghana.naidu1359@klu.edu.in,9893959011,95.66,XKSPN1499R
+KLU01500,Arjun Rao,Male,ECE,UG,3,arjun.rao1360@klu.edu.in,9878071359,99.78,LRGPR1500K
+KLU01501,Nikhil Mishra,Male,ECE,UG,4,nikhil.mishra1401@klu.edu.in,9812367447,90.89,PFKPM1501M
+KLU01502,Kavya Bhat,Female,ECE,UG,4,kavya.bhat1402@klu.edu.in,9862032661,71.92,VEJPB1502W
+KLU01503,Meghana Jain,Male,ECE,UG,4,meghana.jain1403@klu.edu.in,9818213977,72.06,BHVPJ1503J
+KLU01504,Neha Iyer,Male,ECE,UG,4,neha.iyer1404@klu.edu.in,9820708063,94.07,ANUPI1504Y
+KLU01505,Pooja Iyer,Male,ECE,UG,4,pooja.iyer1405@klu.edu.in,9810126166,60.9,UFGPI1505U
+KLU01506,Pooja Gupta,Male,ECE,UG,4,pooja.gupta1406@klu.edu.in,9875575344,79.03,OWZPG1506D
+KLU01507,Divya Bose,Female,ECE,UG,4,divya.bose1407@klu.edu.in,9864930954,92.62,FXBPB1507K
+KLU01508,Pooja Singh,Male,ECE,UG,4,pooja.singh1408@klu.edu.in,9810018116,67.14,YQSPS1508Q
+KLU01509,Neha Verma,Male,ECE,UG,4,neha.verma1409@klu.edu.in,9867788665,96.54,AYGPV1509G
+KLU01510,Ananya Nair,Male,ECE,UG,4,ananya.nair1410@klu.edu.in,9895377619,88.8,DEMPN1510J
+KLU01511,Sanjay Singh,Female,ECE,UG,4,sanjay.singh1411@klu.edu.in,9873468468,64.51,CTKPS1511U
+KLU01512,Sanjay Malhotra,Male,ECE,UG,4,sanjay.malhotra1412@klu.edu.in,9875723488,97.64,IYIPM1512F
+KLU01513,Nikhil Naidu,Female,ECE,UG,4,nikhil.naidu1413@klu.edu.in,9846127990,61.2,QICPN1513D
+KLU01514,Vinay Bose,Male,ECE,UG,4,vinay.bose1414@klu.edu.in,9899906841,61.35,AXQPB1514H
+KLU01515,Neha Gupta,Female,ECE,UG,4,neha.gupta1415@klu.edu.in,9847002692,85.8,SSZPG1515R
+KLU01516,Sanjay Yadav,Male,ECE,UG,4,sanjay.yadav1416@klu.edu.in,9894383196,78.82,GFLPY1516X
+KLU01517,Kavya Iyer,Male,ECE,UG,4,kavya.iyer1417@klu.edu.in,9850317865,79.11,XYCPI1517D
+KLU01518,Ravi Bose,Male,ECE,UG,4,ravi.bose1418@klu.edu.in,9829691438,63.62,LPEPB1518Y
+KLU01519,Sameer Kumar,Male,ECE,UG,4,sameer.kumar1419@klu.edu.in,9897781327,96.75,LDLPK1519T
+KLU01520,Sanjay Mishra,Female,ECE,UG,4,sanjay.mishra1420@klu.edu.in,9823889733,71.68,XRRPM1520K
+KLU01521,Sneha Sharma,Male,ECE,UG,4,sneha.sharma1421@klu.edu.in,9845272816,95.71,DFSPS1521C
+KLU01522,Meghana Nair,Female,ECE,UG,4,meghana.nair1422@klu.edu.in,9810920974,64.96,TCHPN1522F
+KLU01523,Sneha Shetty,Female,ECE,UG,4,sneha.shetty1423@klu.edu.in,9845729151,74.76,SZNPS1523S
+KLU01524,Neha Bose,Male,ECE,UG,4,neha.bose1424@klu.edu.in,9878967568,86.54,RXJPB1524M
+KLU01525,Yash Das,Female,ECE,UG,4,yash.das1425@klu.edu.in,9895628943,74.55,YQFPD1525H
+KLU01526,Kavya Sharma,Male,ECE,UG,4,kavya.sharma1426@klu.edu.in,9859813487,96.13,FOVPS1526G
+KLU01527,Vinay Bose,Female,ECE,UG,4,vinay.bose1427@klu.edu.in,9810231149,82.23,YZIPB1527G
+KLU01528,Ananya Rao,Female,ECE,UG,4,ananya.rao1428@klu.edu.in,9864330175,96.86,GEWPR1528O
+KLU01529,Sneha Chopra,Male,ECE,UG,4,sneha.chopra1429@klu.edu.in,9891265604,64.99,PRHPC1529L
+KLU01530,Ananya Gupta,Female,ECE,UG,4,ananya.gupta1430@klu.edu.in,9855735937,76.65,KWDPG1530D
+KLU01531,Harika Reddy,Male,ECE,UG,4,harika.reddy1431@klu.edu.in,9891410252,92.76,JZRPR1531X
+KLU01532,Divya Patel,Male,ECE,UG,4,divya.patel1432@klu.edu.in,9896216549,92.55,TRYPP1532S
+KLU01533,Vikram Das,Female,ECE,UG,4,vikram.das1433@klu.edu.in,9827023178,98.31,TOTPD1533S
+KLU01534,Ravi Shetty,Female,ECE,UG,4,ravi.shetty1434@klu.edu.in,9858197295,90.64,FPBPS1534F
+KLU01535,Rahul Rao,Female,ECE,UG,4,rahul.rao1435@klu.edu.in,9893475163,92.61,HATPR1535K
+KLU01536,Rahul Chopra,Female,ECE,UG,4,rahul.chopra1436@klu.edu.in,9849339019,61.04,UQDPC1536U
+KLU01537,Ritika Naidu,Male,ECE,UG,4,ritika.naidu1437@klu.edu.in,9859413102,94.24,GXJPN1537Q
+KLU01538,Meghana Malhotra,Male,ECE,UG,4,meghana.malhotra1438@klu.edu.in,9864797727,85.3,TFDPM1538Y
+KLU01539,Sneha Das,Female,ECE,UG,4,sneha.das1439@klu.edu.in,9818795343,94.9,QEUPD1539L
+KLU01540,Vikram Kumar,Male,ECE,UG,4,vikram.kumar1440@klu.edu.in,9886738314,68.17,WOTPK1540Z
+KLU01541,Meghana Kumar,Female,ECE,UG,4,meghana.kumar1441@klu.edu.in,9867997006,72.18,WCAPK1541O
+KLU01542,Neha Reddy,Male,ECE,UG,4,neha.reddy1442@klu.edu.in,9841121826,81.82,EQJPR1542Z
+KLU01543,Vikram Sharma,Female,ECE,UG,4,vikram.sharma1443@klu.edu.in,9868726779,82.16,XBKPS1543K
+KLU01544,Divya Iyer,Female,ECE,UG,4,divya.iyer1444@klu.edu.in,9836263651,70.46,VDXPI1544V
+KLU01545,Neha Gupta,Female,ECE,UG,4,neha.gupta1445@klu.edu.in,9899099258,67.78,HZGPG1545L
+KLU01546,Nikhil Singh,Female,ECE,UG,4,nikhil.singh1446@klu.edu.in,9874778831,69.44,IXUPS1546B
+KLU01547,Neha Nair,Male,ECE,UG,4,neha.nair1447@klu.edu.in,9830108242,63.57,RWLPN1547I
+KLU01548,Sanjay Sharma,Male,ECE,UG,4,sanjay.sharma1448@klu.edu.in,9859733563,60.32,FRLPS1548Z
+KLU01549,Meghana Reddy,Female,ECE,UG,4,meghana.reddy1449@klu.edu.in,9886999726,78.42,XNXPR1549M
+KLU01550,Yash Shetty,Male,ECE,UG,4,yash.shetty1450@klu.edu.in,9874368505,80.25,VGCPS1550K
+KLU01551,Divya Yadav,Male,ECE,UG,4,divya.yadav1451@klu.edu.in,9834307011,76.18,GIBPY1551N
+KLU01552,Nikhil Singh,Male,ECE,UG,4,nikhil.singh1452@klu.edu.in,9843464350,90.92,MINPS1552W
+KLU01553,Sameer Shetty,Female,ECE,UG,4,sameer.shetty1453@klu.edu.in,9877621696,81.07,UEAPS1553U
+KLU01554,Rahul Mishra,Male,ECE,UG,4,rahul.mishra1454@klu.edu.in,9822557915,68.99,TGBPM1554V
+KLU01555,Aman Jain,Female,ECE,UG,4,aman.jain1455@klu.edu.in,9836452705,92.08,VQTPJ1555T
+KLU01556,Kavya Yadav,Female,ECE,UG,4,kavya.yadav1456@klu.edu.in,9851111242,78.45,BHLPY1556W
+KLU01557,Arjun Shetty,Male,ECE,UG,4,arjun.shetty1457@klu.edu.in,9831887726,97.16,YAKPS1557E
+KLU01558,Vinay Yadav,Male,ECE,UG,4,vinay.yadav1458@klu.edu.in,9893614755,62.99,ZAWPY1558Q
+KLU01559,Ritika Mishra,Female,ECE,UG,4,ritika.mishra1459@klu.edu.in,9836534643,79.74,CAQPM1559P
+KLU01560,Sanjay Mishra,Male,ECE,UG,4,sanjay.mishra1460@klu.edu.in,9836448602,84.37,KKHPM1560T
+KLU01561,Meghana Rao,Female,ME,UG,1,meghana.rao2101@klu.edu.in,9891247862,82.58,DMMPR1561B
+KLU01562,Ravi Jain,Female,ME,UG,1,ravi.jain2102@klu.edu.in,9884070944,88.36,ODIPJ1562K
+KLU01563,Yash Bose,Female,ME,UG,1,yash.bose2103@klu.edu.in,9875483898,65.59,TPLPB1563L
+KLU01564,Divya Nair,Male,ME,UG,1,divya.nair2104@klu.edu.in,9892537292,87.23,XBYPN1564X
+KLU01565,Kavya Sharma,Male,ME,UG,1,kavya.sharma2105@klu.edu.in,9862284510,79.76,VKJPS1565L
+KLU01566,Vikram Chopra,Male,ME,UG,1,vikram.chopra2106@klu.edu.in,9851178446,78.3,YZLPC1566S
+KLU01567,Ritika Gupta,Male,ME,UG,1,ritika.gupta2107@klu.edu.in,9841682435,79.38,VWJPG1567W
+KLU01568,Rahul Sharma,Male,ME,UG,1,rahul.sharma2108@klu.edu.in,9869043387,97.53,KXHPS1568R
+KLU01569,Sameer Patel,Male,ME,UG,1,sameer.patel2109@klu.edu.in,9827342657,72.77,GCIPP1569C
+KLU01570,Aman Shetty,Male,ME,UG,1,aman.shetty2110@klu.edu.in,9841345925,61.75,ACZPS1570V
+KLU01571,Sanjay Nair,Female,ME,UG,1,sanjay.nair2111@klu.edu.in,9846520535,99.83,MACPN1571S
+KLU01572,Meghana Chopra,Male,ME,UG,1,meghana.chopra2112@klu.edu.in,9833737254,99.85,ENBPC1572L
+KLU01573,Harika Sharma,Male,ME,UG,1,harika.sharma2113@klu.edu.in,9897157304,71.54,SILPS1573S
+KLU01574,Nikhil Kumar,Male,ME,UG,1,nikhil.kumar2114@klu.edu.in,9894584974,70.36,AHCPK1574B
+KLU01575,Neha Shetty,Male,ME,UG,1,neha.shetty2115@klu.edu.in,9870198152,80.39,FMIPS1575Q
+KLU01576,Meghana Bose,Male,ME,UG,1,meghana.bose2116@klu.edu.in,9892156877,76.2,HXOPB1576U
+KLU01577,Arjun Mishra,Female,ME,UG,1,arjun.mishra2117@klu.edu.in,9821463075,74.43,UNWPM1577P
+KLU01578,Vikram Nair,Female,ME,UG,1,vikram.nair2118@klu.edu.in,9888804289,67.16,VBNPN1578J
+KLU01579,Yash Naidu,Female,ME,UG,1,yash.naidu2119@klu.edu.in,9819413628,83.16,XFSPN1579U
+KLU01580,Ravi Shetty,Female,ME,UG,1,ravi.shetty2120@klu.edu.in,9896014016,68.96,FBDPS1580V
+KLU01581,Ananya Bose,Male,ME,UG,1,ananya.bose2121@klu.edu.in,9838534429,63.33,TCEPB1581G
+KLU01582,Rahul Iyer,Male,ME,UG,1,rahul.iyer2122@klu.edu.in,9881904734,73.26,HVMPI1582K
+KLU01583,Harika Yadav,Female,ME,UG,1,harika.yadav2123@klu.edu.in,9820905288,75.98,FJRPY1583M
+KLU01584,Vinay Iyer,Female,ME,UG,1,vinay.iyer2124@klu.edu.in,9872291175,73.24,PTUPI1584A
+KLU01585,Pooja Malhotra,Male,ME,UG,1,pooja.malhotra2125@klu.edu.in,9824182035,99.16,VSMPM1585H
+KLU01586,Sameer Naidu,Male,ME,UG,1,sameer.naidu2126@klu.edu.in,9899562432,98.89,NZKPN1586H
+KLU01587,Aman Mishra,Female,ME,UG,1,aman.mishra2127@klu.edu.in,9858767430,70.09,YTXPM1587B
+KLU01588,Arjun Bhat,Male,ME,UG,1,arjun.bhat2128@klu.edu.in,9818805326,63.14,MAQPB1588G
+KLU01589,Vinay Reddy,Female,ME,UG,1,vinay.reddy2129@klu.edu.in,9872019707,73.61,JIDPR1589M
+KLU01590,Ritika Bhat,Female,ME,UG,1,ritika.bhat2130@klu.edu.in,9859888542,97.41,HGIPB1590G
+KLU01591,Yash Malhotra,Male,ME,UG,1,yash.malhotra2131@klu.edu.in,9826720474,93.56,HDEPM1591O
+KLU01592,Sneha Verma,Female,ME,UG,1,sneha.verma2132@klu.edu.in,9846761887,99.28,OOPPV1592V
+KLU01593,Meghana Yadav,Male,ME,UG,1,meghana.yadav2133@klu.edu.in,9861572468,80.32,VNPPY1593Y
+KLU01594,Pooja Chopra,Female,ME,UG,1,pooja.chopra2134@klu.edu.in,9892127161,96.85,OVMPC1594O
+KLU01595,Rahul Gupta,Female,ME,UG,1,rahul.gupta2135@klu.edu.in,9835100355,84.26,BSGPG1595X
+KLU01596,Sanjay Mishra,Female,ME,UG,1,sanjay.mishra2136@klu.edu.in,9880205899,99.53,OXAPM1596D
+KLU01597,Nikhil Shetty,Male,ME,UG,1,nikhil.shetty2137@klu.edu.in,9810843173,76.89,KACPS1597Q
+KLU01598,Rahul Das,Male,ME,UG,1,rahul.das2138@klu.edu.in,9881570788,61.89,DBDPD1598O
+KLU01599,Vinay Naidu,Female,ME,UG,1,vinay.naidu2139@klu.edu.in,9833435830,81.34,ZRUPN1599N
+KLU01600,Ravi Rao,Female,ME,UG,1,ravi.rao2140@klu.edu.in,9853730071,60.95,OAVPR1600O
+KLU01601,Arjun Kumar,Male,ME,UG,1,arjun.kumar2141@klu.edu.in,9864098957,99.51,SBMPK1601Z
+KLU01602,Meghana Kumar,Male,ME,UG,1,meghana.kumar2142@klu.edu.in,9842314533,76.1,JQJPK1602R
+KLU01603,Harika Reddy,Male,ME,UG,1,harika.reddy2143@klu.edu.in,9821089226,62.18,RJQPR1603F
+KLU01604,Ananya Naidu,Female,ME,UG,1,ananya.naidu2144@klu.edu.in,9825106660,90.93,PYBPN1604W
+KLU01605,Vinay Das,Male,ME,UG,1,vinay.das2145@klu.edu.in,9850155763,70.87,POJPD1605C
+KLU01606,Aman Mishra,Female,ME,UG,1,aman.mishra2146@klu.edu.in,9846314383,71.78,COTPM1606E
+KLU01607,Neha Yadav,Female,ME,UG,1,neha.yadav2147@klu.edu.in,9879335998,79.42,EYUPY1607D
+KLU01608,Harika Rao,Female,ME,UG,1,harika.rao2148@klu.edu.in,9828139566,64.72,PKVPR1608Z
+KLU01609,Aman Patel,Male,ME,UG,1,aman.patel2149@klu.edu.in,9862455204,88.15,AZKPP1609W
+KLU01610,Sameer Yadav,Male,ME,UG,1,sameer.yadav2150@klu.edu.in,9818535261,92.39,PGZPY1610A
+KLU01611,Neha Reddy,Male,ME,UG,1,neha.reddy2151@klu.edu.in,9819962439,61.85,QHEPR1611X
+KLU01612,Rahul Naidu,Male,ME,UG,1,rahul.naidu2152@klu.edu.in,9851364042,76.97,LGEPN1612H
+KLU01613,Pooja Bose,Male,ME,UG,1,pooja.bose2153@klu.edu.in,9897158332,77.41,MDTPB1613J
+KLU01614,Sameer Das,Male,ME,UG,1,sameer.das2154@klu.edu.in,9850249392,61.3,IGCPD1614R
+KLU01615,Divya Kumar,Male,ME,UG,1,divya.kumar2155@klu.edu.in,9883141225,94.82,PZXPK1615D
+KLU01616,Yash Bose,Female,ME,UG,1,yash.bose2156@klu.edu.in,9899986460,72.23,HLKPB1616V
+KLU01617,Ananya Kumar,Male,ME,UG,1,ananya.kumar2157@klu.edu.in,9817527731,82.54,BEDPK1617E
+KLU01618,Sneha Gupta,Female,ME,UG,1,sneha.gupta2158@klu.edu.in,9811542707,70.77,VDCPG1618C
+KLU01619,Sameer Naidu,Female,ME,UG,1,sameer.naidu2159@klu.edu.in,9890748054,93.82,DHWPN1619T
+KLU01620,Pooja Bhat,Female,ME,UG,1,pooja.bhat2160@klu.edu.in,9841999691,70.81,QQKPB1620H
+KLU01621,Sneha Iyer,Female,ME,UG,2,sneha.iyer2201@klu.edu.in,9871176136,80.29,XUNPI1621J
+KLU01622,Pooja Chopra,Male,ME,UG,2,pooja.chopra2202@klu.edu.in,9846882418,63.88,KLLPC1622Y
+KLU01623,Ananya Das,Male,ME,UG,2,ananya.das2203@klu.edu.in,9894201280,91.13,URXPD1623I
+KLU01624,Yash Bhat,Male,ME,UG,2,yash.bhat2204@klu.edu.in,9812969135,71.32,VDZPB1624Q
+KLU01625,Vinay Gupta,Male,ME,UG,2,vinay.gupta2205@klu.edu.in,9870497665,88.59,KOBPG1625O
+KLU01626,Ritika Singh,Female,ME,UG,2,ritika.singh2206@klu.edu.in,9880786674,74.69,BEBPS1626U
+KLU01627,Meghana Nair,Female,ME,UG,2,meghana.nair2207@klu.edu.in,9816480911,94.46,GCTPN1627G
+KLU01628,Pooja Chopra,Female,ME,UG,2,pooja.chopra2208@klu.edu.in,9813478055,99.56,IDWPC1628D
+KLU01629,Pooja Shetty,Female,ME,UG,2,pooja.shetty2209@klu.edu.in,9875356919,92.4,XDQPS1629S
+KLU01630,Kavya Sharma,Female,ME,UG,2,kavya.sharma2210@klu.edu.in,9847461263,80.06,BXMPS1630B
+KLU01631,Vinay Malhotra,Male,ME,UG,2,vinay.malhotra2211@klu.edu.in,9885515380,94.52,KQUPM1631A
+KLU01632,Meghana Shetty,Male,ME,UG,2,meghana.shetty2212@klu.edu.in,9818695225,70.38,MZYPS1632Z
+KLU01633,Sneha Sharma,Male,ME,UG,2,sneha.sharma2213@klu.edu.in,9846601239,90.96,XVQPS1633Z
+KLU01634,Ravi Bose,Male,ME,UG,2,ravi.bose2214@klu.edu.in,9862884883,62.48,IYNPB1634R
+KLU01635,Arjun Jain,Female,ME,UG,2,arjun.jain2215@klu.edu.in,9899981337,83.15,DROPJ1635W
+KLU01636,Kiran Sharma,Male,ME,UG,2,kiran.sharma2216@klu.edu.in,9864834185,70.51,TDZPS1636L
+KLU01637,Sneha Patel,Male,ME,UG,2,sneha.patel2217@klu.edu.in,9843114836,68.21,QTZPP1637G
+KLU01638,Sanjay Bose,Female,ME,UG,2,sanjay.bose2218@klu.edu.in,9889510056,68.4,SJLPB1638M
+KLU01639,Kavya Patel,Female,ME,UG,2,kavya.patel2219@klu.edu.in,9852481804,74.61,GFBPP1639I
+KLU01640,Sanjay Iyer,Male,ME,UG,2,sanjay.iyer2220@klu.edu.in,9881785071,60.42,CBKPI1640W
+KLU01641,Kiran Mishra,Male,ME,UG,2,kiran.mishra2221@klu.edu.in,9876747236,80.78,UETPM1641G
+KLU01642,Ravi Yadav,Female,ME,UG,2,ravi.yadav2222@klu.edu.in,9810627108,97.45,BPGPY1642Z
+KLU01643,Arjun Malhotra,Female,ME,UG,2,arjun.malhotra2223@klu.edu.in,9844699574,71.04,NQNPM1643A
+KLU01644,Rahul Das,Male,ME,UG,2,rahul.das2224@klu.edu.in,9867751579,79.68,OLHPD1644M
+KLU01645,Arjun Chopra,Female,ME,UG,2,arjun.chopra2225@klu.edu.in,9897482985,89.92,VZRPC1645M
+KLU01646,Meghana Reddy,Male,ME,UG,2,meghana.reddy2226@klu.edu.in,9885737878,80.65,ZTRPR1646X
+KLU01647,Vinay Chopra,Male,ME,UG,2,vinay.chopra2227@klu.edu.in,9822695594,84.78,XNVPC1647M
+KLU01648,Divya Sharma,Male,ME,UG,2,divya.sharma2228@klu.edu.in,9852654653,98.16,PZFPS1648P
+KLU01649,Arjun Verma,Female,ME,UG,2,arjun.verma2229@klu.edu.in,9874905042,87.76,YBYPV1649G
+KLU01650,Harika Mishra,Male,ME,UG,2,harika.mishra2230@klu.edu.in,9891988569,83.98,EKGPM1650D
+KLU01651,Harika Reddy,Female,ME,UG,2,harika.reddy2231@klu.edu.in,9868129091,86.65,AZPPR1651U
+KLU01652,Neha Singh,Male,ME,UG,2,neha.singh2232@klu.edu.in,9859036588,84.98,WWKPS1652N
+KLU01653,Kiran Shetty,Female,ME,UG,2,kiran.shetty2233@klu.edu.in,9898092327,69.46,PIDPS1653U
+KLU01654,Ravi Reddy,Male,ME,UG,2,ravi.reddy2234@klu.edu.in,9860111430,85.49,BLRPR1654P
+KLU01655,Ananya Reddy,Male,ME,UG,2,ananya.reddy2235@klu.edu.in,9844297117,67.25,ENCPR1655R
+KLU01656,Vikram Kumar,Male,ME,UG,2,vikram.kumar2236@klu.edu.in,9878034622,97.54,FWAPK1656G
+KLU01657,Vikram Nair,Male,ME,UG,2,vikram.nair2237@klu.edu.in,9838045771,83.22,QFCPN1657B
+KLU01658,Sneha Kumar,Female,ME,UG,2,sneha.kumar2238@klu.edu.in,9856385819,91.43,QXGPK1658F
+KLU01659,Nikhil Kumar,Female,ME,UG,2,nikhil.kumar2239@klu.edu.in,9866206629,66.52,SQYPK1659S
+KLU01660,Arjun Chopra,Female,ME,UG,2,arjun.chopra2240@klu.edu.in,9810004651,85.87,VLVPC1660D
+KLU01661,Divya Verma,Female,ME,UG,2,divya.verma2241@klu.edu.in,9858491492,74.54,UFPPV1661R
+KLU01662,Aman Nair,Male,ME,UG,2,aman.nair2242@klu.edu.in,9858800440,85.65,FXAPN1662V
+KLU01663,Kavya Nair,Male,ME,UG,2,kavya.nair2243@klu.edu.in,9813244601,95.65,QVVPN1663E
+KLU01664,Kiran Bose,Male,ME,UG,2,kiran.bose2244@klu.edu.in,9844325890,92.73,ENAPB1664B
+KLU01665,Meghana Malhotra,Female,ME,UG,2,meghana.malhotra2245@klu.edu.in,9853105488,98.14,YZZPM1665P
+KLU01666,Sneha Mishra,Female,ME,UG,2,sneha.mishra2246@klu.edu.in,9830408874,74.13,FEPPM1666R
+KLU01667,Sanjay Bhat,Female,ME,UG,2,sanjay.bhat2247@klu.edu.in,9871599872,73.33,BGNPB1667J
+KLU01668,Ananya Shetty,Female,ME,UG,2,ananya.shetty2248@klu.edu.in,9890954701,81.55,WOOPS1668M
+KLU01669,Rahul Jain,Male,ME,UG,2,rahul.jain2249@klu.edu.in,9827797411,83.57,UEDPJ1669X
+KLU01670,Neha Patel,Male,ME,UG,2,neha.patel2250@klu.edu.in,9877586718,97.12,ONAPP1670B
+KLU01671,Divya Gupta,Male,ME,UG,2,divya.gupta2251@klu.edu.in,9845363500,73.87,DVWPG1671E
+KLU01672,Kiran Shetty,Female,ME,UG,2,kiran.shetty2252@klu.edu.in,9810447676,86.97,KZBPS1672T
+KLU01673,Vikram Sharma,Female,ME,UG,2,vikram.sharma2253@klu.edu.in,9811935013,89.68,MYRPS1673E
+KLU01674,Divya Nair,Male,ME,UG,2,divya.nair2254@klu.edu.in,9816765946,66.55,BJRPN1674T
+KLU01675,Kavya Singh,Male,ME,UG,2,kavya.singh2255@klu.edu.in,9880382550,70.28,CNEPS1675C
+KLU01676,Sanjay Malhotra,Female,ME,UG,2,sanjay.malhotra2256@klu.edu.in,9854039067,88.35,ICEPM1676H
+KLU01677,Vikram Kumar,Male,ME,UG,2,vikram.kumar2257@klu.edu.in,9865166742,74.39,TDHPK1677W
+KLU01678,Nikhil Patel,Male,ME,UG,2,nikhil.patel2258@klu.edu.in,9819392901,70.67,CILPP1678S
+KLU01679,Ravi Patel,Male,ME,UG,2,ravi.patel2259@klu.edu.in,9870807496,68.24,OTPPP1679C
+KLU01680,Kavya Reddy,Male,ME,UG,2,kavya.reddy2260@klu.edu.in,9899525925,92.5,ULWPR1680F
+KLU01681,Kavya Chopra,Male,ME,UG,3,kavya.chopra2301@klu.edu.in,9887099218,61.48,IPIPC1681X
+KLU01682,Neha Sharma,Male,ME,UG,3,neha.sharma2302@klu.edu.in,9869695776,78.66,PLQPS1682H
+KLU01683,Rahul Mishra,Male,ME,UG,3,rahul.mishra2303@klu.edu.in,9844031337,62.86,EZJPM1683S
+KLU01684,Vinay Mishra,Female,ME,UG,3,vinay.mishra2304@klu.edu.in,9845124182,75.78,FOQPM1684C
+KLU01685,Divya Kumar,Male,ME,UG,3,divya.kumar2305@klu.edu.in,9849384942,86.77,AMWPK1685R
+KLU01686,Ravi Patel,Male,ME,UG,3,ravi.patel2306@klu.edu.in,9877042044,93.31,AJTPP1686Z
+KLU01687,Nikhil Sharma,Male,ME,UG,3,nikhil.sharma2307@klu.edu.in,9870205201,66.46,KBMPS1687L
+KLU01688,Ananya Chopra,Female,ME,UG,3,ananya.chopra2308@klu.edu.in,9821217976,74.46,ISTPC1688W
+KLU01689,Ritika Naidu,Female,ME,UG,3,ritika.naidu2309@klu.edu.in,9824854158,87.12,YFXPN1689M
+KLU01690,Sneha Verma,Male,ME,UG,3,sneha.verma2310@klu.edu.in,9834916593,79.05,OQGPV1690G
+KLU01691,Yash Naidu,Female,ME,UG,3,yash.naidu2311@klu.edu.in,9852307380,99.47,TUMPN1691Y
+KLU01692,Arjun Das,Female,ME,UG,3,arjun.das2312@klu.edu.in,9880681426,72.03,YJFPD1692D
+KLU01693,Vikram Chopra,Female,ME,UG,3,vikram.chopra2313@klu.edu.in,9890226770,67.03,WGVPC1693N
+KLU01694,Nikhil Mishra,Male,ME,UG,3,nikhil.mishra2314@klu.edu.in,9874478377,95.32,CFGPM1694J
+KLU01695,Divya Shetty,Female,ME,UG,3,divya.shetty2315@klu.edu.in,9846579466,76.21,HPPPS1695R
+KLU01696,Divya Malhotra,Female,ME,UG,3,divya.malhotra2316@klu.edu.in,9844416240,60.13,KHYPM1696S
+KLU01697,Meghana Verma,Male,ME,UG,3,meghana.verma2317@klu.edu.in,9899299304,89.55,TBPPV1697M
+KLU01698,Ananya Nair,Female,ME,UG,3,ananya.nair2318@klu.edu.in,9895706584,69.58,BPQPN1698R
+KLU01699,Kiran Patel,Female,ME,UG,3,kiran.patel2319@klu.edu.in,9829572386,85.06,JOIPP1699R
+KLU01700,Vinay Jain,Female,ME,UG,3,vinay.jain2320@klu.edu.in,9895641087,99.44,KXNPJ1700D
+KLU01701,Rahul Singh,Male,ME,UG,3,rahul.singh2321@klu.edu.in,9847324163,94.27,BZKPS1701B
+KLU01702,Kavya Bhat,Female,ME,UG,3,kavya.bhat2322@klu.edu.in,9865116597,62.09,RLDPB1702W
+KLU01703,Ananya Yadav,Male,ME,UG,3,ananya.yadav2323@klu.edu.in,9889080942,67.09,EWYPY1703U
+KLU01704,Aman Chopra,Female,ME,UG,3,aman.chopra2324@klu.edu.in,9852978933,88.39,URVPC1704O
+KLU01705,Kiran Das,Female,ME,UG,3,kiran.das2325@klu.edu.in,9880479480,68.87,XSNPD1705H
+KLU01706,Ravi Yadav,Female,ME,UG,3,ravi.yadav2326@klu.edu.in,9862308413,62.34,LRFPY1706X
+KLU01707,Nikhil Naidu,Female,ME,UG,3,nikhil.naidu2327@klu.edu.in,9819964589,85.1,QFPPN1707L
+KLU01708,Vinay Yadav,Male,ME,UG,3,vinay.yadav2328@klu.edu.in,9897824443,86.46,DYHPY1708E
+KLU01709,Yash Singh,Female,ME,UG,3,yash.singh2329@klu.edu.in,9852409143,85.15,TIOPS1709F
+KLU01710,Nikhil Verma,Female,ME,UG,3,nikhil.verma2330@klu.edu.in,9854834273,83.92,HXYPV1710T
+KLU01711,Sanjay Iyer,Female,ME,UG,3,sanjay.iyer2331@klu.edu.in,9823774218,75.97,RZFPI1711H
+KLU01712,Aman Verma,Male,ME,UG,3,aman.verma2332@klu.edu.in,9877139438,94.78,RFVPV1712Y
+KLU01713,Pooja Patel,Female,ME,UG,3,pooja.patel2333@klu.edu.in,9849218451,95.6,ZJFPP1713V
+KLU01714,Vikram Chopra,Male,ME,UG,3,vikram.chopra2334@klu.edu.in,9828066604,76.53,HGGPC1714L
+KLU01715,Rahul Shetty,Female,ME,UG,3,rahul.shetty2335@klu.edu.in,9840628950,63.54,XZIPS1715F
+KLU01716,Kavya Verma,Male,ME,UG,3,kavya.verma2336@klu.edu.in,9861359863,63.26,IXHPV1716T
+KLU01717,Sneha Das,Female,ME,UG,3,sneha.das2337@klu.edu.in,9840301153,64.96,XMHPD1717A
+KLU01718,Ritika Singh,Female,ME,UG,3,ritika.singh2338@klu.edu.in,9856918317,85.19,LERPS1718X
+KLU01719,Rahul Rao,Male,ME,UG,3,rahul.rao2339@klu.edu.in,9849477238,89.49,AQEPR1719Y
+KLU01720,Aman Reddy,Male,ME,UG,3,aman.reddy2340@klu.edu.in,9828185991,66.1,FSUPR1720D
+KLU01721,Sanjay Chopra,Female,ME,UG,3,sanjay.chopra2341@klu.edu.in,9887368495,64.41,DRKPC1721F
+KLU01722,Neha Bose,Male,ME,UG,3,neha.bose2342@klu.edu.in,9811883552,87.04,EGLPB1722T
+KLU01723,Neha Shetty,Female,ME,UG,3,neha.shetty2343@klu.edu.in,9837103329,88.53,KDPPS1723O
+KLU01724,Pooja Bose,Male,ME,UG,3,pooja.bose2344@klu.edu.in,9843821686,87.47,VOGPB1724W
+KLU01725,Vinay Yadav,Female,ME,UG,3,vinay.yadav2345@klu.edu.in,9860068490,67.77,SRYPY1725T
+KLU01726,Sameer Malhotra,Female,ME,UG,3,sameer.malhotra2346@klu.edu.in,9838229607,74.36,XFQPM1726M
+KLU01727,Ananya Chopra,Female,ME,UG,3,ananya.chopra2347@klu.edu.in,9823833111,67.95,APJPC1727M
+KLU01728,Rahul Verma,Female,ME,UG,3,rahul.verma2348@klu.edu.in,9845733207,81.0,NRJPV1728U
+KLU01729,Arjun Naidu,Female,ME,UG,3,arjun.naidu2349@klu.edu.in,9849785215,70.83,FANPN1729C
+KLU01730,Kavya Sharma,Male,ME,UG,3,kavya.sharma2350@klu.edu.in,9820814599,65.24,PUKPS1730Z
+KLU01731,Arjun Rao,Male,ME,UG,3,arjun.rao2351@klu.edu.in,9898037227,66.8,GKFPR1731N
+KLU01732,Neha Mishra,Male,ME,UG,3,neha.mishra2352@klu.edu.in,9832774023,86.89,QEIPM1732X
+KLU01733,Aman Gupta,Female,ME,UG,3,aman.gupta2353@klu.edu.in,9856130009,74.14,FIKPG1733Z
+KLU01734,Harika Kumar,Female,ME,UG,3,harika.kumar2354@klu.edu.in,9889379098,78.85,FZEPK1734Y
+KLU01735,Sneha Kumar,Male,ME,UG,3,sneha.kumar2355@klu.edu.in,9879349732,87.59,WNBPK1735S
+KLU01736,Meghana Mishra,Male,ME,UG,3,meghana.mishra2356@klu.edu.in,9853114638,86.24,MGOPM1736L
+KLU01737,Ravi Verma,Female,ME,UG,3,ravi.verma2357@klu.edu.in,9863525274,98.02,PSEPV1737E
+KLU01738,Divya Rao,Male,ME,UG,3,divya.rao2358@klu.edu.in,9882231524,89.57,KHAPR1738K
+KLU01739,Neha Rao,Male,ME,UG,3,neha.rao2359@klu.edu.in,9863681884,82.92,ZWDPR1739O
+KLU01740,Pooja Patel,Male,ME,UG,3,pooja.patel2360@klu.edu.in,9857664693,95.0,TECPP1740V
+KLU01741,Nikhil Malhotra,Female,ME,UG,4,nikhil.malhotra2401@klu.edu.in,9843259722,67.2,YZMPM1741M
+KLU01742,Ravi Rao,Female,ME,UG,4,ravi.rao2402@klu.edu.in,9885080257,65.12,TFVPR1742L
+KLU01743,Nikhil Malhotra,Male,ME,UG,4,nikhil.malhotra2403@klu.edu.in,9876822112,96.98,NLHPM1743S
+KLU01744,Sameer Patel,Female,ME,UG,4,sameer.patel2404@klu.edu.in,9854272993,86.32,CFKPP1744Z
+KLU01745,Harika Naidu,Male,ME,UG,4,harika.naidu2405@klu.edu.in,9834166176,61.93,FCNPN1745V
+KLU01746,Neha Yadav,Male,ME,UG,4,neha.yadav2406@klu.edu.in,9830288870,63.51,OCNPY1746M
+KLU01747,Nikhil Shetty,Female,ME,UG,4,nikhil.shetty2407@klu.edu.in,9847093566,92.77,SAEPS1747Z
+KLU01748,Ravi Jain,Female,ME,UG,4,ravi.jain2408@klu.edu.in,9896857302,81.91,QQVPJ1748J
+KLU01749,Sameer Verma,Female,ME,UG,4,sameer.verma2409@klu.edu.in,9830789785,64.81,LFUPV1749A
+KLU01750,Kavya Nair,Female,ME,UG,4,kavya.nair2410@klu.edu.in,9851508590,98.1,BNJPN1750E
+KLU01751,Ravi Iyer,Male,ME,UG,4,ravi.iyer2411@klu.edu.in,9833358106,83.73,NQCPI1751T
+KLU01752,Harika Das,Female,ME,UG,4,harika.das2412@klu.edu.in,9843505887,95.8,LSJPD1752R
+KLU01753,Ravi Bhat,Female,ME,UG,4,ravi.bhat2413@klu.edu.in,9810465954,97.47,UJCPB1753G
+KLU01754,Nikhil Bhat,Male,ME,UG,4,nikhil.bhat2414@klu.edu.in,9832777188,68.67,XDWPB1754E
+KLU01755,Harika Kumar,Male,ME,UG,4,harika.kumar2415@klu.edu.in,9844577766,60.98,PFPPK1755L
+KLU01756,Ananya Gupta,Female,ME,UG,4,ananya.gupta2416@klu.edu.in,9825652256,77.87,AAVPG1756Q
+KLU01757,Sneha Sharma,Male,ME,UG,4,sneha.sharma2417@klu.edu.in,9884663205,78.35,IHTPS1757Q
+KLU01758,Pooja Bhat,Male,ME,UG,4,pooja.bhat2418@klu.edu.in,9853725315,90.32,EVMPB1758A
+KLU01759,Vikram Bose,Female,ME,UG,4,vikram.bose2419@klu.edu.in,9821244537,62.04,ZNXPB1759D
+KLU01760,Kavya Naidu,Male,ME,UG,4,kavya.naidu2420@klu.edu.in,9873862234,98.68,UXZPN1760D
+KLU01761,Sameer Naidu,Female,ME,UG,4,sameer.naidu2421@klu.edu.in,9813224980,83.88,CUZPN1761Q
+KLU01762,Sameer Gupta,Male,ME,UG,4,sameer.gupta2422@klu.edu.in,9842494582,74.38,EBIPG1762I
+KLU01763,Vikram Sharma,Female,ME,UG,4,vikram.sharma2423@klu.edu.in,9825554640,77.71,YHNPS1763U
+KLU01764,Harika Rao,Female,ME,UG,4,harika.rao2424@klu.edu.in,9868261488,79.13,KAXPR1764Q
+KLU01765,Arjun Sharma,Female,ME,UG,4,arjun.sharma2425@klu.edu.in,9811131694,65.25,KHZPS1765J
+KLU01766,Meghana Mishra,Male,ME,UG,4,meghana.mishra2426@klu.edu.in,9852197629,91.5,WGDPM1766A
+KLU01767,Ravi Malhotra,Male,ME,UG,4,ravi.malhotra2427@klu.edu.in,9883244087,68.76,DKPPM1767T
+KLU01768,Divya Bose,Male,ME,UG,4,divya.bose2428@klu.edu.in,9895962290,70.19,XVRPB1768Z
+KLU01769,Ravi Naidu,Female,ME,UG,4,ravi.naidu2429@klu.edu.in,9854087460,74.81,MPBPN1769A
+KLU01770,Nikhil Das,Female,ME,UG,4,nikhil.das2430@klu.edu.in,9851655800,69.49,ULZPD1770Q
+KLU01771,Pooja Rao,Male,ME,UG,4,pooja.rao2431@klu.edu.in,9860336756,97.86,MMPPR1771T
+KLU01772,Kavya Rao,Male,ME,UG,4,kavya.rao2432@klu.edu.in,9840523193,72.88,WFOPR1772U
+KLU01773,Vikram Chopra,Female,ME,UG,4,vikram.chopra2433@klu.edu.in,9836865906,65.3,OBYPC1773P
+KLU01774,Vikram Yadav,Male,ME,UG,4,vikram.yadav2434@klu.edu.in,9884650773,76.99,GSGPY1774L
+KLU01775,Harika Nair,Male,ME,UG,4,harika.nair2435@klu.edu.in,9888219747,61.88,FVBPN1775J
+KLU01776,Rahul Sharma,Male,ME,UG,4,rahul.sharma2436@klu.edu.in,9885598308,86.65,VIUPS1776A
+KLU01777,Vinay Bhat,Female,ME,UG,4,vinay.bhat2437@klu.edu.in,9893225577,79.36,QCIPB1777Y
+KLU01778,Neha Das,Male,ME,UG,4,neha.das2438@klu.edu.in,9892431365,71.5,AREPD1778P
+KLU01779,Neha Yadav,Female,ME,UG,4,neha.yadav2439@klu.edu.in,9886390341,97.9,JJVPY1779N
+KLU01780,Arjun Mishra,Male,ME,UG,4,arjun.mishra2440@klu.edu.in,9869906283,70.92,QGVPM1780Y
+KLU01781,Ravi Chopra,Female,ME,UG,4,ravi.chopra2441@klu.edu.in,9879617159,88.07,DYEPC1781S
+KLU01782,Harika Naidu,Female,ME,UG,4,harika.naidu2442@klu.edu.in,9849374084,71.77,ZDEPN1782Z
+KLU01783,Aman Singh,Male,ME,UG,4,aman.singh2443@klu.edu.in,9821333590,92.03,MDUPS1783Z
+KLU01784,Vikram Chopra,Female,ME,UG,4,vikram.chopra2444@klu.edu.in,9868561485,98.97,IAEPC1784W
+KLU01785,Sanjay Rao,Female,ME,UG,4,sanjay.rao2445@klu.edu.in,9878476060,87.41,DQWPR1785B
+KLU01786,Pooja Verma,Female,ME,UG,4,pooja.verma2446@klu.edu.in,9894753545,83.27,NDDPV1786Y
+KLU01787,Ananya Gupta,Female,ME,UG,4,ananya.gupta2447@klu.edu.in,9847008520,77.67,WKAPG1787X
+KLU01788,Vinay Sharma,Female,ME,UG,4,vinay.sharma2448@klu.edu.in,9835674342,74.35,UASPS1788Z
+KLU01789,Rahul Mishra,Male,ME,UG,4,rahul.mishra2449@klu.edu.in,9862777560,78.27,AQUPM1789H
+KLU01790,Kiran Bose,Female,ME,UG,4,kiran.bose2450@klu.edu.in,9860986894,89.2,RIYPB1790Y
+KLU01791,Neha Das,Female,ME,UG,4,neha.das2451@klu.edu.in,9823339723,62.84,ZHHPD1791Y
+KLU01792,Yash Yadav,Male,ME,UG,4,yash.yadav2452@klu.edu.in,9827091434,97.26,QBJPY1792J
+KLU01793,Meghana Gupta,Female,ME,UG,4,meghana.gupta2453@klu.edu.in,9855159367,98.51,PPUPG1793L
+KLU01794,Ravi Kumar,Male,ME,UG,4,ravi.kumar2454@klu.edu.in,9852335937,64.95,KJMPK1794A
+KLU01795,Rahul Nair,Female,ME,UG,4,rahul.nair2455@klu.edu.in,9899617814,84.34,RCIPN1795Y
+KLU01796,Meghana Reddy,Male,ME,UG,4,meghana.reddy2456@klu.edu.in,9893107866,84.3,UOBPR1796O
+KLU01797,Meghana Kumar,Female,ME,UG,4,meghana.kumar2457@klu.edu.in,9885875413,60.51,JDPPK1797Z
+KLU01798,Sneha Bose,Female,ME,UG,4,sneha.bose2458@klu.edu.in,9861391978,73.35,KWHPB1798G
+KLU01799,Ritika Naidu,Female,ME,UG,4,ritika.naidu2459@klu.edu.in,9850571251,71.25,KFMPN1799E
+KLU01800,Meghana Bose,Female,ME,UG,4,meghana.bose2460@klu.edu.in,9830424720,83.18,INDPB1800I

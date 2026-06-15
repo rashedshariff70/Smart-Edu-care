@@ -1,0 +1,55 @@
+Relation: Parent
+
+StudentID: IITCH3YR20240001
+Name: Deepika Iyer
+Gender: Female
+Department: Chemical
+Program: B.Tech
+Year: 3rd Year
+Semester: 5th Semester
+Email: deepika.iyer@iitbombay.ac.in
+Phone: 9825859894
+DOB: 15/7/2002
+Address: City-Hyderabad, PIN-421811
+Guardian_Name: Guardian_1
+Guardian_Phone: 9817772934
+Attendance: 88
+PAN_CARD: DKRYR67767234
+AISHE_Code: AISHE331322
+mid1_biochemical_engineer: 45
+mid1_chemical_reaction_en: 42
+mid1_heat_transfer_operat: 49
+mid1_mass_transfer_operat: 46
+mid1_plant_design__econom: 44
+mid1_process_control__dyn: 50
+mid1_thermodynamics: 37
+Mid1_Total: 313
+Mid1_Average: 44.71
+mid2_biochemical_engineer: 37
+mid2_chemical_reaction_en: 41
+mid2_heat_transfer_operat: 41
+mid2_mass_transfer_operat: 42
+mid2_plant_design__econom: 44
+mid2_process_control__dyn: 47
+mid2_thermodynamics: 48
+Mid2_Total: 300
+Mid2_Average: 42.86
+final_biochemical_engineer: 48
+final_chemical_reaction_en: 97
+final_heat_transfer_operat: 81
+final_mass_transfer_operat: 98
+final_plant_design__econom: 41
+final_process_control__dyn: 69
+final_thermodynamics: 74
+Final_Total: 508
+Final_Average: 72.57
+Overall_Average: 53.38
+Internship_Score: 90
+Project_Score: 79
+Attendance_Score: 88
+Practical_Lab_Score: 87
+Academic_Status: Pass
+Grade: C
+Feedback: Good
+Remarks: Needs Improvement
+student_password: IITCH3YR202400017234

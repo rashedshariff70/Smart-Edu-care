@@ -1,0 +1,57 @@
+=== STUDENT INFORMATION ===
+StudentID: IITME3YR20240008
+Name: Amit Chopra
+Gender: Male
+Department: Mechanical
+Program: B.Tech
+Year: 3rd Year
+Semester: 5th Semester
+Email: amit.chopra@iitbombay.ac.in
+Phone: 9889409648
+PAN_CARD: ZHLIO67913836
+AISHE_Code: AISHE559499
+Guardian_Name: Guardian_8
+Guardian_Phone: 9833975971
+Attendance: 79
+DOB: 22/11/2002
+Address: City-Delhi, PIN-141852
+mid1_design_of_machine_el: 39
+mid1_fluid_mechanics: 38
+mid1_heat__mass_transfer: 47
+mid1_manufacturing_techno: 49
+mid1_mechanical_vibration: 35
+mid1_power_plant_engineer: 32
+mid1_thermodynamics: 47
+Mid1_Total: 287
+Mid1_Average: 41
+mid2_design_of_machine_el: 43
+mid2_fluid_mechanics: 34
+mid2_heat__mass_transfer: 41
+mid2_manufacturing_techno: 46
+mid2_mechanical_vibration: 32
+mid2_power_plant_engineer: 33
+mid2_thermodynamics: 38
+Mid2_Total: 267
+Mid2_Average: 38.14
+final_design_of_machine_el: 78
+final_fluid_mechanics: 85
+final_heat__mass_transfer: 56
+final_manufacturing_techno: 93
+final_mechanical_vibration: 51
+final_power_plant_engineer: 98
+final_thermodynamics: 89
+Final_Total: 550
+Final_Average: 78.57
+Overall_Average: 52.57
+Internship_Score: 82
+Project_Score: 76
+Attendance_Score: 79
+Practical_Lab_Score: 89
+Academic_Status: Pass
+Grade: C
+Feedback: Excellent
+Remarks: Good Progress
+student_password: IITME3YR202400083836
+
+=== COLLEGE RULES ===
+(No rules file uploaded yet)

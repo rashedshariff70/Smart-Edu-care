@@ -1,0 +1,57 @@
+=== STUDENT INFORMATION ===
+StudentID: bitscivil3yr20240001
+Name: Arjun Reddy
+Gender: M
+Department: Civil Engineering
+Program: B.Tech
+Year: 3
+Semester: 6
+Email: arjun.reddy1@college.ac.in
+Phone: 956874475
+DOB: 11-04-2002
+Address: 695 GTN Street, City
+Guardian_Name: Rohan Joshi
+Guardian_Phone: 914265933
+Attendance: 97%
+PAN_CARD: DH3JOLET56
+AISHE_Code: aishe73256
+mid1_Structures: 36
+mid1_Geotechnics: 39
+mid1_Hydraulics: 37
+mid1_Transportation: 39
+mid1_Environmental: 50
+mid1_Surveying: 36
+mid1_Construction: 35
+Mid1_Total: 272
+Mid1_Average: 38.86
+mid2_Structures: 39
+mid2_Geotechnics: 50
+mid2_Hydraulics: 46
+mid2_Transportation: 48
+mid2_Environmental: 36
+mid2_Surveying: 39
+mid2_Construction: 45
+Mid2_Total: 303
+Mid2_Average: 43.29
+final_Structures: 44
+final_Geotechnics: 59
+final_Hydraulics: 50
+final_Transportation: 42
+final_Environmental: 59
+final_Surveying: 59
+final_Construction: 53
+Final_Total: 366
+Final_Average: 52.29
+Overall_Average: 44.81
+Internship_Score: 92
+Project_Score: 71
+Attendance_Score: 81
+Practical_Lab_Score: 95
+Academic_Status: Pass
+Grade: A+
+Feedback: Excellent
+Remarks: Consistent
+student_password: BITSCIVIL3YR20240001ET56
+
+=== COLLEGE RULES ===
+(No rules file uploaded yet)

@@ -1,0 +1,55 @@
+Relation: Parent
+
+StudentID: IITCH3YR20240002
+Name: Pooja Patel
+Gender: Male
+Department: Chemical
+Program: B.Tech
+Year: 3rd Year
+Semester: 5th Semester
+Email: pooja.patel@iitbombay.ac.in
+Phone: 9825073409
+DOB: 24/10/2002
+Address: City-Delhi, PIN-182383
+Guardian_Name: Guardian_2
+Guardian_Phone: 9854810637
+Attendance: 80
+PAN_CARD: PYOPT30217399
+AISHE_Code: AISHE393855
+mid1_biochemical_engineer: 32
+mid1_chemical_reaction_en: 40
+mid1_heat_transfer_operat: 48
+mid1_mass_transfer_operat: 44
+mid1_plant_design__econom: 35
+mid1_process_control__dyn: 47
+mid1_thermodynamics: 40
+Mid1_Total: 286
+Mid1_Average: 40.86
+mid2_biochemical_engineer: 32
+mid2_chemical_reaction_en: 37
+mid2_heat_transfer_operat: 45
+mid2_mass_transfer_operat: 43
+mid2_plant_design__econom: 34
+mid2_process_control__dyn: 50
+mid2_thermodynamics: 49
+Mid2_Total: 290
+Mid2_Average: 41.43
+final_biochemical_engineer: 44
+final_chemical_reaction_en: 93
+final_heat_transfer_operat: 62
+final_mass_transfer_operat: 99
+final_plant_design__econom: 73
+final_process_control__dyn: 84
+final_thermodynamics: 46
+Final_Total: 501
+Final_Average: 71.57
+Overall_Average: 51.29
+Internship_Score: 66
+Project_Score: 68
+Attendance_Score: 80
+Practical_Lab_Score: 73
+Academic_Status: Pass
+Grade: C
+Feedback: Average
+Remarks: Consistent
+student_password: IITCH3YR202400027399
