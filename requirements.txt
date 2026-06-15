@@ -1,4 +1,7 @@
-flask==3.0.3
+
+Django==5.0.6
+gunicorn
+whitenoise
 gunicorn
 python-dotenv==1.0.1
 
